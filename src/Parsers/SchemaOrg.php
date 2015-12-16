@@ -22,7 +22,7 @@ class SchemaOrg implements ParserInterface {
 		'publisher'          => './/*[@itemprop="publisher"]',
 		'recipeCategory'     => './/*[@itemprop="recipeCategory"]',
 		'recipeIngredient'   => './/*[@itemprop="ingredients"]', // or recipeIngredient
-		'recipeInstructions' => './/*[@itemprop="recipeInstructions"]',
+		'recipeInstructions' => './/*[@itemprop="recipeInstructions"]//li',
 		'recipeYield'        => './/*[@itemprop="recipeYield"]',
 		'totalTime'          => './/*[@itemprop="totalTime"]',
 		'url'                => [ './/*[@itemprop="url"]', './/*[@rel="canonical"]' ],
