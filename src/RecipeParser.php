@@ -13,9 +13,12 @@ class RecipeParser {
 	protected $parser;
 
 	protected $site_parsers = [
-		'allrecipes.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\AllRecipesCom',
 		'bhg.com'             => 'SSNepenthe\\RecipeParser\\Parsers\\BHGCom',
+		'delish.com'          => 'SSNepenthe\\RecipeParser\\Parsers\\DelishCom',
 		'farmflavor.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\FarmFlavorCom',
+		'foodandwine.com'     => 'SSNepenthe\\RecipeParser\\Parsers\\FoodAndWineCom',
+		'foodnetwork.com'     => 'SSNepenthe\\RecipeParser\\Parsers\\FoodNetworkCom',
+		'marthastewart.com'   => 'SSNepenthe\\RecipeParser\\Parsers\\MarthaStewartCom',
 		'thepioneerwoman.com' => 'SSNepenthe\\RecipeParser\\Parsers\\ThePioneerWomanCom',
 	];
 
@@ -25,7 +28,6 @@ class RecipeParser {
 
 	protected $url;
 
-	// Interface it out...
 	public function __construct( $url, Http $client, Cache $cache ) {
 		$this->cache  = $cache;
 		$this->client = $client;
