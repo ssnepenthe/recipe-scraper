@@ -25,6 +25,8 @@ class ThePioneerWomanCom extends SchemaOrg {
 			foreach( $nodes as $node ) {
 				if ( $node->nodeValue ) {
 					$this->recipe->set_cook_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
+
+					unset( $nodes, $node );
 					break;
 				}
 			}
@@ -46,6 +48,8 @@ class ThePioneerWomanCom extends SchemaOrg {
 			foreach( $nodes as $node ) {
 				if ( $node->nodeValue ) {
 					$this->recipe->set_prep_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
+
+					unset( $nodes, $node );
 					break;
 				}
 			}
@@ -57,11 +61,7 @@ class ThePioneerWomanCom extends SchemaOrg {
 	}
 
 	protected function parse_recipe_instructions() {
-		$nodes = $this->xpath->query( $this->paths['recipeInstructions'], $this->schema_root->item( 0 ) );
-
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $this->paths['recipeInstructions'] );
-		}
+		$nodes = $this->xpath->query( $this->paths['recipeInstructions'][0], $this->schema_root->item( 0 ) );
 
 		if ( $nodes->length ) {
 			foreach ( $nodes as $node ) {
@@ -96,6 +96,8 @@ class ThePioneerWomanCom extends SchemaOrg {
 			foreach( $nodes as $node ) {
 				if ( $node->nodeValue ) {
 					$this->recipe->set_total_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
+
+					unset( $nodes, $node );
 					break;
 				}
 			}
