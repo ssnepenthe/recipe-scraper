@@ -81,12 +81,26 @@ class SchemaOrg implements ParserInterface {
 		if ( $nodes->length ) {
 			foreach( $nodes as $node ) {
 				if ( $node->hasAttribute( 'content' ) ) {
-					$this->recipe->set_author( trim( $node->getAttribute( 'content' ) ) );
+					$value = trim( $node->getAttribute( 'content' ) );
+					$value = $this->normalize_newlines( $value );
+					$value = str_replace( PHP_EOL, ' ', $value );
+					$value = $this->normalize_author( $value );
+
+					$this->recipe->set_author( $value );
+
+					unset( $nodes, $node, $value );
 					break;
 				}
 
 				if ( $node->nodeValue ) {
-					$this->recipe->set_author( trim( $node->nodeValue ) );
+					$value = trim( $node->nodeValue );
+					$value = $this->normalize_newlines( $value );
+					$value = str_replace( PHP_EOL, ' ', $value );
+					$value = $this->normalize_author( $value );
+
+					$this->recipe->set_author( $value );
+
+					unset( $nodes, $node, $value );
 					break;
 				}
 			}
@@ -353,7 +367,7 @@ class SchemaOrg implements ParserInterface {
 				if ( $node->hasAttribute( 'content' ) ) {
 					$this->recipe->set_recipe_yield(
 						$this->normalize_yield(
-							trim( $node->getAttribute( 'content' ) )
+							$this->normalize_whitespace( trim( $node->getAttribute( 'content' ) ) )
 						)
 					);
 					break;
@@ -361,7 +375,7 @@ class SchemaOrg implements ParserInterface {
 
 				if ( $node->nodeValue ) {
 					$this->recipe->set_recipe_yield( $this->normalize_yield(
-						trim( $node->nodeValue )
+						$this->normalize_whitespace( trim( $node->nodeValue ) )
 					) );
 					break;
 				}
@@ -446,6 +460,12 @@ class SchemaOrg implements ParserInterface {
 		}
 	}
 
+	protected function normalize_author( $value ) {
+		$value = str_replace( 'By ', '', $value );
+
+		return $value;
+	}
+
 	protected function normalize_fractions( $value ) {
 		$value = str_replace(
 			[ '⅛', '¼', '⅓', '⅜', '½', '⅝', '⅔', '¾', '⅞' ],
@@ -470,10 +490,9 @@ class SchemaOrg implements ParserInterface {
 
 	protected function normalize_yield( $value ) {
 		$value = strtolower( $value );
+		$value = str_replace( [ 'yield: ', 'serves ', 'serves: ', 'makes ' ], '', $value );
 
-		$value = str_replace( [ 'yield: ', 'serves ' ], '', $value );
-
-		if ( false === strpos( $value, 'servings' ) ) {
+		if ( preg_match( '/\d$/', $value ) && false === strpos( $value, 'servings' ) ) {
 			$value .= ' servings';
 		}
 
