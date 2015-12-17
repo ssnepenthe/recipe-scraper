@@ -12,6 +12,6 @@ class FarmFlavorCom extends SchemaOrg {
 	public function __construct( $html ) {
 		parent::__construct( $html );
 
-		$this->paths['recipeCategory'] = './/p[@class="postmetadata"]/a';
+		$this->paths['recipe_category'] = [ './/p[@class="postmetadata"]/a', [ 'nodeValue' ] ];
 	}
 }

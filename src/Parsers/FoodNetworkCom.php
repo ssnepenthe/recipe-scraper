@@ -2,11 +2,13 @@
 
 namespace SSNepenthe\RecipeParser\Parsers;
 
+/**
+ * Ideally we should leave off the last element in instructions.
+ */
 class FoodNetworkCom extends SchemaOrg {
 	public function __construct( $html ) {
 		parent::__construct( $html );
 
-		$this->paths['image'] = './/div[@class="recipe"]//img[@itemprop="image"]';
-		$this->paths['recipeInstructions'] = './/*[@itemprop="recipeInstructions"]/p';
+		$this->paths['recipe_instructions'] = [ './/*[@itemprop="recipeInstructions"]/p', [ 'nodeValue' ] ];
 	}
 }

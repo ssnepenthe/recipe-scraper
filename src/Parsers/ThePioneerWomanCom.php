@@ -12,99 +12,27 @@ class ThePioneerWomanCom extends SchemaOrg {
 	public function __construct( $html ) {
 		parent::__construct( $html );
 
-		$this->paths['image'] = './/div[@class="recipe-summary-thumbnail"]/img';
-	}
-	protected function parse_cook_time() {
-		$nodes = $this->xpath->query( $this->paths['cookTime'], $this->schema_root->item( 0 ) );
-
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $this->paths['cookTime'] );
-		}
-
-		if ( $nodes->length ) {
-			foreach( $nodes as $node ) {
-				if ( $node->nodeValue ) {
-					$this->recipe->set_cook_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
-
-					unset( $nodes, $node );
-					break;
-				}
-			}
-
-			unset( $node );
-		}
-
-		unset( $nodes );
+		$this->paths['image'] = [ './/div[@class="recipe-summary-thumbnail"]/img', [ '@src' ] ];
+		$this->paths['recipe_instructions'] = [ './/*[@itemprop="recipeInstructions"]', [ 'nodeValue' ] ];
+		$this->paths['url'] = [ './/link[@rel="canonical"]', [ '@href' ] ];
 	}
 
-	protected function parse_prep_time() {
-		$nodes = $this->xpath->query( $this->paths['prepTime'], $this->schema_root->item( 0 ) );
-
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $this->paths['prepTime'] );
-		}
-
-		if ( $nodes->length ) {
-			foreach( $nodes as $node ) {
-				if ( $node->nodeValue ) {
-					$this->recipe->set_prep_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
-
-					unset( $nodes, $node );
-					break;
-				}
-			}
-
-			unset( $node );
-		}
-
-		unset( $nodes );
+	protected function cook_time() {
+		$time = $this->get_single_item( $this->paths['cook_time'] );
+		$this->recipe->cook_time = $time ? DateInterval::createFromDateString( $time ) : null;
 	}
 
-	protected function parse_recipe_instructions() {
-		$nodes = $this->xpath->query( $this->paths['recipeInstructions'][0], $this->schema_root->item( 0 ) );
-
-		if ( $nodes->length ) {
-			foreach ( $nodes as $node ) {
-				if ( ! $node->nodeValue ) {
-					continue;
-				}
-
-				$value = trim( $node->nodeValue );
-				$value = $this->normalize_newlines( $value );
-				$value = $this->normalize_whitespace( $value );
-				$value = array_filter( explode( PHP_EOL, $value ) );
-
-				foreach ( $value as $instruction ) {
-					$this->recipe->add_recipe_instruction( $instruction );
-				}
-			}
-
-			unset( $node, $value );
-		}
-
-		unset( $nodes );
+	protected function prep_time() {
+		$time = $this->get_single_item( $this->paths['prep_time'] );
+		$this->recipe->prep_time = $time ? DateInterval::createFromDateString( $time ) : null;
 	}
 
-	protected function parse_total_time() {
-		$nodes = $this->xpath->query( $this->paths['totalTime'], $this->schema_root->item( 0 ) );
+	protected function recipe_instructions() {
+		$this->recipe->recipe_instructions = $this->get_list_from_single_item( $this->paths['recipe_instructions'] );
+	}
 
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $this->paths['totalTime'] );
-		}
-
-		if ( $nodes->length ) {
-			foreach( $nodes as $node ) {
-				if ( $node->nodeValue ) {
-					$this->recipe->set_total_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
-
-					unset( $nodes, $node );
-					break;
-				}
-			}
-
-			unset( $node );
-		}
-
-		unset( $nodes );
+	protected function total_time() {
+		$time = $this->get_single_item( $this->paths['total_time'] );
+		$this->recipe->total_time = $time ? DateInterval::createFromDateString( $time ) : null;
 	}
 }

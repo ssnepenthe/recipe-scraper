@@ -5,86 +5,42 @@ namespace SSNepenthe\RecipeParser\Parsers;
 use DateInterval;
 
 /**
+ * Getting some wacky stuff from itemprop="url" so use rel="canonical".
+ *
  * As of 2015/12/16 this site uses improperly formatted interval strings.
  * Rather than trying to detect and fix on the fly we are using the date string.
+ *
+ * Notes? see http://www.marthastewart.com/313086/buttermilk-chicken-caesar-salad
+ *
+ * Gaaaaaaaaahhhhhh! can't get yield to work on http://www.marthastewart.com/330196/lil-smoky-cheese-ball
+ *
+ * Seriously... what the hell, Martha?!?!
  */
 class MarthaStewartCom extends SchemaOrg {
 	public function __construct( $html ) {
 		parent::__construct( $html );
 
-		$this->paths['image'] = './/*[@itemprop="image"]/following-sibling::noscript/img';
-		$this->paths['cookTime'] = './/*[@itemprop="cookTime"]/following-sibling::time';
-		$this->paths['prepTime'] = './/*[@itemprop="prepTime"]/following-sibling::time';
-		$this->paths['recipeInstructions'] = './/p[@class="directions-item-text"]';
-		$this->paths['totalTime'] = './/*[@itemprop="totalTime"]/following-sibling::time';
+		$this->paths['image'] = [ './/*[@itemprop="image"]/following-sibling::noscript/img', [ '@src' ] ];
+		$this->paths['cook_time'] = [ './/*[@itemprop="cookTime"]/following-sibling::time', [ 'nodeValue' ] ];
+		$this->paths['prep_time'] = [ './/*[@itemprop="prepTime"]/following-sibling::time', [ 'nodeValue' ] ];
+		$this->paths['recipe_instructions'] = [ './/p[@class="directions-item-text"]', [ 'nodeValue' ] ];
+		$this->paths['recipe_yield'] = [ './/*[contains(@class, "top-intro-times")]/li[last()]', [ 'nodeValue' ] ];
+		$this->paths['total_time'] = [ './/*[@itemprop="totalTime"]/following-sibling::time', [ 'nodeValue' ] ];
+		$this->paths['url'] = [ './/*[@rel="canonical"]', [ '@href' ] ];
 	}
 
-	protected function parse_cook_time() {
-		$nodes = $this->xpath->query( $this->paths['cookTime'], $this->schema_root->item( 0 ) );
-
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $this->paths['cookTime'] );
-		}
-
-		if ( $nodes->length ) {
-			foreach( $nodes as $node ) {
-				if ( $node->nodeValue ) {
-					$this->recipe->set_cook_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
-
-					unset( $nodes, $node );
-					break;
-				}
-			}
-
-			unset( $node );
-		}
-
-		unset( $nodes );
+	protected function cook_time() {
+		$time = $this->get_single_item( $this->paths['cook_time'] );
+		$this->recipe->cook_time = $time ? DateInterval::createFromDateString( $time ) : null;
 	}
 
-	protected function parse_prep_time() {
-		$nodes = $this->xpath->query( $this->paths['prepTime'], $this->schema_root->item( 0 ) );
-
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $this->paths['prepTime'] );
-		}
-
-		if ( $nodes->length ) {
-			foreach( $nodes as $node ) {
-				if ( $node->nodeValue ) {
-					$this->recipe->set_prep_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
-
-					unset( $nodes, $node );
-					break;
-				}
-			}
-
-			unset( $node );
-		}
-
-		unset( $nodes );
+	protected function prep_time() {
+		$time = $this->get_single_item( $this->paths['prep_time'] );
+		$this->recipe->prep_time = $time ? DateInterval::createFromDateString( $time ) : null;
 	}
 
-	protected function parse_total_time() {
-		$nodes = $this->xpath->query( $this->paths['totalTime'], $this->schema_root->item( 0 ) );
-
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $this->paths['totalTime'] );
-		}
-
-		if ( $nodes->length ) {
-			foreach( $nodes as $node ) {
-				if ( $node->nodeValue ) {
-					$this->recipe->set_total_time( DateInterval::createFromDateString( trim( $node->nodeValue ) ) );
-
-					unset( $nodes, $node );
-					break;
-				}
-			}
-
-			unset( $node );
-		}
-
-		unset( $nodes );
+	protected function total_time() {
+		$time = $this->get_single_item( $this->paths['total_time'] );
+		$this->recipe->total_time = $time ? DateInterval::createFromDateString( $time ) : null;
 	}
 }
