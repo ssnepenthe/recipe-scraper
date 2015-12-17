@@ -17,16 +17,17 @@ use DateInterval;
  * Seriously... what the hell, Martha?!?!
  */
 class MarthaStewartCom extends SchemaOrg {
-	public function __construct( $html ) {
-		parent::__construct( $html );
+	protected function set_paths() {
+		parent::set_paths();
 
-		$this->paths['image'] = [ './/*[@itemprop="image"]/following-sibling::noscript/img', [ '@src' ] ];
-		$this->paths['cook_time'] = [ './/*[@itemprop="cookTime"]/following-sibling::time', [ 'nodeValue' ] ];
-		$this->paths['prep_time'] = [ './/*[@itemprop="prepTime"]/following-sibling::time', [ 'nodeValue' ] ];
-		$this->paths['recipe_instructions'] = [ './/p[@class="directions-item-text"]', [ 'nodeValue' ] ];
-		$this->paths['recipe_yield'] = [ './/*[contains(@class, "top-intro-times")]/li[last()]', [ 'nodeValue' ] ];
-		$this->paths['total_time'] = [ './/*[@itemprop="totalTime"]/following-sibling::time', [ 'nodeValue' ] ];
-		$this->paths['url'] = [ './/*[@rel="canonical"]', [ '@href' ] ];
+		$this->paths['image'][0] = './/*[@itemprop="image"]/following-sibling::noscript/img';
+		$this->paths['cook_time'][0] = './/*[@itemprop="cookTime"]/following-sibling::time';
+		$this->paths['prep_time'][0] = './/*[@itemprop="prepTime"]/following-sibling::time';
+		$this->paths['recipe_category'][0] = './/*[@class="related-topic-item-title"]';
+		$this->paths['recipe_instructions'][0] = './/p[@class="directions-item-text"]';
+		$this->paths['recipe_yield'][0] = './/*[contains(@class, "top-intro-times")]/li[last()]';
+		$this->paths['total_time'][0] = './/*[@itemprop="totalTime"]/following-sibling::time';
+		$this->paths['url'][0] = './/*[@rel="canonical"]';
 	}
 
 	protected function cook_time() {

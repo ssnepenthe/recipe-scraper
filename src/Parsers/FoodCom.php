@@ -7,9 +7,9 @@ namespace SSNepenthe\RecipeParser\Parsers;
  * Screwed up fractions: http://www.food.com/recipe/baked-cinnamon-apples-crock-pot-253442
  */
 class FoodCom extends SchemaOrg {
-	public function __construct( $html ) {
-		parent::__construct( $html );
+	protected function set_paths() {
+		parent::set_paths();
 
-		$this->paths['recipe_yield'] = [ './/a[@class="servings"]/span[@class="value"]', [ 'nodeValue' ] ];
+		$this->paths['recipe_yield'][0] = './/a[@class="servings"]/span[@class="value"]';
 	}
 }

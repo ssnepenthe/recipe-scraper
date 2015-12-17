@@ -3,12 +3,12 @@
 namespace SSNepenthe\RecipeParser\Parsers;
 
 class FoodAndWineCom extends SchemaOrg {
-	public function __construct( $html ) {
-		parent::__construct( $html );
+	protected function set_paths() {
+		parent::set_paths();
 
-		$this->paths['description'] = [ './/header[contains(@class, "recipe__header")]/p[2]', [ 'nodeValue' ] ];
-		$this->paths['name'] = [ './/h1[@itemprop="name"]', [ 'nodeValue' ] ];
-		$this->paths['recipe_category'] = [ './/span[@class="tag-set__tag__text"]', [ 'nodeValue' ] ];
-		$this->paths['url'] = [ './/*[@rel="canonical"]', [ '@href' ] ];
+		$this->paths['description'][0] = './/header[contains(@class, "recipe__header")]/p[2]';
+		$this->paths['name'][0] = './/h1[@itemprop="name"]';
+		$this->paths['recipe_category'][0] = './/span[@class="tag-set__tag__text"]';
+		$this->paths['url'][0] = './/*[@rel="canonical"]';
 	}
 }

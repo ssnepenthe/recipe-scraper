@@ -10,11 +10,11 @@ namespace SSNepenthe\RecipeParser\Parsers;
  * Author may be coming from reviews as well...
  */
 class TasteOfHomeCom extends SchemaOrg {
-	public function __construct( $html ) {
-		parent::__construct( $html );
+	protected function set_paths() {
+		parent::set_paths();
 
-		$this->paths['image'] = [ './/meta[@itemprop="image"]', [ '@content' ] ];
-		$this->paths['recipe_yield'] = [ './/*[@itemprop="recipeyield"]', [ '@content', 'nodeValue' ] ];
-		$this->paths['url'] = [ './/*[@rel="canonical"]', [ '@href' ] ];
+		$this->paths['image'][0] = './/meta[@itemprop="image"]';
+		$this->paths['recipe_yield'][0] = './/*[@itemprop="recipeyield"]';
+		$this->paths['url'][0] = './/*[@rel="canonical"]';
 	}
 }

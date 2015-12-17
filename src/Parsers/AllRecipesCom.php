@@ -3,9 +3,9 @@
 namespace SSNepenthe\RecipeParser\Parsers;
 
 class AllRecipesCom extends SchemaOrg {
-	public function __construct( $html ) {
-		parent::__construct( $html );
+	protected function set_paths() {
+		parent::set_paths();
 
-		$this->paths['description'] = [ './/div[@itemprop="description"]', [ 'nodeValue' ] ];
+		$this->paths['description'][0] = './/div[@itemprop="description"]';
 	}
 }

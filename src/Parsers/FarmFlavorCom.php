@@ -5,13 +5,14 @@ namespace SSNepenthe\RecipeParser\Parsers;
 use DOMText;
 
 /**
- * @todo times between 1 and 2 hours are incorrect
- *       think about notes
+ * times between 1 and 2 hours are incorrect
+ *
+ * what about notes?
  */
 class FarmFlavorCom extends SchemaOrg {
-	public function __construct( $html ) {
-		parent::__construct( $html );
+	protected function set_paths() {
+		parent::set_paths();
 
-		$this->paths['recipe_category'] = [ './/p[@class="postmetadata"]/a', [ 'nodeValue' ] ];
+		$this->paths['recipe_category'][0] = './/p[@class="postmetadata"]/a';
 	}
 }

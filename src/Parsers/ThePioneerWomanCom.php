@@ -5,16 +5,17 @@ namespace SSNepenthe\RecipeParser\Parsers;
 use DateInterval;
 
 /**
- * @todo think about handling ingredient and instruction groups
- *       think about adding notes
+ * think about handling ingredient and instruction groups
+ *
+ * think about adding notes
  */
 class ThePioneerWomanCom extends SchemaOrg {
-	public function __construct( $html ) {
-		parent::__construct( $html );
+	protected function set_paths() {
+		parent::set_paths();
 
-		$this->paths['image'] = [ './/div[@class="recipe-summary-thumbnail"]/img', [ '@src' ] ];
-		$this->paths['recipe_instructions'] = [ './/*[@itemprop="recipeInstructions"]', [ 'nodeValue' ] ];
-		$this->paths['url'] = [ './/link[@rel="canonical"]', [ '@href' ] ];
+		$this->paths['image'][0] = './/div[@class="recipe-summary-thumbnail"]/img';
+		$this->paths['recipe_instructions'][0] = './/*[@itemprop="recipeInstructions"]';
+		$this->paths['url'][0] = './/link[@rel="canonical"]';
 	}
 
 	protected function cook_time() {
