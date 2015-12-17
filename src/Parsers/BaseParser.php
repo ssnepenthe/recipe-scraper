@@ -146,7 +146,10 @@ abstract class BaseParser implements ParserInterface {
 
 	protected function recipe_categories() {
 		$categories = $this->get_item_list( $this->paths['recipe_category'] );
-		$categories = array_map( 'strtolower', $categories );
+
+		if ( is_array( $categories ) ) {
+			$categories = array_map( 'strtolower', $categories );
+		}
 
 		$this->recipe->recipe_categories = $categories;
 	}
