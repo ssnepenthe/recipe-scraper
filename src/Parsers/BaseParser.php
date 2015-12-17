@@ -138,7 +138,10 @@ abstract class BaseParser implements ParserInterface {
 	}
 
 	protected function publisher() {
-		$this->recipe->publisher = $this->get_formatted_single_item( $this->paths['publisher'] );
+		$publisher = $this->get_formatted_single_item( $this->paths['publisher'] );
+		$publisher = $this->normalize_author( $publisher );
+
+		$this->recipe->publisher = $publisher;
 	}
 
 	protected function recipe_categories() {
