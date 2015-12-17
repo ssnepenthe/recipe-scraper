@@ -402,7 +402,7 @@ abstract class BaseParser implements ParserInterface {
 	}
 
 	protected function strip_leading_numbers( $value ) {
-		return preg_replace( '/^\d+\s+/', '', $value );
+		return preg_replace( '/^\d+\.?\s+/', '', $value );
 	}
 
 	// protected function calculate_total_time_if_not_set() {
