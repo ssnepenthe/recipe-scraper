@@ -295,6 +295,7 @@ abstract class BaseParser implements ParserInterface {
 
 	protected function normalize_author( $value ) {
 		$value = str_replace( [ 'By ', 'by ' ], '', $value );
+		$value = trim( $value, ",. \t\n\r\0\x0B" );
 
 		return $value;
 	}
