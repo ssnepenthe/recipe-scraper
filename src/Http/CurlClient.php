@@ -31,7 +31,6 @@ class CurlClient implements HttpClientInterface {
 		curl_setopt( $curl, CURLOPT_TIMEOUT, 10 );
 		curl_setopt( $curl, CURLOPT_URL, $url );
 		curl_setopt( $curl, CURLOPT_USERAGENT, $this->user_agent );
-		curl_setopt( $curl, CURLOPT_HTTPHEADER, [ 'Accept: application/json' ] );
 
 		$response = curl_exec( $curl );
 
