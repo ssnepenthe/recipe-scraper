@@ -68,7 +68,9 @@ class SchemaOrg extends BaseParser {
 		);
 
 		if ( 0 === $schema_nodes->length ) {
-			throw new RuntimeException( 'This page does not appear to implement the schema.org recipe schema.' );
+			throw new RuntimeException(
+				'This page does not appear to implement the schema.org recipe schema.'
+			);
 		}
 
 		$this->root_node = $schema_nodes->item( 0 );

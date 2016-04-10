@@ -83,7 +83,9 @@ class RecipeParser {
 			return $this->parser->parse();
 		}
 
-		throw new NoMatchingParserException( 'No parser found for this recipe' );
+		throw new NoMatchingParserException(
+			'No parser found for this recipe'
+		);
 	}
 
 	protected function http_get() {
