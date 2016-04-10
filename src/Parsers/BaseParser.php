@@ -3,9 +3,9 @@
 namespace SSNepenthe\RecipeParser\Parsers;
 
 use DateInterval;
+use DOMDocument;
+use DOMXPath;
 use RuntimeException;
-use SSNepenthe\Convenience\DOMDocument;
-use SSNepenthe\Convenience\DOMXPath;
 use SSNepenthe\RecipeParser\Interfaces\ParserInterface;
 use SSNepenthe\RecipeParser\Schema\Recipe;
 
