@@ -10,15 +10,27 @@ use SSNepenthe\RecipeParser\Interfaces\ParserInterface;
 use SSNepenthe\RecipeParser\Schema\Recipe;
 
 abstract class BaseParser implements ParserInterface {
-	protected $paths = [];
 	protected $dom;
+	protected $errors = null;
+	protected $paths = [];
 	protected $recipe;
 	protected $root_node;
 	protected $xpath;
 
 	public function __construct( $html ) {
+		$original_error_state = libxml_use_internal_errors( true );
+
 		$this->dom = new DOMDocument;
 		$this->dom->loadHTML( $html );
+
+		if ( ! empty( $errors = libxml_get_errors() ) ) {
+			$this->errors = array_filter( $errors, [ $this, 'xml_error_cb' ] );
+		}
+
+		libxml_clear_errors();
+		libxml_use_internal_errors( $original_error_state );
+
+		unset( $errors );
 
 		$this->xpath = new DOMXPath( $this->dom );
 
@@ -36,53 +48,8 @@ abstract class BaseParser implements ParserInterface {
 
 	abstract protected function set_paths();
 
-	protected function verify_all_paths_set() {
-		$required_keys = [
-			'author',
-			'cook_time',
-			'description',
-			'image',
-			'name',
-			'prep_time',
-			'publisher',
-			'recipe_category',
-			'recipe_ingredient',
-			'recipe_instructions',
-			'recipe_yield',
-			'total_time',
-			'url',
-		];
-
-		if ( ! empty( $missing = array_diff( $required_keys, array_keys( $this->paths ) ) ) ) {
-			throw new RuntimeException( sprintf(
-				'The following keys must be defined in %s: %s',
-				__CLASS__,
-				implode( ', ', $missing )
-			) );
-		}
-
-		foreach ( $required_keys as $key ) {
-			if ( ! is_array( $this->paths[ $key ] ) && 2 !== count( $this->paths[ $key ] ) ) {
-				throw new RuntimeException( sprintf(
-					'Please supply an array as the value for %s',
-					$key
-				) );
-			}
-
-			if ( ! is_string( $this->paths[ $key ][0] ) ) {
-				throw new RuntimeException( sprintf(
-					'The value given at $paths[\'%s\'][0] must be a string',
-					$key
-				) );
-			}
-
-			if ( ! is_array( $this->paths[ $key ][1] ) ) {
-				throw new RuntimeException( sprintf(
-					'The value given at $paths[\'%s\'][1] must be an array',
-					$key
-				) );
-			}
-		}
+	public function errors() {
+		return $this->errors;
 	}
 
 	/**
@@ -106,6 +73,11 @@ abstract class BaseParser implements ParserInterface {
 		// $this->calculate_total_time_if_not_set();
 
 		return $this->recipe;
+	}
+
+	public function xml_error_cb( $error ) {
+		// Ignore invalid tag errors.
+		return 801 !== $error->code;
 	}
 
 	protected function author() {
@@ -403,6 +375,55 @@ abstract class BaseParser implements ParserInterface {
 
 	protected function strip_leading_numbers( $value ) {
 		return preg_replace( '/^\d+\.?\s+/', '', $value );
+	}
+
+	protected function verify_all_paths_set() {
+		$required_keys = [
+			'author',
+			'cook_time',
+			'description',
+			'image',
+			'name',
+			'prep_time',
+			'publisher',
+			'recipe_category',
+			'recipe_ingredient',
+			'recipe_instructions',
+			'recipe_yield',
+			'total_time',
+			'url',
+		];
+
+		if ( ! empty( $missing = array_diff( $required_keys, array_keys( $this->paths ) ) ) ) {
+			throw new RuntimeException( sprintf(
+				'The following keys must be defined in %s: %s',
+				__CLASS__,
+				implode( ', ', $missing )
+			) );
+		}
+
+		foreach ( $required_keys as $key ) {
+			if ( ! is_array( $this->paths[ $key ] ) && 2 !== count( $this->paths[ $key ] ) ) {
+				throw new RuntimeException( sprintf(
+					'Please supply an array as the value for %s',
+					$key
+				) );
+			}
+
+			if ( ! is_string( $this->paths[ $key ][0] ) ) {
+				throw new RuntimeException( sprintf(
+					'The value given at $paths[\'%s\'][0] must be a string',
+					$key
+				) );
+			}
+
+			if ( ! is_array( $this->paths[ $key ][1] ) ) {
+				throw new RuntimeException( sprintf(
+					'The value given at $paths[\'%s\'][1] must be an array',
+					$key
+				) );
+			}
+		}
 	}
 
 	// protected function calculate_total_time_if_not_set() {

@@ -43,6 +43,10 @@ class RecipeParser {
 		$this->url    = $url;
 	}
 
+	public function errors() {
+		return $this->parser->errors();
+	}
+
 	public function get_markup_parser( $html ) {
 		foreach ( $this->markup_parsers as $search => $class ) {
 			if ( stripos( $html, $search ) ) {
