@@ -1,6 +1,6 @@
 <?php
 
-namespace SSNepenthe\RecipeParser\Contracts;
+namespace SSNepenthe\RecipeParser\Interfaces;
 
 interface ParserInterface {
 	public function parse();

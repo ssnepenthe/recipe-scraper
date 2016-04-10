@@ -6,7 +6,7 @@ use DateInterval;
 use RuntimeException;
 use SSNepenthe\Convenience\DOMDocument;
 use SSNepenthe\Convenience\DOMXPath;
-use SSNepenthe\RecipeParser\Contracts\ParserInterface;
+use SSNepenthe\RecipeParser\Interfaces\ParserInterface;
 use SSNepenthe\RecipeParser\Schema\Recipe;
 
 abstract class BaseParser implements ParserInterface {

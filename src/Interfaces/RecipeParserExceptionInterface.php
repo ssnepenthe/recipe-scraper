@@ -1,5 +1,5 @@
 <?php
 
-namespace SSNepenthe\RecipeParser\Contracts;
+namespace SSNepenthe\RecipeParser\Interfaces;
 
 interface RecipeParserExceptionInterface {}

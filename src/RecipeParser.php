@@ -3,8 +3,8 @@
 namespace SSNepenthe\RecipeParser;
 
 use Exception;
-use SSNepenthe\RecipeParser\Contracts\CacheInterface as Cache;
-use SSNepenthe\RecipeParser\Contracts\HttpClientInterface as Http;
+use SSNepenthe\RecipeParser\Interfaces\CacheInterface as Cache;
+use SSNepenthe\RecipeParser\Interfaces\HttpClientInterface as Http;
 use SSNepenthe\RecipeParser\Exception\NoMatchingParserException;
 
 class RecipeParser {
