@@ -1,24 +1,18 @@
 {
     "name": "ssnepenthe/recipe-parser",
     "description": "A recipe parsing library.",
-    "type": "library",
     "homepage": "https://github.com/ssnepenthe/recipe-parser",
     "license": "GPL-2.0",
     "require": {
         "php": ">=5.4",
-        "ssnepenthe/convenience": "dev-master"
+    	"doctrine/cache": "^1.6.0",
+        "symfony/console": "~2.0||~3.0"
     },
     "require-dev": {
-    	"doctrine/cache": "^1.5.2",
-    	"guzzlehttp/guzzle": "^6.1.1"
+        "psy/psysh": "^0.7.2"
     },
     "autoload": {
         "psr-4": { "SSNepenthe\\RecipeParser\\": "src/" }
     },
-    "repositories": [
-    	{
-    		"type": "vcs",
-    		"url": "git@github.com:ssnepenthe/convenience.git"
-    	}
-    ]
+    "bin": ["bin/recipe"]
 }
