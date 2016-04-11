@@ -4,6 +4,9 @@ namespace SSNepenthe\RecipeParser\Parsers;
 
 /**
  * Calculate total time from prep and cook times
+ *
+ * They appear to have a JSON api if you send header 'Accept: application/json'.
+ * Definitely worth exploring further...
  */
 class BHGCom extends SchemaOrg {
 	protected function set_paths() {

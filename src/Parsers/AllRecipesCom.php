@@ -2,6 +2,10 @@
 
 namespace SSNepenthe\RecipeParser\Parsers;
 
+/**
+ * Can potentially get categories from breadcrumbs or related categories in
+ * sidebar.
+ */
 class AllRecipesCom extends SchemaOrg {
 	protected function set_paths() {
 		parent::set_paths();

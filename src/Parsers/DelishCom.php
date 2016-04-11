@@ -4,6 +4,9 @@ namespace SSNepenthe\RecipeParser\Parsers;
 
 /**
  * Description needs more thorough testing.
+ *
+ * Categories can be found in the upper right of the recipe as well as the very bottom of the page
+ * .tags--top and .tags--transporter
  */
 class DelishCom extends SchemaOrg {
 	protected function set_paths() {
