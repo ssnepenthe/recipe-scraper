@@ -35,12 +35,9 @@ class RecipeParser {
 		'http://schema.org/Recipe'          => 'SSNepenthe\\RecipeParser\\Parsers\\SchemaOrg',
 	];
 
-	protected $url;
-
-	public function __construct( $url, Http $client, Cache $cache ) {
+	public function __construct( Http $client, Cache $cache ) {
 		$this->cache  = $cache;
 		$this->client = $client;
-		$this->url    = $url;
 	}
 
 	public function errors() {
@@ -66,10 +63,10 @@ class RecipeParser {
 		return false;
 	}
 
-	public function parse() {
-		$html = $this->http_get_and_cache();
+	public function parse( $url ) {
+		$html = $this->http_get_and_cache( $url );
 
-		$host = strtolower( parse_url( $this->url, PHP_URL_HOST ) );
+		$host = strtolower( parse_url( $url, PHP_URL_HOST ) );
 
 		if ( 0 === strpos( $host, 'www.' ) ) {
 			$host = substr( $host, 4 );
@@ -92,15 +89,16 @@ class RecipeParser {
 		);
 	}
 
-	protected function http_get() {
-		return $this->client->get( $this->url );
+	protected function http_get( $url ) {
+		return $this->client->get( $url );
 	}
 
-	protected function http_get_and_cache() {
-		if ( ! $response = $this->cache->fetch( $this->url ) ) {
-			$response = $this->http_get();
+	protected function http_get_and_cache( $url ) {
+		// Should we attempt to normalize the URL beforehand?
+		if ( ! $response = $this->cache->fetch( $url ) ) {
+			$response = $this->http_get( $url );
 
-			$this->cache->save( $this->url, $response, 60 * 60 * 24 );
+			$this->cache->save( $url, $response, 60 * 60 * 24 );
 		}
 
 		return $response;

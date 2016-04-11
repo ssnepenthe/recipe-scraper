@@ -28,11 +28,11 @@ class ParseCommand extends Command {
 			sprintf( '%s/.cache', dirname( dirname( dirname( ( __DIR__ ) ) ) ) )
 		);
 
-		$parser = new RecipeParser( $url, new Client, $cache );
+		$parser = new RecipeParser( new Client, $cache );
 
 		if ( ! $output->isQuiet() ) {
 			$io = new SymfonyStyle( $input, $output );
-			$recipe = $parser->parse();
+			$recipe = $parser->parse( $url );
 
 			$io->title(
 				$recipe->name ? $recipe->name : 'Untitled Recipe'
