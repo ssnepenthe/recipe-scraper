@@ -71,8 +71,8 @@ class ParseCommand extends Command {
 			$io->section( 'Categories' );
 
 			$io->listing(
-				$recipe->categories ?
-					$recipe->categories :
+				$recipe->recipe_categories ?
+					$recipe->recipe_categories :
 					[ 'No categories found' ]
 			);
 
