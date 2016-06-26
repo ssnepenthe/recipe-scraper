@@ -36,13 +36,6 @@ class RecipeTest extends PHPUnit_Framework_TestCase
         $this->assertSame($cooktime, $this->recipe->cookTime);
     }
 
-    public function test_throw_exception_when_duration_is_not_date_interval()
-    {
-        $this->expectException(InvalidArgumentException::class);
-
-        $this->recipe->setPrepTime('PT20M');
-    }
-
     public function test_set_single_group_list_on_property()
     {
         $ingredients = [
