@@ -1,0 +1,13 @@
+<phpunit
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.5/phpunit.xsd"
+  colors="true">
+  <testsuites>
+    <testsuite name="Core">
+      <directory phpVersion="5.4.0" suffix="Test.php">tests</directory>
+    </testsuite>
+    <testsuite name="Schema">
+      <directory phpVersion="5.4.0" suffix="Test.php">tests/Schema</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

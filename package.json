@@ -1,0 +1,26 @@
+{
+  "name": "recipe-parser",
+  "version": "1.0.0",
+  "description": "A recipe parsing library.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssnepenthe/recipe-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssnepenthe/recipe-parser/issues"
+  },
+  "homepage": "https://github.com/ssnepenthe/recipe-parser#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-phpunit": "^0.15.0"
+  }
+}
