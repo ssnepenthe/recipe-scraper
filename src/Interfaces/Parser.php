@@ -2,6 +2,7 @@
 
 namespace SSNepenthe\RecipeParser\Interfaces;
 
-interface ParserInterface {
-	public function parse();
+interface Parser
+{
+    public function parse();
 }

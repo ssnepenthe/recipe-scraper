@@ -2,4 +2,6 @@
 
 namespace SSNepenthe\RecipeParser\Interfaces;
 
-interface RecipeParserExceptionInterface {}
+interface RecipeParserException
+{
+}
