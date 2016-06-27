@@ -157,6 +157,7 @@ abstract class BaseParser implements Parser
     {
         $location_defaults = [
             '@content',
+            '@data-src',
             '@datetime',
             '@href',
             '@src',

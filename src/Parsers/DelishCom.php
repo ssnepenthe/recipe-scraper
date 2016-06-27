@@ -3,20 +3,20 @@
 namespace SSNepenthe\RecipeParser\Parsers;
 
 /**
- * Description needs more thorough testing.
- *
- * Categories can be found in the upper right of the recipe as well as the very bottom of the page
- * .tags--top and .tags--transporter
+ * @todo  Has ld+json.
+ *        Description needs more thorough testing.
+ *        Categories can be found at very bottom of the page.
+ *        Seems to have some recipes with canonical set to another site. Should we use it anyway?
  */
-class DelishCom extends SchemaOrg {
-	protected function set_paths() {
-		parent::set_paths();
+class DelishCom extends SchemaOrg
+{
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->paths['description'][0] = './/div[@class="recipe-page--body-content"]/p';
-
-		$this->paths['image'][0] = './/div[@class="embedded-image--inner"]/img';
-		array_unshift( $this->paths['image'][1], '@data-src' );
-
-		$this->paths['url'][0] = './/*[@rel="canonical"]';
-	}
+        $this->config['description']['selector'] = '.recipe-page--body-content p';
+        $this->config['image']['selector'] = '.embedded-image img';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] li';
+    }
 }
