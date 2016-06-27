@@ -3,13 +3,17 @@
 namespace SSNepenthe\RecipeParser\Parsers;
 
 /**
- * Can potentially get categories from breadcrumbs or related categories in
- * sidebar.
+ * @todo  Has notes if we want them.
  */
-class AllRecipesCom extends SchemaOrg {
-	protected function set_paths() {
-		parent::set_paths();
+class AllRecipesCom extends SchemaOrg
+{
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->paths['description'][0] = './/div[@itemprop="description"]';
-	}
+        $this->config['description']['selector'] = 'meta[itemprop="description"]';
+        $this->config['image']['selector'] = 'meta[itemprop="image"]';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] li';
+    }
 }
