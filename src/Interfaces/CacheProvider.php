@@ -2,7 +2,7 @@
 
 namespace SSNepenthe\RecipeParser\Interfaces;
 
-interface Cache
+interface CacheProvider
 {
     public function fetch($id);
 

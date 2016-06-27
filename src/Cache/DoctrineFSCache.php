@@ -5,7 +5,7 @@ namespace SSNepenthe\RecipeParser\Cache;
 use Doctrine\Common\Cache\FilesystemCache;
 use SSNepenthe\RecipeParser\Interfaces\CacheProvider;
 
-class DoctrineFSCache implements Cache
+class DoctrineFSCache implements CacheProvider
 {
     protected $cache;
 

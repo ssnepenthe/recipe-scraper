@@ -4,7 +4,7 @@ namespace SSNepenthe\RecipeParser\Http;
 
 use SSNepenthe\RecipeParser\Interfaces\HttpClient;
 
-class CurlClient implements HttpClientInterface
+class CurlClient implements HttpClient
 {
     protected $user_agent;
 
