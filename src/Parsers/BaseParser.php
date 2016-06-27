@@ -229,8 +229,6 @@ abstract class BaseParser implements Parser
         $locations = $this->config[ $property ]['locations'];
 
         $node = $nodelist->item(0);
-        // @todo What to return on failure?
-        $value = null;
 
         foreach ($locations as $location) {
             if ('@' === substr($location, 0, 1)) {
@@ -238,19 +236,18 @@ abstract class BaseParser implements Parser
                 $location = substr($location, 1);
 
                 if ($node->hasAttribute($location)) {
-                    $value = trim($node->getAttribute($location));
-                    break;
+                    return trim($node->getAttribute($location));
                 }
             } else {
                 // Object property reference.
                 if ($node->{$location}) {
-                    $value = trim($node->{$location});
-                    break;
+                    return trim($node->{$location});
                 }
             }
         }
 
-        return $value;
+        // @todo What to return on failure?
+        return '';
     }
 
     /**
@@ -275,11 +272,13 @@ abstract class BaseParser implements Parser
 
                     if ($node->hasAttribute($location)) {
                         $value[] = trim($node->getAttribute($location));
+                        break;
                     }
                 } else {
                     // Object property reference.
                     if ($node->{$location}) {
                         $value[] = trim($node->{$location});
+                        break;
                     }
                 }
             }
