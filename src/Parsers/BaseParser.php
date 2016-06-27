@@ -444,8 +444,15 @@ abstract class BaseParser implements Parser
 
     protected function normalizeRecipeInstructions(array $instructions)
     {
-        $instructions = array_map([Normalize::class, 'whiteSpace'], $instructions);
-        $instructions = array_map([Normalize::class, 'orderedList'], $instructions);
+        $instructions = array_map(
+            [Normalize::class, 'whiteSpace'],
+            $instructions
+        );
+
+        $instructions = array_map(
+            [Normalize::class, 'orderedList'],
+            $instructions
+        );
 
         return $instructions;
     }
