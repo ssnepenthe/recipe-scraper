@@ -2,19 +2,17 @@
 
 namespace SSNepenthe\RecipeParser\Parsers;
 
-/**
- * Make sure to use meta tag for image so we don't have to fix relative urls.
- *
- * Description **may** be coming from reviews...
- *
- * Author may be coming from reviews as well...
- */
-class TasteOfHomeCom extends SchemaOrg {
-	protected function set_paths() {
-		parent::set_paths();
+class TasteOfHomeCom extends SchemaOrg
+{
+	protected function configure()
+	{
+		parent::configure();
 
-		$this->paths['image'][0] = './/meta[@itemprop="image"]';
-		$this->paths['recipe_yield'][0] = './/*[@itemprop="recipeyield"]';
-		$this->paths['url'][0] = './/*[@rel="canonical"]';
+		$this->config['image']['selector'] = 'meta[itemprop="image"]';
+		$this->config['name']['selector'] = 'h1[itemprop="name"]';
+		$this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+		$this->config['recipeInstructions']['selector'] = '.rd_directions .rd_name';
+		$this->config['recipeYield']['selector'] = '[itemprop="recipeyield"]';
+		$this->config['url']['selector'] = '[rel="canonical"]';
 	}
 }
