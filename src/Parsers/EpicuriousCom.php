@@ -3,17 +3,19 @@
 namespace SSNepenthe\RecipeParser\Parsers;
 
 /**
- * Add support for recipeCuisine?
- *
- * Images appear to depend on javascript. Is it worth setting up something like
- * a phantomjs service for cases like this?
- *
- * what about notes? see http://www.epicurious.com/recipes/food/views/Bourbon-Balls-367849
+ * @todo  Some have notes if we want them. See http://www.epicurious.com/recipes/food/views/Bourbon-Balls-367849
+ *        Has nutrition info if we want it.
  */
-class EpicuriousCom extends SchemaOrg {
-	protected function set_paths() {
-		parent::set_paths();
+class EpicuriousCom extends SchemaOrg
+{
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->paths['recipe_instructions'][0] = './/*[@itemprop="recipeInstructions"]//li[@class="preparation-step"]';
-	}
+        $this->config['recipeCategories']['locations'] = ['nodeValue'];
+        $this->config['recipeCuisines']['locations'] = ['nodeValue'];
+
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeInstructions']['selector'] = '.preparation-step';
+    }
 }
