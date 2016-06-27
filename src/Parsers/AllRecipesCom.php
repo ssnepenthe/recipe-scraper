@@ -11,8 +11,6 @@ class AllRecipesCom extends SchemaOrg
     {
         parent::configure();
 
-        $this->config['description']['selector'] = 'meta[itemprop="description"]';
-        $this->config['image']['selector'] = 'meta[itemprop="image"]';
         $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
         $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] li';
     }
