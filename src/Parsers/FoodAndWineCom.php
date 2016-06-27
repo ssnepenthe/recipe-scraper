@@ -2,13 +2,33 @@
 
 namespace SSNepenthe\RecipeParser\Parsers;
 
-class FoodAndWineCom extends SchemaOrg {
-	protected function set_paths() {
-		parent::set_paths();
+/**
+ * @todo More thorough testing on description.
+ *       Keep hors d'oeuvres in yield or no? See tests.
+ */
+class FoodAndWineCom extends SchemaOrg
+{
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->paths['description'][0] = './/header[contains(@class, "recipe__header")]/p[2]';
-		$this->paths['name'][0] = './/h1[@itemprop="name"]';
-		$this->paths['recipe_category'][0] = './/span[@class="tag-set__tag__text"]';
-		$this->paths['url'][0] = './/*[@rel="canonical"]';
-	}
+        $this->config['author']['selector'] = '[itemprop="author"] [itemprop="name"]';
+        $this->config['description']['selector'] = '[itemprop="description"] + p';
+        $this->config['name']['selector'] = 'h1[itemprop="name"]';
+        $this->config['recipeCategories']['selector'] = '.tags_names';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] li';
+        $this->config['url']['selector'] = '[rel="canonical"]';
+    }
+
+    protected function fetchRecipeCategories(\DOMNodeList $nodes)
+    {
+        $line = trim(str_replace(
+            'KEY:',
+            '',
+            $this->itemFromNodeList($nodes, 'recipeCategories')
+        ));
+
+        return explode(', ', $line);
+    }
 }
