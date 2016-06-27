@@ -2,445 +2,442 @@
 
 namespace SSNepenthe\RecipeParser\Parsers;
 
-use DateInterval;
-use DOMDocument;
-use DOMXPath;
-use RuntimeException;
-use SSNepenthe\RecipeParser\Interfaces\ParserInterface;
+use SSNepenthe\RecipeParser\Interfaces\Parser;
 use SSNepenthe\RecipeParser\Schema\Recipe;
-
-abstract class BaseParser implements ParserInterface {
-	protected $dom;
-	protected $errors = null;
-	protected $paths = [];
-	protected $recipe;
-	protected $root_node;
-	protected $xpath;
-
-	public function __construct( $html ) {
-		$original_error_state = libxml_use_internal_errors( true );
-
-		$this->dom = new DOMDocument;
-		$this->dom->loadHTML( $html );
-
-		if ( ! empty( $errors = libxml_get_errors() ) ) {
-			$this->errors = array_filter( $errors, [ $this, 'xml_error_cb' ] );
-		}
-
-		libxml_clear_errors();
-		libxml_use_internal_errors( $original_error_state );
-
-		unset( $errors );
-
-		$this->xpath = new DOMXPath( $this->dom );
-
-		$this->recipe = new Recipe;
-
-		// Child classes must define the root node.
-		$this->set_root_node();
-		$this->set_paths();
-
-		// Make sure all required paths are set.
-		$this->verify_all_paths_set();
-	}
-
-	abstract protected function set_root_node();
-
-	abstract protected function set_paths();
-
-	public function errors() {
-		return $this->errors;
-	}
-
-	/**
-	 * @todo notes (not in spec), recipeCuisine, nutrition, review?
-	 */
-	public function parse() {
-		$this->author();
-		$this->cook_time();
-		$this->description();
-		$this->image();
-		$this->name();
-		$this->prep_time();
-		$this->publisher();
-		$this->recipe_categories();
-		$this->recipe_ingredients();
-		$this->recipe_instructions();
-		$this->recipe_yield();
-		$this->total_time();
-		$this->url();
-
-		// $this->calculate_total_time_if_not_set();
-
-		return $this->recipe;
-	}
-
-	public function xml_error_cb( $error ) {
-		// Ignore invalid tag errors.
-		return 801 !== $error->code;
-	}
-
-	protected function author() {
-		$author = $this->get_formatted_single_item( $this->paths['author'] );
-		$author = $this->normalize_author( $author );
-
-		$this->recipe->author = $author;
-	}
-
-	protected function cook_time() {
-		$time = $this->get_single_item( $this->paths['cook_time'] );
-		$this->recipe->cook_time = $time ? new DateInterval( $time ) : null;
-	}
-
-	protected function description() {
-		$this->recipe->description = $this->get_formatted_single_item( $this->paths['description'] );
-	}
-
-	protected function image() {
-		$this->recipe->image = $this->get_formatted_single_item( $this->paths['image'] );
-	}
-
-	protected function name() {
-		$this->recipe->name = $this->get_formatted_single_item( $this->paths['name'] );
-	}
-
-	protected function prep_time() {
-		$time = $this->get_formatted_single_item( $this->paths['prep_time'] );
-		$this->recipe->prep_time = $time ? new DateInterval( $time ) : null;
-	}
-
-	protected function publisher() {
-		$publisher = $this->get_formatted_single_item( $this->paths['publisher'] );
-		$publisher = $this->normalize_author( $publisher );
-
-		$this->recipe->publisher = $publisher;
-	}
-
-	protected function recipe_categories() {
-		$categories = $this->get_item_list( $this->paths['recipe_category'] );
-
-		if ( is_array( $categories ) ) {
-			$categories = array_map( 'strtolower', $categories );
-		}
-
-		$this->recipe->recipe_categories = $categories;
-	}
-
-	protected function recipe_ingredients() {
-		$ingredients = $this->get_item_list( $this->paths['recipe_ingredient'] );
-		$ingredients = array_map( [ $this, 'normalize_fractions' ], $ingredients );
-
-		$this->recipe->recipe_ingredients = $ingredients;
-	}
-
-	protected function recipe_instructions() {
-		$instructions = $this->get_item_list( $this->paths['recipe_instructions'] );
-		$instructions = array_map( 'trim', $instructions );
-		$instructions = array_filter( $instructions );
-
-		$this->recipe->recipe_instructions = $instructions;
-	}
-
-	protected function recipe_yield() {
-		$this->recipe->recipe_yield = $this->normalize_yield(
-			$this->get_formatted_single_item( $this->paths['recipe_yield'] )
-		);
-	}
-
-	protected function total_time() {
-		$time = $this->get_formatted_single_item( $this->paths['total_time'] );
-		$this->recipe->total_time = $time ? new DateInterval( $time ) : null;
-	}
-
-	protected function url() {
-		$this->recipe->url = $this->get_formatted_single_item( $this->paths['url'] );
-	}
-
-	protected function get_formatted_single_item( array $paths ) {
-		$value = $this->get_single_item( $paths );
-
-		if ( ! is_null( $value ) ) {
-			$value = $this->format_as_single_line( $value );
-		}
-
-		return $value;
-	}
-
-	protected function get_single_item( array $paths ) {
-		$nodes = $this->xpath->query( $paths[0], $this->root_node );
-
-		// Fall back to full document if item not found within schema root.
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $paths[0] );
-		}
-
-		// Bail if we still haven't found any nodes.
-		if ( ! $nodes->length ) {
-			return null;
-		}
-
-		$node = $nodes->item( 0 );
-		$value = null;
-
-		foreach ( $paths[1] as $location ) {
-			if ( '@' === substr( $location, 0, 1 ) ) {
-				// Item attribute reference.
-				$location = str_replace( '@', '', $location );
-
-				if ( $node->hasAttribute( $location ) ) {
-					$value = trim( $node->getAttribute( $location ) );
-					break;
-				}
-			} else {
-				// Object property reference.
-				if ( $node->{$location} ) {
-					$value = trim( $node->{$location} );
-					break;
-				}
-			}
-		}
-
-		unset( $nodes, $node, $location );
-
-		return $value;
-	}
-
-	protected function get_item_list( array $paths ) {
-		$nodes = $this->xpath->query( $paths[0], $this->root_node );
-
-		// Fall back to full document if item not found within schema root.
-		if ( ! $nodes->length ) {
-			$nodes = $this->xpath->query( $paths[0] );
-		}
-
-		// Bail if we still haven't found any nodes.
-		if ( ! $nodes->length ) {
-			return null;
-		}
-
-		$value = [];
-
-		foreach ( $nodes as $node ) {
-			foreach ( $paths[1] as $location ) {
-				if ( '@' === substr( $location, 0, 1 ) ) {
-					// Item attribute reference.
-					$location = str_replace( '@', '', $location );
-
-					if ( $node->hasAttribute( $location ) ) {
-						$value[] = trim( $node->getAttribute( $location ) );
-					}
-				} else {
-					// Object property reference.
-					if ( $node->{$location} ) {
-						$value[] = trim( $node->{$location} );
-					}
-				}
-			}
-		}
-
-		if ( ! empty( $value ) ) {
-			$value = array_map( [ $this, 'format_as_single_line' ], $value );
-		}
-
-		unset( $nodes, $node, $location );
-
-		return $value;
-	}
-
-	protected function get_list_from_single_item( array $paths ) {
-		$value = $this->get_single_item( $paths );
-
-		if ( ! is_null( $value ) ) {
-			$value = $this->normalize_whitespace( $value );
-			$value = explode( PHP_EOL, $value );
-		}
-
-		return $value;
-	}
-
-	protected function format_as_single_line( $value ) {
-		$value = $this->normalize_whitespace( $value );
-		$value = str_replace( PHP_EOL, ' ', $value );
-
-		return $value;
-	}
-
-	protected function normalize_author( $value ) {
-		$value = str_replace( [ 'By ', 'by ' ], '', $value );
-		$value = trim( $value, ",. \t\n\r\0\x0B" );
-
-		return $value;
-	}
-
-	protected function normalize_eol( $value ) {
-		return preg_replace(
-			[ '/\r\n|\r|\n/', '/\n\s+/' ],
-			PHP_EOL,
-			$value
-		);
-	}
-
-	protected function normalize_fractions( $value ) {
-		// First add a space if one doesn't exist.
-		if ( preg_match( '/⅛|¼|⅓|⅜|½|⅝|⅔|¾|⅞/', $value ) ) {
-			$value = preg_replace( '/(\d+)([⅛|¼|⅓|⅜|½|⅝|⅔|¾|⅞])/', '$1 $2', $value  );
-		}
-
-		// Then replace the fraction.
-		$value = str_replace(
-			[ '⅛', '¼', '⅓', '⅜', '½', '⅝', '⅔', '¾', '⅞' ],
-			[ '1/8', '1/4', '1/3', '3/8', '1/2', '5/8', '2/3', '3/4', '7/8' ],
-			$value
-		);
-
-		return $value;
-	}
-
-	protected function normalize_spaces( $value ) {
-		$value = str_replace( [ '&nbsp;', '&#160;' ], ' ', $value );
-		$value = preg_replace( '/\xC2\xA0/', ' ', $value );
-		$value = preg_replace( '/\s{2,}/', ' ', $value );
-
-		return $value;
-	}
-
-	protected function normalize_numbers( $value ) {
-		$words = [
-			'one',
-			'two',
-			'three',
-			'four',
-			'five',
-			'six',
-			'seven',
-			'eight',
-			'nine',
-			'ten',
-			'eleven',
-			'twelve',
-			'thirteen',
-			'fourteen',
-			'fifteen',
-			'sixteen',
-			'seventeen',
-			'eighteen',
-			'nineteen',
-			'twenty',
-		];
-
-		$digits = [
-			'1',
-			'2',
-			'3',
-			'4',
-			'5',
-			'6',
-			'7',
-			'8',
-			'9',
-			'10',
-			'11',
-			'12',
-			'13',
-			'14',
-			'15',
-			'16',
-			'17',
-			'18',
-			'19',
-			'20',
-		];
-
-		return str_replace( $words, $digits, $value );
-	}
-
-	protected function normalize_whitespace( $value ) {
-		$value = $this->normalize_eol( $value );
-		$value = $this->normalize_spaces( $value );
-
-		return $value;
-	}
-
-	protected function normalize_yield( $value ) {
-		$value = strtolower( $value );
-		$value = $this->normalize_numbers( $value );
-		$value = preg_replace( '/^(yield|serving|serve|make)s?:?\s*/', '', $value );
-
-		if ( preg_match( '/\d$/', $value ) && false === strpos( $value, 'servings' ) ) {
-			$value .= ' servings';
-		}
-
-		return $value;
-	}
-
-	protected function strip_leading_numbers( $value ) {
-		return preg_replace( '/^\d+\.?\s+/', '', $value );
-	}
-
-	protected function verify_all_paths_set() {
-		$required_keys = [
-			'author',
-			'cook_time',
-			'description',
-			'image',
-			'name',
-			'prep_time',
-			'publisher',
-			'recipe_category',
-			'recipe_ingredient',
-			'recipe_instructions',
-			'recipe_yield',
-			'total_time',
-			'url',
-		];
-
-		if ( ! empty( $missing = array_diff( $required_keys, array_keys( $this->paths ) ) ) ) {
-			throw new RuntimeException( sprintf(
-				'The following keys must be defined in %s: %s',
-				__CLASS__,
-				implode( ', ', $missing )
-			) );
-		}
-
-		foreach ( $required_keys as $key ) {
-			if ( ! is_array( $this->paths[ $key ] ) && 2 !== count( $this->paths[ $key ] ) ) {
-				throw new RuntimeException( sprintf(
-					'Please supply an array as the value for %s',
-					$key
-				) );
-			}
-
-			if ( ! is_string( $this->paths[ $key ][0] ) ) {
-				throw new RuntimeException( sprintf(
-					'The value given at $paths[\'%s\'][0] must be a string',
-					$key
-				) );
-			}
-
-			if ( ! is_array( $this->paths[ $key ][1] ) ) {
-				throw new RuntimeException( sprintf(
-					'The value given at $paths[\'%s\'][1] must be an array',
-					$key
-				) );
-			}
-		}
-	}
-
-	// protected function calculate_total_time_if_not_set() {
-	// 	if ( ! is_null( $this->recipe->total_time ) ) {
-	// 		return;
-	// 	}
-
-	// 	if ( ! is_null( $this->recipe->prep_time ) && ! is_null( $this->recipe->cook_time ) ) {
-	// 		$now = new DateTime( 'now' );
-	// 		$later = new DateTime( 'now' );
-
-	// 		$later = $later->add( $this->recipe->cook_time );
-	// 		$later = $later->add( $this->recipe->prep_time );
-
-	// 		$this->recipe->set_total_time( $later->diff( $now ) );
-
-	// 		unset( $now, $later );
-	// 	}
-	// }
+use SSNepenthe\RecipeParser\Util\Normalize;
+use SSNepenthe\RecipeParser\Util\Format;
+use Symfony\Component\CssSelector\CssSelectorConverter;
+
+abstract class BaseParser implements Parser
+{
+    protected $config;
+    protected $html;
+    protected $recipe;
+
+    public function __construct($html = null)
+    {
+        if (! is_null($html)) {
+            $this->setHtml($html);
+        }
+    }
+
+    protected function isValidProperty($key)
+    {
+        return array_key_exists($key, $this->config);
+    }
+
+    /**
+     * Creates four types of virtual methods:
+     * fetch*(), format*(), normalize*() and set*()
+     */
+    public function __call($name, $arguments)
+    {
+        if (empty($arguments)) {
+            return call_user_func_array([$this, $name], $arguments);
+        }
+
+        $prefix = substr($name, 0, 3);
+        $suffix = substr($name, 3);
+        $property = lcfirst($suffix);
+
+        if ('set' === $prefix && $this->isValidProperty($property)) {
+            $value = call_user_func(
+                [$this, sprintf('fetch%s', $suffix)],
+                $arguments[0]
+            );
+
+            $value = call_user_func(
+                [$this, sprintf('normalize%s', $suffix)],
+                $value
+            );
+
+            $value = call_user_func(
+                [$this, sprintf('format%s', $suffix)],
+                $value
+            );
+
+            return $value;
+        }
+
+        $prefix = substr($name, 0, 5);
+        $suffix = substr($name, 5);
+        $property = lcfirst($suffix);
+
+        // Fetch/get?
+        if ('fetch' === $prefix && $this->isValidProperty($property)) {
+            return $this->itemFromNodeList($arguments[0], $property);
+        }
+
+        $prefix = substr($name, 0, 6);
+        $suffix = substr($name, 6);
+        $property = lcfirst($suffix);
+
+        // Format/prepare?
+        if ('format' === $prefix && $this->isValidProperty($property)) {
+            if (is_array($arguments[0])) {
+                return array_map([Format::class, 'line'], $arguments[0]);
+            } else {
+                return Format::line($arguments[0]);
+            }
+        }
+
+        $prefix = substr($name, 0, 9);
+        $suffix = substr($name, 9);
+        $property = lcfirst($suffix);
+
+        // Normalize/clean?
+        if ('normalize' === $prefix && $this->isValidProperty($property)) {
+            if (is_array($arguments[0])) {
+                return array_map(
+                    [Normalize::class, 'whiteSpace'],
+                    $arguments[0]
+                );
+            } else {
+                return Normalize::whiteSpace($arguments[0]);
+            }
+        }
+
+        return call_user_func_array([$this, $name], $arguments);
+    }
+
+    public function parse()
+    {
+        if (! isset($this->html)) {
+            // @todo
+            throw new \RuntimeException();
+        }
+
+        $this->recipe = new Recipe;
+
+        $this->configure();
+        $this->applyConfigDefaults();
+        $this->validateConfig();
+
+        $original_error_state = libxml_use_internal_errors(true);
+
+        $dom = new \DOMDocument;
+        $dom->loadHTML($this->html);
+
+        libxml_clear_errors();
+        libxml_use_internal_errors($original_error_state);
+
+        $xpath = new \DOMXPath($dom);
+
+        $converter = new CssSelectorConverter;
+
+        foreach ($this->config as $key => $value) {
+            $nodes = $xpath->query($converter->toXPath($value['selector']));
+            $method = sprintf('set%s', ucfirst($key));
+
+            // Callback should process $nodes and return value for recipe.
+            $value = call_user_func([$this, $value['callback']], $nodes);
+
+            if ($value) {
+                call_user_func([$this->recipe, $method], $value);
+            }
+        }
+
+        unset($dom, $xpath, $converter, $key, $value, $nodes);
+
+        return $this->recipe;
+    }
+
+    public function setHtml($html)
+    {
+        if (! is_string($html)) {
+            // @todo
+            throw new \InvalidArgumentException();
+        }
+
+        $this->html = $html;
+    }
+
+    protected function applyConfigDefaults()
+    {
+        $location_defaults = [
+            '@content',
+            '@datetime',
+            '@href',
+            '@src',
+            'nodeValue',
+        ];
+
+        foreach ($this->config as $key => $value) {
+            if (! isset($value['callback'])) {
+                $this->config[ $key ]['callback'] = sprintf(
+                    'set%s',
+                    ucfirst($key)
+                );
+            }
+
+            if (! isset($value['locations'])) {
+                $this->config[ $key ]['locations'] = $location_defaults;
+            }
+        }
+    }
+
+    protected function validateConfig()
+    {
+        if (! empty($invalid = array_diff(
+            array_keys($this->config),
+            $this->recipe->getKeys()
+        ))) {
+            // @todo
+            throw new \RuntimeException();
+        }
+
+        foreach ($this->config as $key => $value) {
+            if (! is_callable([ $this, $value['callback'] ])) {
+                // @todo
+                throw new \RuntimeException();
+            }
+
+            $locations = array_filter($value['locations'], function ($value) {
+                return is_string($value);
+            });
+
+            if (empty($locations)) {
+                // @todo
+                throw new \RuntimeException();
+            }
+
+            if (! isset($value['selector'])) {
+                // @todo
+                throw new \RuntimeException();
+            }
+
+            if (! is_string($value['selector'])) {
+                // @todo
+                throw new \RuntimeException();
+            }
+        }
+    }
+
+    /**
+     * Retrieve value in $locations of the first item from $nodelist.
+     */
+    protected function itemFromNodeList(\DOMNodeList $nodelist, $property)
+    {
+        // Bail if no nodes.
+        if (! $nodelist->length) {
+            // @todo What to return on failure?
+            return null;
+        }
+
+        $locations = $this->config[ $property ]['locations'];
+
+        $node = $nodelist->item(0);
+        // @todo What to return on failure?
+        $value = null;
+
+        foreach ($locations as $location) {
+            if ('@' === substr($location, 0, 1)) {
+                // Item attribute reference.
+                $location = substr($location, 1);
+
+                if ($node->hasAttribute($location)) {
+                    $value = trim($node->getAttribute($location));
+                    break;
+                }
+            } else {
+                // Object property reference.
+                if ($node->{$location}) {
+                    $value = trim($node->{$location});
+                    break;
+                }
+            }
+        }
+
+        return $value;
+    }
+
+    /**
+     * Retrieve values in $locations from all items in $nodelist.
+     */
+    protected function listFromNodeList(\DOMNodeList $nodelist, $property)
+    {
+        // Bail if no nodes.
+        if (! $nodelist->length) {
+            // @todo What to return on failure?
+            return [];
+        }
+
+        $locations = $this->config[ $property ]['locations'];
+        $value = [];
+
+        foreach ($nodelist as $node) {
+            foreach ($locations as $location) {
+                if ('@' === substr($location, 0, 1)) {
+                    // Item attribute reference.
+                    $location = substr($location, 1);
+
+                    if ($node->hasAttribute($location)) {
+                        $value[] = trim($node->getAttribute($location));
+                    }
+                } else {
+                    // Object property reference.
+                    if ($node->{$location}) {
+                        $value[] = trim($node->{$location});
+                    }
+                }
+            }
+        }
+
+        /**
+         * Remove empty entries.
+         * Normalize::spaces() helps filter out entries with chars like &nbsp;.
+         * Array_values is used to re-index the array and keep phpunit quiet.
+         * In particular, this is necessary for PaulaDeen.com.
+         */
+        $value = array_values( array_filter( $value, function( $value ) {
+            $value = trim( Normalize::spaces( $value ) );
+
+            return ! empty( $value );
+        } ) );
+
+        return $value;
+    }
+
+    protected function looksLikeGroupTitle($value)
+    {
+        if ( ':' === substr( $value, -1 ) ) {
+            return true;
+        }
+
+        if ( strtoupper( $value ) === $value ) {
+            return true;
+        }
+
+        return false;
+    }
+
+    protected function createListGroups(array $values)
+    {
+        $titles = [];
+
+        foreach ($values as $key => $value) {
+            if (! $this->looksLikeGroupTitle($value)) {
+                continue;
+            }
+
+            $titles[] = $key;
+        }
+
+        if (empty($titles)) {
+            return [ [
+                'title' => '',
+                'data' => $values,
+            ] ];
+        }
+
+        $groups = [];
+        $count = count($titles);
+        $counter = 0;
+
+        // There are titles, but the first group is title-less.
+        if ( 0 !== $titles[0] ) {
+            $groups[] = [
+                'title' => '',
+                'data' => array_slice( $values, 0, $titles[0] )
+            ];
+        }
+
+        foreach ($titles as $key => $position) {
+            $counter++;
+
+            $groups[] = [
+                'title' => Normalize::groupTitle($values[ $position ]),
+                'data' => array_slice(
+                    $values,
+                    $position + 1,
+                    $counter === $count ? null : $titles[ $key + 1 ] - ( $position + 1 )
+                )
+            ];
+        }
+
+        return $groups;
+    }
+
+    abstract protected function configure();
+
+    /**
+     * Lots of repetition here.
+     */
+    protected function fetchRecipeCategories(\DOMNodeList $nodes)
+    {
+        return $this->listFromNodeList($nodes, 'recipeCategories');
+    }
+
+    protected function fetchRecipeCuisines(\DOMNodeList $nodes)
+    {
+        return $this->listFromNodeList($nodes, 'recipeCuisines');
+    }
+
+    protected function fetchRecipeIngredients(\DOMNodeList $nodes)
+    {
+        return $this->listFromNodeList($nodes, 'recipeIngredients');
+    }
+
+    protected function fetchRecipeInstructions(\DOMNodeList $nodes)
+    {
+        return $this->listFromNodeList($nodes, 'recipeInstructions');
+    }
+
+    protected function formatCookTime($value) {
+        return new \DateInterval($value);
+    }
+
+    protected function formatPrepTime($value) {
+        return new \DateInterval($value);
+    }
+
+    protected function formatRecipeIngredients(array $ingredients)
+    {
+        return $this->createListGroups($ingredients);
+    }
+
+    protected function formatRecipeInstructions(array $instructions)
+    {
+        return $this->createListGroups($instructions);
+    }
+
+    protected function formatTotalTime($value) {
+        return new \DateInterval($value);
+    }
+
+    protected function normalizeAuthor($author)
+    {
+        $author = Normalize::whiteSpace($author);
+        $author = Normalize::author($author);
+
+        return $author;
+    }
+
+    protected function normalizeRecipeIngredients(array $ingredients)
+    {
+        $ingredients = array_map(
+            [Normalize::class, 'whiteSpace'],
+            $ingredients
+        );
+
+        $ingredients = array_map(
+            [Normalize::class, 'fractions'],
+            $ingredients
+        );
+
+        return $ingredients;
+    }
+
+    protected function normalizeRecipeInstructions(array $instructions)
+    {
+        $instructions = array_map([Normalize::class, 'whiteSpace'], $instructions);
+        $instructions = array_map([Normalize::class, 'orderedList'], $instructions);
+
+        return $instructions;
+    }
+
+    protected function normalizeRecipeYield($yield)
+    {
+        return Normalize::recipeYield($yield);
+    }
 }
