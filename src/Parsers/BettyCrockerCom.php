@@ -2,21 +2,19 @@
 
 namespace SSNepenthe\RecipeParser\Parsers;
 
-class BettyCrockerCom extends SchemaOrg {
-	protected function set_paths() {
-		parent::set_paths();
+/**
+ * @todo Can potentially get categories off of data-category attribute on ingredients.
+ *       Nutrition info is there if we want it as well.
+ *       There are also notes/tips.
+ */
+class BettyCrockerCom extends SchemaOrg
+{
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->paths['image'][0] = './/div[contains(@class, "recipePartRecipeImage")]/noscript/img';
-		$this->paths['recipe_instructions'][0] = './/*[@itemprop="recipeInstructions"]';
-		$this->paths['url'][0] = './/*[@rel="canonical"]';
-	}
-
-	protected function recipe_instructions() {
-		parent::recipe_instructions();
-
-		$this->recipe->recipe_instructions = array_map(
-			[ $this, 'strip_leading_numbers' ],
-			$this->recipe->recipe_instructions
-		);
-	}
+        $this->config['image']['selector'] = '.recipePartRecipeImage noscript img';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['url']['selector'] = '[rel="canonical"]';
+    }
 }
