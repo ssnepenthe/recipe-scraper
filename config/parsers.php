@@ -6,8 +6,6 @@ return [
     'bhg.com'             => 'SSNepenthe\\RecipeParser\\Parsers\\BHGCom',
     'delish.com'          => 'SSNepenthe\\RecipeParser\\Parsers\\DelishCom',
     'epicurious.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\EpicuriousCom',
-    'farmflavor.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\FarmFlavorCom',
-    'food.com'            => 'SSNepenthe\\RecipeParser\\Parsers\\FoodCom',
     'foodandwine.com'     => 'SSNepenthe\\RecipeParser\\Parsers\\FoodAndWineCom',
     'foodnetwork.com'     => 'SSNepenthe\\RecipeParser\\Parsers\\FoodNetworkCom',
     'marthastewart.com'   => 'SSNepenthe\\RecipeParser\\Parsers\\MarthaStewartCom',
