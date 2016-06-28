@@ -19,12 +19,9 @@ class Normalize
         return trim( str_replace(':', '', $value) );
     }
 
-    /**
-     * @todo Should we convert multiple EOL to single EOL similar to spaces?
-     */
     public static function EOL($value)
     {
-        return preg_replace('/\R/u', PHP_EOL, $value);
+        return preg_replace('/\R+/u', PHP_EOL, $value);
     }
 
     public static function fractions($value)
