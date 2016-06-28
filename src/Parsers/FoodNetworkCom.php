@@ -24,9 +24,9 @@ class FoodNetworkCom extends SchemaOrg
         $this->config['recipeInstructions']['selector'] = '.recipe-directions-list li';
     }
 
-    protected function normalizeRecipeInstructions(array $instructions)
+    protected function normalizeRecipeInstructions($instructions)
     {
-        $instructions = array_map([Normalize::class, 'whiteSpace'], $instructions);
+        $instructions = parent::normalizeRecipeInstructions($instructions);
 
         $instructions = $this->stripCopyrightFromInstructions($instructions);
         $instructions = $this->stripNutritionFromInstructions($instructions);

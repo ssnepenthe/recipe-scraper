@@ -27,8 +27,6 @@ class ParserLocatorTest extends CacheableHTTPTestCase
             'http://www.bhg.com/recipe/meat/bavarian-pork-roast/' => 'BHGCom',
             'http://www.delish.com/cooking/recipe-ideas/recipes/a33641/fish-veggie-chowder-121971/' => 'DelishCom',
             'http://www.epicurious.com/recipes/food/views/Salmon-Burgers-with-Lemon-and-Capers-103498' => 'EpicuriousCom',
-            'http://www.farmflavor.com/recipe/type/appetizers/sausage-spinach-quiche' => 'FarmFlavorCom',
-            'http://www.food.com/recipe/the-perfect-burger-92021' => 'FoodCom',
             'http://www.foodandwine.com/recipes/baby-brioches-with-chicken-salad-and-bacon' => 'FoodAndWineCom',
             'http://www.foodnetwork.com/recipes/trisha-yearwood/baked-macaroni-and-cheese.html' => 'FoodNetworkCom',
             'http://www.marthastewart.com/335578/roasted-red-pepper-olive-and-caper-brusc?czone=entertaining/holiday-entertaining/holidaycenter-foods&amp;center=276958&amp;gallery=275480&amp;slide=255056' => 'MarthaStewartCom',

@@ -16,12 +16,12 @@ class Normalize
 
     public static function groupTitle($value)
     {
-        return trim( str_replace(':', '', $value) );
+        return trim(str_replace(':', '', $value));
     }
 
     public static function EOL($value)
     {
-        return preg_replace('/\R+/u', PHP_EOL, $value);
+        return preg_replace('/\R/u', PHP_EOL, $value);
     }
 
     public static function fractions($value)
@@ -83,7 +83,7 @@ class Normalize
         ];
 
         $value = str_replace($search, ' ', $value);
-        $value = preg_replace('/\h{2,}/', ' ', $value);
+        $value = preg_replace('/\s{2,}/', ' ', $value);
 
         return $value;
     }
