@@ -6,7 +6,7 @@ class Normalize
 {
     public static function author($value)
     {
-        $value = str_replace([ 'By', 'by' ], '', $value);
+        $value = str_ireplace([ 'Recipe by', 'By' ], '', $value);
 
         // Default trim plus colon, comma and period.
         $value = trim($value, ":,. \t\n\r\0\x0B");
