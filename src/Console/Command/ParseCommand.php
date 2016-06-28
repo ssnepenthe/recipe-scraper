@@ -2,7 +2,7 @@
 
 namespace SSNepenthe\RecipeParser\Console\Command;
 
-use SSNepenthe\RecipeParser\ParserLocator;
+use SSNepenthe\RecipeParser\RecipeParser;
 use SSNepenthe\RecipeParser\Http\CurlClient;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -36,21 +36,10 @@ class ParseCommand extends Command
         );
 
         $http = new CurlClient;
-
-        if (! $html = $cache->fetch($url)) {
-            $html = $http->get($url);
-
-            $cache->save($url, $html);
-        }
-
-        $locator = new ParserLocator($url, $html);
-        $located = $locator->locate();
+        $parser = new RecipeParser($http, $cache);
+        $recipe = $parser->parse($url);
 
         if (! $output->isQuiet()) {
-            $parser = new $located($html);
-
-            $recipe = $parser->parse($url);
-
             /**
              * @todo Better looking output.
              *       Also, dump() is from symfony var-dumper which is not an
