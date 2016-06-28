@@ -102,7 +102,7 @@ abstract class BaseParser implements Parser
 
     public function parse()
     {
-        if (! isset($this->html)) {
+        if (is_null($this->html)) {
             // @todo
             throw new \RuntimeException();
         }
@@ -426,32 +426,50 @@ abstract class BaseParser implements Parser
         return $author;
     }
 
-    protected function normalizeRecipeIngredients(array $ingredients)
+    protected function normalizeRecipeIngredients($ingredients)
     {
-        $ingredients = array_map(
-            [Normalize::class, 'whiteSpace'],
-            $ingredients
-        );
+        if (is_array($ingredients)) {
+            $ingredients = array_map(
+                [Normalize::class, 'whiteSpace'],
+                $ingredients
+            );
+        } else {
+            $ingredients = explode(
+                PHP_EOL,
+                Normalize::whiteSpace($ingredients)
+            );
+        }
 
         $ingredients = array_map(
             [Normalize::class, 'fractions'],
             $ingredients
         );
 
+        $ingredients = array_map('trim', $ingredients);
+
         return $ingredients;
     }
 
-    protected function normalizeRecipeInstructions(array $instructions)
+    protected function normalizeRecipeInstructions($instructions)
     {
-        $instructions = array_map(
-            [Normalize::class, 'whiteSpace'],
-            $instructions
-        );
+        if (is_array($instructions)) {
+            $instructions = array_map(
+                [Normalize::class, 'whiteSpace'],
+                $instructions
+            );
+        } else {
+            $instructions = explode(
+                PHP_EOL,
+                Normalize::whiteSpace($instructions)
+            );
+        }
 
         $instructions = array_map(
             [Normalize::class, 'orderedList'],
             $instructions
         );
+
+        $instructions = array_map('trim', $instructions);
 
         return $instructions;
     }
