@@ -134,7 +134,6 @@ abstract class BaseParser implements Parser
             $method = sprintf('set%s', ucfirst($key));
 
             // Callback should process $nodes and return value for recipe.
-
             $value = call_user_func([$this, $value['callback']], $nodes);
 
             if ($value) {
@@ -390,20 +389,20 @@ abstract class BaseParser implements Parser
 
     protected function formatCookTime($value)
     {
-        if (! $value) {
-            return $value;
+        try {
+            return new \DateInterval($value);
+        } catch (\Exception $e) {
+            return '';
         }
-
-        return new \DateInterval($value);
     }
 
     protected function formatPrepTime($value)
     {
-        if (! $value) {
-            return $value;
+        try {
+            return new \DateInterval($value);
+        } catch (\Exception $e) {
+            return '';
         }
-
-        return new \DateInterval($value);
     }
 
     protected function formatRecipeIngredients(array $ingredients)
@@ -418,11 +417,11 @@ abstract class BaseParser implements Parser
 
     protected function formatTotalTime($value)
     {
-        if (! $value) {
-            return $value;
+        try {
+            return new \DateInterval($value);
+        } catch (\Exception $e) {
+            return '';
         }
-
-        return new \DateInterval($value);
     }
 
     protected function normalizeAuthor($author)
