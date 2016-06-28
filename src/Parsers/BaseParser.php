@@ -116,7 +116,11 @@ abstract class BaseParser implements Parser
         $original_error_state = libxml_use_internal_errors(true);
 
         $dom = new \DOMDocument;
-        $dom->loadHTML($this->html);
+        $dom->loadHTML(mb_convert_encoding(
+            $this->html,
+            'HTML-ENTITIES',
+            'UTF-8'
+        ));
 
         libxml_clear_errors();
         libxml_use_internal_errors($original_error_state);
