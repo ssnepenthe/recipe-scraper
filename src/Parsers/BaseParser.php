@@ -436,7 +436,12 @@ abstract class BaseParser implements Parser
         } else {
             $ingredients = explode(
                 PHP_EOL,
-                Normalize::whiteSpace($ingredients)
+                Normalize::EOL($ingredients)
+            );
+
+            $ingredients = array_map(
+                [Normalize::class, 'spaces'],
+                $ingredients
             );
         }
 
@@ -445,7 +450,11 @@ abstract class BaseParser implements Parser
             $ingredients
         );
 
-        $ingredients = array_map('trim', $ingredients);
+        // Trim, remove empty entries and re-index.
+        $ingredients = array_values(array_filter(array_map(
+            'trim',
+            $ingredients
+        )));
 
         return $ingredients;
     }
@@ -460,7 +469,12 @@ abstract class BaseParser implements Parser
         } else {
             $instructions = explode(
                 PHP_EOL,
-                Normalize::whiteSpace($instructions)
+                Normalize::EOL($instructions)
+            );
+
+            $instructions = array_map(
+                [Normalize::class, 'spaces'],
+                $instructions
             );
         }
 
@@ -469,7 +483,11 @@ abstract class BaseParser implements Parser
             $instructions
         );
 
-        $instructions = array_map('trim', $instructions);
+        // Trim, remove empty entries and re-index.
+        $instructions = array_values(array_filter(array_map(
+            'trim',
+            $instructions
+        )));
 
         return $instructions;
     }
