@@ -14,7 +14,7 @@ class TablespoonComTest extends ParserTestCase
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Daring Gourmet');
-        $recipe->setDescription('A BALT (bacon, avocado, lettuce, tomato) sandwich with a balsamic reduction drizzle is great for snack time or meal time.');
+        $recipe->setDescription('A BLT with avocado AND a drizzle of sweet-tangy balsamic reduction? Yes, please!');
         $recipe->setImage('http://images.edge-generalmills.com/119bc525-b6c4-4dfb-ac8f-08e55ab8a1ba.jpg');
         $recipe->setName('Bacon-Avocado-Lettuce-Tomato Snack Sandwich');
         $recipe->setRecipeIngredients([

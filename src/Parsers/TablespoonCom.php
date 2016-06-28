@@ -18,9 +18,8 @@ class TablespoonCom extends SchemaOrg
         parent::configure();
 
         $this->config['author']['locations'] = ['nodeValue'];
-        $this->config['description']['selector'] = 'meta[name="description"]';
         $this->config['image']['selector'] = '.recipePartRecipeImage img';
-        $this->config['recipeIngredients']['selector'] = '.recipePartIngredientGroup h2, .recipePartIngredientGroup dl';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
         $this->config['url']['selector'] = 'link[rel="canonical"]';
     }
 }

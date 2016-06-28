@@ -13,7 +13,7 @@ class BettyCrockerCom extends SchemaOrg
     {
         parent::configure();
 
-        $this->config['image']['selector'] = '.recipePartRecipeImage noscript img';
+        $this->config['image']['selector'] = '.recipePartRecipeImage img';
         $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
         $this->config['url']['selector'] = '[rel="canonical"]';
     }
