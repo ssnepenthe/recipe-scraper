@@ -86,14 +86,14 @@ class Normalize
         ];
 
         $value = str_replace($search, ' ', $value);
-        $value = preg_replace('/\s{2,}/', ' ', $value);
+        $value = preg_replace('/\h{2,}/', ' ', $value);
 
         return $value;
     }
 
     public static function whiteSpace($value)
     {
-        return static::spaces(static::eol($value));
+        return static::spaces(static::EOL($value));
     }
 
     /**
