@@ -2,105 +2,42 @@
 
 namespace SSNepenthe\RecipeParser;
 
-use Exception;
-use SSNepenthe\RecipeParser\Interfaces\CacheInterface as Cache;
-use SSNepenthe\RecipeParser\Interfaces\HttpClientInterface as Http;
-use SSNepenthe\RecipeParser\Exception\NoMatchingParserException;
+use SSNepenthe\RecipeParser\ParserLocator;
+use SSNepenthe\RecipeParser\Interfaces\HttpClient;
+use SSNepenthe\RecipeParser\Interfaces\CacheProvider;
 
-class RecipeParser {
-	protected $cache;
+class RecipeParser
+{
+    protected $cache;
 
-	protected $parser;
+    protected $client;
 
-	protected $site_parsers = [
-		'allrecipes.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\AllRecipesCom',
-		'bettycrocker.com'    => 'SSNepenthe\\RecipeParser\\Parsers\\BettyCrockerCom',
-		'bhg.com'             => 'SSNepenthe\\RecipeParser\\Parsers\\BHGCom',
-		'delish.com'          => 'SSNepenthe\\RecipeParser\\Parsers\\DelishCom',
-		'epicurious.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\EpicuriousCom',
-		'farmflavor.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\FarmFlavorCom',
-		'food.com'            => 'SSNepenthe\\RecipeParser\\Parsers\\FoodCom',
-		'foodandwine.com'     => 'SSNepenthe\\RecipeParser\\Parsers\\FoodAndWineCom',
-		'foodnetwork.com'     => 'SSNepenthe\\RecipeParser\\Parsers\\FoodNetworkCom',
-		'marthastewart.com'   => 'SSNepenthe\\RecipeParser\\Parsers\\MarthaStewartCom',
-		'myrecipes.com'       => 'SSNepenthe\\RecipeParser\\Parsers\\MyRecipesCom',
-		'pauladeen.com'       => 'SSNepenthe\\RecipeParser\\Parsers\\PaulaDeenCom',
-		'tablespoon.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\TablespoonCom',
-		'tasteofhome.com'     => 'SSNepenthe\\RecipeParser\\Parsers\\TasteOfHomeCom',
-		'thepioneerwoman.com' => 'SSNepenthe\\RecipeParser\\Parsers\\ThePioneerWomanCom',
-	];
+    public function __construct(HttpClient $client, CacheProvider $cache)
+    {
+        $this->cache  = $cache;
+        $this->client = $client;
+    }
 
-	protected $markup_parsers = [
-		'http://data-vocabulary.org/Recipe' => 'SSNepenthe\\RecipeParser\\Parsers\\DataVocabularyOrg',
-		'http://schema.org/Recipe'          => 'SSNepenthe\\RecipeParser\\Parsers\\SchemaOrg',
-	];
+    public function parse($url)
+    {
+        $html = $this->http_get_and_cache($url);
 
-	public function __construct( Http $client, Cache $cache ) {
-		$this->cache  = $cache;
-		$this->client = $client;
-	}
+        $locator = new ParserLocator($url, $html);
+        $located = $locator->locate();
 
-	public function errors() {
-		return $this->parser->errors();
-	}
+        $parser = new $located($html);
+        return $parser->parse();
+    }
 
-	public function get_markup_parser( $html ) {
-		foreach ( $this->markup_parsers as $search => $class ) {
-			if ( stripos( $html, $search ) ) {
-				return $class;
-			}
-		}
+    protected function http_get_and_cache($url)
+    {
+        // Should we attempt to normalize the URL beforehand?
+        if (! $response = $this->cache->fetch($url)) {
+            $response = $this->client->get($url);
 
-		return false;
-	}
+            $this->cache->save($url, $response, 60 * 60 * 24);
+        }
 
-	public function get_site_parser( $id ) {
-		// Subdomains?
-		if ( isset( $this->site_parsers[ $id ] ) ) {
-			return $this->site_parsers[ $id ];
-		}
-
-		return false;
-	}
-
-	public function parse( $url ) {
-		$html = $this->http_get_and_cache( $url );
-
-		$host = strtolower( parse_url( $url, PHP_URL_HOST ) );
-
-		if ( 0 === strpos( $host, 'www.' ) ) {
-			$host = substr( $host, 4 );
-		}
-
-		if ( $class = $this->get_site_parser( $host ) ) {
-			$this->parser = new $class( $html );
-
-			return $this->parser->parse();
-		}
-
-		if ( $class = $this->get_markup_parser( $html ) ) {
-			$this->parser = new $class( $html );
-
-			return $this->parser->parse();
-		}
-
-		throw new NoMatchingParserException(
-			'No parser found for this recipe'
-		);
-	}
-
-	protected function http_get( $url ) {
-		return $this->client->get( $url );
-	}
-
-	protected function http_get_and_cache( $url ) {
-		// Should we attempt to normalize the URL beforehand?
-		if ( ! $response = $this->cache->fetch( $url ) ) {
-			$response = $this->http_get( $url );
-
-			$this->cache->save( $url, $response, 60 * 60 * 24 );
-		}
-
-		return $response;
-	}
+        return $response;
+    }
 }
