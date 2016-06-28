@@ -12,42 +12,46 @@ use DateInterval;
  */
 class ThePioneerWomanCom extends SchemaOrg
 {
-	protected function configure()
-	{
-		parent::configure();
+    protected function configure()
+    {
+        parent::configure();
 
-		// Get first image in .entry-content.
-		$this->config['image']['selector'] = '.entry-content img:first-child';
-		$this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
-		$this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"]';
-		$this->config['url']['selector'] = '[rel="canonical"]';
-	}
+        // Get first image in .entry-content.
+        $this->config['image']['selector'] = '.entry-content img:first-child';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"]';
+        $this->config['url']['selector'] = '[rel="canonical"]';
+    }
 
-	protected function fetchRecipeInstructions(\DOMNodeList $nodes) {
-		return $this->itemFromNodeList($nodes, 'recipeInstructions');
-	}
+    protected function fetchRecipeInstructions(\DOMNodeList $nodes)
+    {
+        return $this->itemFromNodeList($nodes, 'recipeInstructions');
+    }
 
-	protected function formatCookTime($value) {
-		if (! $value) {
-			return $value;
-		}
+    protected function formatCookTime($value)
+    {
+        if (! $value) {
+            return $value;
+        }
 
-		return \DateInterval::createFromDateString($value);
-	}
+        return \DateInterval::createFromDateString($value);
+    }
 
-	protected function formatPrepTime($value) {
-		if (! $value) {
-			return $value;
-		}
+    protected function formatPrepTime($value)
+    {
+        if (! $value) {
+            return $value;
+        }
 
-		return \DateInterval::createFromDateString($value);
-	}
+        return \DateInterval::createFromDateString($value);
+    }
 
-	protected function formatTotalTime($value) {
-		if (! $value) {
-			return $value;
-		}
+    protected function formatTotalTime($value)
+    {
+        if (! $value) {
+            return $value;
+        }
 
-		return \DateInterval::createFromDateString($value);
-	}
+        return \DateInterval::createFromDateString($value);
+    }
 }

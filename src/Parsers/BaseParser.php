@@ -290,22 +290,22 @@ abstract class BaseParser implements Parser
          * Array_values is used to re-index the array and keep phpunit quiet.
          * In particular, this is necessary for PaulaDeen.com.
          */
-        $value = array_values( array_filter( $value, function( $value ) {
-            $value = trim( Normalize::spaces( $value ) );
+        $value = array_values(array_filter($value, function ($value) {
+            $value = trim(Normalize::spaces($value));
 
-            return ! empty( $value );
-        } ) );
+            return ! empty($value);
+        }));
 
         return $value;
     }
 
     protected function looksLikeGroupTitle($value)
     {
-        if ( ':' === substr( $value, -1 ) ) {
+        if (':' === substr($value, -1)) {
             return true;
         }
 
-        if ( strtoupper( $value ) === $value ) {
+        if (strtoupper($value) === $value) {
             return true;
         }
 
@@ -336,10 +336,10 @@ abstract class BaseParser implements Parser
         $counter = 0;
 
         // There are titles, but the first group is title-less.
-        if ( 0 !== $titles[0] ) {
+        if (0 !== $titles[0]) {
             $groups[] = [
                 'title' => '',
-                'data' => array_slice( $values, 0, $titles[0] )
+                'data' => array_slice($values, 0, $titles[0])
             ];
         }
 
@@ -384,7 +384,8 @@ abstract class BaseParser implements Parser
         return $this->listFromNodeList($nodes, 'recipeInstructions');
     }
 
-    protected function formatCookTime($value) {
+    protected function formatCookTime($value)
+    {
         if (! $value) {
             return $value;
         }
@@ -392,7 +393,8 @@ abstract class BaseParser implements Parser
         return new \DateInterval($value);
     }
 
-    protected function formatPrepTime($value) {
+    protected function formatPrepTime($value)
+    {
         if (! $value) {
             return $value;
         }
@@ -410,7 +412,8 @@ abstract class BaseParser implements Parser
         return $this->createListGroups($instructions);
     }
 
-    protected function formatTotalTime($value) {
+    protected function formatTotalTime($value)
+    {
         if (! $value) {
             return $value;
         }

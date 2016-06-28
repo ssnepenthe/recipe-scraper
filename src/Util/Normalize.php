@@ -101,7 +101,7 @@ class Normalize
         $value = trim(static::numbers(strtolower($value)));
 
         // Strip the serving size from myrecipes.com.
-        $value = preg_replace( '/\(.*\)/', '', $value );
+        $value = preg_replace('/\(.*\)/', '', $value);
 
         $value = preg_replace(
             '/\s?(yield|serving|serve|make)s?:?\.?\s?/',

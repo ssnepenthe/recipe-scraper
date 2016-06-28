@@ -37,21 +37,21 @@ class FoodNetworkCom extends SchemaOrg
 
     protected function stripPhotoCreditFromInstructions(array $instructions)
     {
-        return array_filter($instructions, function($value) {
+        return array_filter($instructions, function ($value) {
             return 1 !== preg_match('/Photographs? by/', $value);
         });
     }
 
     protected function stripNutritionFromInstructions(array $instructions)
     {
-        return array_filter($instructions, function($value) {
+        return array_filter($instructions, function ($value) {
             return false === strpos($value, 'Per serving: ');
         });
     }
 
     protected function stripCopyrightFromInstructions(array $instructions)
     {
-        return array_filter($instructions, function($value) {
+        return array_filter($instructions, function ($value) {
             return false === strpos($value, 'Copyright');
         });
     }

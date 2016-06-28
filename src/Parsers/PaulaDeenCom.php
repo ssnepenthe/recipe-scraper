@@ -8,24 +8,25 @@ namespace SSNepenthe\RecipeParser\Parsers;
  */
 class PaulaDeenCom extends SchemaOrg
 {
-	protected function configure()
-	{
-		parent::configure();
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->config['description']['selector'] = 'meta[name="description"]';
-		$this->config['recipeIngredients']['selector'] = '[itemtype*="schema.org/Recipe"] .ingredients li';
-		$this->config['recipeInstructions']['selector'] = '[itemtype*="schema.org/Recipe"] .preparation p';
-		$this->config['url']['selector'] = 'link[rel="canonical"]:last-of-type';
-	}
+        $this->config['description']['selector'] = 'meta[name="description"]';
+        $this->config['recipeIngredients']['selector'] = '[itemtype*="schema.org/Recipe"] .ingredients li';
+        $this->config['recipeInstructions']['selector'] = '[itemtype*="schema.org/Recipe"] .preparation p';
+        $this->config['url']['selector'] = 'link[rel="canonical"]:last-of-type';
+    }
 
-	/**
-	 * Gets the first text node child and leaves the span behind.
-	 *
-	 * @param  DOMNodeList $nodelist List of node retrieved from DOM.
-	 *
-	 * @return string
-	 */
-	protected function fetchName( $nodelist ) {
-		return $nodelist->item(0)->childNodes->item(0)->nodeValue;
-	}
+    /**
+     * Gets the first text node child and leaves the span behind.
+     *
+     * @param  DOMNodeList $nodelist List of node retrieved from DOM.
+     *
+     * @return string
+     */
+    protected function fetchName($nodelist)
+    {
+        return $nodelist->item(0)->childNodes->item(0)->nodeValue;
+    }
 }

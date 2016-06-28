@@ -8,14 +8,14 @@ namespace SSNepenthe\RecipeParser\Parsers;
  */
 class MarthaStewartCom extends SchemaOrg
 {
-	protected function configure()
-	{
-		parent::configure();
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->config['image']['selector'] = '[itemprop="image"] + noscript>img';
-		$this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
-		$this->config['recipeInstructions']['selector'] = '.directions-item-text';
-		$this->config['recipeYield']['selector'] = '.mslo-credits:last-child';
-		$this->config['url']['selector'] = '[rel="canonical"]';
-	}
+        $this->config['image']['selector'] = '[itemprop="image"] + noscript>img';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeInstructions']['selector'] = '.directions-item-text';
+        $this->config['recipeYield']['selector'] = '.mslo-credits:last-child';
+        $this->config['url']['selector'] = '[rel="canonical"]';
+    }
 }

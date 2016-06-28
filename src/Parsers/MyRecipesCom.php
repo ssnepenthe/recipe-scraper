@@ -10,14 +10,14 @@ namespace SSNepenthe\RecipeParser\Parsers;
  */
 class MyRecipesCom extends SchemaOrg
 {
-	protected function configure()
-	{
-		parent::configure();
+    protected function configure()
+    {
+        parent::configure();
 
-		$this->config['author']['selector'] = '[itemprop="author"] .field-author';
-		$this->config['publisher']['selector'] = '.field-sponsor';
-		$this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] p';
-		$this->config['totalTime']['selector'] = '.recipe-totaltime-duration';
-		$this->config['url']['selector'] = '[rel="canonical"]';
-	}
+        $this->config['author']['selector'] = '[itemprop="author"] .field-author';
+        $this->config['publisher']['selector'] = '.field-sponsor';
+        $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] p';
+        $this->config['totalTime']['selector'] = '.recipe-totaltime-duration';
+        $this->config['url']['selector'] = '[rel="canonical"]';
+    }
 }
