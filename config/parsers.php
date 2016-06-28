@@ -2,6 +2,7 @@
 
 return [
     'allrecipes.com'      => 'SSNepenthe\\RecipeParser\\Parsers\\AllRecipesCom',
+    'bbonline.com'        => 'SSNepenthe\\RecipeParser\\Parsers\\BBOnlineCom',
     'bettycrocker.com'    => 'SSNepenthe\\RecipeParser\\Parsers\\BettyCrockerCom',
     'bhg.com'             => 'SSNepenthe\\RecipeParser\\Parsers\\BHGCom',
     'delish.com'          => 'SSNepenthe\\RecipeParser\\Parsers\\DelishCom',

@@ -103,8 +103,9 @@ class Normalize
         // Strip the serving size from myrecipes.com.
         $value = preg_replace('/\(.*\)/', '', $value);
 
+        // Guests is stripped for bbonline.com.
         $value = preg_replace(
-            '/\s?(yield|serving|serve|make)s?:?\.?\s?/',
+            '/\s?(yield|serving|serve|make|guest)s?:?\.?\s?/',
             '',
             $value
         );
