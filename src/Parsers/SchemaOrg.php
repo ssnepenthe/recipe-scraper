@@ -2,9 +2,6 @@
 
 namespace SSNepenthe\RecipeParser\Parsers;
 
-use SSNepenthe\RecipeParser\Util\Format;
-use SSNepenthe\RecipeParser\Util\Normalize;
-
 class SchemaOrg extends BaseParser
 {
     protected function configure()
