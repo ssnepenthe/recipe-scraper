@@ -4,7 +4,7 @@
  * slightly to better match implementations found in the wild.
  */
 
-namespace SSNepenthe\RecipeParser\Schema;
+namespace SSNepenthe\RecipeScraper\Schema;
 
 /**
  * This class represents a CreativeWork object as defined by schema.org. It has

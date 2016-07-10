@@ -11,7 +11,7 @@ class RecipeTest extends PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->recipe = new SSNepenthe\RecipeParser\Schema\Recipe;
+        $this->recipe = new SSNepenthe\RecipeScraper\Schema\Recipe;
     }
 
     public function test_set_up_properties()

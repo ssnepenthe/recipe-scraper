@@ -4,7 +4,7 @@
  * implementations found in the wild.
  */
 
-namespace SSNepenthe\RecipeParser\Schema;
+namespace SSNepenthe\RecipeScraper\Schema;
 
 /**
  * This class represents a Recipe object as defined by schema.org. It has been

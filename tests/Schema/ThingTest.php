@@ -7,7 +7,7 @@ class ThingTest extends PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->thing = new SSNepenthe\RecipeParser\Schema\Thing;
+        $this->thing = new SSNepenthe\RecipeScraper\Schema\Thing;
     }
 
     public function test_correctly_set_up_properties()
