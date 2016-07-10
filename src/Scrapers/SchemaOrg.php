@@ -3,6 +3,7 @@
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
 use SSNepenthe\RecipeScraper\Formatters\Multi;
+use SSNepenthe\RecipeScraper\Normalizers\Image;
 use SSNepenthe\RecipeScraper\Normalizers\Space;
 use SSNepenthe\RecipeScraper\Normalizers\Author;
 use SSNepenthe\RecipeScraper\Normalizers\Number;
@@ -43,6 +44,13 @@ class SchemaOrg extends BaseScraper
             ],
             'image' => [
                 'selector' => '[itemtype*="schema.org/Recipe"] [itemprop="image"]',
+                'normalizers' => [
+                    Fraction::class,
+                    EndOfLine::class,
+                    SingleLine::class,
+                    Space::class,
+                    Image::class,
+                ],
             ],
             'name' => [
                 'selector' => '[itemtype*="schema.org/Recipe"] [itemprop="name"]',
