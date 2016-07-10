@@ -2,6 +2,7 @@
 
 return [
     'allrecipes.com'       => 'AllRecipesCom',
+    'bbonline.com'         => 'BBOnlineCom',
     'bettycrocker.com'     => 'BettyCrockerCom',
     'bhg.com'              => 'BHGCom',
     'cookingchanneltv.com' => 'CookingChannelTVCom',

@@ -30,6 +30,21 @@ class RecipeYieldTest extends PHPUnit_Framework_TestCase
         );
     }
 
+    public function test_strip_guest()
+    {
+        $strings = [
+            '8 Guest',
+            '8 guest',
+            '8 Guests',
+            '8 guests',
+        ];
+
+        $this->assertEquals(
+            array_fill(0, count($strings), '8'),
+            $this->normalizer->normalize($strings)
+        );
+    }
+
     public function test_strip_serve()
     {
         $strings = [

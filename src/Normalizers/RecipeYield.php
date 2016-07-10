@@ -16,7 +16,7 @@ class RecipeYield implements Normalizer {
                     // Everything in parens - handles serving size for myrecipes.com.
                     '/\(.*\)/',
                     // Misc. keywords, space and punctuation.
-                    '/\s?(make|serve|serving|yield)s?:?\.?\s?/i',
+                    '/\s?(guest|make|serve|serving|yield)s?:?\.?\s?/i',
                 ],
                 '',
                 $v
