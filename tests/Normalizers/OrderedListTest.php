@@ -19,33 +19,9 @@ class OrderedListTest extends PHPUnit_Framework_TestCase
         );
     }
 
-    public function test_strip_leading_digit_colon()
-    {
-        $this->assertEquals(
-            ['Test list item.'],
-            $this->normalizer->normalize(['1: Test list item.'])
-        );
-    }
-
-    public function test_strip_leading_digit_paren()
-    {
-        $this->assertEquals(
-            ['Test list item.'],
-            $this->normalizer->normalize(['1) Test list item.'])
-        );
-    }
-
-    public function test_do_not_strip_leading_digit_without_punctuation()
-    {
-        $this->assertEquals(
-            ['1 Test list item.'],
-            $this->normalizer->normalize(['1 Test list item.'])
-        );
-    }
-
     public function test_normalize_multiple_values()
     {
-        $strings = ['1. List Item', '2) List Item', '3: List Item'];
+        $strings = ['1. List Item', '2. List Item', '3. List Item'];
         $normalized = array_fill(0, count($strings), 'List Item');
 
         $this->assertEquals(

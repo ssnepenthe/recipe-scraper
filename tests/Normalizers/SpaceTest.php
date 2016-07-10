@@ -20,14 +20,18 @@ class SpaceTest extends PHPUnit_Framework_TestCase
             "\xE2\x80\x8A", "\xE2\x80\xAF", "\xE2\x81\x9F", "\xE3\x80\x80"
         ];
 
+        foreach ($characters as $key => $value) {
+            $characters[ $key ] = 'a' . $value . 'b';
+        }
+
         $this->assertEquals(
-            array_fill(0, count($characters), ' '),
+            array_fill(0, count($characters), 'a b'),
             $this->normalizer->normalize($characters)
         );
     }
 
     public function test_replace_multiple_spaces_with_single_space()
     {
-        $this->assertEquals([' '], $this->normalizer->normalize(['   ']));
+        $this->assertEquals(['a b'], $this->normalizer->normalize(['a   b']));
     }
 }
