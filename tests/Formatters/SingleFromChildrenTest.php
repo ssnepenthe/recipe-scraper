@@ -22,9 +22,7 @@ class SingleFromChildrenTest extends CachedHTTPTestCase
         $config = ['locations' => ['_text', 'content']];
 
         $this->assertEquals(
-            [
-			    'coconut oil, for grilling 2 cups garlic scapes 2 cups packed kale leaves 1/2 cup olive oil 1/2 cup grated Parmesan or pecorino Romano cheese 1/4 teaspoon salt 1/8 teaspoon freshly ground black pepper 1 pound (4 filets) wild salmon, skin intact 1 pound yellow squash, sliced into ¼-inch strips',
-            ],
+            ['coconut oil, for grilling'],
             $this->formatter->format($filtered, $config)
         );
     }
