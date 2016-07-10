@@ -1,32 +1,28 @@
 {
-  "name": "ssnepenthe/recipe-parser",
-  "description": "A recipe parsing library.",
-  "homepage": "https://github.com/ssnepenthe/recipe-parser",
+  "name": "ssnepenthe/recipe-scraper",
+  "description": "A recipe scraping library.",
+  "homepage": "https://github.com/ssnepenthe/recipe-scraper",
   "license": "GPL-2.0",
   "require": {
     "php": ">=5.4",
-    "doctrine/cache": "^1.6",
-    "jonnyw/php-phantomjs": "^4.4",
-    "symfony/console": "~2.7||~3.0",
-    "symfony/css-selector": "^3.0"
+    "fabpot/goutte": "^3.1"
   },
   "require-dev": {
     "psy/psysh": "^0.7",
     "squizlabs/php_codesniffer": "^2.6",
-    "phpunit/phpunit": "^5.3"
+    "phpunit/phpunit": "^5.3",
+    "phpmd/phpmd": "^2.4"
+  },
+  "suggest": {
+    "doctrine/cache": "Providers which can be used to cache client responses.",
+    "kevinrob/guzzle-cache-middleware": "Caching middleware for Guzzle."
   },
   "autoload": {
-    "psr-4": { "SSNepenthe\\RecipeParser\\": "src/" }
+    "psr-4": { "SSNepenthe\\RecipeScraper\\": "src/" }
   },
   "autoload-dev": {
     "classmap": [
-      "tests/CacheableHTTPTestCase.php",
-      "tests/Parsers/ParserTestCase.php"
+      "tests/CachedHTTPTestCase.php"
     ]
-  },
-  "scripts": {
-    "post-install-cmd": "PhantomInstaller\\Installer::installPhantomJS",
-    "post-update-cmd": "PhantomInstaller\\Installer::installPhantomJS"
-  },
-  "bin": ["bin/recipe"]
+  }
 }
