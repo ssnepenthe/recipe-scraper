@@ -7,7 +7,7 @@ class CreativeWorkTest extends PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->creative_work = new SSNepenthe\RecipeParser\Schema\CreativeWork;
+        $this->creative_work = new SSNepenthe\RecipeScraper\Schema\CreativeWork;
     }
 
     public function test_correctly_set_up_properties()
