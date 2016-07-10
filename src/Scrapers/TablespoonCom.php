@@ -20,7 +20,7 @@ class TablespoonCom extends SchemaOrg
         $this->config['author']['locations'] = ['_text'];
         $this->config['description']['selector'] = 'meta[name="description"]';
         $this->config['image']['selector'] = '.recipePartRecipeImage img';
-        $this->config['recipeIngredients']['selector'] = '.recipePartIngredientGroup h2, .recipePartIngredientGroup dl';
-        $this->config['url']['selector'] = 'link[rel="canonical"]';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['url']['selector'] = '[rel="canonical"]';
     }
 }
