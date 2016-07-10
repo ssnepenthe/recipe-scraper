@@ -3,8 +3,9 @@
 namespace SSNepenthe\RecipeScraper\Formatters;
 
 use Symfony\Component\DomCrawler\Crawler;
+use SSNepenthe\RecipeScraper\Interfaces\Formatter;
 
-class SingleFromChildren {
+class SingleFromChildren implements Formatter {
 	public function format(Crawler $crawler, array $config) {
 		$locations = $config['locations'];
 
@@ -48,6 +49,6 @@ class SingleFromChildren {
 			return implode(' ', $values);
 		});
 
-		return [ implode(' ', array_filter($return)) ];
+		return [array_shift($return)];
 	}
 }
