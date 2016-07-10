@@ -1,0 +1,51 @@
+<?php
+
+use SSNepenthe\RecipeScraper\Scrapers\SpryLivingCom;
+use SSNepenthe\RecipeScraper\Schema\Recipe;
+
+class SpryLivingComTest extends CachedHTTPTestCase
+{
+    public function test_parse_a_standard_recipe()
+    {
+        $recipe = new Recipe;
+        $recipe->setAuthor('Our Cookbook Collection');
+        $recipe->setImage('http://i2.wp.com/spryliving.com/wp-content/uploads/2016/05/unnamed.jpg?resize=670%2C405');
+        $recipe->setName('Grilled Salmon with Garlic-Kale Pesto and Summer Squash');
+        $recipe->setRecipeIngredients([
+            [
+                'title' => '',
+                'data'  => [
+					'coconut oil, for grilling',
+					'2 cups garlic scapes',
+					'2 cups packed kale leaves',
+					'1/2 cup olive oil',
+					'1/2 cup grated Parmesan or pecorino Romano cheese',
+					'1/4 teaspoon salt',
+					'1/8 teaspoon freshly ground black pepper',
+					'1 pound (4 filets) wild salmon, skin intact',
+					'1 pound yellow squash, sliced into 1/4-inch strips',
+                ],
+            ],
+        ]);
+        $recipe->setRecipeInstructions([
+            [
+                'title' => '',
+                'data'  => [
+					'Oil a grill with coconut oil and preheat the grill over high heat.',
+					'Put the garlic scapes, kale, olive oil, cheese, salt, and pepper in a food processor or blender and process until finely chopped. Divide the pesto in half and reserve one-half for another use.',
+					'Place the salmon on the grill, flesh side down, and grill 3 to 4 minutes. Turn the salmon, and place the squash slices on the grill. Brush the pesto over the salmon and the squash. Grill the squash, turning it occasionally, for 4 to 5 minutes until cooked through. Grill the salmon 4 to 5 minutes until the skin crisps but the center is still medium. Transfer to a plate and serve immediately.',
+                ],
+            ],
+        ]);
+        $recipe->setRecipeYield('4');
+        $recipe->setUrl('http://spryliving.com/recipes/grilled-salmon-with-pesto/');
+
+        $crawler = $this->client->request(
+            'GET',
+            'http://spryliving.com/recipes/grilled-salmon-with-pesto/'
+        );
+        $scraper = new SpryLivingCom($crawler);
+
+        $this->assertEquals($recipe, $scraper->scrape());
+    }
+}
