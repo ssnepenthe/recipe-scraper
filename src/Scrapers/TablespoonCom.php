@@ -17,17 +17,10 @@ class TablespoonCom extends SchemaOrg
     {
         parent::applyScraperConfig();
 
-<<<<<<< HEAD:src/Parsers/TablespoonCom.php
-        $this->config['author']['locations'] = ['nodeValue'];
-        $this->config['image']['selector'] = '.recipePartRecipeImage img';
-        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
-        $this->config['url']['selector'] = 'link[rel="canonical"]';
-=======
         $this->config['author']['locations'] = ['_text'];
         $this->config['description']['selector'] = 'meta[name="description"]';
         $this->config['image']['selector'] = '.recipePartRecipeImage img';
         $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
         $this->config['url']['selector'] = '[rel="canonical"]';
->>>>>>> develop:src/Scrapers/TablespoonCom.php
     }
 }
