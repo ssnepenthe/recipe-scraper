@@ -2,9 +2,6 @@
 
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
-use SSNepenthe\RecipeParser\Util\Format;
-use SSNepenthe\RecipeParser\Util\Normalize;
-
 /**
  * @todo Potentially more categories available with javascript support.
  */

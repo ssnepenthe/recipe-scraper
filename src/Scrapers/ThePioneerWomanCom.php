@@ -32,9 +32,4 @@ class ThePioneerWomanCom extends SchemaOrg
 
         $this->config['recipeInstructions']['normalizers'][] = SplitOnEOL::class;
     }
-
-    protected function fetchRecipeInstructions(\DOMNodeList $nodes)
-    {
-        return $this->itemFromNodeList($nodes, 'recipeInstructions');
-    }
 }
