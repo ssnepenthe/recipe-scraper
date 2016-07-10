@@ -35,6 +35,30 @@ class AuthorTest extends PHPUnit_Framework_TestCase
         );
     }
 
+    public function test_strip_capital_recipe_by()
+    {
+        $this->assertEquals(
+            ['Some Guy'],
+            $this->normalizer->normalize(['Recipe By Some Guy'])
+        );
+    }
+
+    public function test_strip_lowercase_recipe_by()
+    {
+        $this->assertEquals(
+            ['Some Guy'],
+            $this->normalizer->normalize(['recipe by Some Guy'])
+        );
+    }
+
+    public function test_strip_recipe_by_colon()
+    {
+        $this->assertEquals(
+            ['Some Guy'],
+            $this->normalizer->normalize(['Recipe By: Some Guy'])
+        );
+    }
+
     public function test_normalize_multiple_values()
     {
         $strings = [
