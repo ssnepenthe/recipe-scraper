@@ -2,6 +2,7 @@
 
 namespace SSNepenthe\RecipeScraper\Interfaces;
 
-interface Normalizer {
-	public function normalize(array $value);
+interface Normalizer
+{
+    public function normalize(array $value);
 }

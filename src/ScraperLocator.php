@@ -34,7 +34,7 @@ class ScraperLocator
             dirname(__DIR__)
         );
 
-        $this->parsers = array_map(function($value) {
+        $this->parsers = array_map(function ($value) {
             return sprintf('SSNepenthe\\RecipeScraper\\Scrapers\\%s', $value);
         }, $this->parsers);
     }

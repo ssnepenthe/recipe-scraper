@@ -2,6 +2,7 @@
 
 namespace SSNepenthe\RecipeScraper\Interfaces;
 
-interface Transformer {
-	public function transform(array $values);
+interface Transformer
+{
+    public function transform(array $values);
 }

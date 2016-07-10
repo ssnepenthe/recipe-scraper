@@ -14,7 +14,7 @@ class JustATasteCom extends SchemaOrg
         $this->config['image']['selector'] = '.blog p:first-child img';
         $this->config['recipeCategories']['locations'] = ['_text'];
         $this->config['recipeCategories']['selector'] = '.category-link-single';
-		$this->config['recipeIngredients']['formatter'] = MultiFromChildren::class;
+        $this->config['recipeIngredients']['formatter'] = MultiFromChildren::class;
         $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] p';
         $this->config['url']['selector'] = '[rel="canonical"]';
     }

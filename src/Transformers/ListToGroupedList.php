@@ -6,9 +6,9 @@ use SSNepenthe\RecipeScraper\Interfaces\Transformer;
 
 class ListToGroupedList implements Transformer
 {
-	public function transform(array $values)
-	{
-		$titles = [];
+    public function transform(array $values)
+    {
+        $titles = [];
 
         foreach ($values as $key => $value) {
             if (! $this->looksLikeGroupTitle($value)) {
@@ -42,9 +42,9 @@ class ListToGroupedList implements Transformer
 
             // Remove colon and extra space, capitalize first letter of words.
             $title = ucfirst(strtolower(trim(str_replace(
-            	':',
-            	'',
-            	$values[ $position ]
+                ':',
+                '',
+                $values[ $position ]
             ))));
 
             $groups[] = [
@@ -58,9 +58,9 @@ class ListToGroupedList implements Transformer
         }
 
         return $groups;
-	}
+    }
 
-	protected function looksLikeGroupTitle($value)
+    protected function looksLikeGroupTitle($value)
     {
         if (':' === substr($value, -1)) {
             return true;

@@ -67,7 +67,7 @@ abstract class BaseScraper implements Scraper
                 ];
             }
 
-            if(! isset($value['transformer'])) {
+            if (! isset($value['transformer'])) {
                 $this->config[ $key ]['transformer'] = NullTransformer::class;
             }
         }
@@ -125,16 +125,14 @@ abstract class BaseScraper implements Scraper
                 }
             });
 
-            if (
-                ! is_array($value['normalizers']) ||
+            if (! is_array($value['normalizers']) ||
                 empty($value['normalizers'])
             ) {
                 // @todo
                 throw new \InvalidArgumentException();
             }
 
-            if (
-                ! isset($value['selector']) ||
+            if (! isset($value['selector']) ||
                 ! is_string($value['selector'])
             ) {
                 // @todo
@@ -176,8 +174,7 @@ abstract class BaseScraper implements Scraper
              * unless we have specifically set a 'multi' formatter.
              */
             // dump($value);
-            if (
-                1 === count($value) &&
+            if (1 === count($value) &&
                 false === strpos(get_class($config['formatter']), 'Multi')
             ) {
                 $value = $value[0];

@@ -4,9 +4,11 @@ namespace SSNepenthe\RecipeScraper\Normalizers;
 
 use SSNepenthe\RecipeScraper\Interfaces\Normalizer;
 
-class Space implements Normalizer {
-    public function normalize(array $values) {
-        return array_map(function($v) {
+class Space implements Normalizer
+{
+    public function normalize(array $values)
+    {
+        return array_map(function ($v) {
             $v = str_replace(['&nbsp;', '&#160;'], ' ', $v);
 
             $search = [

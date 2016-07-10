@@ -4,10 +4,12 @@ namespace SSNepenthe\RecipeScraper\Normalizers;
 
 use SSNepenthe\RecipeScraper\Interfaces\Normalizer;
 
-class SplitOnComma implements Normalizer {
-    public function normalize(array $values) {
+class SplitOnComma implements Normalizer
+{
+    public function normalize(array $values)
+    {
         $normalized = [];
-        $values = array_map(function($v) {
+        $values = array_map(function ($v) {
             $v = array_map(
                 'trim',
                 explode(',', $v)
