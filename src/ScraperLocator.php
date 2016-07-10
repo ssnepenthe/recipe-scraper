@@ -30,7 +30,7 @@ class ScraperLocator
         }
 
         $this->parsers = require sprintf(
-            '%s/config/parsers.php',
+            '%s/config/scrapers.php',
             dirname(__DIR__)
         );
 
