@@ -3,17 +3,23 @@
   xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.5/phpunit.xsd"
   colors="true">
   <testsuites>
-    <testsuite name="Core">
+    <testsuite name="All">
       <directory phpVersion="5.4.0" suffix="Test.php">tests</directory>
     </testsuite>
-    <testsuite name="Schema">
-      <directory phpVersion="5.4.0" suffix="Test.php">tests/Parsers</directory>
+    <testsuite name="Formatters">
+      <directory phpVersion="5.4.0" suffix="Test.php">tests/Formatters</directory>
+    </testsuite>
+    <testsuite name="Normalizers">
+      <directory phpVersion="5.4.0" suffix="Test.php">tests/Normalizers</directory>
     </testsuite>
     <testsuite name="Schema">
       <directory phpVersion="5.4.0" suffix="Test.php">tests/Schema</directory>
     </testsuite>
-    <testsuite name="Util">
-      <directory phpVersion="5.4.0" suffix="Test.php">tests/Util</directory>
+    <testsuite name="Scrapers">
+      <directory phpVersion="5.4.0" suffix="Test.php">tests/Scrapers</directory>
+    </testsuite>
+    <testsuite name="Transformers">
+      <directory phpVersion="5.4.0" suffix="Test.php">tests/Transformers</directory>
     </testsuite>
   </testsuites>
 </phpunit>
