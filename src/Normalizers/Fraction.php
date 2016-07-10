@@ -5,7 +5,7 @@ namespace SSNepenthe\RecipeScraper\Normalizers;
 use SSNepenthe\RecipeScraper\Interfaces\Normalizer;
 
 class Fraction implements Normalizer {
-	public function normalize(array $value) {
+	public function normalize(array $values) {
 		return array_map(function($v) {
 			// Add a space if necessary, "1¼" -> "1 ¼"
 	        $v = preg_replace(
@@ -21,7 +21,7 @@ class Fraction implements Normalizer {
 	            $v
 	        );
 
-	        return $v;
-		}, $value);
+	        return trim($v);
+		}, $values);
 	}
 }

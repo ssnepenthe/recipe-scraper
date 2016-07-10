@@ -9,16 +9,18 @@ use SSNepenthe\RecipeScraper\Interfaces\Normalizer;
  *       Would be required to have run through number normalizer first though.
  */
 class RecipeYield implements Normalizer {
-    public function normalize(array $value) {
+    public function normalize(array $values) {
         return array_map(function($v) {
             return trim(preg_replace(
                 [
-                    '/\(.*\)/', // Serving size (aka everything in parens) for myrecipes.com.
-                    '/\s?(make|serve|serving|yield)s?:?\.?\s?/i', // Misc. keywords, space and punctuation.
+                    // Everything in parens - handles serving size for myrecipes.com.
+                    '/\(.*\)/',
+                    // Misc. keywords, space and punctuation.
+                    '/\s?(make|serve|serving|yield)s?:?\.?\s?/i',
                 ],
                 '',
                 $v
             ));
-        }, $value);
+        }, $values);
     }
 }

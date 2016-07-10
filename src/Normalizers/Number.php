@@ -5,7 +5,7 @@ namespace SSNepenthe\RecipeScraper\Normalizers;
 use SSNepenthe\RecipeScraper\Interfaces\Normalizer;
 
 class Number implements Normalizer {
-	public function normalize(array $value) {
+	public function normalize(array $values) {
 		return array_map(function($v) {
 			$words = [
 	            'twenty', 'nineteen', 'eighteen', 'seventeen', 'sixteen',
@@ -19,7 +19,7 @@ class Number implements Normalizer {
 	            '10', '9', '8', '7', '6', '5', '4', '3', '2', '1'
 	        ];
 
-	        return str_replace($words, $digits, $v);
-		}, $value);
+	        return trim(str_replace($words, $digits, $v));
+		}, $values);
 	}
 }

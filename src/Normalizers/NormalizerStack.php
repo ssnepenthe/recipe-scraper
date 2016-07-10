@@ -11,11 +11,12 @@ class NormalizerStack {
 		$this->normalizers[] = $normalizer;
 	}
 
-	public function normalize(array $value) {
+	public function normalize(array $values) {
 		foreach ($this->normalizers as $normalizer) {
-			$value = $normalizer->normalize($value);
+			$values = $normalizer->normalize($values);
 		}
 
-		return $value;
+		// Remove falsey values and reindex before returning.
+		return array_values(array_filter($values));
 	}
 }
