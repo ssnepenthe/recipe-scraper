@@ -37,8 +37,10 @@ abstract class BaseScraper implements Scraper
     protected function applyConfigDefaults()
     {
         if (! is_array($this->config)) {
-            // @todo
-            throw new \RuntimeException();
+            throw new \RuntimeException(sprintf(
+                'The scraper config is required to be array, was: %s',
+                gettype($this->config)
+            ));
         }
 
         foreach ($this->config as $key => $value) {
@@ -100,8 +102,10 @@ abstract class BaseScraper implements Scraper
             array_keys($this->config),
             $this->recipe->getKeys()
         ))) {
-            // @todo
-            throw new \RuntimeException();
+            throw new \RuntimeException(sprintf(
+                'Scraper is attempting to set the following invalid keys: %s',
+                implode(', ', $invalid)
+            ));
         }
 
         foreach ($this->config as $key => $value) {
@@ -109,42 +113,51 @@ abstract class BaseScraper implements Scraper
                 Formatter::class,
                 class_implements($value['formatter'])
             )) {
-                // @todo
-                throw new \RuntimeException();
+                throw new \RuntimeException(sprintf(
+                    '%s must implement SSNepenthe\\RecipeScraper\\Interfaces\\Formatter',
+                    $value['formatter']
+                ));
             }
 
             if (! is_array($value['locations']) || empty($value['locations'])) {
-                // @todo
-                throw new \RuntimeException();
+                throw new \RuntimeException(
+                    'Locations entry must be an array containing one or more locations.'
+                );
             }
 
             array_walk($value['locations'], function ($v, $k) {
                 if (! is_string($v)) {
-                    // @todo
-                    throw new \RuntimeException();
+                    throw new \RuntimeException(sprintf(
+                        'Locations array must only contain strings, %s found.',
+                        gettype($v)
+                    ));
                 }
             });
 
             if (! is_array($value['normalizers']) ||
                 empty($value['normalizers'])
             ) {
-                // @todo
-                throw new \InvalidArgumentException();
+                throw new \RuntimeException(
+                    'Normalizers entry must be an array containing one or more normalizers.'
+                );
             }
 
             if (! isset($value['selector']) ||
                 ! is_string($value['selector'])
             ) {
-                // @todo
-                throw new \RuntimeException();
+                throw new \RuntimeException(
+                    'Each config entry must contain a selector string.'
+                );
             }
 
             if (! in_array(
                 Transformer::class,
                 class_implements($value['transformer'])
             )) {
-                // @todo
-                throw new \RuntimeException();
+                throw new \RuntimeException(sprintf(
+                    '%s must implement SSNepenthe\\RecipeScraper\\Interfaces\\Transformer',
+                    $value['transformer']
+                ));
             }
         }
     }
