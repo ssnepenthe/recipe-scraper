@@ -12,7 +12,7 @@ class MarthaStewartCom extends SchemaOrg
     {
         parent::applyScraperConfig();
 
-        $this->config['image']['selector'] = '[itemprop="image"] + noscript>img';
+        $this->config['image']['selector'] = '[itemprop="image"] + noscript > img';
         $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
         $this->config['recipeInstructions']['selector'] = '.directions-item-text';
         $this->config['recipeYield']['selector'] = '.mslo-credits:last-child';

@@ -16,7 +16,7 @@ class BHGCom extends SchemaOrg
 
         // They are labeling times as cookingMethod so just use a fake selector.
         $this->config['cookingMethod']['selector'] = '.fake-selector';
-        $this->config['image']['selector'] = '[itemtype*="schema.org/Recipe"] [itemprop="thumbnail"]';
+        $this->config['image']['selector'] = '[property="og:image"]';
         $this->config['name']['selector'] = 'h1[itemprop="name"]';
         $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] li';
     }

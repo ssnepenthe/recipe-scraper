@@ -10,7 +10,7 @@ class TablespoonComTest extends CachedHTTPTestCase
         $recipe = new Recipe;
         $recipe->setAuthor('Daring Gourmet');
         $recipe->setDescription('A BALT (bacon, avocado, lettuce, tomato) sandwich with a balsamic reduction drizzle is great for snack time or meal time.');
-        $recipe->setImage('http://images.edge-generalmills.com/119bc525-b6c4-4dfb-ac8f-08e55ab8a1ba.jpg');
+        $recipe->setImage('http://images-gmi-pmc.edge-generalmills.com/b1ab8df2-c235-4cd9-a577-723a5d3c2f3a.jpg');
         $recipe->setName('Bacon-Avocado-Lettuce-Tomato Snack Sandwich');
         $recipe->setRecipeIngredients([
             [

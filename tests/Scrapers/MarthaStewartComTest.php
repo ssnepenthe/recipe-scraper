@@ -9,7 +9,7 @@ class MarthaStewartComTest extends CachedHTTPTestCase
     {
         $recipe = new Recipe;
         $recipe->setDescription('Unlike traditional Caesar salad, ours uses no oil in the dressing. Instead, it relies on tangy low-fat buttermilk. Multigrain croutons also help save on calories and splurge on flavor.');
-        $recipe->setImage('http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d26/med102917_0507_cesearsalad/med102917_0507_cesearsalad_vert.jpg?itok=JxEad2Ps');
+        $recipe->setImage('http://assets.marthastewart.com/styles/wmax-520-highdpi/d26/med102917_0507_cesearsalad/med102917_0507_cesearsalad_vert.jpg?itok=_s2SNifv');
         $recipe->setName('Buttermilk Chicken Caesar Salad');
         $recipe->setPrepTime(new DateInterval('PT15M'));
         $recipe->setRecipeIngredients([

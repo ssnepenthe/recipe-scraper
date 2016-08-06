@@ -8,7 +8,7 @@ class BHGComTest extends CachedHTTPTestCase
     public function test_parse_a_standard_recipe()
     {
         $recipe = new Recipe;
-        $recipe->setAuthor('Editors of Better Homes & Gardens');
+        $recipe->setAuthor('Better Homes and Gardens');
         $recipe->setCookTime(new DateInterval('PT240M'));
         $recipe->setDescription('For more of the flavor of Germany, heat Bavarian-style sauerkraut to serve along with the well-seasoned pork and tangy gravy.');
         $recipe->setImage('http://images.meredith.com/content/dam/bhg/Images/recipe/38/37352.jpg.rendition.largest.ss.jpg');

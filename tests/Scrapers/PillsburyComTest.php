@@ -3,14 +3,14 @@
 use SSNepenthe\RecipeScraper\Scrapers\PillsburyCom;
 use SSNepenthe\RecipeScraper\Schema\Recipe;
 
-class ParserTestTemplate extends CachedHTTPTestCase
+class PillsburyComTest extends CachedHTTPTestCase
 {
     public function test_parse_a_standard_recipe()
     {
         $recipe = new Recipe;
         $recipe->setDescription('It’s a little bit enchilada, a little bit chili and a whole lot of yummy!');
         // Should be https but I don't have a great way to handle this yet.
-        $recipe->setImage('http://images.edge-generalmills.com/4a91ab4d-2734-4911-9452-f697dd42fce4.jpg');
+        $recipe->setImage('http://images-gmi-pmc.edge-generalmills.com/a7e5296a-dad5-4855-9b7d-44f58598b6b8.jpg');
         $recipe->setName('Slow-Cooker Cheesy Chicken Enchilada Chili');
         $recipe->setPrepTime(new DateInterval('PT10M'));
         $recipe->setRecipeIngredients([

@@ -9,7 +9,7 @@ class BettyCrockerComTest extends CachedHTTPTestCase
     {
         $recipe = new Recipe;
         $recipe->setDescription('Mmm! There\'s a surprise burst of creamy lemon filling inside these delicious cupcakes.');
-        $recipe->setImage('http://images.edge-generalmills.com/6b72b9bf-ff5a-461b-9f39-1a65d97cda26.jpg');
+        $recipe->setImage('http://images-gmi-pmc.edge-generalmills.com/cc01f5ab-e07f-4695-b6ba-231c8acbe219.jpg');
         $recipe->setName('Lemon Burst Cupcakes');
         $recipe->setPrepTime(new DateInterval('PT30M'));
         $recipe->setRecipeIngredients([

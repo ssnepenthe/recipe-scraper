@@ -9,7 +9,7 @@ class TasteOfHomeComTest extends CachedHTTPTestCase
     {
         $recipe = new Recipe;
         $recipe->setCookTime(new DateInterval('PT10M'));
-        $recipe->setImage('http://cdn1.tmbi.com/TOH/Images/Photos/37/300x300/exps39678_SD132779A06_11_1b.jpg');
+        $recipe->setImage('http://cdn1.tmbi.com/TOH/Images/Photos/37/1200x1200/exps39678_SD132779A06_11_1b_WEB.jpg');
         $recipe->setName('Beef & Spinach Lo Mein Recipe');
         $recipe->setPrepTime(new DateInterval('PT20M'));
         $recipe->setRecipeIngredients([
