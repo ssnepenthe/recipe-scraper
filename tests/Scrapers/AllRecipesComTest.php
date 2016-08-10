@@ -10,12 +10,8 @@ class AllRecipesComTest extends CachedHTTPTestCase
         $recipe = new Recipe;
         $recipe->setAuthor('Carol');
         $recipe->setCookTime(new \DateInterval('PT35M'));
-        $recipe->setDescription(
-            'This easy, tasty dish is perfect for a weeknight dinner.'
-        );
-        $recipe->setImage(
-            'http://images.media-allrecipes.com/userphotos/250x250/394412.jpg'
-        );
+        $recipe->setDescription('This easy, tasty dish is perfect for a weeknight dinner.');
+        $recipe->setImage('http://images.media-allrecipes.com/userphotos/250x250/394412.jpg');
         $recipe->setName('Garlic Chicken');
         $recipe->setPrepTime(new \DateInterval('PT20M'));
         $recipe->setRecipeIngredients([
