@@ -44,9 +44,16 @@ class MultiFromChildren implements Formatter
             }
 
             // Remove any lingering 'empty' elements.
-            $values = array_filter(array_map('trim', $values));
+            $value = implode(' ', array_filter(array_map('trim', $values)));
 
-            return implode(' ', $values);
+            if (in_array(
+                $node->nodeName(),
+                ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+            )) {
+                $value = '%%TITLE%%' . $value . '%%TITLE%%';
+            }
+
+            return $value;
         });
 
         return array_values(array_filter($return));
