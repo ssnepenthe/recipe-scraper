@@ -41,7 +41,7 @@ class ListToGroupedList implements Transformer
             $counter++;
 
             // Remove colon and extra space, capitalize first letter of words.
-            $title = ucfirst(strtolower(trim(str_replace(
+            $title = ucwords(strtolower(trim(str_replace(
                 ['%%TITLE%%', ':'],
                 '',
                 $values[ $position ]
