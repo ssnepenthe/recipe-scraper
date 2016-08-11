@@ -1,0 +1,28 @@
+<?php
+
+namespace SSNepenthe\RecipeScraper\Formatters;
+
+use Symfony\Component\DomCrawler\Crawler;
+use SSNepenthe\RecipeScraper\Interfaces\Formatter;
+
+abstract class Base implements Formatter
+{
+    abstract public function format(Crawler $crawler, array $config);
+
+    protected function looksLikeGroupTitle(Crawler $node)
+    {
+        if (in_array($node->nodeName(), ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])) {
+            return true;
+        }
+
+        if (false !== strpos($node->attr('class'), 'header')) {
+            return true;
+        }
+
+        if (false !== strpos($node->attr('id'), 'header')) {
+            return true;
+        }
+
+        return false;
+    }
+}

@@ -3,9 +3,8 @@
 namespace SSNepenthe\RecipeScraper\Formatters;
 
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Interfaces\Formatter;
 
-class MultiFromChildren implements Formatter
+class MultiFromChildren extends Base
 {
     public function format(Crawler $crawler, array $config)
     {
@@ -46,10 +45,7 @@ class MultiFromChildren implements Formatter
             // Remove any lingering 'empty' elements.
             $value = implode(' ', array_filter(array_map('trim', $values)));
 
-            if (in_array(
-                $node->nodeName(),
-                ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
-            )) {
+            if ($this->looksLikeGroupTitle($node)) {
                 $value = '%%TITLE%%' . $value . '%%TITLE%%';
             }
 

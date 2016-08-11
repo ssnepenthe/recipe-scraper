@@ -3,9 +3,8 @@
 namespace SSNepenthe\RecipeScraper\Formatters;
 
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Interfaces\Formatter;
 
-class Single implements Formatter
+class Single extends Base
 {
     public function format(Crawler $crawler, array $config)
     {
@@ -24,10 +23,7 @@ class Single implements Formatter
                 $values = array_filter($values[0]);
             }
 
-            if (in_array(
-                $node->nodeName(),
-                ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
-            )) {
+            if ($this->looksLikeGroupTitle($node)) {
                 $values = array_map(function($value) {
                     return '%%TITLE%%' . $value . '%%TITLE%%';
                 }, $values);
