@@ -11,9 +11,10 @@ use SSNepenthe\RecipeScraper\Interfaces\Formatter;
 use SSNepenthe\RecipeScraper\Normalizers\Fraction;
 use SSNepenthe\RecipeScraper\Normalizers\EndOfLine;
 use SSNepenthe\RecipeScraper\Interfaces\Transformer;
+use SSNepenthe\RecipeScraper\Normalizers\QuotedText;
 use SSNepenthe\RecipeScraper\Normalizers\SingleLine;
 use SSNepenthe\RecipeScraper\Normalizers\NormalizerStack;
-use SSNepenthe\RecipeScraper\Transformers\NullTransformer;
+use SSNepenthe\RecipeScraper\Transformers\Cleanup;
 
 abstract class BaseScraper implements Scraper
 {
@@ -66,11 +67,12 @@ abstract class BaseScraper implements Scraper
                     EndOfLine::class,
                     SingleLine::class,
                     Space::class,
+                    QuotedText::class,
                 ];
             }
 
             if (! isset($value['transformer'])) {
-                $this->config[ $key ]['transformer'] = NullTransformer::class;
+                $this->config[ $key ]['transformer'] = Cleanup::class;
             }
         }
     }
