@@ -16,6 +16,7 @@ use SSNepenthe\RecipeScraper\Normalizers\RecipeYield;
 use SSNepenthe\RecipeScraper\Normalizers\RecipeInstructions;
 use SSNepenthe\RecipeScraper\Transformers\ListToGroupedList;
 use SSNepenthe\RecipeScraper\Transformers\StringsToIntervals;
+use SSNepenthe\RecipeScraper\Normalizers\SpaceBetweenSentences;
 
 class SchemaOrg extends BaseScraper
 {
@@ -91,6 +92,7 @@ class SchemaOrg extends BaseScraper
                     SingleLine::class,
                     Space::class,
                     OrderedList::class,
+                    SpaceBetweenSentences::class,
                     RecipeInstructions::class,
                 ],
                 'transformer' => ListToGroupedList::class,
