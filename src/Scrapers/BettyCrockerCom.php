@@ -2,6 +2,8 @@
 
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
+use SSNepenthe\RecipeScraper\Formatters\MultiFromChildren;
+
 /**
  * @todo Can potentially get categories off of data-category attribute on ingredients.
  *       Nutrition info is there if we want it as well.
@@ -14,7 +16,7 @@ class BettyCrockerCom extends SchemaOrg
         parent::applyScraperConfig();
 
         $this->config['image']['selector'] = '.recipePartRecipeImage img';
-        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeIngredients']['selector'] = '.recipePartIngredientGroup h2, .recipePartIngredientGroup dl';
         $this->config['url']['selector'] = '[rel="canonical"]';
     }
 }
