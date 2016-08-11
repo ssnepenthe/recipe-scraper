@@ -9,8 +9,9 @@ class StringsToIntervals implements Transformer
     public function transform(array $values)
     {
         $values = array_values(array_filter(array_map(function ($v) {
-            // Remove spaces from interval string (for justataste.com).
-            $v = str_replace(' ', '', $v);
+            // Remove spaces from interval string (for justataste.com) and
+            // %%TITLE%% token.
+            $v = trim(str_replace(['%%TITLE%%', ' '], '', $v));
 
             try {
                 $interval = new \DateInterval($v);

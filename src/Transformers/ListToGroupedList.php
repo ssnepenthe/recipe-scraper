@@ -42,7 +42,7 @@ class ListToGroupedList implements Transformer
 
             // Remove colon and extra space, capitalize first letter of words.
             $title = ucfirst(strtolower(trim(str_replace(
-                ':',
+                ['%%TITLE%%', ':'],
                 '',
                 $values[ $position ]
             ))));
@@ -62,6 +62,10 @@ class ListToGroupedList implements Transformer
 
     protected function looksLikeGroupTitle($value)
     {
+        if (false !== strpos($value, '%%TITLE%%')) {
+            return true;
+        }
+
         if (':' === substr($value, -1)) {
             return true;
         }

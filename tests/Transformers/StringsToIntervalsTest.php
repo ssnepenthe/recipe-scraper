@@ -42,4 +42,12 @@ class StringsToIntervalsTest extends PHPUnit_Framework_TestCase
 			$this->transformer->transform(['Bad', 'Interval', 'Strings'])
 		);
 	}
+
+	public function test_strip_title_flags()
+	{
+		$this->assertEquals(
+			[new DateInterval('PT10M')],
+			$this->transformer->transform(['%%TITLE%%PT10M%%TITLE%%'])
+		);
+	}
 }

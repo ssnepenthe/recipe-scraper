@@ -4,10 +4,12 @@ namespace SSNepenthe\RecipeScraper\Transformers;
 
 use SSNepenthe\RecipeScraper\Interfaces\Transformer;
 
-class NullTransformer implements Transformer
+class Cleanup implements Transformer
 {
     public function transform(array $values)
     {
-        return $values;
+        return array_map(function($value) {
+        	return trim(str_replace('%%TITLE%%', '', $value));
+        }, $values);
     }
 }

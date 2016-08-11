@@ -129,6 +129,30 @@ class ListToGroupedListTest extends PHPUnit_Framework_TestCase
 		$this->assertEquals($grouped, $this->transformer->transform($list));
 	}
 
+	public function test_recognize_title_flag()
+	{
+		$list = [
+			'%%TITLE%% Burgers %%TITLE%%',
+			'1 lb ground chuck',
+			'1 tbsp onion powder',
+			'1 tbsp garlic powder',
+			'1 tbsp freshly cracked black pepper',
+		];
+		$grouped = [
+			[
+				'title' => 'Burgers',
+				'data' => [
+					'1 lb ground chuck',
+					'1 tbsp onion powder',
+					'1 tbsp garlic powder',
+					'1 tbsp freshly cracked black pepper',
+				],
+			],
+		];
+
+		$this->assertEquals($grouped, $this->transformer->transform($list));
+	}
+
 	public function test_recognize_colon_title()
 	{
 		$list = [
