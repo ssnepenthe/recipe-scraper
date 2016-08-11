@@ -9,7 +9,6 @@ class ScraperLocatorTest extends CachedHTTPTestCase
     {
         $test = [
             'http://allrecipes.com/recipe/8652/garlic-chicken/' => 'AllRecipesCom',
-            'http://www.bbonline.com/recipes/buffalo-3531.html' => 'BBOnlineCom',
             'http://www.bettycrocker.com/recipes/lemon-burst-cupcakes/a15fc1ac-800b-462f-8c4f-ff81d2c91964' => 'BettyCrockerCom',
             'http://www.bhg.com/recipe/meat/bavarian-pork-roast/' => 'BHGCom',
             'http://www.cookingchanneltv.com/recipes/tia-mowry/lamb-burgers.html' => 'CookingChannelTVCom',
