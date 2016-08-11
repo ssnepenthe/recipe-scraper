@@ -8,7 +8,7 @@ use SSNepenthe\RecipeScraper\Schema\Recipe;
  */
 class BHGComTest extends CachedHTTPTestCase
 {
-    public function test_parse_a_standard_recipe()
+    public function test_scrape_a_standard_recipe()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Better Homes and Gardens');
@@ -73,7 +73,7 @@ class BHGComTest extends CachedHTTPTestCase
         $this->assertEquals(new DateInterval('PT4H25M'), $scraped->totalTime);
     }
 
-    public function test_parse_another_standard_recipe()
+    public function test_scrape_another_standard_recipe()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Better Homes and Gardens');
