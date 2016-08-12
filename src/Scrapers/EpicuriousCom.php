@@ -15,7 +15,7 @@ class EpicuriousCom extends SchemaOrg
         $this->config['recipeCategories']['locations'] = ['_text'];
         $this->config['recipeCuisines']['locations'] = ['_text'];
 
-        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
-        $this->config['recipeInstructions']['selector'] = '.preparation-step';
+        $this->config['recipeIngredients']['selector'] = '.ingredient-group strong, [itemprop="ingredients"]';
+        $this->config['recipeInstructions']['selector'] = '.preparation-group strong, .preparation-step';
     }
 }

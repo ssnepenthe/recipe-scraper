@@ -15,8 +15,8 @@ class RecipeYield implements Normalizer
         return array_map(function ($v) {
             return trim(preg_replace(
                 [
-                    // Everything in parens - handles serving size for myrecipes.com.
-                    '/\(.*\)/',
+                    // Strip serving size for myrecipes.com.
+                    '/\(serving size.*\)/',
                     // Misc. keywords, space and punctuation.
                     '/\s?(guest|make|serve|serving|yield)s?:?\.?\s?/i',
                 ],

@@ -11,7 +11,9 @@ abstract class Base implements Formatter
 
     protected function looksLikeGroupTitle(Crawler $node)
     {
-        if (in_array($node->nodeName(), ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])) {
+        $tags = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong'];
+
+        if (in_array($node->nodeName(), $tags)) {
             return true;
         }
 
