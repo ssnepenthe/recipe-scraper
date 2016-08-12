@@ -2,6 +2,7 @@
 
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
+use SSNepenthe\RecipeScraper\Normalizers\Description;
 use SSNepenthe\RecipeScraper\Formatters\MultiFromChildren;
 
 class JustATasteCom extends SchemaOrg
@@ -10,7 +11,8 @@ class JustATasteCom extends SchemaOrg
     {
         parent::applyScraperConfig();
 
-        $this->config['description']['selector'] = '[name="description"]';
+        $this->config['description']['selector'] = '[property="og:description"]';
+        $this->config['description']['normalizers'][] = Description::class;
         $this->config['image']['selector'] = '.blog p:first-child img';
         $this->config['recipeCategories']['locations'] = ['_text'];
         $this->config['recipeCategories']['selector'] = '.category-link-single';
