@@ -4,7 +4,9 @@ namespace SSNepenthe\RecipeScraper\Scrapers;
 
 /**
  * @todo Also has cooks notes if we want them (http://www.marthastewart.com/313086/buttermilk-chicken-caesar-salad).
- *       Need a lot more testing on recipeYield - might grap cook/prep time.
+ *       Some have a 'variations' notes section as well.
+ *       Need a lot more testing on recipeYield - might grab cook/prep time.
+ *       Looks like they frequently reference other recipes within the ingredients section.
  */
 class MarthaStewartCom extends SchemaOrg
 {
@@ -13,9 +15,9 @@ class MarthaStewartCom extends SchemaOrg
         parent::applyScraperConfig();
 
         $this->config['image']['selector'] = '[itemprop="image"] + noscript > img';
-        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeIngredients']['selector'] = '.col1 .components-group-header, [itemprop="ingredients"]';
         $this->config['recipeInstructions']['selector'] = '.directions-item-text';
-        $this->config['recipeYield']['selector'] = '.mslo-credits:last-child';
+        $this->config['recipeYield']['selector'] = '[itemprop="recipeYield"], .mslo-credits:last-child';
         $this->config['url']['selector'] = '[rel="canonical"]';
     }
 }
