@@ -5,12 +5,13 @@ use SSNepenthe\RecipeScraper\Scrapers\MyRecipesCom;
 
 class MyRecipesComTest extends CachedHTTPTestCase
 {
-    public function test_parse_a_standard_recipe()
+    public function test_scrape_a_standard_recipe()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Melanie Barnard');
         $recipe->setDescription('Flour tortillas stand in for the traditional biscuit dough so you can bring this crowd-pleaser from stove to table in minutes.');
         $recipe->setImage('http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/quick-chicken-dumplings-mr.jpg?itok=7iuasoNn');
+        $recipe->setName('Quick Chicken and Dumplings');
         $recipe->setPublisher('Cooking Light');
         $recipe->setRecipeIngredients([
             [
@@ -52,7 +53,59 @@ class MyRecipesComTest extends CachedHTTPTestCase
         $this->assertEquals($recipe, $scraper->scrape());
     }
 
-    public function test_parse_a_recipe_with_ingredient_groups()
+    public function test_scrape_another_standard_recipe()
+    {
+        $recipe = new Recipe;
+        $recipe->setAuthor('Deb Wise');
+        $recipe->setDescription('The creamy sauce offers a cool counterpoint to the bold blackening spices. Not in the mood for tilapia? The recipe is also great with chicken, sliced flank steak, or shrimp. Toss some avocado, tomato, and cilantro into the mix, and you\'re ready to knock Taco Tuesday out of the park.');
+        $recipe->setImage('http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/6037701_aug16_superfast8691.jpg?itok=ojhkbq9d');
+        $recipe->setName('Fish Tacos with Sweet Pickle Sauce');
+        $recipe->setPublisher('Cooking Light');
+        $recipe->setRecipeIngredients([
+            [
+                'title' => '',
+                'data'  => [
+                    'Cooking spray',
+                    '4 (5-oz.) tilapia fillets',
+                    '1 teaspoon chili powder',
+                    '5/8 teaspoon kosher salt, divided',
+                    '1/2 teaspoon freshly ground black pepper, divided',
+                    '1/2 teaspoon ground red pepper',
+                    '1/2 teaspoon ground cumin',
+                    '3 tablespoons canola mayonnaise',
+                    '2 tablespoons sweet pickle relish',
+                    '8 (6-in.) corn tortillas',
+                    '1 ripe avocado, cut into 8 wedges',
+                    '1 medium tomato, cut into 16 wedges',
+                    '1/2 cup cilantro leaves',
+                    '1 lime, cut into wedges',
+                ],
+            ],
+        ]);
+        $recipe->setRecipeInstructions([
+            [
+                'title' => '',
+                'data'  => [
+                    'Heat a grill pan over medium-high. Coat pan with cooking spray.',
+                    'Sprinkle fish evenly with chili powder, 3/8 teaspoon salt, 1/4 teaspoon black pepper, red pepper, and cumin. Add fish to pan; cook 3 minutes on each side or until fish flakes easily when tested with a fork. Cut each fillet into slices.',
+                    'Combine mayonnaise, pickle relish, remaining 1/4 teaspoon salt, and 1/4 teaspoon black pepper in a small bowl. Heat tortillas according to package directions.',
+                    'Divide fish, avocado, and tomato evenly among tortillas. Drizzle tacos evenly with mayonnaise mixture; sprinkle with cilantro. Serve with lime wedges.',
+                ],
+            ],
+        ]);
+        $recipe->setRecipeYield('4');
+        $recipe->setUrl('http://www.myrecipes.com/recipe/fish-tacos-sweet-pickle-sauce');
+
+        $crawler = $this->client->request(
+            'GET',
+            'http://www.myrecipes.com/recipe/fish-tacos-sweet-pickle-sauce'
+        );
+        $scraper = new MyRecipesCom($crawler);
+
+        $this->assertEquals($recipe, $scraper->scrape());
+    }
+
+    public function test_scrape_a_recipe_with_ingredient_groups()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Bill and Cheryl Jamison');
@@ -94,7 +147,7 @@ class MyRecipesComTest extends CachedHTTPTestCase
                 ],
             ],
             [
-                'title' => 'Remaining ingredients',
+                'title' => 'Remaining Ingredients',
                 'data'  => [
                     '13 hamburger buns',
                     '1 2/3 cups Memphis Barbecue Sauce',
@@ -123,6 +176,69 @@ class MyRecipesComTest extends CachedHTTPTestCase
         $crawler = $this->client->request(
             'GET',
             'http://www.myrecipes.com/recipe/memphis-pork-coleslaw-sandwich'
+        );
+        $scraper = new MyRecipesCom($crawler);
+
+        $this->assertEquals($recipe, $scraper->scrape());
+    }
+
+    public function test_scrape_another_recipe_with_ingredient_groups()
+    {
+        $recipe = new Recipe;
+        $recipe->setAuthor('Ann Taylor Pittman');
+        $recipe->setDescription('Thawed lemonade concentrate adds bold, fun flavor to this tart layer cake. This cake is the perfect solution to summer birthday parties or winter events when you need to wake up your taste buds.');
+        $recipe->setImage('http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/ck/02/04/layer-cake-ck-249959-x.jpg?itok=1Ma3bcrJ');
+        $recipe->setName('Lemonade Layer Cake');
+        $recipe->setPublisher('Cooking Light');
+        $recipe->setRecipeIngredients([
+            [
+                'title' => 'Cake',
+                'data'  => [
+                    '1 1/3 cups granulated sugar',
+                    '6 tablespoons butter, softened',
+                    '1 tablespoon grated lemon rind',
+                    '3 tablespoons thawed lemonade concentrate',
+                    '2 teaspoons vanilla extract',
+                    '2 large eggs',
+                    '2 large egg whites',
+                    '2 cups all-purpose flour',
+                    '1 teaspoon baking powder',
+                    '1/2 teaspoon salt',
+                    '1/2 teaspoon baking soda',
+                    '1 1/4 cups fat-free buttermilk',
+                    'Cooking spray',
+                ],
+            ],
+            [
+                'title' => 'Frosting',
+                'data'  => [
+                    '2 tablespoons butter, softened',
+                    '2 teaspoons grated lemon rind',
+                    '2 teaspoons thawed lemonade concentrate',
+                    '1/2 teaspoon vanilla extract',
+                    '8 ounces 1/3-less-fat cream cheese',
+                    '3 1/2 cups powdered sugar',
+                ],
+            ],
+        ]);
+        $recipe->setRecipeInstructions([
+            [
+                'title' => '',
+                'data'  => [
+                    'Preheat oven to 350 °.',
+                    'To prepare cake, place first 5 ingredients in a large bowl; beat with a mixer at medium speed until well blended (about 5 minutes). Add eggs and egg whites, 1 at a time, beating well after each addition. Lightly spoon flour into dry measuring cups; level with a knife. Combine flour, baking powder, salt, and baking soda; stir well with a whisk. Add flour mixture and buttermilk alternately to sugar mixture, beginning and ending with flour mixture; beat well after each addition.',
+                    'Pour batter into 2 (9-inch) round cake pans coated with cooking spray; sharply tap pans once on counter to remove air bubbles. Bake at 350 ° for 20 minutes or until wooden pick inserted in center comes out clean. Cool in pans 10 minutes on a wire rack; remove from pans. Cool completely on wire rack.',
+                    'To prepare frosting, place 2 tablespoons butter and the next 4 ingredients (2 tablespoons butter through cream cheese) in a large bowl; beat with a mixer at high speed until fluffy. Add powdered sugar, and beat at low speed just until blended (do not overbeat). Chill 1 hour.',
+                    'Place 1 cake layer on a plate; spread with 1/2 cup frosting. Top with remaining cake layer. Spread remaining frosting over top and sides of cake. Store cake loosely covered in the refrigerator.',
+                ],
+            ]
+        ]);
+        $recipe->setRecipeYield('16');
+        $recipe->setUrl('http://www.myrecipes.com/recipe/lemonade-layer-cake');
+
+        $crawler = $this->client->request(
+            'GET',
+            'http://www.myrecipes.com/recipe/lemonade-layer-cake'
         );
         $scraper = new MyRecipesCom($crawler);
 
