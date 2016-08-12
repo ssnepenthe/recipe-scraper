@@ -18,6 +18,6 @@ class FoodNetworkCom extends SchemaOrg
 
         $this->config['image']['selector'] = '.photo-video [itemprop="image"]';
         $this->config['recipeIngredients']['selector'] = '.ingredients li';
-        $this->config['recipeInstructions']['selector'] = '.recipe-directions-list li';
+        $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] .subtitle, .recipe-directions-list li';
     }
 }
