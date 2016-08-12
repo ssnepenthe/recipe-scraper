@@ -5,7 +5,7 @@ use SSNepenthe\RecipeScraper\Schema\Recipe;
 
 class FoodAndWineComTest extends CachedHTTPTestCase
 {
-    public function test_parse_a_standard_recipe()
+    public function test_scrape_a_standard_recipe()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Melissa Rubel Jacobson');
@@ -61,7 +61,7 @@ class FoodAndWineComTest extends CachedHTTPTestCase
         $this->assertEquals($recipe, $scraper->scrape());
     }
 
-    public function test_parse_another_standard_recipe()
+    public function test_scrape_another_standard_recipe()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Kay Chun');
@@ -113,7 +113,7 @@ class FoodAndWineComTest extends CachedHTTPTestCase
         $this->assertEquals($recipe, $scraper->scrape());
     }
 
-    public function test_parse_a_recipe_with_ingredient_groups()
+    public function test_scrape_a_recipe_with_ingredient_groups()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Grace Parisi');
@@ -183,7 +183,7 @@ class FoodAndWineComTest extends CachedHTTPTestCase
         $this->assertEquals($recipe, $scraper->scrape());
     }
 
-    public function test_parse_another_recipe_with_ingredient_groups()
+    public function test_scrape_another_recipe_with_ingredient_groups()
     {
         $recipe = new Recipe;
         $recipe->setAuthor('Leetal Arazi');
