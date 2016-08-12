@@ -11,8 +11,7 @@ class Description implements Normalizer
         return array_map(function ($v) {
             return trim(
             	// For justataste.com.
-            	preg_replace('/\[.*\]/', '', $v),
-            	": \t\n\r\0\x0B"
+            	preg_replace('/\[.*\]/', '', $v)
             );
         }, $values);
     }
