@@ -5,6 +5,7 @@ namespace SSNepenthe\RecipeScraper\Scrapers;
 /**
  * @todo Has videos if we want them. See http://www.pauladeen.com/chicken-chili-stew.
  *       More thorough testing on url - there are two canonical links per page.
+ *       I haven't found any with ingredient groups to test...
  */
 class PaulaDeenCom extends SchemaOrg
 {
