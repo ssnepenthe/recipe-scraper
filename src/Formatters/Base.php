@@ -21,7 +21,7 @@ abstract class Base implements Formatter
             return true;
         }
 
-        if (false !== strpos($node->attr('id'), 'header')) {
+        if (false !== strpos($node->attr('class'), 'title')) {
             return true;
         }
 

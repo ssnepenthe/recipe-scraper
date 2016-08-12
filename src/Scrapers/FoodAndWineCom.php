@@ -19,7 +19,7 @@ class FoodAndWineCom extends SchemaOrg
         $this->config['name']['selector'] = 'h1[itemprop="name"]';
         $this->config['recipeCategories']['selector'] = '.tags_names';
         $this->config['recipeCategories']['normalizers'][] = SplitOnComma::class;
-        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"], .ingredients-list__title';
         $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"] li';
         $this->config['url']['selector'] = '[rel="canonical"]';
     }
