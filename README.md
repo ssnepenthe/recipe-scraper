@@ -12,10 +12,14 @@ Make sure you have included the composer autoloader and then:
 
 ```
 use SSNepenthe\RecipeScraper\Client;
+use SSNepenthe\RecipeScraper\Exception\NoMatchingScraperException;
 
-$client = new Client;
-
-$recipe = $client->scrape('http://allrecipes.com/recipe/8652/garlic-chicken/');
+try {
+	$client = new Client;
+	$recipe = $client->scrape('http://allrecipes.com/recipe/8652/garlic-chicken/');
+} catch (NoMatchingScraperException $e) {
+	// Do something...
+}
 ```
 
 The following properties are available on the `$recipe` object:
