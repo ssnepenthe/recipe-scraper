@@ -9,6 +9,8 @@ namespace SSNepenthe\RecipeScraper\Scrapers;
  * There is a link to the actual recipe within the page.
  *
  * Looks like recipes are shared across the network so canonical may point to a different domain.
+ *
+ * Pillsbury.com is a General Mills operated site.
  */
 class PillsburyCom extends SchemaOrg
 {

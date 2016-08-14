@@ -8,6 +8,8 @@ use SSNepenthe\RecipeScraper\Formatters\MultiFromChildren;
  * @todo Can potentially get categories off of data-category attribute on ingredients.
  *       Nutrition info is there if we want it as well.
  *       There are also notes/tips.
+ *
+ * Bettycrocker.com is a General Mills operated site.
  */
 class BettyCrockerCom extends SchemaOrg
 {
