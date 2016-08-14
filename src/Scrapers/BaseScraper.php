@@ -5,16 +5,17 @@ namespace SSNepenthe\RecipeScraper\Scrapers;
 use Symfony\Component\DomCrawler\Crawler;
 use SSNepenthe\RecipeScraper\Schema\Recipe;
 use SSNepenthe\RecipeScraper\Formatters\Single;
+use SSNepenthe\RecipeScraper\Normalizers\Ascii;
 use SSNepenthe\RecipeScraper\Normalizers\Space;
 use SSNepenthe\RecipeScraper\Interfaces\Scraper;
 use SSNepenthe\RecipeScraper\Interfaces\Formatter;
 use SSNepenthe\RecipeScraper\Normalizers\Fraction;
+use SSNepenthe\RecipeScraper\Transformers\Cleanup;
 use SSNepenthe\RecipeScraper\Normalizers\EndOfLine;
 use SSNepenthe\RecipeScraper\Interfaces\Transformer;
 use SSNepenthe\RecipeScraper\Normalizers\QuotedText;
 use SSNepenthe\RecipeScraper\Normalizers\SingleLine;
 use SSNepenthe\RecipeScraper\Normalizers\NormalizerStack;
-use SSNepenthe\RecipeScraper\Transformers\Cleanup;
 
 abstract class BaseScraper implements Scraper
 {
@@ -188,7 +189,6 @@ abstract class BaseScraper implements Scraper
              * If there is only one item in the array we will use it directly,
              * unless we have specifically set a 'multi' formatter.
              */
-            // dump($value);
             if (1 === count($value) &&
                 false === strpos(get_class($config['formatter']), 'Multi')
             ) {
