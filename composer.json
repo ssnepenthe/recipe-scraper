@@ -8,10 +8,11 @@
     "fabpot/goutte": "^3.1"
   },
   "require-dev": {
+    "doctrine/cache": "^1.6",
+    "kevinrob/guzzle-cache-middleware": "^1.4",
+    "phpunit/phpunit": "^5.5",
     "psy/psysh": "^0.7",
-    "squizlabs/php_codesniffer": "^2.6",
-    "phpunit/phpunit": "^5.3",
-    "phpmd/phpmd": "^2.4"
+    "squizlabs/php_codesniffer": "^2.6"
   },
   "suggest": {
     "doctrine/cache": "Providers which can be used to cache client responses.",
