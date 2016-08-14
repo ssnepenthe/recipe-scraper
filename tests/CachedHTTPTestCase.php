@@ -11,6 +11,6 @@ class CachedHTTPTestCase extends PHPUnit_Framework_TestCase
         parent::__construct($name, $data, $dataName);
 
         $this->client = new Client;
-        $this->client->enableGreedyFileCache();
+        $this->client->enableGreedyFileCache('.cache', 60 * 60 * 24 * 7);
     }
 }
