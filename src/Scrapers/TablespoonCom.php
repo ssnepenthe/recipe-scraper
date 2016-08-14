@@ -10,6 +10,8 @@ namespace SSNepenthe\RecipeScraper\Scrapers;
  *
  * @link http://www.tablespoon.com/recipes/copycat-in-n-out-burger-double-cheeseburger/ea7f1d77-0fbf-448d-acc4-597d8f8fccec#
  * @link http://www.tablespoon.com/recipes/do-ahead-breakfast-bake-recipe/2/
+ *
+ * Tablespoon.com is a General Mills operated site.
  */
 class TablespoonCom extends SchemaOrg
 {
@@ -20,7 +22,7 @@ class TablespoonCom extends SchemaOrg
         $this->config['author']['locations'] = ['_text'];
         $this->config['description']['selector'] = 'meta[name="description"]';
         $this->config['image']['selector'] = '.recipePartRecipeImage img';
-        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
+        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"], .recipePartIngredientGroup h2';
         $this->config['url']['selector'] = '[rel="canonical"]';
     }
 }

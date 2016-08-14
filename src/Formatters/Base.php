@@ -17,6 +17,14 @@ abstract class Base implements Formatter
             return true;
         }
 
+        if (preg_match('/[#\*\-_=\+]{2,}/', $node->text())) {
+            return true;
+        }
+
+        if (':' === substr($node->text(), -1)) {
+            return true;
+        }
+
         if (false !== strpos($node->attr('class'), 'header')) {
             return true;
         }

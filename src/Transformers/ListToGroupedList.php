@@ -40,12 +40,18 @@ class ListToGroupedList implements Transformer
         foreach ($titles as $key => $position) {
             $counter++;
 
-            // Remove colon and extra space, capitalize first letter of words.
-            $title = ucwords(strtolower(trim(str_replace(
+            // Remove colon and title token.
+            $title = str_replace(
                 ['%%TITLE%%', ':'],
                 '',
                 $values[ $position ]
-            ))));
+            );
+            // Remove characters intended to indicate this is a header.
+            $title = preg_replace('/[#\*\-_=\+]{2,}/', '', $title);
+            // Remove leading digits.
+            $title = preg_replace('/\d+\.?\s+/', '', $title);
+            // Finally trim whitespace and capitalize first letter of words.
+            $title = ucwords(strtolower(trim($title)));
 
             $groups[] = [
                 'title' => $title,
@@ -71,6 +77,10 @@ class ListToGroupedList implements Transformer
         }
 
         if (strtoupper($value) === $value) {
+            return true;
+        }
+
+        if (preg_match('/[#\*\-_=\+]{2,}/', $value)) {
             return true;
         }
 

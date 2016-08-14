@@ -19,7 +19,7 @@ class Space implements Normalizer
             ];
 
             $v = str_replace($search, ' ', $v);
-            $v = preg_replace('/\h{2,}/', ' ', $v);
+            $v = preg_replace('/\h{2,}/u', ' ', $v);
 
             return trim($v);
         }, $values);
