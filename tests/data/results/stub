@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'author' => '',
+    'categories' => [
+        '',
+    ],
+    'cookingMethod' => '',
+    'cookTime' => new DateInterval(''),
+    'cuisines' => [
+        '',
+    ],
+    'description' => '',
+    'image' => '',
+    'ingredients' => [
+        '',
+    ],
+    'instructions' => [
+        '',
+    ],
+    'name' => '',
+    'prepTime' => new DateInterval(''),
+    'publisher' => '',
+    'totalTime' => new DateInterval(''),
+    'url' => '',
+    'yield' => '',
+];

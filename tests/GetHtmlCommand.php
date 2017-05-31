@@ -38,7 +38,7 @@ class GetHtmlCommand extends Command
             max(0.0, floatval($input->getOption('rate'))) * 1000000
         ));
 
-        $urls = $missing ? $this->getMissingTestUrls() : $this->getTestUrls();
+        $urls = $missing ? $this->getMissingHtmlUrls() : $this->getTestUrls();
 
         // So requests to a given host are (hopefully) a bit more spaced out.
         shuffle($urls);
@@ -123,27 +123,10 @@ class GetHtmlCommand extends Command
         file_put_contents($file, $html);
     }
 
-    protected function getMissingTestUrls()
+    protected function getMissingHtmlUrls()
     {
         return array_filter($this->getTestUrls(), function ($url) {
             return ! file_exists($this->getHtmlDataFilePathFromUrl($url));
         });
-    }
-
-    protected function getTestUrls()
-    {
-        $lists = glob($this->getUrlsDataDir() . '/*.php');
-        $urls = [];
-
-        foreach ($lists as $list) {
-            $urls = array_merge($urls, static::includeFile($list));
-        }
-
-        return $urls;
-    }
-
-    protected static function includeFile($file)
-    {
-        return include $file;
     }
 }

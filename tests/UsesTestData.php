@@ -32,6 +32,13 @@ trait UsesTestData
 
     protected function getHtmlDataFilePathFromUrl($url)
     {
+        return $this->getHtmlDataFilePath(
+            $this->getRelativeDataFilePathFromUrl($url)
+        );
+    }
+
+    protected function getRelativeDataFilePathFromUrl($url)
+    {
         $parsed = parse_url($url);
 
         if (! isset($parsed['host'])) {
@@ -43,7 +50,7 @@ trait UsesTestData
             ? $this->sanitizeStringForFileName($parsed['path'])
             : '';
 
-        return $this->getHtmlDataFilePath($host . DIRECTORY_SEPARATOR . $path);
+        return $host . DIRECTORY_SEPARATOR . $path;
     }
 
     protected function getResultsDataDir()
@@ -54,6 +61,25 @@ trait UsesTestData
     protected function getResultsDataFilePath($file)
     {
         return $this->getDataFilePath($file, 'results');
+    }
+
+    protected function getResultsDataFilePathFromUrl($url)
+    {
+        return $this->getResultsDataFilePath(
+            $this->getRelativeDataFilePathFromUrl($url)
+        );
+    }
+
+    protected function getTestUrls()
+    {
+        $lists = glob($this->getUrlsDataDir() . '/*.php');
+        $urls = [];
+
+        foreach ($lists as $list) {
+            $urls = array_merge($urls, static::includeFile($list));
+        }
+
+        return $urls;
     }
 
     protected function getUrlsDataDir()
@@ -73,5 +99,10 @@ trait UsesTestData
             '-',
             trim($string, " \t\n\r\0\x0B/")
         );
+    }
+
+    protected static function includeFile($file)
+    {
+        return include $file;
     }
 }
