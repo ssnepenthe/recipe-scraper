@@ -12,7 +12,8 @@
     "kevinrob/guzzle-cache-middleware": "^1.4",
     "phpunit/phpunit": "^5.5",
     "psy/psysh": "^0.7",
-    "squizlabs/php_codesniffer": "^2.6"
+    "squizlabs/php_codesniffer": "^2.6",
+    "symfony/console": "^3.3"
   },
   "suggest": {
     "doctrine/cache": "Providers which can be used to cache client responses.",
@@ -23,7 +24,9 @@
   },
   "autoload-dev": {
     "classmap": [
-      "tests/CachedHTTPTestCase.php"
+      "tests/CachedHTTPTestCase.php",
+      "tests/GetHtmlCommand.php",
+      "tests/UsesTestData.php"
     ]
   }
 }
