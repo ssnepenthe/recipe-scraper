@@ -60,7 +60,7 @@ trait UsesTestData
 
     protected function getResultsDataFilePath($file)
     {
-        return $this->getDataFilePath($file, 'results');
+        return $this->getDataFilePath($file . '.php', 'results');
     }
 
     protected function getResultsDataFilePathFromUrl($url)
@@ -89,7 +89,7 @@ trait UsesTestData
 
     protected function getUrlsDataFilePath($file)
     {
-        return $this->getDataFilePath($file, 'urls');
+        return $this->getDataFilePath($file . '.php', 'urls');
     }
 
     protected function sanitizeStringForFileName($string)

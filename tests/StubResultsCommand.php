@@ -42,7 +42,7 @@ class StubResultsCommand extends Command
             mkdir($dir);
         }
 
-        copy($this->getResultsDataFilePath('stub'), $file);
+        copy($this->getDataFilePath('stub', 'results'), $file);
     }
 
     protected function getMissingResultsUrls()
