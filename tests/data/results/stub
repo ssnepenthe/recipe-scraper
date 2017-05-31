@@ -6,7 +6,7 @@ return [
         '',
     ],
     'cookingMethod' => '',
-    'cookTime' => new DateInterval(''),
+    'cookTime' => '',
     'cuisines' => [
         '',
     ],
@@ -19,9 +19,9 @@ return [
         '',
     ],
     'name' => '',
-    'prepTime' => new DateInterval(''),
+    'prepTime' => '',
     'publisher' => '',
-    'totalTime' => new DateInterval(''),
+    'totalTime' => '',
     'url' => '',
     'yield' => '',
 ];
