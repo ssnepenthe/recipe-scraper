@@ -2,12 +2,12 @@
 
 return [
     'author' => 'Nestle® Beneful®',
-    'categories' => [],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => 'PT20M',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'Apple slices, cider, thyme and mustard bring incredible, rich flavors to this easy chicken dinner. Wild or brown rice makes a perfect side dish.',
-    'image' => 'http://images.media-allrecipes.com/userphotos/720x405/2731461.jpg',
+    'image' => 'http://images.media-allrecipes.com/userphotos/560x315/2731461.jpg',
     'ingredients' => [
         'Chicken',
         '3 skinless, boneless chicken breast halves, cut in half lengthwise to make thin cutlets',

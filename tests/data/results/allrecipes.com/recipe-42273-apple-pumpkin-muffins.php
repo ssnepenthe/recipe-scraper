@@ -2,10 +2,10 @@
 
 return [
     'author' => 'Taste of Home\'s Fast Family Favorites',
-    'categories' => [],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'If you like pumpkin, you\'ll love these moist muffins. With an appealing streusel topping and tender apple bits throughout, they make a great accompaniment to a meal or a handy breakfast on the run.',
     'image' => 'http://images.media-allrecipes.com/userphotos/250x250/742085.jpg',
     'ingredients' => [
