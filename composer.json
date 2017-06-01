@@ -17,12 +17,6 @@
     "psr-4": { "SSNepenthe\\RecipeScraper\\": "src/" }
   },
   "autoload-dev": {
-    "classmap": [
-      "tests/CachedHTTPTestCase.php",
-      "tests/GetHtmlCommand.php",
-      "tests/ScraperTestCase.php",
-      "tests/StubResultsCommand.php",
-      "tests/UsesTestData.php"
-    ]
+    "psr-4": { "RecipeScraperTests\\": "tests/" }
   }
 }
