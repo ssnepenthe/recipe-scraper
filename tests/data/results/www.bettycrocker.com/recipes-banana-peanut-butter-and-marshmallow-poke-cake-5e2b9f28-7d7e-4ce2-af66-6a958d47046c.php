@@ -2,12 +2,12 @@
 
 return [
     'author' => '',
-    'categories' => [],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
-    'description' => 'Banana, peanut butter and marshmallow make a terrific sandwich, and an even better poke cake!',
-    'image' => 'http://images-gmi-pmc.edge-generalmills.com/553c4645-7aed-423e-af63-906479207968.jpg',
+    'cuisines' => null,
+    'description' => 'Banana, peanut butter and marshmallow make a terrific sandwich, and an even better poke cake! MORE + LESS -',
+    'image' => 'https://images-gmi-pmc.edge-generalmills.com/553c4645-7aed-423e-af63-906479207968.jpg',
     'ingredients' => [
         'Cake',
         '1 box Betty Crocker™ SuperMoist™ yellow cake mix',
@@ -38,6 +38,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => '',
     'totalTime' => 'PT2H10M',
-    'url' => 'http://www.bettycrocker.com/recipes/banana-peanut-butter-and-marshmallow-poke-cake/5e2b9f28-7d7e-4ce2-af66-6a958d47046c',
+    'url' => 'https://www.bettycrocker.com/recipes/banana-peanut-butter-and-marshmallow-poke-cake/5e2b9f28-7d7e-4ce2-af66-6a958d47046c',
     'yield' => '12',
 ];

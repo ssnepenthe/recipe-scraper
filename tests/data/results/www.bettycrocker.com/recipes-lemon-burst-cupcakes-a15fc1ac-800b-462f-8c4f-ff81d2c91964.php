@@ -2,12 +2,12 @@
 
 return [
     'author' => '',
-    'categories' => [],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
-    'description' => 'Mmm! There\'s a surprise burst of creamy lemon filling inside these delicious cupcakes.',
-    'image' => 'http://images-gmi-pmc.edge-generalmills.com/cc01f5ab-e07f-4695-b6ba-231c8acbe219.jpg',
+    'cuisines' => null,
+    'description' => 'Mmm! There\'s a surprise burst of creamy lemon filling inside these delicious cupcakes. MORE + LESS -',
+    'image' => 'https://images-gmi-pmc.edge-generalmills.com/cc01f5ab-e07f-4695-b6ba-231c8acbe219.jpg',
     'ingredients' => [
         '1 box Betty Crocker™ SuperMoist™ white cake mix',
         'Water, vegetable oil and egg whites called for on cake mix box',
@@ -26,6 +26,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => '',
     'totalTime' => 'PT1H15M',
-    'url' => 'http://www.bettycrocker.com/recipes/lemon-burst-cupcakes/a15fc1ac-800b-462f-8c4f-ff81d2c91964',
+    'url' => 'https://www.bettycrocker.com/recipes/lemon-burst-cupcakes/a15fc1ac-800b-462f-8c4f-ff81d2c91964',
     'yield' => '24',
 ];

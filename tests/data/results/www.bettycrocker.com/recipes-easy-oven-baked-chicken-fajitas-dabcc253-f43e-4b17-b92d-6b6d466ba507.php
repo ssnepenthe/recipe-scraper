@@ -2,12 +2,12 @@
 
 return [
     'author' => '',
-    'categories' => [],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
-    'description' => 'Make fajitas easier than ever with this oven shortcut that will save you time, but won’t skimp on flavor.',
-    'image' => 'http://images-gmi-pmc.edge-generalmills.com/a2634f3d-fce8-4959-904b-e2b7f13f3b85.jpg',
+    'cuisines' => null,
+    'description' => 'Make fajitas easier than ever with this oven shortcut that will save you time, but won’t skimp on flavor. MORE + LESS -',
+    'image' => 'https://images-gmi-pmc.edge-generalmills.com/a2634f3d-fce8-4959-904b-e2b7f13f3b85.jpg',
     'ingredients' => [
         '1 large onion',
         '1 medium red bell pepper',
@@ -29,6 +29,6 @@ return [
     'prepTime' => 'PT10M',
     'publisher' => '',
     'totalTime' => 'PT50M',
-    'url' => 'http://www.bettycrocker.com/recipes/easy-oven-baked-chicken-fajitas/dabcc253-f43e-4b17-b92d-6b6d466ba507',
+    'url' => 'https://www.bettycrocker.com/recipes/easy-oven-baked-chicken-fajitas/dabcc253-f43e-4b17-b92d-6b6d466ba507',
     'yield' => '9',
 ];
