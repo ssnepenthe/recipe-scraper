@@ -2,10 +2,10 @@
 
 return [
     'author' => 'Nancy Dell\'Aria',
-    'categories' => [],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'Fish can get predictable pretty easily, so liven things up with this creamy chowder featuring cod with corn, bacon and a mix of cubed red potatoes, onions, carrots and celery sautéed in bacon fat.',
     'image' => 'http://del.h-cdn.co/assets/cm/15/10/54f8dc103b330_-_fish-veggie-chowder-lg.jpg',
     'ingredients' => [
