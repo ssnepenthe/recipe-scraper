@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Alison Roman',
+    'author' => '/contributors/alison-roman',
     'categories' => [
         'Chicken',
         'Low Fat',

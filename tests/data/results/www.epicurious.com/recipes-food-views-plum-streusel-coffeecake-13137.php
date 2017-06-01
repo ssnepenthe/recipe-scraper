@@ -19,7 +19,7 @@ return [
     ],
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => '',
     'image' => 'http://assets.epicurious.com/photos/577e81394f2c1eb16e3d5851/master/pass/plum-steusel-coffeecake-hero-07072016.jpg',
     'ingredients' => [

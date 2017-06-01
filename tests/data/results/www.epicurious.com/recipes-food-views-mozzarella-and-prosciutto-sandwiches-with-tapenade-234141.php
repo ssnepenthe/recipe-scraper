@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Nancy Silverton',
+    'author' => '/contributors/nancy-silverton',
     'categories' => [
         'Sandwich',
         'Cheese',
@@ -14,6 +14,10 @@ return [
         'Fall',
         'Summer',
         'Bon Appétit',
+        'Sugar Conscious',
+        'Peanut Free',
+        'Tree Nut Free',
+        'Soy Free',
     ],
     'cookingMethod' => '',
     'cookTime' => '',

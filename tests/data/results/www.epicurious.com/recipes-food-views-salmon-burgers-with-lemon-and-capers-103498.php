@@ -25,7 +25,7 @@ return [
     'cuisines' => [
         'American',
     ],
-    'description' => '',
+    'description' => 'We enjoyed everything about The Peninsula hotel in Beverly Hills — the location, the rooms and the terrific restaurants. The last time I stayed there, I had the most delicious salmon burger at the Roof Garden," says Diana Goldstein of Washington, D.C.. "Now that I\'ve had this version, I may never go back to beef burgers.',
     'image' => '',
     'ingredients' => [
         '5 tablespoons (or more) olive oil',
@@ -54,5 +54,5 @@ return [
     'publisher' => 'Bon Appétit',
     'totalTime' => '',
     'url' => 'http://www.epicurious.com/recipes/food/views/salmon-burgers-with-lemon-and-capers-103498',
-    'yield' => 'Makes 10 burgers',
+    'yield' => '10 burgers',
 ];

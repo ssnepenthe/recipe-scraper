@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Katherine Sacks',
+    'author' => 'http://www.epicurious.com/contributors/katherine-sacks',
     'categories' => [
         'Cake',
         'Birthday',
@@ -13,10 +13,17 @@ return [
         'Summer',
         'Potluck',
         'Buttermilk',
+        'Kidney Friendly',
+        'Vegetarian',
+        'Pescatarian',
+        'Peanut Free',
+        'Tree Nut Free',
+        'Soy Free',
+        'Kosher',
     ],
     'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'cookTime' => 'PT3H',
+    'cuisines' => null,
     'description' => 'This version of our delicious vanilla-buttermilk cake is simply topped with a swoosh of orange cream-cheese frosting and raspberries. It\'s so easy to serve right out of the pan, which makes it perfect for backyard barbecues and potlucks.',
     'image' => 'http://assets.epicurious.com/photos/57719d947823d8090d928cd9/master/pass/Vanilla-Buttermilk-Cake-Raspberries-27062016.jpg',
     'ingredients' => [
@@ -60,10 +67,10 @@ return [
         'Do Ahead',
         'Cake can be made 3 days ahead; wrap tightly in plastic and chill, or freeze up to 2 weeks. Syrup can be made 5 days ahead; store in an airtight container and chill. Frosting can be made 3 days ahead; cover with plastic wrap, pressing directly on surface, and chill. Bring to room temperature before using.',
     ],
-    'name' => 'Vanilla-Buttermilk Sheet Cake With Raspberries and Orange Cream-Cheese Frosting',
-    'prepTime' => '',
+    'name' => 'Vanilla-Buttermilk Sheet Cake with Raspberries and Orange Cream-Cheese Frosting',
+    'prepTime' => 'PT1H',
     'publisher' => 'Epicurious',
-    'totalTime' => '',
+    'totalTime' => 'PT4H',
     'url' => 'http://www.epicurious.com/recipes/food/views/vanilla-buttermilk-sheet-cake-with-raspberries-and-orange-cream-cheese-frosting',
     'yield' => '1 (13x9") cake',
 ];
