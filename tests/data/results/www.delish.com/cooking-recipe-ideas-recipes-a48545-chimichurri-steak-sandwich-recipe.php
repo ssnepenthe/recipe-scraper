@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'author' => 'Judy Kim',
+    'categories' => [],
+    'cookingMethod' => '',
+    'cookTime' => '',
+    'cuisines' => [],
+    'description' => 'Ditch the deli meat and spring for juicy steak.',
+    'image' => 'http://del.h-cdn.co/assets/16/31/1600x800/landscape-1470330385-chimichurri-steak-sandwichp2.jpg',
+    'ingredients' => [
+        '1/2 c. fresh cilantro',
+        '3/4 c. fresh basail',
+        '1/2 c. Chopped red onion',
+        '3 garlic cloves, chopped',
+        'kosher salt',
+        '1/2 tsp. crushed red pepper flakes',
+        '3 tbsp. red wine vinegar',
+        'extra-virgin olive oil',
+        '1 lb. skirt steak',
+        'Freshly ground black pepper',
+        '1 loaf country bread, sliced 1/2" thick',
+        '2 large heirloom tomatoes, sliced 1/4" thick',
+    ],
+    'instructions' => [
+        'In the bowl of a food processor add cilantro, 1/2 cup basil, red onion, garlic, 1 teaspoon salt, red pepper flakes, and vinegar. Pulse a few times and scrape down sides of the bowl. While motor is running, drizzle in olive oil and process until almost smooth, but leave some texture. Set aside.',
+        'Preheat grill on medium-high heat. Drizzle steak with olive oil and season with salt and pepper. Place on grill and cook until lightly charred, about 3 minutes on each side. Transfer to a clean plate and loosely tent with foil; let the meat rest.',
+        'Meanwhile, toast bread on grill until slightly charred. Slice steak thinly on diagonal against the grain.',
+        'Spread chimichurri on toasted bread. Layer sliced steak with tomatoes and a few basil leaves. Top with toasted bread to close the sandwich.',
+    ],
+    'name' => 'Chimichurri Steak Sandwich',
+    'prepTime' => 'PT5M',
+    'publisher' => '',
+    'totalTime' => 'PT20M',
+    'url' => 'http://www.delish.com/cooking/recipe-ideas/recipes/a48545/chimichurri-steak-sandwich-recipe/',
+    'yield' => '4',
+];
