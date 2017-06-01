@@ -2,21 +2,11 @@
 
 return [
     'author' => 'Kay Chun',
-    'categories' => [
-        'Easter',
-        'Mother\'s Day',
-        'Sauces & Condiments',
-        'Fast',
-        'Gluten-Free',
-        'Healthy',
-        'Vegetarian',
-        'Breakfast',
-        'Brunch',
-    ],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
-    'description' => 'Luscious, rich and lemony hollandaise gets completely re-imagined here in a light, supremely creamy puree of avocado, lemon juice and olive oil.',
+    'cuisines' => null,
+    'description' => null,
     'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/551x551/public/201402-xl-avocado-hollandaise.jpg?itok=BA_I8MaS',
     'ingredients' => [
         '1/2 very ripe medium Hass avocado, peeled and chopped',

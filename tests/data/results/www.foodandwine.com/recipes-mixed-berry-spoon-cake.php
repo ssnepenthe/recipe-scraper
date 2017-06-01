@@ -2,23 +2,11 @@
 
 return [
     'author' => 'Grace Parisi',
-    'categories' => [
-        'Summer',
-        'Test Kitchen',
-        'Baking',
-        'Barbecue/Cookout',
-        'Father\'s Day',
-        'Mother\'s Day',
-        'Cakes & Cupcakes',
-        'Casseroles & Gratins',
-        'Desserts',
-        'Make Ahead',
-        'Staff Favorites',
-    ],
+    'categories' => null,
     'cookingMethod' => '',
     'cookTime' => '',
-    'cuisines' => [],
-    'description' => 'To vary the filling here, use 4 pounds of stone fruit (peaches, nectarines and apricots) cut into large wedges; or 4 pounds of plums, cut into 1-inch cubes; or 6 pints of blueberries plus 2 tablespoons of fresh lemon juice.',
+    'cuisines' => null,
+    'description' => null,
     'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/551x551/public/200808xl-mixed-berry-spoon-cake_0.jpg?itok=3AgcG0ce',
     'ingredients' => [
         'Filling',
@@ -40,7 +28,7 @@ return [
     ],
     'instructions' => [
         'In a bowl, toss the berries with the sugar and cornstarch and let stand for 10 minutes.',
-        'Preheat the oven to 375 °. In a medium bowl, whisk the flour with the sugar, lemon zest, baking powder and salt. In a small bowl, whisk the eggs with the milk and vanilla. Whisk the liquid into the dry ingredients until evenly moistened, then whisk in the melted butter until smooth.',
+        'Preheat the oven to 375&#176;. In a medium bowl, whisk the flour with the sugar, lemon zest, baking powder and salt. In a small bowl, whisk the eggs with the milk and vanilla. Whisk the liquid into the dry ingredients until evenly moistened, then whisk in the melted butter until smooth.',
         'Spread the filling in a 9-by-13-inch baking dish. Spoon the batter on top, leaving small gaps. Bake in the center of the oven for 1 hour, until the fruit is bubbling and a toothpick inserted into the topping comes out clean. Let cool for 1 hour before serving.',
     ],
     'name' => 'Mixed-Berry Spoon Cake',
