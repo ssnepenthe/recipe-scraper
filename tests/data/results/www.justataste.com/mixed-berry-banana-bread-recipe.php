@@ -9,9 +9,9 @@ return [
     ],
     'cookingMethod' => '',
     'cookTime' => 'PT55M',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'Stuck with overripe bananas? Don\'t miss this quick and easy recipe for mixed berry banana bread loaded with fresh fruit!',
-    'image' => 'http://www.justataste.com/wp-content/uploads/2016/06/mixed-berry-banana-bread-image-580x875.jpg',
+    'image' => 'https://www.justataste.com/wp-content/uploads/2016/06/mixed-berry-banana-bread-image-580x875.jpg',
     'ingredients' => [
         '2 cups all-purpose flour',
         '3/4 cup sugar',
@@ -39,7 +39,7 @@ return [
     'name' => 'Mixed Berry Banana Bread',
     'prepTime' => 'PT10M',
     'publisher' => '',
-    'totalTime' => '',
-    'url' => 'http://www.justataste.com/mixed-berry-banana-bread-recipe/',
+    'totalTime' => 'PT1H5M',
+    'url' => 'https://www.justataste.com/mixed-berry-banana-bread-recipe/',
     'yield' => '1 (9-inch) loaf',
 ];

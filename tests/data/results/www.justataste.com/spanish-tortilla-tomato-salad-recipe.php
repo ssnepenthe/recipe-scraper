@@ -10,9 +10,9 @@ return [
     ],
     'cookingMethod' => '',
     'cookTime' => 'PT10M',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'All you need is 30 minutes and a few simple ingredients for a quick and easy Spanish tortilla recipe paired with a refreshing tomato salad.',
-    'image' => 'http://www.justataste.com/wp-content/uploads/2016/05/spanish-tortilla-recipe.jpg',
+    'image' => 'https://www.justataste.com/wp-content/uploads/2016/05/spanish-tortilla-recipe.jpg',
     'ingredients' => [
         '3 medium russet potatoes',
         '4 Tablespoons olive oil, divided',
@@ -34,7 +34,7 @@ return [
     'name' => 'Spanish Tortilla with Tomato Salad',
     'prepTime' => 'PT20M',
     'publisher' => '',
-    'totalTime' => '',
-    'url' => 'http://www.justataste.com/spanish-tortilla-tomato-salad-recipe/',
+    'totalTime' => 'PT30M',
+    'url' => 'https://www.justataste.com/spanish-tortilla-tomato-salad-recipe/',
     'yield' => '6',
 ];

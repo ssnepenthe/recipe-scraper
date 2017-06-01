@@ -9,9 +9,9 @@ return [
     ],
     'cookingMethod' => '',
     'cookTime' => 'PT8M',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'Chicken teriyaki makes a weekly appearance in my home, whether it\'s via the slow cooker, in the form of meatballs or as the stellar sauce atop crispy baked chicken wings. And with the perfect homemade teriyaki sauce in tote, it\'s time to wave goodbye to that bottled stuff and say hello to my go-to tips for successful teriyaki chicken stir-fry.',
-    'image' => 'http://www.justataste.com/wp-content/uploads/2016/03/teiryaki-chicken-stir-fry-noodles-recipe.jpg',
+    'image' => 'https://www.justataste.com/wp-content/uploads/2016/03/teiryaki-chicken-stir-fry-noodles-recipe.jpg',
     'ingredients' => [
         'For The Teriyaki Sauce',
         '1/2 cup low sodium soy sauce',
@@ -40,7 +40,7 @@ return [
     'name' => 'Teriyaki Chicken Stir-Fry with Noodles',
     'prepTime' => 'PT20M',
     'publisher' => '',
-    'totalTime' => '',
-    'url' => 'http://www.justataste.com/teriyaki-chicken-stir-fry-noodles-recipe/',
+    'totalTime' => 'PT28M',
+    'url' => 'https://www.justataste.com/teriyaki-chicken-stir-fry-noodles-recipe/',
     'yield' => '4',
 ];
