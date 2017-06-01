@@ -18,10 +18,8 @@ return [
         'Seasonal Recipes',
     ],
     'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [
-        '',
-    ],
+    'cookTime' => 'PT20M',
+    'cuisines' => null,
     'description' => 'Flavors meld beautifully when you roast the apples alongside the seasoned pork in this easy, low-calorie dinner recipe.',
     'image' => 'http://images.meredith.com/content/dam/bhg/Images/recipe/43/R137745.jpg.rendition.largest.ss.jpg',
     'ingredients' => [
@@ -44,7 +42,7 @@ return [
     'name' => 'Roasted Pork with Apples',
     'prepTime' => 'PT15M',
     'publisher' => '',
-    'totalTime' => '',
+    'totalTime' => 'PT35M',
     'url' => 'http://www.bhg.com/recipe/pork/roasted-pork-with-apples/',
     'yield' => '4',
 ];

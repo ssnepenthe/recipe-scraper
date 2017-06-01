@@ -17,7 +17,7 @@ return [
     ],
     'cookingMethod' => '',
     'cookTime' => 'PT240M',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'For more of the flavor of Germany, heat Bavarian-style sauerkraut to serve along with the well-seasoned pork and tangy gravy.',
     'image' => 'http://images.meredith.com/content/dam/bhg/Images/recipe/38/37352.jpg.rendition.largest.ss.jpg',
     'ingredients' => [
@@ -29,7 +29,7 @@ return [
         '1 tablespoon olive oil or cooking oil',
         '1/2 cup water',
         '2 tablespoons white wine vinegar',
-        '1 ounce carton dairy sour cream or plain yogurt',
+        '1 - 8 ounce carton dairy sour cream or plain yogurt',
         '4 teaspoons cornstarch',
     ],
     'instructions' => [
