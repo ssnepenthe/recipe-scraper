@@ -5,11 +5,11 @@ return [
     'categories' => [
         'Healthy',
     ],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'The onset of spring brings asparagus, a delicacy and the queen of all vegetables.',
-    'image' => '',
+    'image' => null,
     'ingredients' => [
         '2 tablespoons extra-virgin olive oil',
         '1/4 cup soy sauce or tamari',
@@ -23,9 +23,9 @@ return [
         'Preheat grill to high heat. Combine oil, soy sauce, honey, red pepper flakes and lemon juice. Place asparagus spears in a nonreactive dish and pour soy sauce mixture over them. Toss asparagus and let sit 5 minutes in marinade before cooking. Grill spears for 5 to 8 minutes depending on thickness. Serve sprinkled with pine nuts or sesame seeds.',
     ],
     'name' => 'Grilled Asparagus with Lemon, Soy and Honey',
-    'prepTime' => '',
-    'publisher' => '',
-    'totalTime' => '',
+    'prepTime' => null,
+    'publisher' => null,
+    'totalTime' => null,
     'url' => 'http://spryliving.com/recipes/grilled-asparagus-with-lemon-soy-and-honey/',
     'yield' => 'Yield: 2 servings',
 ];

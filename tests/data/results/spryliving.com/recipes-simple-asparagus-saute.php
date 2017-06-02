@@ -5,9 +5,9 @@ return [
     'categories' => [
         'Appetizer',
     ],
-    'cookingMethod' => '',
+    'cookingMethod' => null,
     'cookTime' => 'PT10M',
-    'cuisines' => [],
+    'cuisines' => null,
     'description' => 'Finger food for parties, or side dish for dinner.',
     'image' => 'https://i0.wp.com/spryliving.com/wp-content/uploads/2011/01/14570-simple-asparagus-saute-easy-vegetable-spry-relish.jpg?resize=670%2C405',
     'ingredients' => [
@@ -23,8 +23,8 @@ return [
     ],
     'name' => 'Simple Asparagus Saute',
     'prepTime' => 'PT10M',
-    'publisher' => '',
-    'totalTime' => '',
+    'publisher' => null,
+    'totalTime' => null,
     'url' => 'http://spryliving.com/recipes/simple-asparagus-saute/',
     'yield' => 'Yield: 4 servings',
 ];
