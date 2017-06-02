@@ -17,7 +17,7 @@ class AllRecipesCom extends SchemaOrgMarkup
     protected function extractDescription(Crawler $crawler)
     {
         return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
-            ->extract($crawler, '[itemprop="description"]');
+            ->extract($crawler, 'div[itemprop="description"]');
     }
 
     protected function extractIngredients(Crawler $crawler)

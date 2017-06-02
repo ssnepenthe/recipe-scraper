@@ -6,7 +6,7 @@ return [
     'cookingMethod' => '',
     'cookTime' => 'PT35M',
     'cuisines' => null,
-    'description' => 'Simple to make, just dip and bake! Garlicky goodness in a breaded chicken dish. Yum!',
+    'description' => '"Simple to make, just dip and bake! Garlicky goodness in a breaded chicken dish. Yum!"',
     'image' => 'http://images.media-allrecipes.com/userphotos/250x250/394412.jpg',
     'ingredients' => [
         '1/4 cup olive oil',

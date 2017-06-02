@@ -6,10 +6,10 @@ return [
     'cookingMethod' => '',
     'cookTime' => 'PT20M',
     'cuisines' => null,
-    'description' => 'Apple slices, cider, thyme and mustard bring incredible, rich flavors to this easy chicken dinner. Wild or brown rice makes a perfect side dish.',
+    'description' => '"Apple slices, cider, thyme and mustard bring incredible, rich flavors to this easy chicken dinner. Wild or brown rice makes a perfect side dish."',
     'image' => 'http://images.media-allrecipes.com/userphotos/560x315/2731461.jpg',
     'ingredients' => [
-        'Chicken',
+        'Chicken:',
         '3 skinless, boneless chicken breast halves, cut in half lengthwise to make thin cutlets',
         'salt and ground black pepper to taste',
         '1 tablespoon canola oil or other neutral-flavor cooking oil',
@@ -23,7 +23,7 @@ return [
         '2 tablespoons fresh thyme leaves',
         '1 teaspoon Dijon mustard',
         'salt and pepper to taste',
-        'Sides',
+        'Sides:',
         '3 cups cooked wild rice or brown rice, or combination of the two',
     ],
     'instructions' => [

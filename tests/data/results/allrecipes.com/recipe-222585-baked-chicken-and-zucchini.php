@@ -6,7 +6,7 @@ return [
     'cookingMethod' => '',
     'cookTime' => 'PT30M',
     'cuisines' => null,
-    'description' => 'A perfect summertime dish, this baked chicken with zucchini, tomatoes, and fresh basil is colorful and tasty.',
+    'description' => '"A perfect summertime dish, this baked chicken with zucchini, tomatoes, and fresh basil is colorful and tasty."',
     'image' => 'http://images.media-allrecipes.com/userphotos/560x315/1118325.jpg',
     'ingredients' => [
         '1 egg',

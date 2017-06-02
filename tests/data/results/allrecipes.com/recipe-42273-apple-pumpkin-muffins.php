@@ -6,7 +6,7 @@ return [
     'cookingMethod' => '',
     'cookTime' => '',
     'cuisines' => null,
-    'description' => 'If you like pumpkin, you\'ll love these moist muffins. With an appealing streusel topping and tender apple bits throughout, they make a great accompaniment to a meal or a handy breakfast on the run.',
+    'description' => '"If you like pumpkin, you\'ll love these moist muffins. With an appealing streusel topping and tender apple bits throughout, they make a great accompaniment to a meal or a handy breakfast on the run."',
     'image' => 'http://images.media-allrecipes.com/userphotos/250x250/742085.jpg',
     'ingredients' => [
         '2 1/2 cups all-purpose flour',
@@ -18,7 +18,7 @@ return [
         '1 cup canned or cooked pumpkin',
         '1/2 cup vegetable oil',
         '2 cups finely chopped peeled apples',
-        'Streusel',
+        'STREUSEL:',
         '1/4 cup sugar',
         '2 tablespoons all-purpose flour',
         '1/2 teaspoon ground cinnamon',

@@ -2,9 +2,10 @@
 
 namespace RecipeScraperTests;
 
+use PHPUnit\Framework\TestCase;
 use RecipeScraperTests\UsesTestData;
 
-class ScraperTestCase extends \PHPUnit\Framework\TestCase
+class ScraperTestCase extends TestCase
 {
 	use UsesTestData;
 
