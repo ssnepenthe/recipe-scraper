@@ -3,7 +3,7 @@
 return [
     'author' => 'Carol',
     'categories' => null,
-    'cookingMethod' => '',
+    'cookingMethod' => null,
     'cookTime' => 'PT35M',
     'cuisines' => null,
     'description' => '"Simple to make, just dip and bake! Garlicky goodness in a breaded chicken dish. Yum!"',
@@ -24,7 +24,7 @@ return [
     ],
     'name' => 'Garlic Chicken',
     'prepTime' => 'PT20M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT55M',
     'url' => 'http://allrecipes.com/recipe/8652/garlic-chicken/',
     'yield' => '4',

@@ -3,7 +3,7 @@
 return [
     'author' => 'luaucow',
     'categories' => null,
-    'cookingMethod' => '',
+    'cookingMethod' => null,
     'cookTime' => 'PT30M',
     'cuisines' => null,
     'description' => '"A perfect summertime dish, this baked chicken with zucchini, tomatoes, and fresh basil is colorful and tasty."',
@@ -33,7 +33,7 @@ return [
     ],
     'name' => 'Baked Chicken and Zucchini',
     'prepTime' => 'PT20M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT50M',
     'url' => 'http://allrecipes.com/recipe/222585/baked-chicken-and-zucchini/',
     'yield' => '4',

@@ -3,7 +3,7 @@
 return [
     'author' => 'carrielee',
     'categories' => null,
-    'cookingMethod' => '',
+    'cookingMethod' => null,
     'cookTime' => 'PT10M',
     'cuisines' => null,
     'description' => '"I\'ve looked all over the net and haven\'t found a shrimp ceviche quite like this one!   My friends absolutely love it and beg me for the recipe!  You can always double it for larger parties--it goes FAST! Serve as a dip with tortilla chips or as a topping on a tostada spread with mayo. The fearless palate might like this with hot sauce."',
@@ -25,7 +25,7 @@ return [
     ],
     'name' => 'Jose\'s Shrimp Ceviche',
     'prepTime' => 'PT45M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT55M',
     'url' => 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/',
     'yield' => '20',

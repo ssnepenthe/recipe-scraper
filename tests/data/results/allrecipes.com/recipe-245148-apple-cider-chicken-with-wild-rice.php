@@ -3,7 +3,7 @@
 return [
     'author' => 'Nestle® Beneful®',
     'categories' => null,
-    'cookingMethod' => '',
+    'cookingMethod' => null,
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => '"Apple slices, cider, thyme and mustard bring incredible, rich flavors to this easy chicken dinner. Wild or brown rice makes a perfect side dish."',
@@ -38,7 +38,7 @@ return [
     ],
     'name' => 'Apple Cider Chicken with Wild Rice',
     'prepTime' => 'PT15M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT35M',
     'url' => 'http://allrecipes.com/recipe/245148/apple-cider-chicken-with-wild-rice/',
     'yield' => '4',
