@@ -2,13 +2,9 @@
 
 namespace RecipeScraperTests;
 
-use DateInterval;
-use PHPUnit_Framework_TestCase;
 use RecipeScraperTests\UsesTestData;
-use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\ScraperLocator;
 
-class ScraperTestCase extends PHPUnit_Framework_TestCase
+class ScraperTestCase extends \PHPUnit\Framework\TestCase
 {
 	use UsesTestData;
 
@@ -35,17 +31,15 @@ class ScraperTestCase extends PHPUnit_Framework_TestCase
 	/** @test */
 	function it_correctly_scrapes_all_provided_urls()
 	{
+		$resolver = new \SSNepenthe\RecipeScraper\Scrapers\ScraperResolver([
+			new \SSNepenthe\RecipeScraper\Scrapers\AllRecipesCom,
+		]);
+
 		foreach ($this->urls as $url) {
-			$html = $this->getHtml($url);
+			$crawler = $this->makeCrawler($url);
 			$expectedResults = $this->getResults($url);
-
-			$crawler = new Crawler($html, $url);
-			$locator = new ScraperLocator($crawler);
-			$scraperClass = $locator->locate();
-
-			$scraper = new $scraperClass($crawler);
-
-			$actualResults = $scraper->scrape();
+			$scraper = $resolver->resolve($crawler);
+			$actualResults = $scraper->scrape($crawler);
 
 			$this->assertSameResults($expectedResults, $actualResults, $url);
 		}
@@ -53,39 +47,8 @@ class ScraperTestCase extends PHPUnit_Framework_TestCase
 
 	protected function assertSameResults($expected, $actual, $url)
 	{
-		$newToOldMap = [
-			'categories' => 'recipeCategories',
-			'cuisines' => 'recipeCuisines',
-			'ingredients' => 'recipeIngredients',
-			'instructions' => 'recipeInstructions',
-			'yield' => 'recipeYield',
-		];
-
-		// @todo Temporary - just until scraper refactor.
-		foreach ($expected as $key => $value) {
-			$actualValue = isset($newToOldMap[$key])
-				? $actual->{$newToOldMap[$key]}
-				: $actual->{$key};
-
-			if ('ingredients' === $key || 'instructions' === $key) {
-				$newValue = [];
-
-				foreach ($actualValue as $group) {
-					foreach ($group as $gKey => $gValue) {
-						if (is_string($gValue)) {
-							// title
-							$newValue[] = $gValue;
-						} else {
-							// data
-							$newValue = array_merge($newValue, $gValue);
-						}
-					}
-				}
-
-				$actualValue = array_values(array_filter($newValue));
-			}
-
-			$this->assertEquals($value, $actualValue, "{$url} - {$key}");
+		foreach (array_keys($expected) as $key) {
+			$this->assertEquals($expected[$key], $actual[$key], "{$url} - {$key}");
 		}
 	}
 
@@ -116,12 +79,11 @@ class ScraperTestCase extends PHPUnit_Framework_TestCase
 
 		$results = static::includeFile($resultsPath);
 
-		foreach (['cookTime', 'prepTime', 'totalTime'] as $timestamp) {
-			if ($results[$timestamp]) {
-				$results[$timestamp] = new DateInterval($results[$timestamp]);
-			}
-		}
-
 		return $results;
+	}
+
+	protected function makeCrawler($url)
+	{
+		return new \Symfony\Component\DomCrawler\Crawler($this->getHtml($url), $url);
 	}
 }
