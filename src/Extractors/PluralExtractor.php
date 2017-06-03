@@ -11,9 +11,9 @@ class PluralExtractor implements ExtractorInterface
 		$nodes = $crawler->filter($selector);
 
 		return $nodes->count()
-			? array_filter($nodes->each(function(Crawler $node) use ($attr) {
+			? $nodes->each(function(Crawler $node) use ($attr) {
             	return trim('_text' === $attr ? $node->text() : $node->attr($attr));
-        	}))
+        	})
         	// @todo Empty array?
         	: null;
 	}
