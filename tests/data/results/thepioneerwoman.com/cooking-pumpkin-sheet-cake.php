@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
+    'author' => 'Ree',
+    'categories' => null,
+    'cookingMethod' => null,
     'cookTime' => 'PT25M',
-    'cuisines' => [],
-    'description' => '',
-    'image' => 'http://pioneerwoman.files.wordpress.com/2014/11/15806731655_2546b426c7_z.jpg?w=630&h=419',
+    'cuisines' => null,
+    'description' => 'This was the cake I made the other day that resulted in leftover pumpkin puree, which I used to make Pumpkin Ravioli, which I posted here bright and early on Monday morning. It was a triumph.',
+    'image' => 'https://pioneerwoman.files.wordpress.com/2014/11/dsc_83101.jpg',
     'ingredients' => [
         '2 sticks Salted Butter',
         '2 cups Pumpkin Puree (not Pumpkin Pie Filling!)',
@@ -21,7 +21,7 @@ return [
         '2 teaspoons Baking Soda',
         '2 teaspoons Vanilla Extract',
         '1/2 teaspoon Maple Extract (optional)',
-        'Frosting',
+        'FROSTING',
         '8 ounces, weight Cream Cheese, Softened',
         '1 stick Butter, Softened',
         '1 pound Powdered Sugar, Sifted',
@@ -39,8 +39,8 @@ return [
     ],
     'name' => 'Pumpkin Sheet Cake',
     'prepTime' => 'PT35M',
-    'publisher' => '',
-    'totalTime' => '',
+    'publisher' => null,
+    'totalTime' => null,
     'url' => 'http://thepioneerwoman.com/cooking/pumpkin-sheet-cake/',
-    'yield' => '18',
+    'yield' => 'Serves 18',
 ];

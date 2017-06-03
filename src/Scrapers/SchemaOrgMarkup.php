@@ -79,8 +79,7 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractCookTime(Crawler $crawler)
     {
-        // @todo Create DateInterval instance, recalculate carryover and output as string.
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        $value = $this->makeExtractor(self::SINGULAR_EXTRACTOR)
             ->extract($crawler, '[itemprop="cookTime"]', 'datetime');
     }
 
@@ -149,7 +148,6 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
             ->extract($crawler, '[itemprop="totalTime"]', 'datetime');
-
     }
 
     protected function extractUrl(Crawler $crawler)

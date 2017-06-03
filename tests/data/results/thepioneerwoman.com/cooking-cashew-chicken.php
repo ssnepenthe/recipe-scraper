@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
+    'author' => 'Ree',
+    'categories' => null,
+    'cookingMethod' => null,
     'cookTime' => 'PT10M',
-    'cuisines' => [],
-    'description' => '',
-    'image' => 'https://pioneerwoman.files.wordpress.com/2016/03/dsc_3966.jpg?w=780&h=519',
+    'cuisines' => null,
+    'description' => 'We have a post all about the merits of comfort food over on PW Life & Style today, and there’s no other category I can put Cashew Chicken than that.',
+    'image' => 'https://pioneerwoman.files.wordpress.com/2016/03/dsc_3966.jpg?w=1200',
     'ingredients' => [
         '1/2 cup Low Sodium Soy Sauce',
         '1 Tablespoon Rice Vinegar',
@@ -35,8 +35,8 @@ return [
     ],
     'name' => 'Cashew Chicken',
     'prepTime' => 'PT5M',
-    'publisher' => '',
-    'totalTime' => '',
+    'publisher' => null,
+    'totalTime' => null,
     'url' => 'http://thepioneerwoman.com/cooking/cashew-chicken/',
-    'yield' => '8',
+    'yield' => 'Serves 8',
 ];

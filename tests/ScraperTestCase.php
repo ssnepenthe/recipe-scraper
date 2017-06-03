@@ -35,6 +35,7 @@ class ScraperTestCase extends TestCase
 		$resolver = new \SSNepenthe\RecipeScraper\Scrapers\ScraperResolver([
 			new \SSNepenthe\RecipeScraper\Scrapers\AllRecipesCom,
 			new \SSNepenthe\RecipeScraper\Scrapers\SpryLivingCom,
+			new \SSNepenthe\RecipeScraper\Scrapers\ThePioneerWomanCom,
 		]);
 
 		foreach ($this->urls as $url) {

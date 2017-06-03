@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
+    'author' => 'Ree',
+    'categories' => null,
+    'cookingMethod' => null,
     'cookTime' => 'PT1H',
-    'cuisines' => [],
-    'description' => '',
-    'image' => 'https://pioneerwoman.files.wordpress.com/2016/05/dsc_0580.jpg?w=780&h=519',
+    'cuisines' => null,
+    'description' => 'Very few things are more comforting to me than a deliciously drippy French dip sandwich. Fantastically flavor beef…golden toasted…dark, beautiful onions…and the most delectably savory liquid to dip it in.',
+    'image' => 'https://pioneerwoman.files.wordpress.com/2016/05/dsc_0580.jpg?w=1200',
     'ingredients' => [
         '1 Tablespoon Kosher Salt',
         '2 Tablespoons Black Pepper',
@@ -33,8 +33,8 @@ return [
     ],
     'name' => 'French Dip Sandwiches',
     'prepTime' => 'PT15M',
-    'publisher' => '',
-    'totalTime' => '',
+    'publisher' => null,
+    'totalTime' => null,
     'url' => 'http://thepioneerwoman.com/cooking/french-dip-sandwiches/',
-    'yield' => '10',
+    'yield' => 'Serves 10',
 ];
