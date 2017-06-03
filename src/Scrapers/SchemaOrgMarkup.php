@@ -42,7 +42,13 @@ class SchemaOrgMarkup implements ScraperInterface
         foreach (array_merge($intervals, $misc) as $key) {
             $method = 'extract' . ucfirst($key);
 
-            $recipe[$key] = $this->{$method}($crawler);
+            $value = $this->{$method}($crawler);
+
+            if (is_array($value)) {
+                $value = array_values(array_filter($value));
+            }
+
+            $recipe[$key] = $value;
         }
 
         foreach ($intervals as $key) {

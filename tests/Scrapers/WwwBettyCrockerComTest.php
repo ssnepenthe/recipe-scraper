@@ -2,7 +2,7 @@
 
 use RecipeScraperTests\ScraperTestCase;
 
-class BettyCrockerComTest extends ScraperTestCase
+class WwwBettyCrockerComTest extends ScraperTestCase
 {
     protected $host = 'www.bettycrocker.com';
 }

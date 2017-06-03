@@ -36,6 +36,7 @@ class ScraperTestCase extends TestCase
 			new \SSNepenthe\RecipeScraper\Scrapers\AllRecipesCom,
 			new \SSNepenthe\RecipeScraper\Scrapers\SpryLivingCom,
 			new \SSNepenthe\RecipeScraper\Scrapers\ThePioneerWomanCom,
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwBettyCrockerCom,
 		]);
 
 		foreach ($this->urls as $url) {

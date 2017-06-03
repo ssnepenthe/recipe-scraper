@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'author' => '',
+    'author' => null,
     'categories' => null,
-    'cookingMethod' => '',
-    'cookTime' => '',
+    'cookingMethod' => null,
+    'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Banana, peanut butter and marshmallow make a terrific sandwich, and an even better poke cake! MORE + LESS -',
+    'description' => 'Banana, peanut butter and marshmallow make a terrific sandwich, and an even better poke cake!',
     'image' => 'https://images-gmi-pmc.edge-generalmills.com/553c4645-7aed-423e-af63-906479207968.jpg',
     'ingredients' => [
         'Cake',
@@ -27,7 +27,7 @@ return [
         'Sliced bananas',
     ],
     'instructions' => [
-        'Heat oven to 350 °F (325 °F for dark or nonstick pan). Grease or spray bottom only of 13x9-inch pan.',
+        'Heat oven to 350°F (325°F for dark or nonstick pan). Grease or spray bottom only of 13x9-inch pan.',
         'In large bowl, beat Cake ingredients with electric mixer on low speed 30 seconds, then on medium speed 2 minutes, scraping bowl occasionally. Pour into pan. Bake 26 to 33 minutes or until toothpick inserted in center comes out clean.',
         'Remove cake from oven to cooling rack; cool 5 minutes. With handle of wooden spoon (1/4 to 1/2 inch in diameter), poke holes almost to bottom of cake every 1/2 inch, wiping spoon handle occasionally to reduce sticking.',
         'In large bowl, beat Filling ingredients with whisk 1 minute (mixture will thicken). Pour over cake; spread evenly over surface, working back and forth to fill holes. (Some filling should remain on top of cake.) Refrigerate 1 hour.',
@@ -36,7 +36,7 @@ return [
     ],
     'name' => 'Banana, Peanut Butter and Marshmallow Poke Cake',
     'prepTime' => 'PT30M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT2H10M',
     'url' => 'https://www.bettycrocker.com/recipes/banana-peanut-butter-and-marshmallow-poke-cake/5e2b9f28-7d7e-4ce2-af66-6a958d47046c',
     'yield' => '12',
