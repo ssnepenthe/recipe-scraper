@@ -5,7 +5,7 @@ use RecipeScraperTests\ScraperTestCase;
 /**
  * @todo Haven't been able to find recipes with ingredient groups.
  */
-class BHGComTest extends ScraperTestCase
+class WwwBhgComTest extends ScraperTestCase
 {
     protected $host = 'www.bhg.com';
 }
