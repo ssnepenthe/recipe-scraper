@@ -5,15 +5,18 @@ namespace SSNepenthe\RecipeScraper\Scrapers;
 use Symfony\Component\DomCrawler\Crawler;
 use SSNepenthe\RecipeScraper\Extractors\PluralExtractor;
 use SSNepenthe\RecipeScraper\Extractors\SingularExtractor;
+use SSNepenthe\RecipeScraper\Extractors\PluralFromChildren;
 
 class SchemaOrgMarkup implements ScraperInterface
 {
     const SINGULAR_EXTRACTOR = SingularExtractor::class;
     const PLURAL_EXTRACTOR = PluralExtractor::class;
+    const PLURAL_CHILDREN_EXTRACTOR = PluralFromChildren::class;
 
     protected $extractors = [
         PluralExtractor::class => null,
         SingularExtractor::class => null,
+        PluralFromChildren::class => null,
     ];
 
     public function scrape(Crawler $crawler) : array

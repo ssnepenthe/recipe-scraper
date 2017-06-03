@@ -41,28 +41,8 @@ class SpryLivingCom extends SchemaOrgMarkup
 
     protected function extractIngredients(Crawler $crawler)
     {
-        // @todo Dedicated extractor?
-        $nodes = $crawler->filter('[itemprop="ingredients"], .ingredients dt');
-
-        if (! $nodes->count()) {
-            return null;
-        }
-
-        $values = $nodes->each(function(Crawler $node) {
-            $childNodes = $node->children();
-
-            if (! $childNodes->count()) {
-                return trim($node->text());
-            }
-
-            $subValues = $node->children()->each(function(Crawler $subNode) {
-                return trim($subNode->text());
-            });
-
-            return implode(' ', array_filter($subValues));
-        });
-
-        return $values;
+        return $this->makeExtractor(self::PLURAL_CHILDREN_EXTRACTOR)
+            ->extract($crawler, '[itemprop="ingredients"], .ingredients dt');
     }
 
     protected function extractInstructions(Crawler $crawler)
@@ -73,28 +53,8 @@ class SpryLivingCom extends SchemaOrgMarkup
             '[itemprop="recipeInstructions"] strong',
         ];
 
-        // @todo Dedicated extractor? See ingredients.
-        $nodes = $crawler->filter(implode(', ', $selectors));
-
-        if (! $nodes->count()) {
-            return null;
-        }
-
-        $values = $nodes->each(function(Crawler $node) {
-            $childNodes = $node->children();
-
-            if (! $childNodes->count()) {
-                return trim($node->text());
-            }
-
-            $subValues = $node->children()->each(function(Crawler $subNode) {
-                return trim($subNode->text());
-            });
-
-            return implode(' ', array_filter($subValues));
-        });
-
-        return $values;
+        return $this->makeExtractor(self::PLURAL_CHILDREN_EXTRACTOR)
+            ->extract($crawler, implode(', ', $selectors));
     }
 
     protected function extractPrepTime(Crawler $crawler)
