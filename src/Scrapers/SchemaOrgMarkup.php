@@ -82,7 +82,7 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractCookTime(Crawler $crawler)
     {
-        $value = $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
             ->extract($crawler, '[itemprop="cookTime"]', 'datetime');
     }
 
