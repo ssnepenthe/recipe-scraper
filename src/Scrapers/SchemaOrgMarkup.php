@@ -2,6 +2,7 @@
 
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
+use SSNepenthe\RecipeScraper\Interval;
 use Symfony\Component\DomCrawler\Crawler;
 use SSNepenthe\RecipeScraper\Extractors\PluralExtractor;
 use SSNepenthe\RecipeScraper\Extractors\SingularExtractor;
@@ -21,29 +22,39 @@ class SchemaOrgMarkup implements ScraperInterface
 
     public function scrape(Crawler $crawler) : array
     {
-        $keys = [
+        $intervals = ['cookTime', 'prepTime', 'totalTime'];
+        $misc = [
             'author',
             'categories',
             'cookingMethod',
-            'cookTime',
             'cuisines',
             'description',
             'image',
             'ingredients',
             'instructions',
             'name',
-            'prepTime',
             'publisher',
-            'totalTime',
             'url',
             'yield',
         ];
         $recipe = [];
 
-        foreach ($keys as $key) {
+        foreach (array_merge($intervals, $misc) as $key) {
             $method = 'extract' . ucfirst($key);
 
             $recipe[$key] = $this->{$method}($crawler);
+        }
+
+        foreach ($intervals as $key) {
+            try {
+                $interval = Interval::toIso8601(
+                    Interval::fromString($recipe[$key])
+                );
+            } catch (\Exception $e) {
+                $interval = $recipe[$key];
+            }
+
+            $recipe[$key] = $interval;
         }
 
         return $recipe;
