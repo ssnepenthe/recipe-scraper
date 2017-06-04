@@ -1,13 +1,17 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => 'PT10M',
-    'cuisines' => [],
-    'description' => '',
-    'image' => 'http://cook.sndimg.com/content/dam/images/cook/fullset/2016/1/7/0/CCTIA206H_Lamb-Burger_s4x3.jpg/jcr:content/renditions/cq5dam.web.266.200.jpeg',
+    'author' => 'Tia Mowry : Hosts : Cooking Channel',
+    'categories' => [
+        'Burgers',
+        'Lamb',
+        'Meat',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT35M',
+    'cuisines' => null,
+    'description' => null,
+    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/1/7/0/CCTIA206H_Lamb-Burger_s4x3.jpg.rend.hgtvcom.616.462.jpeg',
     'ingredients' => [
         '2 tablespoons finely chopped onion',
         '2 large cloves garlic, minced',
@@ -36,9 +40,9 @@ return [
         'Assemble the burgers: Place the burgers on the buns, and layer with lettuce, red onions and tomatoes.',
     ],
     'name' => 'Lamb Burgers',
-    'prepTime' => 'PT15M',
-    'publisher' => '',
-    'totalTime' => 'PT55M',
-    'url' => 'http://www.cookingchanneltv.com/recipes/tia-mowry/lamb-burgers.html',
-    'yield' => '4',
+    'prepTime' => null,
+    'publisher' => 'Cooking Channel',
+    'totalTime' => 'PT1H5M',
+    'url' => 'http://www.cookingchanneltv.com/recipes/tia-mowry/lamb-burgers-3211814',
+    'yield' => '4 servings',
 ];
