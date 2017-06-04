@@ -8,7 +8,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Wild salmon, dressed in fresh pesto sauce and served alongside vibrant yellow squash—the ultimate summertime grill menu.',
+    'description' => 'Wild salmon, dressed in fresh pesto sauce and served alongside vibrant yellow squash-the ultimate summertime grill menu.',
     'image' => 'https://i2.wp.com/spryliving.com/wp-content/uploads/2016/05/unnamed.jpg?resize=670%2C405',
     'ingredients' => [
         'coconut oil, for grilling',

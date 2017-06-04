@@ -2,6 +2,8 @@
 
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
+use SSNepenthe\RecipeScraper\Arr;
+use SSNepenthe\RecipeScraper\Str;
 use SSNepenthe\RecipeScraper\Interval;
 use Symfony\Component\DomCrawler\Crawler;
 use SSNepenthe\RecipeScraper\Extractors\PluralExtractor;
@@ -20,38 +22,41 @@ class SchemaOrgMarkup implements ScraperInterface
         PluralFromChildren::class => null,
     ];
 
+    protected $intervals = ['cookTime', 'prepTime', 'totalTime'];
+    protected $properties = [
+        'author',
+        'categories',
+        'cookingMethod',
+        'cuisines',
+        'description',
+        'image',
+        'ingredients',
+        'instructions',
+        'name',
+        'publisher',
+        'url',
+        'yield',
+    ];
+
     public function scrape(Crawler $crawler) : array
     {
-        $intervals = ['cookTime', 'prepTime', 'totalTime'];
-        $misc = [
-            'author',
-            'categories',
-            'cookingMethod',
-            'cuisines',
-            'description',
-            'image',
-            'ingredients',
-            'instructions',
-            'name',
-            'publisher',
-            'url',
-            'yield',
-        ];
         $recipe = [];
 
-        foreach (array_merge($intervals, $misc) as $key) {
+        foreach (array_merge($this->intervals, $this->properties) as $key) {
             $method = 'extract' . ucfirst($key);
 
             $value = $this->{$method}($crawler);
 
             if (is_array($value)) {
-                $value = array_values(array_filter($value));
+                $value = Arr::normalize($value);
+            } else {
+                $value = Str::normalize($value);
             }
 
             $recipe[$key] = $value;
         }
 
-        foreach ($intervals as $key) {
+        foreach ($this->intervals as $key) {
             try {
                 $interval = Interval::toIso8601(
                     Interval::fromString($recipe[$key])

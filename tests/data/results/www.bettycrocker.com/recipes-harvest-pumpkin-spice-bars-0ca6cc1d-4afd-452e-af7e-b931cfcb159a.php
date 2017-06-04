@@ -6,7 +6,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'You\'ll fall in love with these pumpkin bars!  They have a light texture, are full of cinnamon, ginger, raisins and nuts and are topped with cream cheese frosting.',
+    'description' => 'You\'ll fall in love with these pumpkin bars! They have a light texture, are full of cinnamon, ginger, raisins and nuts and are topped with cream cheese frosting.',
     'image' => 'https://images-gmi-pmc.edge-generalmills.com/d1d62d2c-5cd2-42e2-811f-902aa914464a.jpg',
     'ingredients' => [
         'Bars',

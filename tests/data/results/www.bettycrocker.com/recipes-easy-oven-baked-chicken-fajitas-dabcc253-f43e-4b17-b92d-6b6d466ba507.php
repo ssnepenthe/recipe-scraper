@@ -6,7 +6,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Make fajitas easier than ever with this oven shortcut that will save you time, but won’t skimp on flavor.',
+    'description' => 'Make fajitas easier than ever with this oven shortcut that will save you time, but won\'t skimp on flavor.',
     'image' => 'https://images-gmi-pmc.edge-generalmills.com/a2634f3d-fce8-4959-904b-e2b7f13f3b85.jpg',
     'ingredients' => [
         '1 large onion',
@@ -16,7 +16,7 @@ return [
         '2 tablespoons vegetable oil',
         'Old El Paso™ tortillas for soft tacos & fajitas (6 inch; from 8.2-oz package)',
         'Sour Cream',
-        'Old El Paso™ Thick ‘n Chunky salsa',
+        'Old El Paso™ Thick \'n Chunky salsa',
         'Chopped fresh cilantro',
     ],
     'instructions' => [

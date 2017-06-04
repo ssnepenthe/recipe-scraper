@@ -2,6 +2,7 @@
 
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
+use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -53,10 +54,10 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
         $newInstructions = [];
 
         foreach ($instructions as $instruction) {
-            $instruction = preg_replace('/\s{2,}/', PHP_EOL, $instruction);
-            $instruction = explode(PHP_EOL, $instruction);
-
-            $newInstructions = array_merge($newInstructions, $instruction);
+            $newInstructions = array_merge(
+                $newInstructions,
+                array_map('strval', s($instruction)->lines())
+            );
         }
 
         return array_filter($newInstructions);

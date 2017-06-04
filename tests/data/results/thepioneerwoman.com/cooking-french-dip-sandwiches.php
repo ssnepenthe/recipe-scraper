@@ -6,7 +6,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => 'PT1H',
     'cuisines' => null,
-    'description' => 'Very few things are more comforting to me than a deliciously drippy French dip sandwich. Fantastically flavor beef…golden toasted…dark, beautiful onions…and the most delectably savory liquid to dip it in.',
+    'description' => 'Very few things are more comforting to me than a deliciously drippy French dip sandwich. Fantastically flavor beef...golden toasted...dark, beautiful onions...and the most delectably savory liquid to dip it in.',
     'image' => 'https://pioneerwoman.files.wordpress.com/2016/05/dsc_0580.jpg?w=1200',
     'ingredients' => [
         '1 Tablespoon Kosher Salt',

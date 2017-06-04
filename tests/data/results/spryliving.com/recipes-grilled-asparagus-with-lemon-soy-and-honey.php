@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Recipe by Steven  Petusevsky',
+    'author' => 'Recipe by Steven Petusevsky',
     'categories' => [
         'Healthy',
     ],

@@ -6,7 +6,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => 'PT10M',
     'cuisines' => null,
-    'description' => '"I\'ve looked all over the net and haven\'t found a shrimp ceviche quite like this one!   My friends absolutely love it and beg me for the recipe!  You can always double it for larger parties--it goes FAST! Serve as a dip with tortilla chips or as a topping on a tostada spread with mayo. The fearless palate might like this with hot sauce."',
+    'description' => '"I\'ve looked all over the net and haven\'t found a shrimp ceviche quite like this one! My friends absolutely love it and beg me for the recipe! You can always double it for larger parties--it goes FAST! Serve as a dip with tortilla chips or as a topping on a tostada spread with mayo. The fearless palate might like this with hot sauce."',
     'image' => 'http://images.media-allrecipes.com/userphotos/560x315/1364063.jpg',
     'ingredients' => [
         '1 pound peeled and deveined medium shrimp',

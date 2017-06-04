@@ -6,7 +6,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => 'PT10M',
     'cuisines' => null,
-    'description' => 'We have a post all about the merits of comfort food over on PW Life & Style today, and there’s no other category I can put Cashew Chicken than that.',
+    'description' => 'We have a post all about the merits of comfort food over on PW Life & Style today, and there\'s no other category I can put Cashew Chicken than that.',
     'image' => 'https://pioneerwoman.files.wordpress.com/2016/03/dsc_3966.jpg?w=1200',
     'ingredients' => [
         '1/2 cup Low Sodium Soy Sauce',

@@ -6,7 +6,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => 'PT2H',
     'cuisines' => null,
-    'description' => 'I love cheesecake, but rather than go the traditional, predictable Springform pan route, I sometimes like to bake them in a rectangular pan and cut them into squares. It’s easier to cut and easier to serve, which means it’s easier to eat, which is always a plus in my book. It also makes these perfect for a potluck dinner, or any place you need to take a portable dessert!',
+    'description' => 'I love cheesecake, but rather than go the traditional, predictable Springform pan route, I sometimes like to bake them in a rectangular pan and cut them into squares. It\'s easier to cut and easier to serve, which means it\'s easier to eat, which is always a plus in my book. It also makes these perfect for a potluck dinner, or any place you need to take a portable dessert!',
     'image' => 'https://pioneerwoman.files.wordpress.com/2014/06/cheesecake1.jpg',
     'ingredients' => [
         'Crust',
