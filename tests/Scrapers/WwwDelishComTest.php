@@ -2,7 +2,7 @@
 
 use RecipeScraperTests\ScraperTestCase;
 
-class DelishComTest extends ScraperTestCase
+class WwwDelishComTest extends ScraperTestCase
 {
     protected $host = 'www.delish.com';
 }

@@ -38,6 +38,7 @@ class ScraperTestCase extends TestCase
 			new \SSNepenthe\RecipeScraper\Scrapers\ThePioneerWomanCom,
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwBettyCrockerCom,
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwBhgCom,
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwDelishCom,
 
 			// LD+JSON
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwCookingChannelTvCom,
