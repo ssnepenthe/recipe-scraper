@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => '/contributors/alison-roman',
+    'author' => 'Alison Roman',
     'categories' => [
         'Chicken',
         'Low Fat',
@@ -15,8 +15,8 @@ return [
         'Tortillas',
         'Bon Appétit',
     ],
-    'cookingMethod' => '',
-    'cookTime' => '',
+    'cookingMethod' => null,
+    'cookTime' => null,
     'cuisines' => [
         'Mexican',
     ],
@@ -40,9 +40,9 @@ return [
         'Let chicken rest 5 minutes before slicing. Serve with tortillas, avocados, Charred Tomatillo Salsa Verde, cilantro, radishes, and lime wedges.',
     ],
     'name' => 'Grilled Chicken Tacos',
-    'prepTime' => '',
+    'prepTime' => null,
     'publisher' => 'Bon Appétit',
-    'totalTime' => '',
+    'totalTime' => null,
     'url' => 'http://www.epicurious.com/recipes/food/views/grilled-chicken-tacos-51175340',
-    'yield' => '4',
+    'yield' => 'Makes 4 servings',
 ];

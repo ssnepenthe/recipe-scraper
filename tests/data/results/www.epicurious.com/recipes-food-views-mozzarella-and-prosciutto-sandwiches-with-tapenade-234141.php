@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => '/contributors/nancy-silverton',
+    'author' => 'Nancy Silverton',
     'categories' => [
         'Sandwich',
         'Cheese',
@@ -19,13 +19,13 @@ return [
         'Tree Nut Free',
         'Soy Free',
     ],
-    'cookingMethod' => '',
-    'cookTime' => '',
+    'cookingMethod' => null,
+    'cookTime' => null,
     'cuisines' => [
         'American',
         'Italian',
     ],
-    'description' => '',
+    'description' => 'This baguette sandwich combines salty prosciutto slices and olive tapenade with creamy mozzarella slices.',
     'image' => 'http://assets.epicurious.com/photos/57aa356d47750f3f7bc358f6/master/pass/mozzarella-and-prosciutto-sandwiches-with-tapenade-09082016.jpg',
     'ingredients' => [
         '1 1/2 teaspoons chopped anchovy fillet',
@@ -47,9 +47,9 @@ return [
         'Brush cut sides of ficelle with additional olive oil. Place 1 prosciutto slice on bottom half of each ficelle, then top with mozzarella slices, dividing equally. Spoon tapenade over each. Sprinkle with pepper; drizzle lightly with olive oil. Garnish with basil leaves. Cover with top halves of ficelle.',
     ],
     'name' => 'Mozzarella and Prosciutto Sandwiches with Tapenade',
-    'prepTime' => '',
+    'prepTime' => null,
     'publisher' => 'Bon Appétit',
-    'totalTime' => '',
+    'totalTime' => null,
     'url' => 'http://www.epicurious.com/recipes/food/views/mozzarella-and-prosciutto-sandwiches-with-tapenade-234141',
-    'yield' => '6',
+    'yield' => 'Makes 6 servings',
 ];

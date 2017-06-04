@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => '',
+    'author' => null,
     'categories' => [
         'Sandwich',
         'Food Processor',
@@ -20,13 +20,13 @@ return [
         'Tree Nut Free',
         'Soy Free',
     ],
-    'cookingMethod' => '',
-    'cookTime' => '',
+    'cookingMethod' => null,
+    'cookTime' => null,
     'cuisines' => [
         'American',
     ],
-    'description' => 'We enjoyed everything about The Peninsula hotel in Beverly Hills — the location, the rooms and the terrific restaurants. The last time I stayed there, I had the most delicious salmon burger at the Roof Garden," says Diana Goldstein of Washington, D.C.. "Now that I\'ve had this version, I may never go back to beef burgers.',
-    'image' => '',
+    'description' => null,
+    'image' => null,
     'ingredients' => [
         '5 tablespoons (or more) olive oil',
         '1 cup chopped shallots (about 3 large)',
@@ -50,9 +50,9 @@ return [
         'Heat 1 tablespoon olive oil in heavy large skillet over medium-high heat. Working in batches, add salmon patties to skillet and cook until patties are golden brown and cooked through, about 2 minutes per side, adding more oil to skillet as needed. Serve salmon burgers on toasted hamburger buns with mayonnaise, lettuce leaves and tomato slices.',
     ],
     'name' => 'Salmon Burgers with Lemon and Capers',
-    'prepTime' => '',
+    'prepTime' => null,
     'publisher' => 'Bon Appétit',
-    'totalTime' => '',
+    'totalTime' => null,
     'url' => 'http://www.epicurious.com/recipes/food/views/salmon-burgers-with-lemon-and-capers-103498',
-    'yield' => '10 burgers',
+    'yield' => 'Makes 10 burgers',
 ];
