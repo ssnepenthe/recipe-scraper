@@ -8,6 +8,14 @@ use SSNepenthe\RecipeScraper\Extractors\SingularExtractor;
 
 class WwwCookingChannelTvCom extends SchemaOrgJsonLd
 {
+    public function supports(Crawler $crawler) : bool
+    {
+        return 'www.cookingchanneltv.com' === parse_url(
+            $crawler->getUri(),
+            PHP_URL_HOST
+        );
+    }
+
     protected function extractAuthor(Crawler $crawler, array $json)
     {
         // Author is an array of person arrays.
