@@ -22,18 +22,20 @@ class SchemaOrgMarkup implements ScraperInterface
         PluralFromChildren::class => null,
     ];
 
-    protected $intervals = ['cookTime', 'prepTime', 'totalTime'];
     protected $properties = [
         'author',
         'categories',
         'cookingMethod',
+        'cookTime',
         'cuisines',
         'description',
         'image',
         'ingredients',
         'instructions',
         'name',
+        'prepTime',
         'publisher',
+        'totalTime',
         'url',
         'yield',
     ];
@@ -42,30 +44,29 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         $recipe = [];
 
-        foreach (array_merge($this->intervals, $this->properties) as $key) {
-            $method = 'extract' . ucfirst($key);
+        foreach ($this->properties as $key) {
+            $methodKey = ucfirst($key);
+            $extractor = "extract{$methodKey}";
+            $preNormalizer = "preNormalize{$methodKey}";
+            $postNormalizer = "postNormalize{$methodKey}";
 
-            $value = $this->{$method}($crawler);
+            $value = $this->{$extractor}($crawler);
+
+            if (method_exists($this, $preNormalizer)) {
+                $value = $this->{$preNormalizer}($value);
+            }
 
             if (is_array($value)) {
                 $value = Arr::normalize($value);
-            } else {
+            } elseif (is_string($value)) {
                 $value = Str::normalize($value);
             }
 
-            $recipe[$key] = $value;
-        }
-
-        foreach ($this->intervals as $key) {
-            try {
-                $interval = Interval::toIso8601(
-                    Interval::fromString($recipe[$key])
-                );
-            } catch (\Exception $e) {
-                $interval = $recipe[$key];
+            if (method_exists($this, $postNormalizer)) {
+                $value = $this->{$postNormalizer}($value);
             }
 
-            $recipe[$key] = $interval;
+            $recipe[$key] = $value;
         }
 
         return $recipe;
@@ -202,5 +203,33 @@ class SchemaOrgMarkup implements ScraperInterface
         }
 
         return $this->extractors[$type] = new $type;
+    }
+
+    protected function normalizeInterval($value)
+    {
+        if (! is_string($value)) {
+            return $value;
+        }
+
+        try {
+            return Interval::toIso8601(Interval::fromString($value));
+        } catch (\Exception $e) {
+            return $value;
+        }
+    }
+
+    protected function postNormalizeCookTime($value)
+    {
+        return $this->normalizeInterval($value);
+    }
+
+    protected function postNormalizePrepTime($value)
+    {
+        return $this->normalizeInterval($value);
+    }
+
+    protected function postNormalizeTotalTime($value)
+    {
+        return $this->normalizeInterval($value);
     }
 }

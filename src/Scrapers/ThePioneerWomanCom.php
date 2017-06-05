@@ -48,21 +48,6 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
             ->extract($crawler, '[itemprop="ingredients"]');
     }
 
-    protected function extractInstructions(Crawler $crawler)
-    {
-        $instructions = parent::extractInstructions($crawler);
-        $newInstructions = [];
-
-        foreach ($instructions as $instruction) {
-            $newInstructions = array_merge(
-                $newInstructions,
-                array_map('strval', s($instruction)->lines())
-            );
-        }
-
-        return array_filter($newInstructions);
-    }
-
     protected function extractPrepTime(Crawler $crawler)
     {
         return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
@@ -79,5 +64,23 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
     {
         return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
             ->extract($crawler, '[itemprop="recipeYield"]');
+    }
+
+    protected function preNormalizeInstructions($value)
+    {
+        if (! is_array($value)) {
+            return $value;
+        }
+
+        $newInstructions = [];
+
+        foreach ($value as $instruction) {
+            $newInstructions = array_merge(
+                $newInstructions,
+                array_map('strval', s($instruction)->lines())
+            );
+        }
+
+        return $newInstructions;
     }
 }
