@@ -8,6 +8,11 @@ use SSNepenthe\RecipeScraper\Interval;
 use Symfony\Component\DomCrawler\Crawler;
 use SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
 
+/**
+ * Supports marthastewart.com.
+ *     * Occasionally includes links to other recipes in ingredients section
+ *     * Has keywords available which could potentially be used as extra categories.
+ */
 class SchemaOrgJsonLd implements ScraperInterface
 {
     protected $extractor;
@@ -239,8 +244,8 @@ class SchemaOrgJsonLd implements ScraperInterface
             if (
                 is_null($json)
                 || JSON_ERROR_NONE !== json_last_error()
-                || 'http://schema.org' !== Arr::get($json, '@context')
-                || 'Recipe' !== Arr::get($json, '@type')
+                || ! $this->hasSchemaOrgContext($json)
+                || ! $this->hasRecipeType($json)
             ) {
                 return false;
             }
@@ -255,6 +260,21 @@ class SchemaOrgJsonLd implements ScraperInterface
         return array_shift($recipes);
     }
 
+    protected function hasRecipeType($json)
+    {
+        return 'Recipe' === Arr::get($json, '@type');
+    }
+
+    protected function hasSchemaOrgContext($json)
+    {
+        // Should always be an exact match 'http://schema.org' but that doesn't seem
+        // to be the case in the wild so we'll do a more lenient pattern match.
+        return (bool) preg_match(
+            '/https?:\/\/(?:w{3}\.)?schema\.org/',
+            Arr::get($json, '@context')
+        );
+    }
+
     protected function normalizeInterval($value)
     {
         if (! is_string($value)) {
@@ -264,7 +284,8 @@ class SchemaOrgJsonLd implements ScraperInterface
         try {
             return Interval::toIso8601(Interval::fromString($value));
         } catch (\Exception $e) {
-            return $value;
+            // Invalid or empty interval...
+            return null;
         }
     }
 

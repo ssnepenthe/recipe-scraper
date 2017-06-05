@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'This classic Italian egg dish is its country\'s answer to the French omelet -- but much more versatile. It\'s great for breakfast, lunch, and dinner, and delicious hot or at room temperature. Once you get the basics down, check out our variations below.',
-    'image' => 'http://assets.marthastewart.com/styles/wmax-520-highdpi/d20/frittata-062-d112989/frittata-062-d112989_vert.jpg?itok=7-jLdUlf',
+    'image' => 'http://assets.marthastewart.com/styles/wmax-1500/d20/frittata-062-d112989/frittata-062-d112989_horiz.jpg?itok=aFdga4ZF',
     'ingredients' => [
         '3 tablespoons butter',
         '1 cup sliced scallions (about 6)',
@@ -26,8 +26,8 @@ return [
     ],
     'name' => 'Perfect Frittata with Zucchini and Provolone',
     'prepTime' => 'PT25M',
-    'publisher' => '',
+    'publisher' => 'Martha Stewart',
     'totalTime' => 'PT35M',
     'url' => 'http://www.marthastewart.com/1157761/perfect-frittata-zucchini-and-provolone',
-    'yield' => '6 to 8',
+    'yield' => 'Serves 6 to 8',
 ];

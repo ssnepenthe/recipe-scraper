@@ -47,6 +47,7 @@ class ScraperTestCase extends TestCase
 
 			// LD+JSON
 			new \SSNepenthe\RecipeScraper\Scrapers\ScrippsNetworks($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\SchemaOrgJsonLd($extractor),
 		]);
 
 		foreach ($this->urls as $url) {
