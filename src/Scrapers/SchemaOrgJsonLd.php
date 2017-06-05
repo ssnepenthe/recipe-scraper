@@ -9,20 +9,20 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class SchemaOrgJsonLd implements ScraperInterface
 {
-    const SELECTOR = 'script[type="application/ld+json"]';
-
-    protected $intervals = ['cookTime', 'prepTime', 'totalTime'];
     protected $properties = [
         'author',
         'categories',
         'cookingMethod',
+        'cookTime',
         'cuisines',
         'description',
         'image',
         'ingredients',
         'instructions',
         'name',
+        'prepTime',
         'publisher',
+        'totalTime',
         'url',
         'yield',
     ];
@@ -32,7 +32,7 @@ class SchemaOrgJsonLd implements ScraperInterface
         $json = $this->getJson($crawler);
         $recipe = [];
 
-        foreach (array_merge($this->intervals, $this->properties) as $key) {
+        foreach ($this->properties as $key) {
             $methodKey = ucfirst($key);
             $extractor = "extract{$methodKey}";
             $preNormalizer = "preNormalize{$methodKey}";
