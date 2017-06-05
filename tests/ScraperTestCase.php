@@ -44,6 +44,7 @@ class ScraperTestCase extends TestCase
 
 			// LD+JSON
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwCookingChannelTvCom,
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwFoodNetworkCom,
 		]);
 
 		foreach ($this->urls as $url) {
