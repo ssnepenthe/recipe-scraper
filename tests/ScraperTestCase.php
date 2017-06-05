@@ -43,6 +43,7 @@ class ScraperTestCase extends TestCase
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwDelishCom($extractor),
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwEpicuriousCom($extractor),
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwFoodAndWineCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwJustATasteCom($extractor),
 
 			// LD+JSON
 			new \SSNepenthe\RecipeScraper\Scrapers\ScrippsNetworks($extractor),
