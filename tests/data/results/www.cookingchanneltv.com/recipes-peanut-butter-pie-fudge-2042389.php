@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => null,
+    'author' => 'Cooking Channel',
     'categories' => [
         'Fudge',
         'Peanut Butter',

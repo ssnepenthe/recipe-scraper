@@ -33,30 +33,28 @@ class SchemaOrgJsonLd implements ScraperInterface
         $recipe = [];
 
         foreach (array_merge($this->intervals, $this->properties) as $key) {
-            $method = 'extract' . ucfirst($key);
+            $methodKey = ucfirst($key);
+            $extractor = "extract{$methodKey}";
+            $preNormalizer = "preNormalize{$methodKey}";
+            $postNormalizer = "postNormalize{$methodKey}";
 
-            // Only difference between this and SchemaOrgMarkup...
-            $value = $this->{$method}($crawler, $json);
+            $value = $this->{$extractor}($crawler, $json);
+
+            if (method_exists($this, $preNormalizer)) {
+                $value = $this->{$preNormalizer}($value);
+            }
 
             if (is_array($value)) {
                 $value = Arr::normalize($value);
-            } else {
+            } elseif (is_string($value)) {
                 $value = Str::normalize($value);
             }
 
-            $recipe[$key] = $value;
-        }
-
-        foreach ($this->intervals as $key) {
-            try {
-                $interval = Interval::toIso8601(
-                    Interval::fromString($recipe[$key])
-                );
-            } catch (\Exception $e) {
-                $interval = $recipe[$key];
+            if (method_exists($this, $postNormalizer)) {
+                $value = $this->{$postNormalizer}($value);
             }
 
-            $recipe[$key] = $interval;
+            $recipe[$key] = $value;
         }
 
         return $recipe;
@@ -73,7 +71,8 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $author;
         }
 
-        if (is_string($author = Arr::get($json, 'author'))) {
+        // Normalizer can sort out the type.
+        if (! is_null($author = Arr::get($json, 'author'))) {
             return $author;
         }
 
@@ -184,7 +183,8 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $publisher;
         }
 
-        if (is_string($publisher = Arr::get($json, 'publisher'))) {
+        // Normalizer can sort out the type.
+        if (! is_null($publisher = Arr::get($json, 'publisher'))) {
             return $publisher;
         }
 
@@ -246,5 +246,56 @@ class SchemaOrgJsonLd implements ScraperInterface
         }
 
         return array_shift($recipes);
+    }
+
+    protected function normalizeInterval($value)
+    {
+        try {
+            return Interval::toIso8601(Interval::fromString($value));
+        } catch (\Exception $e) {
+            return $value;
+        }
+    }
+
+    protected function normalizePerson($value)
+    {
+        if (! is_array($value)) {
+            return $value;
+        }
+
+        while (is_array($value)) {
+            if (isset($value['name'])) {
+                return $value['name'];
+            }
+
+            $value = array_shift($value);
+        }
+
+        return null;
+    }
+
+    protected function postNormalizeCookTime($value)
+    {
+        return $this->normalizeInterval($value);
+    }
+
+    protected function postNormalizePrepTime($value)
+    {
+        return $this->normalizeInterval($value);
+    }
+
+    protected function postNormalizeTotalTime($value)
+    {
+        return $this->normalizeInterval($value);
+    }
+
+    protected function preNormalizeAuthor($value)
+    {
+        return $this->normalizePerson($value);
+    }
+
+    protected function preNormalizePublisher($value)
+    {
+        return $this->normalizePerson($value);
     }
 }
