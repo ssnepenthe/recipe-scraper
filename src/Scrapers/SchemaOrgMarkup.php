@@ -133,7 +133,10 @@ class SchemaOrgMarkup implements ScraperInterface
     protected function extractIngredients(Crawler $crawler)
     {
         return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeIngredient"]');
+            ->extract(
+                $crawler,
+                '[itemprop="recipeIngredient"], [itemprop="ingredients"]'
+            );
     }
 
     protected function extractInstructions(Crawler $crawler)

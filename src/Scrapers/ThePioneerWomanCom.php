@@ -44,12 +44,6 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
             ->extract($crawler, '[property="og:image"]', 'content');
     }
 
-    protected function extractIngredients(Crawler $crawler)
-    {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="ingredients"]');
-    }
-
     protected function extractPrepTime(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
