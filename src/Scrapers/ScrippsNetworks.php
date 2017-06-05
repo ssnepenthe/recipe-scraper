@@ -3,21 +3,17 @@
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
 use function Stringy\create as s;
-use SSNepenthe\RecipeScraper\Arr;
 use Symfony\Component\DomCrawler\Crawler;
 use SSNepenthe\RecipeScraper\Extractors\SingularExtractor;
 
-/**
- * Site is a scripps network site - may be able to consolidate into single scraper.
- */
-class WwwCookingChannelTvCom extends SchemaOrgJsonLd
+class ScrippsNetworks extends SchemaOrgJsonLd
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.cookingchanneltv.com' === parse_url(
-            $crawler->getUri(),
-            PHP_URL_HOST
-        );
+        $host = parse_url($crawler->getUri(), PHP_URL_HOST);
+
+        return 'www.cookingchanneltv.com' === $host
+            || 'www.foodnetwork.com' === $host;
     }
 
     protected function extractImage(Crawler $crawler, array $json)
