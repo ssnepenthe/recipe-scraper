@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => 'PT25M',
-    'cuisines' => [],
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'A hearty and easy chicken chili.',
     'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/c/h/chicken_chili_stew_1.jpg',
     'ingredients' => [
@@ -31,9 +31,9 @@ return [
         'Paula\'s Note: You can find Salsa Verde in the Latin Foods section of your grocery store.',
     ],
     'name' => 'Chicken Chili Stew',
-    'prepTime' => 'PT5M',
-    'publisher' => '',
+    'prepTime' => null,
+    'publisher' => null,
     'totalTime' => 'PT30M',
     'url' => 'http://www.pauladeen.com/chicken-chili-stew/',
-    'yield' => '',
+    'yield' => null,
 ];

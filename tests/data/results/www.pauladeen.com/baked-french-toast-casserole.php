@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => 'PT50M',
-    'cuisines' => [],
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'A sweet and delicious baked french toast casserole with a praline topping.',
     'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/b/a/baked_french_toast_casserole_1.jpg',
     'ingredients' => [
@@ -29,16 +29,16 @@ return [
     'instructions' => [
         'Slice French bread into 20 slices, 1-inch thick each. (Use any extra bread for garlic toast or bread crumbs). Arrange slices in a generously buttered 9X13 casserole dish in 2 rows, overlapping the slices.',
         'In a large bowl, combine the eggs, half and half, milk, sugar, vanilla, 1/2 teaspoon cinnamon, 1/2 teaspoon nutmeg and salt and beat with a rotary beater or whisk until blended but not too bubbly. Pour mixture over the bread slices, making sure all are covered evenly with the milk-egg mixture. Spoon some of the mixture in between the slices. Cover with foil and refrigerate overnight.',
-        'The next day, preheat oven to 350 °. Spread Praline Topping evenly over the bread and bake for 45 minutes, until puffed and lightly golden. Serve with Raspberry Syrup.',
-        'Praline Topping',
+        'The next day, preheat oven to 350°. Spread Praline Topping evenly over the bread and bake for 45 minutes, until puffed and lightly golden. Serve with Raspberry Syrup.',
+        'Praline Topping:',
         'Combine butter, brown sugar, pecans, light corn syrup, 1/2 teaspoon cinnamon and 1/2 teaspoon nutmeg in a medium bowl and blend well. Spread over bread as directed above.',
-        'Raspberry Syrup',
+        'Raspberry Syrup:',
         'Combine raspberry preserves, water and liqueur in a small saucepan and place over medium heat. Stir until warm and thinned out like syrup.',
     ],
     'name' => 'Baked French Toast Casserole',
-    'prepTime' => 'PT10M',
-    'publisher' => '',
-    'totalTime' => 'PT60M',
+    'prepTime' => null,
+    'publisher' => null,
+    'totalTime' => 'PT1H',
     'url' => 'http://www.pauladeen.com/baked-french-toast-casserole/',
-    'yield' => '',
+    'yield' => null,
 ];

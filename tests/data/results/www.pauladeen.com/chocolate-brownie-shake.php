@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'A double-chocolate shake becomes even more decadent with the addition of a brownie!',
     'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/s/0/s01ep08022_onek_chocolatebrownieshake_i_e_eng_1.jpg',
     'ingredients' => [
@@ -24,9 +24,9 @@ return [
         'Pipe the whipped cream on the shake using a pastry bag fitted with a star tip and drizzle with some extra chocolate sauce, brownie crumbs, shaved chocolate, fresh mint and a cherry.',
     ],
     'name' => 'Chocolate Brownie Shake',
-    'prepTime' => 'PT4M',
-    'publisher' => '',
+    'prepTime' => null,
+    'publisher' => null,
     'totalTime' => 'PT4M',
     'url' => 'http://www.pauladeen.com/chocolate-brownie-shake/',
-    'yield' => '',
+    'yield' => null,
 ];
