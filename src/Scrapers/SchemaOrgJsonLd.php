@@ -250,6 +250,10 @@ class SchemaOrgJsonLd implements ScraperInterface
 
     protected function normalizeInterval($value)
     {
+        if (! is_string($value)) {
+            return $value;
+        }
+
         try {
             return Interval::toIso8601(Interval::fromString($value));
         } catch (\Exception $e) {
