@@ -6,22 +6,13 @@ use SSNepenthe\RecipeScraper\Arr;
 use SSNepenthe\RecipeScraper\Str;
 use SSNepenthe\RecipeScraper\Interval;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\PluralExtractor;
-use SSNepenthe\RecipeScraper\Extractors\SingularExtractor;
-use SSNepenthe\RecipeScraper\Extractors\PluralFromChildren;
+use SSNepenthe\RecipeScraper\Extractors\Plural;
+use SSNepenthe\RecipeScraper\Extractors\Singular;
+use SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
 
 class SchemaOrgMarkup implements ScraperInterface
 {
-    const SINGULAR_EXTRACTOR = SingularExtractor::class;
-    const PLURAL_EXTRACTOR = PluralExtractor::class;
-    const PLURAL_CHILDREN_EXTRACTOR = PluralFromChildren::class;
-
-    protected $extractors = [
-        PluralExtractor::class => null,
-        SingularExtractor::class => null,
-        PluralFromChildren::class => null,
-    ];
-
+    protected $extractor;
     protected $properties = [
         'author',
         'categories',
@@ -39,6 +30,11 @@ class SchemaOrgMarkup implements ScraperInterface
         'url',
         'yield',
     ];
+
+    public function __construct(ExtractorManager $extractor)
+    {
+        $this->extractor = $extractor;
+    }
 
     public function scrape(Crawler $crawler) : array
     {
@@ -81,7 +77,7 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="author"]'
@@ -90,13 +86,13 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractCategories(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="recipeCategory"]');
     }
 
     protected function extractCookingMethod(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="cookingMethod"]'
@@ -105,19 +101,19 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractCookTime(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="cookTime"]', 'datetime');
     }
 
     protected function extractCuisines(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="recipeCuisine"]');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="description"]'
@@ -126,7 +122,7 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="image"]',
@@ -136,19 +132,19 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="recipeIngredient"]');
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="recipeInstructions"]');
     }
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="name"]'
@@ -157,13 +153,13 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractPrepTime(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="prepTime"]', 'datetime');
     }
 
     protected function extractPublisher(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="publisher"]'
@@ -172,13 +168,13 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractTotalTime(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="totalTime"]', 'datetime');
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="url"]',
@@ -188,21 +184,8 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractYield(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="recipeYield"]', 'content');
-    }
-
-    protected function makeExtractor($type)
-    {
-        if (! array_key_exists($type, $this->extractors)) {
-            throw new \InvalidArgumentException;
-        }
-
-        if (! is_null($this->extractors[$type])) {
-            return $this->extractors[$type];
-        }
-
-        return $this->extractors[$type] = new $type;
     }
 
     protected function normalizeInterval($value)

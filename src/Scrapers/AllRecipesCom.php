@@ -3,6 +3,8 @@
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
+use SSNepenthe\RecipeScraper\Extractors\Plural;
+use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 /**
  * @todo  Has notes if we want them.
@@ -16,25 +18,25 @@ class AllRecipesCom extends SchemaOrgMarkup
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, 'div[itemprop="description"]');
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="ingredients"]');
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="recipeInstructions"] li');
     }
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, 'h1[itemprop="name"]');
     }
 }

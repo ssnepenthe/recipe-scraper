@@ -3,6 +3,8 @@
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
+use SSNepenthe\RecipeScraper\Extractors\Plural;
+use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 /**
  * Has LD+JSON but with a very limited subset of data.
@@ -18,19 +20,19 @@ class WwwFoodAndWineCom extends SchemaOrgMarkup
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="author"]');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="description"] p:first-child');
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract(
             	$crawler,
             	'.ingredients-list__title, [itemprop="ingredients"]'
@@ -39,25 +41,25 @@ class WwwFoodAndWineCom extends SchemaOrgMarkup
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="recipeInstructions"] li');
     }
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, 'h1[itemprop="name"]');
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[rel="canonical"]', 'href');
     }
 
     protected function extractYield(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="recipeYield"]');
     }
 }

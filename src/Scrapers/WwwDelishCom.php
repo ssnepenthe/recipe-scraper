@@ -3,16 +3,15 @@
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\PluralExtractor;
-use SSNepenthe\RecipeScraper\Extractors\SingularExtractor;
+use SSNepenthe\RecipeScraper\Extractors\Plural;
+use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 /**
- * @todo  Categories can be found at very bottom of the page.
- *        Seems to have some recipes with canonical set to another site. Should we use it anyway?
- *        Looks like they share recipes across sites in their network so URL may point to another domain...
+ * Seems to have some recipes with canonical set to another site... Looks like
+ * recipes are shared across sites in their network so URL may point to a different
+ * domain.
  *
- *        It looks like we might have to deal with malformed json ld... Might be best
- *        to just revert to schema.org markup base.
+ * Has LD+JSON but it is malformed on some pages.
  */
 class WwwDelishCom extends SchemaOrgMarkup
 {
@@ -23,31 +22,31 @@ class WwwDelishCom extends SchemaOrgMarkup
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[rel="author"]');
     }
 
     protected function extractCategories(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '.tags--top .tags--item');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[name="description"]', 'content');
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[property="og:image"]', 'content');
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract(
             	$crawler,
             	'[itemprop="ingredients"], .recipe-ingredients-group-header'
@@ -56,19 +55,19 @@ class WwwDelishCom extends SchemaOrgMarkup
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract($crawler, '[itemprop="recipeInstructions"] li');
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[rel="canonical"]', 'href');
     }
 
     protected function extractYield(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="recipeYield"]');
     }
 }

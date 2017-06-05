@@ -32,18 +32,20 @@ class ScraperTestCase extends TestCase
 	/** @test */
 	function it_correctly_scrapes_all_provided_urls()
 	{
+		$extractor = new \SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
+
 		$resolver = new \SSNepenthe\RecipeScraper\Scrapers\ScraperResolver([
-			new \SSNepenthe\RecipeScraper\Scrapers\AllRecipesCom,
-			new \SSNepenthe\RecipeScraper\Scrapers\SpryLivingCom,
-			new \SSNepenthe\RecipeScraper\Scrapers\ThePioneerWomanCom,
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwBettyCrockerCom,
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwBhgCom,
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwDelishCom,
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwEpicuriousCom,
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwFoodAndWineCom,
+			new \SSNepenthe\RecipeScraper\Scrapers\AllRecipesCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\SpryLivingCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\ThePioneerWomanCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwBettyCrockerCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwBhgCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwDelishCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwEpicuriousCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\WwwFoodAndWineCom($extractor),
 
 			// LD+JSON
-			new \SSNepenthe\RecipeScraper\Scrapers\ScrippsNetworks,
+			new \SSNepenthe\RecipeScraper\Scrapers\ScrippsNetworks($extractor),
 		]);
 
 		foreach ($this->urls as $url) {

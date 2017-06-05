@@ -4,7 +4,7 @@ namespace SSNepenthe\RecipeScraper\Scrapers;
 
 use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\SingularExtractor;
+use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 class ScrippsNetworks extends SchemaOrgJsonLd
 {
@@ -19,7 +19,7 @@ class ScrippsNetworks extends SchemaOrgJsonLd
     protected function extractImage(Crawler $crawler, array $json)
     {
         // Largest image is not available via LD+JSON.
-        return (new SingularExtractor)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[property="og:image"]', 'content');
     }
 

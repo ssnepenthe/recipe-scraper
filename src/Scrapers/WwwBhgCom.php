@@ -3,6 +3,9 @@
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
+use SSNepenthe\RecipeScraper\Extractors\Plural;
+use SSNepenthe\RecipeScraper\Extractors\Singular;
+use SSNepenthe\RecipeScraper\Extractors\PluralFromChildren;
 
 /**
  * FYI there is a JSON API if you send header 'Accept: application/json'.
@@ -23,25 +26,25 @@ class WwwBhgCom extends SchemaOrgMarkup
 
     protected function extractCookTime(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="cookTime"]', 'content');
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '.recipe__image', 'content');
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_CHILDREN_EXTRACTOR)
+        return $this->extractor->make(PluralFromChildren::class)
             ->extract($crawler, '[itemprop="recipeIngredient"]');
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->makeExtractor(self::PLURAL_EXTRACTOR)
+        return $this->extractor->make(Plural::class)
             ->extract(
                 $crawler,
                 '.recipe__direction, .recipe__instructionGroupHeader'
@@ -50,19 +53,19 @@ class WwwBhgCom extends SchemaOrgMarkup
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, 'h1[itemprop="name"]');
     }
 
     protected function extractPrepTime(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="prepTime"]', 'content');
     }
 
     protected function extractYield(Crawler $crawler)
     {
-        return $this->makeExtractor(self::SINGULAR_EXTRACTOR)
+        return $this->extractor->make(Singular::class)
             ->extract($crawler, '[itemprop="recipeYield"]');
     }
 }

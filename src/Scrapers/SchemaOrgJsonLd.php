@@ -6,9 +6,11 @@ use SSNepenthe\RecipeScraper\Arr;
 use SSNepenthe\RecipeScraper\Str;
 use SSNepenthe\RecipeScraper\Interval;
 use Symfony\Component\DomCrawler\Crawler;
+use SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
 
 class SchemaOrgJsonLd implements ScraperInterface
 {
+    protected $extractor;
     protected $properties = [
         'author',
         'categories',
@@ -26,6 +28,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         'url',
         'yield',
     ];
+
+    public function __construct(ExtractorManager $extractor)
+    {
+        $this->extractor = $extractor;
+    }
 
     public function scrape(Crawler $crawler) : array
     {
