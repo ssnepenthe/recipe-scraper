@@ -142,7 +142,7 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $image;
         }
 
-        if (is_string($image = Arr::get($json, 'image'))) {
+        if (! is_null($image = Arr::get($json, 'image'))) {
             return $image;
         }
 
@@ -289,15 +289,15 @@ class SchemaOrgJsonLd implements ScraperInterface
         }
     }
 
-    protected function normalizePerson($value)
+    protected function normalizeObject($value, $property)
     {
         if (! is_array($value)) {
             return $value;
         }
 
         while (is_array($value)) {
-            if (isset($value['name'])) {
-                return $value['name'];
+            if (isset($value[$property])) {
+                return $value[$property];
             }
 
             $value = array_shift($value);
@@ -309,6 +309,11 @@ class SchemaOrgJsonLd implements ScraperInterface
     protected function postNormalizeCookTime($value)
     {
         return $this->normalizeInterval($value);
+    }
+
+    protected function preNormalizeImage($value)
+    {
+        return $this->normalizeObject($value, 'url');
     }
 
     protected function postNormalizePrepTime($value)
@@ -323,11 +328,11 @@ class SchemaOrgJsonLd implements ScraperInterface
 
     protected function preNormalizeAuthor($value)
     {
-        return $this->normalizePerson($value);
+        return $this->normalizeObject($value, 'name');
     }
 
     protected function preNormalizePublisher($value)
     {
-        return $this->normalizePerson($value);
+        return $this->normalizeObject($value, 'name');
     }
 }

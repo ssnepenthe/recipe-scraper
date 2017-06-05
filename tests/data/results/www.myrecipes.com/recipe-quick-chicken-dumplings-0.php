@@ -2,12 +2,12 @@
 
 return [
     'author' => 'Melanie Barnard',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'Flour tortillas stand in for the traditional biscuit dough so you can bring this crowd-pleaser from stove to table in minutes.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/quick-chicken-dumplings-mr.jpg?itok=7iuasoNn',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/quick-chicken-dumplings-mr.jpg?itok=7apo5Z4D',
     'ingredients' => [
         '1 tablespoon butter',
         '1/2 cup prechopped onion',
@@ -27,9 +27,9 @@ return [
         'While chicken mixture cooks, combine water, flour, and broth. Gradually stir broth mixture into chicken mixture. Stir in salt, pepper, and bay leaf; bring to a boil. Reduce heat, and simmer 3 minutes. Stir in tortilla strips, and cook 2 minutes or until tortilla strips soften. Remove from heat; stir in parsley. Discard bay leaf. Serve immediately.',
     ],
     'name' => 'Quick Chicken and Dumplings',
-    'prepTime' => '',
-    'publisher' => 'Cooking Light',
-    'totalTime' => '',
+    'prepTime' => null,
+    'publisher' => 'My Recipes',
+    'totalTime' => null,
     'url' => 'http://www.myrecipes.com/recipe/quick-chicken-dumplings-0',
-    'yield' => '4',
+    'yield' => '4 servings (serving size: about 1 1/2 cups)',
 ];

@@ -2,12 +2,12 @@
 
 return [
     'author' => 'Deb Wise',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'The creamy sauce offers a cool counterpoint to the bold blackening spices. Not in the mood for tilapia? The recipe is also great with chicken, sliced flank steak, or shrimp. Toss some avocado, tomato, and cilantro into the mix, and you\'re ready to knock Taco Tuesday out of the park.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/6037701_aug16_superfast8691.jpg?itok=ojhkbq9d',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/6037701_aug16_superfast8691.jpg?itok=SXzfQKM7',
     'ingredients' => [
         'Cooking spray',
         '4 (5-oz.) tilapia fillets',
@@ -31,9 +31,9 @@ return [
         'Divide fish, avocado, and tomato evenly among tortillas. Drizzle tacos evenly with mayonnaise mixture; sprinkle with cilantro. Serve with lime wedges.',
     ],
     'name' => 'Fish Tacos with Sweet Pickle Sauce',
-    'prepTime' => '',
-    'publisher' => 'Cooking Light',
-    'totalTime' => '',
+    'prepTime' => null,
+    'publisher' => 'My Recipes',
+    'totalTime' => null,
     'url' => 'http://www.myrecipes.com/recipe/fish-tacos-sweet-pickle-sauce',
-    'yield' => '4',
+    'yield' => 'Serves 4 (serving size: 2 tacos)',
 ];
