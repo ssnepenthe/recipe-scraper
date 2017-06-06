@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
-    'description' => 'It’s a little bit enchilada, a little bit chili and a whole lot of yummy!',
-    'image' => 'http://images-gmi-pmc.edge-generalmills.com/a7e5296a-dad5-4855-9b7d-44f58598b6b8.jpg',
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'It\'s a little bit enchilada, a little bit chili and a whole lot of yummy!',
+    'image' => 'https://images-gmi-pmc.edge-generalmills.com/13ee5aca-3259-464c-8347-cd2779638408.jpg',
     'ingredients' => [
         '1 package (20 oz) boneless skinless chicken thighs, cut into 1-inch pieces',
         '1 can (15.2 oz) whole kernel sweet corn, drained, rinsed',
@@ -24,7 +24,7 @@ return [
     ],
     'name' => 'Slow-Cooker Cheesy Chicken Enchilada Chili',
     'prepTime' => 'PT10M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT4H10M',
     'url' => 'https://www.pillsbury.com/recipes/slow-cooker-cheesy-chicken-enchilada-chili/389d56ac-2840-4327-a23b-1303539a7248',
     'yield' => '4',

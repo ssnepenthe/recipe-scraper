@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'Hide a luscious surprise--a thick band of semisweet chocolate--in the center of this rich cake.',
-    'image' => 'http://images-gmi-pmc.edge-generalmills.com/aa63d50e-cbe3-4da9-bb7f-3fcda30954eb.jpg',
+    'image' => 'https://images-gmi-pmc.edge-generalmills.com/b4f37fed-e17a-45c2-9549-f3802d9bab65.jpg',
     'ingredients' => [
         'Cake',
         '2/3 cup (from 14-oz can) sweetened condensed milk (not evaporated)',
@@ -29,7 +29,7 @@ return [
         '1 to 2 tablespoons milk',
     ],
     'instructions' => [
-        'Heat oven to 350 °F. Grease 12-cup fluted tube cake pan with shortening; lightly flour (or spray with baking spray with flour). In 1-quart saucepan, heat condensed milk and chocolate chips over medium-low heat, stirring occasionally, until chocolate is melted. Remove from heat; set aside.',
+        'Heat oven to 350°F. Grease 12-cup fluted tube cake pan with shortening; lightly flour (or spray with baking spray with flour). In 1-quart saucepan, heat condensed milk and chocolate chips over medium-low heat, stirring occasionally, until chocolate is melted. Remove from heat; set aside.',
         'In medium bowl, mix flour, baking powder, baking soda, pumpkin pie spice and salt until blended; set aside.',
         'In large bowl, beat 1 1/2 cups butter, the granulated sugar and brown sugar with electric mixer on medium speed about 2 minutes or until well blended. Add eggs, one at a time, beating well after each addition. On low speed, beat in flour mixture in 3 additions alternately with pumpkin until well blended (batter will be thick).',
         'Spoon 2/3 of batter (about 5 cups) into pan, bringing batter up about 1 inch on tube and on outside edge of pan. Stir chocolate mixture; spoon into center of batter, being careful not to touch sides of pan. Spoon remaining cake batter (about 2 cups) over filling; smooth top.',
@@ -38,8 +38,8 @@ return [
     ],
     'name' => 'Pumpkin Truffle Pound Cake with Browned Butter Icing',
     'prepTime' => 'PT25M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT2H45M',
-    'url' => 'http://www.bettycrocker.com/recipes/pumpkin-truffle-pound-cake-with-browned-butter-icing/286ccef8-aea2-4c09-971e-b8d4721be0dc',
+    'url' => 'https://www.bettycrocker.com/recipes/pumpkin-truffle-pound-cake-with-browned-butter-icing/286ccef8-aea2-4c09-971e-b8d4721be0dc',
     'yield' => '16',
 ];

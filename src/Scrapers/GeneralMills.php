@@ -11,18 +11,14 @@ use SSNepenthe\RecipeScraper\Extractors\PluralFromChildren;
  * Can potentially get categories off of data-category attribute on ingredients.
  * Nutrition info is there if we want it as well.
  * There are also notes/tips.
- *
- * Bettycrocker.com is a General Mills operated site. Might be able to merge all of
- * them into a single scraper.
  */
-class WwwBettyCrockerCom extends SchemaOrgMarkup
+class GeneralMills extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.bettycrocker.com' === parse_url(
-            $crawler->getUri(),
-            PHP_URL_HOST
-        );
+        $host = parse_url($crawler->getUri(), PHP_URL_HOST);
+
+        return 'www.bettycrocker.com' === $host || 'www.pillsbury.com' === $host;
     }
 
     public function extractDescription(Crawler $crawler)

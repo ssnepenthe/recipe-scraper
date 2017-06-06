@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'Enjoy this yummy red colored cake layered with frosting--a delicious dessert treat.',
-    'image' => 'http://images-gmi-pmc.edge-generalmills.com/00f6aa66-61c7-4245-b020-af313d1ad08a.jpg',
+    'image' => 'https://images-gmi-pmc.edge-generalmills.com/cf8c0c11-cf41-48bf-bdc5-cb035c0d3d34.jpg',
     'ingredients' => [
         'Cake',
         '1 box chocolate cake mix',
@@ -25,7 +25,7 @@ return [
         '1 tablespoon vanilla',
     ],
     'instructions' => [
-        'Heat oven to 350 °F (325 °F for dark or nonstick pans). Grease and flour two 9-inch cake pans, or spray with baking spray with flour. In large bowl, beat cake ingredients with electric mixer on low speed 30 seconds, then on medium speed 2 minutes, scraping bowl occasionally. Pour batter into pans.',
+        'Heat oven to 350°F (325°F for dark or nonstick pans). Grease and flour two 9-inch cake pans, or spray with baking spray with flour. In large bowl, beat cake ingredients with electric mixer on low speed 30 seconds, then on medium speed 2 minutes, scraping bowl occasionally. Pour batter into pans.',
         'Bake 31 to 36 minutes or until toothpick inserted in center comes out clean. Cool 10 minutes; remove from pans to cooling rack. Cool completely.',
         'Meanwhile, in 2-quart saucepan, cook flour and milk over medium heat, stirring constantly, until mixture is very thick. Cover surface with plastic wrap; cool to room temperature.',
         'In large bowl, beat sugar and butter with electric mixer on high speed until light and fluffy. Gradually add flour mixture by tablespoonfuls, beating until smooth. Beat in vanilla.',
@@ -33,7 +33,7 @@ return [
     ],
     'name' => 'Quick Red Velvet Cake',
     'prepTime' => 'PT40M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT2H45M',
     'url' => 'https://www.pillsbury.com/recipes/quick-red-velvet-cake/d6859094-96b1-4ef9-b1ac-c21990234b82',
     'yield' => '16',

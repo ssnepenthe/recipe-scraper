@@ -36,9 +36,9 @@ class ScraperTestCase extends TestCase
 
 		$resolver = new \SSNepenthe\RecipeScraper\Scrapers\ScraperResolver([
 			new \SSNepenthe\RecipeScraper\Scrapers\AllRecipesCom($extractor),
+			new \SSNepenthe\RecipeScraper\Scrapers\GeneralMills($extractor),
 			new \SSNepenthe\RecipeScraper\Scrapers\SpryLivingCom($extractor),
 			new \SSNepenthe\RecipeScraper\Scrapers\ThePioneerWomanCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwBettyCrockerCom($extractor),
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwBhgCom($extractor),
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwDelishCom($extractor),
 			new \SSNepenthe\RecipeScraper\Scrapers\WwwEpicuriousCom($extractor),
