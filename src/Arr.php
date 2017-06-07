@@ -2,18 +2,11 @@
 
 namespace SSNepenthe\RecipeScraper;
 
-/**
- * Read array via dot notation.
- *
- * Adapted from illuminate/support.
- */
 class Arr
 {
-    public static function exists(array $array, $key)
-    {
-        return array_key_exists($key, $array);
-    }
-
+    /**
+     * Adapted from illuminate/support.
+     */
     public static function get($array, $key, $default = null)
     {
         if (! is_array($array)) {
@@ -24,12 +17,12 @@ class Arr
             return $array;
         }
 
-        if (static::exists($array, $key)) {
+        if (array_key_exists($key, $array)) {
             return $array[$key];
         }
 
         foreach (explode('.', $key) as $segment) {
-            if (is_array($array) && static::exists($array, $segment)) {
+            if (is_array($array) && array_key_exists($segment, $array)) {
                 $array = $array[$segment];
             } else {
                 return $default;
@@ -39,23 +32,22 @@ class Arr
         return $array;
     }
 
-    public static function normalize(array $value)
+    public static function normalize($value)
     {
         if (! static::ofStrings($value)) {
             return [];
         }
 
-        $value = array_map([Str::class, 'normalize'], $value);
-
-        return array_values(array_filter($value));
+        return array_values(array_filter(array_map(
+            [Str::class, 'normalize'],
+            $value
+        )));
     }
 
-    public static function ofStrings(array $value)
+    public static function ofStrings($value)
     {
-        $notStrings = array_filter($value, function($val) {
+        return is_array($value) && ! count(array_filter($value, function($val) {
             return ! is_string($val);
-        });
-
-        return ! count($notStrings);
+        }));
     }
 }
