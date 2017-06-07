@@ -200,7 +200,8 @@ class SchemaOrgMarkup implements ScraperInterface
         try {
             return Interval::toIso8601(Interval::fromString($value));
         } catch (\Exception $e) {
-            return $value;
+            // Invalid or empty interval...
+            return null;
         }
     }
 
