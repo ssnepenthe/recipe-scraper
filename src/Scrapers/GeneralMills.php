@@ -27,13 +27,13 @@ class GeneralMills extends SchemaOrgMarkup
         return in_array($host, $this->supportedHosts, true);
     }
 
-    public function extractAuthor(Crawler $crawler)
+    protected function extractAuthor(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
             ->extract($crawler, '.contributorPage');
     }
 
-    public function extractDescription(Crawler $crawler)
+    protected function extractDescription(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
             ->extract($crawler, '[property="og:description"]', 'content');

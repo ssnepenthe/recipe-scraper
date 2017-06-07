@@ -18,7 +18,7 @@ class WwwBhgCom extends SchemaOrgMarkup
         return 'www.bhg.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
-    public function extractCookingMethod(Crawler $crawler)
+    protected function extractCookingMethod(Crawler $crawler)
     {
         // Cooking method itemprop is used on cooktimes...
         return null;

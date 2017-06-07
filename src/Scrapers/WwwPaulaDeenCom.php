@@ -42,7 +42,7 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
             ->extract($crawler, '.breadcrumbs .product');
     }
 
-    public function extractTotalTime(Crawler $crawler)
+    protected function extractTotalTime(Crawler $crawler)
     {
         // Not perfect - preptime and cooktime combined in the print view.
         return $this->extractor->make(Singular::class)
