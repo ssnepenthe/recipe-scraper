@@ -1,5 +1,7 @@
 <?php
 
+namespace RecipeScraperTests\Scrapers;
+
 use RecipeScraperTests\ScraperTestCase;
 
 class WwwBettyCrockerComTest extends ScraperTestCase
