@@ -14,11 +14,23 @@ use SSNepenthe\RecipeScraper\Extractors\PluralFromChildren;
  */
 class GeneralMills extends SchemaOrgMarkup
 {
+    protected $supportedHosts = [
+        'www.bettycrocker.com',
+        'www.pillsbury.com',
+        'www.tablespoon.com',
+    ];
+
     public function supports(Crawler $crawler) : bool
     {
         $host = parse_url($crawler->getUri(), PHP_URL_HOST);
 
-        return 'www.bettycrocker.com' === $host || 'www.pillsbury.com' === $host;
+        return in_array($host, $this->supportedHosts, true);
+    }
+
+    public function extractAuthor(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '.contributorPage');
     }
 
     public function extractDescription(Crawler $crawler)

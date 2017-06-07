@@ -2,12 +2,12 @@
 
 return [
     'author' => 'Girl Versus Dough',
-    'categories' => [],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => [],
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'Chicken salad infused with Thai flavors all rolled up in a wrap.',
-    'image' => 'http://images-gmi-pmc.edge-generalmills.com/9bd05126-29a4-472b-9c40-995fba397483.jpg',
+    'image' => 'https://images-gmi-pmc.edge-generalmills.com/6fa84ebb-4868-48dd-95a9-c6ae2b317170.jpg',
     'ingredients' => [
         '3 chicken breasts, cut into quarters',
         '1 1/2 cups dry cole slaw mix (shredded cabbage and carrots)',
@@ -31,9 +31,9 @@ return [
         'Place 4-5 lettuce leaves on bottom half of each tortilla. Top each with a few heaping tablespoonfuls of chicken salad mixture. Fold over sides of tortilla, then roll up from bottom to top. Repeat with remaining tortillas. Cut tortillas in half and serve.',
     ],
     'name' => 'Thai Chicken Salad Wraps',
-    'prepTime' => '',
-    'publisher' => '',
+    'prepTime' => 'PT15M',
+    'publisher' => null,
     'totalTime' => 'PT30M',
-    'url' => 'http://www.tablespoon.com/recipes/thai-chicken-salad-wraps/8fe99f87-2572-40ad-942d-1c68ddc5a270',
+    'url' => 'https://www.tablespoon.com/recipes/thai-chicken-salad-wraps/8fe99f87-2572-40ad-942d-1c68ddc5a270',
     'yield' => '4',
 ];
