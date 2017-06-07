@@ -15,16 +15,16 @@ class DelegatingScraper implements ScraperInterface
 
     public function scrape(Crawler $crawler) : array
     {
-        if (false === $scraper = $this->resolver->resolve($url)) {
+        if (false === $scraper = $this->resolver->resolve($crawler)) {
             return $this->generateEmptyRecipe();
         }
 
-        return $scraper->scrape($url);
+        return $scraper->scrape($crawler);
     }
 
     public function supports(Crawler $crawler) : bool
     {
-        return false !== $this->resolver->resolve($url);
+        return false !== $this->resolver->resolve($crawler);
     }
 
     protected function generateEmptyRecipe() : array

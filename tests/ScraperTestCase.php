@@ -4,6 +4,7 @@ namespace RecipeScraperTests;
 
 use PHPUnit\Framework\TestCase;
 use RecipeScraperTests\UsesTestData;
+use SSNepenthe\RecipeScraper\Scrapers\ScraperFactory;
 
 class ScraperTestCase extends TestCase
 {
@@ -32,34 +33,16 @@ class ScraperTestCase extends TestCase
 	/** @test */
 	function it_correctly_scrapes_all_provided_urls()
 	{
-		$extractor = new \SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
-
-		$resolver = new \SSNepenthe\RecipeScraper\Scrapers\ScraperResolver([
-			new \SSNepenthe\RecipeScraper\Scrapers\AllRecipesCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\GeneralMills($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\SpryLivingCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\ThePioneerWomanCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwBhgCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwDelishCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwEpicuriousCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwFoodAndWineCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwJustATasteCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwPaulaDeenCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwTasteOfHomeCom($extractor),
-
-			// LD+JSON
-			new \SSNepenthe\RecipeScraper\Scrapers\ScrippsNetworks($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\WwwMyRecipesCom($extractor),
-			new \SSNepenthe\RecipeScraper\Scrapers\SchemaOrgJsonLd($extractor),
-		]);
+		$scraper = ScraperFactory::make();
 
 		foreach ($this->urls as $url) {
-			$crawler = $this->makeCrawler($url);
-			$expectedResults = $this->getResults($url);
-			$scraper = $resolver->resolve($crawler);
-			$actualResults = $scraper->scrape($crawler);
-
-			$this->assertSameResults($expectedResults, $actualResults, $url);
+			$this->assertSameResults(
+				$this->getResults($url),
+				$scraper->scrape(
+					$this->makeCrawler($url)
+				),
+				$url
+			);
 		}
 	}
 
