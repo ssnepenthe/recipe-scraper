@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
+    'author' => 'Taste of Home',
+    'categories' => null,
+    'cookingMethod' => null,
     'cookTime' => 'PT20M',
-    'cuisines' => [],
-    'description' => '',
-    'image' => 'http://cdn1.tmbi.com/TOH/Images/Photos/37/300x300/exps108738_THHC2238741C07_28_1b.jpg',
+    'cuisines' => null,
+    'description' => 'No matter how hectic the weeknight, there\'s always time to serve your family a healthy meal with recipes this easy and good! -Kami Jones, Avondale, Arizona',
+    'image' => 'http://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/Mom-s-Sloppy-Tacos_exps108738_THHC2238741C07_28_1bC_RMS.jpg',
     'ingredients' => [
         '1-1/2 pounds extra-lean ground beef (95% lean)',
         '1 can (15 ounces) tomato sauce',
@@ -22,10 +22,10 @@ return [
         'In a large skillet, cook beef over medium heat until no longer pink. Stir in the tomato sauce, garlic powder, salt, pepper and cayenne. Bring to a boil. Reduce heat; simmer, uncovered, for 10 minutes.',
         'Fill each taco shell with 1/4 cup beef mixture and toppings of your choice.',
     ],
-    'name' => 'Mom\'s Sloppy Tacos Recipe',
+    'name' => 'Mom\'s Sloppy Tacos',
     'prepTime' => 'PT10M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT30M',
     'url' => 'http://www.tasteofhome.com/recipes/mom-s-sloppy-tacos',
-    'yield' => '6',
+    'yield' => '6 servings',
 ];

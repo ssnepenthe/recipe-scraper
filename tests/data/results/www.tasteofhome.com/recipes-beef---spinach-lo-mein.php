@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => '',
-    'categories' => [],
-    'cookingMethod' => '',
+    'author' => 'Taste of Home',
+    'categories' => null,
+    'cookingMethod' => null,
     'cookTime' => 'PT10M',
-    'cuisines' => [],
-    'description' => '',
-    'image' => 'http://cdn1.tmbi.com/TOH/Images/Photos/37/1200x1200/exps39678_SD132779A06_11_1b_WEB.jpg',
+    'cuisines' => null,
+    'description' => 'If you like a good stir-fry, this dish will definitely satisfy. I discovered the recipe at an international luncheon, and it\'s now a favorite go-to meal. -Denise Patterson, Bainbridge, Ohio',
+    'image' => 'http://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/exps39678_SD132779A06_11_1b_WEB.jpg',
     'ingredients' => [
         '1/4 cup hoisin sauce',
         '2 tablespoons soy sauce',
@@ -29,10 +29,10 @@ return [
         'Stir-fry water chestnuts and green onions in remaining canola oil 30 seconds. Stir in spinach and remaining hoisin mixture; cook until spinach is wilted. Return beef to pan; heat through.',
         'Drain spaghetti; add to beef mixture and toss to combine. Sprinkle with chili pepper.',
     ],
-    'name' => 'Beef & Spinach Lo Mein Recipe',
+    'name' => 'Beef & Spinach Lo Mein',
     'prepTime' => 'PT20M',
-    'publisher' => '',
+    'publisher' => null,
     'totalTime' => 'PT30M',
     'url' => 'http://www.tasteofhome.com/recipes/beef---spinach-lo-mein',
-    'yield' => '5',
+    'yield' => '5 servings',
 ];
