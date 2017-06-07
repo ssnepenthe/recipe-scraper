@@ -68,3 +68,50 @@ $recipe['totalTime'] // string|null
 $recipe['url'] // string|null
 $recipe['yield'] // string|null
 ```
+
+Altogether:
+
+```
+$client = new Goutte\Client;
+$crawler = $client->request('GET', 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/');
+$scraper = SSNepenthe\RecipeScraper\Scrapers\ScraperFactory::make();
+
+$recipe = $scraper->scrape($crawler);
+
+var_dump($recipe);
+```
+
+OUTPUT:
+
+```
+array(15) {
+    'author' => string(9) "carrielee"
+    'categories' => NULL
+    'cookingMethod' => NULL
+    'cookTime' => string(5) "PT10M"
+    'cuisines' => NULL
+    'description' => string(336) ""I've looked all over the net and haven't found a shrimp ceviche quite like this one! My friends absolutely love it and beg me for the recipe! You can always double it for larger parties--it goes FAST! Serve as a dip with tortilla chips or as a topping on a tostada spread with mayo. The fearless palate might like this with hot sauce.""
+    'image' => string(65) "http://images.media-allrecipes.com/userphotos/560x315/1364063.jpg"
+    'ingredients' => array(9) {
+        [0] => string(41) "1 pound peeled and deveined medium shrimp"
+        [1] => string(22) "1 cup fresh lime juice"
+        [2] => string(23) "10 plum tomatoes, diced"
+        [3] => string(27) "1 large yellow onion, diced"
+        [4] => string(49) "1 jalapeno pepper, seeded and minced, or to taste"
+        [5] => string(28) "2 avocados, diced (optional)"
+        [6] => string(31) "2 ribs celery, diced (optional)"
+        [7] => string(31) "chopped fresh cilantro to taste"
+        [8] => string(24) "salt and pepper to taste"
+    }
+    'instructions' => array(2) {
+        [0] => string(294) "Place shrimp in a glass bowl and cover with lime juice to marinate (or 'cook') for about 10 minutes, or until they turn pink and opaque. Meanwhile, place the plum tomatoes, onion and jalapeno (and avocados and celery, if using) in a large, non-reactive (stainless steel, glass or plastic) bowl."
+        [1] => string(200) "Remove shrimp from lime juice, reserving juice. Dice shrimp and add to the bowl of vegetables. Pour in the remaining lime juice marinade. Add cilantro and salt and pepper to taste. Toss gently to mix."
+    }
+    'name' => string(21) "Jose's Shrimp Ceviche"
+    'prepTime' => string(5) "PT45M"
+    'publisher' => NULL
+    'totalTime' => string(5) "PT55M"
+    'url' => string(57) "http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/"
+    'yield' => string(2) "20"
+}
+```
