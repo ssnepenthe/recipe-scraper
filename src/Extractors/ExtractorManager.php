@@ -2,6 +2,8 @@
 
 namespace RecipeScraper\Extractors;
 
+use InvalidArgumentException;
+
 class ExtractorManager
 {
 	protected $instances = [
@@ -13,7 +15,7 @@ class ExtractorManager
 	public function make($type)
 	{
 		if (! array_key_exists($type, $this->instances)) {
-			throw new \InvalidArgumentException;
+			throw new InvalidArgumentException;
 		}
 
 		if (isset($this->instances[$type])) {

@@ -4,6 +4,7 @@ namespace RecipeScraperTests;
 
 use PHPUnit\Framework\TestCase;
 use RecipeScraperTests\UsesTestData;
+use Symfony\Component\DomCrawler\Crawler;
 use RecipeScraper\Scrapers\ScraperFactory;
 
 class ScraperTestCase extends TestCase
@@ -85,6 +86,6 @@ class ScraperTestCase extends TestCase
 
 	protected function makeCrawler($url)
 	{
-		return new \Symfony\Component\DomCrawler\Crawler($this->getHtml($url), $url);
+		return new Crawler($this->getHtml($url), $url);
 	}
 }

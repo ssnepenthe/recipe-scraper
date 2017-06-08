@@ -2,6 +2,7 @@
 
 namespace RecipeScraperTests\Extractors;
 
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use RecipeScraper\Extractors\Singular;
 use RecipeScraper\Extractors\ExtractorManager;
@@ -23,7 +24,7 @@ class ExtractorManagerTest extends TestCase
 	/** @test */
 	function it_throws_for_unrecognized_type()
 	{
-		$this->expectException(\InvalidArgumentException::class);
+		$this->expectException(InvalidArgumentException::class);
 
 		$this->extractor->make('NotARealClass');
 	}
