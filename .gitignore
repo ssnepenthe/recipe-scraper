@@ -1,4 +1,3 @@
-.cache/*
-!.cache/.gitkeep
-composer.lock
+tests/data/html/
+!tests/data/html/.gitkeep
 vendor/

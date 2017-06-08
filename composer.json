@@ -4,26 +4,20 @@
   "homepage": "https://github.com/ssnepenthe/recipe-scraper",
   "license": "GPL-2.0",
   "require": {
-    "php": ">=5.4",
-    "fabpot/goutte": "^3.1"
+    "php": ">=5.5",
+    "danielstjules/stringy": "^3.0",
+    "fabpot/goutte": "^3.0"
   },
   "require-dev": {
-    "doctrine/cache": "^1.6",
-    "kevinrob/guzzle-cache-middleware": "^1.4",
-    "phpunit/phpunit": "^5.5",
-    "psy/psysh": "^0.7",
-    "squizlabs/php_codesniffer": "^2.6"
-  },
-  "suggest": {
-    "doctrine/cache": "Providers which can be used to cache client responses.",
-    "kevinrob/guzzle-cache-middleware": "Caching middleware for Guzzle."
+    "phpunit/phpunit": "^6.0",
+    "psy/psysh": "^0.8",
+    "squizlabs/php_codesniffer": "^3.0",
+    "symfony/console": "^3.0"
   },
   "autoload": {
     "psr-4": { "SSNepenthe\\RecipeScraper\\": "src/" }
   },
   "autoload-dev": {
-    "classmap": [
-      "tests/CachedHTTPTestCase.php"
-    ]
+    "psr-4": { "RecipeScraperTests\\": "tests/" }
   }
 }

@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'author' => 'Taste of Home\'s Fast Family Favorites',
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => '"If you like pumpkin, you\'ll love these moist muffins. With an appealing streusel topping and tender apple bits throughout, they make a great accompaniment to a meal or a handy breakfast on the run."',
+    'image' => 'http://images.media-allrecipes.com/userphotos/250x250/742085.jpg',
+    'ingredients' => [
+        '2 1/2 cups all-purpose flour',
+        '2 cups sugar',
+        '1 tablespoon pumpkin pie spice',
+        '1 teaspoon baking soda',
+        '1/2 teaspoon salt',
+        '2 eggs',
+        '1 cup canned or cooked pumpkin',
+        '1/2 cup vegetable oil',
+        '2 cups finely chopped peeled apples',
+        'STREUSEL:',
+        '1/4 cup sugar',
+        '2 tablespoons all-purpose flour',
+        '1/2 teaspoon ground cinnamon',
+        '4 teaspoons cold butter or margarine',
+    ],
+    'instructions' => [
+        'In a bowl, combine the first five ingredients. In another bowl, combine the eggs, pumpkin and oil; stir into dry ingredients just until moistened. Fold in apples. Fill paper-lined muffin cups two-thirds full. In a small bowl, combine sugar, flour and cinnamon. Cut in butter until crumbly. Sprinkle over batter.',
+        'Bake at 350 degrees for 35-40 minutes or until golden brown. Cool for 5 minutes before removing from pans to wire racks.',
+    ],
+    'name' => 'Apple Pumpkin Muffins',
+    'prepTime' => null,
+    'publisher' => null,
+    'totalTime' => null,
+    'url' => 'http://allrecipes.com/recipe/42273/apple-pumpkin-muffins/',
+    'yield' => '18',
+];

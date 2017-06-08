@@ -2,34 +2,81 @@
 
 namespace SSNepenthe\RecipeScraper\Scrapers;
 
-use SSNepenthe\RecipeScraper\Normalizers\SingleLine;
-use SSNepenthe\RecipeScraper\Normalizers\SplitOnEOL;
+use function Stringy\create as s;
+use Symfony\Component\DomCrawler\Crawler;
+use SSNepenthe\RecipeScraper\Extractors\Plural;
+use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 /**
- * @todo More testing on description.
- *       Image size appears to be modified after page load. Can potentially get
- *       original image by grabbing the parent <a> of the selected <img>.
- *       Post has author at [rel="author"], but maybe not great for recipe.
+ * Site is on WP.com so it has two REST APIs available... There is a lot of
+ * information available but a lot of the recipe details seem to be missing.
+ *
+ * @link https://vip.wordpress.com/documentation/api/
  */
-class ThePioneerWomanCom extends SchemaOrg
+class ThePioneerWomanCom extends SchemaOrgMarkup
 {
-    protected function applyScraperConfig()
+    public function supports(Crawler $crawler) : bool
     {
-        parent::applyScraperConfig();
+        return 'thepioneerwoman.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+    }
 
-        // Get first image in .entry-content.
-        $this->config['image']['selector'] = '.entry-content img:first-child';
-        $this->config['recipeIngredients']['selector'] = '[itemprop="ingredients"]';
-        $this->config['recipeInstructions']['selector'] = '[itemprop="recipeInstructions"]';
-        $this->config['url']['selector'] = '[rel="canonical"]';
+    protected function extractAuthor(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '[rel="author"]');
+    }
 
-        $pos = array_search(
-            SingleLine::class,
-            $this->config['recipeInstructions']['normalizers']
-        );
+    protected function extractCookTime(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '[itemprop="cookTime"]');
+    }
 
-        unset($this->config['recipeInstructions']['normalizers'][ $pos ]);
+    protected function extractDescription(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '.entry-content > p:first-of-type');
+    }
 
-        $this->config['recipeInstructions']['normalizers'][] = SplitOnEOL::class;
+    protected function extractImage(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '[property="og:image"]', 'content');
+    }
+
+    protected function extractPrepTime(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '[itemprop="prepTime"]');
+    }
+
+    protected function extractUrl(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '[rel="canonical"]', 'href');
+    }
+
+    protected function extractYield(Crawler $crawler)
+    {
+        return $this->extractor->make(Singular::class)
+            ->extract($crawler, '[itemprop="recipeYield"]');
+    }
+
+    protected function preNormalizeInstructions($value)
+    {
+        if (! is_array($value)) {
+            return $value;
+        }
+
+        $newInstructions = [];
+
+        foreach ($value as $instruction) {
+            $newInstructions = array_merge(
+                $newInstructions,
+                array_map('strval', s($instruction)->lines())
+            );
+        }
+
+        return $newInstructions;
     }
 }
