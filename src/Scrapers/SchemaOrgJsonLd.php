@@ -230,7 +230,7 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
-    protected function getJson(Crawler $crawler) : array
+    protected function getJson(Crawler $crawler)
     {
         $nodes = $crawler->filter('script[type="application/ld+json"]');
 
