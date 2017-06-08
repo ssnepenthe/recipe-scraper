@@ -34,8 +34,8 @@ class WwwFoodAndWineCom extends SchemaOrgMarkup
     {
         return $this->extractor->make(Plural::class)
             ->extract(
-            	$crawler,
-            	'.ingredients-list__title, [itemprop="ingredients"]'
+                $crawler,
+                '.ingredients-list__title, [itemprop="ingredients"]'
             );
     }
 

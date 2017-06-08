@@ -238,11 +238,10 @@ class SchemaOrgJsonLd implements ScraperInterface
             return [];
         }
 
-        $recipes = array_filter($nodes->each(function(Crawler $node) {
+        $recipes = array_filter($nodes->each(function (Crawler $node) {
             $json = json_decode($node->text(), true);
 
-            if (
-                is_null($json)
+            if (is_null($json)
                 || JSON_ERROR_NONE !== json_last_error()
                 || ! $this->hasSchemaOrgContext($json)
                 || ! $this->hasRecipeType($json)

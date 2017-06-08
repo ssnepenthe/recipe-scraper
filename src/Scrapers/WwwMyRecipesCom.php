@@ -47,7 +47,7 @@ class WwwMyRecipesCom extends SchemaOrgJsonLd
             return $value;
         }
 
-        return array_map(function($val) {
+        return array_map(function ($val) {
             return trim(strip_tags($val));
         }, $value);
     }

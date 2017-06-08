@@ -14,7 +14,7 @@ class PluralFromChildren implements ExtractorInterface
             return null;
         }
 
-        $values = $nodes->each(function(Crawler $node) use ($attr) {
+        $values = $nodes->each(function (Crawler $node) use ($attr) {
             $childNodes = $node->children();
 
             if (! $childNodes->count()) {
@@ -22,7 +22,7 @@ class PluralFromChildren implements ExtractorInterface
             }
 
             $subValues = $node->children()->each(
-                function(Crawler $subNode) use ($attr) {
+                function (Crawler $subNode) use ($attr) {
                     return trim(
                         '_text' === $attr ? $subNode->text() : $subNode->attr($attr)
                     );

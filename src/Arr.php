@@ -46,7 +46,7 @@ class Arr
 
     public static function ofStrings($value)
     {
-        return is_array($value) && ! count(array_filter($value, function($val) {
+        return is_array($value) && ! count(array_filter($value, function ($val) {
             return ! is_string($val);
         }));
     }
