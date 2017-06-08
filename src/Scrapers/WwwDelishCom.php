@@ -48,8 +48,8 @@ class WwwDelishCom extends SchemaOrgMarkup
     {
         return $this->extractor->make(Plural::class)
             ->extract(
-            	$crawler,
-            	'[itemprop="ingredients"], .recipe-ingredients-group-header'
+                $crawler,
+                '[itemprop="ingredients"], .recipe-ingredients-group-header'
             );
     }
 

@@ -43,8 +43,8 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
     {
         return $this->extractor->make(Plural::class)
             ->extract(
-            	$crawler,
-            	'.ingredient-group strong, [itemprop="ingredients"]'
+                $crawler,
+                '.ingredient-group strong, [itemprop="ingredients"]'
             );
     }
 

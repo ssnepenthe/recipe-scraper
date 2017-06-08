@@ -6,5 +6,5 @@ use Symfony\Component\DomCrawler\Crawler;
 
 interface ScraperResolverInterface
 {
-	public function resolve(Crawler $crawler);
+    public function resolve(Crawler $crawler);
 }
