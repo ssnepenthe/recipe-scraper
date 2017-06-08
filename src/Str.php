@@ -1,6 +1,6 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper;
+namespace RecipeScraper;
 
 use function Stringy\create as s;
 

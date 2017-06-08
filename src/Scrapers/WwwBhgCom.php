@@ -1,11 +1,11 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Scrapers;
+namespace RecipeScraper\Scrapers;
 
+use RecipeScraper\Extractors\Plural;
+use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Plural;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
-use SSNepenthe\RecipeScraper\Extractors\PluralFromChildren;
+use RecipeScraper\Extractors\PluralFromChildren;
 
 /**
  * FYI there is a JSON API if you send header 'Accept: application/json'.

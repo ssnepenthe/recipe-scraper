@@ -1,10 +1,10 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Scrapers;
+namespace RecipeScraper\Scrapers;
 
-use SSNepenthe\RecipeScraper\Arr;
+use RecipeScraper\Arr;
+use RecipeScraper\Extractors\Plural;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Plural;
 
 /**
  * @todo Need to find recipes with times to test against.

@@ -2,9 +2,10 @@
 
 namespace RecipeScraperTests\Extractors;
 
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
-use SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
+use RecipeScraper\Extractors\Singular;
+use RecipeScraper\Extractors\ExtractorManager;
 
 class ExtractorManagerTest extends TestCase
 {
@@ -23,7 +24,7 @@ class ExtractorManagerTest extends TestCase
 	/** @test */
 	function it_throws_for_unrecognized_type()
 	{
-		$this->expectException(\InvalidArgumentException::class);
+		$this->expectException(InvalidArgumentException::class);
 
 		$this->extractor->make('NotARealClass');
 	}

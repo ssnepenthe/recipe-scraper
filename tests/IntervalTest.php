@@ -2,8 +2,10 @@
 
 namespace RecipeScraperTests;
 
+use DateInterval;
+use RecipeScraper\Interval;
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use SSNepenthe\RecipeScraper\Interval;
 
 class IntervalTest extends TestCase
 {
@@ -11,7 +13,7 @@ class IntervalTest extends TestCase
 	function it_can_create_intervals_using_standard_interval_spec()
 	{
 		$this->assertEquals(
-			new \DateInterval('PT30M'),
+			new DateInterval('PT30M'),
 			Interval::fromString('PT30M')
 		);
 	}
@@ -20,7 +22,7 @@ class IntervalTest extends TestCase
 	function it_can_create_intervals_from_relative_interval_strings()
 	{
 		$this->assertEquals(
-			new \DateInterval('PT30M'),
+			new DateInterval('PT30M'),
 			Interval::fromString('30 minutes')
 		);
 	}
@@ -28,7 +30,7 @@ class IntervalTest extends TestCase
 	/** @test */
 	function it_throws_for_bad_interval_strings()
 	{
-		$this->expectException(\InvalidArgumentException::class);
+		$this->expectException(InvalidArgumentException::class);
 
 		Interval::fromString('not an interval');
 	}
@@ -37,7 +39,7 @@ class IntervalTest extends TestCase
 	function it_automatically_recalculates_carry_over()
 	{
 		$this->assertEquals(
-			new \DateInterval('PT1H15M'),
+			new DateInterval('PT1H15M'),
 			Interval::fromString('PT75M')
 		);
 	}
@@ -47,15 +49,15 @@ class IntervalTest extends TestCase
 	{
 		$this->assertEquals(
 			'PT30M',
-			Interval::toIso8601(new \DateInterval('PT30M'))
+			Interval::toIso8601(new DateInterval('PT30M'))
 		);
 		$this->assertEquals(
 			'PT1H20M',
-			Interval::toIso8601(new \DateInterval('PT1H20M'))
+			Interval::toIso8601(new DateInterval('PT1H20M'))
 		);
 		$this->assertEquals(
 			'P1DT14H25M55S',
-			Interval::toIso8601(new \DateInterval('P1DT14H25M55S'))
+			Interval::toIso8601(new DateInterval('P1DT14H25M55S'))
 		);
 	}
 
@@ -63,10 +65,10 @@ class IntervalTest extends TestCase
 	function it_knows_when_an_interval_is_empty()
 	{
 		$this->assertTrue(
-			Interval::isEmpty(\DateInterval::createFromDateString('bad string'))
+			Interval::isEmpty(DateInterval::createFromDateString('bad string'))
 		);
 		$this->assertFalse(Interval::isEmpty(
-			\DateInterval::createFromDateString('55 minutes')
+			DateInterval::createFromDateString('55 minutes')
 		));
 	}
 
@@ -74,8 +76,8 @@ class IntervalTest extends TestCase
 	function it_can_recalculate_carry_over()
 	{
 		$this->assertEquals(
-			new \DateInterval('PT2H25M'),
-			Interval::recalculateCarryOver(new \DateInterval('PT145M'))
+			new DateInterval('PT2H25M'),
+			Interval::recalculateCarryOver(new DateInterval('PT145M'))
 		);
 	}
 }

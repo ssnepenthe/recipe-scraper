@@ -1,8 +1,11 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper;
+namespace RecipeScraper;
 
+use DateTime;
+use Exception;
 use DateInterval;
+use InvalidArgumentException;
 
 class Interval
 {
@@ -11,13 +14,13 @@ class Interval
         try {
             // First try standard spec.
             $interval = new DateInterval($string);
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             // And fall back to relative time string.
             $interval = DateInterval::createFromDateString($string);
         }
 
         if (static::isEmpty($interval)) {
-            throw new \InvalidArgumentException(sprintf(
+            throw new InvalidArgumentException(sprintf(
                 'Invalid interval string [%s] provided in %s',
                 $string,
                 __METHOD__
@@ -74,7 +77,7 @@ class Interval
 
     public static function recalculateCarryOver(DateInterval $interval)
     {
-        $dt1 = new \DateTime;
+        $dt1 = new DateTime;
         $dt2 = clone $dt1;
 
         $dt2->add($interval);
