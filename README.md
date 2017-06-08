@@ -4,7 +4,7 @@ A recipe scraping library which makes it easy to scrape recipes from popular sit
 Current site support is still limited. See [issue #1](https://github.com/ssnepenthe/recipe-scraper/issues/1) for a full list.
 
 ## Requirements
-Composer, PHP 5.5 or later.
+Composer, PHP 7.0 or later.
 
 ## Installation
 ```

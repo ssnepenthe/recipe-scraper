@@ -4,7 +4,7 @@
   "homepage": "https://github.com/ssnepenthe/recipe-scraper",
   "license": "GPL-2.0",
   "require": {
-    "php": ">=5.5",
+    "php": ">=7.0",
     "danielstjules/stringy": "^3.0",
     "fabpot/goutte": "^3.0"
   },
