@@ -51,6 +51,10 @@ class WwwJustATasteCom extends SchemaOrgMarkup
 
     protected function preNormalizeCookTime($value)
     {
+        if (! is_string($value)) {
+            return $value;
+        }
+
         return str_replace(' ', '', $value);
     }
 }

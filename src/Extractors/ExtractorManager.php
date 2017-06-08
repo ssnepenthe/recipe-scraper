@@ -12,7 +12,7 @@ class ExtractorManager
         Singular::class => null,
     ];
 
-    public function make($type)
+    public function make($type) : ExtractorInterface
     {
         if (! array_key_exists($type, $this->instances)) {
             throw new InvalidArgumentException;
