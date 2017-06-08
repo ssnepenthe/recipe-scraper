@@ -6,7 +6,7 @@ use function Stringy\create as s;
 
 class Str
 {
-    public static function normalize($value)
+    public static function normalize($value) : string
     {
         return s($value)
             ->htmlDecode()

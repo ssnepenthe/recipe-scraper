@@ -259,12 +259,12 @@ class SchemaOrgJsonLd implements ScraperInterface
         return array_shift($recipes);
     }
 
-    protected function hasRecipeType($json)
+    protected function hasRecipeType($json) : bool
     {
         return 'Recipe' === Arr::get($json, '@type');
     }
 
-    protected function hasSchemaOrgContext($json)
+    protected function hasSchemaOrgContext($json) : bool
     {
         // Should always be an exact match 'http://schema.org' but that doesn't seem
         // to be the case in the wild so we'll do a more lenient pattern match.

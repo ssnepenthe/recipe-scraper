@@ -35,6 +35,10 @@ class ScrippsNetworks extends SchemaOrgJsonLd
 
     protected function stripPeriodFromIntervalString($value)
     {
+        if (! is_string($value)) {
+            return $value;
+        }
+
         return (string) s($value)->replace('.', '');
     }
 }

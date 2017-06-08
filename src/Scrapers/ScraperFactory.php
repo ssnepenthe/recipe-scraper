@@ -6,7 +6,7 @@ use RecipeScraper\Extractors\ExtractorManager;
 
 class ScraperFactory
 {
-    public static function make()
+    public static function make() : DelegatingScraper
     {
         $extractor = new ExtractorManager;
         $scraperClasses = [
