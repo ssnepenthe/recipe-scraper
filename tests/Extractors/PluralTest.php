@@ -3,9 +3,9 @@
 namespace RecipeScraperTests\Extractors;
 
 use PHPUnit\Framework\TestCase;
+use RecipeScraper\Extractors\Plural;
 use RecipeScraperTests\UsesTestData;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Plural;
 
 class PluralTest extends TestCase
 {

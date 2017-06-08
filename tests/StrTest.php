@@ -2,8 +2,8 @@
 
 namespace RecipeScraperTests;
 
+use RecipeScraper\Str;
 use PHPUnit\Framework\TestCase;
-use SSNepenthe\RecipeScraper\Str;
 
 class StrTest extends TestCase
 {

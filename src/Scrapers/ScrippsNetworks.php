@@ -1,10 +1,10 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Scrapers;
+namespace RecipeScraper\Scrapers;
 
 use function Stringy\create as s;
+use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 class ScrippsNetworks extends SchemaOrgJsonLd
 {

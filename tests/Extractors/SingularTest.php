@@ -4,8 +4,8 @@ namespace RecipeScraperTests\Extractors;
 
 use PHPUnit\Framework\TestCase;
 use RecipeScraperTests\UsesTestData;
+use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 class SingularTest extends TestCase
 {

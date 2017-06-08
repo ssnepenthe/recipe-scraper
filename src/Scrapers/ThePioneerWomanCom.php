@@ -1,11 +1,11 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Scrapers;
+namespace RecipeScraper\Scrapers;
 
 use function Stringy\create as s;
+use RecipeScraper\Extractors\Plural;
+use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Plural;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 /**
  * Site is on WP.com so it has two REST APIs available... There is a lot of

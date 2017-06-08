@@ -2,8 +2,8 @@
 
 namespace RecipeScraperTests;
 
+use RecipeScraper\Interval;
 use PHPUnit\Framework\TestCase;
-use SSNepenthe\RecipeScraper\Interval;
 
 class IntervalTest extends TestCase
 {

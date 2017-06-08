@@ -1,8 +1,8 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Scrapers;
+namespace RecipeScraper\Scrapers;
 
-use SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
+use RecipeScraper\Extractors\ExtractorManager;
 
 class ScraperFactory
 {

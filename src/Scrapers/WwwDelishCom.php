@@ -1,10 +1,10 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Scrapers;
+namespace RecipeScraper\Scrapers;
 
+use RecipeScraper\Extractors\Plural;
+use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Plural;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
 
 /**
  * Seems to have some recipes with canonical set to another site... Looks like

@@ -2,9 +2,9 @@
 
 namespace RecipeScraperTests;
 
+use RecipeScraper\Arr;
+use RecipeScraper\Str;
 use PHPUnit\Framework\TestCase;
-use SSNepenthe\RecipeScraper\Arr;
-use SSNepenthe\RecipeScraper\Str;
 
 class ArrTest extends TestCase
 {

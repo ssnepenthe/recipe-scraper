@@ -3,8 +3,8 @@
 namespace RecipeScraperTests\Extractors;
 
 use PHPUnit\Framework\TestCase;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
-use SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
+use RecipeScraper\Extractors\Singular;
+use RecipeScraper\Extractors\ExtractorManager;
 
 class ExtractorManagerTest extends TestCase
 {

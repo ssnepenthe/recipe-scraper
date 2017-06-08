@@ -1,6 +1,6 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Extractors;
+namespace RecipeScraper\Extractors;
 
 use Symfony\Component\DomCrawler\Crawler;
 

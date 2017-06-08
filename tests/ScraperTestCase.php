@@ -4,7 +4,7 @@ namespace RecipeScraperTests;
 
 use PHPUnit\Framework\TestCase;
 use RecipeScraperTests\UsesTestData;
-use SSNepenthe\RecipeScraper\Scrapers\ScraperFactory;
+use RecipeScraper\Scrapers\ScraperFactory;
 
 class ScraperTestCase extends TestCase
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace SSNepenthe\RecipeScraper\Scrapers;
+namespace RecipeScraper\Scrapers;
 
-use SSNepenthe\RecipeScraper\Arr;
-use SSNepenthe\RecipeScraper\Str;
-use SSNepenthe\RecipeScraper\Interval;
+use RecipeScraper\Arr;
+use RecipeScraper\Str;
+use RecipeScraper\Interval;
+use RecipeScraper\Extractors\Plural;
+use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use SSNepenthe\RecipeScraper\Extractors\Plural;
-use SSNepenthe\RecipeScraper\Extractors\Singular;
-use SSNepenthe\RecipeScraper\Extractors\ExtractorManager;
+use RecipeScraper\Extractors\ExtractorManager;
 
 class SchemaOrgMarkup implements ScraperInterface
 {
