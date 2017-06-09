@@ -65,9 +65,4 @@ class WwwDelishCom extends SchemaOrgMarkup
             ->extract($crawler, '[rel="canonical"]', ['href']);
     }
 
-    protected function extractYield(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]');
-    }
 }

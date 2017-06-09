@@ -50,10 +50,4 @@ class WwwBhgCom extends SchemaOrgMarkup
         return $this->extractor->make(Singular::class)
             ->extract($crawler, 'h1[itemprop="name"]');
     }
-
-    protected function extractYield(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]');
-    }
 }

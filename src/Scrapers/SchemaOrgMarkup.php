@@ -200,7 +200,7 @@ class SchemaOrgMarkup implements ScraperInterface
     protected function extractYield(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]', ['content']);
+            ->extract($crawler, '[itemprop="recipeYield"]', ['content', '_text']);
     }
 
     protected function normalizeInterval($value)

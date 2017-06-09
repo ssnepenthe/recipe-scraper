@@ -57,10 +57,4 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
                 ['content']
             );
     }
-
-    protected function extractYield(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]');
-    }
 }
