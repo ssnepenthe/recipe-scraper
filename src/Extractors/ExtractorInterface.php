@@ -6,5 +6,5 @@ use Symfony\Component\DomCrawler\Crawler;
 
 interface ExtractorInterface
 {
-    public function extract(Crawler $crawler, $selector, $attr = '_text');
+    public function extract(Crawler $crawler, $selector, array $attrs = ['_text']);
 }

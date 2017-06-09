@@ -76,7 +76,33 @@ class PluralTest extends TestCase
 			$this->extractor->extract(
 				$this->crawler,
 				'[itemprop="ingredients"]',
-				'data-id'
+				['data-id']
+			)
+		);
+	}
+
+	/** @test */
+	function it_extracts_the_first_available_attribute_from_provided_list()
+	{
+		$this->assertEquals(
+			[
+				'Jose\'s Shrimp Ceviche Recipe', // content
+				'Allrecipes', // content
+				'viewport', // name
+				'description', // name
+				'Shrimp are marinated in lime juice, chopped, then tossed with tomatoes, hot peppers, celery and avocado for a zesty appetizer. Serve as a dip with tortilla chips or as a topping on a tostada spread with mayo. The fearless palate might like this with hot sauce.', // content
+				'robots', // name
+				'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/', // content
+				'article', // content
+				'http://images.media-allrecipes.com/userphotos/560x315/1364063.jpg', // content
+				'66102450266', // content
+				'msapplication-TileColor', // name
+				'correlationId', // name
+			],
+			$this->extractor->extract(
+				$this->crawler,
+				'head meta',
+				['name', 'content']
 			)
 		);
 	}
