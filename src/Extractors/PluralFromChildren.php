@@ -6,7 +6,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class PluralFromChildren implements ExtractorInterface
 {
-    public function extract(Crawler $crawler, $selector, $attr = '_text')
+    public function extract(Crawler $crawler, $selector, array $attrs = ['_text'])
     {
         $nodes = $crawler->filter($selector);
 
@@ -14,24 +14,40 @@ class PluralFromChildren implements ExtractorInterface
             return null;
         }
 
-        $values = $nodes->each(function (Crawler $node) use ($attr) {
+        $values = array_filter($nodes->each(function (Crawler $node) use ($attrs) {
             $childNodes = $node->children();
 
             if (! $childNodes->count()) {
-                return trim('_text' === $attr ? $node->text() : $node->attr($attr));
+                foreach ($attrs as $attr) {
+                    if ('_text' === $attr && $value = trim($node->text())) {
+                        return $value;
+                    }
+
+                    if ($value = trim($node->attr($attr))) {
+                        return $value;
+                    }
+                }
+
+                return null;
             }
 
-            $subValues = $node->children()->each(
-                function (Crawler $subNode) use ($attr) {
-                    return trim(
-                        '_text' === $attr ? $subNode->text() : $subNode->attr($attr)
-                    );
+            $subValues = $childNodes->each(function (Crawler $subNode) use ($attrs) {
+                foreach ($attrs as $attr) {
+                    if ('_text' === $attr && $value = trim($subNode->text())) {
+                        return $value;
+                    }
+
+                    if ($value = trim($subNode->attr($attr))) {
+                        return $value;
+                    }
                 }
-            );
+
+                return null;
+            });
 
             return implode(' ', array_filter($subValues));
-        });
+        }));
 
-        return $values;
+        return count($values) ? array_values($values) : null;
     }
 }

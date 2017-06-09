@@ -56,7 +56,29 @@ class SingularTest extends TestCase
 			$this->extractor->extract(
 				$this->crawler,
 				'[itemprop="cookTime"]',
-				'datetime'
+				['datetime']
+			)
+		);
+	}
+
+	/** @test */
+	function it_extracts_the_first_available_attribute_from_provided_list()
+	{
+		$this->assertEquals(
+			'PT10M',
+			$this->extractor->extract(
+				$this->crawler,
+				'[itemprop="cookTime"]',
+				['content', 'datetime']
+			)
+		);
+
+		$this->assertEquals(
+			'PT10M',
+			$this->extractor->extract(
+				$this->crawler,
+				'[itemprop="cookTime"]',
+				['datetime', 'content']
 			)
 		);
 	}

@@ -54,12 +54,6 @@ class WwwFoodAndWineCom extends SchemaOrgMarkup
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', 'href');
-    }
-
-    protected function extractYield(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]');
+            ->extract($crawler, '[rel="canonical"]', ['href']);
     }
 }

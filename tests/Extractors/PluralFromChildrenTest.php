@@ -69,7 +69,37 @@ class PluralFromChildrenTest extends TestCase
 	{
 		$this->assertEquals(
 			['menu-14 menu-15 menu-52 menu-12'],
-			$this->extractor->extract($this->crawler, '.main.no-bullet', 'id')
+			$this->extractor->extract($this->crawler, '.main.no-bullet', ['id'])
+		);
+	}
+
+	/** @test */
+	function it_extracts_the_first_available_attribute_from_provided_list()
+	{
+		// Span children have class="type", strong children have no class.
+		$this->assertEquals(
+			[
+				'1 1/2 type boneless, skinless chicken breasts',
+				'1/2 type salt',
+				'1/2 type pepper',
+				'3 type Roma tomatoes, sliced',
+				'1 type (1-oz) pkg fresh basil, thinly sliced (or use leaves whole)',
+				'1 type (8-oz) ball fresh mozzarella cheese, thinly sliced (or use block mozzarella)',
+				'2 type olive oil',
+				'3 type balsamic vinegar',
+				'3/4 type uncooked polenta',
+				'1/2 type salt, divided',
+				'1/2 type pepper, divided',
+				'1/4 type freshly grated Parmesan cheese',
+				'2 type fresh green beans, trimmed',
+				'1 type olive oil',
+				'1 type fresh lemon juice',
+			],
+			$this->extractor->extract(
+				$this->crawler,
+				'[itemprop="ingredients"]',
+				['class', '_text']
+			)
 		);
 	}
 }

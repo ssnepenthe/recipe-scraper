@@ -24,22 +24,16 @@ class SpryLivingCom extends SchemaOrgMarkup
             ->extract($crawler, 'a[href*="recipes/category/"]');
     }
 
-    protected function extractCookTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="cookTime"]', 'content');
-    }
-
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[name="description"]', 'content');
+            ->extract($crawler, '[name="description"]', ['content']);
     }
 
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.main-image > img', 'data-lazy-src');
+            ->extract($crawler, '.main-image > img', ['data-lazy-src']);
     }
 
     protected function extractIngredients(Crawler $crawler)
@@ -60,21 +54,9 @@ class SpryLivingCom extends SchemaOrgMarkup
             ->extract($crawler, implode(', ', $selectors));
     }
 
-    protected function extractPrepTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"]', 'content');
-    }
-
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', 'href');
-    }
-
-    protected function extractYield(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]');
+            ->extract($crawler, '[rel="canonical"]', ['href']);
     }
 }

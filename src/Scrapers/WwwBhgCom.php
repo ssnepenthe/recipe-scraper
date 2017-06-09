@@ -24,16 +24,10 @@ class WwwBhgCom extends SchemaOrgMarkup
         return null;
     }
 
-    protected function extractCookTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="cookTime"]', 'content');
-    }
-
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.recipe__image', 'content');
+            ->extract($crawler, '.recipe__image', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
@@ -55,17 +49,5 @@ class WwwBhgCom extends SchemaOrgMarkup
     {
         return $this->extractor->make(Singular::class)
             ->extract($crawler, 'h1[itemprop="name"]');
-    }
-
-    protected function extractPrepTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"]', 'content');
-    }
-
-    protected function extractYield(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]');
     }
 }
