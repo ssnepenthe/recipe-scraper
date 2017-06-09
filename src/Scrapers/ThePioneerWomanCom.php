@@ -26,12 +26,6 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
             ->extract($crawler, '[rel="author"]');
     }
 
-    protected function extractCookTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="cookTime"]');
-    }
-
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
@@ -42,12 +36,6 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
     {
         return $this->extractor->make(Singular::class)
             ->extract($crawler, '[property="og:image"]', ['content']);
-    }
-
-    protected function extractPrepTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"]');
     }
 
     protected function extractUrl(Crawler $crawler)

@@ -60,18 +60,6 @@ class GeneralMills extends SchemaOrgMarkup
             ->extract($crawler, '.recipePartStepDescription');
     }
 
-    protected function extractPrepTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"]', ['content']);
-    }
-
-    protected function extractTotalTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="totalTime"]', ['content']);
-    }
-
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)

@@ -24,12 +24,6 @@ class SpryLivingCom extends SchemaOrgMarkup
             ->extract($crawler, 'a[href*="recipes/category/"]');
     }
 
-    protected function extractCookTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="cookTime"]', ['content']);
-    }
-
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
@@ -58,12 +52,6 @@ class SpryLivingCom extends SchemaOrgMarkup
 
         return $this->extractor->make(PluralFromChildren::class)
             ->extract($crawler, implode(', ', $selectors));
-    }
-
-    protected function extractPrepTime(Crawler $crawler)
-    {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"]', ['content']);
     }
 
     protected function extractUrl(Crawler $crawler)
