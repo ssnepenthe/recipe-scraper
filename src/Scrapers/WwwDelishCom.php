@@ -35,13 +35,13 @@ class WwwDelishCom extends SchemaOrgMarkup
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[name="description"]', 'content');
+            ->extract($crawler, '[name="description"]', ['content']);
     }
 
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', 'content');
+            ->extract($crawler, '[property="og:image"]', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
@@ -62,7 +62,7 @@ class WwwDelishCom extends SchemaOrgMarkup
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', 'href');
+            ->extract($crawler, '[rel="canonical"]', ['href']);
     }
 
     protected function extractYield(Crawler $crawler)

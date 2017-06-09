@@ -41,7 +41,7 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', 'content');
+            ->extract($crawler, '[property="og:image"]', ['content']);
     }
 
     protected function extractPrepTime(Crawler $crawler)
@@ -53,7 +53,7 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', 'href');
+            ->extract($crawler, '[rel="canonical"]', ['href']);
     }
 
     protected function extractYield(Crawler $crawler)

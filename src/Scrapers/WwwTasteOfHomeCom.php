@@ -16,7 +16,11 @@ class WwwTasteOfHomeCom extends SchemaOrgMarkup
     protected function extractAuthor(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="author"] [itemprop="name"]', 'content');
+            ->extract(
+                $crawler,
+                '[itemprop="author"] [itemprop="name"]',
+                ['content']
+            );
     }
 
     protected function extractDescription(Crawler $crawler)
@@ -29,7 +33,7 @@ class WwwTasteOfHomeCom extends SchemaOrgMarkup
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="image"]', 'content');
+            ->extract($crawler, '[itemprop="image"]', ['content']);
     }
 
     protected function extractInstructions(Crawler $crawler)
@@ -41,13 +45,13 @@ class WwwTasteOfHomeCom extends SchemaOrgMarkup
     protected function extractName(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="name"]', 'content');
+            ->extract($crawler, '[itemprop="name"]', ['content']);
     }
 
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', 'href');
+            ->extract($crawler, '[rel="canonical"]', ['href']);
     }
 
     protected function extractYield(Crawler $crawler)

@@ -102,7 +102,7 @@ class SchemaOrgMarkup implements ScraperInterface
     protected function extractCookTime(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="cookTime"]', 'datetime');
+            ->extract($crawler, '[itemprop="cookTime"]', ['datetime']);
     }
 
     protected function extractCuisines(Crawler $crawler)
@@ -126,7 +126,7 @@ class SchemaOrgMarkup implements ScraperInterface
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="image"]',
-                'src'
+                ['src']
             );
     }
 
@@ -157,7 +157,7 @@ class SchemaOrgMarkup implements ScraperInterface
     protected function extractPrepTime(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"]', 'datetime');
+            ->extract($crawler, '[itemprop="prepTime"]', ['datetime']);
     }
 
     protected function extractPublisher(Crawler $crawler)
@@ -172,7 +172,7 @@ class SchemaOrgMarkup implements ScraperInterface
     protected function extractTotalTime(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="totalTime"]', 'datetime');
+            ->extract($crawler, '[itemprop="totalTime"]', ['datetime']);
     }
 
     protected function extractUrl(Crawler $crawler)
@@ -181,14 +181,14 @@ class SchemaOrgMarkup implements ScraperInterface
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="url"]',
-                'href'
+                ['href']
             );
     }
 
     protected function extractYield(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]', 'content');
+            ->extract($crawler, '[itemprop="recipeYield"]', ['content']);
     }
 
     protected function normalizeInterval($value)

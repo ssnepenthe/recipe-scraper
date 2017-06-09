@@ -20,7 +20,7 @@ class ScrippsNetworks extends SchemaOrgJsonLd
     {
         // Largest image is not available via LD+JSON.
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', 'content');
+            ->extract($crawler, '[property="og:image"]', ['content']);
     }
 
     protected function preNormalizeCookTime($value)

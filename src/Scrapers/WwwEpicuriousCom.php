@@ -20,13 +20,13 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
     protected function extractCookTime(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="cookTime"]', 'content');
+            ->extract($crawler, '[itemprop="cookTime"]', ['content']);
     }
 
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[name="description"]', 'content');
+            ->extract($crawler, '[name="description"]', ['content']);
     }
 
     protected function extractImage(Crawler $crawler)
@@ -35,7 +35,7 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="image"]',
-                'content'
+                ['content']
             );
     }
 
@@ -57,7 +57,7 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
     protected function extractPrepTime(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"]', 'content');
+            ->extract($crawler, '[itemprop="prepTime"]', ['content']);
     }
 
     protected function extractUrl(Crawler $crawler)
@@ -66,7 +66,7 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
             ->extract(
                 $crawler,
                 '[itemtype="http://schema.org/Recipe"] [itemprop="url"]',
-                'content'
+                ['content']
             );
     }
 

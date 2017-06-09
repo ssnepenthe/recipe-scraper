@@ -20,7 +20,7 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[name="description"]', 'content');
+            ->extract($crawler, '[name="description"]', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
