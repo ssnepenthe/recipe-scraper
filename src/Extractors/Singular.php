@@ -11,17 +11,17 @@ class Singular implements ExtractorInterface
         $nodes = $crawler->filter($selector);
 
         if (! $nodes->count()) {
-        	return null;
+            return null;
         }
 
         foreach ($attrs as $attr) {
-        	if ('_text' === $attr && $value = trim($nodes->text())) {
-        		return $value;
-        	}
+            if ('_text' === $attr && $value = trim($nodes->text())) {
+                return $value;
+            }
 
-        	if ($value = trim($nodes->attr($attr))) {
-        		return $value;
-        	}
+            if ($value = trim($nodes->attr($attr))) {
+                return $value;
+            }
         }
 
         return null;

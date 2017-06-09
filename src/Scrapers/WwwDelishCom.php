@@ -64,5 +64,4 @@ class WwwDelishCom extends SchemaOrgMarkup
         return $this->extractor->make(Singular::class)
             ->extract($crawler, '[rel="canonical"]', ['href']);
     }
-
 }
