@@ -38,6 +38,10 @@ class SchemaOrgMarkup implements ScraperInterface
 
     public function scrape(Crawler $crawler) : array
     {
+        if (method_exists($this, 'preExtractionFilter')) {
+            $crawler = $this->preExtractionFilter($crawler);
+        }
+
         $recipe = [];
 
         foreach ($this->properties as $key) {

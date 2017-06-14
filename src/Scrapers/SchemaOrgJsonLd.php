@@ -41,6 +41,10 @@ class SchemaOrgJsonLd implements ScraperInterface
 
     public function scrape(Crawler $crawler) : array
     {
+        if (method_exists($this, 'preExtractionFilter')) {
+            $crawler = $this->preExtractionFilter($crawler);
+        }
+
         $json = $this->getJson($crawler);
         $recipe = [];
 
