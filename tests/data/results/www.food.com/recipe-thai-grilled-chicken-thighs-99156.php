@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'author' => 'barb63',
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => 'PT15M',
+    'cuisines' => null,
+    'description' => 'This is my first recipe - please be kind! My kids love it and when I take it to a BBQ everyone wants the recipe. It is a variation on one I found in epicurious a while ago. It is very easy and very yummy!!',
+    'image' => 'http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/99/15/6/picdGCJTF.jpg',
+    'ingredients' => [
+        '12 boneless skinless chicken thighs',
+        '1/3 cup chopped fresh basil',
+        '1/3 cup chopped fresh coriander (cilantro)',
+        '1 tablespoon minced ginger',
+        '1 tablespoon minced garlic',
+        '1 tablespoon minced chili',
+        '1 1/2 tablespoons soy sauce',
+        '1 1/2 tablespoons fish sauce',
+        '1 1/2 tablespoons olive oil',
+        '1 1/2 tablespoons brown sugar',
+    ],
+    'instructions' => [
+        'Combine all ingredients except chicken in a bowl.',
+        'Mix thoroughly.',
+        'Add chicken and leave to marinate at least one hour, preferably longer.',
+        'Grill chicken on the BBQ, hotplate or in the griller until golden brown and cooked through.',
+        'Ususlly you would expect 12 thigh fillets to feed 4 to 6 people- in my family the kids eat 4 each so this recipe serves 3.',
+    ],
+    'name' => 'Thai Grilled Chicken Thighs',
+    'prepTime' => 'PT10M',
+    'publisher' => 'Food.com',
+    'totalTime' => 'PT25M',
+    'url' => 'http://www.food.com/recipe/thai-grilled-chicken-thighs-99156',
+    'yield' => '4 serving(s)',
+];

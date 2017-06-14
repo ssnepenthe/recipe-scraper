@@ -1,0 +1,3014 @@
+
+
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    PROTOTYPE = true;
+
+    if (typeof SNI_COMMUNITY_SERVICES == 'undefined') {
+        SNI_COMMUNITY_SERVICES = {};
+    }
+    SNI_COMMUNITY_SERVICES.SITE_NAME = "fooddotcom";
+    SNI_COMMUNITY_SERVICES.SITE_CODE = "fdc";
+
+</script>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+
+
+
+        <meta name="keywords" content="cocoa powder,stout beer,butter,dark brown sugar,eggs,plain flour,baking powder,bicarbonate of soda,icing sugar,butter,stout beer,dark chocolate,walnut pieces,walnut halves,cocoa powder recipe, recipes, recipies" />
+        <meta name="description" content="A friend made this recently and again, I had to beg for the recipe. It was the best chocolate cake Ive tasted in a long time! I had to wonder if it was the beer in the recipe??? It was just wonderful." />
+        <meta name="sailthru.tags" content="60-minutes-or-less,time-to-make,course,main-ingredient,cuisine,preparation,occasion,north-american,low-protein,desserts,american,dinner-party,kid-friendly,cakes,chocolate,dietary,low-sodium,cake-fillings-and-frostings,low-in-something,brunch" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="apple-itunes-app" content="app-id=418971697, affiliate-data=ct=fd-smart-banner&pt=260410" />
+        <meta property="fb:app_id" content="293868454060703" />
+        <meta property="fb:pages" content="118337671518735" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Chocolate Beer Cake Recipe - Food.com" />
+        <meta property="og:url" content="http://www.food.com/recipe/chocolate-beer-cake-219846" />
+        <meta property="og:description" content="A friend made this recently and again, I had to beg for the recipe. It was the best chocolate cake Ive tasted in a long time! I had to wonder if it was the beer in the recipe??? It was just wonderful." />
+        <meta property="og:image" content="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/21/98/46/obtPrzGdS6i6dk5WCh7l_beer%2520chocolate%2520cake%2520(4%2520of%25204).jpg" />
+
+
+<title>Chocolate Beer Cake Recipe - Food.com</title>
+
+<link rel="image_src" href="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/21/98/46/obtPrzGdS6i6dk5WCh7l_beer%20chocolate%20cake%20(4%20of%204).jpg" />
+<link rel="shortcut icon" type="image/x-icon" href="http://img.food.com/fdc/img/ico/favicon.ico"/>
+
+<link rel="touch-icon" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone.png" />
+<link rel="touch-icon" sizes="76x76" href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad.png" />
+<link rel="touch-icon" sizes="120x120" href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad@2x.png" />
+<link rel="touch-icon" sizes="152x152" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@3x.png" />
+<link rel="touch-icon-precomposed" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@2x.png"/>
+
+
+
+<link rel="canonical" href="http://www.food.com/recipe/chocolate-beer-cake-219846"/>
+
+
+
+<link rel="amphtml" href="http://www.food.com/amp/recipe/chocolate-beer-cake-219846"/>
+
+
+
+<link rel="alternate" href="android-app://com.food.mobile/http/food.com/recipes/219846" />
+
+
+
+<link rel="next" href="http://www.food.com/recipe/chocolate-beer-cake-219846?pn=2" />
+
+<link rel="publisher" href="https://plus.google.com/117908044835237955765" />
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/css/bootstrap.min.css?v=114" />
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/v1/css/fd.min.css?v=114" />
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/v1/css/pages/recipe.min.css?v=114" />
+
+    <style type="text/css">
+
+    </style>
+
+<!-- Include Page Data JS Configuration -->
+
+
+
+<script type="text/javascript">
+    // GIGYA global configuration for UI
+    window.__gigyaConf = {
+        defaultRegScreenSet: "FDC-LoginReg",
+        defaultMobileRegScreenSet: "FDC-LoginReg",
+        enabledProviders:'facebook,twitter,instagram,google,yahoo',
+        sessionExpiration: 31536000
+    };
+
+    // creates the FD and FD.Page namespace
+    if (typeof FD == 'undefined') { FD = {}; }
+    if (!FD.Page) { FD.Page = {}; }
+
+    // initialize the page configuration
+    (function() {
+
+        // set up SNI object
+        window.SNI = {
+            Config: {
+                name: 'FOODCOM',
+                domain: 'http://www.food.com',
+                imgDomain: 'http://img.food.com',
+                aimDomain: 'http://aim.food.com',
+                shareDomain: 'http://share.food.com',
+                cookieDomain: '.food.com',
+                Video: {
+                    fallbackSiteSectionId: '953690', // Unique for each site and each environment
+                    networkId: '191701', // Shared across all Scripps properties
+                    nielsen: {
+                        apid: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX'
+                    },
+                    playerUrl: {
+                        base: 'http://www.player.video.snidigital.com/vpc/1/6',
+                        css: 'http://www.player.video.snidigital.com/vpc/1/6/css/sni-video.min.css',
+                        skin: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/sni-default.json',
+                        layout: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/layout-no-embed.xml'
+                    }
+                }
+            }
+        };
+
+        // initialize the core components
+        window.fdConfig = {
+            MetaData: {
+                environment: 'production',
+                pageType: 'RECIPE',
+                gigyaMode: true
+            },
+
+            environment: 'production',
+            serverURL:'http://www.food.com',
+            imgServerURL:'http://img.food.com',
+            secureServerURL:'https://api.food.com',
+            shareServerURL: 'http://share.food.com',
+            aimServerURL: 'http://aim.food.com',
+            ssoControllerURL: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+            apiServerURL: 'http://www.food.com',
+            RecipeBoxApiURL: 'http://recipes.food.com',
+            RecipeBoxWrapperURL: 'http://www.food.com'+'/services/mobile/recipebox/wrap-rb',
+            groceryListURL: 'http://recipes.food.com/shopping-list',
+            newsletterURL: 'http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER',
+            adServer: 'adsremote.scrippsnetworks.com',
+            ctiURL: 'http://cti.w55c.net/ct/ct-db44eb055e234032a827dbac431ef7e9.js',
+            reCaptcha: '6LdYrfASAAAAAD4ciUco6uTHK6sQ3s9hjoyppvNc',
+            gigyaURL: 'http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS',
+            defaultAvatarURL: 'http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg',
+            cookieDomain: '.food.com',
+            reviewSubmissionURL: 'http://www.food.com'+
+                '/services/rest/recipes/postreview',
+            IS: { FB: { id: '293868454060703' } },
+
+            Video: {
+
+            },
+
+            SocialUploader: {
+                apiKey: 'A6x6UxJTDSEenRnl6jrIsz',
+                preSubmitUrl: "/rzfoodservices/web/photo-upload/{assetType}/presubmit",
+                submitUrl: "/rzfoodservices/web/photo-upload/{assetType}/submit",
+                triggerClass: 'add-pictures',
+                pickOptions: {
+                    multiple: true
+                },
+                storeOptions: {
+                    path: null,
+                    transId: null
+                },
+                cloudinaryPathPrefix: '',
+                cloudinaryAvatarPathPrefix: '/food_avatar',
+                cloudinaryImgBasePath: 'img.sndimg.com/food',
+                cloudinaryUrl: 'http://img.sndimg.com/food/image/upload',
+                cloudinaryV1: '/v1/img',
+                cloudinaryFullBucket: '/v1/fdc'
+            },
+
+            useShortUrl: true
+
+            
+            , gigyaAuthDefault: 'activityFeed'
+            
+        };
+
+    }());
+
+    // Google Analytics
+    var g_adkeyword="Chocolate Beer Cake Recipe - Food.com";
+    var g_aduniqueid = '';
+    var g_recipesource= '';
+
+</script>
+ 
+
+
+
+        <script type="text/javascript" src="http://img.food.com/fd/js/lib/core-lib.min.js?v=114" ></script>
+
+        <script type="text/javascript" src="http://code.adsales.snidigital.com/conf/ads-config.min.js" ></script>
+
+        <script type="text/javascript" src="http://code.adsales.snidigital.com/lib/2/sni-ads.min.js" ></script>
+
+        <script type="text/javascript" src="http://js.indexww.com/ht/ls-scripps.js" ></script>
+
+        <script type="text/javascript" src="http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS" ></script>
+
+        <script type="text/javascript" src="//assets.adobedtm.com/076e416a6caa07234c15d9bd371ee9e19eef88d3/satelliteLib-bcf5f78965434ee359ed8599c3c4e330702525b7.js" ></script>
+
+
+<script type="text/javascript">
+
+        mdManager = typeof mdManager !== 'undefined' ? mdManager : new MetaDataManager();
+        mdManager.addParameter("adkey1", "KID_FRIENDLY");
+        mdManager.addParameter("adkey2", "");
+        mdManager.addParameter("CategoryDspName", "RECIPES");
+        mdManager.addParameter("Classification", "RECIPES,RECIPES,FOODCOM");
+        mdManager.addParameter("ingredients", "baking powder,bicarbonate of soda,butter,cocoa powder,dark brown sugar,dark chocolate,eggs,icing sugar,plain flour,stout beer,walnut halves,walnut pieces");
+        mdManager.addParameter("keywordids", "9,12,13,14,15,16,17,21,29,87,109,156,161,173,191,252,263,275,348,445");
+        mdManager.addParameter("keywords", "60_minutes_or_less,time_to_make,course,main_ingredient,cuisine,preparation,occasion,north_american,low_protein,desserts,american,dinner_party,kid_friendly,cakes,chocolate,dietary,low_sodium,cake_fillings_and_frostings,low_in_something,brunch");
+        mdManager.addParameter("SctnDspName", "RECIPES");
+        mdManager.addParameter("Site", "FOODCOM");
+        mdManager.addParameter("Sponsorship", "FC_STPATRICKS");
+        mdManager.addParameter("type", "RECIPE");
+        mdManager.addParameter("UniqueId", "1-219846-MAIN");
+        mdManager.addParameter("Subdomain", "");
+        mdManager.addParameter("Url", "http://www.food.com/recipe/chocolate-beer-cake-219846");
+        mdManager.addParameter("Title", "Chocolate Beer Cake Recipe - Food.com");
+        mdManager.addParameter("PrepTime", "15");
+        mdManager.addParameter("Version", "beta");
+        mdManager.addParameter("Site Tier", "direct");
+        mdManager.addParameter("OrigPubDate", "2007-03-30|2017-02-10");
+        mdManager.addParameter("TopRecipe", "false");
+        mdManager.addParameter("DeliveryChannel", (FD && FD.viewports && FD.viewports.viewport().label) || null);
+
+
+</script>
+
+
+
+
+<!--[if lt IE 9]>
+<script src="http://img.food.com/js/html5shiv.js"></script>
+<![endif]-->
+
+<style>
+    body {
+        background-image: none;
+    }
+    .fd-logo .ie-logo {
+        display: none;
+    }
+</style>
+
+
+
+
+</head>
+<body>
+<div class="fd-site-wrapper">
+
+    
+
+
+
+
+
+
+
+
+<!-- header -->
+
+<div class="ad-wrap ">
+    <div class="fd-ad fd-leaderboard" id="dfp_leaderboard" data-dfp-type="dfp_leaderboard" data-dfp="loaded"></div>
+</div>
+
+<a name="top"></a>
+
+<div class="fd-header-wrap analytic-box" data-module="globalHeader">
+
+    <div class="navbar navbar-default navbar-static-top" role="navigation" id="fdc-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle pull-left" data-target="#fd-menu-main">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="icon-fdc-burger"></i>
+                </button>
+
+                <div id="fd-logo">
+                    <div class="fd-logo">
+                        <object data="http://img.food.com/fdc/img/logo/FDC-logo.svg" type="image/svg+xml" height="100%" width="100%" title="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world.">
+                            <a class="ie-logo" href="http://www.dev1-food.com"><img src="http://img.food.com/fdc/img/logo/FDC-logo-header.png" alt="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." height="100%" width="100%" /></a>
+                        </object>
+                        <a class="ie-logo" href="http://www.dev1-food.com"><img src="http://img.food.com/fdc/img/logo/FDC-logo-header.png" alt="Food.com - Home of the Home Chef" height="100%" width="100%"></a>
+                    </div>
+                </div>
+
+                <ul class="nav-links">
+
+                    <li class="nav-item-search">
+                        <button type="button" class="navbar-toggle nav-search" data-target="#fd-menu-search" data-align-menu="none">
+                            <i class="icon-fdc-search"></i>
+                            <span class="btn-text hidden-xs">Find a recipe</span>
+                        </button>
+                    </li>
+
+                    <!-- Authenticated User -->
+                    <li class="nav-item-auth">
+                        <button type="button" class="navbar-toggle fd-user-btn" data-target="#fd-menu-auth" data-align-menu="right">
+                            <span class="fd-avatar">
+                                <img data-src="http://share.test1-recipezaar.com/skins/main/images/profilephotolookup/111_square.gif" alt="generic user avatar" src="http://img-nonprod.sndimg.com/food/image/upload/fl_progressive,e_brightness:15,w_200,h_200,c_fill,q_92/v1/dev1/fdc/img/placeholder/fdc-generic-avatar.jpg">
+                            </span>
+                            <span class="btn-text fd-greet hidden-xs">Hi, [user]</span>
+                            <i class="icon-fdc-navigate-down hidden-xs"></i>
+                        </button>
+                    </li>
+
+                    <!-- Unauthenticated User -->
+                    <li class="nav-item-unauth">
+                        <button type="button" class="navbar-toggle fd-user-icon-btn" data-target="#fd-menu-noauth" data-align-menu="right" >
+                            <i class="icon-fdc-profile"></i>
+                        </button>
+                    </li>
+
+                    <!-- Sign Up -->
+                    <li class="nav-item-unauth-signup">
+                        <button type="button" class="navbar-link fd-sup-btn sso-sign-up" id="fd-signup-btn">
+                            <span>Sign Up</span>
+                        </button>
+                    </li>
+
+                    <!-- Login -->
+                    <li class="nav-item-unauth-login">
+                        <button type="button" class="navbar-link fd-log-btn sso-login" id="fd-login-btn">
+                            <span>Log In</span>
+                        </button>
+                    </li>
+
+                    <!-- RecipeBox -->
+                    <li class="nav-item-rb">
+                        <form action="http://recipes.food.com" class="rb-recipe-box-form">
+                            <button type="submit" class="navbar-link btn fd-rb-btn" id="fd-recipe-box-btn">
+                                <i class="icon-fdc-recipe-box"></i>
+                            </button>
+                        </form>
+                        <form action="http://recipes.food.com/grocery-list" class="rb-grocery-list-form">
+                            <button type="submit" class="navbar-link btn fd-gl-btn" id="fd-grocery-list-btn">
+                                <i class="icon-fdc-grocery-list"></i>
+                            </button>
+                        </form>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /header -->
+
+
+    
+
+    <div class="fd-page-feed">
+        
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"Recipe","mainEntityOfPage":"true","name":"Chocolate Beer Cake","author":"Vseward Chef-V","cookTime":"PT30M","prepTime":"PT15M","totalTime":"PT45M","datePublished":"March 30, 2007","description":"A friend made this recently and again, I had to beg for the recipe. It was the best chocolate cake I\u0027ve tasted in a long time! I had to wonder if it was the beer in the recipe??? It was just wonderful.","image":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/21/98/46/obtPrzGdS6i6dk5WCh7l_beer%20chocolate%20cake%20(4%20of%204).jpg","recipeIngredient":["2  ounces  cocoa powder","7  fluid ounces  stout beer","4  ounces very soft butter","10  ounces  dark brown sugar","2  large  eggs, beaten","6  ounces  plain flour","1/4 teaspoon  baking powder","1  teaspoon  bicarbonate of soda","4  ounces  icing sugar, sifted","2  ounces very soft butter","2  tablespoons  stout beer","4  ounces  dark chocolate (50-55% cocoa solids)","1  ounce  walnut pieces, finely chopped","8    walnut halves"," cocoa powder, for dusting"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"4"},"nutrition":{"@type":"NutritionInformation","calories":"712.3","fatContent":"30.7","saturatedFatContent":"16.9","cholesterolContent":"92.2","sodiumContent":"367.9","carbohydrateContent":"87","fiberContent":"5.8","sugarContent":"48.8","proteinContent":"9.8"},"recipeInstructions":"Pre-heat the oven  350\u0026deg;F (180\u0026deg;C). You will need two 8 inch (20 cm) cake tins, 1\u0026frac12; inches (4 cm) deep, lightly greased, and the bases lined with baking parchment, lightly greased. Cream the butter and sugar together, beating thoroughly for 3 or 4 minutes until pale and fluffy. Now gradually beat in the eggs, a little at a time, beating well between each addition. Next, sift the flour, baking powder and bicarbonate of soda on to a sheet of baking parchment. Measure the cocoa and put it in a separate bowl, gradually stirring the stout into it. Carefully and lightly fold into the egg mixture small quantities of the sifted flour alternately with the cocoa-stout liquid. Then, when both have been added, divide the cake mixture equally between the 2 tins and level it out. Bake the cake in the center of the oven for 30-35 minutes. The cakes should be flat on top and feel springy and will have shrunk slightly from the side of the tin. Leave them to cool in the tins for 5 minutes before turning out on to a wire rack to cool further, carefully stripping off the base papers. To make the icing, beat the icing sugar and butter together until blended, then gradually add the stout, making sure it is thoroughly mixed in after each addition. Melt the chocolate in a bowl set over hot water, making sure the bottom of the bowl doesn\u0027t touch the water. Then, when it\u0027s melted, remove the bowl from the water, and carefully fold the chocolate into the icing mixture. Remove a third of the icing to a separate bowl and stir in the chopped walnuts. After all the icing has cooled to a spreadable consistency, sandwich the cake with the walnut icing. Then spread the remaining two-thirds of the icing on top of the cake, using a palette knife. Next, dust the walnut halves with cocoa powder and arrange on top of the cake. Now try to be patient and allow the icing to become firm before eating!","recipeYield":"8-10 serving(s)","review":[{"@type":"Review","description":"Sinful is right!  It\u0027s rich but not overly sweet. . . guess it\u0027s the beer that tames the brown sugar.   Had a challenge with the meaurements; since this is a UK recipe it\u0027s stated in ounces, not cups.  No problem with the liquids, but the sugar, cocoa and flour were challenging.  Not sure how close this is to the intended amounts, but here\u0027s what I used:\r\n\r\n1/4 cup cocoa\r\n1 1/2 cups dark brown sugar\r\n1 1/4 (-a smidgen) flour\r\n\r\nNot sure why, but I did not have enough batter to bake in two round pans, so used an 8x8 glass square dish.   Because I was not following the recipe decided I needed to check for doneness at about the 25 minute point; which was the wrong thing to do . . . the center fell a little  (just filled it in with more frosting -- yummy). \r\nThanks Chef V for sharing this treasure!\r\n\r\nMade one more change . . . substituted a good quality cocoa for the solid dark chocolate and it worked wonderfully, and alot less work!","datePublished":"September 24, 2007","itemReviewed":{"@type":"Thing","name":"Chocolate Beer Cake"},"reviewRating":{"@type":"Rating","worstRating":"1","ratingValue":5,"bestRating":"5"},"author":"Galley Wench"}],"publisher":{"@type":"Organization","name":"Food.com","logo":{"@type":"ImageObject","url":"http://img.food.com/fdc/img/FDC-logo-AMP-transparent.png"},"url":"http://www.food.com"}}</script>
+
+
+<article class="current recipe-proto" id="219846" data-recipe-id="219846" data-page-name="/recipe/chocolate-beer-cake-219846">
+    
+
+
+
+
+
+<div class="fd-container-full container-fluid">
+
+    <div class="breadcrumbs-outer-container fd-container-full">
+        <div class="breadcrumbs recipe-breadcrumbs fd-container">
+            <div>
+                <a href="http://www.food.com/recipe"><i class="icon-fdc-arrow-left"></i></a>
+                <a href="http://www.food.com/recipe">Recipes</a>
+                <span class="separator"></span>
+                <a href="http://Dessert.food.com/topic/cake-fillings-and-frostings">Cake Fillings And Frostings</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fd-container  container-fluid analytic-box" data-module="recipeHeading">
+
+        <header class="recipe fd-recipe">
+            <meta content="http://www.food.com/recipe/chocolate-beer-cake-219846"/>
+
+            <div class="sponsored">
+                <div id="dfp_logo"></div>
+            </div>
+
+            <h1>Chocolate Beer Cake</h1>
+            <section class="recipe-subhead">
+                <div class="recipe-info ">
+
+                
+                    
+                        <div class="fd-rating ">
+                            <a class="af-show-reviews review-link " href="#activity-feed">
+                                <div class="five-star"><span class="fd-rating-percent"
+                                                             style="width:95.00%;"><span
+                                        class="sr-only">4.75</span></span></div></a>
+                            <a href="#activity-feed" class="af-show-reviews af-review-count">(4)</a>
+                        </div>
+                    
+                
+
+                <div class="recipe-cooktime">
+                    
+                    <span class="ready-in-text"><strong>READY IN:</strong></span>
+                    
+                    
+                    45mins
+                    
+                    
+                </div>
+                
+                </div>
+
+                <div class="recipe-sharing fd-share-tools analytic-box" data-module="topRecipeTools">
+                    <a href="http://www.food.com/recipeprint.do?rid=219846" class="print-round" title="Print">
+                        <i class="icon-fdc-print" title="Print"></i>
+                    </a>
+                    
+                    <a class="email-round" data-popup-id="#email" data-recipe-id="219846" href="mailto:?subject=Food.com for Chocolate Beer Cake&body=Here%27s a recipe for Chocolate Beer Cake from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fchocolate-beer-cake-219846%3Fnl%3Demail_share" title="Share via Email">
+                        <i class="icon-fdc-email" title="Email"></i>
+                    </a>
+                    <a class="pinterest-round" data-network="pinterest" title="Share on Pinterest">
+                        <i class="icon-fdc-pinterest social-share" title="Pintrest"></i>
+                    </a>
+                    <a class="facebook-round social-share" data-network="facebook" title="Share on Facebook">
+                        <i class="icon-fdc-facebook" title="Facebook"></i>
+                    </a>
+                    
+                </div>
+
+                </section>
+        </header>
+    </div>
+</div>
+
+<section class="fd-container-fluid fd-container-full top-tile ">
+    
+    <div class="img-wrapper">
+        <div class="inner-wrapper">
+
+                <div class="gallery-open-btn js-gallery-open">
+                    <span class="gallery-items-count js-recipe-photos-count" >8</span><i class="icon-fdc-photo-gallery"></i>
+                </div>
+                <span class="photographer">
+                        <a href="http://www.food.com/user/2000640681">thecookierookie</a>
+                 </span>
+            <img class="recipe-main-img" data-src="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/21/98/46/obtPrzGdS6i6dk5WCh7l_beer%20chocolate%20cake%20(4%20of%204).jpg"/>
+        </div>
+    </div>
+    
+    <div class="recipe-extra-info js-tuncate-ellipsis"
+         data-tuncate-text-selector=".about-text"
+         data-target-container-selector=".recipe-about"
+         data-on-expand-add-class="expanded-description"
+         data-expand-button-add-class="expand-button"
+         data-collapse-button-add-class="collapse-button"
+         data-fix-container-height = "true">
+
+        
+        <div class="recipe-about">
+            <div class="avatar-wrapper">
+                <span class="fd-avatar masked lg">
+                    <div class="avatar-fixed-size">
+                        <a href="http://www.food.com/user/351811">
+                            <img data-src="http://img.sndimg.com/food/image/upload/q_92,fl_progressive/l_quote-mask-x10_pit7fn,fl_cutter.relative,w_1.0,h_1.0/v1/food_avatar/5595303/9AoLm9BcRMipeQqhUAGb_IMG_3458.png"
+                                 data-crop-mode="fill"
+                                 data-default="http://img.sndimg.com/food/image/upload/q_92,fl_progressive/l_quote-mask-x10_pit7fn,fl_cutter.relative,w_1.0,h_1.0/v1/fdc/img/placeholder/avatar.png"
+                                 data-target=".avatar-fixed-size">
+                        </a>
+                    </div>
+                </span>
+            </div>
+            <div class="about">
+                <h6>Recipe by <a href="http://www.food.com/user/351811"> Vseward Chef-V</a></h6>
+                <p class="about-text">
+                    A friend made this recently and again, I had to beg for the recipe. It was the best chocolate cake I've tasted in a long time! I had to wonder if it was the beer in the recipe??? It was just wonderful.
+                </p>
+            </div>
+            <p class="hide-when-collapsed"></p>
+        </div>
+        
+        <div class="activity-feed-info js-tuncate-ellipsis"
+             data-tuncate-text-selector=".text"
+             data-target-container-selector=".text-container"
+             data-on-expand-add-class="expanded-text"
+             data-expand-button-add-class="expand-button"
+             data-collapse-button-add-class="collapse-button"
+             data-more-link-href="?ftab=reviews#activity-feed">
+            <div class="top-tweak-container">
+            
+                <div class="avatar-wrapper">
+                    <span class="fd-avatar">
+                        <a href="http://www.food.com/user/269521">
+                            <img src="http://img.sndimg.com/food/image/upload/q_92/v1/food_avatar/11118346/ZLBZSU6T128gr4YCujQP_IMG_0823.JPG" alt="Galley Wench">
+                        </a>
+                    </span>
+                </div>
+                <div class="text-container">
+                    <h6>Top Review by <a href="http://www.food.com/user/269521">Galley Wench</a></h6>
+                    <div class="text">
+                
+                    <div class="fd-rating">
+                        <div class="five-star">
+                            <span class="fd-rating-percent" style="width: 100%;"></span>
+                        </div>
+                    </div>
+                    <p>
+                        Sinful is right!  It's rich but not overly sweet. . . guess it's the beer that tames the brown sugar.   Had a challenge with the meaurements; since this is a UK recipe it's stated in ounces, not cups.  No problem with the liquids, but the sugar, cocoa and flour were challenging.  Not sure how close this is to the intended amounts, but here's what I used:
+
+1/4 cup cocoa
+1 1/2 cups dark brown sugar
+1 1/4 (-a smidgen) flour
+
+Not sure why, but I did not have enough batter to bake in two round pans, so used an 8x8 glass square dish.   Because I was not following the recipe decided I needed to check for doneness at about the 25 minute point; which was the wrong thing to do . . . the center fell a little  (just filled it in with more frosting -- yummy). 
+Thanks Chef V for sharing this treasure!
+
+Made one more change . . . substituted a good quality cocoa for the solid dark chocolate and it worked wonderfully, and alot less work!
+                    </p>
+                
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="discussion-links-container">
+            <h6>See Discussion:</h6>
+            
+                <a class="js-scroll-to-af" data-click-button="reviews" href="#activity-feed">
+                    <span>4</span> Reviews
+                </a>
+            
+            
+                <i class="icon-fdc-dot"></i>
+            
+            
+                <a class="js-scroll-to-af" data-click-button="tweaks" href="#activity-feed">
+                    <span>1</span> Tweak
+                </a>
+            
+            
+             
+            </div>
+            
+        </div>
+        <div class="saveRecipeButtonContainer hidden-sm hidden-md hidden-lg">
+
+            <button class="rb-open btn-emphasis" data-recipe-id="219846">
+                <i class="icon-fdc-plus"></i> Save recipe
+            </button>
+
+            
+
+        </div>
+    </div>
+</section>
+
+<div class="fd-recipe-gallery js-recipe-gallery"
+     data-recipe-id="219846"
+     data-is-private="false"
+     data-viewed-by-recipe-owner="false"
+     data-recipe-description="A friend made this recently and again, I had to beg for the recipe. It was the best chocolate cake I've tasted in a long time! I had to wonder if it was the beer in the recipe??? It was just wonderful."
+     data-recipe-url="http://www.food.com/recipe/chocolate-beer-cake-219846"
+     data-recipe-title="Chocolate Beer Cake">
+    
+        <div class="fd-header-wrap analytic-box fd-logged-in js-recipe-gallery-header" data-module="globalHeader">
+            <div class="navbar navbar-default navbar-static-top stick show" role="navigation">
+                <button class="js-gallery-close btn-icon">
+                    <i class="icon-fdc-navigate-left"></i>
+                </button>
+                <span class="count-label"><span class="js-recipe-photos-count"></span> recipe photos</span>
+                <button class="gal-add-photo-btn btn-solid-white js-add-photo-btn"
+                        data-clicktrack="true"
+                        data-su-pick-options='{"multiple":true, "maxFiles": 5}'
+                        data-su-asset-meta-data='{ "asset_id" : "219846", "asset_type": "recipe", "asset_name": "" }'
+                >
+                    <i class="add-pictures icon-fdc-camera" title="Add Photo"></i><span>add photo</span>
+                </button>
+            </div>
+        </div>
+    
+        <div class="fd-stream-wrapper js-gallery-stream-wrapper">
+            <div class="fd-stream js-single-element-paging js-gallery-stream fd-container">
+
+            </div>
+        </div>
+
+</div>
+
+
+    <section class="container fd-container fd-page mainContent js-jumbotron">
+
+        <div class="row recipe-detail col-md-19 col-lg-25">
+
+            <div class="saveRecipeButtonContainer hidden-xs">
+
+                <button class="rb-open btn-emphasis" data-recipe-id="219846"> <i class="icon-fdc-plus"></i> Save recipe</button>
+
+                
+
+            </div>
+
+            <div class="ingredients col-xs-8 col-sm-9 col-md-11 col-lg-13 analytic-box" data-module="ingredients">
+                <h3>Ingredients
+                    <small><a class="nutrition" data-toggle="modal"  data-target="#219846_nutrition" data-popup-id="#219846_nutrition">Nutrition</a></small>
+                </h3>
+
+                <div class="fd-list-table recipe-yield">
+                    <ul>
+                        
+                        <li id="yield-servings">
+                            <a data-toggle="modal" data-target="#219846_servings" data-popup-id="#219846_servings">
+                                <h6>Servings</h6>
+
+                                <div class="data">
+                                    <span class="count">8-10</span>
+                                </div>
+                            </a>
+                        </li>
+                        
+                        
+                        <li id="yield-units">
+                            <a class="units" data-toggle="modal" data-target="#219846_units" data-popup-id="#219846_units">
+                                <h6>Units</h6>
+                                <div class="data">
+                                    <span class="count">US</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="ingredient-list">
+                    <li data-ingredient="cocoa+powder"><span>2 </span> ounces  <a href="http://www.food.com/about/cocoa-powder-136">cocoa powder</a></li>
+                    <li data-ingredient="stout+beer"><span>7 </span> fluid ounces  <a href="http://www.food.com/about/beer-519">stout beer</a></li>
+                    <li data-ingredient="butter"><span>4 </span> ounces very soft <a href="http://www.food.com/about/butter-141">butter</a></li>
+                    <li data-ingredient="dark+brown+sugar"><span>10 </span> ounces  <a href="http://www.food.com/about/brown-sugar-375">dark brown sugar</a></li>
+                    <li data-ingredient="eggs"><span>2 </span> large  <a href="http://www.food.com/about/egg-142">eggs</a>, beaten</li>
+                    <li data-ingredient="plain+flour"><span>6 </span> ounces  <a href="http://www.food.com/about/flour-64">plain flour</a></li>
+                    <li data-ingredient="baking+powder"><span><sup>1</sup>&frasl;<sub>4</sub></span> teaspoon  <a href="http://www.food.com/about/baking-powder-6">baking powder</a></li>
+                    <li data-ingredient="bicarbonate+of+soda"><span>1 </span> teaspoon  <a href="http://www.food.com/about/baking-soda-7">bicarbonate of soda</a></li>
+                    <li><h4>For the icing</h4></li><li data-ingredient="icing+sugar"><span>4 </span> ounces  <a href="http://www.food.com/about/powdered-sugar-140">icing sugar</a>, sifted</li>
+                    <li data-ingredient="butter"><span>2 </span> ounces very soft <a href="http://www.food.com/about/butter-141">butter</a></li>
+                    <li data-ingredient="stout+beer"><span>2 </span> tablespoons  <a href="http://www.food.com/about/beer-519">stout beer</a></li>
+                    <li data-ingredient="dark+chocolate"><span>4 </span> ounces  <a href="http://www.food.com/about/chocolate-224">dark chocolate</a> (50-55% cocoa solids)</li>
+                    <li data-ingredient="walnut+pieces"><span>1 </span> ounce  <a href="http://www.food.com/about/walnut-314">walnut pieces</a>, finely chopped</li>
+                    <li><h4>To decorate</h4></li><li data-ingredient="walnut+halves"><span>8 </span>   <a href="http://www.food.com/about/walnut-314">walnut halves</a></li>
+                    <li data-ingredient="cocoa+powder"><span></span>  <a href="http://www.food.com/about/cocoa-powder-136">cocoa powder</a>, for dusting</li>
+                    
+                </ul>
+
+                
+                <div class="extras">
+                    
+                    <input type="hidden" name="ingredient" value='["2  ounces  cocoa powder","7  fluid ounces  stout beer","4  ounces very soft butter","10  ounces  dark brown sugar","2  large  eggs, beaten","6  ounces  plain flour","1/4 teaspoon  baking powder","1  teaspoon  bicarbonate of soda","4  ounces  icing sugar, sifted","2  ounces very soft butter","2  tablespoons  stout beer","4  ounces  dark chocolate (50-55% cocoa solids)","1  ounce  walnut pieces, finely chopped","8    walnut halves"," cocoa powder, for dusting"]'>
+
+                </div>
+                
+
+                <div class="fd-ad">
+                    <div class="dfp collapsable fd-onsale" data-dfp-type="dfp_grocery_list"></div>
+                </div>
+
+                <div class="fd-ad">
+                    <div class="dfp collapsable" data-dfp-type="dfp_native_ingredient"></div>
+                </div>
+
+                <div class="deals"></div>
+            </div>
+
+            <div class="row fd-ad dfp-placeholder col-xs-8 col-sm-21 hidden-sm hidden-md hidden-lg">
+                
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+            </div>
+
+            <div class="directions analytic-box col-xs-8 col-sm-11 col-sm-offset-1 col-md-16 col-md-offset-1 col-lg-16 col-lg-offset-1" data-module="recipeDirections">
+                <h3>Directions
+                    <small><a class="js-see-how-its-made nutrition"
+                              href=""
+                              style="display: none;">See How It's Made</a>
+                    </small>
+                </h3>
+                <ol>
+                    
+                    <li>Pre-heat the oven  350&deg;F (180&deg;C).</li>
+                    
+                    <li>You will need two 8 inch (20 cm) cake tins, 1&frac12; inches (4 cm) deep, lightly greased, and the bases lined with baking parchment, lightly greased.</li>
+                    
+                    <li>Cream the butter and sugar together, beating thoroughly for 3 or 4 minutes until pale and fluffy. Now gradually beat in the eggs, a little at a time, beating well between each addition.</li>
+                    
+                    <li>Next, sift the flour, baking powder and bicarbonate of soda on to a sheet of baking parchment.</li>
+                    
+                    <li>Measure the cocoa and put it in a separate bowl, gradually stirring the stout into it. Carefully and lightly fold into the egg mixture small quantities of the sifted flour alternately with the cocoa-stout liquid. Then, when both have been added, divide the cake mixture equally between the 2 tins and level it out.</li>
+                    
+                    <li>Bake the cake in the center of the oven for 30-35 minutes. The cakes should be flat on top and feel springy and will have shrunk slightly from the side of the tin. Leave them to cool in the tins for 5 minutes before turning out on to a wire rack to cool further, carefully stripping off the base papers.</li>
+                    
+                    <li>To make the icing, beat the icing sugar and butter together until blended, then gradually add the stout, making sure it is thoroughly mixed in after each addition.</li>
+                    
+                    <li>Melt the chocolate in a bowl set over hot water, making sure the bottom of the bowl doesn't touch the water. Then, when it's melted, remove the bowl from the water, and carefully fold the chocolate into the icing mixture.</li>
+                    
+                    <li>Remove a third of the icing to a separate bowl and stir in the chopped walnuts. After all the icing has cooled to a spreadable consistency, sandwich the cake with the walnut icing. Then spread the remaining two-thirds of the icing on top of the cake, using a palette knife. Next, dust the walnut halves with cocoa powder and arrange on top of the cake.</li>
+                    
+                    <li>Now try to be patient and allow the icing to become firm before eating!</li>
+                    
+
+                    
+                    
+
+<li>
+
+    <div class="recipe-tools">
+        <div class="fd-site-tools">
+            <dl class="util analytic-box" data-module="bottomRecipeTools">
+                
+                <dt class="submit-a-correction">
+                    <a class="submit-correction link-submit-correction" href="http://www.food.com/recipe/edit.php?rid=219846">
+                        <i class="icon-fdc-edit"></i>
+                        <span class="btn-text">
+                            
+                                Submit a Correction
+                            
+                        </span>
+                    </a>
+                </dt>
+                
+            </dl>
+        </div>
+    </div><!-- .recipe-tools -->
+
+</li>
+
+
+                </ol>
+            </div>
+
+            <div class="hidden-xs hidden-md hidden-lg">
+                
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+            </div>
+
+        </div><!-- .recipe-detail -->
+
+        <aside class="fd-ad hidden-xs hidden-sm">
+            
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+        </aside>
+
+        
+
+
+
+
+    </section>
+
+    <div id="dfp_cartridge"></div>
+
+    
+    <section class="fd-container">
+        <!-- Activity Feed -->
+        
+<a name="activity-feed"></a>
+<div class="fd-af-ad-wrap">
+    <section class="fd-af-container">
+        <div class="fd-af-header">
+            <h3>Join the Conversation</h3>
+            <ul class="fd-af-filters">
+                <li class="af-filter-all active" data-filter="all">all<span></span></li>
+                <li class="af-filter-reviews" data-filter="reviews">reviews<span></span></li>
+                <li class="af-filter-tweaks" data-filter="tweaks">tweaks<span></span></li>
+                <li class="af-filter-questions" data-filter="questions">q &amp; a<span></span></li>
+            </ul>
+        </div>
+        <div class="fd-af-deeplink">
+        </div>
+        
+
+        
+
+        <div class="fd-af-dialog-section ">
+
+            
+
+            <div class="fd-af-dialog" data-recipe-owner="351811"></div>
+
+        </div><!-- .fd-af-dialog -->
+
+        <a name="fd-af-pinned-posts"></a>
+        <div class="fd-af-pinned-posts"></div><!-- .fd-af-pinned-post -->
+
+        
+        <div class="fd-af-sort">
+            <div class="fd-dropdown">
+                <select class="fd-dropdown__select">
+                    <option class="af-sort-recent" value="-time">Recent</option>
+                    <option class="af-sort-popular" value="-like">Popular</option>
+                </select>
+            </div>
+        </div>
+
+        
+        <section class="fd-af"></section>
+
+        
+        
+<div class="modal fade" id="fd-af-attach-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Attach Photo</h4>
+                <p>Would you like to attach a photo to your submission?</p>
+            </div>
+            <div class="modal-body">
+                <ul class="fd-af-attach-cancel-ok">
+                    <li><button class="fd-af-attach-browse" data-su-pick-options='{"multiple": false, "maxFiles": 1}' data-su-asset-meta-data='{ "asset_id" : "219846", "asset_type": "feed-submission", "asset_name": "" }'>Browse</button></li>
+                    <li><button class="btn-cancel" data-dismiss="modal">Cancel</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fd-af-attach-success-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Attach Photo</h4>
+            </div>
+            <div class="modal-body">
+                <p>The image has been attached to your submission.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fd-af-flag-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Report this post?</h4>
+                <p>Are you sure you want to report this post for review?</p>
+            </div>
+            <div class="modal-body">
+                <ul class="fd-af-flag-cancel-ok">
+                    <li><button class="fd-af-flag-ok" data-dismiss="modal">Yes, report it.</button></li>
+                    <li><button class="btn-cancel" data-dismiss="modal">Oops! Cancel!</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fd-af-login-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Log in</h4>
+                <p>You must be logged in to interact with the activity feed.</p>
+            </div>
+            <div class="modal-body">
+                <ul class="fd-af-login-select">
+                    <li><button class="fd-af-login-ok" data-dismiss="modal">Log in now</button></li>
+                    <li><button class="btn-cancel" data-dismiss="modal">Cancel</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fd-af-validate-review-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Missing Input</h4>
+                <p>Please enter a rating or review before submitting.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fd-af-validate-non-review-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Missing <span class="missing-input-type"></span>!</h4>
+                <p>Please enter your <span class="missing-input-type"></span> before submitting.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fd-af-attach-success-comment-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Comment</h4>
+            </div>
+            <div class="modal-body">
+                <p>Your reply has been submitted for moderation.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fd-af-error-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon-fdc-close"></i></span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Oops!</h4>
+                <p>There was an error processing your submission. Please refresh and try again!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section><!-- .fd-af-container -->
+
+    <!-- Bigbox placeholder -->
+    <div class="fd-af-companion-ad hidden-xs hidden-sm">
+        
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+    </div>
+</div><!-- .fd-af-ad-wrap -->
+
+
+
+
+<script type="text/html-template" id="fd-af-dialog">
+    <div class="fd-af-input-container {{= it.type}}{{? (it.type === 'all' || it.type === 'reviews') && it.hasPinnedItems }} hidden{{?}}">
+        <h4>{{= it.title}}</h4>
+        {{? it.type === 'all' || it.type === 'reviews'}}
+        <div class="fd-af-dialog-rating fd-rate-system">
+            <span class="stars-container">
+                <span class="fa star r5" data-rating="5"></span>
+                <span class="fa star r4" data-rating="4"></span>
+                <span class="fa star r3" data-rating="3"></span>
+                <span class="fa star r2" data-rating="2"></span>
+                <span class="fa star r1" data-rating="1"></span>
+            </span>
+        </div>
+        {{?}}
+        <form id="fd-af-form" data-type="{{= it.type}}">
+            <div class="fd-af-user-input-container">
+                <textarea class="fd-af-user-input" form="fd-af-form" placeholder="{{= it.placeholderText}}" name="text"></textarea>
+                <div class="fd-af-user-img-container"></div>
+                <i class="icon-fdc-camera"></i>
+            </div>
+            {{? it.type === 'all'}}
+            <div class="fd-af-tweak-section">
+                <input class="fd-af-tweak-toggle" type="checkbox">
+                <span>Did you tweak this recipe?</span>
+            </div>
+            <textarea class="fd-af-user-input-tweak" placeholder="Tell us in a few words what you tweaked!" name="tweak"></textarea>
+            {{?}}
+            <button class="fd-af-form-submit btn-secondary" type="submit" form="fd-af-form" value="Post"><span>Post</span><div class="fd-spinner"><i class="icon-fdc-loading"></i></div></button>
+        </form>
+    </div>
+</script><!-- #fd-af-dialog => template -->
+
+<script type="text/html-template" id="fd-af-item">
+    <div class="fd-af-item {{= it.type}}_{{= it.id}}" data-item-selector=".{{= it.type}}_{{= it.id}}" data-type="{{= it.type}}">
+        <div class="fd-af-item-header">
+            <div class="fd-af-avatar">
+                <span class="fd-avatar sm"><a target="_blank" href="{{= it.memberProfileUrl }}"><img src="{{= it.memberAvatar}}"></a></span>
+            </div>
+            <div class="fd-af-metadata">
+                <h4 class="fd-af-item-title">{{= it.type}} by <a target="_blank" href="{{= it.memberProfileUrl}}">{{= it.memberName}}</a></h4>
+                <span class="fd-timestamp">{{? it.shareUrl && FD.Page.type === 'RECIPE'}}<a href="{{= it.shareUrl}}">{{= it.submitted}}</a>{{??}}{{= it.submitted}}{{?}}</span>
+            </div>
+
+            <div class="fd-af-menu">
+                {{? it.type !== 'created' && it.type !== 'photo' && !it.selfPost && !it.autoDetected }}
+                <a class="fd-af-menu-toggle" data-id="{{= it.id}}" href="#"><i class="icon-fdc-ellipsis-vertical"></i></a>
+                <ul class="fd-af-menu-items">
+                    <li class="fd-af-flag" data-item-id="{{= it.id}}" data-item-type="{{= it.type}}"><i class="icon-fdc-flag"></i> Report this post</li>
+                </ul>
+                {{?? it.selfPost && !it.autoDetected && it.type !== 'photo'}}
+                <a class="fd-af-edit-post" data-text-target=".{{= it.type}}_{{= it.id}}_text" data-item-id="{{= it.id}}" href="#"><i class="icon-fdc-edit"></i></a>
+                {{?}}
+            </div>
+        </div>
+
+        <div class="fd-af-item-content">
+            {{? it.rating}}
+            <div class="fd-rating" data-rating="{{= it.rating}}">
+                <div class="five-star">
+                    <span class="fd-rating-percent" style="width: {{= it.ratingPercentage}}%;"></span>
+                </div>
+            </div>
+            {{?}}
+
+            {{? it.type !== 'photo'}}
+            <p class="{{= it.type}}_{{= it.id}}_text">{{? it.text}}{{= it.text}}{{?}}</p>
+            {{?}}
+
+            {{? it.photos}}
+            {{~ it.photos :value:index}}
+            <img class="fd-af-image" data-id="{{= value.id}}" src="{{= value.photoUrl}}">
+            {{~}}
+            {{?? it.photoUrl}}
+            <img class="fd-af-image" src="{{= it.photoUrl}}">
+            {{?}}
+        </div>
+        {{? it.moderationStatus === 'approved'}}
+        {{? it.counts}}
+        <div class="fd-af-likes">
+            <a class="af-like{{? it.counts.liked}} liked{{?}}" data-item-id="{{= it.id}}" data-item-type="{{= it.type}}" href="#">
+                <span class="af-like-label">Like</span>
+                <span class="af-like-count">{{? it.counts.like > 0}}{{= it.counts.like}}{{?}}</span>
+            </a>
+        </div>
+        {{?}}
+
+        <div class="fd-af-reply">
+            {{? it.replies && it.replyTotal > 0}}
+            <a class="fd-af-replies-toggle" href="#">
+                <span class="af-like-label">Comments</span>
+                <span class="af-reply-count">{{= it.replyTotal}}</span>
+            </a>
+            {{?? it.type !== 'created'}}
+            <a class="fd-af-leave-reply" data-item-id="{{= it.id}}" data-item-type="{{= it.type}}" href="#">Comment</a>
+            {{?}}
+        </div>
+        {{?}}
+
+        {{? it.replies}}
+        <div class="fd-af-replies" data-toggle="hidden">
+            {{~ it.replies :value:index}}
+            <div id="{{= value.type}}_{{= value.id}}" class="fd-af-user-reply">
+                <span class="fd-avatar xs"><a target="_blank" href="{{= value.memberProfileUrl }}"><img src="{{= value.memberAvatar}}"></a></span>
+                <div class="fd-af-user-reply-wrap">
+                    <div class="fd-af-menu">
+                        <a class="fd-af-menu-toggle" data-id="{{= value.parentId}}" href="#"><i class="icon-fdc-ellipsis-vertical"></i></a>
+                        <ul class="fd-af-menu-items">
+                            <li class="fd-af-flag" data-item-id="{{= value.parentId}}" data-item-type="{{= value.parentType}}" data-reply-id="{{= value.id}}"><i class="icon-fdc-flag"></i> Report this post</li>
+                        </ul>
+                    </div>
+                    <a target="_blank" href="{{= value.memberProfileUrl}}">{{= value.memberName}}</a>
+                    <span class="fd-timestamp">{{= value.submitted}}</span>
+                    <p>{{= value.text}}</p>
+                    <div class="fd-af-likes">
+                        <a class="af-like af-like-reply{{? value.counts.liked}} liked{{?}}" data-item-id="{{= value.parentId}}" data-item-type="{{= value.parentType}}" data-reply-id="{{= value.id}}" href="#">
+                            <span class="af-like-label">Like</span>
+                            <span class="af-like-count">{{? value.counts.like > 0}}{{= value.counts.like}}{{?}}</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {{~}}
+
+            {{? it.loadMoreReplies}}
+            <button class="fd-af-load-more-replies btn-secondary" data-item-id="{{= it.id}}" data-item-type="{{= it.type}}" data-next-page="2">Load More Comments ({{= it.repliesRemaining}})</button>
+            {{?}}
+
+            <div class="fd-af-reply">
+                <a class="fd-af-leave-reply" href="#" data-item-id="{{= it.id}}" data-item-type="{{= it.type}}" title="Comment">Comment</a>
+            </div>
+        </div>
+        {{?}}
+
+        
+    </div>
+</script><!-- #fd-af-item => template -->
+
+<script type="text/html-template" id="fd-af-no-results">
+    <div class="fd-af-no-results">
+        <h4>{{= it.msg}}</h4>
+        <div class="af-icon-wrap">
+            <i class="icon-fdc-lightbulb"></i>
+        </div>
+        <p>Share it with the community!</p>
+    </div>
+</script>
+
+<script type="text/html-template" id="fd-af-load-more">
+    <button class="fd-af-load-more btn-secondary" data-filter="{{= it.type}}">Load More ({{= it.remainingItems}})</button>
+</script>
+
+<script type="text/html-template" id="fd-af-load-more-replies">
+    <button class="fd-af-load-more-replies btn-secondary" data-item-id="{{= it.id}}" data-item-type="{{= it.type}}" data-next-page="{{= it.nextPage}}" data-item-selector=".{{= it.uniqueId}}">Load More Comments ({{= it.repliesRemaining}})</button>
+</script>
+
+<script type="text/html-template" id="fd-af-edit-buttons">
+    <div class="fd-af-edit-actions">
+        <button class="fd-af-edit-btn cancel" data-text-target="textarea.{{= it.editTarget}}">Cancel</button>
+        <button class="fd-af-edit-btn save" data-text-target="textarea.{{= it.editTarget}}"><span>Save</span><div class="fd-spinner"><i class="icon-fdc-loading"></i></div></button>
+    </div>
+</script>
+
+<script type="text/html-template" id="fd-af-reply-template">
+    <div class="fd-af-user-reply {{= it.type}}_{{= it.id}}">
+        <span class="fd-avatar xs"><img src="{{= it.memberAvatar}}"></span>
+        <div class="fd-af-user-reply-wrap">
+            <div class="fd-af-menu">
+                <a class="fd-af-menu-toggle" data-id="{{= it.parentId}}" href="#"><i class="icon-fdc-ellipsis-vertical"></i></a>
+                <ul class="fd-af-menu-items">
+                    <li class="fd-af-flag" data-item-id="{{= it.parentId}}" data-item-type="{{= it.parentType}}" data-reply-id="{{= it.id}}"><i class="icon-fdc-flag"></i> Report this post</li>
+                </ul>
+            </div>
+            <a target="_blank" href="{{= it.memberProfileUrl}}">{{= it.memberName}}</a>
+            <span class="fd-timestamp">{{= it.submitted}}</span>
+            <p>{{= it.text}}</p>
+            <div class="fd-af-likes">
+                <a class="af-like af-like-reply{{? it.counts.liked}} liked{{?}}" data-item-id="{{= it.parentId}}" data-item-type="{{= it.parentType}}" data-reply-id="{{= it.id}}" href="#">
+                    <span class="af-like-label">Like</span>
+                    <span class="af-like-count">{{? it.counts.like > 0}}{{= it.counts.like}}{{?}}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+    </section>
+    
+
+    
+    <section class="js-contributor-tile"
+             data-following="false"
+             data-recipe-owner="351811"
+             data-viewed-by-logged-in-user = "false"
+             data-logged-in-user-id = "null"
+    ></section>
+
+    
+
+    <div class="js-youll-also-love"
+         data-recipe-id="219846">
+    </div>
+
+
+    <!-- modals -->
+    <div class="modal fade" id="219846_nutrition" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content nutrition">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Nutrition Info</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>Serving Size: <span>1 (385 g)</span></p>
+                    <p>Servings Per Recipe: 8</p>
+
+
+                    <dl class="nutrition">
+                        <dt>Amount Per Serving</dt>
+
+                        <dd>% Daily Value</dd>
+                        
+                        <dt class="cals nutrition">Calories <span class="calories">712.3</span>
+                        </dt><dd class="cals"></dd>
+
+                        <dt class="fat-cals nutrition">Calories from Fat 276
+                        </dt><dd class="fat-cals">39%</dd>
+
+                        <dt class="sub nutrition">Total Fat
+                            <span class="fat">30.7</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">47%</dd>
+
+                        <dt class="sub nutrition">Saturated Fat
+                            <span class="saturatedFat">16.9</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">84%</dd>
+
+                        <dt class="nutrition">Cholesterol
+                            <span class="cholesterol">92.2</span>
+                            <span class="type"> mg</span>
+                        </dt><dd>30%</dd>
+
+                        <dt class="nutrition">Sodium
+                            <span class="sodium">367.9</span>
+                            <span class="type"> mg</span>
+                        </dt><dd>15%</dd>
+
+                        <dt class="nutrition">Total Carbohydrate
+                            <span class="carbohydrates">87</span>
+                            <span class="type"> g</span>
+                        </dt><dd>29%</dd>
+
+                        <dt class="sub nutrition">Dietary Fiber
+                            <span class="fiber">5.8</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">23%</dd>
+
+                        <dt class="sub nutrition">Sugars
+                            <span class="fiber">48.8</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">195%</dd>
+
+                        <dt class="last nutrition">Protein
+                            <span class="protein">9.8</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="last">19%</dd>
+                    </dl>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="219846_servings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form name="servingsModForm" action="" onsubmit="if(!$.isNumeric($(document.forms['servingsModForm']['scaleto']).val())) { document.forms['servingsModForm'].reset(); return false; } ">
+                    <input type="hidden" name="mode" value="us"/>
+                    <input type="hidden" name="st" value="true"/>
+
+                    
+
+                    
+
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Serves</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="number" min="1" class="amount" name="scaleto" value="8" data-original="8.0">
+                        <span class="unit"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="219846_yield" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form name="yieldModForm" action="" onsubmit="if(!$.isNumeric($(document.forms['yieldModForm']['scaleto']).val())) {  document.forms['yieldModForm'].reset(); return false; }">
+                    <input type="hidden" name="mode" value="us"/>
+                    <input type="hidden" name="st" value="true"/>
+
+                    
+
+
+                    
+
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Yields</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="number" min="1" class="amount" name="scaleto" value="null">
+                        <span class="unit"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="219846_units" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form action="">
+                    <input type="hidden" name="scaleto" value="8.0"/>
+                    <input type="hidden" name="st" value="null"/>
+
+                    
+
+
+                    
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Units</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="radio" id="r1" class="fa" name="mode" value="us" checked
+><label for="r1">US</label>
+                        <input type="radio" id="r2" class="fa" name="mode" value="metric" ><label for="r2">Metric </label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="social_share_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content share">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <label class="modal-title">Share this recipe:</label>
+                    <h2 class='modal-title'>Chocolate Beer Cake</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group list-group-white list-group-center analytic-box" data-module="modalShareRecipe">
+                        <a class="list-group-item share-recipe social-share" data-network="pinterest" href="#" data-recipe-id="219846"><i class="icon-fdc-pinterest"></i> Pinterest</a>
+                        <a class="list-group-item share-recipe social-share" data-network="facebook" href="#" data-recipe-id="219846"><i class="icon-fdc-facebook"></i> Facebook</a>
+                        <a class="list-group-item share-recipe social-share" data-network="twitter" href="#" data-recipe-id="219846"><i class="icon-fdc-twitter"></i> Twitter</a>
+                        <a class="list-group-item share-recipe social-share" data-network="gplus" href="#" data-recipe-id="219846"><i class="icon-fdc-google"></i> Google+</a>
+                        <a class="list-group-item share-recipe" href="mailto:?subject=Food.com for Chocolate Beer Cake&body=Here%27s a recipe for Chocolate Beer Cake from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fchocolate-beer-cake-219846%3Fnl%3Demail_share"><i class="icon-fdc-email"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="219846_socialupload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content share">
+                <div class="modal-header">
+                    <h4 class="modal-title">Saving Photo...</h4>
+                </div>
+                <div class="modal-body">
+                    <i class="icon-fdc-loading fa-spin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade modal-content-collapse fd-timed-modal" id="modal_sharetimer" tabindex="-1" role="dialog" aria-labelledby="modal_cookedthis" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-fdc-close"></i><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Like what you see here?</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#" class="rb-open" data-recipe-id="219846" title="Add to Recipe Box" onClick="$('#modal_sharetimer').modal('hide');">Save to Recipe Box</a></li>
+                        <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#social_share_modal" data-popup-id="#social_share_modal" title="Share" onClick="$('#modal_sharetimer').modal('hide');">Tell a Friend</a></li>
+                    </ul>
+                    <div class="fd-newsletter-signup">
+                        <h5>Get Our Daily Dinner Newsletter</h5>
+                        <div class="fd-email-signup">
+                            <input class="fd-email-input" type="email" placeholder="your@email.com">
+                            <span class="invalid-email-message">Please enter a valid email address.</span>
+                            <button class="btn btn-emphasis fd-email-signup-submit">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal_recipebox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content share">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Add to Recipe Box</h4>
+        <p>Please select a folder</p>
+      </div>
+      <div class="modal-body">
+
+        <div class="loading">
+            <i class="icon-fdc-loading fa-spin"></i>
+        </div>
+
+        <div class="list-group list-hide"></div>
+
+        <input type="text" class="amount folder-name" name="folder-name" value="" placeholder="Add a New Folder">
+        <span class="unit unit-bottom"><a href="#" class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="">+</a></span>
+
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /modals -->
+
+    
+</article>
+
+
+
+
+<script>
+    FD.subscribe( 'sales.widget.code.loaded' , function() {
+        FD.Page.Recipe.initSalesWidget( '219846' , 'http://www.food.com' );
+    });
+</script>
+
+
+
+
+
+
+
+<script type="text/html-template" id="stream-message">
+
+    <section class="cards-wrap stream-message" data-type="{{=it.type}}">
+        <div class="cards-inner">
+            <div class="fd-card">
+                <div class="fd-card-content">
+                    <div class="fd-card-info">
+                        <div class="dfp-bigbox-inner">
+                            <div class="dfp-ad-wrap">
+                                <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+                            </div>
+                        </div>
+                        <h2 class="fd-card-title">
+                            {{? it.iconClass }}
+                            <i class="{{=it.iconClass}}"></i>
+                            {{?}}
+                            {{=it.text}}
+                        </h2>
+                    </div>
+                </div>
+                <div class="dfp-bigbox-outer">
+                    <div class="dfp-ad-wrap">
+                        <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</script>
+
+
+
+<script type="text/html-template" id="collection">
+
+    <section id="scc-{{=it.sccId}}" data-scc-id="{{=it.sccId}}" data-seo-url="{{=it.seoUrl}}" class="cards-wrap" style="background-image: url('{{=it.blurImageUrl}}'); background-size: cover;">
+
+
+        <div class="vid-heading">
+            <video class="vid-autoplay" autoplay="" muted="true" loop="">
+              <source src="{{=it.videoBgUrl}}" type="video/mp4">
+            </video>
+        </div>
+
+
+        <header>
+            <div class="fd-share-tools">
+                <a class="global-share pinterest-round" data-network="pinterest">
+                    <i class="icon-fdc-pinterest"></i>
+                </a>
+                <a class="global-share facebook-round" data-network="facebook">
+                    <i class="icon-fdc-facebook"></i>
+                </a>
+                <a class="global-share email-round" data-network="send-email">
+                    <i class="icon-fdc-email"></i>
+                </a>
+            </div>
+
+            <div class="fd-bg-gradient" style=""></div>
+
+            <div class="collection-tier-1-heading">
+                <h1 class="collection-tier-1-title">{{=it.title}}</h1>
+
+
+        <div class="dfp-sponsor-container">
+            <div class="dfp dfp-sponsor-ad" data-dfp-type="dfp_sponsor"></div>
+        </div>
+
+                <p class="collection-tier-1-description">{{=it.description}}</p>
+            </div>
+
+            {{? it.parentCollectionUrl }}
+            <p class="collection-tier-1-breadcrumb"><i class="icon-fdc-arrow-left"></i><span class="parent-label">Part of:</span>&nbsp;<a class="parent-collection" href="{{=it.parentCollectionUrl}}">{{it.parentCollectionName}}</a></p>
+            {{?}}
+
+        </header>
+
+        <div class="cards-inner"></div>
+    </section>
+
+</script>
+
+
+
+<script type="text/html-template" id="card" data-type-id="900003">
+
+    <div class="tier-1-card fd-card {{=it.type}}" id="card-{{=it.cardRefId}}" data-id="{{=it.cardRefId}}" data-seo-url="{{=it.seoUrl}}" data-url="{{=it.assetUrl}}">
+        <div class="fd-card-content">
+            <div class="fd-card-img-shell {{=it.photoClass}}">
+                <div class="fd-card-img-wrapper">
+                    {{~ it.photos :photoUrl }}
+                    <div class="inner-wrapper">
+                        <img class="fd-card-image" data-src="{{=photoUrl}}">
+                    </div>
+                    {{~}}
+                </div>
+            </div>
+            <div class="fd-card-info">
+                <h2 class="fd-card-title">{{=it.title}}</h2>
+                <p class="fd-card-description">{{=it.description}}</p>
+                <a href="{{=it.url}}" class="btn btn-over-dark-alt">{{=it.photoUserName}}</a>
+            </div>
+        </div>
+    </div><!-- .fd-card -->
+
+</script>
+
+
+<script type="text/html-template" id="nav-items" data-type-id="900001">
+
+    <section class="tier-1-nav">
+        <div class="fd-flexbox-wrap">
+            <div class="fd-flexbox">
+        {{~ it.listItems :item}}
+                <div class="tier-1-nav-item fd-flexbox-item" data-url="{{=item.url}}">
+                    <div class="content">
+                        <strong><a class="over-dark" href="{{=item.url}}">{{=item.title}}</a></strong>
+                    </div>
+                </div>
+        {{~}}
+                <div class="tier-1-nav-item fd-flexbox-item">
+                    <div class="content">
+                        <strong>&nbsp; &nbsp;</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-left">
+            <a class="icon-fdc icon-fdc-arrow-left"></a>
+        </div>
+        <div class="nav-right">
+            <a class="icon-fdc icon-fdc-arrow-right"></a>
+        </div>
+    </section>
+
+</script>
+
+
+<script type="text/html-template" id="featured" data-type-id="900002">
+
+    <div class="fd-card fd-card-featured tier-item-container" id="card-{{=it.cardRefId}}" data-id="{{=it.cardRefId}}" data-seo-url="{{=it.seoUrl}}">
+
+        <div class="fd-card-featured-content" >
+
+            <div class="fd-card-img-shell">
+                <div class="img-overlay"></div>
+                <div class="fd-card-img-wrapper">
+                    <div class="inner-wrapper">
+                        <img class="fd-card-image" data-src="{{=it.imageUrl}}" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="fd-flexbox">
+                <div class="fd-card-main">
+                    <div class="fd-card-info">
+                        <h2 class="fd-card-title">{{=it.title}}</h2>
+                        <p class="fd-card-description">{{=it.description}}</p>
+                    </div>
+                </div>
+                <div class="fd-card-aside">
+                    <div class="fd-flexbox">
+                    {{~it.listItems :item}}
+                        <div class="fd-card-aside-item" data-url="{{=item.seoUrl}}">
+                            <div class="img-overlay">&nbsp;</div>
+                            <div class="fd-card-img-shell">
+                                <div class="fd-card-img-wrapper">
+                                    <div class="inner-wrapper">
+                                        <a href="{{=item.seoUrl}}">
+                                            <img class="fd-card-image" data-src="{{=item.photoUrl}}">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fd-card-aside-item-info">
+                                <h4 class="fd-card-title"><a class="over-dark" href="{{=item.seoUrl}}">{{=item.title}}</a></h4>
+                            </div>
+                        </div>
+                    {{~}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- .fd-card -->
+
+</script>
+
+
+
+
+<script type="text/html-template" class="tile-recipe">
+
+        <div class="fd-tile fd-recipe {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-ribbon">
+                    <div class="fd-ribbon-tail tail-white"></div>
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userUrl}}"><img data-src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="meta-data">
+                            <div class="fd-rating">
+                                <div class="five-star">
+                                    <span class="fd-rating-percent" style="width:{{=it.percentRating}};"></span>
+                                </div>
+                                <span>({{=it.totalRatings}})</span>
+                            </div>
+                            <div class="cook-time"><i class='icon-fdc-clock'></i> {{=it.totalTime}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="{{=it.title}}" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-topic">
+
+        <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+                <ul class="related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-list">
+
+        <div class="fd-tile fd-list" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                    </div>
+                </div>
+                <ul class="topics related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-photo">
+
+        <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-review">
+
+    <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <h5><a href="{{=it.url}}">{{=it.title}}</a></h5>
+        <div class="fd-rating">
+            <div class="five-star">
+                <span class="fd-rating-percent" style="width: {{=it.rating}}"></span>
+
+                <p style="display: none;" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                    <meta itemprop="worstRating" content = "1"/>
+                    <span itemprop="ratingValue" style="display:none"></span>
+                    <span itemprop="bestRating" style="display:none">5</span>
+                </p>
+
+            </div>
+        </div>
+        <small class="date">{{=it.date}}</small>
+        <p itemprop="description">{{=it.review}}</p>
+    </article>
+
+</script>
+
+<script type="text/html-template" class="tile-collection tile-gallery">
+
+        <div class="fd-tile fd-gallery {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-video">
+
+        <div class="fd-tile fd-video {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="sponsored" style="display: none;">
+                    <span class="sr-only">Sponsored by {{=it.sponsor}}</span>
+                    {{=it.sponsor}}
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">Video</span>
+                        Video
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</h2>
+                        <div class="author">
+                            <span class="name">By <a href="http://www.food.com/user/{{=it.userId}}">{{=it.displayName}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-sponsor">
+
+
+</script>
+
+<script type="text/html-template" class="tile-ingredient">
+
+        <div class="fd-tile fd-ingredient {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-user">
+
+        <div class="fd-tile fd-user {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.blurPhotoUrl}}" data-blur="1000" data-target=".fd-img-wrap" data-quality="92" alt="{{=it.displayName}}">
+                </div>
+                <div class="tile-content">
+                    <div class="author">
+                        <span class="avatar">
+                            <a href="{{=it.url}}"><img data-src="{{=it.userAvatarUrl}}"></a>
+                        </span>
+                        <span class="name"><a href="{{=it.url}}">{{=it.displayName}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tmpl-metadata">
+    <span class="asset-count ">{{=it.itemCount}} {{=it.itemType}}</span>
+</script>
+
+<script type="text/html-template" class="tile-howto">
+
+        <div class="fd-tile fd-how-to {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-article">
+
+        <div class="fd-tile fd-article {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-editorial">
+
+    {{=it.html}}
+
+</script>
+
+<script type="text/html-template" class="tile-editorial2">
+
+        <div class="fd-tile fd-editorial fd-tile-cta {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="description">{{=it.description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-tile-footer">
+                <button>Create an Account</button>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-rb-recipe">
+
+        <div class="fd-tile fd-recipe {{=it.noPhoto}} {{=it.noUser}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}" alt="{{=it.title}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userUrl}}"><img data-src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="authorNoLink"><span class="name">By {{=it.displayName}}</span></div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-error">
+
+        <div class="fd-tile fd-error {{=it.noPhoto}}" data-id="{{=it.type}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                        <p class="description">{{=it.description}}</p>
+                        <div class="cta">
+                            <div class="asset-count"><i class="icon-fdc-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+
+
+
+<script type="text/html-template" id="tile-galleryphototile" data-type-id="">
+    <div class="gallery-tile-container">
+        <div class="gallery-tile" data-id="{{=it.photoId}}" data-share-url="{{? it.shareUrl}}{{=it.shareUrl}}{{?}}">
+            <div class="gallery-photo">
+                <div class="gallery-img-wrapper">
+                    {{? it.hideEditIcon != true}}
+                        <a href="{{=it.editPhotoUrl}}"
+                           data-clicktrack="true">
+                            <i class="edit-recipe icon-fdc-edit"
+                               title="Edit Photo">
+                            </i>
+                        </a>
+                    {{?}}
+                        <img class="gallery-img"
+                             data-src="{{=it.photoUrl}}"
+                             data-target=".gallery-photo"
+                             data-crop-mode="fit" alt="">
+
+                    {{? !it.isPrivate}}
+                        <div class="global-share fd-share-tools analytic-box" data-module="recipe-gallery-card-share">
+                            <a class="pinterest-round-white"
+                               data-clicktrack="true"
+                               data-network="pinterest"
+                               data-img-url="{{=it.photoUrl}}"
+                               data-seo-url="{{=it.shareUrl}}"
+                               title="Share on pinterest">
+                                <i class="icon-fdc-pinterest social-share" title="Share on Pinterest"></i>
+                            </a>
+                        </div>
+                    {{?}}
+                </div>
+            </div>
+
+            <div class="gallery-photo-caption">
+                <div class="gallery-photo-avatar">
+                        <span class="fd-avatar sm">
+                            <a href="{{=it.memberProfileUrl}}"><img data-src="{{=it.memberAvatar}}"></a>
+                        </span>
+                </div>
+                <span class="gallery-photo-text">
+                            <h4 class="gallery-photo-credit">Photo of {{=it.recipeTitle}} by&nbsp;<a href="{{=it.memberProfileUrl}}">{{=it.memberName}}</a></h4>
+                            {{? it.text }}
+                                <div class="gallery-photo-description">
+                                    <p class="js-photo-description">&ldquo;{{=it.text}}&rdquo;</p>
+                                </div>
+                            {{?}}
+                            {{? !it.isPrivate}}
+                            <div class="gallery-like">
+                                <a class="af-like {{? it.liked}} liked{{?}}" data-item-id="{{=it.photoId}}" data-item-type="{{=it.likeItemType}}" href="#">
+                                <span class="af-like-label">Like</span>
+                                <span class="af-like-count">{{? it.likeCount > 0}}{{= it.likeCount}}{{?}}</span> </a>
+                            </div>
+                            {{?}}
+                        </span>
+            </div>
+        </div>
+        {{=it.tailHtml}}
+    </div>
+</script>
+
+<script type="text/html-template" id="tile-galleryvideotile" data-type-id="">
+    <div class="gallery-tile-container">
+        <div class="gallery-tile video-tile" data-share-url="{{? it.shareUrl}}{{=it.shareUrl}}{{?}}">
+            <div class="gallery-photo video-stop-frame">
+                <div class="gallery-img-wrapper">
+                    <a class="gallery-video-link" href="{{=it.videoUrl}}">
+                        <div class="img-overlay"></div>
+                        <i class="icon-fdc-play over-img"></i>
+                        <img class="gallery-img video-img"
+                             data-src="{{=it.photoUrl}}"
+                             data-target=".gallery-photo"
+                             data-crop-mode="fit" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-photo-caption">
+                <span class="gallery-photo-text">
+                    <h6 class="gallery-photo-credit">RELATED VIDEO</h6>
+                    <div class="gallery-photo-description">
+                        <a class="gallery-video-title" href="{{=it.videoUrl}}" >{{=it.text}}</a>
+                    </div>
+                </span>
+            </div>
+        </div>
+        {{=it.tailHtml}}
+    </div>
+</script>
+
+<script type="text/html-template" id="dot-ads-to-md">
+    <div class="fd-card dfp-bigbox-sm">
+        <div class="fd-ad-card-inner">
+            <div class="dfp-ad-wrap">
+                <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+                <span class="ad-label">Advertisement</span>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html-template" id="dot-ads-from-md">
+    <div class="dfp-bigbox-outer" data-use-relative-position="true">
+        <div class="dfp-ad-wrap">
+            <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+            <span class="ad-label">Advertisement</span>
+        </div>
+    </div>
+</script>
+
+<script type="text/html-template" id="tile-contributorinfo">
+    <section class="js-contributor-tile recipe-contributor">
+        <!-- Contributor Status-->
+        <div class="content-outer-wrapper">
+            <div class="contributor-header">
+                <h4 class="fd-container">Recipe made with love by</h4>
+            </div>
+            <div class="contributor-info fd-container analytic-box" data-module="contributorInfo">
+                <div class="author">
+                    <div class="outer-wrapper">
+                        <div class="inner-wrapper">
+                            <a href="{{=it.profileUrl}}">
+                                <span class="fd-avatar masked lg">
+                                    <img data-src="{{=it.avatarUrl}}"
+                                         data-default="http://img.sndimg.com/food/image/upload/q_92,fl_progressive/l_quote-mask-x10_pit7fn,fl_cutter.relative,w_1.0,h_1.0/v1/fdc/img/placeholder/avatar.png"
+                                         data-target=".fd-avatar"
+                                         data-crop-mode="fill">
+                                </span>
+                            </a>
+                            <div class="author-info">
+                                {{? it.viewedByRecipeOwner}}
+                                <label class="fd-label js-follow-status" >(This is you!)</label>
+                                {{?}}
+                                <a href="{{=it.profileUrl}}" class="user-display-name">{{=it.memberName}}</a>
+                                <div class="user-status">{{? it.userStatus}}{{=it.userStatus}}{{?}}</div>
+                            </div>
+                        </div>
+                        {{? !it.viewedByRecipeOwner }}
+                        <div class="fd-spinner js-busy-animation" style="display: none">
+                            <i class="icon-fdc-loading"></i>
+                        </div>
+                        <button name="follow/unfollow" class="hidden-xs follow-btn js-btn">{{=it.bntCaption}}</button>
+                        {{?}}
+                    </div>
+                </div>
+                <div class="contributions">
+                    <h4>Contributions</h4>
+                    <div class="fd-list-table">
+                        <ul>
+                            <li id="stats-recipes">
+                                <a href="{{=it.profileUrl}}#recipes">
+                                    <h6>Recipes</h6>
+                                    <div class="data">
+                                        <span class="count">{{=it.recipesCount}}</span>
+                                    </div>
+                                </a>
+                            </li>
+                            {{? it.tweaksCount > 0}}
+                            <li id="stats-tweaks">
+                                <a href="{{=it.profileUrl}}">
+                                    <h6>Tweaks</h6>
+                                    <div class="data">
+                                        <span class="count">{{=it.tweaksCount}}</span>
+                                    </div>
+                                </a>
+                            </li>
+                            {{?}}
+                            {{? it.photosCount > 0}}
+                            <li id="stats-photos">
+                                <a href="{{=it.profileUrl}}#photos">
+                                    <h6>Photos</h6>
+                                    <div class="data">
+                                        <span class="count">{{=it.photosCount}}</span>
+                                    </div>
+                                </a>
+                            </li>
+                            {{?}}
+                        </ul>
+                    </div>
+                </div>
+                {{? !it.viewedByRecipeOwner }}
+                <div class="fd-spinner js-busy-animation" style="display: none">
+                    <i class="icon-fdc-loading"></i>
+                </div>
+                <button class="hidden-sm hidden-md hidden-lg follow-btn js-btn">{{=it.bntCaption}}</button>
+                {{?}}
+            </div>
+        </div>
+    </section>
+</script>
+
+<script type="text/html-template" id="tile-relevantcontent">
+    <section class="youll-love">
+        <div class="fd-container">
+            <h3>You'll Also Love</h3>
+            <div class="tiles-container js-relevant-tiles-container">
+
+            </div>
+        </div>
+    </section>
+</script>
+<script type="text/html-template" id="tile-relevantcontentitem">
+    <div class="tile">
+        <a href="{{=it.url}}" target="_blank">
+            <div class="content-container">
+                <div class="img-wrapper">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img class="tile-img" data-src="{{=it.photo}}" alt="{{=it.title}}" data-target=".img-wrapper">
+                    {{? it.showPlayIcon}}
+                    <div class="fd-play-icon">
+                        <i class="icon-fdc-play over-img"></i>
+                    </div>
+                    {{?}}
+                </div>
+                <div class="description">
+                    <h5>{{=it.title}}</h5>
+                    <span class="meta"> {{? it.meta}}{{=it.meta}}{{?}}</span>
+                </div>
+            </div>
+        </a>
+    </div>
+</script>
+
+    </div>
+
+    <div class="fd-overlay"></div>
+
+     
+
+
+ 
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+
+<script type="text/javascript" src="http://img.food.com/fd/v2/js/core-recipe.min.js?v=114" ></script>
+<script type="text/javascript" src="http://www.player.video.snidigital.com/vpc/1/6/js/sni-video.min.js" ></script>
+
+
+<script type="text/javascript">
+//$(function () {
+!function(a){a(function(){log("...DOM Ready (Gigya Events"),FD.subscribe("fd.session.loginVerified",function(){log("...login verified"),setTimeout(function(){if(FD.Page.loginRedirectUrl){var a=new FD.Url(FD.Page.loginRedirectUrl);a.hash="",window.location.href=a.toString()}else window.location.reload()},200)}),FD.subscribe("fd.session.logoutVerified",function(){log("...login verified"),setTimeout(function(){window.location.reload()},200)})})}(jQuery);
+
+// DTM
+if(typeof _satellite != 'undefined') {_satellite.pageBottom();}
+
+// adds the CTI library to the page
+(function (d) {var h;var s = d.createElement('script');s.type = 'text/javascript';s.async = true;s.src = FD.Config.ctiURL;h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(document);
+
+// set Omniture parameters
+if (!SNI.Omniture) { SNI.Omniture = {}; }
+SNI.Omniture.pageType = FD.Config.MetaData.pageType;
+if(typeof SniAds === "object") { SniAdsConfig.adSlots[0].mapping.small = [300,250]; SniAdsConfig.adSlots[0].mapping.medium = [300,250]; }
+try { if(typeof SniAds === "object") SniAds.init({ breakpoints: FD.viewports.getSniAdBreakpoints() }); } catch(e) { log('=== SNI Ad Library Error! ==='); log(e); }
+$(function() {FD.Page.Recipe.init({id: '219846',url: 'http://www.food.com/recipe/chocolate-beer-cake-219846',public: true,mdManager: {"adkey1":"KID_FRIENDLY","adkey2":"","CategoryDspName":"RECIPES","Classification":"RECIPES,RECIPES,FOODCOM","ingredients":"baking powder,bicarbonate of soda,butter,cocoa powder,dark brown sugar,dark chocolate,eggs,icing sugar,plain flour,stout beer,walnut halves,walnut pieces","keywordids":"9,12,13,14,15,16,17,21,29,87,109,156,161,173,191,252,263,275,348,445","keywords":"60_minutes_or_less,time_to_make,course,main_ingredient,cuisine,preparation,occasion,north_american,low_protein,desserts,american,dinner_party,kid_friendly,cakes,chocolate,dietary,low_sodium,cake_fillings_and_frostings,low_in_something,brunch","SctnDspName":"RECIPES","Site":"FOODCOM","Sponsorship":"FC_STPATRICKS","type":"RECIPE","UniqueId":"1-219846-MAIN","Subdomain":"","Url":"http://www.food.com/recipe/chocolate-beer-cake-219846","Title":"Chocolate Beer Cake Recipe - Food.com","PrepTime":"15","Version":"beta","Site Tier":"direct","OrigPubDate":"2007-03-30|2017-02-10","TopRecipe":"false","DeliveryChannel":"(FD && FD.viewports && FD.viewports.viewport().label) || null"},share: {imageUrl: 'http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/21/98/46/obtPrzGdS6i6dk5WCh7l_beer%20chocolate%20cake%20(4%20of%204).jpg',title: 'Chocolate Beer Cake'},nextRecipe: {id: '0',url: ''},author: {avatarUrl: 'http://img.sndimg.com/food/image/upload/q_92/v1/food_avatar/5595303/9AoLm9BcRMipeQqhUAGb_IMG_3458.JPG',name: 'Vseward Chef-V',url: 'http://www.food.com/user/351811'},}, false);});
+  
+//});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="share_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <label class="modal-title">Share:</label>
+                <h2 class='modal-title'>Food.com</h2>
+            </div>
+            <div class="modal-body">
+                <div class="list-group list-group-white list-group-center">
+                    <a class="list-group-item social-share" data-network="pinterest" href="#"><i class="icon-fdc-pinterest"></i> Pinterest</a>
+                    <a class="list-group-item social-share" data-network="facebook" href="#"><i class="icon-fdc-facebook"></i> Facebook</a>
+                    <a class="list-group-item social-share" data-network="twitter" href="#"><i class="icon-fdc-twitter"></i> Twitter</a>
+                    <a class="list-group-item social-share" data-network="gplus" href="#"><i class="icon-fdc-google"></i> Google+</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- New DFP Ad Slots -->
+<div id='dfp_utility1'></div>
+<div id='dfp_utility2'></div>
+
+<div class="modal fade" id="modal_recipebox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content share">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Add to Recipe Box</h4>
+        <p>Please select a folder</p>
+      </div>
+      <div class="modal-body">
+
+        <div class="loading">
+            <i class="icon-fdc-loading fa-spin"></i>
+        </div>
+
+        <div class="list-group list-hide"></div>
+
+        <input type="text" class="amount folder-name" name="folder-name" value="" placeholder="Add a New Folder">
+        <span class="unit unit-bottom"><a href="#" class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="">+</a></span>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- menus -->
+
+    <div class="fd-menus">
+
+        <!-- SITE MENU -->
+        <section class="fd-menu fd-menu-site" id="fd-menu-main">
+            <div class="fd-menu-inner">
+                <div class="fd-menu-toolbar">
+                    <button class="btn fd-menu-close btn-over-dark">
+                        <i class="icon-fdc-arrow-left"></i>
+                        <span>back</span>
+                    </button>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="navbar-lead">
+                        <a href="http://www.food.com/ideas/quick-and-easy-spring-dinners-6553" data-clicktrack="true">
+                            <div class="asset-label">Featured</div>
+                            <div class="asset-feature">16 Quick & Easy Spring Dinners</div>
+                        </a>
+                    </li>
+                    <li><a href="http://www.food.com" data-clicktrack="true">Home</a></li>
+                    <li><a href="http://www.food.com/recipe" data-clicktrack="true">Recipes</a></li>
+                    <li><a href="http://www.food.com/photo-gallery" data-clicktrack="true">Photo Galleries</a></li>
+                    <li><a href="http://www.food.com/videos/all-videos-20" data-clicktrack="true">Videos</a></li>
+                    <li><a href="http://www.food.com/how-to" data-clicktrack="true">How-Tos</a></li>
+                    <li><a href="http://www.food.com/topics" data-clicktrack="true">All Categories</a></li>
+                    <li class="navbar-footer">
+                        <div class="asset-label more-food">
+                            More Food.com
+                        </div>
+                        <ul>
+                            <li><a href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER" data-clicktrack="true">Newsletters</a></li>
+                            <li><a href="http://www.food.com/how-to/about-us-31" data-clicktrack="true">About Us</a></li>
+                            <li><a href="http://www.food.com/html-sitemap">Site Map</a></li>
+                            <li><a href="http://www.food.com/feedback" data-clicktrack="true">Contact Us</a></li>
+                        </ul>
+                        <div class="fd-navbar-tools">
+                                <dl>
+                                    <dd>
+                                        <a class="icon-fdc-facebook" href="http://www.facebook.com/Food.com" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-pinterest" href="http://pinterest.com/fooddotcom/" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-twitter" href="https://twitter.com/fooddotcom" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-google" href="https://plus.google.com/117908044835237955765/posts" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-instagram" href="http://instagram.com/fooddotcom" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-email" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER"></a>
+                                    </dd>
+                                </dl>
+                        </div>
+                        <div class="fd-legal">
+                            <p>
+                                <span class="fns">Food Network Sites</span>
+                                &copy; 2017  <a href="http://www.scrippsnetworks.com" rel="Scripps Networks" data-clicktrack="true">Scripps Networks</a>, LLC.<br/>
+                                All Rights Reserved.
+                            </p>
+                            <ul>
+                                <li><a href="http://www.scrippsnetworksdigital.com" data-clicktrack="true" target="_blank">Advertise With Us</a></li>
+                                <li><a id="_bapw-link" href="http://info.evidon.com/pub_info/1212?v=1&nt=1&nw=false" target="_blank" data-clicktrack="true"><img id="_bapw-icon" src="http://c.betrad.com/pub/icon1.png"><span>AdChoices</span></a></li>
+                                <li><a href="http://www.scrippsnetworks.com/privacy.aspx" target="_blank" data-clicktrack="true">Privacy Policy</a></li>
+                                <li><a href="http://www.scrippsnetworks.com/terms.aspx" target="_blank" rel="gf-legal-1" data-clicktrack="true">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ./SITE MENU -->
+
+        <!-- USER MENU -->
+        <section class="fd-menu fd-menu-right" id="fd-menu-auth">
+            <div class="fd-menu-inner">
+                <div class="fd-menu-toolbar">
+                    <button class="btn fd-menu-close btn-over-dark">
+                        <i class="icon-fdc-arrow-left"></i>
+                        <span>back</span>
+                    </button>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="navbar-lead fd-menu-greeting">
+                        <a href="http://www.food.com/user/">Hi, [user greeting]</a>
+                    </li>
+                    <li><a href="http://www.food.com/user/">Profile</a></li>
+                    <li><a href="http://recipes.food.com">Recipe Box</a></li>
+                    <li><a href="http://recipes.food.com/shopping-list">Grocery List</a></li>
+                    <li><a class="hidden-xs" href="http://www.food.com/mail">Inbox</a></li>
+                    <li><a href="http://www.food.com/upload/recipe">Add a Recipe</a></li>
+                    <li><a href="http://www.food.com/user/settings">Account Settings</a></li>
+                    <li><a class="sso-logout" href="http://share.food.com/redirectors/logout_redirector.jsp?DEST_URL=">Log Out</a></li>
+                    <li class="fd-no-session sso-login"><a href="http://www.food.com/login?DEST_URL=">Log In</a></li>
+                    <li class="fd-no-session sso-sign-up"><a href="http://www.food.com/login?DEST_URL=">Sign Up</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- ./USER MENU -->
+
+        <!-- USER LOGIN MENU -->
+        <section class="fd-menu fd-menu-right" id="fd-menu-noauth">
+            <div class="fd-menu-inner">
+                <div class="fd-menu-toolbar">
+                    <button class="btn fd-menu-close btn-over-dark">
+                        <i class="icon-fdc-arrow-left"></i>
+                        <span>back</span>
+                    </button>
+                </div>
+                <ul class="nav navbar-nav">
+                    
+                    <li class="fd-no-session fd-sso-item">
+                        <a href="/login?dest" class="sso-login">Log&nbsp;In</a>
+                    </li>
+                    <li class="fd-no-session fd-sso-item">
+                        <a href="/signup?dest" class="sso-sign-up">Sign&nbsp;Up</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </section>
+        <!-- ./USER LOGIN MENU -->
+
+        <!-- SEARCH MODULE -->
+        <section class="fd-menu" id="fd-menu-search">
+            <div class="fd-menu-inner">
+                <div class="search-panel">
+                    <div class="fd-container fd-menu-toolbar">
+                        <button class="btn fd-menu-close btn-over-dark">
+                            <i class="icon-fdc-arrow-left"></i>
+                            <span>back</span>
+                        </button>
+                    </div>
+                    <div class="fd-container search-box-spacer">
+                        <div class="search-box">
+                            <div class="search-box-wrap">
+                                <div class="search-items-content search-box-content">
+                                    <div class="search-items search-box-items">
+                                        <ul class="search-items-list">
+                                            <li class="inputItem">
+                                                <input type="text" id="search-input" placeholder="Find a recipe" />
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="search-tools">
+                                    <button type="button" class="search-box-clear" tabindex="-1">
+                                        <span>clear</span>
+                                        <i class="icon-fdc-close" title="Clear All Items"></i>
+                                    </button>
+                                    <div class="btn btn-icon search-button">
+                                        <i class="icon-fdc-search" title="Find a Recipe"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fd-container search-menu-content">
+                        <div class="search-items-content search-filter-content hidden" id="search-filters" data-has-context="1" data-list-name="filter by">
+                            <div class="search-items search-filter-items">
+                                <ul class="search-items-list search-filter-items-list"></ul>
+                            </div>
+                        </div>
+                        <div class="search-items-content search-suggest-content hidden" id="search-related" data-has-context="0" data-list-name="related searches">
+                            <div class="search-items search-suggest-items">
+                                <ul class="search-items-list search-suggest-items-list"></ul>
+                            </div>
+                        </div>
+                        <div class="search-items-content search-popular-content hidden" id="search-trending" data-has-context="0" data-list-name="trending">
+                            <div class="search-items search-popular-items">
+                                <ul class="search-items-list search-popular-items-list"></ul>
+                            </div>
+                        </div>
+                        <div class="search-items-content search-previous-content hidden" id="search-previous" data-has-context="0" data-list-name="your-recent-searches">
+                            <div class="search-items search-previous-items">
+                                <ul class="search-items-list search-previous-items-list"></ul>
+                            </div>
+                        </div>
+                        <div class="search-items-content search-recipe-content hidden" id="search-recipes" data-has-context="0" data-list-name="recently viewed">
+                            <div class="search-items search-recipe-items">
+                                <ul class="search-items-list search-recipe-items-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid search-module-results">
+                    <header>
+                        <div class="search-results-heading"></div>
+                        <div class="combo magic-buttons">
+                            <select>
+                                <option data-sort="recommended" selected="selected">Recommended</option>
+                                <option data-sort="mostPopular">Popular</option>
+                                <option data-sort="quickAndEasy">Quick &amp; Easy</option>
+                                <option data-sort="healthy">Healthy</option>
+                            </select>
+                            <ul>
+                                <li class="hover" data-sort="recommend">Recommended</li>
+                                <li data-sort="mostPopular">Most Popular</li>
+                                <li data-sort="quickAndEasy">Quick &amp; Easy</li>
+                                <li data-sort="healthy">Healthy</li>
+                            </ul>
+                        </div>
+                    </header>
+                    <div class="search-results fd-container content-stream"></div>
+                </div>
+            </div>
+            <div class="search-autosuggest drop-list" style="display: none; ">
+                <ul class="search-suggest-list"></ul>
+            </div>
+        </section>
+        <!-- ./SEARCH MODULE -->
+
+        <!-- STICKY SHARE MODULE -->
+        <section class="fd-menu" id="sticky-share-module" style="display: none;">
+            <div class="fd-menu-inner">
+                <div class="fd-share-tools global-share">
+                    <a class="pinterest social-share" href="" data-network="pinterest" data-clicktrack="true"><i class="icon-fdc-pinterest"></i></a>
+                    <a class="facebook social-share" href="" data-network="facebook" data-clicktrack="true"><i class="icon-fdc-facebook"></i></a>
+                    <a class="email social-share" href="mailto:?subject=&body=" data-network="sendEmail" data-popup-id="#email" title="Share via Email" data-clicktrack="true"><i class="icon-fdc-email" title="Email"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- ./STICKY SHARE MODULE -->
+
+    </div>
+    <script type="text/html-template" class="autosuggest-template" id="autosuggestItem">
+    {{? !it.url }}
+        <li>{{=it.title}}</li>
+    {{?}}
+    {{? it.url }}
+        <li class="autosuggest-asset {{=(it.hasLabel ? 'label' : '')}}" title="{{=it.title}}" data-record-type="{{=it.record_type}}" data-url="{{=it.url}}">
+            <a href="{{=it.url}}?ic1=suggestedAsset|{{=it.searchTerm}}" tabindex="-1">
+                {{=it.title}}
+                <div class="item-photo">
+                    <div class="item-photo-wrap">
+                        <img src="{{=it.photoUrl || 'http://img.food.com/fdc/img/FDC_share-logo.png'}}" alt="{{=it.title}}" data-crop-mode="fill" data-target=".item-photo" />
+                    </div>
+                </div>
+            </a>
+        </li>
+    {{?}}
+    </script>
+
+    <!-- ./menus -->
+
+
+
+
+
+
+
+<script type="text/html-template" class="tile-template" id="tile-recipe">
+
+        <div class="fd-tile fd-recipe {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-ribbon">
+                    <div class="fd-ribbon-tail tail-white"></div>
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="meta-data">
+                            <div class="fd-rating">
+                                <div class="five-star">
+                                    <span class="fd-rating-percent" style="width:{{=it.percentRating}};"></span>
+                                </div>
+                                <span>({{=it.ratingCount}})</span>
+                            </div>
+                            <div class="cook-time"><i class='icon-fdc-clock'></i> {{=it.totalTime}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="{{=it.title}}" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+                -->
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-topic">
+
+        <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    {{? it.photoUrl }}
+                        <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                    {{?}}
+                </div>
+
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+                <ul class="related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-list">
+
+        <div class="fd-tile fd-list" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                    </div>
+                </div>
+                <ul class="topics related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-photo">
+
+        <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-review">
+
+    <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <h5><a href="{{=it.url}}">{{=it.title}}</a></h5>
+        <div class="fd-rating">
+            <div class="five-star">
+                <span class="fd-rating-percent" style="width: {{=it.rating}}"></span>
+
+                <p style="display: none;" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                    <meta itemprop="worstRating" content = "1"/>
+                    <span itemprop="ratingValue" style="display:none"></span>
+                    <span itemprop="bestRating" style="display:none">5</span>
+                </p>
+
+            </div>
+        </div>
+        <small class="date">{{=it.date}}</small>
+        <p itemprop="description">{{=it.review}}</p>
+    </article>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-collection">
+
+        <div class="fd-tile fd-gallery {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-video">
+
+        <div class="fd-tile fd-video {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="sponsored" style="display: none;">
+                    <span class="sr-only">Sponsored by {{=it.sponsor}}</span>
+                    {{=it.sponsor}}
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">Video</span>
+                        Video
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</h2>
+                        <div class="author">
+                            <span class="name">By <a href="http://www.food.com/user/{{=it.userId}}">{{=it.displayName}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+
+
+<script type="text/html-template" class="tile-template" id="tile-ingredient">
+
+        <div class="fd-tile fd-ingredient {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-user">
+
+        <div class="fd-tile fd-user {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.blurPhotoUrl}}" data-blur="1000" data-target=".fd-img-wrap" data-quality="92" alt="{{=it.displayName}}">
+                </div>
+                <div class="tile-content">
+                    <div class="author">
+                        <span class="avatar">
+                            <a href="{{=it.url}}"><img src="{{=it.userAvatarUrl}}"></a>
+                        </span>
+                        <span class="name"><a href="{{=it.url}}">{{=it.displayName}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template tmpl-metadata">
+    <span class="asset-count ">{{=it.itemCount}} {{=it.itemType}}</span>
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-howto">
+
+        <div class="fd-tile fd-how-to {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-article">
+
+        <div class="fd-tile fd-article {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-html">
+
+    {{=it.html}}
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-editorial">
+
+        <div class="fd-tile fd-editorial fd-tile-cta {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="description">{{=it.description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-tile-footer">
+                <button>Create an Account</button>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-rb-recipe">
+
+        <div class="fd-tile fd-recipe {{=it.noPhoto}} {{=it.noUser}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" alt="{{=it.title}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="authorNoLink"><span class="name">By {{=it.displayName}}</span></div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+<script type="text/html-template" class="tile-template" id="tile-message">
+
+        <div class="fd-tile tile-error {{=it.type}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.text}}</h2>
+                        {{? it.description }}
+                        <p class="description">{{=it.description}}</p>
+                        {{?}}
+                        <div class="cta">
+                            <div class="asset-count"><i class="{{=it.iconClass}}"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</script>
+
+
+
+
+<!-- /footer -->
+
+
+
+</div>
+</body>
+</html>
