@@ -16,7 +16,8 @@ class EmerilsCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'emerils.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'emerils.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractCategories(Crawler $crawler)

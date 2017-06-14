@@ -17,7 +17,8 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'thepioneerwoman.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'thepioneerwoman.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractAuthor(Crawler $crawler)

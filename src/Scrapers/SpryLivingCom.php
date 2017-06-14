@@ -15,7 +15,8 @@ class SpryLivingCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'spryliving.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'spryliving.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractCategories(Crawler $crawler)

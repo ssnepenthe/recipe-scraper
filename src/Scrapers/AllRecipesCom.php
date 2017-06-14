@@ -13,7 +13,8 @@ class AllRecipesCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'allrecipes.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'allrecipes.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractDescription(Crawler $crawler)

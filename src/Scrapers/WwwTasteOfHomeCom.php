@@ -10,7 +10,9 @@ class WwwTasteOfHomeCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.tasteofhome.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        // Lowercase "r".
+        return $crawler->filter('[itemtype="http://schema.org/recipe"]')->count()
+            && 'www.tasteofhome.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractAuthor(Crawler $crawler)

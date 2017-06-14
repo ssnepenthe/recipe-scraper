@@ -12,8 +12,9 @@ class ScrippsNetworks extends SchemaOrgJsonLd
     {
         $host = parse_url($crawler->getUri(), PHP_URL_HOST);
 
-        return 'www.cookingchanneltv.com' === $host
-            || 'www.foodnetwork.com' === $host;
+        return parent::supports($crawler) && (
+            'www.cookingchanneltv.com' === $host || 'www.foodnetwork.com' === $host
+        );
     }
 
     protected function extractImage(Crawler $crawler, array $json)

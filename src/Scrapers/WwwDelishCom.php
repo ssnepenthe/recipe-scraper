@@ -17,7 +17,8 @@ class WwwDelishCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.delish.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'www.delish.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractAuthor(Crawler $crawler)

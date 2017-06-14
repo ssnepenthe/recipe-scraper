@@ -22,9 +22,11 @@ class GeneralMills extends SchemaOrgMarkup
 
     public function supports(Crawler $crawler) : bool
     {
-        $host = parse_url($crawler->getUri(), PHP_URL_HOST);
-
-        return in_array($host, $this->supportedHosts, true);
+        return parent::supports($crawler) && in_array(
+            parse_url($crawler->getUri(), PHP_URL_HOST),
+            $this->supportedHosts,
+            true
+        );
     }
 
     protected function extractAuthor(Crawler $crawler)

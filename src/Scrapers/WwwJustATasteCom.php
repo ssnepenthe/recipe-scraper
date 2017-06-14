@@ -10,7 +10,8 @@ class WwwJustATasteCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.justataste.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'www.justataste.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractCategories(Crawler $crawler)

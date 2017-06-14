@@ -13,7 +13,8 @@ class WwwMyRecipesCom extends SchemaOrgJsonLd
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.myrecipes.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'www.myrecipes.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractIngredients(Crawler $crawler, array $json)

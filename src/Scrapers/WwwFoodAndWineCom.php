@@ -15,7 +15,8 @@ class WwwFoodAndWineCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.foodandwine.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'www.foodandwine.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractAuthor(Crawler $crawler)

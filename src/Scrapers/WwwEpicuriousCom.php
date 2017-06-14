@@ -14,7 +14,8 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.epicurious.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'www.epicurious.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractDescription(Crawler $crawler)

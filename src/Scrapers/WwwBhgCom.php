@@ -15,7 +15,8 @@ class WwwBhgCom extends SchemaOrgMarkup
 {
     public function supports(Crawler $crawler) : bool
     {
-        return 'www.bhg.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler)
+            && 'www.bhg.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     protected function extractCookingMethod(Crawler $crawler)
