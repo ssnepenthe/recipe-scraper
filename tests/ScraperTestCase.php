@@ -50,7 +50,7 @@ class ScraperTestCase extends TestCase
 	protected function assertSameResults($expected, $actual, $url)
 	{
 		foreach (array_keys($expected) as $key) {
-			$this->assertEquals($expected[$key], $actual[$key], "{$url} - {$key}");
+			$this->assertSame($expected[$key], $actual[$key], "{$url} - {$key}");
 		}
 	}
 
