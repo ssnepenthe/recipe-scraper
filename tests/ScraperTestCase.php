@@ -5,66 +5,67 @@ namespace RecipeScraperTests;
 use PHPUnit\Framework\TestCase;
 use RecipeScraperTests\UsesTestData;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\Scrapers\ScraperFactory;
 
-class ScraperTestCase extends TestCase
+abstract class ScraperTestCase extends TestCase
 {
 	use UsesTestData;
 
-	protected $host = null;
-	protected $urls = [];
+	protected $scraper;
+	protected $urls;
 
 	public function setUp()
 	{
-		if (is_null($this->host)) {
+		$urlsPath = $this->getUrlsDataFilePath($this->getHost());
+
+		if (! file_exists($urlsPath)) {
 			$this->fail(
-				'Individual test classes must define the protected $host property'
+				"Unable to locate URLs for {$this->getHost()} at {$urlsPath}"
 			);
 		}
 
-		$urlsPath = $this->getUrlsDataFilePath($this->host);
-
-		if (! file_exists($urlsPath)) {
-			$this->fail("Unable to locate URLs for {$this->host} at {$urlsPath}");
-		}
-
+		$this->scraper = $this->makeScraper();
 		$this->urls = static::includeFile($urlsPath);
 	}
 
-	/** @test */
-	function it_correctly_scrapes_all_provided_urls()
+	public function tearDown()
 	{
-		$scraper = ScraperFactory::make();
+		$this->scraper = null;
+		$this->urls = null;
+	}
 
+	/** @test */
+	public function it_correctly_scrapes_all_provided_urls()
+	{
 		foreach ($this->urls as $url) {
-			$this->assertSameResults(
-				$this->getResults($url),
-				$scraper->scrape(
-					$this->makeCrawler($url)
-				),
-				$url
-			);
+			$crawler = $this->makeCrawler($url);
+
+			$this->assertTrue($this->scraper->supports($crawler));
+			$this->assertCorrectResults($crawler);
 		}
 	}
 
-	protected function assertSameResults($expected, $actual, $url)
+	protected function assertCorrectResults($crawler)
 	{
-		foreach (array_keys($expected) as $key) {
-			if (is_array($expected[$key])) {
+		$actual = $this->scraper->scrape($crawler);
+		$expected = $this->getResults($crawler);
+		$url = $crawler->getUri();
+
+		foreach ($expected as $key => $value) {
+			if (is_array($value)) {
 				$this->assertTrue(
 					is_array($actual[$key]),
 					"{$url} - {$key}: expected array, got " . gettype($actual[$key])
 				);
 
-				foreach ($expected[$key] as $k => $v) {
+				foreach ($value as $k => $v) {
 					$this->assertSame(
-						$expected[$key][$k],
+						$v,
 						$actual[$key][$k],
 						"{$url} - {$key}[{$k}]"
 					);
 				}
 			} else {
-				$this->assertSame($expected[$key], $actual[$key], "{$url} - {$key}");
+				$this->assertSame($value, $actual[$key], "{$url} - {$key}");
 			}
 		}
 	}
@@ -83,8 +84,9 @@ class ScraperTestCase extends TestCase
 		return file_get_contents($htmlPath);
 	}
 
-	protected function getResults($url)
+	protected function getResults($crawler)
 	{
+		$url = $crawler->getUri();
 		$resultsPath = $this->getResultsDataFilePathFromUrl($url);
 
 		if (! file_exists($resultsPath)) {
@@ -103,4 +105,7 @@ class ScraperTestCase extends TestCase
 	{
 		return new Crawler($this->getHtml($url), $url);
 	}
+
+	abstract protected function getHost();
+	abstract protected function makeScraper();
 }

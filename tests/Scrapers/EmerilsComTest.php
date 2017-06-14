@@ -2,9 +2,19 @@
 
 namespace RecipeScraperTests\Scrapers;
 
+use RecipeScraper\Scrapers\EmerilsCom;
 use RecipeScraperTests\ScraperTestCase;
+use RecipeScraper\Extractors\ExtractorManager;
 
 class EmerilsComTest extends ScraperTestCase
 {
-    protected $host = 'emerils.com';
+    protected function getHost()
+    {
+        return 'emerils.com';
+    }
+
+    protected function makeScraper()
+    {
+        return new EmerilsCom(new ExtractorManager);
+    }
 }
