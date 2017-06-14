@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'author' => null,
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => null,
+    'image' => null,
+    'ingredients' => [
+        '4 tablespoons unsalted butter',
+        '1 1/2 cups finely chopped onions',
+        '6 cloves garlic, finely chopped',
+        '2 1/4 teaspoons sweet paprika',
+        '2 teaspoons Emeril\'s Original Essence',
+        '2 teaspoons dry mustard',
+        '1 1/4 teaspoons salt',
+        '1/2 teaspoon crushed red pepper',
+        '1/2 teaspoon black pepper',
+        '1/4 teaspoon cayenne pepper',
+        '1 (6-ounce) can tomato paste',
+        '1 1/2 cups water',
+        '3/4 cup cider vinegar',
+        '6 tablespoons dark brown sugar',
+    ],
+    'instructions' => [
+        'In a medium non-reactive saucepan set over medium-high heat, add the butter and, when melted, add the onions and cook until they are very soft, about 4 minutes. Add the garlic, paprika, Essence, ground mustard, salt, crushed red pepper, black pepper, and cayenne pepper and cook for 2 minutes. Add the tomato paste and cook, stirring frequently, for 2 minutes, or until the tomato paste begins to brown. Add the water, cider vinegar, and dark brown sugar, and stir to combine. Reduce the heat to low and cook until the sauce has thickened and the flavors have come together, about 15 to 20 minutes.',
+        'Set aside to cool before using. The sauce may be made up to 1 week in advance and refrigerated in an airtight, non-reactive container.',
+    ],
+    'name' => 'Homemade Barbecue Sauce',
+    'prepTime' => null,
+    'publisher' => null,
+    'totalTime' => null,
+    'url' => 'http://emerils.com/126870/homemade-barbecue-sauce',
+    'yield' => 'Yield: About 3 cups sauce',
+];

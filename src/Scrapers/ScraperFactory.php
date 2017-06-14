@@ -12,6 +12,7 @@ class ScraperFactory
         $scraperClasses = [
             AllRecipesCom::class,
             GeneralMills::class,
+            EmerilsCom::class,
             ScrippsNetworks::class,
             SpryLivingCom::class,
             ThePioneerWomanCom::class,
