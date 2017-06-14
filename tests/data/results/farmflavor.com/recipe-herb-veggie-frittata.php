@@ -1,0 +1,42 @@
+<?php
+
+return [
+    'author' => 'Charlyn Fargo',
+    'categories' => [
+        'cheddar cheese',
+        'chives',
+        'eggs',
+        'milk',
+        'mushrooms',
+        'spinach',
+        'tomatoes',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT30M',
+    'cuisines' => null,
+    'description' => 'Fresh vegetables and herbs combine for a healthy, hearty breakfast.',
+    'image' => 'http://farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg',
+    'ingredients' => [
+        '2 teaspoons extra virgin olive oil',
+        '½ cup mushrooms, chopped',
+        '1 cup baby spinach',
+        '4 tablespoons tomatoes, finely diced',
+        '4 large eggs',
+        '½ cup milk',
+        '½ cup sharp cheddar cheese, shredded and divided',
+        'salt and pepper, to taste',
+        '2 tablespoons fresh chives, finely diced and divided',
+    ],
+    'instructions' => [
+        'Heat oven to 350 degrees.',
+        'Heat extra-virgin olive oil in an oven-safe saute pan over medium-high heat. Add the mushrooms and saute until softened, about 2 to 3 minutes. Turn off heat. Add the spinach and tomatoes, and cook for another 2 to 3 minutes.',
+        'In a separate bowl, whisk together the eggs, milk and ¼ cup cheese. Season with salt and pepper and 1 tablespoon chives.',
+        'Pour the egg mixture evenly into the skillet over the vegetables. Let sit, without stirring, until the edges begin to set, about 2 to 3 minutes. Then transfer the skillet to the oven and bake for about 15 to 20 minutes, or until golden brown. Sprinkle remaining cheese on top and garnish with remaining diced chives.',
+    ],
+    'name' => 'Herb and Veggie Frittata',
+    'prepTime' => 'PT15M',
+    'publisher' => 'Farm Flavor',
+    'totalTime' => null,
+    'url' => 'http://farmflavor.com/recipe/herb-veggie-frittata/',
+    'yield' => '8 servings',
+];

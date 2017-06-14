@@ -1,0 +1,42 @@
+<?php
+
+return [
+    'author' => 'Mary Carter',
+    'categories' => [
+        'baby back ribs',
+        'chili powder',
+        'cider vinegar',
+        'cumin',
+        'muskmelon',
+        'onion',
+        'red pepper flakes',
+        'smoked paprika',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT4H',
+    'cuisines' => null,
+    'description' => 'Muskmelon is the star of this summery ribs recipe.',
+    'image' => 'http://farmflavor.com/wp-content/uploads/2017/03/1760816JSO8055.jpg',
+    'ingredients' => [
+        '4 cups muskmelon (any combination)',
+        '½ medium onion',
+        '2 tablespoons cider vinegar',
+        '⅓ cup sugar',
+        '1 teaspoon salt',
+        '½ teaspoon red pepper flakes',
+        '1 tablespoon smoked paprika',
+        '1 tablespoon chili powder',
+        '1 teaspoon ground cumin',
+        '4 slabs baby-back ribs',
+    ],
+    'instructions' => [
+        'Puree melon, onion, vinegar and seasonings together in a food processor or blender. When well combined, pour into a saucepan and stir over medium heat until thick and reduced to about 1 cup (about 30 minutes).',
+        'Heat oven to 275 degrees. Rinse and pat ribs dry with paper towels. Lightly salt and pepper both sides. Place on a foil-lined baking sheet. Baste with the sauce. Roast in oven for about 4 hours, basting every 30 to 45 minutes.',
+    ],
+    'name' => 'Melon BBQ-Basted Ribs',
+    'prepTime' => 'PT30M',
+    'publisher' => 'Farm Flavor',
+    'totalTime' => null,
+    'url' => 'http://farmflavor.com/recipe/melon-bbq-basted-ribs/',
+    'yield' => '6-8 servings',
+];

@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'author' => 'Farming Feeds Alabama Cookbook',
+    'categories' => [
+        'cream',
+        'gelatin',
+        'pie',
+        'strawberries',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'This strawberry chiffon pie features a light, fluffy strawberry cream mixtures and is served chilled.',
+    'image' => 'http://farmflavor.com/wp-content/uploads/2013/03/1650712JSO4907.jpg',
+    'ingredients' => [
+        '⅓ cup whipping cream',
+        '1 tablespoon unflavored gelatin',
+        '¼ cup cold water',
+        '½ cup boiling water',
+        '1 cup sugar, divided',
+        '1½ cups strawberries, crushed',
+        '¼ teaspoon salt',
+        '2 egg whites, stiffly beaten',
+        '9-inch pie crust, baked',
+    ],
+    'instructions' => [
+        'Whip cream, and set aside.',
+        'Soak gelatin in cold water. Add boiling water and stir until dissolved.',
+        'Stir in ¾ cup sugar, strawberries and salt. Stir until mixture begins to thicken; fold in whipped cream.',
+        'Combine ¼ cup sugar and egg whites, and fold into strawberry mixture.',
+        'Pour into pie crust and chill. Garnish with additional whipped cream and strawberries if desired.',
+    ],
+    'name' => 'Strawberry Chiffon Pie',
+    'prepTime' => 'PT20M',
+    'publisher' => 'Farm Flavor',
+    'totalTime' => null,
+    'url' => 'http://farmflavor.com/recipe/type/cakes/strawberry-chiffon-pie/',
+    'yield' => '6 servings',
+];
