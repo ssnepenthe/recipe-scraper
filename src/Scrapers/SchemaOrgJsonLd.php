@@ -66,7 +66,7 @@ class SchemaOrgJsonLd implements ScraperInterface
                 $value = $this->{$postNormalizer}($value);
             }
 
-            $recipe[$key] = $value;
+            $recipe[$key] = $value ?: null;
         }
 
         return $recipe;
