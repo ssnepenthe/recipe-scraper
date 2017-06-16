@@ -95,7 +95,7 @@ img.emoji {
 <link rel='stylesheet' id='tagoverride-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/typeahead/override.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='slick-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/slick.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='print-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/print.css' type='text/css' media='print' />
-<link rel='stylesheet' id='screen-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/screen.css?v=1497455400' type='text/css' media='screen' />
+<link rel='stylesheet' id='screen-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/screen.css?v=1497642120' type='text/css' media='screen' />
 <script type='text/javascript' src='https://www.justataste.com/wp-includes/js/jquery/jquery.js'></script>
 <script type='text/javascript' src='https://www.justataste.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='https://www.justataste.com/wp-content/themes/they_taste/js/vendor/jquery.cookie.js'></script>
@@ -159,6 +159,10 @@ Click the help icon above to learn more.
 .nf-form-cont input[type="button"]:active,
 .nf-form-cont input[type="button"]:focus {
     background: #40356F;
+}
+
+.sidebar.hide-for-large-up {
+    max-width: 780px;
 }
 
 /* End Additions by Lauren @ Once Coupled, June 2017 */		</style>
@@ -331,7 +335,7 @@ Click the help icon above to learn more.
 					</div>
 <!-- template start _content/recipes-single- -->	<div class="content-block" id="print-worthy">
 
-		<div class="row" itemscope itemtype="http://schema.org/Recipe" id="readmore_target">
+		<div class="row"  itemscope itemtype="http://schema.org/Recipe"  id="https://www.justataste.com/best-asian-flank-steak-marinade-recipe/">
 			<div class="large-8 columns print-destroy-height">
 					<div class="blog-title">
 						<h3 itemprop="name" class="recipe-title">The Ultimate Asian Flank Steak Marinade</h3>						<ul class="recipe-categories details">
@@ -372,15 +376,16 @@ Click the help icon above to learn more.
 					</div>
 
 
-				
 										<div class="recipe-content">						
 
-												<div class="actions">
+												
+						<div class="actions">
 							<a href="#" id="printMe"><button class="purple radius">Print</button></a>
 						</div>
 						
 												
-																		<div class="ingredients">
+												
+												<div class="ingredients">
 
 							<h3>The Ultimate Asian Flank Steak Marinade</h3>
 														<ul class="recipe-categories">
@@ -417,12 +422,11 @@ Click the help icon above to learn more.
 						</div>
 						
 						<span class="hide" itemprop="author" itemscope itemtype="http://schema.org/Person">
-							<span itemprop="name"></span>
-						</span>
+															<span itemprop="name"><p>Kelly Senyei</p></span>
+													</span>
 
 						<div class="nc_socialPanel swp_flatFresh swp_d_customColor swp_i_ccOutlines swp_o_customColor scale-100 scale-fullWidth" data-position="none" data-float="floatNone" data-count="6" data-floatColor="#ffffff" data-emphasize="0"><div class="nc_tweetContainer swp_fb" data-id="4" data-network="facebook"><a rel="nofollow" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" data-link="http://www.facebook.com/share.php?u=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-facebook"></i><span class="swp_share"> Share</span></span></span><span class="swp_count">662</span></a></div><div class="nc_tweetContainer nc_pinterest" data-id="5" data-network="pinterest"><a rel="nofollow" onClick="var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e);" class="nc_tweet noPop"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-pinterest"></i><span class="swp_share"> Pin</span></span></span><span class="swp_count">160K</span></a></div><div class="nc_tweetContainer twitter" data-id="3" data-network="twitter"><a rel="nofollow" target="_blank" href="https://twitter.com/share?original_referer=/&text=The+Ultimate+Asian+Flank+Steak+Marinade&url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/" data-link="https://twitter.com/share?original_referer=/&text=The+Ultimate+Asian+Flank+Steak+Marinade&url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/" class="nc_tweet"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-twitter"></i><span class="swp_share"> Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_yummly" data-id="6" data-network="yummly"><a rel="nofollow" target="_blank" href="http://www.yummly.com/urb/verify?url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&title=The+Ultimate+Asian+Flank+Steak+Marinade&image=&yumtype=button" data-link="http://www.yummly.com/urb/verify?url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&title=The+Ultimate+Asian+Flank+Steak+Marinade&image=&yumtype=button" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-yummly"></i><span class="swp_share"> Yum</span></span></span><span class="swp_count">2K</span></a></div><div class="nc_tweetContainer googlePlus" data-id="2" data-network="google_plus"><a rel="nofollow" target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" data-link="https://plus.google.com/share?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-google-plus"></i><span class="swp_share"> +1</span></span></span><span class="swp_count">3K</span></a></div><div class="nc_tweetContainer totes totesalt" data-id="7" ><span class="swp_count"><span class="swp_label">Shares</span> 166K</span></div></div><div class="swp-content-locator"></div>
-						
-						<div class="recipe-notes">
+												<div class="recipe-notes">
 							<p>Recipe by Kelly Senyei of <a title="Just a Taste" href="http://www.justataste.com">Just a Taste</a>.</p>
 						</div>
 						
@@ -459,7 +463,7 @@ Click the help icon above to learn more.
 
 			<div class="large-4 columns sidebar show-for-large-up print-destroy-height">
 				<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-1">
-				<li><a class="link" href="http://www.justataste.com/about-just-a-taste"><div class="brick kelly"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/brick-kelly.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">Meet Kelly Senyei</span></div></div></div></div></a></li><li class="ad-block-single ad-medium-2"></li><li><a class="link" href="http://www.justataste.com/shop/"><div class="brick"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/blender-740x604.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">My Favorite Kitchen Products</span><button class="green">Shop Now</button></div></div></div></div></a></li>				</ul>
+				<li><a class="link" href="http://www.justataste.com/about-just-a-taste"><div class="brick kelly"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/brick-kelly-370x302.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">Meet Kelly Senyei</span></div></div></div></div></a></li><li class="ad-block-single ad-medium-2"></li><li><a class="link" href="http://www.justataste.com/shop/"><div class="brick"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/blender-370x302.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">My Favorite Kitchen Products</span><button class="green">Shop Now</button></div></div></div></div></a></li>				</ul>
 				<br>
 <div class="connect">
 
@@ -479,7 +483,7 @@ Click the help icon above to learn more.
 		<input type="checkbox" name="GROUPINGS[1][]" value="Parents" style="margin-left: 15px;"><span>Parents Posts </span>
 
 	</div>
-</div><div style="display: none;"><input type="text" name="_mc4wp_ho_06a82c50a7528c162171f05b67eea28e" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1497455433" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="a954dc7adc" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
+</div><div style="display: none;"><input type="text" name="_mc4wp_ho_db6b48a264eebb472996c8021d1cb6f8" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1497642142" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="329d808a88" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
 
 	<hr>
 	<h4>FOLLOW FOR INSPIRATION</h4>
@@ -521,7 +525,25 @@ Click the help icon above to learn more.
 			<li>
 				<div class="row large--display-table">
 					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/sweet-corn-pancakes-bacon-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/06/sweet-corn-pancakes-bacon-540x440.jpg" alt="Sweet Corn Pancakes with Bacon"></span></a>
+						<a href="https://www.justataste.com/easy-ice-cream-sandwich-cake-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/06/easy-ice-cream-sandwich-cake-recipe-370x302.jpg" alt="Easy Ice Cream Sandwich Cake"></span></a>
+					</div>
+					<div class="large-7 columns large--display-table-cell">
+						<div class="post">
+							<!-- <p><time class="date" datetime="2017-06-15">June 15, 2017</time></p> -->
+							<h3><a href="https://www.justataste.com/easy-ice-cream-sandwich-cake-recipe/">Easy Ice Cream Sandwich Cake</a></h3>
+							<p>
+
+Just when you thought dessert couldn't get any simpler than the aptly named Easiest-Ever Ice Cream Cake, I present to you the newest frosty treat to fill your freezer: Eas…</p>
+							<a class="read-more" href="https://www.justataste.com/easy-ice-cream-sandwich-cake-recipe/"><span class="icon-angle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</li>
+		
+			<li>
+				<div class="row large--display-table">
+					<div class="large-5 columns large--display-table-cell recipe-thumb">
+						<a href="https://www.justataste.com/sweet-corn-pancakes-bacon-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/06/sweet-corn-pancakes-bacon-370x302.jpg" alt="Sweet Corn Pancakes with Bacon"></span></a>
 					</div>
 					<div class="large-7 columns large--display-table-cell">
 						<div class="post">
@@ -538,7 +560,7 @@ Pancakes are a popular meal around our home, whether they're sweet, savory or so
 			<li>
 				<div class="row large--display-table">
 					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/no-churn-vanilla-ice-cream-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/no-churn-vanilla-ice-cream-recipe-540x440.jpg" alt="No-Churn Vanilla Ice Cream"></span></a>
+						<a href="https://www.justataste.com/no-churn-vanilla-ice-cream-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/no-churn-vanilla-ice-cream-recipe-370x302.jpg" alt="No-Churn Vanilla Ice Cream"></span></a>
 					</div>
 					<div class="large-7 columns large--display-table-cell">
 						<div class="post">
@@ -555,7 +577,7 @@ San Diego, Chicago, New York City, Newport Beach. Name a city I've lived in and
 			<li>
 				<div class="row large--display-table">
 					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/garlicky-skillet-corn-bacon-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/garlic-skillet-corn-540x440.jpg" alt="Garlicky Skillet Corn with Bacon"></span></a>
+						<a href="https://www.justataste.com/garlicky-skillet-corn-bacon-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/garlic-skillet-corn-370x302.jpg" alt="Garlicky Skillet Corn with Bacon"></span></a>
 					</div>
 					<div class="large-7 columns large--display-table-cell">
 						<div class="post">
@@ -572,7 +594,7 @@ The culinary trifecta of corn, bacon and cheese is on repeat all summer long at 
 			<li>
 				<div class="row large--display-table">
 					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/peach-wine-slushies-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/best-peach-wine-slushies-recipe-540x440.jpg" alt="Peach Wine Slushies"></span></a>
+						<a href="https://www.justataste.com/peach-wine-slushies-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/best-peach-wine-slushies-recipe-370x302.jpg" alt="Peach Wine Slushies"></span></a>
 					</div>
 					<div class="large-7 columns large--display-table-cell">
 						<div class="post">
@@ -589,7 +611,7 @@ Some people call it "frosé." Other people call it "frozen wine." I call it "Mo
 			<li>
 				<div class="row large--display-table">
 					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/fresh-cherry-cheesecake-dip-recipe-540x440.jpg" alt="Fresh Cherry Cheesecake Dip"></span></a>
+						<a href="https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/fresh-cherry-cheesecake-dip-recipe-370x302.jpg" alt="Fresh Cherry Cheesecake Dip"></span></a>
 					</div>
 					<div class="large-7 columns large--display-table-cell">
 						<div class="post">
@@ -604,23 +626,6 @@ The key word here is “fresh,” because you’ve probably seen dozens upon doz
 					</div>
 				</div>
 			</li>
-		
-			<li>
-				<div class="row large--display-table">
-					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/easy-july-4th-ice-cream-cake-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/easy-july-4-ice-cream-sandwich-cake-recipe-540x440.jpg" alt="Easy July 4th Ice Cream Cake"></span></a>
-					</div>
-					<div class="large-7 columns large--display-table-cell">
-						<div class="post">
-							<!-- <p><time class="date" datetime="2017-05-25">May 25, 2017</time></p> -->
-							<h3><a href="https://www.justataste.com/easy-july-4th-ice-cream-cake-recipe/">Easy July 4th Ice Cream Cake</a></h3>
-							<p>
-When it comes to festive desserts, we've dabbled in nearly every variety of red, white and blue, from patriotic pinwheel cookies and layered cheesecake parfaits to star-stu…</p>
-							<a class="read-more" href="https://www.justataste.com/easy-july-4th-ice-cream-cake-recipe/"><span class="icon-angle-right"></span></a>
-						</div>
-					</div>
-				</div>
-			</li>
 		</ul><!-- End Related Recipes -->					</div>
 										<div class="large-6 large-pull-6 columns">
 						<div class="row heading">
@@ -631,7 +636,7 @@ When it comes to festive desserts, we've dabbled in nearly every variety of red,
 						</div>
 						<div class="comments" id="comments">
 														<ul class="comment-list">
-								<div id="ajax-load-more" class="ajax-load-more-wrap default"  data-alm-id="" data-canonical-url="https://www.justataste.com/easy-july-4th-ice-cream-cake-recipe/" data-slug="easy-july-4th-ice-cream-cake-recipe" data-post-id="29360" ><ol class="commentlist alm-comments alm-ajax   " data-comments="true" data-comments_per_page="5" data-comments_type="comment" data-comments_style="ol" data-comments_template="none" data-comments_callback="" data-comments_post_id="15354" data-repeater="default" data-post-type="post" data-sticky-posts="" data-post-format="" data-category="" data-category-not-in="" data-tag="" data-tag-not-in="" data-taxonomy="" data-taxonomy-terms="" data-taxonomy-operator="" data-taxonomy-relation="" data-meta-key="" data-meta-value="" data-meta-compare="" data-meta-relation="" data-meta-type="" data-year="" data-month="" data-day="" data-author="" data-post-in="" data-post-not-in="" data-exclude="" data-search="" data-custom-args="" data-post-status="" data-order="DESC" data-orderby="date" data-offset="0" data-posts-per-page="5" data-lang="" data-scroll="false" data-scroll-distance="150" data-max-pages="0" data-pause-override="false" data-pause="false" data-button-label="Load More Comments" data-button-loading-label="Loading More Comments" data-button-class="button radius large" data-destroy-after="" data-transition="slide" data-transition-speed="500" data-images-loaded="false"></ol></div>							</ul>
+								<div id="ajax-load-more" class="ajax-load-more-wrap default"  data-alm-id="" data-canonical-url="https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/" data-slug="fresh-cherry-cheesecake-dip-recipe" data-post-id="29419" ><ol class="commentlist alm-comments alm-ajax   " data-comments="true" data-comments_per_page="5" data-comments_type="comment" data-comments_style="ol" data-comments_template="none" data-comments_callback="" data-comments_post_id="15354" data-repeater="default" data-post-type="post" data-sticky-posts="" data-post-format="" data-category="" data-category-not-in="" data-tag="" data-tag-not-in="" data-taxonomy="" data-taxonomy-terms="" data-taxonomy-operator="" data-taxonomy-relation="" data-meta-key="" data-meta-value="" data-meta-compare="" data-meta-relation="" data-meta-type="" data-year="" data-month="" data-day="" data-author="" data-post-in="" data-post-not-in="" data-exclude="" data-search="" data-custom-args="" data-post-status="" data-order="DESC" data-orderby="date" data-offset="0" data-posts-per-page="5" data-lang="" data-scroll="false" data-scroll-distance="150" data-max-pages="0" data-pause-override="false" data-pause="false" data-button-label="Load More Comments" data-button-loading-label="Loading More Comments" data-button-class="button radius large" data-destroy-after="" data-transition="slide" data-transition-speed="500" data-images-loaded="false"></ol></div>							</ul>
 						</div>
 
 							<div id="respond" class="comment-respond">
@@ -641,7 +646,7 @@ When it comes to festive desserts, we've dabbled in nearly every variety of red,
 <p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
 <!-- MailChimp for WordPress Pro v2.7.26 - https://mc4wp.com/ --><p id="mc4wp-checkbox" class="mc4wp-checkbox-comment_form"><label><input type="checkbox" name="_mc4wp_subscribe_comment_form" value="1" checked /> Sign me up to receive new recipes via email!</label></p><div style="display: none;"><input type="text" name="_mc4wp_required_but_not_really" value="" tabindex="-1" autocomplete="off" /></div><!-- / MailChimp for WordPress Pro --><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post" /> <input type='hidden' name='comment_post_ID' value='15354' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="3545471bd1" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="64"/></p>			</form>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="667652d2c8" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="112"/></p>			</form>
 			</div><!-- #respond -->
 	
 					</div>
@@ -662,7 +667,7 @@ When it comes to festive desserts, we've dabbled in nearly every variety of red,
 		<div class="row sidebar hide-for-large-up">
 			<div class="small-12 columns">
 				<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-1 ad-block-grid">
-				<li><a class="link" href="http://www.justataste.com/about-just-a-taste"><div class="brick kelly"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/brick-kelly.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">Meet Kelly Senyei</span></div></div></div></div></a></li><li class="ad-block-single ad-medium-2"></li><li><a class="link" href="http://www.justataste.com/shop/"><div class="brick"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/blender-740x604.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">My Favorite Kitchen Products</span><button class="green">Shop Now</button></div></div></div></div></a></li>				</ul>
+				<li><a class="link" href="http://www.justataste.com/about-just-a-taste"><div class="brick kelly"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/brick-kelly-370x302.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">Meet Kelly Senyei</span></div></div></div></div></a></li><li class="ad-block-single ad-medium-2"></li><li><a class="link" href="http://www.justataste.com/shop/"><div class="brick"><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2016/04/blender-370x302.jpg" alt="brick-shop" class="background"><div class="brick-content"><div class="display-table overlay"><div class="display-table-cell overlay-inner"><img nopin="nopin" class="logo" src="https://www.justataste.com/wp-content/themes/they_taste/img/logo-white.svg" alt="Just A Taste" /><span class="title">My Favorite Kitchen Products</span><button class="green">Shop Now</button></div></div></div></div></a></li>				</ul>
 
 				<br>
 <div class="connect">
@@ -683,7 +688,7 @@ When it comes to festive desserts, we've dabbled in nearly every variety of red,
 		<input type="checkbox" name="GROUPINGS[1][]" value="Parents" style="margin-left: 15px;"><span>Parents Posts </span>
 
 	</div>
-</div><div style="display: none;"><input type="text" name="_mc4wp_ho_06a82c50a7528c162171f05b67eea28e" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1497455433" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="a954dc7adc" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
+</div><div style="display: none;"><input type="text" name="_mc4wp_ho_db6b48a264eebb472996c8021d1cb6f8" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1497642142" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="329d808a88" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
 
 	<hr>
 	<h4>FOLLOW FOR INSPIRATION</h4>
@@ -815,17 +820,17 @@ var mc4wp_vars = {"ajaxurl":"https:\/\/www.justataste.com\/wp-admin\/admin-ajax.
 <script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/mailchimp-for-wp-pro/assets/js/ajax-forms.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var alm_localize = {"ajaxurl":"https:\/\/www.justataste.com\/wp-admin\/admin-ajax.php","alm_nonce":"28dcfd53bb","pluginurl":"https:\/\/www.justataste.com\/wp-content\/plugins\/ajax-load-more","scrolltop":"false","ajax_object":{"is_single":true,"is_singular":true}};
+var alm_localize = {"ajaxurl":"https:\/\/www.justataste.com\/wp-admin\/admin-ajax.php","alm_nonce":"2e76b80d27","pluginurl":"https:\/\/www.justataste.com\/wp-content\/plugins\/ajax-load-more","scrolltop":"false","ajax_object":{"is_single":true,"is_singular":true}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/ajax-load-more/core/dist/js/ajax-load-more.min.js'></script>
-<script type="text/javascript"> swpPinIt={"enabled":false};var swpClickTracking = false; var swp_nonce = "e96b44d4f1";
+<script type="text/javascript"> swpPinIt={"enabled":false};var swpClickTracking = false; var swp_nonce = "3e6aabd7b7";
 		var swp_buttons_exist = !!document.getElementsByClassName( 'nc_socialPanel' );
 		if ( swp_buttons_exist ) {
 			swp_admin_ajax = 'https://www.justataste.com/wp-admin/admin-ajax.php';
-			swp_post_id='29360';
-			swp_post_url='https://www.justataste.com/easy-july-4th-ice-cream-cake-recipe/';
-			swp_post_recovery_url = 'http://www.justataste.com/easy-july-4th-ice-cream-cake-recipe/';
+			swp_post_id='29419';
+			swp_post_url='https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/';
+			swp_post_recovery_url = 'http://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/';
 			socialWarfarePlugin.fetchShares();
 		}
 

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => null,
+    'author' => 'Kelly Senyei',
     'categories' => [
         'Entrées',
     ],
