@@ -52,7 +52,7 @@ class GeneralMills extends SchemaOrgMarkup
         return $this->extractor->make(PluralFromChildren::class)
             ->extract(
                 $crawler,
-                '.recipePartIngredientGroup h2, .recipePartIngredientGroup dl'
+                '.recipePartIngredientGroup h2, .recipePartIngredient'
             );
     }
 
