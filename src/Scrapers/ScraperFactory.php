@@ -11,6 +11,7 @@ class ScraperFactory
         $extractor = new ExtractorManager;
         $scraperClasses = [
             AllRecipesCom::class,
+            CookieAndKateCom::class,
             EmerilsCom::class,
             FarmFlavorCom::class,
             GeneralMills::class,

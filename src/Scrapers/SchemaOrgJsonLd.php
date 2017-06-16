@@ -101,6 +101,10 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $categories;
         }
 
+        if (is_string($categories)) {
+            return [$categories];
+        }
+
         return null;
     }
 
@@ -126,6 +130,10 @@ class SchemaOrgJsonLd implements ScraperInterface
     {
         if (is_array($cuisines = Arr::get($json, 'recipeCuisine'))) {
             return $cuisines;
+        }
+
+        if (is_string($cuisines)) {
+            return [$cuisines];
         }
 
         return null;
