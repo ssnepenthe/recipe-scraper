@@ -11,8 +11,9 @@ class ScraperFactory
         $extractor = new ExtractorManager;
         $scraperClasses = [
             AllRecipesCom::class,
-            GeneralMills::class,
             EmerilsCom::class,
+            FarmFlavorCom::class,
+            GeneralMills::class,
             ScrippsNetworks::class,
             SpryLivingCom::class,
             ThePioneerWomanCom::class,
@@ -20,10 +21,13 @@ class ScraperFactory
             WwwDelishCom::class,
             WwwEpicuriousCom::class,
             WwwFoodAndWineCom::class,
+            WwwFoodCom::class,
             WwwJustATasteCom::class,
             WwwMyRecipesCom::class,
             WwwPaulaDeenCom::class,
             WwwTasteOfHomeCom::class,
+
+            // Fallbacks.
             SchemaOrgJsonLd::class,
             SchemaOrgMarkup::class,
         ];
