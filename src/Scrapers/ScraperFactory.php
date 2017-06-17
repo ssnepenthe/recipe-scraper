@@ -6,38 +6,75 @@ use RecipeScraper\Extractors\ExtractorManager;
 
 class ScraperFactory
 {
-    public static function make() : DelegatingScraper
+    protected static $delegatingScraper = null;
+    protected static $extractor = null;
+    protected static $scrapers = [
+        AllRecipesCom::class => null,
+        CookieAndKateCom::class => null,
+        EmerilsCom::class => null,
+        FarmFlavorCom::class => null,
+        GeneralMills::class => null,
+        HearstDigitalMedia::class => null,
+        ScrippsNetworks::class => null,
+        SpryLivingCom::class => null,
+        ThePioneerWomanCom::class => null,
+        WwwBhgCom::class => null,
+        WwwEpicuriousCom::class => null,
+        WwwFoodAndWineCom::class => null,
+        WwwFoodCom::class => null,
+        WwwJustATasteCom::class => null,
+        WwwMyRecipesCom::class => null,
+        WwwPaulaDeenCom::class => null,
+        WwwTasteOfHomeCom::class => null,
+
+        // Fallbacks.
+        SchemaOrgJsonLd::class => null,
+        SchemaOrgMarkup::class => null,
+    ];
+
+    public static function make(string $class = null) : ScraperInterface
     {
-        $extractor = new ExtractorManager;
-        $scraperClasses = [
-            AllRecipesCom::class,
-            CookieAndKateCom::class,
-            EmerilsCom::class,
-            FarmFlavorCom::class,
-            GeneralMills::class,
-            HearstDigitalMedia::class,
-            ScrippsNetworks::class,
-            SpryLivingCom::class,
-            ThePioneerWomanCom::class,
-            WwwBhgCom::class,
-            WwwEpicuriousCom::class,
-            WwwFoodAndWineCom::class,
-            WwwFoodCom::class,
-            WwwJustATasteCom::class,
-            WwwMyRecipesCom::class,
-            WwwPaulaDeenCom::class,
-            WwwTasteOfHomeCom::class,
-
-            // Fallbacks.
-            SchemaOrgJsonLd::class,
-            SchemaOrgMarkup::class,
-        ];
-        $scrapers = [];
-
-        foreach ($scraperClasses as $scraperClass) {
-            $scrapers[] = new $scraperClass($extractor);
+        if (! is_null($class)) {
+            return static::makeScraperInstance($class);
         }
 
-        return new DelegatingScraper(new ScraperResolver($scrapers));
+        return static::makeDelegatingScraperInstance();
+    }
+
+    protected static function makeDelegatingScraperInstance() : ScraperInterface
+    {
+        if (! is_null(static::$delegatingScraper)) {
+            return static::$delegatingScraper;
+        }
+
+        $resolver = new ScraperResolver;
+
+        foreach (array_keys(static::$scrapers) as $scraperClass) {
+            $resolver->add(static::makeScraperInstance($scraperClass));
+        }
+
+        return static::$delegatingScraper = new DelegatingScraper($resolver);
+    }
+
+    protected static function makeExtractor() : ExtractorManager
+    {
+        if (! is_null(static::$extractor)) {
+            return static::$extractor;
+        }
+
+        return static::$extractor = new ExtractorManager;
+    }
+
+    protected static function makeScraperInstance(string $class) : ScraperInterface
+    {
+        if (! array_key_exists($class, static::$scrapers)) {
+            throw new \InvalidArgumentException;
+        }
+
+        if (isset(static::$scrapers[$class])) {
+            return static::$scrapers[$class];
+        }
+
+        return static::$scrapers[$class] = new $class(static::makeExtractor());
     }
 }
