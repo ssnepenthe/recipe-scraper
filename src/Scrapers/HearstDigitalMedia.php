@@ -22,6 +22,7 @@ class HearstDigitalMedia extends SchemaOrgMarkup
         'www.delish.com',
         'www.esquire.com',
         'www.goodhousekeeping.com',
+        'www.redbookmag.com',
         'www.womansday.com',
     ];
 

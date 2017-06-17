@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'author' => 'Woman\'s Day Kitchen',
+    'categories' => [
+        'Food & Cocktails',
+        'mexican',
+        'vegetarian',
+        'enchiladas',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'These enchiladas are so loaded with fiber-packed black beans and sweet corn, we promise, you won\'t miss the meat.',
+    'image' => 'http://rbk.h-cdn.co/assets/cm/15/26/559030ca53725-black-bean-corn-spinach-enchiladas.png',
+    'ingredients' => [
+        '1 tbsp. olive oil',
+        '2 clove garlic',
+        '1 can black beans',
+        '1 c. frozen corn',
+        '½ tsp. ground coriander',
+        '4 c. baby spinach',
+        '4 scallions',
+        'kosher salt',
+        'pepper',
+        '1 c. cilantro',
+        '4 oz. pepper jack cheese',
+        '8 flour tortillas',
+        '½ c. red enchilada sauce',
+    ],
+    'instructions' => [
+        'Heat broiler. Heat the olive oil and garlic in a large skillet over medium heat until the garlic begins to sizzle, about 2 minutes.',
+        'Add the black beans, corn, coriander, and 2 tablespoons water and cook, stirring occasionally, until heated through, about 3 minutes.',
+        'Add the spinach, scallions, and 1/2 teaspoon each salt and pepper and cook, tossing occasionally, until the spinach begins to wilt, 1 to 2 minutes. Remove from heat and fold in the cilantro.',
+        'Divide the filling and all but 1/3 cup of the cheese among the tortillas (about 1/3 cup filling each). Roll them up and place seam-side down in a large baking dish or individual dishes. Spoon the enchilada sauce over the top, sprinkle with the remaining cheese and broil until the cheese melts, 1 to 2 minutes.',
+    ],
+    'name' => 'Black Bean, Corn, and Spinach Enchiladas',
+    'prepTime' => 'PT20M',
+    'publisher' => null,
+    'totalTime' => 'PT20M',
+    'url' => 'http://www.womansday.com/food-recipes/food-drinks/recipes/a13423/black-bean-corn-spinach-enchiladas-recipe-wdy0315/',
+    'yield' => 'Yield: 4 servings (cost per serving of $1.58)',
+];
