@@ -2,8 +2,8 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * We lose ingredient titles by using LD+JSON.
@@ -12,6 +12,8 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class CookieAndKateCom extends SchemaOrgJsonLd
 {
+    use ExtractsDataFromCrawler;
+
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
@@ -21,7 +23,6 @@ class CookieAndKateCom extends SchemaOrgJsonLd
     protected function extractImage(Crawler $crawler, array $json)
     {
         // LD+JSON images are tiny.
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', ['content']);
+        return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 }

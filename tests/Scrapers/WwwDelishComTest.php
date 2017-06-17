@@ -3,7 +3,6 @@
 namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Extractors\ExtractorManager;
 use RecipeScraper\Scrapers\HearstDigitalMedia;
 
 class WwwDelishComTest extends ScraperTestCase
@@ -15,6 +14,6 @@ class WwwDelishComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new HearstDigitalMedia(new ExtractorManager);
+        return new HearstDigitalMedia;
     }
 }

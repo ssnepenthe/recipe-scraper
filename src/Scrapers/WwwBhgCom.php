@@ -2,10 +2,7 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\Extractors\PluralFromChildren;
 
 /**
  * FYI there is a JSON API if you send header 'Accept: application/json'.
@@ -27,28 +24,21 @@ class WwwBhgCom extends SchemaOrgMarkup
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.recipe__image', ['content']);
+        return $this->extractString($crawler, '.recipe__image', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractor->make(PluralFromChildren::class)
-            ->extract($crawler, '[itemprop="recipeIngredient"]');
+        return $this->extractArrayFromChildren($crawler, '[itemprop="recipeIngredient"]');
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract(
-                $crawler,
-                '.recipe__direction, .recipe__instructionGroupHeader'
-            );
+        return $this->extractArray($crawler, '.recipe__direction, .recipe__instructionGroupHeader');
     }
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, 'h1[itemprop="name"]');
+        return $this->extractString($crawler, 'h1[itemprop="name"]');
     }
 }

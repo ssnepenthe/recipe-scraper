@@ -2,8 +2,6 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -38,46 +36,39 @@ class HearstDigitalMedia extends SchemaOrgMarkup
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="author"]');
+        return $this->extractString($crawler, '[rel="author"]');
     }
 
     protected function extractCategories(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.tags--top .tags--item');
+        return $this->extractArray($crawler, '.tags--top .tags--item');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[name="description"]', ['content']);
+        return $this->extractString($crawler, '[name="description"]', ['content']);
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', ['content']);
+        return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract(
-                $crawler,
-                '[itemprop="ingredients"], .recipe-ingredients-group-header'
-            );
+        return $this->extractArray(
+            $crawler,
+            '[itemprop="ingredients"], .recipe-ingredients-group-header'
+        );
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeInstructions"] li');
+        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', ['href']);
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 }

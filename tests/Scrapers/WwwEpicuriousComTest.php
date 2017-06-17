@@ -4,7 +4,6 @@ namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\WwwEpicuriousCom;
-use RecipeScraper\Extractors\ExtractorManager;
 
 class WwwEpicuriousComTest extends ScraperTestCase
 {
@@ -15,6 +14,6 @@ class WwwEpicuriousComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new WwwEpicuriousCom(new ExtractorManager);
+        return new WwwEpicuriousCom;
     }
 }

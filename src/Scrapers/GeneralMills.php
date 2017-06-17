@@ -2,10 +2,7 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\Extractors\PluralFromChildren;
 
 /**
  * Can potentially get categories off of data-category attribute on ingredients.
@@ -34,40 +31,34 @@ class GeneralMills extends SchemaOrgMarkup
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.contributorPage');
+        return $this->extractString($crawler, '.contributorPage');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:description"]', ['content']);
+        return $this->extractString($crawler, '[property="og:description"]', ['content']);
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', ['content']);
+        return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractor->make(PluralFromChildren::class)
-            ->extract(
-                $crawler,
-                '.recipePartIngredientGroup h2, .recipePartIngredient'
-            );
+        return $this->extractArrayFromChildren(
+            $crawler,
+            '.recipePartIngredientGroup h2, .recipePartIngredient'
+        );
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.recipePartStepDescription');
+        return $this->extractArray($crawler, '.recipePartStepDescription');
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', ['href']);
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 }

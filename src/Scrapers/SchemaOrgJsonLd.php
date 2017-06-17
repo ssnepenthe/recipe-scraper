@@ -6,7 +6,6 @@ use RecipeScraper\Arr;
 use RecipeScraper\Str;
 use RecipeScraper\Interval;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\Extractors\ExtractorManager;
 
 /**
  * Supports marthastewart.com.
@@ -15,11 +14,6 @@ use RecipeScraper\Extractors\ExtractorManager;
  */
 class SchemaOrgJsonLd implements ScraperInterface
 {
-    /**
-     * @var ExtractorManager
-     */
-    protected $extractor;
-
     /**
      * @var string[]
      */
@@ -40,11 +34,6 @@ class SchemaOrgJsonLd implements ScraperInterface
         'url',
         'yield',
     ];
-
-    public function __construct(ExtractorManager $extractor)
-    {
-        $this->extractor = $extractor;
-    }
 
     public function scrape(Crawler $crawler) : array
     {

@@ -2,9 +2,8 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Looks like there might be some encoding issues?
@@ -13,6 +12,8 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class WwwFoodCom extends SchemaOrgJsonLd
 {
+    use ExtractsDataFromCrawler;
+
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
@@ -22,14 +23,12 @@ class WwwFoodCom extends SchemaOrgJsonLd
     protected function extractInstructions(Crawler $crawler, array $json)
     {
         // Instructions in LD+JSON are smashed into one big text blob.
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.directions li');
+        return $this->extractArray($crawler, '.directions li');
     }
 
     protected function extractUrl(Crawler $crawler, array $json)
     {
         // URL is missing from LD+JSON.
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', ['href']);
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 }

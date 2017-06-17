@@ -3,7 +3,6 @@
 namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Extractors\ExtractorManager;
 use RecipeScraper\Scrapers\ThePioneerWomanCom;
 
 class ThePioneerWomanComTest extends ScraperTestCase
@@ -15,6 +14,6 @@ class ThePioneerWomanComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new ThePioneerWomanCom(new ExtractorManager);
+        return new ThePioneerWomanCom;
     }
 }

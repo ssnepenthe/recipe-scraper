@@ -2,8 +2,6 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -20,34 +18,29 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[name="description"]', ['content']);
+        return $this->extractString($crawler, '[name="description"]', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.recipe-detail-wrapper .ingredients li');
+        return $this->extractArray($crawler, '.recipe-detail-wrapper .ingredients li');
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.recipe-detail-wrapper .preparation p');
+        return $this->extractArray($crawler, '.recipe-detail-wrapper .preparation p');
     }
 
     protected function extractName(Crawler $crawler)
     {
         // Other locations are inconsistent.
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.breadcrumbs .product');
+        return $this->extractString($crawler, '.breadcrumbs .product');
     }
 
     protected function extractTotalTime(Crawler $crawler)
     {
         // Not perfect - preptime and cooktime combined in the print view.
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.prep-cook .data');
+        return $this->extractString($crawler, '.prep-cook .data');
     }
 
     protected function extractUrl(Crawler $crawler)
@@ -55,7 +48,8 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
         // I don't like this... There are two canonical links, they don't always
         // match and one is generally invalid.
         $nodes = $crawler->filter('[rel="canonical"]');
+        $value = $nodes->last()->attr('href') ?: '';
 
-        return $nodes->count() ? trim($nodes->last()->attr('href')) : null;
+        return trim($value) ?: null;
     }
 }

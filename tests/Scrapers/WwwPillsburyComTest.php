@@ -4,7 +4,6 @@ namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\GeneralMills;
-use RecipeScraper\Extractors\ExtractorManager;
 
 class WwwPillsburyComTest extends ScraperTestCase
 {
@@ -15,6 +14,6 @@ class WwwPillsburyComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new GeneralMills(new ExtractorManager);
+        return new GeneralMills;
     }
 }

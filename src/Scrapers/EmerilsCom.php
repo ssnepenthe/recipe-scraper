@@ -2,8 +2,6 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -22,49 +20,41 @@ class EmerilsCom extends SchemaOrgMarkup
 
     protected function extractCategories(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.recipe-tags a');
+        return $this->extractArray($crawler, '.recipe-tags a');
     }
 
     protected function extractCuisines(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.detail-cuisine a');
+        return $this->extractArray($crawler, '.detail-cuisine a');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
         // Has itemprop="description" but something weird in the markup...
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[name="description"]', ['content']);
+        return $this->extractString($crawler, '[name="description"]', ['content']);
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="image"] img', ['data-original']);
+        return $this->extractString($crawler, '[itemprop="image"] img', ['data-original']);
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
         if ($crawler->filter('.page-section-directions p')->count()) {
-            return $this->extractor->make(Plural::class)
-                ->extract($crawler, '.page-section-directions p');
+            return $this->extractArray($crawler, '.page-section-directions p');
         }
 
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '.page-section-directions li');
+        return $this->extractArray($crawler, '.page-section-directions li');
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', ['href']);
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
     protected function extractYield(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.meta-yield');
+        return $this->extractString($crawler, '.meta-yield');
     }
 }

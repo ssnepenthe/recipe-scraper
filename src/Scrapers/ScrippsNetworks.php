@@ -3,11 +3,13 @@
 namespace RecipeScraper\Scrapers;
 
 use function Stringy\create as s;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 class ScrippsNetworks extends SchemaOrgJsonLd
 {
+    use ExtractsDataFromCrawler;
+
     public function supports(Crawler $crawler) : bool
     {
         $host = parse_url($crawler->getUri(), PHP_URL_HOST);
@@ -20,8 +22,7 @@ class ScrippsNetworks extends SchemaOrgJsonLd
     protected function extractImage(Crawler $crawler, array $json)
     {
         // Largest image is not available via LD+JSON.
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', ['content']);
+        return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
     protected function preNormalizeCookTime($value)

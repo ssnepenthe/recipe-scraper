@@ -2,8 +2,6 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -21,40 +19,31 @@ class WwwFoodAndWineCom extends SchemaOrgMarkup
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="author"]');
+        return $this->extractString($crawler, '[itemprop="author"]');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="description"] p:first-child');
+        return $this->extractString($crawler, '[itemprop="description"] p:first-child');
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract(
-                $crawler,
-                '.ingredients-list__title, [itemprop="ingredients"]'
-            );
+        return $this->extractArray($crawler, '.ingredients-list__title, [itemprop="ingredients"]');
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeInstructions"] li');
+        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
     }
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, 'h1[itemprop="name"]');
+        return $this->extractString($crawler, 'h1[itemprop="name"]');
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', ['href']);
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 }

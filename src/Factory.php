@@ -10,11 +10,6 @@ class Factory
     protected static $delegatingScraper = null;
 
     /**
-     * @var Extractors\ExtractorManager|null
-     */
-    protected static $extractor = null;
-
-    /**
      * @var array<string, Scrapers\ScraperInterface|null>
      */
     protected static $scrapers = [
@@ -65,15 +60,6 @@ class Factory
         return static::$delegatingScraper = new Scrapers\DelegatingScraper($resolver);
     }
 
-    protected static function makeExtractor() : Extractors\ExtractorManager
-    {
-        if (! is_null(static::$extractor)) {
-            return static::$extractor;
-        }
-
-        return static::$extractor = new Extractors\ExtractorManager;
-    }
-
     protected static function makeScraperInstance(string $class) : Scrapers\ScraperInterface
     {
         if (! array_key_exists($class, static::$scrapers)) {
@@ -84,6 +70,6 @@ class Factory
             return static::$scrapers[$class];
         }
 
-        return static::$scrapers[$class] = new $class(static::makeExtractor());
+        return static::$scrapers[$class] = new $class;
     }
 }

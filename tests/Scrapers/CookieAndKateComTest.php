@@ -4,7 +4,6 @@ namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\CookieAndKateCom;
-use RecipeScraper\Extractors\ExtractorManager;
 
 class CookieAndKateComTest extends ScraperTestCase
 {
@@ -15,6 +14,6 @@ class CookieAndKateComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new CookieAndKateCom(new ExtractorManager);
+        return new CookieAndKateCom;
     }
 }

@@ -4,7 +4,6 @@ namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\WwwPaulaDeenCom;
-use RecipeScraper\Extractors\ExtractorManager;
 
 class WwwPaulaDeenComTest extends ScraperTestCase
 {
@@ -15,6 +14,6 @@ class WwwPaulaDeenComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new WwwPaulaDeenCom(new ExtractorManager);
+        return new WwwPaulaDeenCom;
     }
 }

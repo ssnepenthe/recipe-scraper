@@ -5,17 +5,12 @@ namespace RecipeScraper\Scrapers;
 use RecipeScraper\Arr;
 use RecipeScraper\Str;
 use RecipeScraper\Interval;
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\Extractors\ExtractorManager;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 class SchemaOrgMarkup implements ScraperInterface
 {
-    /**
-     * @var ExtractorManager
-     */
-    protected $extractor;
+    use ExtractsDataFromCrawler;
 
     /**
      * @var string[]
@@ -37,11 +32,6 @@ class SchemaOrgMarkup implements ScraperInterface
         'url',
         'yield',
     ];
-
-    public function __construct(ExtractorManager $extractor)
-    {
-        $this->extractor = $extractor;
-    }
 
     public function scrape(Crawler $crawler) : array
     {
@@ -88,130 +78,115 @@ class SchemaOrgMarkup implements ScraperInterface
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemtype="http://schema.org/Recipe"] [itemprop="author"]'
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemtype="http://schema.org/Recipe"] [itemprop="author"]'
+        );
     }
 
     protected function extractCategories(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeCategory"]');
+        return $this->extractArray($crawler, '[itemprop="recipeCategory"]');
     }
 
     protected function extractCookingMethod(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemtype="http://schema.org/Recipe"] [itemprop="cookingMethod"]'
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemtype="http://schema.org/Recipe"] [itemprop="cookingMethod"]'
+        );
     }
 
     protected function extractCookTime(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemprop="cookTime"]',
-                ['datetime', 'content', '_text']
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemprop="cookTime"]',
+            ['datetime', 'content', '_text']
+        );
     }
 
     protected function extractCuisines(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeCuisine"]');
+        return $this->extractArray($crawler, '[itemprop="recipeCuisine"]');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemtype="http://schema.org/Recipe"] [itemprop="description"]'
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemtype="http://schema.org/Recipe"] [itemprop="description"]'
+        );
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemtype="http://schema.org/Recipe"] [itemprop="image"]',
-                ['src']
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemtype="http://schema.org/Recipe"] [itemprop="image"]',
+            ['src']
+        );
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract(
-                $crawler,
-                '[itemprop="recipeIngredient"], [itemprop="ingredients"]'
-            );
+        return $this->extractArray(
+            $crawler,
+            '[itemprop="recipeIngredient"], [itemprop="ingredients"]'
+        );
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeInstructions"]');
+        return $this->extractArray($crawler, '[itemprop="recipeInstructions"]');
     }
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemtype="http://schema.org/Recipe"] [itemprop="name"]'
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemtype="http://schema.org/Recipe"] [itemprop="name"]'
+        );
     }
 
     protected function extractPrepTime(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemprop="prepTime"]',
-                ['datetime', 'content', '_text']
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemprop="prepTime"]',
+            ['datetime', 'content', '_text']
+        );
     }
 
     protected function extractPublisher(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemtype="http://schema.org/Recipe"] [itemprop="publisher"]'
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemtype="http://schema.org/Recipe"] [itemprop="publisher"]'
+        );
     }
 
     protected function extractTotalTime(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemprop="totalTime"]',
-                ['datetime', 'content', '_text']
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemprop="totalTime"]',
+            ['datetime', 'content', '_text']
+        );
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemtype="http://schema.org/Recipe"] [itemprop="url"]',
-                ['href']
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemtype="http://schema.org/Recipe"] [itemprop="url"]',
+            ['href']
+        );
     }
 
     protected function extractYield(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"]', ['content', '_text']);
+        return $this->extractString($crawler, '[itemprop="recipeYield"]', ['content', '_text']);
     }
 
     protected function normalizeInterval($value)

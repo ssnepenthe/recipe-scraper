@@ -3,8 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use function Stringy\create as s;
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -23,26 +21,22 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
 
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="author"]');
+        return $this->extractString($crawler, '[rel="author"]');
     }
 
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '.entry-content > p:first-of-type');
+        return $this->extractString($crawler, '.entry-content > p:first-of-type');
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[property="og:image"]', ['content']);
+        return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', ['href']);
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
     protected function preNormalizeInstructions($value)

@@ -3,14 +3,16 @@
 namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Arr;
-use RecipeScraper\Extractors\Plural;
 use Symfony\Component\DomCrawler\Crawler;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * @todo Need to find recipes with times to test against.
  */
 class WwwMyRecipesCom extends SchemaOrgJsonLd
 {
+    use ExtractsDataFromCrawler;
+
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
@@ -20,8 +22,7 @@ class WwwMyRecipesCom extends SchemaOrgJsonLd
     protected function extractIngredients(Crawler $crawler, array $json)
     {
         // There are some weird issues around UoM in LD+JSON - revert to markup.
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeIngredient"]');
+        return $this->extractArray($crawler, '[itemprop="recipeIngredient"]');
     }
 
     protected function extractUrl(Crawler $crawler, array $json)

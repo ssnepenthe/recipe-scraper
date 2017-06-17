@@ -2,8 +2,6 @@
 
 namespace RecipeScraper\Scrapers;
 
-use RecipeScraper\Extractors\Plural;
-use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
 
 class FarmFlavorCom extends SchemaOrgMarkup
@@ -18,69 +16,59 @@ class FarmFlavorCom extends SchemaOrgMarkup
 
     protected function extractCategories(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[property="article:tag"]', ['content']);
+        return $this->extractArray($crawler, '[property="article:tag"]', ['content']);
     }
 
     protected function extractCookTime(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="cookTime"] span');
+        return $this->extractString($crawler, '[itemprop="cookTime"] span');
     }
 
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="image"] [itemprop="url"]', ['content']);
+        return $this->extractString($crawler, '[itemprop="image"] [itemprop="url"]', ['content']);
     }
 
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract(
-                $crawler,
-                '[itemprop="recipeIngredient"], .recipe-ingredients p'
-            );
+        return $this->extractArray(
+            $crawler,
+            '[itemprop="recipeIngredient"], .recipe-ingredients p'
+        );
     }
 
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractor->make(Plural::class)
-            ->extract($crawler, '[itemprop="recipeInstructions"] li');
+        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
     }
 
     protected function extractName(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, 'h1.entry-title');
+        return $this->extractString($crawler, 'h1.entry-title');
     }
 
     protected function extractPrepTime(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="prepTime"] span');
+        return $this->extractString($crawler, '[itemprop="prepTime"] span');
     }
 
     protected function extractPublisher(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract(
-                $crawler,
-                '[itemprop="publisher"] [itemprop="name"]',
-                ['content']
-            );
+        return $this->extractString(
+            $crawler,
+            '[itemprop="publisher"] [itemprop="name"]',
+            ['content']
+        );
     }
 
     protected function extractUrl(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[rel="canonical"]', ['href']);
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
     protected function extractYield(Crawler $crawler)
     {
-        return $this->extractor->make(Singular::class)
-            ->extract($crawler, '[itemprop="recipeYield"] span');
+        return $this->extractString($crawler, '[itemprop="recipeYield"] span');
     }
 
     protected function preExtractionFilter(Crawler $crawler)
