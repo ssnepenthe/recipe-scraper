@@ -19,6 +19,7 @@ class HearstDigitalMedia extends SchemaOrgMarkup
     protected $supportedHosts = [
         'www.countryliving.com',
         'www.delish.com',
+        'www.esquire.com',
     ];
 
     public function supports(Crawler $crawler) : bool
