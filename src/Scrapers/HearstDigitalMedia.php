@@ -20,6 +20,7 @@ class HearstDigitalMedia extends SchemaOrgMarkup
         'www.countryliving.com',
         'www.delish.com',
         'www.esquire.com',
+        'www.goodhousekeeping.com',
     ];
 
     public function supports(Crawler $crawler) : bool
