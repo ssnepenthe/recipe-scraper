@@ -20,6 +20,10 @@ class GeneralMills extends SchemaOrgMarkup
         'www.tablespoon.com',
     ];
 
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler) && in_array(
@@ -29,21 +33,37 @@ class GeneralMills extends SchemaOrgMarkup
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractAuthor(Crawler $crawler)
     {
         return $this->extractString($crawler, '.contributorPage');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractString($crawler, '[property="og:description"]', ['content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractIngredients(Crawler $crawler)
     {
         return $this->extractArrayFromChildren(
@@ -52,11 +72,19 @@ class GeneralMills extends SchemaOrgMarkup
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '.recipePartStepDescription');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);

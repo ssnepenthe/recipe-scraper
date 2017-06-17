@@ -35,6 +35,10 @@ class SchemaOrgJsonLd implements ScraperInterface
         'yield',
     ];
 
+    /**
+     * @param  Crawler $crawler
+     * @return array
+     */
     public function scrape(Crawler $crawler) : array
     {
         if (method_exists($this, 'preExtractionFilter')) {
@@ -72,11 +76,20 @@ class SchemaOrgJsonLd implements ScraperInterface
         return $recipe;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         return ! empty($this->getJson($crawler));
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractAuthor(Crawler $crawler, array $json)
     {
         if (is_string($author = Arr::get($json, 'author.name'))) {
@@ -91,9 +104,14 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractCategories(Crawler $crawler, array $json)
     {
-        if (is_array($categories = Arr::get($json, 'recipeCategory'))) {
+        if (Arr::ofStrings($categories = Arr::get($json, 'recipeCategory'))) {
             return $categories;
         }
 
@@ -104,6 +122,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractCookingMethod(Crawler $crawler, array $json)
     {
         if (is_string($cookingMethod = Arr::get($json, 'cookingMethod'))) {
@@ -113,6 +136,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractCookTime(Crawler $crawler, array $json)
     {
         if (is_string($cookTime = Arr::get($json, 'cookTime'))) {
@@ -122,9 +150,14 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractCuisines(Crawler $crawler, array $json)
     {
-        if (is_array($cuisines = Arr::get($json, 'recipeCuisine'))) {
+        if (Arr::ofStrings($cuisines = Arr::get($json, 'recipeCuisine'))) {
             return $cuisines;
         }
 
@@ -135,6 +168,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractDescription(Crawler $crawler, array $json)
     {
         if (is_string($description = Arr::get($json, 'description'))) {
@@ -144,6 +182,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractImage(Crawler $crawler, array $json)
     {
         if (is_string($image = Arr::get($json, 'image.url'))) {
@@ -157,28 +200,43 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractIngredients(Crawler $crawler, array $json)
     {
-        if (is_array($ingredients = Arr::get($json, 'recipeIngredient'))) {
+        if (Arr::ofStrings($ingredients = Arr::get($json, 'recipeIngredient'))) {
             return $ingredients;
         }
 
-        if (is_array($ingredients = Arr::get($json, 'ingredients'))) {
+        if (Arr::ofStrings($ingredients = Arr::get($json, 'ingredients'))) {
             return $ingredients;
         }
 
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractInstructions(Crawler $crawler, array $json)
     {
-        if (is_array($instructions = Arr::get($json, 'recipeInstructions'))) {
+        if (Arr::ofStrings($instructions = Arr::get($json, 'recipeInstructions'))) {
             return $instructions;
         }
 
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractName(Crawler $crawler, array $json)
     {
         if (is_string($name = Arr::get($json, 'name'))) {
@@ -188,6 +246,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractPrepTime(Crawler $crawler, array $json)
     {
         if (is_string($prepTime = Arr::get($json, 'prepTime'))) {
@@ -197,6 +260,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractPublisher(Crawler $crawler, array $json)
     {
         if (is_string($publisher = Arr::get($json, 'publisher.name'))) {
@@ -211,6 +279,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractTotalTime(Crawler $crawler, array $json)
     {
         if (is_string($totalTime = Arr::get($json, 'totalTime'))) {
@@ -220,6 +293,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractUrl(Crawler $crawler, array $json)
     {
         if (is_string($url = Arr::get($json, 'url'))) {
@@ -229,6 +307,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractYield(Crawler $crawler, array $json)
     {
         if (is_string($yield = Arr::get($json, 'recipeYield'))) {
@@ -238,6 +321,10 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return array
+     */
     protected function getJson(Crawler $crawler)
     {
         $nodes = $crawler->filter('script[type="application/ld+json"]');
@@ -246,33 +333,48 @@ class SchemaOrgJsonLd implements ScraperInterface
             return [];
         }
 
-        $recipes = array_filter($nodes->each(function (Crawler $node) {
-            $json = json_decode($node->text(), true);
+        $recipes = array_filter($nodes->each(
+            /**
+             * @param Crawler $node
+             * @return array|false
+             */
+            function (Crawler $node) {
+                $json = json_decode($node->text(), true);
 
-            if (is_null($json)
-                || JSON_ERROR_NONE !== json_last_error()
-                || ! $this->hasSchemaOrgContext($json)
-                || ! $this->hasRecipeType($json)
-            ) {
-                return false;
+                if (is_null($json)
+                    || JSON_ERROR_NONE !== json_last_error()
+                    || ! $this->hasSchemaOrgContext($json)
+                    || ! $this->hasRecipeType($json)
+                ) {
+                    return false;
+                }
+
+                return $json;
             }
-
-            return $json;
-        }));
+        ));
 
         if (! count($recipes)) {
             return [];
         }
 
+        // @todo Verify is array?
         return array_shift($recipes);
     }
 
-    protected function hasRecipeType($json) : bool
+    /**
+     * @param  array   $json
+     * @return boolean
+     */
+    protected function hasRecipeType(array $json) : bool
     {
         return 'Recipe' === Arr::get($json, '@type');
     }
 
-    protected function hasSchemaOrgContext($json) : bool
+    /**
+     * @param  array   $json
+     * @return boolean
+     */
+    protected function hasSchemaOrgContext(array $json) : bool
     {
         // Should always be an exact match 'http://schema.org' but that doesn't seem
         // to be the case in the wild so we'll do a more lenient pattern match.
@@ -282,6 +384,10 @@ class SchemaOrgJsonLd implements ScraperInterface
         );
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function normalizeInterval($value)
     {
         if (! is_string($value)) {
@@ -291,6 +397,13 @@ class SchemaOrgJsonLd implements ScraperInterface
         return Interval::normalize($value) ?: null;
     }
 
+    /**
+     * @param  mixed $value
+     * @param  mixed $property
+     * @return mixed
+     *
+     * @todo
+     */
     protected function normalizeObject($value, $property)
     {
         if (! is_array($value)) {
@@ -308,31 +421,61 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function postNormalizeCookTime($value)
     {
         return $this->normalizeInterval($value);
     }
 
+    /**
+     * @param  mixed $value
+     * @return mixed
+     *
+     * @todo
+     */
     protected function preNormalizeImage($value)
     {
         return $this->normalizeObject($value, 'url');
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function postNormalizePrepTime($value)
     {
         return $this->normalizeInterval($value);
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function postNormalizeTotalTime($value)
     {
         return $this->normalizeInterval($value);
     }
 
+    /**
+     * @param  mixed $value
+     * @return mixed
+     *
+     * @todo
+     */
     protected function preNormalizeAuthor($value)
     {
         return $this->normalizeObject($value, 'name');
     }
 
+    /**
+     * @param  mixed $value
+     * @return mixed
+     *
+     * @todo
+     */
     protected function preNormalizePublisher($value)
     {
         return $this->normalizeObject($value, 'name');

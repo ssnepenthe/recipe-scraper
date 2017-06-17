@@ -9,7 +9,11 @@ use InvalidArgumentException;
 
 class Interval
 {
-    public static function fromString($string) : DateInterval
+    /**
+     * @param  string $string
+     * @return DateInterval
+     */
+    public static function fromString(string $string) : DateInterval
     {
         try {
             // First try standard spec.
@@ -30,6 +34,10 @@ class Interval
         return static::recalculateCarryOver($interval);
     }
 
+    /**
+     * @param  DateInterval $interval
+     * @return string
+     */
     public static function toIso8601(DateInterval $interval) : string
     {
         $format = 'P';
@@ -65,6 +73,10 @@ class Interval
         return $interval->format($format);
     }
 
+    /**
+     * @param  DateInterval $interval
+     * @return boolean
+     */
     public static function isEmpty(DateInterval $interval) : bool
     {
         return ! $interval->y
@@ -75,6 +87,10 @@ class Interval
             && ! $interval->s;
     }
 
+    /**
+     * @param  DateInterval $interval
+     * @return DateInterval
+     */
     public static function recalculateCarryOver(DateInterval $interval) : DateInterval
     {
         $dt1 = new DateTime;
@@ -85,6 +101,10 @@ class Interval
         return $dt1->diff($dt2);
     }
 
+    /**
+     * @param  string $intervalString
+     * @return string
+     */
     public static function normalize(string $intervalString) : string
     {
         try {

@@ -2,6 +2,7 @@
 
 namespace RecipeScraper\Scrapers;
 
+use RecipeScraper\Arr;
 use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
@@ -13,35 +14,59 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class ThePioneerWomanCom extends SchemaOrgMarkup
 {
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
             && 'thepioneerwoman.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractAuthor(Crawler $crawler)
     {
         return $this->extractString($crawler, '[rel="author"]');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractString($crawler, '.entry-content > p:first-of-type');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
+    /**
+     * @param  string[]|null $value
+     * @return string[]|null
+     */
     protected function preNormalizeInstructions($value)
     {
-        if (! is_array($value)) {
+        if (is_null($value) || ! Arr::ofStrings($value)) {
             return $value;
         }
 

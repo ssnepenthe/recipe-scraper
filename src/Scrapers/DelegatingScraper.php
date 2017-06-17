@@ -16,6 +16,10 @@ class DelegatingScraper implements ScraperInterface
         $this->resolver = $resolver;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return array
+     */
     public function scrape(Crawler $crawler) : array
     {
         if (false === $scraper = $this->resolver->resolve($crawler)) {
@@ -25,11 +29,18 @@ class DelegatingScraper implements ScraperInterface
         return $scraper->scrape($crawler);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         return false !== $this->resolver->resolve($crawler);
     }
 
+    /**
+     * @return array
+     */
     protected function generateEmptyRecipe() : array
     {
         return [

@@ -33,6 +33,10 @@ class SchemaOrgMarkup implements ScraperInterface
         'yield',
     ];
 
+    /**
+     * @param  Crawler $crawler
+     * @return array
+     */
     public function scrape(Crawler $crawler) : array
     {
         if (method_exists($this, 'preExtractionFilter')) {
@@ -69,13 +73,19 @@ class SchemaOrgMarkup implements ScraperInterface
         return $recipe;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
-        return (bool) $crawler
-            ->filter('[itemtype="http://schema.org/Recipe"]')
-            ->count();
+        return (bool) $crawler->filter('[itemtype="http://schema.org/Recipe"]')->count();
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractAuthor(Crawler $crawler)
     {
         return $this->extractString(
@@ -84,11 +94,19 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractCategories(Crawler $crawler)
     {
         return $this->extractArray($crawler, '[itemprop="recipeCategory"]');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractCookingMethod(Crawler $crawler)
     {
         return $this->extractString(
@@ -97,6 +115,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractCookTime(Crawler $crawler)
     {
         return $this->extractString(
@@ -106,11 +128,19 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractCuisines(Crawler $crawler)
     {
         return $this->extractArray($crawler, '[itemprop="recipeCuisine"]');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractString(
@@ -119,6 +149,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractString(
@@ -128,6 +162,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractIngredients(Crawler $crawler)
     {
         return $this->extractArray(
@@ -136,11 +174,19 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '[itemprop="recipeInstructions"]');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractName(Crawler $crawler)
     {
         return $this->extractString(
@@ -149,6 +195,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractPrepTime(Crawler $crawler)
     {
         return $this->extractString(
@@ -158,6 +208,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractPublisher(Crawler $crawler)
     {
         return $this->extractString(
@@ -166,6 +220,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractTotalTime(Crawler $crawler)
     {
         return $this->extractString(
@@ -175,6 +233,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractString(
@@ -184,11 +246,19 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractYield(Crawler $crawler)
     {
         return $this->extractString($crawler, '[itemprop="recipeYield"]', ['content', '_text']);
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function normalizeInterval($value)
     {
         if (! is_string($value)) {
@@ -198,16 +268,28 @@ class SchemaOrgMarkup implements ScraperInterface
         return Interval::normalize($value) ?: null;
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function postNormalizeCookTime($value)
     {
         return $this->normalizeInterval($value);
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function postNormalizePrepTime($value)
     {
         return $this->normalizeInterval($value);
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function postNormalizeTotalTime($value)
     {
         return $this->normalizeInterval($value);

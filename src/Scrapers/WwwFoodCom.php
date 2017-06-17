@@ -14,18 +14,32 @@ class WwwFoodCom extends SchemaOrgJsonLd
 {
     use ExtractsDataFromCrawler;
 
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
             && 'www.food.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array $json
+     * @return string[]|null
+     */
     protected function extractInstructions(Crawler $crawler, array $json)
     {
         // Instructions in LD+JSON are smashed into one big text blob.
         return $this->extractArray($crawler, '.directions li');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array $json
+     * @return string|null
+     */
     protected function extractUrl(Crawler $crawler, array $json)
     {
         // URL is missing from LD+JSON.

@@ -25,6 +25,10 @@ class HearstDigitalMedia extends SchemaOrgMarkup
         'www.womansday.com',
     ];
 
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler) && in_array(
@@ -34,26 +38,46 @@ class HearstDigitalMedia extends SchemaOrgMarkup
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractAuthor(Crawler $crawler)
     {
         return $this->extractString($crawler, '[rel="author"]');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractCategories(Crawler $crawler)
     {
         return $this->extractArray($crawler, '.tags--top .tags--item');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractDescription(Crawler $crawler)
     {
         return $this->extractString($crawler, '[name="description"]', ['content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractIngredients(Crawler $crawler)
     {
         return $this->extractArray(
@@ -62,11 +86,19 @@ class HearstDigitalMedia extends SchemaOrgMarkup
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractUrl(Crawler $crawler)
     {
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);

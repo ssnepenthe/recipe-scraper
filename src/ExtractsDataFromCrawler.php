@@ -82,7 +82,7 @@ trait ExtractsDataFromCrawler
                     return null;
                 }
 
-                $subValues = $childNodes->each(
+                $subValues = array_filter($childNodes->each(
                     /**
                      * @param Crawler $subNode
                      * @return string|null
@@ -100,9 +100,9 @@ trait ExtractsDataFromCrawler
 
                         return null;
                     }
-                );
+                ));
 
-                return implode(' ', array_filter($subValues));
+                return implode(' ', $subValues);
             }
         ));
 

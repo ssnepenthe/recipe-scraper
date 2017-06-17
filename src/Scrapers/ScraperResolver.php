@@ -18,12 +18,17 @@ class ScraperResolver implements ScraperResolverInterface
         }
     }
 
+    /**
+     * @param  ScraperInterface $scraper
+     * @return void
+     */
     public function add(ScraperInterface $scraper)
     {
         $this->scrapers[] = $scraper;
     }
 
     /**
+     * @param  Crawler $crawler
      * @return ScraperInterface|false
      */
     public function resolve(Crawler $crawler)

@@ -10,33 +10,57 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class WwwBhgCom extends SchemaOrgMarkup
 {
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
             && 'www.bhg.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return null
+     */
     protected function extractCookingMethod(Crawler $crawler)
     {
         // Cooking method itemprop is used on cooktimes...
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractImage(Crawler $crawler)
     {
         return $this->extractString($crawler, '.recipe__image', ['content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractIngredients(Crawler $crawler)
     {
         return $this->extractArrayFromChildren($crawler, '[itemprop="recipeIngredient"]');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '.recipe__direction, .recipe__instructionGroupHeader');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string|null
+     */
     protected function extractName(Crawler $crawler)
     {
         return $this->extractString($crawler, 'h1[itemprop="name"]');

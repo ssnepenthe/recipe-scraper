@@ -10,6 +10,10 @@ class ScrippsNetworks extends SchemaOrgJsonLd
 {
     use ExtractsDataFromCrawler;
 
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
     public function supports(Crawler $crawler) : bool
     {
         $host = parse_url($crawler->getUri(), PHP_URL_HOST);
@@ -19,22 +23,39 @@ class ScrippsNetworks extends SchemaOrgJsonLd
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array $json
+     * @return string|null
+     */
     protected function extractImage(Crawler $crawler, array $json)
     {
         // Largest image is not available via LD+JSON.
         return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function preNormalizeCookTime($value)
     {
         return $this->stripPeriodFromIntervalString($value);
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function preNormalizeTotalTime($value)
     {
         return $this->stripPeriodFromIntervalString($value);
     }
 
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function stripPeriodFromIntervalString($value)
     {
         if (! is_string($value)) {
