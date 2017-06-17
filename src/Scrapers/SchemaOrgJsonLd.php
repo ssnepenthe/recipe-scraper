@@ -15,7 +15,14 @@ use RecipeScraper\Extractors\ExtractorManager;
  */
 class SchemaOrgJsonLd implements ScraperInterface
 {
+    /**
+     * @var ExtractorManager
+     */
     protected $extractor;
+
+    /**
+     * @var string[]
+     */
     protected $properties = [
         'author',
         'categories',

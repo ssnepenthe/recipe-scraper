@@ -6,6 +6,9 @@ use InvalidArgumentException;
 
 class ExtractorManager
 {
+    /**
+     * @var array<string, ExtractorInterface|null>
+     */
     protected $instances = [
         Plural::class => null,
         PluralFromChildren::class => null,

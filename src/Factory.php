@@ -4,8 +4,19 @@ namespace RecipeScraper;
 
 class Factory
 {
+    /**
+     * @var Scrapers\DelegatingScraper|null
+     */
     protected static $delegatingScraper = null;
+
+    /**
+     * @var Extractors\ExtractorManager|null
+     */
     protected static $extractor = null;
+
+    /**
+     * @var array<string, Scrapers\ScraperInterface|null>
+     */
     protected static $scrapers = [
         Scrapers\AllRecipesCom::class => null,
         Scrapers\CookieAndKateCom::class => null,

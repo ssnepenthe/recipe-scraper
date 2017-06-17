@@ -16,6 +16,9 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class HearstDigitalMedia extends SchemaOrgMarkup
 {
+    /**
+     * @var string[]
+     */
     protected $supportedHosts = [
         'www.countryliving.com',
         'www.delish.com',

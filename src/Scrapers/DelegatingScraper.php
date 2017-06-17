@@ -6,6 +6,9 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class DelegatingScraper implements ScraperInterface
 {
+    /**
+     * @var ScraperResolverInterface
+     */
     protected $resolver;
 
     public function __construct(ScraperResolverInterface $resolver)

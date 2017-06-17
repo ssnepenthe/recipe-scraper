@@ -12,7 +12,14 @@ use RecipeScraper\Extractors\ExtractorManager;
 
 class SchemaOrgMarkup implements ScraperInterface
 {
+    /**
+     * @var ExtractorManager
+     */
     protected $extractor;
+
+    /**
+     * @var string[]
+     */
     protected $properties = [
         'author',
         'categories',

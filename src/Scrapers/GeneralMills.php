@@ -14,6 +14,9 @@ use RecipeScraper\Extractors\PluralFromChildren;
  */
 class GeneralMills extends SchemaOrgMarkup
 {
+    /**
+     * @var string[]
+     */
     protected $supportedHosts = [
         'www.bettycrocker.com',
         'www.pillsbury.com',

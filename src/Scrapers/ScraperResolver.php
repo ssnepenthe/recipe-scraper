@@ -6,6 +6,9 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class ScraperResolver implements ScraperResolverInterface
 {
+    /**
+     * @var ScraperInterface[]
+     */
     protected $scrapers = [];
 
     public function __construct(array $scrapers = [])
