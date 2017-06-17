@@ -7,18 +7,26 @@ use RecipeScraper\Extractors\Singular;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
- * Seems to have some recipes with canonical set to another site... Looks like
- * recipes are shared across sites in their network so URL may point to a different
- * domain.
+ * They seem to cross-post some recipes to multiple sites - canonical may point to an
+ * entirely different domain.
  *
  * Has LD+JSON but it is malformed on some pages.
+ *
+ * Some recipes have two recipeYield items.
  */
-class WwwDelishCom extends SchemaOrgMarkup
+class HearstDigitalMedia extends SchemaOrgMarkup
 {
+    protected $supportedHosts = [
+        'www.delish.com',
+    ];
+
     public function supports(Crawler $crawler) : bool
     {
-        return parent::supports($crawler)
-            && 'www.delish.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        return parent::supports($crawler) && in_array(
+            parse_url($crawler->getUri(), PHP_URL_HOST),
+            $this->supportedHosts,
+            true
+        );
     }
 
     protected function extractAuthor(Crawler $crawler)
