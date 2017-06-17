@@ -6,10 +6,10 @@ use Symfony\Component\DomCrawler\Crawler;
 
 interface ScraperInterface
 {
-	/**
-	 * @param  Crawler $crawler
-	 * @return array
-	 */
+    /**
+     * @param  Crawler $crawler
+     * @return array
+     */
     public function scrape(Crawler $crawler) : array;
 
     /**

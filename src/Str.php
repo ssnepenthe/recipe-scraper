@@ -6,10 +6,10 @@ use function Stringy\create as s;
 
 class Str
 {
-	/**
-	 * @param  string $value
-	 * @return string
-	 */
+    /**
+     * @param  string $value
+     * @return string
+     */
     public static function normalize(string $value) : string
     {
         return s($value)

@@ -7,13 +7,13 @@ use RecipeScraper\Scrapers\WwwTasteOfHomeCom;
 
 class WwwTasteOfHomeComTest extends ScraperTestCase
 {
-	protected function getHost()
-	{
-    	return 'www.tasteofhome.com';
-	}
+    protected function getHost()
+    {
+        return 'www.tasteofhome.com';
+    }
 
-	protected function makeScraper()
-	{
-		return new WwwTasteOfHomeCom;
-	}
+    protected function makeScraper()
+    {
+        return new WwwTasteOfHomeCom;
+    }
 }

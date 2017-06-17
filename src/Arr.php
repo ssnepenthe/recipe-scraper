@@ -59,7 +59,8 @@ class Arr
      */
     public static function ofStrings($value) : bool
     {
-        return is_array($value) && ! count(array_filter($value,
+        return is_array($value) && ! count(array_filter(
+            $value,
             /**
              * @param  mixed $val
              * @return boolean
