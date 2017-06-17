@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'author' => 'Woman\'s Day Kitchen',
+    'categories' => [
+        'Food + Recipes',
+        'Food + Drinks',
+        'chicken recipes',
+        'cuban recipes',
+        'easy chicken recipes',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'WomansDay.com\'s Cuban Chicken & Vegetables Recipe is a perfect blend of expertly spiced chicken among a sweet medley of refreshing healthy vegetables.',
+    'image' => 'http://wdy.h-cdn.co/assets/15/14/980x490/landscape-1427752359-54ef8a4014d2d-cuban-chicken-vegetables-recipe-lg-1.jpg',
+    'ingredients' => [
+        '8 small chicken drumsticks (about 1 1/4 lb)',
+        '2 small bell peppers',
+        '2 c. butternut squash chunks',
+        '¾ c. orange juice',
+        '½ c. chopped cilantro',
+        '1 tbsp. olive oil',
+        '2 tsp. each ground cumin and minced garlic',
+        '1 tsp. dried oregano',
+        '½ tsp. salt',
+    ],
+    'instructions' => [
+        'Position racks to divide oven in thirds. Heat oven to 500ºF. You\'ll need 2 rimmed baking pans lined with nonstick foil.',
+        'Place half of the chicken, peppers and squash on each of the 2 pans.',
+        'Whisk remaining ingredients in a bowl. Pour all but 1⁄4 cup over chicken and vegetables. Toss to coat. Reserve remaining cilantro mixture for serving.',
+        'Place pans in oven and roast 15 minutes. Remove pans and toss vegetables and chicken. Return to oven and roast 15 minutes or until chicken is cooked through and vegetables are tender.',
+        'Drizzle servings with reserved cilantro mixture.',
+    ],
+    'name' => 'Cuban Chicken and Vegetables',
+    'prepTime' => 'PT10M',
+    'publisher' => null,
+    'totalTime' => 'PT40M',
+    'url' => 'http://www.womansday.com/food-recipes/food-drinks/recipes/a11228/cuban-chicken-vegetables-recipe-122573/',
+    'yield' => 'Serves: 4',
+];

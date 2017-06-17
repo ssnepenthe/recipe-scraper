@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'author' => 'Woman\'s Day Kitchen',
+    'categories' => [
+        'Food + Recipes',
+        'Food + Drinks',
+        'vegetarian',
+        'side dish',
+        'apple',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'Rich, pungent blue cheese gives this crunchy slaw a surprising creaminess and luxurious flavor.',
+    'image' => 'http://wdy.h-cdn.co/assets/cm/15/09/1600x800/54ef93d0e90f0_-_creamy-blue-cheese-slaw-recipe-wdy0114-s2.jpg',
+    'ingredients' => [
+        '½ c. reduced-fat sour cream',
+        '3 tbsp. fresh lemon juice',
+        '1 tsp. granulated sugar',
+        'kosher salt',
+        'Pepper',
+        '1 tbsp. fennel seeds',
+        '½ small red cabbage',
+        '½ small Red Onion',
+        '1 Granny Smith apple',
+        '½ c. chopped fresh flat-leaf',
+        '2 oz. blue cheese',
+    ],
+    'instructions' => [
+        'In a large bowl, whisk together the sour cream, lemon juice, sugar, 1/2 teaspoon salt, and 1/4 teaspoon pepper; stir in the fennel seeds (if using).',
+        'Add the cabbage, onion, and apple and toss to coat. Fold in the parsley and all but 1 tablespoon blue cheese. Sprinkle the remaining blue cheese over the top before serving.',
+    ],
+    'name' => 'Creamy Blue Cheese Slaw',
+    'prepTime' => 'PT15M',
+    'publisher' => null,
+    'totalTime' => 'PT15M',
+    'url' => 'http://www.womansday.com/food-recipes/food-drinks/recipes/a12319/creamy-blue-cheese-slaw-recipe-wdy0114/',
+    'yield' => 'Yield: 4 servings (cost per serving of $1.27)',
+];
