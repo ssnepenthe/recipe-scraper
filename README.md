@@ -37,10 +37,10 @@ Check whether a scraper supports a given crawler using the `->supports()` method
 $scraper->supports($crawler); // true
 ```
 
-If you want to be able to scrape recipes from all supported sites, create a `DelegatingScraper` using the `ScraperFactory`:
+If you want to be able to scrape recipes from all supported sites, create a `DelegatingScraper` using the `Factory` class:
 
 ```
-$scraper = RecipeScraper\Scrapers\ScraperFactory::make();
+$scraper = RecipeScraper\Factory::make();
 ```
 
 Finally, scrape a recipe by passing the crawler to the `->scrape()` method:
@@ -74,7 +74,7 @@ Altogether:
 ```
 $client = new Goutte\Client;
 $crawler = $client->request('GET', 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/');
-$scraper = RecipeScraper\Scrapers\ScraperFactory::make();
+$scraper = RecipeScraper\Factory::make();
 
 $recipe = $scraper->scrape($crawler);
 
