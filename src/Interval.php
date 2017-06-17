@@ -84,4 +84,14 @@ class Interval
 
         return $dt1->diff($dt2);
     }
+
+    public static function normalize(string $intervalString) : string
+    {
+        try {
+            return static::toIso8601(static::fromString($intervalString));
+        } catch (\Exception $e) {
+            // Invalid or empty interval.
+            return '';
+        }
+    }
 }

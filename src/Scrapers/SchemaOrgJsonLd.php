@@ -292,12 +292,7 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $value;
         }
 
-        try {
-            return Interval::toIso8601(Interval::fromString($value));
-        } catch (\Exception $e) {
-            // Invalid or empty interval...
-            return null;
-        }
+        return Interval::normalize($value) ?: null;
     }
 
     protected function normalizeObject($value, $property)
