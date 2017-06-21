@@ -45,44 +45,10 @@ abstract class ScraperTestCase extends TestCase
             $expectedRecipe = $this->getResults($crawler);
 
             $this->assertEquals($expectedRecipe, $actualRecipe, 'URL: ' . $crawler->getUri());
-
-            // $this->assertRecipeEquals($expectedRecipe, $actualRecipe);
-            // $this->assertCorrectResults($crawler);
         }
     }
 
-    // protected function assertRecipeEquals($expected, $actual, $message = '')
-    // {
-    //     $constraint = new ConstraintRecipeIsEqual($expected);
 
-    //     static::assertThat($actual, $constraint, $message);
-    // }
-
-    // protected function assertCorrectResults($crawler)
-    // {
-    //     $actual = $this->scraper->scrape($crawler);
-    //     $expected = $this->getResults($crawler);
-    //     $url = $crawler->getUri();
-
-    //     foreach ($expected as $key => $value) {
-    //         if (is_array($value)) {
-    //             $this->assertTrue(
-    //                 is_array($actual[$key]),
-    //                 "{$url} - {$key}: expected array, got " . gettype($actual[$key])
-    //             );
-
-    //             foreach ($value as $k => $v) {
-    //                 $this->assertSame(
-    //                     $v,
-    //                     $actual[$key][$k],
-    //                     "{$url} - {$key}[{$k}]"
-    //                 );
-    //             }
-    //         } else {
-    //             $this->assertSame($value, $actual[$key], "{$url} - {$key}");
-    //         }
-    //     }
-    // }
 
     protected function getHtml($url)
     {
