@@ -211,7 +211,15 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $ingredients;
         }
 
+        if (is_string($ingredients)) {
+            return [$ingredients];
+        }
+
         if (Arr::ofStrings($ingredients = Arr::get($json, 'ingredients'))) {
+            return $ingredients;
+        }
+
+        if (is_string($ingredients)) {
             return $ingredients;
         }
 
@@ -227,6 +235,10 @@ class SchemaOrgJsonLd implements ScraperInterface
     {
         if (Arr::ofStrings($instructions = Arr::get($json, 'recipeInstructions'))) {
             return $instructions;
+        }
+
+        if (is_string($instructions)) {
+            return [$instructions];
         }
 
         return null;
