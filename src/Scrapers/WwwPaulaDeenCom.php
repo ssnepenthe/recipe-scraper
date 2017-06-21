@@ -5,7 +5,6 @@ namespace RecipeScraper\Scrapers;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
- * More thorough testing on url - there are two canonical links per page.
  * Look for recipes with ingredient groups to test.
  */
 class WwwPaulaDeenCom extends SchemaOrgMarkup
