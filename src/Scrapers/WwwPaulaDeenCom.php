@@ -33,15 +33,6 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
      * @param  Crawler $crawler
      * @return string[]|null
      */
-    protected function extractIngredients(Crawler $crawler)
-    {
-        return $this->extractArray($crawler, '.recipe-detail-wrapper .ingredients li');
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '.recipe-detail-wrapper .preparation p');
@@ -61,23 +52,8 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
      * @param  Crawler $crawler
      * @return string|null
      */
-    protected function extractTotalTime(Crawler $crawler)
-    {
-        // Not perfect - preptime and cooktime combined in the print view.
-        return $this->extractString($crawler, '.prep-cook .data');
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
     protected function extractUrl(Crawler $crawler)
     {
-        // I don't like this... There are two canonical links, they don't always
-        // match and one is generally invalid.
-        $nodes = $crawler->filter('[rel="canonical"]');
-        $value = $nodes->last()->attr('href') ?: '';
-
-        return trim($value) ?: null;
+        return $this->extractString($crawler, '[property="og:url"]', ['content']);
     }
 }

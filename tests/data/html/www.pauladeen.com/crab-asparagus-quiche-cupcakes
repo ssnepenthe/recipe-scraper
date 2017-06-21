@@ -49,11 +49,35 @@
 <link rel="stylesheet" type="text/css" href="http://static.pauladeen.com/skin/frontend/rwd/pdn/css/popup-ingredients.css" media="all" />
 <link rel="stylesheet" type="text/css" href="http://static.pauladeen.com/skin/frontend/rwd/pdn/js/js-ui/jquery-ui.min.css" media="all" />
 <link rel="stylesheet" type="text/css" href="http://static.pauladeen.com/skin/frontend/rwd/pdn/css/favorite-search-toolbar.css" media="all" />
+<script type="text/javascript" src="http://static.pauladeen.com/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/lib/jquery/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/lib/ccard.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/prototype/validation.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/varien/js.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/varien/form.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/mage/translate.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/js/mage/cookies.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/js/ebizmarts/mailchimp/campaignCatcher.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/js/varien/configurable.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/js/calendar/calendar.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/js/calendar/calendar-setup.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/js/saffron/player.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/modernizr.custom.min.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/selectivizr.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/matchMedia.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/matchMedia.addListener.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/enquire.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/app.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/jquery.cycle2.swipe.min.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/slideshow.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/imagesloaded.js"></script>
+<script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/minicart.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/pdn/src/bootstrap-sass-official/assets/javascripts/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/default/js/lib/elevatezoom/jquery.elevateZoom-3.0.8.min.js"></script>
 <script type="text/javascript" src="http://static.pauladeen.com/skin/frontend/rwd/pdn/js/favorite.js"></script>
@@ -69,6 +93,7 @@
 <link rel="stylesheet" type="text/css" href="http://static.pauladeen.com/skin/frontend/rwd/default/css/madisonisland-ie8.css" media="all" />
 <![endif]-->
 <!--[if (gte IE 9) | (IEMobile)]><!-->
+<link rel="stylesheet" type="text/css" href="http://static.pauladeen.com/skin/frontend/rwd/pdn/css/styles.css" media="all" />
 <link rel="stylesheet" type="text/css" href="http://static.pauladeen.com/skin/frontend/rwd/default/css/madisonisland.css" media="all" />
 <!--<![endif]-->
 
@@ -394,7 +419,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
       //<![CDATA[
           var Manager;
 		      Manager = new AjaxSolr.Manager({solrUrl: 'http://www.pauladeen.com/search/ajax/query?r='});
-          Manager.addWidget(new AjaxSolr.AutocompleteWidget({id:'autocomplete',target:'#search_mini_form',inputid: $$("#search:not([autocomplete~=off])").first(),containerid:'search_mini_form',searchTextPlaceHolder:'Search entire store here...',currencySign:'&nbsp;$&nbsp;',currencycode:'USD',ajaxBaseUrl:'http://www.pauladeen.com',searchResultUrl:'http://www.pauladeen.com/search',viewAllResultText:'View all search results for %s',categoryText:'Categories',viewAllCategoryText:'View all categories >>',viewAllBrandsText:'View all brands >>',keywordsText:'Keywords',productText:'product',productsText:'products',brandText:'Brands',storetimestamp:'1497441101',storeid:'1',customergroupid:'0',categoryRedirect:0,showBrand:0,showBrandAttributeCode:'manufacturer',displaykeywordsuggestion:false,displayResultOfText:'Search results for %s',displayResultOfInsteadText:'Search results for %s instead',currencyPos:'before',displayThumb:'1',allowFilter:'1',categoryLimit:3,brandLimit:3,fromPriceText:'from'}));
+          Manager.addWidget(new AjaxSolr.AutocompleteWidget({id:'autocomplete',target:'#search_mini_form',inputid: $$("#search:not([autocomplete~=off])").first(),containerid:'search_mini_form',searchTextPlaceHolder:'Search entire store here...',currencySign:'&nbsp;$&nbsp;',currencycode:'USD',ajaxBaseUrl:'http://www.pauladeen.com',searchResultUrl:'http://www.pauladeen.com/search',viewAllResultText:'View all search results for %s',categoryText:'Categories',viewAllCategoryText:'View all categories >>',viewAllBrandsText:'View all brands >>',keywordsText:'Keywords',productText:'product',productsText:'products',brandText:'Brands',storetimestamp:'1498045705',storeid:'1',customergroupid:'0',categoryRedirect:0,showBrand:0,showBrandAttributeCode:'manufacturer',displaykeywordsuggestion:false,displayResultOfText:'Search results for %s',displayResultOfInsteadText:'Search results for %s instead',currencyPos:'before',displayThumb:'1',allowFilter:'1',categoryLimit:3,brandLimit:3,fromPriceText:'from'}));
 		      Manager.init();
       //]]>
       </script>
@@ -494,13 +519,19 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
     
     <div class="media-body js-product-media-body">
         <div class="product-name">
+            <!-- RICH SNIPPET: name -->
             <h1 itemprop="name">
                 Crab &amp; Asparagus Quiche Cupcakes                <span>Recipe by Paula Deen</span>
             </h1>
+            <!-- RICH SNIPPET: image -->
+            <div class="hide">
+              <img itemprop="image" src="http://static.pauladeen.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/r/crabquicherecipe_1.jpg" alt="">
+            </div>
 
             <div class="recipe-info">
                 <h3 class="sub-title">Level: Easy</h3>
-                                <h3 class="sub-title">Time: 0 MINUTES</h3>
+                                <!-- RICH SNIPPET: totalTime -->
+                <h3 class="sub-title" itemprop="totalTime">Time: 0 MINUTES</h3>
 
                 <div class="product-rating-box">
                                                               <div class="ratings">
@@ -588,30 +619,30 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
                     <div class="detail-box no-border ingredients">
     <h2 class="title">Ingredients</h2>
         <ul>
-        
-            <li>1 cup unsalted butter, cold</li>
-            
-            <li>1 cup all-purpose flour, plus 4 teaspoons</li>
-            
-            <li>3 tablespoons cold water</li>
-            
-            <li>1/4 teaspoon cracked black pepper</li>
-            
-            <li>1/8 teaspoon salt, plus 1/4 teaspoon</li>
-            
-            <li>1/2 lb asparagus</li>
-            
-            <li>1 tablespoon olive oil</li>
-            
-            <li>1/3 cup shredded gruyere</li>
-            
-            <li>3 large eggs</li>
-            
-            <li>1 cup heavy whipping cream</li>
-            
-            <li>1 pinch dry mustard</li>
-            
-            <li>1/2 cup crabmeat, cooked</li>
+                    <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1 cup unsalted butter, cold</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1 cup all-purpose flour, plus 4 teaspoons</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">3 tablespoons cold water</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1/4 teaspoon cracked black pepper</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1/8 teaspoon salt, plus 1/4 teaspoon</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1/2 lb asparagus</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1 tablespoon olive oil</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1/3 cup shredded gruyere</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">3 large eggs</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1 cup heavy whipping cream</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1 pinch dry mustard</li>
+                        <!-- RICH SNIPPET: ingredients -->
+            <li itemprop="ingredients">1/2 cup crabmeat, cooked</li>
                 </ul>
 </div>
             <div class="detail-box preparation">
@@ -1288,7 +1319,7 @@ Serve warm.	                	            </div>
                 ',top=' + top
               );
     
-        newwindow=window.open('https://www.facebook.com/dialog/oauth?client_id=1524340277783864&redirect_uri=https%3A%2F%2Fwww.pauladeen.com%2Fsociallogin%2Ffblogin%2Flogin%2Fauth%2F1%2F&state=020c1899676140cfa0f74830a2f2ea5a&display=popup&scope=email','Login_by_facebook',features);
+        newwindow=window.open('https://www.facebook.com/dialog/oauth?client_id=1524340277783864&redirect_uri=https%3A%2F%2Fwww.pauladeen.com%2Fsociallogin%2Ffblogin%2Flogin%2Fauth%2F1%2F&state=3b5086355643cf6c9c7bbf89550eedfe&display=popup&scope=email','Login_by_facebook',features);
     
         if (window.focus) {
             newwindow.focus()
@@ -1400,6 +1431,6 @@ Serve warm.	                	            </div>
     </script>
     </div>
 </div>
-<!-- Paged served by: pdn-web-prod1.int.pauladeen.com -->
+<!-- Paged served by: ip-172-30-3-186 -->
 </body>
 </html>

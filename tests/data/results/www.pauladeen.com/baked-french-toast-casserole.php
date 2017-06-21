@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'A sweet and delicious baked french toast casserole with a praline topping.',
-    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/b/a/baked_french_toast_casserole_1.jpg',
+    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/a/baked_french_toast_casserole_1.jpg',
     'ingredients' => [
         'dash salt',
         '1 teaspoon ground nutmeg, divided',
