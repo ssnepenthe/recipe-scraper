@@ -40,35 +40,49 @@ abstract class ScraperTestCase extends TestCase
             $crawler = $this->makeCrawler($url);
 
             $this->assertTrue($this->scraper->supports($crawler));
-            $this->assertCorrectResults($crawler);
+
+            $actualRecipe = $this->scraper->scrape($crawler);
+            $expectedRecipe = $this->getResults($crawler);
+
+            $this->assertEquals($expectedRecipe, $actualRecipe, 'URL: ' . $crawler->getUri());
+
+            // $this->assertRecipeEquals($expectedRecipe, $actualRecipe);
+            // $this->assertCorrectResults($crawler);
         }
     }
 
-    protected function assertCorrectResults($crawler)
-    {
-        $actual = $this->scraper->scrape($crawler);
-        $expected = $this->getResults($crawler);
-        $url = $crawler->getUri();
+    // protected function assertRecipeEquals($expected, $actual, $message = '')
+    // {
+    //     $constraint = new ConstraintRecipeIsEqual($expected);
 
-        foreach ($expected as $key => $value) {
-            if (is_array($value)) {
-                $this->assertTrue(
-                    is_array($actual[$key]),
-                    "{$url} - {$key}: expected array, got " . gettype($actual[$key])
-                );
+    //     static::assertThat($actual, $constraint, $message);
+    // }
 
-                foreach ($value as $k => $v) {
-                    $this->assertSame(
-                        $v,
-                        $actual[$key][$k],
-                        "{$url} - {$key}[{$k}]"
-                    );
-                }
-            } else {
-                $this->assertSame($value, $actual[$key], "{$url} - {$key}");
-            }
-        }
-    }
+    // protected function assertCorrectResults($crawler)
+    // {
+    //     $actual = $this->scraper->scrape($crawler);
+    //     $expected = $this->getResults($crawler);
+    //     $url = $crawler->getUri();
+
+    //     foreach ($expected as $key => $value) {
+    //         if (is_array($value)) {
+    //             $this->assertTrue(
+    //                 is_array($actual[$key]),
+    //                 "{$url} - {$key}: expected array, got " . gettype($actual[$key])
+    //             );
+
+    //             foreach ($value as $k => $v) {
+    //                 $this->assertSame(
+    //                     $v,
+    //                     $actual[$key][$k],
+    //                     "{$url} - {$key}[{$k}]"
+    //                 );
+    //             }
+    //         } else {
+    //             $this->assertSame($value, $actual[$key], "{$url} - {$key}");
+    //         }
+    //     }
+    // }
 
     protected function getHtml($url)
     {
