@@ -32,7 +32,8 @@ class WwwFoodCom extends SchemaOrgJsonLd
     protected function extractInstructions(Crawler $crawler, array $json)
     {
         // Instructions in LD+JSON are smashed into one big text blob.
-        return $this->extractArray($crawler, '.directions li');
+        // Last child contains "submit a correction" link.
+        return $this->extractArray($crawler, '.directions li:not(:last-child)');
     }
 
     /**
