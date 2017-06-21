@@ -12,8 +12,12 @@ trait ExtractsDataFromCrawler
      * @param  string[] $attrs
      * @return string[]|null
      */
-    protected function extractArray(Crawler $crawler, string $selector, array $attrs = ['_text'])
+    protected function extractArray(Crawler $crawler, string $selector, array $attrs = [])
     {
+        if (empty($attrs) || ! Arr::ofStrings($attrs)) {
+            $attrs = ['_text'];
+        }
+
         $nodes = $crawler->filter($selector);
 
         if (! $nodes->count()) {
@@ -52,8 +56,12 @@ trait ExtractsDataFromCrawler
     protected function extractArrayFromChildren(
         Crawler $crawler,
         string $selector,
-        array $attrs = ['_text']
+        array $attrs = []
     ) {
+        if (empty($attrs) || ! Arr::ofStrings($attrs)) {
+            $attrs = ['_text'];
+        }
+
         $nodes = $crawler->filter($selector);
 
         if (! $nodes->count()) {
@@ -115,8 +123,12 @@ trait ExtractsDataFromCrawler
      * @param  string[] $attrs
      * @return string|null
      */
-    protected function extractString(Crawler $crawler, string $selector, array $attrs = ['_text'])
+    protected function extractString(Crawler $crawler, string $selector, array $attrs = [])
     {
+        if (empty($attrs) || ! Arr::ofStrings($attrs)) {
+            $attrs = ['_text'];
+        }
+
         $nodes = $crawler->filter($selector);
 
         if (! $nodes->count()) {
