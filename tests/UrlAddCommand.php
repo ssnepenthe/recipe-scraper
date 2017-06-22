@@ -14,7 +14,8 @@ class UrlAddCommand extends Command
 
     protected $template = "<?php
 
-return %s;";
+return %s;
+";
 
     protected function configure()
     {
