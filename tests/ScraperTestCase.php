@@ -3,8 +3,6 @@
 namespace RecipeScraperTests;
 
 use PHPUnit\Framework\TestCase;
-use RecipeScraperTests\UsesTestData;
-use Symfony\Component\DomCrawler\Crawler;
 
 abstract class ScraperTestCase extends TestCase
 {
@@ -39,51 +37,22 @@ abstract class ScraperTestCase extends TestCase
         foreach ($this->urls as $url) {
             $crawler = $this->makeCrawler($url);
 
-            $this->assertTrue($this->scraper->supports($crawler));
-
-            $actualRecipe = $this->scraper->scrape($crawler);
-            $expectedRecipe = $this->getResults($crawler);
-
-            $this->assertEquals($expectedRecipe, $actualRecipe, 'URL: ' . $crawler->getUri());
-        }
-    }
-
-
-
-    protected function getHtml($url)
-    {
-        $htmlPath = $this->getHtmlDataFilePathFromUrl($url);
-
-        if (! file_exists($htmlPath)) {
-            $this->fail(
-                "Unable to locate test HTML for {$url} at {$htmlPath}\n"
-                    . 'Please run ./bin/test-tools get-html --missing'
+            $this->assertEquals(
+                $this->getResults($crawler),
+                $this->scraper->scrape($crawler),
+                'URL: ' . $crawler->getUri()
             );
         }
-
-        return file_get_contents($htmlPath);
     }
 
-    protected function getResults($crawler)
+    /** @test */
+    public function it_supports_all_provided_urls()
     {
-        $url = $crawler->getUri();
-        $resultsPath = $this->getResultsDataFilePathFromUrl($url);
+        foreach ($this->urls as $url) {
+            $crawler = $this->makeCrawler($url);
 
-        if (! file_exists($resultsPath)) {
-            $this->fail(
-                "Unable to locate test results for {$url} at {$resultsPath}\n"
-                    . 'Please run ./bin/test-tools stub-results'
-            );
+            $this->assertTrue($this->scraper->supports($crawler), 'URL: ' . $crawler->getUri());
         }
-
-        $results = static::includeFile($resultsPath);
-
-        return $results;
-    }
-
-    protected function makeCrawler($url)
-    {
-        return new Crawler($this->getHtml($url), $url);
     }
 
     abstract protected function getHost();

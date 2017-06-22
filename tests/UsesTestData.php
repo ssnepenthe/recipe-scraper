@@ -2,6 +2,8 @@
 
 namespace RecipeScraperTests;
 
+use Symfony\Component\DomCrawler\Crawler;
+
 trait UsesTestData
 {
     protected function getDataDir($type = null)
@@ -18,6 +20,20 @@ trait UsesTestData
     protected function getDataFilePath($file, $type = null)
     {
         return $this->getDataDir($type) . DIRECTORY_SEPARATOR . $file;
+    }
+
+    protected function getHtml($url)
+    {
+        $htmlPath = $this->getHtmlDataFilePathFromUrl($url);
+
+        if (! file_exists($htmlPath)) {
+            $this->fail(
+                "Unable to locate test HTML for {$url} at {$htmlPath}\n"
+                    . 'Please run ./bin/test-tools get-html --missing'
+            );
+        }
+
+        return file_get_contents($htmlPath);
     }
 
     protected function getHtmlDataDir()
@@ -51,6 +67,23 @@ trait UsesTestData
             : '';
 
         return $host . DIRECTORY_SEPARATOR . $path;
+    }
+
+    protected function getResults($crawler)
+    {
+        $url = $crawler->getUri();
+        $resultsPath = $this->getResultsDataFilePathFromUrl($url);
+
+        if (! file_exists($resultsPath)) {
+            $this->fail(
+                "Unable to locate test results for {$url} at {$resultsPath}\n"
+                    . 'Please run ./bin/test-tools stub-results'
+            );
+        }
+
+        $results = static::includeFile($resultsPath);
+
+        return $results;
     }
 
     protected function getResultsDataDir()
@@ -104,5 +137,10 @@ trait UsesTestData
     protected static function includeFile($file)
     {
         return include $file;
+    }
+
+    protected function makeCrawler($url)
+    {
+        return new Crawler($this->getHtml($url), $url);
     }
 }
