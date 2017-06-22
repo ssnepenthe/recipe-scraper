@@ -22,6 +22,11 @@ trait UsesTestData
         return $this->getDataDir($type) . DIRECTORY_SEPARATOR . $file;
     }
 
+    protected function getHtmlFilesList()
+    {
+        return glob($this->getHtmlDataDir() . '/**/*');
+    }
+
     protected function getHtml($url)
     {
         $htmlPath = $this->getHtmlDataFilePathFromUrl($url);
