@@ -6,6 +6,7 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Helper\ProgressBar;
+use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -28,15 +29,14 @@ class HtmlGetAllCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $rate = intval(round(
-            max(0.0, floatval($input->getOption('rate'))) * 1000000
-        ));
+        $rate = intval(round(max(0.0, floatval($input->getOption('rate'))) * 1000000));
 
         $urls = $this->getTestUrls();
         shuffle($urls);
 
-        $progress = new ProgressBar($output, count($urls));
-        $progress->start();
+        $io = new SymfonyStyle($input, $output);
+
+        $io->progressStart(count($urls));
 
         $htmlGetCommand = $this->getApplication()->find('html:get');
 
@@ -49,9 +49,9 @@ class HtmlGetAllCommand extends Command
 
             usleep($rate);
 
-            $progress->advance();
+            $io->progressAdvance();
         }
 
-        $progress->finish();
+        $io->progressFinish();
     }
 }
