@@ -24,6 +24,7 @@ class Factory
         Scrapers\ThePioneerWomanCom::class => null,
         Scrapers\WwwBhgCom::class => null,
         Scrapers\WwwEpicuriousCom::class => null,
+        Scrapers\WwwFineCookingCom::class => null,
         Scrapers\WwwFoodAndWineCom::class => null,
         Scrapers\WwwFoodCom::class => null,
         Scrapers\WwwJustATasteCom::class => null,
