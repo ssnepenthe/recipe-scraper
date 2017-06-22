@@ -31,6 +31,7 @@ class Factory
         Scrapers\WwwMyRecipesCom::class => null,
         Scrapers\WwwPaulaDeenCom::class => null,
         Scrapers\WwwTasteOfHomeCom::class => null,
+        Scrapers\WwwTwoPeasAndTheirPodCom::class => null,
 
         // Fallbacks.
         Scrapers\SchemaOrgJsonLd::class => null,
