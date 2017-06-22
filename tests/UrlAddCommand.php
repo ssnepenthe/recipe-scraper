@@ -28,7 +28,6 @@ return %s;
     {
         $url = $input->getArgument('url');
         $host = parse_url($url, PHP_URL_HOST);
-        $io = new SymfonyStyle($input, $output);
 
         if (! $host) {
             throw new \InvalidArgumentException(sprintf(
@@ -37,10 +36,11 @@ return %s;
             ));
         }
 
+        $io = new SymfonyStyle($input, $output);
+
         $urlListFile = $this->getUrlsDataFilePath($host);
         $urlList = [];
         $exists = file_exists($urlListFile);
-        $needsSave = ! $exists;
 
         if ($exists) {
             $urlList = (array) static::includeFile($urlListFile);
@@ -48,7 +48,6 @@ return %s;
 
         if (false === array_search($url, $urlList)) {
             $urlList[] = $url;
-            $needsSave = true;
         }
 
         if ($output->isDebug()) {
@@ -56,12 +55,8 @@ return %s;
             $io->block('URL host: ' . $host, 'DEBUG');
             $io->block('URL list file: ' . $urlListFile, 'DEBUG');
             $io->block('URL list: ' . var_export($urlList, true), 'DEBUG');
-            $io->block('File exists: ' . ($exists ? 'true' : 'false'), 'DEBUG');
-            $io->block('File needs save: ' . ($needsSave ? 'true' : 'false'), 'DEBUG');
         }
 
-        if ($needsSave) {
-            file_put_contents($urlListFile, sprintf($this->template, var_export($urlList, true)));
-        }
+        file_put_contents($urlListFile, sprintf($this->template, var_export($urlList, true)));
     }
 }
