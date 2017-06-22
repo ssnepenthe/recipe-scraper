@@ -5,14 +5,14 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $app = new Symfony\Component\Console\Application('Recipe Scraper Test Tools', '0.4.0');
 
-$app->add(new RecipeScraperTests\HtmlCleanupCommand);
-$app->add(new RecipeScraperTests\HtmlDeleteCommand);
-$app->add(new RecipeScraperTests\HtmlGetAllCommand);
-$app->add(new RecipeScraperTests\HtmlGetCommand);
-$app->add(new RecipeScraperTests\HtmlGetMissingCommand);
+$app->add(new RecipeScraperTests\Commands\HtmlCleanupCommand);
+$app->add(new RecipeScraperTests\Commands\HtmlDeleteCommand);
+$app->add(new RecipeScraperTests\Commands\HtmlGetAllCommand);
+$app->add(new RecipeScraperTests\Commands\HtmlGetCommand);
+$app->add(new RecipeScraperTests\Commands\HtmlGetMissingCommand);
 
-$app->add(new RecipeScraperTests\UrlAddCommand);
-$app->add(new RecipeScraperTests\UrlListCommand);
-$app->add(new RecipeScraperTests\UrlRemoveCommand);
+$app->add(new RecipeScraperTests\Commands\UrlAddCommand);
+$app->add(new RecipeScraperTests\Commands\UrlListCommand);
+$app->add(new RecipeScraperTests\Commands\UrlRemoveCommand);
 
 $app->run();

@@ -1,23 +1,23 @@
 <?php
 
-namespace RecipeScraperTests;
+namespace RecipeScraperTests\Commands;
 
+use RecipeScraperTests\UsesTestData;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class HtmlGetAllCommand extends Command
+class HtmlGetMissingCommand extends Command
 {
     use UsesTestData;
 
     protected function configure()
     {
-        $this->setName('html:get-all')
-            ->setDescription('Retrieve and save the HTML for all tested URLs')
+        $this->setName('html:get-missing')
+            ->setDescription('Retrieve and save the HTML for all tested URLs that are missing')
             ->addOption(
                 'rate',
                 null,
@@ -31,12 +31,19 @@ class HtmlGetAllCommand extends Command
     {
         $rate = intval(round(max(0.0, floatval($input->getOption('rate'))) * 1000000));
 
-        $urls = $this->getTestUrls();
+        $urls = array_filter($this->getTestUrls(), function ($url) {
+            return ! file_exists($this->getHtmlDataFilePathFromUrl($url));
+        });
         shuffle($urls);
 
         $io = new SymfonyStyle($input, $output);
 
-        $io->progressStart(count($urls));
+        if (! $count = count($urls)) {
+            $io->success('HTML already exists for all test URLs');
+            return 0;
+        }
+
+        $io->progressStart($count);
 
         $htmlGetCommand = $this->getApplication()->find('html:get');
 
