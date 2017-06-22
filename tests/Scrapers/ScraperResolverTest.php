@@ -9,10 +9,10 @@ use RecipeScraper\Scrapers\ScraperInterface;
 
 class ScraperResolverTest extends TestCase
 {
-	/** @test */
-	public function it_correctly_resolves_scraper_based_on_scraper_supports()
-	{
-		$crawlerStub = $this->createMock(Crawler::class);
+    /** @test */
+    public function it_correctly_resolves_scraper_based_on_scraper_supports()
+    {
+        $crawlerStub = $this->createMock(Crawler::class);
 
         $firstScraperStub = $this->createMock(ScraperInterface::class);
         $firstScraperStub->method('supports')
@@ -36,5 +36,5 @@ class ScraperResolverTest extends TestCase
 
         $this->assertFalse($firstResolver->resolve($crawlerStub));
         $this->assertSame($thirdScraperStub, $secondResolver->resolve($crawlerStub));
-	}
+    }
 }
