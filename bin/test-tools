@@ -6,5 +6,6 @@ require __DIR__ . '/../vendor/autoload.php';
 $app = new Symfony\Component\Console\Application('Recipe Scraper Test Tools', '0.4.0');
 
 $app->add(new RecipeScraperTests\UrlAddCommand);
+$app->add(new RecipeScraperTests\UrlRemoveCommand);
 
 $app->run();
