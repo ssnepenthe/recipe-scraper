@@ -23,6 +23,7 @@ class Factory
         Scrapers\SpryLivingCom::class => null,
         Scrapers\ThePioneerWomanCom::class => null,
         Scrapers\WwwBhgCom::class => null,
+        Scrapers\WwwBonAppetitCom::class => null,
         Scrapers\WwwEpicuriousCom::class => null,
         Scrapers\WwwFineCookingCom::class => null,
         Scrapers\WwwFoodAndWineCom::class => null,

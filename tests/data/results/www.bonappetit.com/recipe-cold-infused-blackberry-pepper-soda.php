@@ -1,0 +1,42 @@
+<?php
+
+return [
+    'author' => 'Anna Wallace, Seattle Seltzer Co., Seattle, WA',
+    'categories' => [
+        'Soda',
+        'Peppercorn',
+        'Blackberry',
+        'Bay Leaf',
+        'Sugar',
+        'Lemon',
+        'cook like a pro',
+        'Cold Soda',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'A refreshing homemade soda to drink all summer long from Anna Wallace at the awesome Seattle Seltzer Company.',
+    'image' => 'http://assets.bonappetit.com/photos/594406ff41d81c7bc3015f3f/16:9/w_1000,c_limit/cold-infused-blackberry-pepper-soda.jpg',
+    'ingredients' => [
+        '1 tablespoon black peppercorns',
+        '2 pounds very ripe blackberries, plus more for serving',
+        '½ cup sugar',
+        'Pinch of kosher salt',
+        '2 fresh bay leaves, plus more for serving',
+        '9 cups club soda, divided',
+        'Lemon wedges (for serving)',
+    ],
+    'instructions' => [
+        'Crush peppercorns with a mortar and pestle or the side of a chef\'s knife.',
+        'Pulse 2 lb. blackberries in a food processor until all berries are broken up but a few larger pieces remain. Strain through a fine-mesh sieve into a medium bowl, pressing down on solids to extract as much liquid as possible; discard solids. You should have about 3 cups very thick purée. Add crushed peppercorns, sugar, salt, and bay leaves and stir until most of sugar is dissolved. Transfer to a 1-qt. jar or an airtight container. Cover and chill 8-12 hours.',
+        'Strain purée through clean sieve into another medium bowl (you\'ll have about 3 cups); discard solids.',
+        'To make 1 drink, mix ¼ cup purée with ¾ cup club soda in a measuring glass; taste and add more purée if you want it sweeter. Pour into an ice-filled glass. Garnish with a lemon wedge, a bay leaf, and a few blackberries.',
+        'Do Ahead: Purée can be infused and strained 3 days ahead. Cover and chill.',
+    ],
+    'name' => 'Cold-Infused Blackberry-Pepper Soda',
+    'prepTime' => null,
+    'publisher' => 'Bon Appétit',
+    'totalTime' => null,
+    'url' => 'http://www.bonappetit.com/recipe/cold-infused-blackberry-pepper-soda',
+    'yield' => 'Makes 12',
+];
