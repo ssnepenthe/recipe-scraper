@@ -74,6 +74,11 @@ trait UsesTestData
         return $host . DIRECTORY_SEPARATOR . $path;
     }
 
+    protected function getResultsFilesList()
+    {
+        return glob($this->getResultsDataDir() . '/**/*.php');
+    }
+
     protected function getResults($crawler)
     {
         $url = $crawler->getUri();
