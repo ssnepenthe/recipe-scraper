@@ -3,6 +3,8 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
+// @todo Verify dev-dependencies are installed.
+
 $app = new Symfony\Component\Console\Application('Recipe Scraper Test Tools', '0.4.0');
 
 $app->add(new RecipeScraperTests\Commands\HtmlCleanupCommand);
