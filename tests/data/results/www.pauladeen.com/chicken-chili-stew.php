@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'A hearty and easy chicken chili.',
-    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/h/chicken_chili_stew_1.jpg',
+    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/c/h/chicken_chili_stew_1.jpg',
     'ingredients' => [
         '1 tablespoon canola oil',
         '1 medium onion, chopped',

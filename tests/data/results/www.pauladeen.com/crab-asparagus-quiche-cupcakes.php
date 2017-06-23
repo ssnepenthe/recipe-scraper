@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/r/crabquicherecipe_1.jpg',
+    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/c/r/crabquicherecipe_1.jpg',
     'ingredients' => [
         '1 cup unsalted butter, cold',
         '1 cup all-purpose flour, plus 4 teaspoons',
