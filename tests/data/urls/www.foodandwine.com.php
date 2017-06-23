@@ -1,9 +1,7 @@
 <?php
 
-return [
-    'http://www.foodandwine.com/recipes/baby-brioches-chicken-salad-and-bacon',
-    'http://www.foodandwine.com/recipes/avocado-hollandaise',
-    'http://www.foodandwine.com/recipes/mixed-berry-spoon-cake',
-    // Temporary... Getting 403 error from foodandwine.com.
-    // 'http://www.foodandwine.com/recipes/sfinj-moroccan-doughnuts',
-];
+return array (
+  0 => 'http://www.foodandwine.com/recipes/baby-brioches-chicken-salad-and-bacon',
+  1 => 'http://www.foodandwine.com/recipes/avocado-hollandaise',
+  2 => 'http://www.foodandwine.com/recipes/mixed-berry-spoon-cake',
+);
