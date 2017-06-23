@@ -11,6 +11,7 @@ $app->add(new RecipeScraperTests\Commands\HtmlCleanupCommand);
 $app->add(new RecipeScraperTests\Commands\HtmlDeleteCommand);
 $app->add(new RecipeScraperTests\Commands\HtmlGetAllCommand);
 $app->add(new RecipeScraperTests\Commands\HtmlGetCommand);
+$app->add(new RecipeScraperTests\Commands\HtmlGetHostCommand);
 $app->add(new RecipeScraperTests\Commands\HtmlGetMissingCommand);
 
 $app->add(new RecipeScraperTests\Commands\UrlAddCommand);
