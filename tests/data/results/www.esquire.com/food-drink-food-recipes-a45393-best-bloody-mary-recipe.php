@@ -3,7 +3,7 @@
 return [
     'author' => 'Esquire Editors',
     'categories' => [
-        'Cocktail Recipes',
+        'Delight in the Details',
         'Food & Drink',
         'Food',
         'bloody mary recipe',
@@ -11,7 +11,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'One of America\'s essential restaurants-The Publican in Chicago-shares a twist on an old classic.',
+    'description' => 'It\'s brunch season, and you can\'t have a proper brunch without a bloody mary',
     'image' => 'http://esq.h-cdn.co/assets/17/23/1600x800/gallery-1496873972-bloody-02.jpg',
     'ingredients' => [
         'The Mix',
