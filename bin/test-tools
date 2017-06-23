@@ -15,4 +15,6 @@ $app->add(new RecipeScraperTests\Commands\UrlAddCommand);
 $app->add(new RecipeScraperTests\Commands\UrlListCommand);
 $app->add(new RecipeScraperTests\Commands\UrlRemoveCommand);
 
+$app->add(new RecipeScraperTests\Commands\ResultsStubCommand);
+
 $app->run();
