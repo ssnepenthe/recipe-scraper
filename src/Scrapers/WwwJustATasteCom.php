@@ -2,6 +2,7 @@
 
 namespace RecipeScraper\Scrapers;
 
+use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
 class WwwJustATasteCom extends SchemaOrgMarkup
@@ -71,6 +72,6 @@ class WwwJustATasteCom extends SchemaOrgMarkup
             return $value;
         }
 
-        return str_replace(' ', '', $value);
+        return (string) s($value)->stripWhitespace();
     }
 }

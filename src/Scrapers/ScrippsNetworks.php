@@ -62,6 +62,9 @@ class ScrippsNetworks extends SchemaOrgJsonLd
             return $value;
         }
 
-        return (string) s($value)->replace('.', '');
+        // DateInterval doesn't play well with fractions of seconds in ISO8601 interval strings.
+        // All recipes I have reviewed don't use time measurements smaller than minutes.
+        // So this converts something like P0Y0M0DT0H35M0.000S to P0Y0M0DT0H35M0S.
+        return (string) s($value)->regexReplace('(\d{1,2})\.\d{3}S', '\\1S');
     }
 }
