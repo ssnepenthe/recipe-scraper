@@ -1,0 +1,42 @@
+<?php
+
+return [
+    'author' => 'EatingWell Test Kitchen',
+    'categories' => [
+        'Gluten-Free',
+        'Healthy Immunity',
+        'Low Added Sugars',
+        'Low-Calorie',
+        'Low Carbohydrate',
+        'Vegetarian',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT25M',
+    'cuisines' => null,
+    'description' => 'Don\'t confuse this with the flour or corn tortillas you use to make wraps. A Spanish tortilla is a potato-and-egg omelet found on numerous menus throughout Spain. Traditionally these are cooked in heaps of olive oil. Our version uses less oil, so it\'s lower in calories, and if you use precooked diced potatoes, it\'s faster too.',
+    'image' => 'http://images.media-allrecipes.com/userphotos/960x960/3756461.jpg',
+    'ingredients' => [
+        '3 teaspoons extra-virgin olive oil, divided',
+        '1 small onion, thinly sliced',
+        '1 cup precooked diced red potatoes, (see Tip)',
+        '1 tablespoon chopped fresh thyme',
+        '½ teaspoon smoked paprika',
+        '6 large eggs',
+        '4 large egg whites',
+        '½ cup shredded Manchego, or Jack cheese',
+        '3 cups baby spinach, roughly chopped',
+        '½ teaspoon salt',
+        '½ teaspoon freshly ground pepper',
+    ],
+    'instructions' => [
+        'Heat 2 teaspoons oil in a medium nonstick skillet over medium heat. Add onion and cook, stirring, until translucent, 3 to 4 minutes. Add potatoes, thyme and paprika and cook for 2 minutes more.',
+        'Lightly whisk eggs and egg whites in a large bowl. Gently stir the potato mixture into the eggs along with cheese, spinach, salt and pepper until combined. Wipe the pan clean; add the remaining 1 teaspoon oil and heat over medium heat. Pour in the egg mixture, cover and cook until the edges are set and the bottom is browned, 4 to 5 minutes (it will still be moist in the center).',
+        'To flip the tortilla, run a spatula gently around the edges to loosen them. Invert a large plate over the pan and turn out the tortilla onto it. Slide the tortilla back into the pan and continue cooking until completely set in the middle, 3 to 6 minutes. Serve warm or cold.',
+    ],
+    'name' => 'Spanish Tortilla',
+    'prepTime' => null,
+    'publisher' => null,
+    'totalTime' => 'PT40M',
+    'url' => 'http://www.eatingwell.com/recipe/251908/spanish-tortilla/',
+    'yield' => '6',
+];

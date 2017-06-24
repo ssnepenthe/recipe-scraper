@@ -1,0 +1,1644 @@
+
+
+
+<!DOCTYPE html>
+<html ng-app="eatingWell">
+<head>
+    <meta charset="utf-8"/><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"55db0cb698","applicationID":"35737270","transactionName":"YwABYUUDXUIABRZbCVpKLmN0TWFUAg8SVyVbCxdHWA5fVBNJK1wCUR0=","queueTime":0,"applicationTime":111,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQ4OVVdaGwAFU1JVBQYH"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){C++,M=y.hash,this[u]=b.now()}function o(){C--,y.hash!==M&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(9),x=t(10),E=t(8),O=t(6),R=t(12),P=t(7),T=t(13),S=t("ee"),N=S.get("tracer");t(14),b.features.spa=!0;var M,j=w[v],C=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(h,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),P.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),a(T,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(P,m+c),a(P,m+"-done"),E.on("pushState-end",i),E.on("replaceState-end",i),j("hashchange",i,!0),j("load",i,!0),j("popstate",function(){i(0,C>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(22)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(22)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(22)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(22),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(22)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(22)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(22)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new l(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],22:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(19),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1039.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(16),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(21)},{}]},{},["loader",2,14,5,3,4]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexican Coleslaw Recipe - EatingWell</title>
+    <link rel="icon" href="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/icon/favicon.ico"/>
+        <link rel="amphtml" href="https://www.eatingwell.com/recipe/251756/mexican-coleslaw/amp/" />
+    
+
+
+<meta property="og:site_name" content="EatingWell" />
+
+<meta property="og:title" content="Mexican Coleslaw Recipe" />
+<meta property="og:name" content="Mexican Coleslaw Recipe" />
+
+
+    <meta id="metaDescription" name="description" content="Enjoy this crunchy, refreshing alternative to mayonnaise-based coleslaw on a taco or on the side.">
+    <meta property="og:description" content="Enjoy this crunchy, refreshing alternative to mayonnaise-based coleslaw on a taco or on the side." />
+
+
+    <meta name="robots" content="noodp,noydir" />
+
+    <link id="canonicalUrl" rel="canonical" href="http://www.eatingwell.com/recipe/251756/mexican-coleslaw/" />
+    <meta property="og:url" content="http://www.eatingwell.com/recipe/251756/mexican-coleslaw/" />
+
+
+<meta property="og:type" content="recipe"/>
+
+    <meta property="og:image" content="http://images.media-allrecipes.com/userphotos/960x960/4509344.jpg" />
+
+    
+    <!-- ARLOG SERVER: RD0003FFA8DAC7 LOCAL_IP: 10.255.18.20 MERCH_KEY: MerchData_4_1_1_251756_***_68 -->
+
+    <!-- Begin comScore Tag - Part 1 -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "6036305", c3: "EATINGWELL.COM" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+            s.async = true;
+            s.src = (document.location.protocol === "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <!-- End comScore Tag Part 1-->
+    
+    <script src='http://js01.media-allrecipes.com/EatingWellAssets/assets/deployables/v-1.73.0.3377/eatingWell-js-eager.bundled.js' ></script>
+    <script src="//karma.mdpcdn.com/service/js-min/karma.interstitial.js"></script>
+    
+    <script src='http://js01.media-allrecipes.com/EatingWellAssets/assets/deployables/v-1.73.0.3377/eatingWell-js-grocery-server.bundled.js' ></script>
+
+    <link href='http://css01.media-allrecipes.com/EatingWellAssets/assets/deployables/v-1.73.0.3377/eatingWell-css.bundled.Css' rel='stylesheet'/>
+</head>
+<body>
+<script>
+    var pubsub = new Pubsub();
+
+window.dataLayer={"version":"1.0","pageInstanceId":"www.eatingwell.com/recipe/251756/mexican-coleslaw/","externalLinkId":"","page":{"pageInfo":{"pageId":"251756","pageName":"recipes:view:Mexican Coleslaw","destinationUrl":"http://www.eatingwell.com/recipe/251756/mexican-coleslaw/","sysEnv":"RD0003FFA8DAC7","variant":"Control","version":"20170429","issueDate":"06/24/2017 23:10:00","effectiveDate":"06/24/2017 23:10:00","domain":"www.eatingwell.com","parameters":{}},"category":{"primaryCategory":"recipes","contentType":"recipe","subContentType":"","adZone":"","adKeys":"status=unrecognized;oid=;fit=1;r=251756;id=251756;k=[58,62,82,84,110,124,138,147,151,156,165,169,170,195,199,201,209,229,230,241,242,265,557,703]","contentSource":"1"},"attributes":{"contentId":"251756","title":"Mexican Coleslaw","country":"USA"}},"event":[],"user":[{"analyticsId":"","segment":{"adStatus":"unrecognized","visitorType":"anonymous","loginStatus":"no"},"profile":[{"profileInfo":{"profileId":"0","loginType":"None"}}],"magFollower":false}],"newsletter":{"mailingId":"","mailingName":"","mailingDate":"","mailingLinkGroup":"","mailingLinkName":""}};
+    if (typeof (window.dataLayer) !== "undefined" && window.dataLayer) {
+        var clientAnalytics = new ClientAnalytics(window.dataLayer);
+
+        window.dataLayer.AnalyticsData_Category_cd2 = "";
+        window.dataLayer.AnalyticsData_SubCategory_cd3 = "";
+
+        window.gtmDataLayer = [];
+        var gtmShim = new GoogleTagManagerShim(window.dataLayer, window.gtmDataLayer);
+
+        var comscoreShim = new ComscoreShim(window.dataLayer, pubsub);
+    }
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-P7HM9G"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>
+(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'gtmDataLayer', 'GTM-P7HM9G');
+</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Begin comScore Tag - Part 2 -->
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036305&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag - Part 2 -->
+
+
+<div id="monetate_lightbox"></div>
+<div class="sliderContainer" global-ui-events>
+    <div class="siteContent">
+        <header class="layoutHeader">
+            
+
+
+
+<section id="anchoringTopAdPartial" class="ad-container-nostyle anchoringTopAdDefault">
+    <div>
+        <div>
+            <span class="advertisement">ADVERTISEMENT</span>
+            
+            <div id="div-gpt-leaderboard-flex-1" data-tier="1"></div>
+        </div>
+    </div>
+</section>
+<section ng-controller="ewNavigationHeaderInterimController">
+    <section class="layoutHeaderSection" ng-controller="ewNavigationHeaderController">
+        <div class="headerBarContentContainer">
+            <div class="headerBarContentLinks">
+                <a href="http://www.eatingwell.com/digital">Digital Editions</a>
+                <a href="http://www.eatingwell.com/newsletter_subscription">Newsletters</a>
+            </div>
+            <!-- The NEW 'Search Bar' is made up of two <div>'s.  The OLD 'Search Bar' is made up of a <form> and a <div>. -->
+             <div>
+                <ul class="menu-left">
+                    <li class="search-tab" ng-controller="ew_controllers_search">
+                        <div class="materialize-row nav-search" popup-trigger="topNavSearchMenu">
+                            <span class="col m2 search-spyglass">
+                                <img alt="Search" height="23" width="23" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/shared/search-magnifier-green.svg" />
+                            </span>
+                            <input id="searchText" class="col m10" type="text" placeholder="Search EatingWell" ng-model="search.keywords">
+                        </div>
+                    </li>
+                   <!-- <li ng-class="{active:topNavSearchMenu_showing}" class="small-screen search-phone--landscape">                                                    -->
+                   <!--     <a href popup-trigger="topNavSearchMenu" ar-event-focus="click" ar-event-focus-id="setFocus-keywordSearch">                                   -->
+                   <!--         <div class="nav-search">                                                                                                                  -->
+                   <!--             <span><img alt="search" height="23" src="http://images.media-allrecipes.com/ar-images/icons/NavSearchIcon.svg" width="23" /></span>  -->
+                   <!--         </div>                                                                                                                                    -->
+                   <!--     </a>                                                                                                                                          -->
+                   <!-- </li>                                                                                                                                             -->
+                </ul>
+            </div>
+            <div class="nav-tab nav-tab__search ng-hide" popup-panel="topNavSearchMenu" ng-cloak>
+                
+
+
+
+<div class="materialize-row searchOverlay spacing1" data-ng-controller="ew_controllers_search">
+    <div class="materialize-row col m3">
+        <span class="col m12 spacing1 inputTitle">Keywords</span>
+        <input id="searchText" type="text" placeholder=" Ex. taco salad" ng-model="search.keywords" ng-keydown="(isEnterKey($event) && performSearch())" class="col m11 inputBar setFocus-keywordSearch" tabindex="1">
+    </div>
+    
+    <div class="materialize-row col m3 ingredients"
+            ew-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">
+        <span class="col m12 spacing1 inputTitle">Include Ingredients</span>
+        <div class="materialize-row col m11">
+            <div class="inputBar col m10">
+                <div class="ingredient-clipping-frame">
+                    <ul class="ingredient-scroller"
+                        ng-mousedown="mouseDown($event)" ng-mouseup="mouseUp($event)"
+                        ar-touchstart="touchStart($event)" ar-touchend="touchEnd($event)" unselectable="on" onselectstart="return false;">
+
+                        <li ng-repeat="ingredient in search.ingredientsInclude">
+                            <span>
+                                <span ng-bind="::ingredient"></span>
+                                <span class="icon--x ignore-ar-touchstart ignore-ar-touchend" ng-click="removeIngredientInclude(ingredient, $event)" unsubscribe-global-click-handler>&#x2715;</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ingredient-add-exclude">
+                    
+                    <input id="includeIngText" type="text" ng-attr-placeholder="{{includeIngPlaceholderText}}" name="txtIncludeIng"
+                            ng-model="includeIngredient" ng-focus="hideAds();" ng-blur="showAds()"
+                            ng-keydown="(isBackspaceKey($event) && removeLastIngredientInclude($event)) || ((isTabKey($event) || isEnterKey($event)) && addIngredientInclude($event))" class="setFocus-includeIng" tabindex="2">
+                </div>
+            </div>
+            <div class="col m2">
+                <button class="btnGreenApple btnBasic--tiny ingredientButton" ng-click="addIngredientInclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-includeIng" ng-class="{ 'grayed-out': includeIngHitMax }">+</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="materialize-row col m3 ingredients"
+            ew-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">
+        <span class="col m12 spacing1 inputTitle">Exclude Ingredients</span>
+        <div class="materialize-row col m11">
+            <div class="col m10 inputBar">
+                <div class="ingredient-clipping-frame">
+                    <ul class="ingredient-scroller"
+                        ng-mousedown="mouseDown($event)" ng-mouseup="mouseUp($event)"
+                        ar-touchstart="touchStart($event)" ar-touchend="touchEnd($event)" unselectable="on" onselectstart="return false;">
+
+                        <li ng-repeat="ingredient in search.ingredientsExclude">
+                            <span>
+                                <span ng-bind="::ingredient" class="exclude-item"></span>
+                                <span class="icon--x ignore-ar-touchstart ignore-ar-touchend" ng-click="removeIngredientExclude(ingredient, $event)" unsubscribe-global-click-handler>&#x2715;</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ingredient-add-exclude">
+                    
+                    <input id="excludeIngText" type="text" ng-attr-placeholder="{{excludeIngPlaceholderText}}" name="txtExcludeIng"
+                            ng-model="excludeIngredient" ng-focus="hideAds();" ng-blur="showAds()"
+                            ng-keydown="(isBackspaceKey($event) && removeLastIngredientExclude($event)) || ((isTabKey($event) || isEnterKey($event)) && addIngredientExclude($event))" class="setFocus-excludeIng" tabindex="3">
+                </div>
+            </div>
+            <div class="col m2">
+                <button class="btnOrangeRed addBottomPadding btnBasic--tiny ingredientButton" ng-class="{ 'grayed-out': excludeIngHitMax }" ng-click="addIngredientExclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-excludeIng">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="materialize-row col m3">
+        <span class="col m12 spacing1 inputTitle">&nbsp;</span>
+        <div class="materialize-row col m6 ingredientSearch">
+            <button class="btnTinyLong btnGreenApple actionButton col offset-m1 m11" ng-click="performSearch()" ng-cloak>Search</button>
+        </div>
+        <div class="materialize-row col m6">
+            <button class="btnTinyLong btnGreenApple actionButton col offset-m1 m11" hideWhenClicked ng-cloak>Cancel</button>
+        </div>
+    </div>
+</div>
+            </div> 
+            
+            
+        </div>
+        <div class="eatingWellLogo">
+            <a href="http://www.eatingwell.com">
+            <img alt="EatingWell" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/shared/eatingwell_logo.svg" />
+            </a>
+        </div>
+        <div class="headerBarContentContainer">
+            <div class="headerBarContentLinks flushRight">
+                <span id="mnt-topNavSubLink">
+                    <a href="https://secure.eatingwell.com/order/?containerName=i63ver111&psrc=I63VER111">EatingWell Magazine Subscribe Now!</a>
+                </span>
+            </div>
+            <div class="headerBarContentMain">
+                <div class="headerProfile">
+                    <div>
+                        <a href="http://www.eatingwell.com/account/authenticationwelcome">
+                        <span class="userSignIn"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="mobileMenuButton hideDesktop">
+                    
+                    <a ng-click="toggleInterimMobileMenu();$event.stopPropagation();">
+                        <div class="hamburgerNav active">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <div class="mobileMenuList" ng-cloak ng-show="togglerMobileMenu">
+                        
+
+
+<div class="nav-bar" ng-class="mobileMenuActiveClass">
+    <nav class="bottom-bar">
+        <ul class="interimMobileOnly interimMenuAccount">
+            <li class="no-arrow notButton">
+                <!-- Mobile search -->
+                <form ng-controller="ewSearchHeaderController" ng-submit="search();" class="search-mobile">
+                    <input type="search" data-role="none" name="text" ng-model="searchText" placeholder="Recipe Search" />
+                    <button type="submit" id="submit" class="btn btn-default pull-right" data-role="none">Search</button>
+                </form>
+            </li>
+                <li><a href="http://www.eatingwell.com/account/authenticationwelcome">Join EatingWell</a></li>
+                            <li>
+                    <a href="http://www.eatingwell.com/account/signin">
+                        Sign In
+                    </a>
+                </li>
+        </ul>
+        <!-- Left menu -->
+        <ul class="dl-menuopen menu-left interimMenuTopNav">
+            <li class="" ng-class="recipesNavActiveClass[0]" ng-click="toggleRecipesSubNav(0);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(0,true);" ng-mouseleave="toggleRecipesSubNav(0,false);">
+                <a href="http://www.eatingwell.com/recipes/" class="interimFirstListItemLink interimDesktopOnly">Healthy Recipes</a>
+                <a class="interimMobileOnly">Healthy Recipes</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[0]" ng-cloak>
+                    
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17916/mealtimes/breakfast-brunch/">Breakfast Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17949/drinks/">Drink Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17896/clean-eating/">Clean-Eating Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17942/cooking-methods/">Cooking Methods</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17963/mealtimes/lunch/">Lunch Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17965/main-dishes/">Main Dish Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17899/diabetic/">Diabetes-Friendly Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17959/holidays-occasions/">Holiday &amp; Occasion Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17947/mealtimes/dinner/">Dinner Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17981/salad/">Salad Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18012/low-calorie/">Low Calorie Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18043/ingredients/">Ingredients</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18041/appetizer/">Appetizer Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17986/side-dishes/">Side Dish Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18045/weight-loss-diet/">Weight Loss Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18003/vegan/">Vegan Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18044/desserts/">Dessert Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18042/soup/">Soup Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18024/special-diets/">More Special Diets</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18005/vegetarian/">Vegetarian Recipes</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="" ng-class="recipesNavActiveClass[1]" ng-click="toggleRecipesSubNav(1);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(1,true);" ng-mouseleave="toggleRecipesSubNav(1,false);">
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/category/3/healthy-cooking/">Healthy Cooking</a>
+                <a class="interimMobileOnly">Healthy Cooking</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[1]" ng-cloak>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/healthy_cooking_101_basics_and_techniques">Healthy Cooking 101: Basics &amp; Techniques</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/kids_cooking">Kids Cooking</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/healthy_food_guide">Healthy Food Guide</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/cooking_for_two">Cooking for Two</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/quick_healthy_cooking">Quick &amp; Healthy Cooking</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/holidays_entertaining">Holiday &amp; Entertaining</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/wine_beer_spirits_guide">Wine, Beer &amp; Spirits Guide</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/kitchen_product_reviews">Kitchen Product Reviews</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/about_our_test_kitchen">About Our Test Kitchen</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/recipe_makeovers">Recipe Makeovers</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/budget_cooking">Budget Cooking</a></li>
+                </ul>
+            </li>
+            <li class="" ng-class="recipesNavActiveClass[2]" ng-click="toggleRecipesSubNav(2);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(2,true);" ng-mouseleave="toggleRecipesSubNav(2,false);">
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/category/2/diet-and-health/">Diet and Health</a>
+                <a class="interimMobileOnly">Diet &amp; Health</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[2]" ng-cloak>
+                    <li><a href="http://www.eatingwell.com/diet_health/weight_loss_diet_plans/make_healthy_happen">Make Healthy Happen</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/weight_loss_diet_plans">Weight-Loss &amp; Diet Plans</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/high_blood_pressure_diet_center">Blood Pressure</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/bone_health_center">Bone Health</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/high_cholesterol_center">Cholesterol</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/diabetic_diet_center">Diabetes</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/digestive_health_center">Digestive Health</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/gluten_free_diet_center">Gluten-Free Diet</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/healthy_aging_center">Healthy Aging</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/healthy_kids_diet_center">Healthy Kids</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/pregnancy_diet_center">Healthy Pregnancy</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/heart_healthy_diet_center">Heart Health</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/healthy_immunity_center">Immunity</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/mind_body_spirit_center">Mind, Body &amp; Spirit</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/nutrient_library">Nutrient Library</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/nutrition_news_information">Nutrition News &amp; Information</a></li>
+                    <li><a href="http://www.eatingwell.com/about_our_nutrition_experts">About Our Nutrition Experts</a></li>
+                </ul>
+            </li>
+            <li class="" ng-class="recipesNavActiveClass[3]" ng-click="toggleRecipesSubNav(3);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(3,true);" ng-mouseleave="toggleRecipesSubNav(3,false);">
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/category/4/food-news/">Food News</a>
+                <a class="interimMobileOnly">Food News</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[3]" ng-cloak>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/food_news">Food News</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/green_sustainable">Green &amp; Sustainable</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/organic_natural">Organic &amp; Natural</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/seasonal_local">Seasonal &amp; Local</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/food_travel">Food &amp; Travel</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/people_perspectives">People &amp; Perspectives</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/eatingwell_magazine">EatingWell Magazine</a></li>
+                </ul>
+            </li>
+            <li class="">
+                <a href="http://www.eatingwell.com/videos/">Videos</a>
+            </li>
+            <li ng-class="recipesNavActiveClass[4]" ng-click="toggleRecipesSubNav(4);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(4,true);" ng-mouseleave="toggleRecipesSubNav(4,false);">
+                <a href="http://www.eatingwell.com/shop" class="interimDesktopOnly">Shop</a>
+                <a class="interimMobileOnly">Shop</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[4]" ng-cloak>
+                    <li><a href="http://eatingwell.com/frozenfresh">EatingWell Frozen Meals</a></li>
+                    <li><a href="http://www.eatingwell.com/shop">EatingWell Cookbooks &amp; More</a></li>
+                    <li><a href="http://www.eatingwell.com/shop/healthy_in_a_hurry_app_for_iphone_and_ipod_touch_ipad_android">Phone Applications</a></li>
+                    <li><a href="http://promo.eatingwell.com">Promotions &amp; Events</a></li>
+                    <li><a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=ETG&amp;cds_page_id=139052">Subscribe</a></li>
+                    <li><a href="https://secure.bhg.com/order/?splitName=etg_onsite_gift_shopcatlink">Give a Gift</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Right menu -->
+        <ul class="dl-menuopen menu-right interimMenuTopNav">
+            <li>
+                <a href="http://www.eatingwell.com/free_downloads/free_recipes_free_cookbooks_free_meal_plans_to_download?psrc=R1310EWTN1005R962PD">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_042_book.png"/> Free Cookbooks
+                </a>
+            </li>
+            <li>
+                <a href="http://www.eatingwell.com/blogs">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_110_comments.png"/> Blogs
+                </a>
+            </li>
+            <li>
+                <a href="http://www.eatingwell.com/eatingwell_menu_planner">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_108_calendar.png"/> Menu Planner
+                </a>
+            </li>
+            <li>
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/nutrition_health/weight_loss_diet_plans/diet_meal_plans">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_178_cutlery.png" /> Meal Plans
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-bar" ng-class="mobileMenuActiveClass">
+        
+
+
+<div class="nav-bar" ng-class="mobileMenuActiveClass">
+    <nav class="bottom-bar">
+        <ul class="interimMobileOnly interimMenuAccount">
+            <li class="no-arrow notButton">
+                <!-- Mobile search -->
+                <form ng-controller="ewSearchHeaderController" ng-submit="search();" class="search-mobile">
+                    <input type="search" data-role="none" name="text" ng-model="searchText" placeholder="Recipe Search" />
+                    <button type="submit" id="submit" class="btn btn-default pull-right" data-role="none">Search</button>
+                </form>
+            </li>
+                <li><a href="http://www.eatingwell.com/account/authenticationwelcome">Join EatingWell</a></li>
+                            <li>
+                    <a href="http://www.eatingwell.com/account/signin">
+                        Sign In
+                    </a>
+                </li>
+        </ul>
+        <!-- Left menu -->
+        <ul class="dl-menuopen menu-left interimMenuTopNav">
+            <li class="" ng-class="recipesNavActiveClass[0]" ng-click="toggleRecipesSubNav(0);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(0,true);" ng-mouseleave="toggleRecipesSubNav(0,false);">
+                <a href="http://www.eatingwell.com/recipes/" class="interimFirstListItemLink interimDesktopOnly">Healthy Recipes</a>
+                <a class="interimMobileOnly">Healthy Recipes</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[0]" ng-cloak>
+                    
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17916/mealtimes/breakfast-brunch/">Breakfast Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17949/drinks/">Drink Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17896/clean-eating/">Clean-Eating Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17942/cooking-methods/">Cooking Methods</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17963/mealtimes/lunch/">Lunch Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17965/main-dishes/">Main Dish Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17899/diabetic/">Diabetes-Friendly Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17959/holidays-occasions/">Holiday &amp; Occasion Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17947/mealtimes/dinner/">Dinner Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17981/salad/">Salad Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18012/low-calorie/">Low Calorie Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18043/ingredients/">Ingredients</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18041/appetizer/">Appetizer Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/17986/side-dishes/">Side Dish Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18045/weight-loss-diet/">Weight Loss Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18003/vegan/">Vegan Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18044/desserts/">Dessert Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18042/soup/">Soup Recipes</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18024/special-diets/">More Special Diets</a>
+                    </li>
+                    <li>
+                        <a href="http://www.eatingwell.com/recipes/18005/vegetarian/">Vegetarian Recipes</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="" ng-class="recipesNavActiveClass[1]" ng-click="toggleRecipesSubNav(1);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(1,true);" ng-mouseleave="toggleRecipesSubNav(1,false);">
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/category/3/healthy-cooking/">Healthy Cooking</a>
+                <a class="interimMobileOnly">Healthy Cooking</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[1]" ng-cloak>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/healthy_cooking_101_basics_and_techniques">Healthy Cooking 101: Basics &amp; Techniques</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/kids_cooking">Kids Cooking</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/healthy_food_guide">Healthy Food Guide</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/cooking_for_two">Cooking for Two</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/quick_healthy_cooking">Quick &amp; Healthy Cooking</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/holidays_entertaining">Holiday &amp; Entertaining</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/wine_beer_spirits_guide">Wine, Beer &amp; Spirits Guide</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/kitchen_product_reviews">Kitchen Product Reviews</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/about_our_test_kitchen">About Our Test Kitchen</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/recipe_makeovers">Recipe Makeovers</a></li>
+                    <li><a href="http://www.eatingwell.com/healthy_cooking/budget_cooking">Budget Cooking</a></li>
+                </ul>
+            </li>
+            <li class="" ng-class="recipesNavActiveClass[2]" ng-click="toggleRecipesSubNav(2);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(2,true);" ng-mouseleave="toggleRecipesSubNav(2,false);">
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/category/2/diet-and-health/">Diet and Health</a>
+                <a class="interimMobileOnly">Diet &amp; Health</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[2]" ng-cloak>
+                    <li><a href="http://www.eatingwell.com/diet_health/weight_loss_diet_plans/make_healthy_happen">Make Healthy Happen</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/weight_loss_diet_plans">Weight-Loss &amp; Diet Plans</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/high_blood_pressure_diet_center">Blood Pressure</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/bone_health_center">Bone Health</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/high_cholesterol_center">Cholesterol</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/diabetic_diet_center">Diabetes</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/digestive_health_center">Digestive Health</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/gluten_free_diet_center">Gluten-Free Diet</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/healthy_aging_center">Healthy Aging</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/healthy_kids_diet_center">Healthy Kids</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/pregnancy_diet_center">Healthy Pregnancy</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/heart_healthy_diet_center">Heart Health</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/healthy_immunity_center">Immunity</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/mind_body_spirit_center">Mind, Body &amp; Spirit</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/nutrient_library">Nutrient Library</a></li>
+                    <li><a href="http://www.eatingwell.com/nutrition_health/nutrition_news_information">Nutrition News &amp; Information</a></li>
+                    <li><a href="http://www.eatingwell.com/about_our_nutrition_experts">About Our Nutrition Experts</a></li>
+                </ul>
+            </li>
+            <li class="" ng-class="recipesNavActiveClass[3]" ng-click="toggleRecipesSubNav(3);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(3,true);" ng-mouseleave="toggleRecipesSubNav(3,false);">
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/category/4/food-news/">Food News</a>
+                <a class="interimMobileOnly">Food News</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[3]" ng-cloak>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/food_news">Food News</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/green_sustainable">Green &amp; Sustainable</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/organic_natural">Organic &amp; Natural</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/seasonal_local">Seasonal &amp; Local</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/food_travel">Food &amp; Travel</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/people_perspectives">People &amp; Perspectives</a></li>
+                    <li><a href="http://www.eatingwell.com/food_news_origins/eatingwell_magazine">EatingWell Magazine</a></li>
+                </ul>
+            </li>
+            <li class="">
+                <a href="http://www.eatingwell.com/videos/">Videos</a>
+            </li>
+            <li ng-class="recipesNavActiveClass[4]" ng-click="toggleRecipesSubNav(4);$event.stopPropagation();" ng-mouseenter="toggleRecipesSubNav(4,true);" ng-mouseleave="toggleRecipesSubNav(4,false);">
+                <a href="http://www.eatingwell.com/shop" class="interimDesktopOnly">Shop</a>
+                <a class="interimMobileOnly">Shop</a>
+                <ul class="interimMenuSubnav" ng-show="togglerRecipesSubNav[4]" ng-cloak>
+                    <li><a href="http://eatingwell.com/frozenfresh">EatingWell Frozen Meals</a></li>
+                    <li><a href="http://www.eatingwell.com/shop">EatingWell Cookbooks &amp; More</a></li>
+                    <li><a href="http://www.eatingwell.com/shop/healthy_in_a_hurry_app_for_iphone_and_ipod_touch_ipad_android">Phone Applications</a></li>
+                    <li><a href="http://promo.eatingwell.com">Promotions &amp; Events</a></li>
+                    <li><a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=ETG&amp;cds_page_id=139052">Subscribe</a></li>
+                    <li><a href="https://secure.bhg.com/order/?splitName=etg_onsite_gift_shopcatlink">Give a Gift</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Right menu -->
+        <ul class="dl-menuopen menu-right interimMenuTopNav">
+            <li>
+                <a href="http://www.eatingwell.com/free_downloads/free_recipes_free_cookbooks_free_meal_plans_to_download?psrc=R1310EWTN1005R962PD">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_042_book.png"/> Free Cookbooks
+                </a>
+            </li>
+            <li>
+                <a href="http://www.eatingwell.com/blogs">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_110_comments.png"/> Blogs
+                </a>
+            </li>
+            <li>
+                <a href="http://www.eatingwell.com/eatingwell_menu_planner">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_108_calendar.png"/> Menu Planner
+                </a>
+            </li>
+            <li>
+                <a class="interimFirstListItemLink interimDesktopOnly" href="http://www.eatingwell.com/nutrition_health/weight_loss_diet_plans/diet_meal_plans">
+                    <img class="non-mobile-only" src="http://www.eatingwell.com/sites/all/themes/eatingwell/header-nav-assets/img/glyphicons_halflings_178_cutlery.png" /> Meal Plans
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+    </section>
+</section>
+
+        </header>
+        
+          
+
+        <div class="containerContent bodyContent">
+            
+
+
+
+
+
+<div id="ad-is-mobile"></div>
+<div id="ad-is-tablet"></div>
+<script>
+    (function($) {
+        
+        window.adConfiguration = {
+            "settings": {
+                "responsiveGridSlots": 0 }
+        };
+
+        
+        var mobileAdElem = document.getElementById('ad-is-mobile');
+        var isMobileAds = !(mobileAdElem.offsetWidth === 0 && mobileAdElem.offsetHeight === 0);
+
+        var isTablet = $ && $('#ad-is-tablet').css('display') === 'none';
+
+        
+        window.adService = {
+            allTiersAllTheTime: true,
+            isDesktop: window.innerWidth > 1024,
+            mobileAds: isMobileAds,
+            tabletAds: isTablet,
+            unitValues: {
+                channel: ""
+            },
+            pageTargetingValues: {
+                type: "recipe",
+                mention_category: "",
+                mention: "",
+                "channel":"recipe",
+                "refreshType":"hard",
+                "status": "unrecognized",
+                "oid": "",
+                "fit": "1",
+                "r": "251756",
+                "id": "251756",
+                "k": [58,62,82,84,110,124,138,147,151,156,165,169,170,195,199,201,209,229,230,241,242,265,557,703]
+            }
+        };
+    })($ || window.jQuery);
+</script>
+<span class="showOnTabletToDesktop recipePageBreadcrumb">
+
+
+<div ng-class="hubNavClass" class="breadCrumbs" data-recipe-hub-sticky-nav>  <!-- FIXME: style -->
+    
+    <div class="recipe_hub--similar" itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <meta itemprop="itemListOrder" content="ItemListOrderAscending"/>
+        <meta itemprop="numberOfItems" content="4"/>
+        <ul class="breadCrumbs" data-scroll-left>
+            <li data-list-item itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="url" content="http://www.eatingwell.com"/>
+                <meta itemprop="position" content="1" />
+                <a data-internal-referrer-link="hub nav" data-link-name="hub nav exposed" data-click-id="hub nav 1" href="http://www.eatingwell.com" target="_self">
+                    <span class="toggle-similar__title" itemprop="name">
+                                        Home
+                                    </span>
+                    <span class="icon--chevronRight"></span>
+                </a>
+            </li>
+
+                <li data-list-item itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <meta itemprop="url" content="http://www.eatingwell.com/recipes/17893/eatingwell-recipes/"/>
+                    <meta itemprop="position" content="2" />
+                    <a data-internal-referrer-link="hub nav" data-link-name="hub nav exposed" data-click-id="hub nav 2" href="http://www.eatingwell.com/recipes/17893/eatingwell-recipes/" target="_self">
+                        <span class="toggle-similar__title" itemprop="name">
+                                EatingWell Recipes
+                            </span>
+                        <span class="icon--chevronRight"></span>
+                    </a>
+                </li>
+                <li data-list-item itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <meta itemprop="url" content="http://www.eatingwell.com/recipes/17985/seasonal/"/>
+                    <meta itemprop="position" content="3" />
+                    <a data-internal-referrer-link="hub nav" data-link-name="hub nav exposed" data-click-id="hub nav 3" href="http://www.eatingwell.com/recipes/17985/seasonal/" target="_self">
+                        <span class="toggle-similar__title" itemprop="name">
+                                Seasonal
+                            </span>
+                        <span class="icon--chevronRight"></span>
+                    </a>
+                </li>
+                <li data-list-item itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <meta itemprop="url" content="http://www.eatingwell.com/recipes/18026/summer/"/>
+                    <meta itemprop="position" content="4" />
+                    <a data-internal-referrer-link="hub nav" data-link-name="hub nav exposed" data-click-id="hub nav 4" href="http://www.eatingwell.com/recipes/18026/summer/" target="_self">
+                        <span class="toggle-similar__title" itemprop="name">
+                                Summer
+                            </span>
+                        <span class="icon--chevronRight"></span>
+                    </a>
+                </li>
+                <li data-list-item itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <meta itemprop="url" content="http://www.eatingwell.com/recipes/19808/sides/"/>
+                    <meta itemprop="position" content="5" />
+                    <a data-internal-referrer-link="hub nav" data-link-name="hub nav exposed" data-click-id="hub nav 5" href="http://www.eatingwell.com/recipes/19808/sides/" target="_self">
+                        <span class="toggle-similar__title" itemprop="name">
+                                Sides
+                            </span>
+                        <span class="icon--chevronRight"></span>
+                    </a>
+                </li>
+
+        </ul>
+    </div>
+</div>
+
+</span>
+
+<div class="recipeContainer-outer">
+    <section class="ewRecipeIndex full-page" itemscope itemtype="http://schema.org/Recipe">
+        <meta itemprop="mainEntityOfPage" content="True" />
+
+        
+
+<meta itemprop="image" content="http://images.media-allrecipes.com/userphotos/960x960/4509344.jpg" />
+<meta property="og:rating" content="3.70588231086731" />
+<meta property="og:rating_scale" content="5" />
+<meta itemprop="description" content="Enjoy this crunchy, refreshing alternative to mayonnaise-based coleslaw on a taco or on the side." />
+<section ng-controller="ewHintsController"></section>
+
+<section class="recipeDetailSummary" ng-controller="ewRecipeDetailSummaryController" ng-init="init(251756, 'Recipe', 'Mexican Coleslaw', 'http://images.media-allrecipes.com/userphotos/960x960/4509344.jpg')">
+
+    <div>
+        <h3 class="recipeDetailHeader hideOnTabletToDesktop" itemprop="name">Mexican Coleslaw</h3>
+        <div class="recipeDetailSummaryImage">
+            
+            <div class="recipeDetailSummaryImageContainer">
+                <a href="http://images.media-allrecipes.com/userphotos/960x960/4509344.jpg" target="_blank">
+                    <img class="recipeDetailSummaryImageMain" src="http://images.media-allrecipes.com/userphotos/960x960/4509344.jpg" alt="Mexican Coleslaw"/>
+                </a>
+
+                    <div class="icon-hasVideo">
+                        <a id="btn_RecipeVideo" class="icon--videoplay" href="http://www.eatingwell.com/video/7403/how-to-make-mexican-coleslaw"></a>
+                    </div>
+                <div id="recipeHeartIcon" class="recipeDetailSummaryImageButton" ng-class="recipeDetailSummaryImagefavoriteStateClass" ng-click="saveOnClick()">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="recipeDetailSummaryDetails">
+            <h3 class="recipeDetailHeader showOnTabletToDesktop" itemprop="name">Mexican Coleslaw</h3>
+            <div class="recipeRating" title="3.7" data-scroll-to-anchor="reviews" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                <meta itemprop="ratingValue" content="3.71">
+                <meta itemprop="reviewCount" content="17">
+                
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-half.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                <span>17 Reviews</span>
+            </div>
+
+<div>
+            <span>From the EatingWell Kitchen</span>
+</div>
+
+
+            <div class="recipeSubmitter">
+                <p title="Enjoy this crunchy, refreshing alternative to mayonnaise-based coleslaw on a taco or on the side.">
+                    Enjoy this crunchy, refreshing alternative to mayonnaise-based coleslaw on a taco or on the side.
+                </p>
+                <ul itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <li class="submitterLogo"><img src="https://secureimages.allrecipes.com/userphotos/90x90/03/61/22/3612281.jpg" alt="Stacy Fraser" title="Stacy Fraser" itemprop="image"/></li>
+                    <li class="submitterDetails">
+                        <span class="submittedBy centerLineHeight">By:</span>
+                        <span class="submitterTitle centerLineHeight" itemprop="name">Stacy Fraser</span>
+                        <span class="submitterRole noneDisplay"></span>
+                    </li>
+                    <li class="sponsorLogo">
+                        <div id="karma-lazy-sponsorLogo"></div>
+                    </li>
+                </ul>
+            </div>
+                <div class="nutritionTagContainer">
+                    <h2 class="headingH2GuttersNutritionTag">
+                        <a href="http://www.eatingwell.com/eatingwell_nutrition_and_recipe_guidelines" target="_blank" class="helpIcon">Nutrition profile</a>
+                    </h2>
+                    <ul class="twoRowList">
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/17899/">Diabetic Appropriate</a></span></li>
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/17900/">Gluten-Free</a></span></li>
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/18047/">Healthy Immunity</a></span></li>
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/18008/">Heart Healthy</a></span></li>
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/18577/">Low Added Sugars</a></span></li>
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/18012/">Low-Calorie</a></span></li>
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/18013/">Low Carbohydrate</a></span></li>
+                            <li><span class="nutritionTag"><a href="http://www.eatingwell.com/recipes/18018/">Low Sodium</a></span></li>
+                    </ul>
+                </div>
+            <nav id="recipeActionBar" class="recipeDetailSummaryActionBar" ng-controller="ew_controllers_share_item">
+                <ul>
+                    <li id="recipeFavoriteButton" class="navHeart"  ng-click="saveOnClick()">
+                        <a title="Save">
+                            <span class="svg-icon--recipe-navbar--ew-icon-heart  svg-icon--recipe-navbar--ew-icon-heart-dims"></span>
+                        </a>
+                    </li>
+                    <li class="navVideo">
+                        <a href="http://www.eatingwell.com/video/7403/how-to-make-mexican-coleslaw" title="Play video">
+                            <span class="svg-icon--recipe-navbar--icon-play svg-icon--recipe-navbar--icon-play-dims"></span>
+                        </a>
+                    </li>
+                    <li class="navRateIt">
+                        <a href="" ng-click="rateItOnClick(true)" title="Rate it">
+                            <span class="svg-icon--recipe-navbar--ew-nav-rate-it svg-icon--recipe-navbar--ew-nav-rate-it-dims"></span>
+                        </a>
+                    </li>
+                    <li class="navPrint">
+                        <a href="print" title="Print recipe">
+                            <span class="svg-icon--recipe-navbar--ew-icon-print  svg-icon--recipe-navbar--ew-icon-print-dims"></span>
+                        </a>
+                    </li>
+                    <li class="navEmail">
+                        <a href="mailto:?Subject=Mexican%20Coleslaw&amp;Body=http://www.eatingwell.com/recipe/251756/mexican-coleslaw/" title="Email recipe">
+                            <span class="svg-icon--recipe-navbar--ew-icon-email svg-icon--recipe-navbar--ew-icon-email-dims"></span>
+                        </a>
+                    </li>
+                    <li class="bgFaceBook ">
+                        <a href="" title="Facebook" ng-click="socialShareStart('251756', 'facebook'); socialShareNavigate('https://facebook.com/sharer.php?u=http%3a%2f%2fwww.eatingwell.com%2frecipe%2f251756%2fmexican-coleslaw%2f', '_blank');">
+                            <span class="svg-icon--recipe-navbar--icon-facebook2 svg-icon--recipe-navbar--icon-facebook2-dims"></span>
+                        </a>
+                    </li>
+                    <li class="bgPinterest ">
+                        <a href="" title="Pinterest" ng-click="socialShareStart('251756', 'pinterest'); socialShareNavigate('http://pinterest.com/pin/create/button/?url=http%3a%2f%2fwww.eatingwell.com%2frecipe%2f251756%2fmexican-coleslaw%2f&amp;media=http%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f250x250%2f4509344.jpg&amp;description=Mexican+Coleslaw+-+EatingWell.com', '_blank');">
+                            <span class="svg-icon--recipe-navbar--icon-pinterest2 svg-icon--recipe-navbar--icon-pinterest2-dims"></span>
+                        </a>
+                    </li>
+                    <li class="bgTwitter">
+                        <a href="" title="Twitter" ng-click="socialShareStart('251756', 'twitter'); socialShareNavigate('https://twitter.com/intent/tweet?url=http%3a%2f%2fwww.eatingwell.com%2frecipe%2f251756%2fmexican-coleslaw%2f&amp;text=Mexican+Coleslaw+-+EatingWell.com&amp;via=EatingWell', '_blank');">
+                            <span class="svg-icon--recipe-navbar--icon-twitter2 svg-icon--recipe-navbar--icon-twitter2-dims"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+</section> 
+
+        <div data-ad-container-autocollapse class="ad-recipe-page-middle-container ad-mobile-only ad-container-nostyle">
+    <div id="ad-recipepagemiddle-2" class="ad-recipe-page-middle-2">
+        <div id="div-gpt-mob-square-fixed-1" data-tier="1"></div>
+    </div>
+    <span class="advertisement">ADVERTISEMENT</span>
+</div>
+
+ 
+
+<section class="recipeIngredients" ng-controller="ew_controllers_recipe_ingredient" ng-init="init(8, 251756, 'Recipe')">
+
+    <h2 class="headingH2GuttersIngredients">
+    Ingredients
+    <span class="recipeIngredientsHeaderToggles">
+        <meta id="metaRecipeServings" itemprop="recipeYield" content="8">
+
+        
+
+        
+        <a href="javascript:void(0)" id="servings-button" style="cursor: default;">
+            
+            <span class="servingsCount" ng-class="{'active': servingsSection_showing}">
+                
+                <span>8 servings</span> 
+                
+            </span>
+            <span class="iconAdjustServings" ng-class="{'active': servingsSection_showing}"></span>
+        </a>
+    </span>
+</h2>
+    <section class="adjustServings panel ng-hide" ng-class="isServingsPopup ? 'navTab' : ''" popup-panel="servingsSection" ignore-global="{{ isServingsPopup ? false : true }}" ng-cloak>
+    <div id="msg-scale">for serving adjustment</div>
+    <div>Serving size has been adjusted!</div>
+    <div class="subtext">Original recipe yields 8 servings</div>
+
+    <div class="adjustServingsSubContainer">
+        <div class="adjustServingsTextBox">
+            <input ng-model="servings" type="number" name="servings" data-role="none" id="servings" class="" min="0" max="300" value="8" data-original="8" ng-focus="hideAds()" ng-blur="showAds()"/>
+        </div>
+        <div class="adjustServingsButton">
+            <a class="btnsOne-small" href="" ng-click="getIngredients(251756,'Recipe', true)" id="btn-adjust">Adjust</a>
+
+        </div>
+        <div class="adjustServingsRadioButton">
+            <label>
+                <input type="radio" data-role="none" name="isMetric" checked="checked" ng-value="false" ng-model="isMetric"/>
+                <span class="radioButtonCircle"></span>
+            </label>
+            <span class="measurementTitle">US</span>
+        </div>
+        <div class="adjustServingsRadioButton">
+            <label>
+                <input type="radio" data-role="none" name="isMetric" ng-value="true" ng-model="isMetric"/>
+                <span class="radioButtonCircle"></span>
+            </label>
+            <span class="measurementTitle">Metric</span>
+        </div>
+    </div>
+    <div id="msg-directions" style="display: none;">Note: Recipe directions are for original size.</div>
+    <div class="disclaimer subtext">Nutrition per serving may change if servings are adjusted.</div>
+</section>
+
+    <div class="gsWidgetTarget"></div>
+
+        <ul class="multiColumn listIngredients clearfix" ng-hide="ingredientsReloaded">
+                    <li class="checkListListItem checkListLine ">
+                        <span itemprop="ingredients">6 cups very thinly sliced green cabbage, (about ½ head) (see Tip)</span>
+                    </li>
+                    <li class="checkListListItem checkListLine ">
+                        <span itemprop="ingredients">1½ cups peeled and grated carrots, (2-3 medium)</span>
+                    </li>
+                    <li class="checkListListItem checkListLine ">
+                        <span itemprop="ingredients">⅓ cup chopped cilantro</span>
+                    </li>
+
+        </ul>
+        <ul class="multiColumn listIngredients clearfix" ng-hide="ingredientsReloaded">
+                    <li class="checkListListItem checkListLine ">
+                        <span itemprop="ingredients">¼ cup rice vinegar</span>
+                    </li>
+                    <li class="checkListListItem checkListLine ">
+                        <span itemprop="ingredients">2 tablespoons extra-virgin olive oil</span>
+                    </li>
+                    <li class="checkListListItem checkListLine ">
+                        <span itemprop="ingredients">¼ teaspoon salt</span>
+                    </li>
+
+        </ul>
+
+    
+    <ul ng-cloak ng-repeat="column in ingredientColumns" class="multiColumn listIngredients clearfix" id="{{ 'lst_ingredients_' + column.index }}">
+        <li ng-repeat="ingredient in ingredients | ew_filters_slice:column.start:column.end" class="checkListListItem checkListLine" ng-class="{boldFont: ingredient.displayType.toUpperCase() === 'HEADING'}">
+            <span class="recipeIngredTxt" data-id="{{ingredient.ingredientID}}" data-nameid="{{ingredient.ingredientid}}"><span ng-bind="ingredient.displayValue"></span></span>
+        </li>
+    </ul>
+
+    <div class="gsMayWeSuggestTarget"></div>
+
+
+
+
+</section>
+<section class="recipeDirections">
+    <h2 class="headingH2Gutters">Preparation</h2>
+    <div class="directions--section">
+        <div class="directionsSectionSteps">
+
+<!-- cooking stats -->
+    <ul class="prepTime">
+        <li class="prepTime__item"><span class="icon--statsClock"></span></li>
+                    <li class="prepTime__item">
+                <p class="prepTime__item--type">Active</p><time itemprop="cookTime" datetime="PT20M"><span class="prepTime__item--time">20</span> m</time>
+            </li>
+                    <li class="prepTime__item">
+                <p class="prepTime__item--type">Ready In</p><time itemprop="totalTime" datetime="PT20M"><span class="prepTime__item--time">20</span> m</time>
+            </li>
+    </ul>
+
+            <ol class="listNumbers recipeDirectionsList" itemprop="recipeInstructions">
+                        <li class="step" ng-class="{'finished': stepIsActive0}" ng-click="stepIsActive0 = !stepIsActive0"><span class="recipeDirectionsListItem">Place cabbage and carrots in a colander; rinse thoroughly with cold water to crisp. Let drain for 5 minutes.</span></li>
+                        <li class="step" ng-class="{'finished': stepIsActive1}" ng-click="stepIsActive1 = !stepIsActive1"><span class="recipeDirectionsListItem">Meanwhile, whisk cilantro, vinegar, oil and salt in a large bowl. Add cabbage and carrots; toss well to coat.</span></li>
+            </ol>
+            <ol class="listNumbers recipeDirectionsList recipeNotes ng-hide" ng-show="itemNote" ng-cloak>
+                <li class="step"><span class="recipeDirectionsListItem" ng-bind-html="itemNote"></span></li>
+            </ol>
+
+
+    <div class="recipeFootnotes">
+            <ul>
+                    <li class=lightbulb>Make Ahead Tip: Cover and refrigerate for up to 1 day. Toss again to refresh just before serving.</li>
+                    <li class=lightbulb>Tip: To make this coleslaw even faster, use a coleslaw mix containing cabbage and carrots from the produce section of the supermarket.</li>
+            </ul>
+            </div>
+
+            <div id="karma-lazy-seriesDetails"></div>
+        </div>
+        <div class="directionsSectionTipsAndTricks">
+            <div class="magazineOffer">
+                <h4 class="directions--section__tipsAndTricks__title__font">Subscribe to the Magazine</h4>
+                <a href="https://secure.eatingwell.com/order/?containerName=i63vetb10&psrc=I63VETB10"><img class="getTheMagazineImg" src="http://bed56888308e93972c04-0dfc23b7b97881dee012a129d9518bae.r34.cf1.rackcdn.com/sites/default/files/u9/magazine/gift_cover.jpg" alt="" /></a>
+                <div class="offerText">
+                    <a href="https://secure.eatingwell.com/order/?containerName=i63vetb10&psrc=I63VETB10">
+                        <h5>Limited time 3-for-1 deal!</h5>
+                        <p>Get a full year of EatingWell&reg;, Rachael Ray Every Day&trade; and Shape&reg; for just $11.</p>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section ng-controller="ew_controllers_share_item" id="shareRecipe">
+    <section class="recipeShare">
+        <a href="mailto:?Subject=Mexican%20Coleslaw&amp;Body=http%3a%2f%2fwww.eatingwell.com%2frecipe%2f251756%2fmexican-coleslaw%2f"><span class="svg-icon--recipe-navbar--ew-icon-email svg-icon--recipe-navbar--ew-icon-email-dims"></span></a>
+        <a ng-click="socialShareStart('251756', 'facebook'); socialShareNavigate('https://facebook.com/sharer.php?u=http%3a%2f%2fwww.eatingwell.com%2frecipe%2f251756%2fmexican-coleslaw%2f', '_blank');"><span class="svg-icon--recipe-navbar--icon-facebook2 svg-icon--recipe-navbar--icon-facebook2-dims"></span></a>
+        <a ng-click="socialShareStart('251756', 'pinterest'); socialShareNavigate('http://pinterest.com/pin/create/button/?url=http%3a%2f%2fwww.eatingwell.com%2frecipe%2f251756%2fmexican-coleslaw%2f&amp;media=http%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f250x250%2f4509344.jpg&amp;description=Mexican+Coleslaw+-+EatingWell.com', '_blank');"><span class="svg-icon--recipe-navbar--icon-pinterest2 svg-icon--recipe-navbar--icon-pinterest2-dims"></span></a>
+        <a ng-click="socialShareStart('251756', 'twitter'); socialShareNavigate('https://twitter.com/intent/tweet?url=http%3a%2f%2fwww.eatingwell.com%2frecipe%2f251756%2fmexican-coleslaw%2f&amp;text=Mexican+Coleslaw+-+EatingWell.com&amp;via=EatingWell', '_blank');"><span class="svg-icon--recipe-navbar--icon-twitter2 svg-icon--recipe-navbar--icon-twitter2-dims"></span></a>
+    </section>
+</section>
+
+<div class="headingh2GuttersNutrition">
+    <h2>Nutrition information</h2> <a class="nutritionQuestion" href="http://www.eatingwell.com/eatingwell_nutrition_and_recipe_guidelines"></a>
+</div>
+
+<section class="Nutrition" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
+
+    <ul class="nutritionInfoList">
+            <li>Serving size: <span>generous 1 cup</span></li>
+      
+        <li>
+            Per serving: 
+            <span>
+ <span itemprop="calories">53 calories;</span>                  <span itemprop="fatContent">4</span> g fat(<span itemprop="saturatedFatContent">1</span> g sat);                  <span itemprop="fiberContent">2</span> g fiber;                  <span itemprop="carbohydrateContent">5</span> g carbohydrates;                  <span itemprop="proteinContent">1</span> g protein;                  27 mcg folate;                  <span itemprop="cholesterolContent">0</span> mg cholesterol;                  <span itemprop="sugarContent">3</span> g sugars;                  0 g added sugars;                  3,542 IU vitamin A;                  21 mg vitamin C;                  28 mg calcium;                  0 mg iron;                  <span itemprop="sodiumContent">97</span> mg sodium;                  159 mg potassium             </span>
+        </li>
+
+            <li>
+                Nutrition Bonus: <span>
+                    Vitamin A (71% daily value), Vitamin C (35% dv)
+                </span>
+            </li>
+
+        <li>Carbohydrate Servings: <span>&#189;</span></li>
+
+            <li>Exchanges: <span>1 vegetable, &#189; fat</span></li>
+    </ul>
+</section>
+
+
+
+        
+
+<h2 class="recipeReviewHeader" id="reviews">
+    Reviews <span class="recipeReviewCount">17</span>
+</h2>
+
+<div class="recipeReviewUserWithReviews">
+    <script>var userReview = {"recipeId":0,"userReview":{"text":null,"rating":0.0,"date":null}};</script>
+
+<section id="recipeReviewUser" ng-controller="ewRateAndReviewController">
+    <div class="recipeReviewUserWrapper">
+            <div class="recipeReviewUserImage"></div>
+            <a href="javascript:void(0);" ng-click="openRating()">
+                <div class="rateAndReviewButton">
+                    Rate and Review
+                </div>
+            </a>
+    </div>
+</section>
+</div>
+
+
+<div class="recipeReviewsWrapper" ng-controller="ewRecipeUserReviewsController" ng-init="init(9, 17)">
+
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">April 09, 2017</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">Meredith Van Schoick</span>
+                </div>
+                <div class="recipeReviewEntryContentText">needs work --- not spicy enough --- try adding some red onion, or green onions, maybe some pico de gallo, &amp;/or please some kind of chili, flakes, hot sauce, adobo sauce with jalape&#241;o peppers ---- something!</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">June 04, 2014</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">EatingWell User</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Quick &amp; Easy
+Quick to make ... I added a pinch of pepper flakes to add a little spice.  I have passed along to friends and family that like to eat healthy.</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">April 03, 2013</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">EatingWell User</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Used the pre-made bag of cabbage, added salsa instead of diced tomatoes and added jalapenos....DELICIOUS!</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">January 08, 2013</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">HungryHawkeye</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Love it!
+We love this as is. But for those looking for a little sweetness, we tried adding jicama to it yesterday. I thought it was a nice addition and all three kids loved it that way. 
+
+
+
+Pros: Great alternative to mayo filled coleslaw</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">July 02, 2012</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">EatingWell User</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Nothing Special
+What makes this Mexican, the cilantro? We found it so boring! I took the reviews of others and added, tomatoes, jalapeno and a little lime, now that made it Mexican and so much better!
+Pros: It&#39;s the base for add ins</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">June 03, 2012</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">EatingWell User</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Nice change to regular or asian slaw
+Like others I added radishes, grated carrots and artificial sweetener.
+Pros: Easy!</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">March 18, 2012</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">EatingWell User</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Great Tex Mex side
+Great side dish!  We love Asian/Sesame Coleslaw, and now love the Tex Mex version!  We added 2 diced, partly seeded jalapenos (we love spice), cumin, and some zero calorie sweetener.  We had shrimp tacos with it, but next time could put it right inside the taco!
+Pros: No mayo, easy, quick</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">February 16, 2012</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">EatingWell User</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Delsih!
+This was simple and delicious.  Oh my goodness, SO good.  Much better tahn we expected and will make again.
+Pros: Easy</div>
+            </div>
+        </div>
+    </div>
+    <div class="recipeReviewAngularWrapper">
+        <div class="recipeReviewEntry">
+            <div class="recipeReviewEntryRating">
+                <div class="recipeReviewEntryRatingStars">
+                    
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="20" width="20" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+
+                </div>
+                <div class="recipeReviewEntryRatingDate">November 05, 2011</div>
+            </div>
+            <img class="recipeReviewEntryImage" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+            <div class="recipeReviewEntryContent">
+                <div class="recipeReviewEntryContentName">
+                    By: <span class="noLink">I-Cook 4 U</span>
+                </div>
+                <div class="recipeReviewEntryContentText">Best ever non-mayo slaw
+I add thinly sliced green onion. This is a one of my standard recipes for slaw and I use it regularly in my Cafe.
+Pros: Light and fresh- no mayo
+Cons: none</div>
+            </div>
+        </div>
+    </div>
+    <div ng-bind-html="divReviews" class="recipeReviewsMoreReviews"></div>
+    <button ng-click="loadMore('http://www.eatingwell.com/recipe/251756/mexican-coleslaw/userreviews')" ng-hide="hideMoreResultsButton" class="recipeReviewsMoreButton ng-cloak">More Reviews</button>
+</div>
+
+        <section class="syndicatedContent">
+            
+<script id='mNCC' language='javascript'> medianet_width='630'; medianet_height= '175'; medianet_crid='846313298'; </script>
+<script id='mNSC' src='http://contextual.media.net/nmedianet.js?cid=8CUPTG615' language='javascript'></script>
+
+
+            
+<div class="OUTBRAIN" data-src="http://www.eatingwell.com/recipe/251756/mexican-coleslaw/" data-widget-id="AR_3" data-ob-template="EatingWell.com"></div>
+<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+
+        </section>
+
+    </section>
+    <section class="ewSideNav">
+        <div id="recipe-page-right-rail" class="recipe-page-right-rail">
+            
+
+<!-- Tier 1 300x250 -->
+<div class="ad-search-grid ad-container-nostyle" data-ad-container-autocollapse>
+    <div id="ad-skyscrapermultisize" class="ad-skyscrapermultisize">
+        <div id="div-gpt-square-flex-1" data-tier="1"></div>
+    </div>
+    <span class="advertisement">ADVERTISEMENT</span>
+</div>
+
+<!-- Tier 2 300x250 -->
+<div class="ad-search-grid ad-container-nostyle" data-ad-container-autocollapse>
+    <div id="ad-bottom-right2" class="ad-skyscrapermultisize">
+        <div id="div-gpt-square-fixed-1" data-tier="2"></div>
+    </div>
+    <span class="advertisement">ADVERTISEMENT</span>
+</div>
+
+
+            
+
+<div class="ad-search-grid hide-on-mobile">
+    <div id="mnt-rightRailTopAd" class="mnt">
+        <a href="http://www.eatingwell.com/free_downloads/20_minute_dinner_recipes_cookbook?psrc=R1401ETWTR7915R1068">
+            <img src="http://images.eatingwell.com/promotions/300x130/20-minute-dinner-recipes.jpg" alt="20 minute dinner recipes" title="20 minute dinner recipes" style="display: none;">
+            <div id="monetate_selectorBanner_b993a552_00">
+                <img alt="" src="http://b.monetate.net/img/1/321/529476.jpg" usemap="#monetate_selectorBanner_b993a552_00Map" style="border: none; outline: none;">
+                <map id="monetate_selectorBanner_b993a552_00Map" name="monetate_selectorBanner_b993a552_00Map">
+                    <area shape="rect" coords="0,0,299,149" href="http://www.eatingwell.com/nutrition_health/meal_plans#/step1?psrc=R507ERB1471WL" style="outline: none;">
+                </map>
+            </div>
+        </a>
+    </div>
+    <span class="advertisement">ADVERTISEMENT</span>
+</div>
+
+
+    <h2 class="recipeRelatedContentHeader">
+        More You'll Love
+    </h2>
+<div class="recipeRelatedContentContainer simpleMasonryContainer">
+
+        <a href="http://www.eatingwell.com/recipe/250078/ninas-mexican-rice/" title ="Nina&#39;s Mexican Rice">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/3757413.jpg" />
+                <span class="recipeRelatedContentItemTitle">Nina&#39;s Mexican Rice</span>
+
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+                    <span class="recipeRelatedContentItemReviewCount">13</span>
+            </div>
+        </a>
+        <a href="http://www.eatingwell.com/recipe/250077/elvias-mexican-pickled-vegetables/" title ="Elvia&#39;s Mexican Pickled Vegetables">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/3748039.jpg" />
+                <span class="recipeRelatedContentItemTitle">Elvia&#39;s Mexican Pickled Vegetables</span>
+
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+                    <span class="recipeRelatedContentItemReviewCount">6</span>
+            </div>
+        </a>
+        <a href="http://www.eatingwell.com/recipe/249197/vinegary-coleslaw/" title ="Vinegary Coleslaw">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/3746864.jpg" />
+                <span class="recipeRelatedContentItemTitle">Vinegary Coleslaw</span>
+
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+
+                    <span class="recipeRelatedContentItemReviewCount">5</span>
+            </div>
+        </a>
+        <a href="http://www.eatingwell.com/recipe/250152/new-mexican-red-chile-sauce/" title ="New Mexican Red Chile Sauce">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/3757544.jpg" />
+                <span class="recipeRelatedContentItemTitle">New Mexican Red Chile Sauce</span>
+
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-half.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+                    <span class="recipeRelatedContentItemReviewCount">4</span>
+            </div>
+        </a>
+        <a href="http://www.eatingwell.com/recipe/251550/creamy-coleslaw/" title ="Creamy Coleslaw">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/3705969.jpg" />
+                <span class="recipeRelatedContentItemTitle">Creamy Coleslaw</span>
+
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+                    <span class="recipeRelatedContentItemReviewCount">2</span>
+            </div>
+        </a>
+        <a href="http://www.eatingwell.com/recipe/252730/mexican-black-beans-frijoles-negros-con-hoja-de-aguacate/" title ="Mexican Black Beans (Frijoles Negros con Hoja de Aguacate)">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/3758997.jpg" />
+                <span class="recipeRelatedContentItemTitle">Mexican Black Beans (Frijoles Negros con Hoja de Aguacate)</span>
+
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+                    <span class="recipeRelatedContentItemReviewCount">2</span>
+            </div>
+        </a>
+        <a href="http://www.eatingwell.com/recipe/248134/classic-coleslaw/" title ="Classic Coleslaw">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/0.jpg" />
+                <span class="recipeRelatedContentItemTitle">Classic Coleslaw</span>
+
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-full.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+        <img height="16" width="16" src="http://css01.media-allrecipes.com/EatingWellAssets/assets/eatingWell/svg/icon/recipe-rating-stars/eating-well-star-null.svg" />
+
+                    <span class="recipeRelatedContentItemReviewCount">1</span>
+            </div>
+        </a>
+        <a href="http://www.eatingwell.com/recipe/248645/backyard-coleslaw/" title ="Backyard Coleslaw">
+            <div class="recipeRelatedContentItem simpleMasonryItem">
+                <img class="recipeRelatedContentItemImage" src="http://images.media-allrecipes.com/userphotos/150x150/3746018.jpg" />
+                <span class="recipeRelatedContentItemTitle">Backyard Coleslaw</span>
+            </div>
+        </a>
+</div>
+
+            
+            <div id="mnt-rightRailTopAd"></div>
+            
+
+<!-- Tier 3 300x250 -->
+<div class="ad-search-grid ad-container-nostyle" data-ad-container-autocollapse>
+    <div id="ad-bottom-right1" class="ad-skyscrapermultisize">
+        <div id="div-gpt-square-fixed-2" data-tier="3"></div>
+    </div>
+    <span class="advertisement">ADVERTISEMENT</span>
+</div>
+
+
+
+        </div>
+    </section>
+
+</div>
+
+
+        </div>
+
+        <div id='ad-footer' class="adMobileBottom">
+    <div id="div-gpt-mob-adhesive-banner-fixed" data-tier="1"></div>
+</div>
+
+        <footer class="pageFooter fullPage">
+            
+<section class="grid gridFixed">
+    <article class="gridCol gridCol--tiles">
+
+        <ul class="socialSharing__icons">
+
+            <li><a id="footer_facebook" href="https://www.facebook.com/EatingWell/?fref=ts" title="Facebook" target="_blank" class="ui-link"><img title="Facebook" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Facebook"></a></li>
+            <li><a id="footer_pinterest" href="https://www.pinterest.com/eatingwell/" title="Pinterest" target="_blank" class="ui-link"><img title="Pinterest" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Pinterest"></a></li>
+            <li><a id="footer_twitter" href="https://twitter.com/EatingWell" title="Twitter" target="_blank" class="ui-link"><img id="ctl00_Image3" title="Twitter" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Twitter"></a></li>
+            <li><a id="footer_instagram" href="http://instagram.com/eatingwell/" title="Instagram" target="_blank" class="ui-link"><img title="Instagram" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Instagram"></a></li>
+            <li><a id="footer_tumblr" href="http://eatingwellmagazine.tumblr.com/" title="Tumblr" target="_blank" class="ui-link"><img title="Tumblr" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Tumblr"></a></li>
+            <li><a id="footer_googleplus" href="https://plus.google.com/+eatingwell/" title="Google Plus" target="_blank" class="ui-link"><img title="Google Plus" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Google Plus"></a></li>
+            <li><a id="footer_stumbleupon" href="#" title="StumbleUpon" target="_blank" class="ui-link"><img title="StumbleUpon" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="StumbleUpon"></a></li>
+            <li><a id="footer_youtube" href="https://www.youtube.com/user/eatingwell" title="YouTube" target="_blank" class="ui-link"><img title="YouTube" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="YouTube"></a></li>
+        </ul>
+    </article>
+    <article class="gridCol gridCol--tiles">
+        <ul>
+            <li>About Us</li>
+            <li><a id="footer_jobs" href="http://www.eatingwell.com/about_us/" target="_self">About Us</a></li>
+            <li><a id="footer_newsroom" href="http://www.eatingwell.com/press_room/" target="_self">Newsroom</a></li>
+            <li><a id="footer_jobs" href="http://www.eatingwell.com/jobs_internships" target="_self">Jobs at EatingWell</a></li>
+        </ul>
+    </article>
+    <article class="gridCol gridCol--tiles footer_advertising">
+        <ul>
+            <li>Advertising</li>
+            <li><a id="footer_advertisewithus" class="" href="http://www.meredith.com/national-media/digital" target="_self">Advertise with Us</a></li>
+            <li><a id="footer_womensnetwork" class="" href="http://www.meredith.com/marketing_solutions/interactive_media.html" target="_self">Meredith Women's Network</a></li>
+        </ul>
+    </article>
+    <article class="gridCol gridCol--tiles">
+        <ul>
+            <li>Support</li>
+            <li><a id="footer_technical_questions" href="http://www.eatingwell.com/technical_questions">Technical Questions</a></li>
+            <li><a id="footer_contactus" href="http://www.eatingwell.com/contact_us" target="_self">Contact Us</a></li>
+            <li><a id="footer_customersupport" href="http://www.eatingwell.com/feedback" target="_self">Feedback</a></li>
+            <li> <a id="footer_contactus" href="http://www.eatingwell.com/website_customer_support" target="_self">Customer Service</a></li>
+        </ul>
+    </article>
+
+
+    <article class="gridCol gridCol--tiles">
+        <ul>
+            <li>Magazine</li>
+
+            <li><a href="https://secure.bhg.com/order/?splitName=etg_onsite_gift_footerlink" target="_blank">Give a Gift</a></li>
+            <li class="menu-59883 first"><a href="http://www.eatingwell.com/digital" title="">Digital Editions</a></li>
+            <li class="menu-1607"><a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=ETG&amp;cds_page_id=139051" title="Subscribe to the magazine" style="display: none;">Subscribe</a><a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=ETG&amp;cds_page_id=139051" title="Subscribe to the magazine"><a href="https://secure.eatingwell.com/order/?containerName=i57ver307&amp;psrc=I57VER307">Subscribe</a></a></li>
+            <li class="menu-1609"><a href="http://www.eatingwell.com/food_news_origins/eatingwell_magazine" title="Browse the table of contents.">Current Issue</a></li>
+            <li class="menu-6766"><a href="http://www.eatingwell.com/food_news_origins/eatingwell_magazine/recipe_indexes" title="">Recipe Index</a></li>
+            <li class="menu-69087 last"><a href="http://www.eatingwell.com/affiliates/index.html" title="">Affiliate Program</a></li>
+        </ul>
+    </article>
+    <article class="gridCol gridCol--tiles copyright">
+        <ul>
+            <li>©2017 Eating Well, Inc.</li>
+            <li>EatingWell</li>
+            <li>120 Graham Way</li>
+            <li>Suite 100</li>
+            <li>Shelburne, VT 05482, USA</li>
+            <li><a href="http://www.eatingwell.com">www.EatingWell.com</a></li>
+            <li><a href="http://www.meredith.com/datapolicy.html">Data Policy</a></li>
+            <li><a href="http://www.meredith.com/legal/privacy">Privacy Policy Your California Rights</a></li>
+            <li><a href="http://www.meredith.com/legal/terms"> Terms of Service</a></li>
+        </ul>
+    </article>
+</section>
+            <div data-ng-controller="ewControllersDeferredAction" data-ng-init="wireupAdIntegrationListeners();executePostLoginEvents();">  
+                <ew-notification></ew-notification>
+                <div data-loading-indicator></div>
+            </div>
+        </footer>
+        
+        <span class="suppress-foresee"></span>
+    </div>
+
+    <script>
+        var ew_services_environment = {
+            url: 'https://apps.allrecipes.com/',
+            baseDomain: '',
+            imageServerUrl: '',
+            scriptServerUrl: 'http://js01.media-allrecipes.com/EatingWellAssets/',
+            scriptServerUrlSecure: 'https://secureimages.allrecipes.com/',
+            cssServerUrl: 'http://css01.media-allrecipes.com/EatingWellAssets/',
+            cssServerUrlSecure: 'https://secureimages.allrecipes.com/EatingWellAssets/'
+        };
+
+        var siteCollectionId = 29;
+
+        var array = new Array();
+
+
+        window.Toggles = array;
+
+window.userinfo = { 'id' : 0 };
+    </script>
+    <script src='http://js01.media-allrecipes.com/EatingWellAssets/assets/deployables/v-1.73.0.3377/eatingWell-js-lazy.bundled.js' ></script>
+    
+    <script src='http://js01.media-allrecipes.com/EatingWellAssets/assets/deployables/v-1.73.0.3377/eatingWell-js-recipe.bundled.js' ></script>
+    <script>angular.module("eatingWell").value("userReview", userReview);</script>
+
+</div>
+<script src='http://css01.media-allrecipes.com/EatingWellAssets/assets/deployables/v-1.73.0.3377/eatingWell-templates.bundled.js' ></script>
+</body>
+</html>
