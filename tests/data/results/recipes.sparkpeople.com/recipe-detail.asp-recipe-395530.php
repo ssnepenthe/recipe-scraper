@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'author' => 'TOLLER43',
+    'categories' => [
+        'Appetizers / Soups / Salads',
+        'Other',
+        'Other Appetizers / Soups / Salads',
+        'Low Fat',
+        'Low Fat Appetizers / Soups / Salads',
+        'Soup',
+        'Appetizers / Soups / Salads Soup',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT5H',
+    'cuisines' => null,
+    'description' => 'Easy, delicious and healthy Crock Pot Cabbage Soup recipe from SparkRecipes. See our top-rated recipes for Crock Pot Cabbage Soup.',
+    'image' => null,
+    'ingredients' => [
+        '1 can of Chicken Broth',
+        '1/2 head of Cabbage - chopped',
+        '3 large carrots - chopped',
+        '8 stalks of celery',
+        '1 onion chopped',
+        '1 cup of green peppers chopped (approx 2 large)',
+        '1 can chopped tomatoes',
+        '1 can of sliced mushrooms',
+        '1 pkg of lipton onion soup mix',
+        '12 oz can of v-8 juice',
+        '.',
+    ],
+    'instructions' => [
+        'Chop all veggies into bite size pieces. Drain and rinse canned mushrooms. Add all ingredients in a large crock pot - cook on high for two hours and then on low for 3 hours. Very filling. Makes 10 servings of 1 cups. very low calorie.',
+    ],
+    'name' => 'Crock Pot Cabbage Soup',
+    'prepTime' => 'PT45M',
+    'publisher' => null,
+    'totalTime' => null,
+    'url' => 'https://recipes.sparkpeople.com/recipe-detail.asp?recipe=395530',
+    'yield' => '10',
+];

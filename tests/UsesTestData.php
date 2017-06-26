@@ -70,8 +70,11 @@ trait UsesTestData
         $path = isset($parsed['path'])
             ? $this->sanitizeStringForFileName($parsed['path'])
             : '';
+        $query = isset($parsed['query'])
+            ? '-' . $this->sanitizeStringForFileName($parsed['query'])
+            : '';
 
-        return $host . DIRECTORY_SEPARATOR . $path;
+        return $host . DIRECTORY_SEPARATOR . $path . $query;
     }
 
     protected function getResultsFilesList()

@@ -19,6 +19,7 @@ class Factory
         Scrapers\FarmFlavorCom::class => null,
         Scrapers\GeneralMills::class => null,
         Scrapers\HearstDigitalMedia::class => null,
+        Scrapers\RecipesSparkPeopleCom::class => null,
         Scrapers\ScrippsNetworks::class => null,
         Scrapers\SpryLivingCom::class => null,
         Scrapers\ThePioneerWomanCom::class => null,

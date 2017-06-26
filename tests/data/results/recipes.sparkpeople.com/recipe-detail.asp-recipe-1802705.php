@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'author' => 'VEHAMILTON1',
+    'categories' => [
+        'Side Items',
+        'Brunch',
+        'Brunch Side Items',
+        'Other',
+        'Other Side Items',
+        'Low Fat',
+        'Low Fat Side Items',
+        'Drink',
+        'Side Items Drink',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT15M',
+    'cuisines' => null,
+    'description' => 'The preferred drink of the Pharaohs of ancient Egypt. Hibiscus tea can lower blood pressure and reduce fever.',
+    'image' => 'https://sparkpeo.hs.llnwd.net/e4/nw/5/7/l573313160.jpg',
+    'ingredients' => [
+        '8 t Loose Dried Hibiscus Flowers',
+        '2-3 t Dried Rosehips',
+        '1 gal Pure Spring Water',
+        '2/3 c Honey or Stevia to taste',
+    ],
+    'instructions' => [
+        'Bring water to a boil.',
+        'Place hibiscus and rosehips in a large gallon container.',
+        'Pour boiled water over the dried hibiscus flowers.',
+        'Cover and steep for 8-10 minutes.',
+        'Strain. Add honey or sweeteners. Stir until dissolved.',
+        'Chill thoroughly and serve over ice.',
+    ],
+    'name' => 'Iced Hibiscus Tea',
+    'prepTime' => 'PT10M',
+    'publisher' => null,
+    'totalTime' => null,
+    'url' => 'https://recipes.sparkpeople.com/recipe-detail.asp?recipe=1802705',
+    'yield' => '12',
+];
