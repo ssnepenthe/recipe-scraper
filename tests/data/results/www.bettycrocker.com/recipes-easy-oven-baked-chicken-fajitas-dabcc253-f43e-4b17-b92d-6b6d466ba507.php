@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => null,
+    'author' => 'Jessica Walker',
     'categories' => null,
     'cookingMethod' => null,
     'cookTime' => null,
