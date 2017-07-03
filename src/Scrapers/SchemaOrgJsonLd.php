@@ -28,6 +28,7 @@ class SchemaOrgJsonLd implements ScraperInterface
         'ingredients',
         'instructions',
         'name',
+        'notes',
         'prepTime',
         'publisher',
         'totalTime',
@@ -255,6 +256,12 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $name;
         }
 
+        return null;
+    }
+
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        // No standard exists that I am aware of...
         return null;
     }
 

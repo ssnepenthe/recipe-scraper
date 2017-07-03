@@ -43,6 +43,12 @@ return [
         'Before serving, sprinkle with cocoa powder and/or sprinkle, if desired. If your tart pan has a removable bottom, carefully remove the tart so it\'s easier to slice through the edges. Slice the tart into even wedges using a sharp chef\'s knife, wiping off the blade after every slice. Serve immediately. This tart keeps well, chilled and covered, for up to 5 days.',
     ],
     'name' => 'Chocolate Peanut Butter Tart',
+    'notes' => [
+        'Make it dairy free: Use dairy-free chocolate chips. I like Enjoy Life brand, which is available at Target.',
+        'Make it vegan: Use dairy-free chocolate chips, and maple syrup instead of honey.',
+        'Make it peanut free: Omit the peanut butter for a chocolate cream tart, or replace the peanut butter with almond butter.',
+        'Change it up: You can omit the peanut butter for a chocolate cream tart. You can turn this into a Mexican-ish chocolate tart by omitting the peanut butter and replacing it with ½ teaspoon ground cinnamon and a dash of nutmeg. Turn it into a coffee chocolate tart by omitting the peanut butter and replacing it with 2 tablespoons triple-strength brewed coffee, cooled, and 1 teaspoon ground coffee (medium grind or finer).',
+    ],
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT1H45M',

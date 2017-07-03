@@ -35,10 +35,17 @@ return [
         'Prepare the croutons: On your other baking sheet, combine the cubed bread with the seeds and salt. Drizzle on 2 tablespoons olive oil and toss to lightly coat the bread. Don\'t worry about trying to get the seeds to stick to the bread, just try to make sure they\'re lightly coated in oil. Arrange the mixture in a single layer so no croutons are on top of one another.',
         'Once you have tossed the butternut and placed it back on the lower rack, place the sheet of croutons on the upper rack. Toast the bread for 10 to 13 minutes, until the edges are golden. Remove the croutons from the oven and check the squash-it will probably need 5 to 10 more minutes before the edges are caramelized. Once the butternut is done, remove the pan from the oven and set it aside to cool.',
         'To prepare the vinaigrette: Whisk together all of the ingredients until emulsified.',
-        // Should be split intwo two steps?
+        // Should be split into two steps?
         'To prepare the kale: Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant, about 30 seconds. Final assembly: Add the grated cheese, cranberries and shallot to the bowl. Drizzle enough dressing into the bowl to lightly coat the leaves (you might not need all of it), then toss to coat. Add the roasted butternut and croutons and gently toss to combine. Drizzle in extra dressing if the salad seems like it needs it. For best flavor, let the salad rest for 10 minutes before serving.',
     ],
     'name' => 'Balsamic Butternut, Kale and Cranberry Panzanella',
+    'notes' => [
+        'Make it gluten free: Substitute good gluten-free bread or skip the bread altogether.',
+        'Make it dairy free/vegan: Skip the cheese. You might want to add some sliced kalamata olives to make up for the cheese\'s saltiness, or maybe add a dab of white miso to the dressing for some umami.',
+        'Make it nut free: Be sure your whole grain bread is nut free.',
+        'Change it up: Substitute sweet potato or another winter squash for the butternut. Try chopped pecans or walnuts instead of seeds. Substitute arugula or baby spinach for the kale (no need to massage it). Substitute fresh pomegranate arils for the dried cranberries. All delicious ideas!',
+        'Storage suggestions: This salad is best served promptly but keeps well overnight if you want to pack it for lunch the next day.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT1H',

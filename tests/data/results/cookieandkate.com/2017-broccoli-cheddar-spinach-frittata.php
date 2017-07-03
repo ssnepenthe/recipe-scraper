@@ -32,6 +32,10 @@ return [
         'Once the frittata is done baking, let it rest for 5 to 10 minutes before slicing it into 6 large or 8 smaller wedges. Serve immediately. Leftover frittata will keep well, covered and refrigerated, for up to 3 days. Enjoy chilled or gently reheat.',
     ],
     'name' => 'Broccoli, Cheddar & Spinach Frittata',
+    'notes' => [
+        'Make it dairy free: Use a neutral-flavored, unsweetened non-dairy milk and omit the cheese.',
+        'Change it up: For a classic broccoli-cheddar frittata, simply omit the spinach. Or, substitute your greens of choice-baby arugula and chard would work well.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT40M',

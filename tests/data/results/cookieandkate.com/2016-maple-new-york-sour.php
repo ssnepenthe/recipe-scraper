@@ -21,6 +21,11 @@ return [
         'Pour fresh ice into your cocktail glass. Strain the cold whiskey sour mixture into the glass. Slowly pour the wine over the back of a spoon held just above the drink\'s surface, so it has a nice layered effect. Sip up!',
     ],
     'name' => 'Maple New York Sour',
+    'notes' => [
+        // 'Recipe adapted from my cinnamon maple whiskey sour and Bon Appetit.',
+        'Recommended equipment: Measuring small quantities of liquids for cocktails (and salad dressing, etc.) is WAY easier with this stainless steel measuring jigger.',
+        '*Wine notes: Look for wine descriptions that suggest notes of cherry/plum/berries, etc. and you should find a winner. I just wouldn\'t use a particularly spicy or dry red wine here. I used an organic 2014 cabernet sauvignon from Trader Joe\'s labeled "Rare Earth."',
+    ],
     'prepTime' => 'PT5M',
     'publisher' => null,
     'totalTime' => 'PT5M',
