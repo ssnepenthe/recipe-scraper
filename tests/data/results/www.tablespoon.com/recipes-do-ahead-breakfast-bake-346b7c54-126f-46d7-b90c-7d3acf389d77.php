@@ -25,6 +25,10 @@ return [
         'Heat oven to 375ºF. Bake uncovered 30 to 35 minutes or until light golden brown around edges and cheese is melted. Let stand 10 minutes.',
     ],
     'name' => 'Do-Ahead Breakfast Bake',
+    'notes' => [
+        'For fewer calories and less fat, use Bisquick Heart Smart® mix instead of the Original Bisquick mix, and use 1 cup fat-free egg product instead of the 4 eggs.',
+        'Try different types of cheeses in this recipe. Swiss and Monterey Jack work well, but you can also try seasoned cheeses, such as shredded taco cheese or pepper Jack cheese.',
+    ],
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT4H55M',

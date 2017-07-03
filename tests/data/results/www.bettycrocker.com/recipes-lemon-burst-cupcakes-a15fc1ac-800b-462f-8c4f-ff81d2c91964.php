@@ -23,6 +23,10 @@ return [
         'Frost cupcakes with frosting. To decorate, roll edge of each cupcake in candy sprinkles. Store loosely covered.',
     ],
     'name' => 'Lemon Burst Cupcakes',
+    'notes' => [
+        'If you have only one 12-cup muffin pan, cover and refrigerate the rest of the batter while baking the first batch. Then bake the rest of the batter in the cooled muffin pan, adding 1 or 2 minutes to the bake time.',
+        'Planning a wedding reception? Make your own cupcakes!',
+    ],
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT1H15M',

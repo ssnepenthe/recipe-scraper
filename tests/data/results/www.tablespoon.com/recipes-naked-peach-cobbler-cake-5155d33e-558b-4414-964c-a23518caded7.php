@@ -41,6 +41,7 @@ return [
         'To assemble cake: Cut each cake into 2 even layers. Set one layer on a cake plate. Spread 1/4th of the cheesecake filling over top. Spoon 1/4 of the glazed peaches on top. Sprinkle on 1/4 of the brown sugar cake crumbles over the peaches. Repeat this process, adding the remaining 3 cake layers and topping them with cheesecake filling, peaches, and cake crumbles. Refrigerate until ready to serve. Will keep in the refrigerator up to 5 days.',
     ],
     'name' => 'Naked Peach Cobbler Cake',
+    'notes' => null,
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT3H',

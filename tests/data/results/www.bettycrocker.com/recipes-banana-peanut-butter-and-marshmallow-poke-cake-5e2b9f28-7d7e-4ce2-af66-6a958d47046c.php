@@ -35,6 +35,10 @@ return [
         'Just before serving, in small microwavable bowl, microwave 1/3 cup peanut butter uncovered on High in 15-second intervals until thin enough to drizzle. Top cake with sliced bananas; drizzle with warm peanut butter. Cover and refrigerate any remaining cake.',
     ],
     'name' => 'Banana, Peanut Butter and Marshmallow Poke Cake',
+    'notes' => [
+        'If you don\'t think you\'ll be serving the entire cake at one time, go ahead and garnish individual slices with the bananas and peanut butter drizzle. This helps to prevent the bananas from browning after they\'ve been sliced.',
+        'Chopped roasted peanuts also make a lovely garnish instead of the peanut butter drizzle.',
+    ],
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT2H10M',

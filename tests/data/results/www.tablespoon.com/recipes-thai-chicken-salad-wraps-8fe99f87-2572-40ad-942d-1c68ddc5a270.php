@@ -31,6 +31,7 @@ return [
         'Place 4-5 lettuce leaves on bottom half of each tortilla. Top each with a few heaping tablespoonfuls of chicken salad mixture. Fold over sides of tortilla, then roll up from bottom to top. Repeat with remaining tortillas. Cut tortillas in half and serve.',
     ],
     'name' => 'Thai Chicken Salad Wraps',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT30M',

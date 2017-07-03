@@ -22,6 +22,7 @@ return [
         'To assemble the sandwiches, spread some mayonnaise on each slice of toasted bread. Next layer with lettuce, 2 slices of bacon, 2 slices of tomato and 2 slices of avocado. Drizzle with the balsamic vinegar reduction and serve immediately.',
     ],
     'name' => 'Bacon-Avocado-Lettuce-Tomato Snack Sandwich',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT15M',

@@ -32,6 +32,9 @@ return [
         'Optionally, wrap up the burger in parchment paper to help prevent dripping! Eat immediately!',
     ],
     'name' => 'Copycat In-N-Out Burger™ Double Cheeseburger',
+    'notes' => [
+        'While you could grill these burgers, they are actually best on a very hot skillet or griddle, so they get a crust on the outer part of the burger. If you do grill them, do so over high heat.',
+    ],
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT20M',

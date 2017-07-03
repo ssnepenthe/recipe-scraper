@@ -32,6 +32,10 @@ return [
         'Place 1 cake layer, top side down, on serving plate; spread with 1 cup frosting. Top with second layer, top side up. Frost side and top of cake with frosting. Store in refrigerator.',
     ],
     'name' => 'Quick Red Velvet Cake',
+    'notes' => [
+        'Cake mix makes this favorite very easy, but everyone knows it\'s the frosting that makes this cake fabulous--and that\'s still made from scratch. Enjoy the cake with flavored coffees like amaretto or hazelnut.',
+        'SuperMoist® devil\'s food cake mix can also be used for a dark red velvet cake; omit cocoa.',
+    ],
     'prepTime' => 'PT40M',
     'publisher' => null,
     'totalTime' => 'PT2H45M',
