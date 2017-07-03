@@ -4,9 +4,6 @@ namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
 
-/**
- * @todo  Has notes if we want them.
- */
 class AllRecipesCom extends SchemaOrgMarkup
 {
     /**
@@ -44,5 +41,20 @@ class AllRecipesCom extends SchemaOrgMarkup
     protected function extractName(Crawler $crawler)
     {
         return $this->extractString($crawler, 'h1[itemprop="name"]');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // Get footnote list items and remove headers.
+        // @todo Find more recipes to test against!
+        $crawler = $crawler->filter('.recipe-footnotes li')->reduce(function (Crawler $node) {
+            return ! $node->filter('.recipe-footnotes__header')->count();
+        });
+
+        return $this->extractArray($crawler);
     }
 }

@@ -29,6 +29,9 @@ return [
         'Bake at 350 degrees for 35-40 minutes or until golden brown. Cool for 5 minutes before removing from pans to wire racks.',
     ],
     'name' => 'Apple Pumpkin Muffins',
+    'notes' => [
+        '© 2002 Reiman Media Group, Inc.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

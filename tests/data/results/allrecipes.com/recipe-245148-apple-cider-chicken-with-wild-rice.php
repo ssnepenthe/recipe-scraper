@@ -37,6 +37,9 @@ return [
         'Return the chicken and its juices back into the sauce, turn down to medium-low and summer for at least 10 minutes, or until the chicken is cooked all the way through. Serve with hot cooked rice.',
     ],
     'name' => 'Apple Cider Chicken with Wild Rice',
+    'notes' => [
+        'You can also make this recipe with a more adult cider (alcoholic apple beverage), just leave out the vinegar. You can also use a whole cup of cider instead of the chicken broth.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT35M',
