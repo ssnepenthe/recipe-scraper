@@ -32,6 +32,10 @@ return [
         'Bake the quiche until the center is just set, 50 minutes to 1 hour. Let cool for 15 minutes. Run a knife around the edges to loosen the sides, remove the pan sides and cut the quiche into wedges.',
     ],
     'name' => 'Broccoli, Ham & Cheese Quiche',
+    'notes' => [
+        'Make Ahead Tip: Prepare crust; cool, wrap and refrigerate for up to 1 day. Let stand at room temperature while you continue with Step 3 and preheat oven.',
+        'Equipment: 9-inch springform pan',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT2H',

@@ -34,6 +34,10 @@ return [
         'To flip the tortilla, run a spatula gently around the edges to loosen them. Invert a large plate over the pan and turn out the tortilla onto it. Slide the tortilla back into the pan and continue cooking until completely set in the middle, 3 to 6 minutes. Serve warm or cold.',
     ],
     'name' => 'Spanish Tortilla',
+    'notes' => [
+        'Make Ahead Tip: Store airtight in the refrigerator for up to 1 day.',
+        'Tip: Look for precooked diced potatoes in the refrigerated section of most supermarket produce departments.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT40M',

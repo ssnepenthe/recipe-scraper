@@ -30,6 +30,10 @@ return [
         'Meanwhile, whisk cilantro, vinegar, oil and salt in a large bowl. Add cabbage and carrots; toss well to coat.',
     ],
     'name' => 'Mexican Coleslaw',
+    'notes' => [
+        'Make Ahead Tip: Cover and refrigerate for up to 1 day. Toss again to refresh just before serving.',
+        'Tip: To make this coleslaw even faster, use a coleslaw mix containing cabbage and carrots from the produce section of the supermarket.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT20M',
