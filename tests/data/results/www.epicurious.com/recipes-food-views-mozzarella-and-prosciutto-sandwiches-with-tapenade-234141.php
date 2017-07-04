@@ -47,6 +47,7 @@ return [
         'Brush cut sides of ficelle with additional olive oil. Place 1 prosciutto slice on bottom half of each ficelle, then top with mozzarella slices, dividing equally. Spoon tapenade over each. Sprinkle with pepper; drizzle lightly with olive oil. Garnish with basil leaves. Cover with top halves of ficelle.',
     ],
     'name' => 'Mozzarella and Prosciutto Sandwiches with Tapenade',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,

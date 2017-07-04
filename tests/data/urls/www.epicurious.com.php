@@ -6,4 +6,6 @@ return array (
   2 => 'http://www.epicurious.com/recipes/food/views/vanilla-buttermilk-sheet-cake-with-raspberries-and-orange-cream-cheese-frosting',
   3 => 'http://www.epicurious.com/recipes/food/views/plum-streusel-coffeecake-13137',
   4 => 'http://www.epicurious.com/recipes/food/views/salmon-burgers-with-lemon-and-capers-103498',
+  5 => 'http://www.epicurious.com/recipes/food/views/green-bean-nicoise-salad',
+  6 => 'http://www.epicurious.com/recipes/food/views/mediterranean-rice-noodles-56389410',
 );

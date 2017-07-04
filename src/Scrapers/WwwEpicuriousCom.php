@@ -5,7 +5,7 @@ namespace RecipeScraper\Scrapers;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
- * Some recipes have notes if we want them.
+ * Sometimes notes are bundled in with instructions...
  * Also has nutrition info if we want it.
  */
 class WwwEpicuriousCom extends SchemaOrgMarkup
@@ -58,6 +58,16 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '.preparation-group strong, .preparation-step');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // @todo More testing!
+        return $this->extractArray($crawler, '.chef-notes-content');
     }
 
     /**

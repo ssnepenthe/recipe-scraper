@@ -50,6 +50,7 @@ return [
         'Spread cake batter in pan, smoothing top, and arrange plum slices over it in slightly overlapping concentric circles. Sprinkle streusel over plum slices and bake cake in middle of oven 1 hour, or until a tester comes out clean. Coffeecake may be made 1 week ahead: Cool cake completely in pan on a rack and freeze, wrapped well in plastic wrap and foil. Reheat cake, unwrapped but not thawed, in a preheated 350°F. oven until heated through, 35 to 40 minutes. Cool cake slightly on a rack and sift confectioners\' sugar over it. Serve coffeecake warm or at room temperature.',
     ],
     'name' => 'Plum Streusel Coffeecake',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Gourmet',
     'totalTime' => null,

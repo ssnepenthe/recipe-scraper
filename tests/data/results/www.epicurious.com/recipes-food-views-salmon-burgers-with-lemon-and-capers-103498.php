@@ -50,6 +50,7 @@ return [
         'Heat 1 tablespoon olive oil in heavy large skillet over medium-high heat. Working in batches, add salmon patties to skillet and cook until patties are golden brown and cooked through, about 2 minutes per side, adding more oil to skillet as needed. Serve salmon burgers on toasted hamburger buns with mayonnaise, lettuce leaves and tomato slices.',
     ],
     'name' => 'Salmon Burgers with Lemon and Capers',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
