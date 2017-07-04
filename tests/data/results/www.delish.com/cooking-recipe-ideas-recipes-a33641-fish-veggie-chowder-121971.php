@@ -32,6 +32,7 @@ return [
         'Add the potatoes and Old Bay, reduce heat and simmer until the potatoes are just tender, 12 to 15 minutes. Stir in the corn and fish and simmer until the fish is opaque throughout, 3 to 5 minutes. Break the bacon into pieces and sprinkle over the soup.',
     ],
     'name' => 'Fish and Veggie Chowder',
+    'notes' => null,
     'prepTime' => 'PT40M',
     'publisher' => null,
     'totalTime' => 'PT40M',

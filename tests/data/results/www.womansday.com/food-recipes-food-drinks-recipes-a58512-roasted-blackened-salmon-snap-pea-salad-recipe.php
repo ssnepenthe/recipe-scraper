@@ -29,6 +29,7 @@ return [
         'Meanwhile, in a large bowl, whisk together the ginger, honey, remaining vinegar, and 1/4 teaspoon each salt and pepper. Add the peas, radishes, cucumber, and onion and toss to combine; fold in the mint. Serve with the salmon.',
     ],
     'name' => 'Roasted Blackened Salmon with Snap Pea Salad',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT20M',

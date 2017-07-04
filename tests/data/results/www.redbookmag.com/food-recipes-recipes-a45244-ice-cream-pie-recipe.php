@@ -28,6 +28,7 @@ return [
         'Top it off. Whip the heavy cream, sugar, and vanilla to soft peaks. Remove pie from freezer and spread it with the whipped cream. Scatter the remaining fillings over the top. Return to the freezer to set at least 1 hour (wrapped in plastic wrap, it will keep up to 3 months). Remove pie from freezer. Run a small sharp knife or offset spatula around the edge of the pan and remove ring. Warm the blade of a sharp knife in hot water and slice the pie. Serve immediately.',
     ],
     'name' => 'Anyone Can Make This Deliciously Decadent Ice Cream Pie',
+    'notes' => null,
     'prepTime' => 'PT25M',
     'publisher' => null,
     'totalTime' => 'PT35M',

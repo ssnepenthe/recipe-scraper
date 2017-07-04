@@ -34,6 +34,7 @@ return [
         'Spread chimichurri on toasted bread. Layer sliced steak with tomatoes and a few basil leaves. Top with toasted bread to close the sandwich.',
     ],
     'name' => 'Chimichurri Steak Sandwich',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT20M',

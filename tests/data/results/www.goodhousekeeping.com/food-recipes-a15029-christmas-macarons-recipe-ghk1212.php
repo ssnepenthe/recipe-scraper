@@ -32,6 +32,7 @@ return [
         'When cookies are cool, spread chocolate on bottoms of half of macarons, using about 1/2 teaspoon for each. Top each with another macaron, bottom side down. Let stand until chocolate hardens, about 45 minutes.',
     ],
     'name' => 'Christmas Macarons',
+    'notes' => null,
     'prepTime' => 'PT25M',
     'publisher' => null,
     'totalTime' => 'PT1H',

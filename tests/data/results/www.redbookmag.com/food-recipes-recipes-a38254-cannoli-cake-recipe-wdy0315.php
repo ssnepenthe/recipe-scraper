@@ -45,6 +45,7 @@ return [
         'Gently press the pistachios, cannoli shells, and remaining 1/2 cup chocolate chips onto the sides of the cake (use the parchment paper to help pat them on). Refrigerate until ready to serve (up to 2 days).',
     ],
     'name' => 'Cannoli Cake',
+    'notes' => null,
     'prepTime' => 'PT1H',
     'publisher' => null,
     'totalTime' => 'PT1H45M',

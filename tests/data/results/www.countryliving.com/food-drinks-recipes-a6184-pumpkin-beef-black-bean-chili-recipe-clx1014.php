@@ -41,6 +41,7 @@ return [
         'Chipotle Sour Cream: Stir together sour cream, chipotle, lime zest, and lime juice. Season to taste with salt and pepper.',
     ],
     'name' => 'Pumpkin, Beef, and Black Bean Chili',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT45M',

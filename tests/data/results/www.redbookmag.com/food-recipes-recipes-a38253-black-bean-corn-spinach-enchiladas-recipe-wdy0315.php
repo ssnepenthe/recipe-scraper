@@ -35,6 +35,9 @@ return [
         'Divide the filling and all but 1/3 cup of the cheese among the tortillas (about 1/3 cup filling each). Roll them up and place seam-side down in a large baking dish or individual dishes. Spoon the enchilada sauce over the top, sprinkle with the remaining cheese and broil until the cheese melts, 1 to 2 minutes.',
     ],
     'name' => 'Black Bean, Corn, and Spinach Enchiladas',
+    'notes' => [
+        'Switch It Up: For meat-eaters, add cooked shrimp or shredded rotisserie chicken to the filling just before rolling the mixture in the tortillas.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT20M',

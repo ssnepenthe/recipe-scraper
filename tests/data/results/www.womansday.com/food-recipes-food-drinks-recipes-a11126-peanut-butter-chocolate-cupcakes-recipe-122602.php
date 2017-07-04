@@ -46,6 +46,7 @@ return [
         'Melt chocolate chips in large glass bowl in microwave as package directs. Add sour cream; beat with an electric mixer until fluffy and good spreading consistency. Spread about 2 Tbsp frosting on each cupcake.',
     ],
     'name' => 'Peanut Butter and Chocolate Cupcakes',
+    'notes' => null,
     'prepTime' => 'PT40M',
     'publisher' => null,
     'totalTime' => 'PT1H30M',

@@ -26,6 +26,7 @@ return [
         'To skillet, add shrimp, frozen peas, 1⁄4 teaspoon salt and 1⁄2 teaspoon pepper. Cook 5 minutes or until shrimp are cooked, stirring occasionally. Toss with cooked ziti or rigatoni. Garnish with sliced green onions.',
     ],
     'name' => 'Easy-Peasy Shrimp Ziti',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT25M',

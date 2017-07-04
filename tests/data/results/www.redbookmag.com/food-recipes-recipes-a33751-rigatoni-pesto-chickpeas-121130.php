@@ -26,6 +26,9 @@ return [
         'Set a colander in kitchen sink; put the remaining chickpeas in the colander and drain the pasta. Return pasta and chickpeas to pot. Add pesto mixture and toss to mix and coat. Serve immediately, topping with tomatoes and parsley.',
     ],
     'name' => 'Rigatoni with Pesto and Chickpeas',
+    'notes' => [
+        'Look for tubs of pesto in the dairy or fresh pasta section.',
+    ],
     'prepTime' => 'PT5M',
     'publisher' => null,
     'totalTime' => 'PT20M',

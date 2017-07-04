@@ -34,6 +34,7 @@ return [
         'Bring an 8-quart stock pot of water to a boil and generously season with salt. Cook zucchini until al dente, 2 to 3 minutes, and drain. Slice chicken against the grain and serve over zucchini noodles with a drizzle of balsamic-honey glaze and a sprinkle of sea salt. Serve immediately.',
     ],
     'name' => 'Balsamic Grilled Chicken and Zucchini',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT35M',

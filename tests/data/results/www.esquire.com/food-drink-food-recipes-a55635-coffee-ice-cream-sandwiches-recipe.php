@@ -39,6 +39,7 @@ return [
         'Assemble the sandwiches: Place a scoop of ice cream onto flat side of chilled cookie, top with another cookie, and serve.',
     ],
     'name' => 'The Coffee Ice Cream Sandwiches You\'ll Be Making All Summer',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

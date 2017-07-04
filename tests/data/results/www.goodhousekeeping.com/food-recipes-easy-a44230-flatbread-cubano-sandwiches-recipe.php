@@ -24,6 +24,7 @@ return [
         'Bake in 475°F oven 6 to 8 minutes or until bottoms are golden brown. With spatula, carefully turn sandwiches over; bake 6 minutes or until deep golden brown and crisp. Serve with spicy brown mustard and green salad.',
     ],
     'name' => 'Flatbread Cubano Sandwiches',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT30M',

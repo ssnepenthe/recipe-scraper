@@ -11,6 +11,12 @@ use Symfony\Component\DomCrawler\Crawler;
  * Has LD+JSON but it is malformed on some pages.
  *
  * Some recipes have two recipeYield items.
+ *
+ * May want to revisit notes. There is an "extra-content" section which has a lot of note-type
+ * content, but is not included yet because the type of content is very inconsistent.
+ *
+ * For example, delish and esquire tend to include a sort-of byline.
+ * Good housekeeping and woman's day include nutritional information.
  */
 class HearstDigitalMedia extends SchemaOrgMarkup
 {
@@ -94,6 +100,19 @@ class HearstDigitalMedia extends SchemaOrgMarkup
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // @todo More recipes to test.
+        return $this->extractArray(
+            $crawler,
+            '.recipe-extra-content .tip, .recipe-extra-content blockquote'
+        );
     }
 
     /**

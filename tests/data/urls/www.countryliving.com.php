@@ -6,4 +6,5 @@ return array (
   2 => 'http://www.countryliving.com/food-drinks/recipes/a37293/chipotle-chicken-fajitas/',
   3 => 'http://www.countryliving.com/food-drinks/recipes/a33282/spiced-chicken-tacos-avocado-pomegranate-salsa-recipe-wdy0315/',
   4 => 'http://www.countryliving.com/food-drinks/recipes/a6184/pumpkin-beef-black-bean-chili-recipe-clx1014/',
+  5 => 'http://www.countryliving.com/food-drinks/recipes/a1663/zesty-vegetable-lasagna-3781/',
 );

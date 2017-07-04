@@ -27,6 +27,9 @@ return [
         'Repeat with remaining batter, brushing griddle with more oil if necessary.',
     ],
     'name' => 'Easy Recipe Alert: How to Make Pancakes',
+    'notes' => [
+        'Tip: For thinner pancakes, add a little more milk to the batter.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT30M',

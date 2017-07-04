@@ -28,6 +28,7 @@ return [
         'Serve sweet potatoes and beans with avocado, corn tortillas, cotija or feta cheese and cilantro.',
     ],
     'name' => 'Sweet Potato, Avocado and Black Bean Tacos',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT40M',

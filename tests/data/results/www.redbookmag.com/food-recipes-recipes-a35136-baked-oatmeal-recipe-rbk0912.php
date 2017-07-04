@@ -34,6 +34,7 @@ return [
         'Divide oat mixture among 12 medium sized muffin cups. Top each with an even amount of apple cinnamon mixture. Cook for 20 minutes, or until a tester comes out clean. Serve with a generous drizzle of maple syrup.',
     ],
     'name' => 'Baked Oatmeal',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT20M',

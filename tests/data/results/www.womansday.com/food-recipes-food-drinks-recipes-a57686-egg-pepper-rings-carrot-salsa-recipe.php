@@ -30,6 +30,7 @@ return [
         'Crack 1 egg into each pepper ring; sprinkle with oregano and 1/4 teaspoon each salt and pepper. Cover and cook until the whites are set, 4 to 5 minutes for soft yolks. Top with the carrot salsa and serve on English muffins (if using).',
     ],
     'name' => 'Egg Pepper Rings with Carrot Salsa',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT20M',

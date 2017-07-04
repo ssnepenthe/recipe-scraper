@@ -41,6 +41,7 @@ return [
         'Make the frosting. Beat cream cheese and butter on medium speed with an electric mixer until creamy and smooth, 1 to 2 mins. Gradually add confectioners\' sugar, lemon zest, lemon juice, and kosher salt, beating until light and fluffy, 1 to 2 minutes. Makes 1 3/4 cups.',
     ],
     'name' => 'Duke\'s Lemon Drop Sheet Cake',
+    'notes' => null,
     'prepTime' => 'PT25M',
     'publisher' => null,
     'totalTime' => 'PT2H',

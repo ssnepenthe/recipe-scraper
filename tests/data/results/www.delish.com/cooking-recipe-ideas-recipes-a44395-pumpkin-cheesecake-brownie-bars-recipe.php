@@ -45,6 +45,7 @@ return [
         'Pour cheesecake batter over cooled brownies and smooth top. Bake until set around the edges and just barely jiggling in the center, 45 minutes, then let cool to room temperature on a wire rack. Once completely cool, loosely cover cheesecake with plastic wrap and chill in the refrigerator until firm, 3 hours, or up to overnight.',
     ],
     'name' => 'Pumpkin Cheesecake Brownies',
+    'notes' => null,
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT4H30M',

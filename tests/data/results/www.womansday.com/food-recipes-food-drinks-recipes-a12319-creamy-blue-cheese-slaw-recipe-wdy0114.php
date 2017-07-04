@@ -32,6 +32,7 @@ return [
         'Add the cabbage, onion, and apple and toss to coat. Fold in the parsley and all but 1 tablespoon blue cheese. Sprinkle the remaining blue cheese over the top before serving.',
     ],
     'name' => 'Creamy Blue Cheese Slaw',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT15M',
