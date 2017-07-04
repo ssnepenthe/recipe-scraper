@@ -23,6 +23,7 @@ return [
         'Fill each taco shell with 1/4 cup beef mixture and toppings of your choice.',
     ],
     'name' => 'Mom\'s Sloppy Tacos',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT30M',

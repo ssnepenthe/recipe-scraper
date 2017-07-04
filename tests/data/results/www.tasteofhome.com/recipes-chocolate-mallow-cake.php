@@ -46,6 +46,7 @@ return [
         'Pour into the large bowl of a heavy-duty stand mixer; add marshmallows. Beat on high for 7-9 minutes or until stiff peaks form. Carefully spread over cake. Pipe thin lines of melted chocolate over cake; gently pull a toothpick or sharp knife through lines in alternating directions. Store in the refrigerator.',
     ],
     'name' => 'Chocolate Mallow Cake',
+    'notes' => null,
     'prepTime' => 'PT1H',
     'publisher' => null,
     'totalTime' => 'PT1H30M',

@@ -65,6 +65,16 @@ class WwwTasteOfHomeCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // @todo More tests! Currently only one recipe.
+        return $this->extractArray($crawler, '.rd_editornote');
+    }
+
+    /**
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler)

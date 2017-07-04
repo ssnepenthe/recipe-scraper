@@ -31,6 +31,7 @@ return [
         'For topping, combine sugar and cornstarch in a saucepan. Stir in cranberries and water until blended. Bring to a boil. Reduce heat; cook and stir until berries pop and mixture is thickened, about 5 minutes; cool. Let torte stand at room temperature for 10 minutes before slicing. Serve with topping.',
     ],
     'name' => 'Cranberry Torte',
+    'notes' => null,
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT30M',
