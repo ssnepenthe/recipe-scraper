@@ -40,6 +40,9 @@ return [
         'Brush the egg mixture over the edges of each pastry. Sprinkle 2 tsp. of the sanding sugar over the top of each croustade. Bake until the dough is golden brown, 25 to 30 minutes. Transfer the baking sheets to a rack to cool. Serve warm or at room temperature',
     ],
     'name' => 'Huckleberry Croustades',
+    'notes' => [
+        'Recipe adapted from Moveable Feast with Fine Cooking',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

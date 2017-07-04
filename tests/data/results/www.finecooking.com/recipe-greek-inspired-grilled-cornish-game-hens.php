@@ -48,6 +48,9 @@ return [
         'Transfer the birds to a cutting board, breast side up, and spread with some of the butter. Tent with foil for 5 minutes. Cut into halves or quarters, garnish with the chopped parsley and salt, and pass the remaining butter at the table.',
     ],
     'name' => 'Greek-Inspired Grilled Cornish Game Hens',
+    'notes' => [
+        'You can substitute 8 whole or semiboneless quail, 4 poussin or squab, or even 2 small chickens for the game hens, though cooking times will differ. (If using semiboneless quail, consider skewering them, using two skewers threaded through each side for easier handling.) The seasoning rub and glaze can both be made several hours ahead; keep covered at room temperature until ready to use. The butter can be made up to 2 days ahead. Cover and refrigerate, then bring to room temperature before serving.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

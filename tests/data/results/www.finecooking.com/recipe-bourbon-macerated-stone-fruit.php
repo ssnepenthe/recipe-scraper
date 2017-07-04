@@ -21,6 +21,9 @@ return [
         'In a small saucepan over high heat, bring the sugar with 1/4 cup water to a boil. After the sugar dissolves, remove the pan from the heat and let cool. When cooled, stir in the bourbon. Put the fruit in a medium bowl, and pour the sugar mixture over it. Let rest at room temperature for 30 minutes to 1 hour.',
     ],
     'name' => 'Bourbon-Macerated Stone Fruit',
+    'notes' => [
+        'This technique also works with dried fruit. Just pour the hot macerating liquid over dried fruit in a heatproof bowl. Add the bourbon after the fruit mixture has cooled.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

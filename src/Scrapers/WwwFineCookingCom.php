@@ -40,6 +40,16 @@ class WwwFineCookingCom extends SchemaOrgJsonLd
     /**
      * @param  Crawler $crawler
      * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        return $this->extractArray($crawler, '.module--tip p');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler, array $json)
