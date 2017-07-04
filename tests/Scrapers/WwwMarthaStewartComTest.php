@@ -3,7 +3,7 @@
 namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Scrapers\SchemaOrgJsonLd;
+use RecipeScraper\Scrapers\WwwMarthaStewartCom;
 
 class WwwMarthaStewartComTest extends ScraperTestCase
 {
@@ -14,6 +14,6 @@ class WwwMarthaStewartComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new SchemaOrgJsonLd;
+        return new WwwMarthaStewartCom;
     }
 }

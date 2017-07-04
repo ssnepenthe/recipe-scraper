@@ -31,6 +31,7 @@ return [
         'To assemble each roll, soak a wrapper in a bowl of warm water until softened, about 30 seconds. Transfer to a work surface. Lay 1 or 2 lettuce leaves lengthwise at 1 end of wrapper. Spread 1/2 cup tofu mixture over lettuce; sprinkle with shallots. Top with basil and cilantro. Fold ends in and roll tightly to enclose filling. Cover with a damp cloth until ready to serve. Halve rolls. Serve with dipping sauce.',
     ],
     'name' => 'Summer Rolls with Peanut Dipping Sauce',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Martha Stewart',
     'totalTime' => null,
