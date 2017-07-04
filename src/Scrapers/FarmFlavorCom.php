@@ -77,6 +77,15 @@ class FarmFlavorCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        return $this->extractArray($crawler, '.recipe-tips p');
+    }
+
+    /**
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function extractPrepTime(Crawler $crawler)

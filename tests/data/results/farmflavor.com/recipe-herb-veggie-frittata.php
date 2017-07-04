@@ -34,6 +34,7 @@ return [
         'Pour the egg mixture evenly into the skillet over the vegetables. Let sit, without stirring, until the edges begin to set, about 2 to 3 minutes. Then transfer the skillet to the oven and bake for about 15 to 20 minutes, or until golden brown. Sprinkle remaining cheese on top and garnish with remaining diced chives.',
     ],
     'name' => 'Herb and Veggie Frittata',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,

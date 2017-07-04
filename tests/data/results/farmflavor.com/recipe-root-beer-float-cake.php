@@ -37,6 +37,9 @@ return [
         'In a large bowl, beat icing ingredients together well, and drizzle over the cake.',
     ],
     'name' => 'Root Beer Float Cake',
+    'notes' => [
+        'Serve this cake with a scoop of vanilla ice cream on top of each slice.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,

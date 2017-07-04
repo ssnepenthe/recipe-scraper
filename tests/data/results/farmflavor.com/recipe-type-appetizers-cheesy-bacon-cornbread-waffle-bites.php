@@ -43,6 +43,7 @@ return [
         'To make dip, stir ingredients together until well combined. Season to taste. Serve with waffle bites.',
     ],
     'name' => 'Cheesy Bacon Cornbread Waffle Bites',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,
