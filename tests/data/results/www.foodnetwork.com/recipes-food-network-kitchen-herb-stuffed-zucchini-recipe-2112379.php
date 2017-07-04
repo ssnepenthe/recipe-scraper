@@ -22,6 +22,7 @@ return [
         'Photograph by Johnny Miller',
     ],
     'name' => 'Herb-Stuffed Zucchini',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Food Network',
     'totalTime' => 'PT35M',

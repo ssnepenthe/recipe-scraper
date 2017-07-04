@@ -35,6 +35,17 @@ class ScrippsNetworks extends SchemaOrgJsonLd
     }
 
     /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        // @todo More tests! Only have one recipe from foodnetwork.com at the moment.
+        return $this->extractArray($crawler, '.chefsNotes .o-Notes__a-Description');
+    }
+
+    /**
      * @param  string|null $value
      * @return string|null
      */

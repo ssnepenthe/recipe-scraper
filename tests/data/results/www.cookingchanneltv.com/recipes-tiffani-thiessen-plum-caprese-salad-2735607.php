@@ -32,6 +32,7 @@ return [
         'Arrange the tomatoes and plums on a serving platter, alternating the tomatoes and plums. Tear the buratta over the top. Sprinkle the basil and mint over the salad and then drizzle with the vinaigrette. Finish with a pinch of sea salt and some pepper; serve.'
     ],
     'name' => 'Plum Caprese Salad',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT20M',

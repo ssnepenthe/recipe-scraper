@@ -25,6 +25,7 @@ return [
         'Photograph by Christopher Testani',
     ],
     'name' => 'Salad With Blue Cheese Dressing',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Food Network',
     'totalTime' => 'PT7M',

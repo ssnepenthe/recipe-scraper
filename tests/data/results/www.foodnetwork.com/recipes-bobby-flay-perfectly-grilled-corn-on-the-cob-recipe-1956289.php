@@ -46,6 +46,7 @@ return [
         'Combine in a food processor and process until smooth.',
     ],
     'name' => 'Perfectly Grilled Corn on the Cob',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Food Network',
     'totalTime' => 'PT1H35M',

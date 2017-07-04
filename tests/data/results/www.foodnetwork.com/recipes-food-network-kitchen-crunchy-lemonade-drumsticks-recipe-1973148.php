@@ -34,6 +34,7 @@ return [
         'Photographs by Con Poulos',
     ],
     'name' => 'Crunchy Lemonade Drumsticks',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Food Network',
     'totalTime' => 'PT1H45M',

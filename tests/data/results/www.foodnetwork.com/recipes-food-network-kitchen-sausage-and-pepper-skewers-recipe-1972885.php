@@ -37,6 +37,7 @@ return [
         'Photography by Antonis Achilleos',
     ],
     'name' => 'Sausage-and-Pepper Skewers',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Food Network',
     'totalTime' => 'PT45M',
