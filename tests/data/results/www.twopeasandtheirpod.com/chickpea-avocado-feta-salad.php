@@ -28,6 +28,7 @@ return [
         'In a medium bowl, combine chickpeas, avocado, cilantro, green onion, feta cheese, and lime juice. Stir until mixed well. Season with salt and pepper. Serve.',
     ],
     'name' => 'Chickpea, Avocado, & Feta Salad',
+    'notes' => null,
     'prepTime' => 'PT5M',
     'publisher' => null,
     'totalTime' => 'PT5M',

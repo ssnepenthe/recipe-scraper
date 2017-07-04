@@ -58,6 +58,12 @@ class WwwTwoPeasAndTheirPodCom extends SchemaOrgJsonLd
         return $this->extractString($crawler, '[itemprop="name"]');
     }
 
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        // @todo More testing!
+        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] p');
+    }
+
     protected function extractUrl(Crawler $crawler, array $json)
     {
         // Has itemprop="url" but it is missing trailing slash.

@@ -38,6 +38,9 @@ return [
         'When ready to serve, remove pie from freezer. Drizzle pie with Peanut Butter Hot Fudge Sauce. Run a sharp knife under hot water. Cut the pie into slices and serve immediately.',
     ],
     'name' => 'Peanut Butter Pretzel Ice Cream Pie',
+    'notes' => [
+        'Note-to make the pretzel pie crust, you will need about 4 cups whole pretzels. To crush them, you can place the pretzels in a zipped plastic bag and crush with a rolling pin. Alternately, you can use a food processor. The pie will keep in the freezer for up to 2 weeks. Keep the pie covered with plastic wrap. You can find Private Selection ice cream at Kroger stores.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT2H25M',
