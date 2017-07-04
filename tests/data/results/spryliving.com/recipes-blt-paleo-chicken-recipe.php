@@ -36,6 +36,7 @@ return [
         'Add lettuce; toss to coat.',
     ],
     'name' => 'Paleo Grilled Chicken BLT',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => null,

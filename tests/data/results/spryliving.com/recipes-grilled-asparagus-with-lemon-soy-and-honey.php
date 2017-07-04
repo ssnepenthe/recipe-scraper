@@ -23,6 +23,9 @@ return [
         'Preheat grill to high heat. Combine oil, soy sauce, honey, red pepper flakes and lemon juice. Place asparagus spears in a nonreactive dish and pour soy sauce mixture over them. Toss asparagus and let sit 5 minutes in marinade before cooking. Grill spears for 5 to 8 minutes depending on thickness. Serve sprinkled with pine nuts or sesame seeds.',
     ],
     'name' => 'Grilled Asparagus with Lemon, Soy and Honey',
+    'notes' => [
+        '*To toast pine nuts or seeds: Place on a baking pan and place in a 325-degree oven 6 to 10 minutes until golden brown.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

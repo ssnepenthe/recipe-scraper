@@ -27,6 +27,7 @@ return [
         'Place the salmon on the grill, flesh side down, and grill 3 to 4 minutes. Turn the salmon, and place the squash slices on the grill. Brush the pesto over the salmon and the squash. Grill the squash, turning it occasionally, for 4 to 5 minutes until cooked through. Grill the salmon 4 to 5 minutes until the skin crisps but the center is still medium. Transfer to a plate and serve immediately.',
     ],
     'name' => 'Grilled Salmon with Garlic-Kale Pesto and Summer Squash',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

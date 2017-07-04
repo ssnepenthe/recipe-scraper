@@ -76,6 +76,19 @@ class SpryLivingCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // @todo More testing!
+        return $this->extractArray(
+            $crawler,
+            '[itemprop="recipeInstructions"] > div:not(.wp-caption)'
+        );
+    }
+
+    /**
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler)

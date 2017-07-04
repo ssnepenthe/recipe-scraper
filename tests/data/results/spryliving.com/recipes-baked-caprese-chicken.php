@@ -39,6 +39,7 @@ return [
         'Drain and transfer to a serving bowl. Drizzle with olive oil and lemon juice; sprinkle with remaining ¼ tsp each salt and pepper.',
     ],
     'name' => 'Baked Caprese Chicken with Lemon Green Beans and Parmesan Polenta',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => null,
