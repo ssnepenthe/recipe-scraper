@@ -33,6 +33,7 @@ return [
         'Chop all veggies into bite size pieces. Drain and rinse canned mushrooms. Add all ingredients in a large crock pot - cook on high for two hours and then on low for 3 hours. Very filling. Makes 10 servings of 1 cups. very low calorie.',
     ],
     'name' => 'Crock Pot Cabbage Soup',
+    'notes' => null,
     'prepTime' => 'PT45M',
     'publisher' => null,
     'totalTime' => null,

@@ -33,6 +33,7 @@ return [
         'Chill thoroughly and serve over ice.',
     ],
     'name' => 'Iced Hibiscus Tea',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => null,

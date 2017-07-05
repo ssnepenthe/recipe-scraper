@@ -27,6 +27,7 @@ return [
         'Grill for 10 minutes turning until brown.',
     ],
     'name' => 'Asparagus Grilled with Garlic, Rosemary and Lemon',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => null,

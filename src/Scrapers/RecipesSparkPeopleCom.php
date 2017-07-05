@@ -6,6 +6,9 @@ use RecipeScraper\Arr;
 use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
+/**
+ * @todo Consider extracting method for DOM access as in instructions/notes. Cookieandkate.com also.
+ */
 class RecipesSparkPeopleCom extends SchemaOrgMarkup
 {
     /**
@@ -25,7 +28,7 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
      */
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->extractString($crawler, '[itemprop="author"]');
+        return $this->extractString($crawler, '.submited_by [itemprop="author"]');
     }
 
     /**
@@ -69,15 +72,24 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
         }
 
         $return = [];
+        $value = '';
 
         foreach ($instructions->getNode(0)->childNodes as $childNode) {
-            if (XML_ELEMENT_NODE === $childNode->nodeType) {
-                $return[] = $childNode->nodeValue;
-            }
-
             if (XML_TEXT_NODE === $childNode->nodeType) {
-                $return[] = $childNode->wholeText;
+                $value .= $childNode->wholeText;
+            } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
+                if ('br' === $childNode->nodeName) {
+                    $return[] = $value;
+                    $value = '';
+                } else {
+                    $value .= $childNode->nodeValue;
+                }
             }
+        }
+
+        if (! empty($value)) {
+            $return[] = $value;
+            $value = '';
         }
 
         return $return;
@@ -91,6 +103,43 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
     {
         // H1 with itemprop="name" is outside recipe scope.
         return $this->extractString($crawler, '[itemprop="name"]');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // Unfortunately we have to drop to the lower-level DOM API for access to text node values.
+        $notes = $crawler->filter('.tip_text');
+
+        if (! $notes->count()) {
+            return null;
+        }
+
+        $return = [];
+        $value = '';
+
+        foreach ($notes->getNode(0)->childNodes as $childNode) {
+            if (XML_TEXT_NODE === $childNode->nodeType) {
+                $value .= $childNode->wholeText;
+            } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
+                if ('br' === $childNode->nodeName) {
+                    $return[] = $value;
+                    $value = '';
+                } else {
+                    $value .= $childNode->nodeValue;
+                }
+            }
+        }
+
+        if (! empty($value)) {
+            $return[] = $value;
+            $value = '';
+        }
+
+        return $return;
     }
 
     /**

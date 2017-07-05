@@ -31,6 +31,7 @@ return [
         'Place chicken, tomatoes, enchilada sauce, onion, green chiles, and garlic into a slow cooker. Pour in chicken broth, and season with cumin, salt, and pepper. Stir in corn and black beans. Cover and cook on Low setting for 6 to 8 hours or on High setting for 3 to 4 hours. Garnish with crushed tortilla chips, sour cream, shredded cheese, or avocados. (Note: garnishes not included in nutrition information) Makes 8 servings.',
     ],
     'name' => 'Slow Cooker Chicken Tortilla Soup',
+    'notes' => null,
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => null,

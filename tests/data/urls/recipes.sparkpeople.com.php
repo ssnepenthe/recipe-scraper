@@ -7,4 +7,6 @@ return array (
   3 => 'https://recipes.sparkpeople.com/recipe-detail.asp?recipe=106790',
   4 => 'https://recipes.sparkpeople.com/recipe-detail.asp?recipe=763362',
   5 => 'https://recipes.sparkpeople.com/recipe-detail.asp?recipe=384073',
+  6 => 'https://recipes.sparkpeople.com/recipe-detail.asp?recipe=695225',
+  7 => 'https://recipes.sparkpeople.com/recipe-detail.asp?recipe=226',
 );
