@@ -36,7 +36,7 @@ class WwwBhgCom extends SchemaOrgMarkup
      */
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractString($crawler, '.recipe__image', ['content']);
+        return $this->extractString($crawler, '[itemprop="image"] [itemprop="url"]', ['content']);
     }
 
     /**
