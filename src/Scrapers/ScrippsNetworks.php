@@ -6,6 +6,11 @@ use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 use RecipeScraper\ExtractsDataFromCrawler;
 
+/**
+ * Lose out on ingredient and instruction group titles by using LD+JSON.
+ *
+ * Consider overriding author - cooking channel seems to miss this often in LD+JSON.
+ */
 class ScrippsNetworks extends SchemaOrgJsonLd
 {
     use ExtractsDataFromCrawler;
@@ -41,7 +46,8 @@ class ScrippsNetworks extends SchemaOrgJsonLd
      */
     protected function extractNotes(Crawler $crawler, array $json)
     {
-        // @todo More tests! Only have one recipe from foodnetwork.com at the moment.
+        // Also has warnings, but I don't see a reason to include them.
+        // Also seems to have beverage pairings but I haven't found a good example for testing.
         return $this->extractArray($crawler, '.chefsNotes .o-Notes__a-Description');
     }
 
