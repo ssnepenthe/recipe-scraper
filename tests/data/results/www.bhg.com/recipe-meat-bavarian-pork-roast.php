@@ -40,6 +40,7 @@ return [
         'For gravy, skim fat from juices; measure 1-1/4 cups juices (add water, if necessary). Pour juices into a saucepan; bring to boiling. Combine sour cream or yogurt and cornstarch. Stir into juices. Cook and stir over medium heat until thickened and bubbly. Cook and stir 2 minutes more. Slice meat and serve with gravy. Makes 6 servings.',
     ],
     'name' => 'Bavarian Pork Roast',
+    'notes' => null,
     'prepTime' => 'PT25M',
     'publisher' => null,
     'totalTime' => null,
