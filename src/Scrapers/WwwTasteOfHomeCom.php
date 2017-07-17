@@ -69,8 +69,8 @@ class WwwTasteOfHomeCom extends SchemaOrgMarkup
      */
     protected function extractNotes(Crawler $crawler)
     {
-        // @todo More tests! Currently only one recipe.
-        return $this->extractArray($crawler, '.rd_editornote');
+        // Check the peanut butter snowballs recipe in tests... Notes could probably use an update.
+        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] .rd_editornote');
     }
 
     /**
