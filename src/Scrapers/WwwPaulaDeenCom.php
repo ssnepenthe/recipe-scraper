@@ -2,10 +2,10 @@
 
 namespace RecipeScraper\Scrapers;
 
+use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
- * More thorough testing on url - there are two canonical links per page.
  * Look for recipes with ingredient groups to test.
  */
 class WwwPaulaDeenCom extends SchemaOrgMarkup
@@ -73,11 +73,17 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
      */
     protected function extractUrl(Crawler $crawler)
     {
-        // I don't like this... There are two canonical links, they don't always
-        // match and one is generally invalid.
-        $nodes = $crawler->filter('[rel="canonical"]');
-        $value = $nodes->last()->attr('href') ?: '';
+        // Could use some more thorough testing. It looks like there are always two canonical links
+        // for a recipe. The bad canonical *seems* to always be the first in the page and doesn't
+        // end with a trailing "/". Not sure what would be the best check to perform here...
+        $crawler = $crawler->filter('[rel="canonical"]')->reduce(function (Crawler $node) : bool {
+            return $node->count() ? s($node->attr('href'))->endsWith('/') : false;
+        });
 
-        return trim($value) ?: null;
+        if (! $crawler->count() || ! $href = $crawler->attr('href')) {
+            return null;
+        }
+
+        return trim($href) ?: null;
     }
 }
