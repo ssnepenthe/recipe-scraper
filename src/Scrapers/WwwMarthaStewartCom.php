@@ -14,6 +14,12 @@ class WwwMarthaStewartCom extends SchemaOrgJsonLd
 {
 	use ExtractsDataFromCrawler;
 
+	public function supports(Crawler $crawler) : bool
+	{
+		return parent::supports($crawler)
+			&& 'www.marthastewart.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+	}
+
 	protected function extractNotes(Crawler $crawler, array $json)
 	{
 		return $this->extractArray($crawler, '.notes-cooks .note-text');
