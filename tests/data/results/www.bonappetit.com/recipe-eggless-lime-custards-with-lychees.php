@@ -32,6 +32,7 @@ return [
         'Do Ahead: Custards can be made 2 days ahead. Keep chilled.',
     ],
     'name' => 'Lime Custards with Lychees',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,

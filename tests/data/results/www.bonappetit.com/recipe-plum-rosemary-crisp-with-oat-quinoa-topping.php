@@ -46,6 +46,7 @@ return [
         'Do Ahead: Topping can be made 2 days ahead; after drying out, cover and chill. Crisp can be baked 8 hours ahead; let cool, then tent with foil. Reheat, uncovered, in 350° oven 10-15 minutes.',
     ],
     'name' => 'Plum-Rosemary Crisp with Oat-Quinoa Topping',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
