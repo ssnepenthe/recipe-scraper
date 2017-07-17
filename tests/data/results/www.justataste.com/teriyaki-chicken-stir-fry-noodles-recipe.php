@@ -38,6 +38,7 @@ return [
         'Reduce the heat to low then return the cooked vegetables to the pan and add the cooked noodles, tossing to combine. Serve the stir-fry immediately.',
     ],
     'name' => 'Teriyaki Chicken Stir-Fry with Noodles',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => null,

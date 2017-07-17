@@ -37,6 +37,7 @@ return [
         'If you don\'t have buttermilk on hand, you can make a quick version using whole milk and lemon juice or white vinegar. Add 1 tablespoon of lemon juice or white vinegar to a liquid measuring cup, and then pour in the milk until it reaches the 1-cup mark. Let the mixture sit for 5 minutes, then use 1/4 cup for this recipe and save the rest for another use.',
     ],
     'name' => 'Mixed Berry Banana Bread',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => null,
