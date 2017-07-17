@@ -7,7 +7,9 @@ use Symfony\Component\DomCrawler\Crawler;
 use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
- * @todo Need to find recipes with times to test against.
+ * Has nutrition information.
+ *
+ * Has links to other recipes in ingredients.
  */
 class WwwMyRecipesCom extends SchemaOrgJsonLd
 {
@@ -32,6 +34,16 @@ class WwwMyRecipesCom extends SchemaOrgJsonLd
     {
         // There are some weird issues around UoM in LD+JSON - revert to markup.
         return $this->extractArray($crawler, '[itemprop="recipeIngredient"]');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        return $this->extractArray($crawler, '.field-test-kitchen-notes p');
     }
 
     /**

@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'author' => 'Robert Landolphi',
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'These gluten-free muffins highlight mixed fresh berries, but you can omit the berries and use the recipe to incorporate any other gluten-free mix-ins you like.',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/image/recipes/ck/gluten-free-cookbook/fruit-forest-muffins-ck-x.jpg?itok=nKZjwxRP',
+    'ingredients' => [
+        '3.45 ounces brown rice flour (about 3/4 cup)',
+        '2.6 ounces potato starch (about 1/2 cup)',
+        '1.8 ounces oat flour (about 1/2 cup)',
+        '1/3 cup granulated sugar',
+        '1/4 cup packed brown sugar',
+        '1 1/2 teaspoons baking powder',
+        '1 teaspoon xanthan gum',
+        '1/2 teaspoon salt',
+        '1/2 cup 1% low-fat milk',
+        '1/4 cup butter, melted',
+        '2 large eggs',
+        '1 1/2 cups mixed fresh berries (such as blueberries, raspberries, and blackberries)',
+        'Cooking spray',
+        '1 tablespoon turbinado sugar or granulated sugar',
+    ],
+    'instructions' => [
+        'Preheat oven to 350°.',
+        'Weigh or lightly spoon brown rice flour, potato starch, and oat flour into dry measuring cups; level with a knife. Combine brown rice flour, potato starch, oat flour, granulated sugar, and next 4 ingredients (through salt) in a medium bowl; stir with a whisk. Make a well in center of mixture. Combine milk, butter, and eggs; stir with a whisk. Add to flour mixture, stirring just until moist. Fold in berries.',
+        'Place 12 paper muffin cup liners in muffin cups; coat liners with cooking spray. Spoon batter into prepared cups, and sprinkle with turbinado sugar. Bake at 350° for 25 minutes or until lightly browned and muffins spring back when lightly touched. Cool 10 minutes in pan on a wire rack; remove from pan.',
+    ],
+    'name' => 'Fruit of the Forest Muffins',
+    'notes' => [
+        'If you\'re planning to freeze all or some of the muffins, leave off the turbinado sugar.',
+    ],
+    'prepTime' => null,
+    'publisher' => 'My Recipes',
+    'totalTime' => 'PT45M',
+    'url' => 'http://www.myrecipes.com/recipe/fruit-of-the-forest-muffins',
+    'yield' => 'Serves 12 (serving size: 1 muffin)',
+];
