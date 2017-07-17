@@ -51,9 +51,10 @@ class AllRecipesCom extends SchemaOrgMarkup
     {
         // Get footnote list items and remove headers.
         // @todo Find more recipes to test against!
-        $crawler = $crawler->filter('.recipe-footnotes li')->reduce(function (Crawler $node) {
-            return ! $node->filter('.recipe-footnotes__header')->count();
-        });
+        $crawler = $crawler->filter('.recipe-footnotes li')
+            ->reduce(function (Crawler $node) : bool {
+                return ! $node->filter('.recipe-footnotes__header')->count();
+            });
 
         return $this->extractArray($crawler);
     }

@@ -196,6 +196,10 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
     protected function extractNotes(Crawler $crawler)
     {
         // No standard exists that I am aware of...

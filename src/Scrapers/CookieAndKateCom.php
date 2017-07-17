@@ -60,11 +60,15 @@ class CookieAndKateCom extends SchemaOrgJsonLd
             return $ps;
         }
 
+        if (! $first = $crawler->getNode(0)) {
+            return null;
+        }
+
         $notes = [];
         $value = '';
 
         // Down to native DOM API.
-        foreach ($crawler->getNode(0)->childNodes as $childNode) {
+        foreach ($first->childNodes as $childNode) {
             // Notes are in one paragraph element split by line breaks.
             if (XML_TEXT_NODE === $childNode->nodeType) {
                 $value .= $childNode->wholeText;

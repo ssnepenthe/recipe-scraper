@@ -27,12 +27,22 @@ class WwwTwoPeasAndTheirPodCom extends SchemaOrgJsonLd
             && 'www.twopeasandtheirpod.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractCategories(Crawler $crawler, array $json)
     {
         // WordPress tags - may not all be appropriate.
         return $this->extractArray($crawler, '[rel~="tag"]');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractIngredients(Crawler $crawler, array $json)
     {
         // Tags are stripped from LD+JSON, which means partial content when there is a link.
@@ -47,24 +57,44 @@ class WwwTwoPeasAndTheirPodCom extends SchemaOrgJsonLd
         return $this->extractArray($crawler, implode(', ', $selectors));
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractInstructions(Crawler $crawler, array $json)
     {
         // LD+JSON instructions are merged into one.
         return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractName(Crawler $crawler, array $json)
     {
         // LD+JSON may include "Recipe for " prefix or similar.
         return $this->extractString($crawler, '[itemprop="name"]', ['_text', 'content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractNotes(Crawler $crawler, array $json)
     {
         // @todo More testing!
         return $this->extractArray($crawler, '[itemprop="recipeInstructions"] p');
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
     protected function extractUrl(Crawler $crawler, array $json)
     {
         // Has itemprop="url" but it is missing trailing slash.

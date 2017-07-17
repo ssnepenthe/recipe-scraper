@@ -67,14 +67,14 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
         // Unfortunately we have to drop to the lower-level DOM API for access to text node values.
         $instructions = $crawler->filter('[itemprop="recipeInstructions"]');
 
-        if (! $instructions->count()) {
+        if (! $instructions->count() || ! $first = $instructions->getNode(0)) {
             return null;
         }
 
         $return = [];
         $value = '';
 
-        foreach ($instructions->getNode(0)->childNodes as $childNode) {
+        foreach ($first->childNodes as $childNode) {
             if (XML_TEXT_NODE === $childNode->nodeType) {
                 $value .= $childNode->wholeText;
             } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
@@ -114,14 +114,14 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
         // Unfortunately we have to drop to the lower-level DOM API for access to text node values.
         $notes = $crawler->filter('.tip_text');
 
-        if (! $notes->count()) {
+        if (! $notes->count() || ! $first = $notes->getNode(0)) {
             return null;
         }
 
         $return = [];
         $value = '';
 
-        foreach ($notes->getNode(0)->childNodes as $childNode) {
+        foreach ($first->childNodes as $childNode) {
             if (XML_TEXT_NODE === $childNode->nodeType) {
                 $value .= $childNode->wholeText;
             } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
@@ -157,17 +157,18 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
      */
     protected function postNormalizeInstructions($instructions)
     {
-        if (! Arr::ofStrings($instructions)) {
+        // Is null check for Psalm...
+        if (is_null($instructions) || ! Arr::ofStrings($instructions)) {
             return $instructions;
         }
 
         // For starters - remove leading digits.
-        $instructions = array_map(function ($instruction) {
+        $instructions = array_map(function ($instruction) : string {
             return (string) s($instruction)->regexReplace('^\d+\.\s*', '');
         }, $instructions);
 
         // Then filter out servings and author info.
-        $instructions = array_filter($instructions, function ($instruction) {
+        $instructions = array_filter($instructions, function ($instruction) : bool {
             $instruction = s($instruction);
 
             return ! (

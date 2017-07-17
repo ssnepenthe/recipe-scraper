@@ -12,16 +12,25 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class WwwMarthaStewartCom extends SchemaOrgJsonLd
 {
-	use ExtractsDataFromCrawler;
+    use ExtractsDataFromCrawler;
 
-	public function supports(Crawler $crawler) : bool
-	{
-		return parent::supports($crawler)
-			&& 'www.marthastewart.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
-	}
+    /**
+     * @param  Crawler $crawler
+     * @return boolean
+     */
+    public function supports(Crawler $crawler) : bool
+    {
+        return parent::supports($crawler)
+            && 'www.marthastewart.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+    }
 
-	protected function extractNotes(Crawler $crawler, array $json)
-	{
-		return $this->extractArray($crawler, '.notes-cooks .note-text');
-	}
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        return $this->extractArray($crawler, '.notes-cooks .note-text');
+    }
 }

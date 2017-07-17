@@ -254,6 +254,11 @@ class SchemaOrgJsonLd implements ScraperInterface
         return null;
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractNotes(Crawler $crawler, array $json)
     {
         // No standard exists that I am aware of...
