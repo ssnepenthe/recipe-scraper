@@ -39,8 +39,9 @@ class WwwTwoPeasAndTheirPodCom extends SchemaOrgJsonLd
         // See https://www.twopeasandtheirpod.com/3-ingredient-peanut-butter-hot-fudge/.
         $selectors = [
             '[itemprop="ingredients"]',
-            '.ingredients p',
             '.ingredients h4',
+            '.ingredients li',
+            '.ingredients p',
         ];
 
         return $this->extractArray($crawler, implode(', ', $selectors));
@@ -55,7 +56,7 @@ class WwwTwoPeasAndTheirPodCom extends SchemaOrgJsonLd
     protected function extractName(Crawler $crawler, array $json)
     {
         // LD+JSON may include "Recipe for " prefix or similar.
-        return $this->extractString($crawler, '[itemprop="name"]');
+        return $this->extractString($crawler, '[itemprop="name"]', ['_text', 'content']);
     }
 
     protected function extractNotes(Crawler $crawler, array $json)
