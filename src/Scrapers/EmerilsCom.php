@@ -5,10 +5,12 @@ namespace RecipeScraper\Scrapers;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
- * Timestamps don't seem to match the displayed counterparts but displayed test isn't
+ * Timestamps don't seem to match the displayed counterparts but displayed text isn't
  * always in a format that DateInterval::createFromDateString() understands.
  *
  * Sometimes includes links to other recipes in ingredients section.
+ *
+ * I have found some recipes with notes but they all seem to be bundled in with instructions.
  */
 class EmerilsCom extends SchemaOrgMarkup
 {

@@ -7,6 +7,8 @@ use Symfony\Component\DomCrawler\Crawler;
 /**
  * This site is powered by WordPress but at the time of this writing the recipe post
  * type is hidden from the REST API.
+ *
+ * Many recipes that include notes bundle them into the instructions section.
  */
 class SpryLivingCom extends SchemaOrgMarkup
 {

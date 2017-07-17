@@ -7,6 +7,8 @@ use Symfony\Component\DomCrawler\Crawler;
 
 /**
  * Look for recipes with ingredient groups to test.
+ *
+ * The only notes I have found are bundled in with instructions.
  */
 class WwwPaulaDeenCom extends SchemaOrgMarkup
 {

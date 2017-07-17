@@ -16,7 +16,7 @@ use Symfony\Component\DomCrawler\Crawler;
  * content, but is not included yet because the type of content is very inconsistent.
  *
  * For example, delish and esquire tend to include a sort-of byline.
- * Good housekeeping and woman's day include nutritional information.
+ * Good housekeeping, woman's day and country living include nutritional information.
  */
 class HearstDigitalMedia extends SchemaOrgMarkup
 {
@@ -78,6 +78,8 @@ class HearstDigitalMedia extends SchemaOrgMarkup
      */
     protected function extractImage(Crawler $crawler)
     {
+        // @todo May not be the most appropriate of available images.
+        // .embedded-image__inner img @ data-pin-media?
         return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 

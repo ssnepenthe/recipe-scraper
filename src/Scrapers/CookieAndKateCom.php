@@ -7,7 +7,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * We lose ingredient titles by using LD+JSON.
- * Has notes if we want them.
  * Sometimes multiple instructions are getting merged into one in LD+JSON.
  */
 class CookieAndKateCom extends SchemaOrgJsonLd
@@ -35,6 +34,11 @@ class CookieAndKateCom extends SchemaOrgJsonLd
         return $this->extractString($crawler, '[property="og:image"]', ['content']);
     }
 
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
     protected function extractNotes(Crawler $crawler, array $json)
     {
         // Notes are very inconsistent. This could use a lot more testing.
