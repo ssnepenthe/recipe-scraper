@@ -20,6 +20,7 @@ return [
         'In a blender, combine the avocado and lemon juice with 1/3 cup of hot water. Puree until smooth and light in texture, about 2 minutes, scraping down the side of the bowl occasionally. With the machine on, drizzle in the olive oil and puree until combined. Season with salt and pepper. Serve the hollandaise over poached eggs.',
     ],
     'name' => 'Avocado Hollandaise',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT10M',

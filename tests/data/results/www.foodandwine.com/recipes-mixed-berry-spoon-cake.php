@@ -32,6 +32,7 @@ return [
         'Spread the filling in a 9-by-13-inch baking dish. Spoon the batter on top, leaving small gaps. Bake in the center of the oven for 1 hour, until the fruit is bubbling and a toothpick inserted into the topping comes out clean. Let cool for 1 hour before serving.',
     ],
     'name' => 'Mixed-Berry Spoon Cake',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT2H20M',

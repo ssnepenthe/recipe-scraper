@@ -27,6 +27,7 @@ return [
         'Spoon 1 tablespoon of the chicken salad into each brioche roll, garnish with parsley leaves and cover with a tomato slice. Top each roll with 1 teaspoon of chicken salad, garnish with the bacon and serve.',
     ],
     'name' => 'Baby Brioches with Chicken Salad and Bacon',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT25M',
