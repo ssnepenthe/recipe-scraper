@@ -34,6 +34,7 @@ return [
         'Finally, sprinkle on the green onions. Serve with cooked rice or noodles.',
     ],
     'name' => 'Cashew Chicken',
+    'notes' => null,
     'prepTime' => 'PT5M',
     'publisher' => null,
     'totalTime' => null,

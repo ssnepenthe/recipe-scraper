@@ -36,6 +36,7 @@ return [
         'Pour the blackberries over the cheesecake and place the pan into the fridge to chill and set for at least 2 hours. When ready to serve, remove the cheesecake from the pan by lifting the edges of the foil. Peel back the foil and use a long serrated knife to cut cheesecake into squares.',
     ],
     'name' => 'Blackberry Cheesecake Squares',
+    'notes' => null,
     'prepTime' => 'PT4H',
     'publisher' => null,
     'totalTime' => null,

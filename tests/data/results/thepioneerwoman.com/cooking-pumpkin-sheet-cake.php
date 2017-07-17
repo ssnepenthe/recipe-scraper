@@ -1,5 +1,6 @@
 <?php
 
+// Has a sub-recipe...
 return [
     'author' => 'Ree',
     'categories' => null,
@@ -38,6 +39,7 @@ return [
         'NOTE: You may double the frosting amounts if you like a very thick layer of frosting!',
     ],
     'name' => 'Pumpkin Sheet Cake',
+    'notes' => null,
     'prepTime' => 'PT35M',
     'publisher' => null,
     'totalTime' => null,
