@@ -24,6 +24,7 @@ return [
         'mix all together.',
     ],
     'name' => 'Mexican Spice Blend',
+    'notes' => null,
     'prepTime' => 'PT5M',
     'publisher' => 'Food.com',
     'totalTime' => 'PT5M',

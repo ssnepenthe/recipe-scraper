@@ -35,6 +35,7 @@ return [
         'Better when it has chilled, but be sure to toss again before serving as dressing sinks to the bottom.',
     ],
     'name' => 'Emeril Lagasse\'s Coleslaw',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => 'Food.com',
     'totalTime' => 'PT15M',

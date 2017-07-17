@@ -37,6 +37,7 @@ return [
         'You\'ll love this rice! Money back guarantee.',
     ],
     'name' => 'Mexican Rice',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => 'Food.com',
     'totalTime' => 'PT55M',
