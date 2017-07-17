@@ -57,6 +57,7 @@ return [
         'Place cucumber, avocado and onion in a large bowl and add lime juice and salt. Add cilantro and chiles and toss gently.',
     ],
     'name' => 'Chili-Rubbed Steak Tacos',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT47M',

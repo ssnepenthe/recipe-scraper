@@ -38,6 +38,7 @@ return [
         'Now try to be patient and allow the icing to become firm before eating!',
     ],
     'name' => 'Chocolate Beer Cake',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => 'Food.com',
     'totalTime' => 'PT45M',

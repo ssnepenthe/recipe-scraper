@@ -37,6 +37,7 @@ return [
         'Serve chicken and vegetables with tortillas and toppings.',
     ],
     'name' => 'Chipotle Chicken Fajitas',
+    'notes' => null,
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT30M',

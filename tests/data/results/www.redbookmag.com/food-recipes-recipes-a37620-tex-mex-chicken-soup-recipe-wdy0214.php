@@ -38,6 +38,7 @@ return [
         'Using an immersion blender (or a standard blender, working in batches), purée the soup. Ladle into bowls and serve with toppings.',
     ],
     'name' => 'Tex-Mex Chicken Soup',
+    'notes' => null,
     'prepTime' => 'PT25M',
     'publisher' => null,
     'totalTime' => 'PT30M',

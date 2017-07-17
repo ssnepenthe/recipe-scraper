@@ -36,6 +36,7 @@ return [
         'Serve the dip with chips or toast points.',
     ],
     'name' => 'Artichoke And Spinach Dip',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT45M',

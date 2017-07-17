@@ -24,6 +24,7 @@ return [
         'Remove shrimp from lime juice, reserving juice. Dice shrimp and add to the bowl of vegetables. Pour in the remaining lime juice marinade. Add cilantro and salt and pepper to taste. Toss gently to mix.'
     ],
     'name' => 'Jose\'s Shrimp Ceviche',
+    'notes' => null,
     'prepTime' => 'PT45M',
     'publisher' => null,
     'totalTime' => 'PT55M',

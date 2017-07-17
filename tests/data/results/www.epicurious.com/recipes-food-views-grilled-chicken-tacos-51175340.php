@@ -40,6 +40,7 @@ return [
         'Let chicken rest 5 minutes before slicing. Serve with tortillas, avocados, Charred Tomatillo Salsa Verde, cilantro, radishes, and lime wedges.',
     ],
     'name' => 'Grilled Chicken Tacos',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,

@@ -28,6 +28,7 @@ return [
         'Ususlly you would expect 12 thigh fillets to feed 4 to 6 people- in my family the kids eat 4 each so this recipe serves 3.',
     ],
     'name' => 'Thai Grilled Chicken Thighs',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => 'Food.com',
     'totalTime' => 'PT25M',

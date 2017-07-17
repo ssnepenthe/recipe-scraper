@@ -1,0 +1,46 @@
+<?php
+
+return [
+    'author' => 'Cooking Channel',
+    'categories' => [
+        'Ribs',
+        'Barbecue',
+        'Meat',
+        'Pork',
+        'Outdoor Party',
+        'Party',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'These are our most recognizable ribs because of the red sauce they\'re slathered in. You don\'t need special seasonings because the smoke and the sauce add more than enough flavor.',
+    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/7/13/0/CC_Brother-Jimmys-BBQ-Northern-Style-Ribs-Recipe_s4x3.jpg.rend.hgtvcom.616.462.jpeg',
+    'ingredients' => [
+        '3 racks St. Louis-style ribs (see note, below)',
+        '3 tablespoons kosher salt',
+        '3 to 4 cups Brother Jimmy\'s Original BBQ Sauce, recipe follows',
+        '2 cups white vinegar',
+        '1 1/2 cups Heinz ketchup (if you use another brand, the taste will be different)',
+        '1 1/2 cups packed dark brown sugar',
+        '2 tablespoons chili powder',
+        '1 1/2 teaspoons ground black pepper',
+        '1 tablespoon kosher salt',
+    ],
+    'instructions' => [
+        'Prepare your smoker or grill for barbecuing, using the indirect heat setup with a drip pan in place, and preheat to 210 degrees F. Pat the ribs dry, then season with the salt.',
+        'Pour some water in the drip pan and place some presoaked wood chunks or a packet of presoaked wood chips directly on the hot coals. Oil the hot grate and place the ribs in your grill or smoker, meat side up. Cover and smoke for a total of 6 hours. After about 5 hours, begin to baste the ribs with the BBQ Sauce about every 20 minutes. The ribs are done when the meat cracks when picked up (with tongs) and they reach an internal temperature of 170 to 180 degrees F.',
+        'To finish the ribs, throw them on the grill over direct medium heat to let the sauce caramelize. Baste between turns, and you\'re done.',
+        'This is our core sauce based on the western North Carolina style. It\'s a good idea to keep extra in the fridge because it goes well with everything from fries to chicken fingers. Whisk all the ingredients together in a nonreactive saucepan, place over medium-high heat, and bring to a boil.',
+        'Lower the heat and simmer for 15 to 20 minutes, until the sauce just coats the back of a wooden spoon--it\'s not intended to be overly thick.',
+        'Cool and use immediately or store for later use in the fridge, where it will keep for 2 to 3 months.',
+    ],
+    'name' => 'Northern-Style Ribs',
+    'notes' => [
+        'Trimming Your Ribs: I suppose I\'m the best guy to talk about ribs, though I should mention that I\'m doing this under serious protest. St. Louis-style ribs are pork spareribs that have been trimmed of the rib tips and skirt to create a uniform rectangular shape. If you can\'t find St. Louis-style ribs in your market, ask your butcher to trim spareribs for you or prepare them yourself at home. To prepare St. Louis-style ribs, place the spareribs bone-side up on a cutting board. Usually, there will be a flap of meat that runs along the slab, called the skirt. Remove the skirt; it can be cooked separately, and it\'s a very flavorful part of us pigs. Remove the excess fat. Cut along the end of the rib bones, cutting between the bone and cartilage, to remove the irregular-shaped portion of meat attached to the ribs. Remove the tough outer membrane. Slide a butter knife under the membrane and pry it up, then grab a hold of it with a clean paper towel and peel it off. Last, remove the rib tips (they can be cooked separately) and the opposite end to square up the rack.',
+    ],
+    'prepTime' => null,
+    'publisher' => 'Cooking Channel',
+    'totalTime' => null,
+    'url' => 'http://www.cookingchanneltv.com/recipes/northern-style-ribs-2108846',
+    'yield' => 'Serves 6 to 8',
+];

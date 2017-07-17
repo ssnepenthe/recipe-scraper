@@ -50,6 +50,7 @@ return [
         'Tuck into a warm crusty bun& add your favourite toppings.',
     ],
     'name' => 'The Perfect Burger',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => 'Food.com',
     'totalTime' => 'PT30M',

@@ -22,6 +22,7 @@ return [
         'Heat oil in a nonstick skillet. Add asparagus, remaining salt and black pepper; sauté 5 minutes. Sprinkle with lemon rind.',
     ],
     'name' => 'Simple Asparagus Saute',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => null,

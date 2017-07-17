@@ -26,6 +26,7 @@ class SchemaOrgMarkup implements ScraperInterface
         'ingredients',
         'instructions',
         'name',
+        'notes',
         'prepTime',
         'publisher',
         'totalTime',
@@ -193,6 +194,16 @@ class SchemaOrgMarkup implements ScraperInterface
             $crawler,
             '[itemtype="http://schema.org/Recipe"] [itemprop="name"]'
         );
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // No standard exists that I am aware of...
+        return null;
     }
 
     /**

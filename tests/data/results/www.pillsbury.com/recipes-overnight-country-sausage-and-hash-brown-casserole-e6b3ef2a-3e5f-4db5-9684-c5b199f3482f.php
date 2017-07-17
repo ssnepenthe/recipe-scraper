@@ -23,6 +23,10 @@ return [
         'Heat oven to 350°F. Remove dish from refrigerator, uncover and top with remaining 1/2 cup cheese. Bake 45 to 55 minutes or until center is just set. Cool 10 minutes before serving.',
     ],
     'name' => 'Overnight Country Sausage and Hash Brown Casserole',
+    'notes' => [
+        'Feel free to use regular pork breakfast sausage or the hot and spicy variety, depending on what suits your taste.',
+        'Garnish with freshly chopped chives, if desired.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT9H25M',

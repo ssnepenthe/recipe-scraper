@@ -28,6 +28,7 @@ return [
         'When ready to cook, remove the steak from the fridge and preheat your cooking surface (grill or stovetop grill pan). Remove the steak from the marinade, discard the leftover liquid, and sear the steak on each side until it\'s cooked to your desired degree of doneness. Let the steak rest for 5 minutes and then slice it against the grain and serve.',
     ],
     'name' => 'The Ultimate Asian Flank Steak Marinade',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

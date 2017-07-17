@@ -28,6 +28,10 @@ return [
         'Store leftover pesto in the refrigerator, covered, for up to 1 week. You can also freeze pesto-my favorite way is in an ice cube try. Once frozen, transfer to a freezer bag, then you can thaw only as much as you need later.',
     ],
     'name' => 'Basil Pesto',
+    'notes' => [
+        'Make it dairy free/vegan: Replace the Parmesan with 1 tablespoon nutritional yeast.',
+        'Make it nut free: Use pine nuts, pepitas or sunflower seeds. (Pine nuts are technically seeds, but if you\'re allergic to nuts, there\'s a chance you\'ll be allergic to pine nuts, too.)',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT15M',

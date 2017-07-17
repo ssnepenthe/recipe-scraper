@@ -41,6 +41,7 @@ return [
         'Bringing the short sides of the foil together, fold the seams together twice and then tuck the ends in and up to seal tightly. Place the packets on hot grill. Close the grill and cook for 20-25 minutes or until vegetables are tender. Carefully remove the packets from the grill and serve warm.',
     ],
     'name' => 'Grilled Sausage and Vegetable Foil Packets',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT30M',

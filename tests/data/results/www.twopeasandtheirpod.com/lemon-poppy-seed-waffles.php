@@ -54,6 +54,9 @@ return [
         'Serve the waffles warm with lemon whipped cream, blackberries, and maple syrup, if desired.',
     ],
     'name' => 'Lemon Poppy Seed Waffles',
+    'notes' => [
+        'Note-to keep the waffles warm before you can keep them in a 200 degree F oven until ready to serve. The waffles will keep in the fridge for up to 5 days. You can also freeze the waffles up to one month. Store in a freezer bag and reheat in the toaster or microwave.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT25M',

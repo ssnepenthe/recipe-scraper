@@ -9,6 +9,8 @@ use RecipeScraper\ExtractsDataFromCrawler;
  * Looks like there might be some encoding issues?
  *
  * We lose ingredient group titles by using LD+JSON. Drop down to displayed markup?
+ *
+ * Does not seem to have any notes.
  */
 class WwwFoodCom extends SchemaOrgJsonLd
 {

@@ -34,6 +34,7 @@ return [
         'Just before serving, spoon the apples over the top of the ice cream, sprinkle on the cookie crumbles and drizzle the caramel sauce over top.',
     ],
     'name' => 'Apple Crisp Ice Cream Pie',
+    'notes' => null,
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT3H30M',

@@ -27,6 +27,7 @@ return [
         'While chicken mixture cooks, combine water, flour, and broth. Gradually stir broth mixture into chicken mixture. Stir in salt, pepper, and bay leaf; bring to a boil. Reduce heat, and simmer 3 minutes. Stir in tortilla strips, and cook 2 minutes or until tortilla strips soften. Remove from heat; stir in parsley. Discard bay leaf. Serve immediately.',
     ],
     'name' => 'Quick Chicken and Dumplings',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'My Recipes',
     'totalTime' => null,

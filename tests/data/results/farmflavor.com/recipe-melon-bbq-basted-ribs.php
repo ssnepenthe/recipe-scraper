@@ -34,6 +34,9 @@ return [
         'Heat oven to 275 degrees. Rinse and pat ribs dry with paper towels. Lightly salt and pepper both sides. Place on a foil-lined baking sheet. Baste with the sauce. Roast in oven for about 4 hours, basting every 30 to 45 minutes.',
     ],
     'name' => 'Melon BBQ-Basted Ribs',
+    'notes' => [
+        'You can also use the melon baste as you would any barbecue sauce. Store in an airtight container in the fridge for three days.',
+    ],
     'prepTime' => 'PT30M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,

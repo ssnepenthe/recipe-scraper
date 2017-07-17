@@ -32,6 +32,7 @@ return [
         'Pour into pie crust and chill. Garnish with additional whipped cream and strawberries if desired.',
     ],
     'name' => 'Strawberry Chiffon Pie',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,

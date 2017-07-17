@@ -40,6 +40,11 @@ return [
         'Bake the brownies until the top is just firm to the touch, about 20 minutes. Let cool completely in the pan on a wire rack. Coat a knife with cooking spray and cut into 24 bars.',
     ],
     'name' => 'Swirled Cheesecake Brownies',
+    'notes' => [
+        'Make Ahead Tip: The brownies will keep, covered, in the refrigerator for up to 2 days. (Alternatively, bake brownies in an 8½-by-12½-inch foil pan, wrap well and store in the freezer for up to 3 months.) Bring to room temperature and cut into bars shortly before se',
+        'Ingredient Note: Dried egg whites are convenient in recipes like this one because you don\'t have to figure out what to do with 4 egg yolks. Look for powdered brands like Just Whites in the baking aisle or natural-foods section or fresh pasteurized whites in the dairy case of most supermarkets.',
+        'Storage smarts: For long-term freezer storage, wrap your food in a layer of plastic wrap followed by a layer of foil. The plastic will help prevent freezer burn while the foil will help keep off-odors from seeping into the food.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT2H',

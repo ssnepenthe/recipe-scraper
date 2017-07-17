@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'author' => 'Laurence Jossel',
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'For a zippy version of a New England classic, Laurence Jossel bakes buttery Rancho Gordo Yellow Eye beans in a tangy-hot mixture of apple cider vinegar, molasses, brown sugar and crushed red pepper. Regular Italian cannellini or Great Northern beans can replace the Yellow Eyes.',
+    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/551x551/public/200811-r-xl-baked-beans-with-maple-glazed-bacon.jpg?itok=y4-5H4uq',
+    'ingredients' => [
+        '3 1/2 cups dried yellow eye or cannellini beans, rinsed and picked over, then soaked for 2 hours and drained',
+        'Kosher salt',
+        '9 thick slices of bacon (10 ounces), 1 slice cut crosswise into 1/4-inch strips',
+        '1 large onion, cut into 1/2-inch dice',
+        '1 cup apple cider vinegar',
+        '1/4 cup dark brown sugar',
+        '1/4 cup dark unsulfured molasses',
+        '1 teaspoon crushed red pepper',
+        '1/2 teaspoon freshly ground black pepper',
+        '1/4 cup pure maple syrup',
+        '1 tablespoon red wine vinegar',
+        '1 1/2 teaspoons Dijon mustard',
+    ],
+    'instructions' => [
+        'In a large pot, cover the beans with 2 inches of water and bring to a boil. Simmer over low heat, stirring occasionally, until just tender, about 2 hours; add water as needed to keep the beans covered by 2 inches. Season the beans with salt and let stand at room temperature for 5 minutes. Drain the beans, reserving 4 cups of the cooking liquid. Transfer the beans to a large, deep baking dish.',
+        'Preheat the oven to 350°. In a large skillet, cook the bacon strips over moderate heat until the fat has rendered, 5 minutes. Add the onion and cook over moderately low heat, stirring occasionally, until softened, 10 minutes. Stir in the apple cider vinegar, brown sugar, molasses, crushed red pepper, black pepper and 1 1/2 tablespoons of kosher salt and simmer for 1 minute, until the sugar is dissolved. Pour the bacon-onion mixture over the beans and stir in the reserved bean cooking liquid. Cover the beans with foil and bake for 45 minutes.',
+        'Meanwhile, in a small bowl, mix the maple syrup with the red wine vinegar and mustard. Arrange the remaining 8 bacon slices on a rimmed baking sheet, and generously brush them with the maple syrup mixture. Bake the bacon in the same oven as the beans for about 15 minutes, basting 3 times and turning the bacon twice, until richly glazed. Transfer the bacon to a plate.',
+        'Carefully pour 1/3 cup of water onto the baking sheet and return it to the oven for about 3 minutes to dissolve the caramelized syrup. Uncover the beans and carefully stir in the syrup. Bake the beans, uncovered, for about 20 minutes longer, until the liquid has reduced by about one-fourth.',
+        'Increase the oven temperature to 400°. Top the beans with the glazed bacon and bake until browned, about 15 minutes. Let rest for 10 minutes before serving.',
+    ],
+    'name' => 'Baked Beans with Maple-Glazed Bacon',
+    'notes' => [
+        'The beans can be prepared through Step 2 and refrigerated overnight. Reheat, covered, in a 350° oven before proceeding.',
+    ],
+    'prepTime' => 'PT35M',
+    'publisher' => null,
+    'totalTime' => 'PT4H',
+    'url' => 'http://www.foodandwine.com/recipes/baked-beans-maple-glazed-bacon',
+    'yield' => '8',
+];

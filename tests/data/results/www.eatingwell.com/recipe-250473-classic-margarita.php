@@ -27,6 +27,7 @@ return [
         'Combine lime zest and salt on a small plate. Combine lime juice, seltzer (or club soda), tequila and Triple Sec (or Cointreau) in a pitcher. Rub the rim of four 10-ounce glasses with the lime wedge and dip in the lime-salt. Fill the glasses with ice and top with the margarita mixture.',
     ],
     'name' => 'Classic Margarita',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT10M',

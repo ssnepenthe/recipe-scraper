@@ -37,6 +37,7 @@ return [
         'Remove the flatbreads from the grill and transfer them to serving plates. Top the flatbreads with the arugula and a sprinkle of crushed red pepper flakes (optional) then slice and serve immediately.',
     ],
     'name' => 'Grilled Flatbread Pizzas with Avocado Pesto',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => null,

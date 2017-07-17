@@ -38,6 +38,7 @@ return [
         'Slice the chicken into 1/4-inch-thick pieces. Fill the tortillas with the chicken and top with the pomegranate salsa. Serve with sour cream, if desired.',
     ],
     'name' => 'Spiced Chicken Tacos with Avocado and Pomegranate Salsa',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT20M',

@@ -35,6 +35,11 @@ return [
         'In medium bowl, beat cream cheese, butter and vanilla with electric mixer on low speed until smooth. Gradually beat in powdered sugar, 1 cup at a time, on low speed until smooth and spreadable. Spread frosting over bars. Sprinkle with walnuts. For bars, cut into 7 rows by 7 rows. Store in refrigerator.',
     ],
     'name' => 'Harvest Pumpkin-Spice Bars',
+    'notes' => [
+        'To ensure recipe success if using a vegetable oil spread, use a spread with at least 65% vegetable oil.',
+        'Rise to the occasion! If using self-rising flour, there is no need to add baking powder, baking soda and salt.',
+        'Add a bit of lemon zing to the cream cheese frosting by substituting lemon juice for the vanilla and adding 1 teaspoon grated lemon peel.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT1H40M',

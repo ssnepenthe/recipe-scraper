@@ -35,6 +35,7 @@ return [
         '*Note: these tacos can be pretty messy, so you may prefer to eat them with a fork and knife',
     ],
     'name' => 'Honey-Cilantro Shrimp Soft Tacos',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => null,

@@ -53,6 +53,7 @@ return [
         'Spread about ½ cup aioli over cut sides of both bread halves. Layer arugula over, then top with sliced pork, basil, chives, and a squeeze of lemon. Serve any remaining aioli alongside.',
     ],
     'name' => 'Grilled Pork Tenderloin Sandwiches',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,

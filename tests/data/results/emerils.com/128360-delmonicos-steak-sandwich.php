@@ -35,6 +35,7 @@ return [
         'Spread 1 tablespoon of the horseradish mayonnaise on each cut side of the rolls. Layer the bottom of each roll with 6 ounces of sliced steak, 3 tablespoons of the sauteed mushrooms, 2 tablespoons of the Caramelized Onions and several leaves of the spinach. Close the sandwich with the top portion of the roll and then slice each sandwich in half and serve with a small side salad or potato chips.',
     ],
     'name' => 'Delmonico\'s Steak Sandwich',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT45M',

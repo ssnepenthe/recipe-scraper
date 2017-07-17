@@ -64,6 +64,17 @@ class WwwEatingWellCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // @todo More tests! On allrecipes.com we are filtering out headers... I haven't seen any
+        // headers on eatingwell.com which is basically the same template. Should we do it anyway?
+        return $this->extractArray($crawler, '.recipeFootnotes li');
+    }
+
+    /**
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler)

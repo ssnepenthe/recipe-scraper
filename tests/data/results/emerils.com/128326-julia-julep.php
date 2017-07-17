@@ -22,6 +22,7 @@ return [
         'In a julep cup or a single old-fashioned glass, muddle the simple syrup together with the basil leaves until fragrant. Add the lemon juice and Jim Beam and fill the glass with ice. Stir to blend and serve immediately, garnished with the sprig of basil.',
     ],
     'name' => 'Julia Julep',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT45M',

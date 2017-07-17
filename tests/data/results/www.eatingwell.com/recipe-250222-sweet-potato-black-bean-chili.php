@@ -37,6 +37,10 @@ return [
         'Add beans, tomatoes and lime juice; increase heat to high and return to a simmer, stirring often. Reduce heat and simmer until slightly reduced, about 5 minutes. Remove from heat and stir in cilantro.',
     ],
     'name' => 'Sweet Potato & Black Bean Chili',
+    'notes' => [
+        'Make Ahead Tip: Cover and refrigerate for up to 3 days or freeze for up to 3 months.',
+        'Note: Chipotle peppers are dried, smoked jalapeño peppers. Ground chipotle chile pepper can be found in the spice section of most supermarkets or online at penzeys.com.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT40M',

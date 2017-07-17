@@ -7,6 +7,8 @@ use Symfony\Component\DomCrawler\Crawler;
 /**
  * FYI there is a JSON API if you send header 'Accept: application/json'.
  * They have nutrition info if we ever want it.
+ *
+ * Times are often mis-labeled or missing itemprop completely.
  */
 class WwwBhgCom extends SchemaOrgMarkup
 {
@@ -36,7 +38,7 @@ class WwwBhgCom extends SchemaOrgMarkup
      */
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractString($crawler, '.recipe__image', ['content']);
+        return $this->extractString($crawler, '[itemprop="image"] [itemprop="url"]', ['content']);
     }
 
     /**
@@ -64,5 +66,14 @@ class WwwBhgCom extends SchemaOrgMarkup
     protected function extractName(Crawler $crawler)
     {
         return $this->extractString($crawler, 'h1[itemprop="name"]');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        return $this->extractArray($crawler, '.recipe__tip');
     }
 }

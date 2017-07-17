@@ -42,6 +42,9 @@ return [
         'Break off crust; discard. Let chicken stand for at least 30 minutes before slicing. Remove cheesecloth, and discard. Transfer chicken to a cutting board, and cut into 1/2-inch-thick slices. Drizzle remaining asparagus with oil and lemon juice, and sprinkle with salt. Serve chicken warm or at room temperature with the asparagus. Serve wild mushrooms with red onions and scallions on the side.',
     ],
     'name' => 'Salt-Baked Chicken Breast Stuffed with Asparagus',
+    'notes' => [
+        'Use the remaining chicken bones and meat to make stock. You can ask your butcher to remove the chicken breast from the bone, or do it yourself.',
+    ],
     'prepTime' => null,
     'publisher' => 'Martha Stewart',
     'totalTime' => null,

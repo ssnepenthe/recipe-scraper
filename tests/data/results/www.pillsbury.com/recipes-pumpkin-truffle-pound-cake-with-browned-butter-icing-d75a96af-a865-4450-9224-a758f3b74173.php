@@ -37,6 +37,9 @@ return [
         'Place cooled cake on serving plate. In 1-quart saucepan, heat 1/4 cup butter over medium heat, stirring occasionally, until golden brown. Pour browned butter into medium bowl; stir in powdered sugar, vanilla and milk, 1 tablespoon at a time, until spreadable (mixture will thicken as it cools). Let stand 1 to 2 minutes or until slightly cool; stir. Drizzle over cake.',
     ],
     'name' => 'Pumpkin Truffle Pound Cake with Browned Butter Icing',
+    'notes' => [
+        'Be sure to use canned pumpkin, not pumpkin pie mix, for this yummy, incredible pound cake. Pumpkin pie mix contains sugar and spices--not just pumpkin.',
+    ],
     'prepTime' => 'PT25M',
     'publisher' => null,
     'totalTime' => 'PT2H45M',

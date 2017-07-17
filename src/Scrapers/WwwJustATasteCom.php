@@ -5,6 +5,11 @@ namespace RecipeScraper\Scrapers;
 use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
+/**
+ * Has notes but they all seem to be bundled with ingredients.
+ *
+ * Some recipes have nutrition information.
+ */
 class WwwJustATasteCom extends SchemaOrgMarkup
 {
     /**

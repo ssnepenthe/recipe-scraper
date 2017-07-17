@@ -24,6 +24,7 @@ return [
         'Pipe the whipped cream on the shake using a pastry bag fitted with a star tip and drizzle with some extra chocolate sauce, brownie crumbs, shaved chocolate, fresh mint and a cherry.',
     ],
     'name' => 'Chocolate Brownie Shake',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT4M',

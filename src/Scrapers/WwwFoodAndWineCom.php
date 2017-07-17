@@ -8,6 +8,8 @@ use Symfony\Component\DomCrawler\Crawler;
  * Has LD+JSON but with a very limited subset of data.
  *
  * Could use some more thorough testing on description.
+ *
+ * Notes have headings which may be beneficial to include.
  */
 class WwwFoodAndWineCom extends SchemaOrgMarkup
 {
@@ -64,6 +66,15 @@ class WwwFoodAndWineCom extends SchemaOrgMarkup
     protected function extractName(Crawler $crawler)
     {
         return $this->extractString($crawler, 'h1[itemprop="name"]');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        return $this->extractArray($crawler, '.recipe-notes p');
     }
 
     /**

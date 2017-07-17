@@ -34,6 +34,7 @@ return [
         'Do Ahead: Purée can be infused and strained 3 days ahead. Cover and chill.',
     ],
     'name' => 'Cold-Infused Blackberry-Pepper Soda',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,

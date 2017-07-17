@@ -40,6 +40,7 @@ return [
         'For the glaze, whisk together the sifted confectioners sugar, buttermilk, and vanilla. I also added in lemon zest. Brush or spoon the glaze onto the warm cookies. Allow cookies to sit on the rack until the glaze is set.',
     ],
     'name' => 'Lemon Buttermilk Cookies',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

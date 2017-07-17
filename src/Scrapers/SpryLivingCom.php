@@ -7,6 +7,8 @@ use Symfony\Component\DomCrawler\Crawler;
 /**
  * This site is powered by WordPress but at the time of this writing the recipe post
  * type is hidden from the REST API.
+ *
+ * Many recipes that include notes bundle them into the instructions section.
  */
 class SpryLivingCom extends SchemaOrgMarkup
 {
@@ -72,6 +74,19 @@ class SpryLivingCom extends SchemaOrgMarkup
         ];
 
         return $this->extractArrayFromChildren($crawler, implode(', ', $selectors));
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // @todo More testing!
+        return $this->extractArray(
+            $crawler,
+            '[itemprop="recipeInstructions"] > div:not(.wp-caption)'
+        );
     }
 
     /**

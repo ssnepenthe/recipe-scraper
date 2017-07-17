@@ -28,6 +28,9 @@ return [
         'Transfer chicken to baking sheet; discard marinade. Broil until opaque throughout, 14 to 16 minutes. Let rest 5 minutes; thinly slice crosswise. In a large bowl, stir together mayonnaise and reserved buttermilk mixture. Add romaine, radicchio, chicken, and croutons; toss to combine. Serve immediately.',
     ],
     'name' => 'Buttermilk Chicken Caesar Salad',
+    'notes' => [
+        'Low-fat buttermilk gives the chicken zip and tenderizes the meat. The longer the soak, the softer the chicken. Use the buttermilk left in the container to jazz up mashed potatoes.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => 'Martha Stewart',
     'totalTime' => 'PT40M',

@@ -1,0 +1,46 @@
+<?php
+
+return [
+    'author' => 'Cooking Channel',
+    'categories' => [
+        'Burgers',
+        'Beer',
+        'Beef',
+        'Meat',
+        'Braising',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT15M',
+    'cuisines' => null,
+    'description' => 'This "knife and fork" style beer-braised burger does most of its cooking in a delicious sudsy bath of brew, which not only builds in a great depth of flavor, it also helps to create a killer pan sauce that you can pour over your finished masterpiece.',
+    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2013/3/27/0/CCDevour_Decker-beer-braised-burgers-recipe_s4x3.jpg.rend.hgtvcom.616.462.jpeg',
+    'ingredients' => [
+        '1 tablespoon olive oil',
+        '1 tablespoon butter',
+        '1 large sweet onion, halved widthwise and thinly sliced',
+        '2 cloves garlic, finely chopped',
+        '1 teaspoon dried thyme',
+        '1 pound ground beef (whatever blend you prefer)',
+        'Salt and ground black pepper',
+        '1 (12-ounce) bottle beer, whatever variety you like',
+        '1 tablespoon Worcestershire sauce',
+        '1 teaspoon Dijon mustard',
+        '4 slices sourdough bread, toasted',
+        '1 large tomato, thinly sliced',
+        '2 to 3 ounces robust blue cheese, such as Roquefort or Stilton, thinly sliced',
+    ],
+    'instructions' => [
+        'Place a large skillet over medium heat with the olive oil and butter. Add the onions, garlic, and thyme to the pan and cook, stirring occasionally, until the onions begin to soften, 3 to 4 minutes.',
+        'While the onions are cooking, season the ground beef with salt and pepper and form it into four patties. Push the softened onions to the outer edge of the skillet and add the burgers to the pan. Cook the burgers until browned on one side, 2 to 3 minutes, and then flip them over. Add the beer, Worcestershire sauce and Dijon mustard to the pan and swirl it gently to combine all of the ingredients. Continue cooking the burgers to your desired doneness, about 4 minutes for medium. Once the burgers are finished, remove them to a plate and continue reducing the liquid in the pan until it reaches a glossy, gravy-like consistency. Season with salt and pepper.',
+        'Serve the burgers on a toasted slice of sourdough bread layered with sliced tomato. Top each burger with the onions and pan sauce and garnish with the blue cheese.',
+    ],
+    'name' => 'Beer-Braised Burgers',
+    'notes' => [
+        'If you\'re feeling guilty for just eating a burger for dinner, go ahead and add in a simple green salad to balance the meal out. But afterwards stop worrying about eating just a burger for dinner and go with it.',
+    ],
+    'prepTime' => null,
+    'publisher' => 'Cooking Channel',
+    'totalTime' => 'PT30M',
+    'url' => 'http://www.cookingchanneltv.com/recipes/beer-braised-burgers-2121301',
+    'yield' => '4 servings',
+];

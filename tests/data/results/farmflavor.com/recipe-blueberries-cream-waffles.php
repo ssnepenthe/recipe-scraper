@@ -48,6 +48,7 @@ return [
         'To serve, spoon blueberries onto each waffle. Top each with a dollop of the mascarpone mixture and fresh rosemary.',
     ],
     'name' => 'Blueberries and Cream Waffles',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,

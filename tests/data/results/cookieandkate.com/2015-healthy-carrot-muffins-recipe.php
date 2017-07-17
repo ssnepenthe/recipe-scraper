@@ -36,6 +36,10 @@ return [
         'Place the muffin tin on a cooling rack to cool. If you have leftover muffins, store them, covered, at room temperature for two days, or in the refrigerator for up to 4 days. Freeze leftover muffins for up to 3 months.',
     ],
     'name' => 'Healthy Carrot Muffins',
+    'notes' => [
+        'Make it nut free: Skip the walnuts!',
+        '*Carrot grating tips: You can grate the carrots by hand, or for an easier option, use the grating attachment on your food processor.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT28M',

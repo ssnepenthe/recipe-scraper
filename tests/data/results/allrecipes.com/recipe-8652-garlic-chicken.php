@@ -23,6 +23,9 @@ return [
         'Bake in the preheated oven until no longer pink and juices run clear, 30 to 35 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).',
     ],
     'name' => 'Garlic Chicken',
+    'notes' => [
+        'The nutrition data for this recipe includes the full amount of the breading ingredients. The actual amount of the breading consumed will vary.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT55M',

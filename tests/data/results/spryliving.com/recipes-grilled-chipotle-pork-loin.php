@@ -31,6 +31,7 @@ return [
         'TO ROAST: Place the pork in a 7 × 11-inch baking dish and roast on the lower rack, uncovered, for 35 to 40 minutes until cooked through and no longer pink in the center, and it registers 145˚F on an instant-read thermometer. Let the loin rest for 5 minutes before slicing, then serve with the salsa.',
     ],
     'name' => 'Grilled Pork Loin with Blueberry-Kiwi Salsa',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

@@ -44,6 +44,7 @@ return [
         'Carefully transfer the pan to a wire rack and let cool for at least 10 minutes. Serve warm or at room temperature topped with whipped cream.',
     ],
     'name' => 'How to Make Blueberry Cobbler on Your Backyard Grill',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT1H10M',

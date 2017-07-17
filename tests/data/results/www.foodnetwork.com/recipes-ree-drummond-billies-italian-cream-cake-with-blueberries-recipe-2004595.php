@@ -48,6 +48,9 @@ return [
         'To assemble: Cut each cake in half lengthwise so you are left with 4 layers. Spread the first layer with frosting and top with blueberries. Repeat the cake, frosting and blueberry layers until you have 4 layers of cake. Arrange more blueberries around the edge of each layer for structure.',
     ],
     'name' => 'Billie\'s Italian Cream Cake with Blueberries',
+    'notes' => [
+        'Cream cheese frosting will soften at room temperature, so refrigerate if you won\'t use it right away.',
+    ],
     'prepTime' => null,
     'publisher' => 'Food Network',
     'totalTime' => 'PT1H55M',

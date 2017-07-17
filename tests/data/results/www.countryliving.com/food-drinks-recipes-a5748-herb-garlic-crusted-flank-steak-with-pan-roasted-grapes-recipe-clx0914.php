@@ -31,6 +31,7 @@ return [
         'Slice steak against the grain into thin slices. Arrange on a serving platter, spooning grapes and cheese over meat. Sprinkle with additional fresh herbs if desired. Serve with mashed potatoes.',
     ],
     'name' => 'Herb-Garlic Crusted Flank Steak with Pan-Roasted Grapes',
+    'notes' => null,
     'prepTime' => 'PT28M',
     'publisher' => null,
     'totalTime' => 'PT28M',

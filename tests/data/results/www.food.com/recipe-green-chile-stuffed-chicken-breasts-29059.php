@@ -26,6 +26,7 @@ return [
         'Cover and cook on low for 6-7 hours.',
     ],
     'name' => 'Green Chile Stuffed Chicken Breasts',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => 'Food.com',
     'totalTime' => 'PT7H15M',

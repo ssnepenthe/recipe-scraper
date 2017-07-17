@@ -26,6 +26,10 @@ return [
         'Spoon small amount of chicken and veggies onto each tortilla. Top each with sour cream, salsa and cilantro, or your favorite fajita toppings.',
     ],
     'name' => 'Easy Oven-Baked Chicken Fajitas',
+    'notes' => [
+        'You can use any color of bell pepper you want in this dish...or even add more than one kind.',
+        'This also tastes great with a squeeze of lime juice over the baked chicken and veggies!',
+    ],
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT50M',

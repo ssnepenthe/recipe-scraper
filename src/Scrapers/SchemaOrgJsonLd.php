@@ -7,11 +7,6 @@ use RecipeScraper\Str;
 use RecipeScraper\Interval;
 use Symfony\Component\DomCrawler\Crawler;
 
-/**
- * Supports marthastewart.com.
- *     * Occasionally includes links to other recipes in ingredients section
- *     * Has keywords available which could potentially be used as extra categories.
- */
 class SchemaOrgJsonLd implements ScraperInterface
 {
     /**
@@ -28,6 +23,7 @@ class SchemaOrgJsonLd implements ScraperInterface
         'ingredients',
         'instructions',
         'name',
+        'notes',
         'prepTime',
         'publisher',
         'totalTime',
@@ -255,6 +251,17 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $name;
         }
 
+        return null;
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        // No standard exists that I am aware of...
         return null;
     }
 

@@ -30,6 +30,9 @@ return [
         'Drain spaghetti; add to beef mixture and toss to combine. Sprinkle with chili pepper.',
     ],
     'name' => 'Beef & Spinach Lo Mein',
+    'notes' => [
+        'Editor\'s Note: Wear disposable gloves when cutting hot peppers; the oils can burn skin. Avoid touching your face.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT30M',

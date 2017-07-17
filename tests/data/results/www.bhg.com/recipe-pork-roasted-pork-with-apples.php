@@ -40,6 +40,7 @@ return [
         'In a small saucepan bring apple juice to a boil; simmer gently, uncovered, for 8 to 10 minutes or until reduced to 1/4 to 1/3 cup. Drizzle over meat and apple mixture. If desired, garnish with additional sage sprigs.',
     ],
     'name' => 'Roasted Pork with Apples',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => null,

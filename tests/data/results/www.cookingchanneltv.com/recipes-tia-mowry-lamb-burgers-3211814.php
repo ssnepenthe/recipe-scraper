@@ -40,6 +40,7 @@ return [
         'Assemble the burgers: Place the burgers on the buns, and layer with lettuce, red onions and tomatoes.',
     ],
     'name' => 'Lamb Burgers',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT1H5M',

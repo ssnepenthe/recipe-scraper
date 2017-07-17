@@ -65,6 +65,16 @@ class WwwTasteOfHomeCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // Check the peanut butter snowballs recipe in tests... Notes could probably use an update.
+        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] .rd_editornote');
+    }
+
+    /**
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler)

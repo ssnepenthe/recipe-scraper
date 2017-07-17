@@ -31,6 +31,7 @@ return [
         'Meanwhile, pour the marinade into a small saucepan and add 2 Tbs. water; bring to a boil, reduce the heat, and simmer for 3 minutes. Remove from the heat. If the sauce seems too thick, thin it with 1 or 2 tsp. water. Slice the pork and serve with the sauce on the side.',
     ],
     'name' => 'Grilled Asian Pork Tenderloin with Peanut Sauce',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

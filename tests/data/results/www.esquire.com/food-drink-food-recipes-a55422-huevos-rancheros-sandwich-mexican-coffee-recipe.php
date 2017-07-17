@@ -38,6 +38,7 @@ return [
         'Make the sandwich: Mix refried beans with chili powder and olive oil and spread on both sides of toasted roll. To bottom roll, add a fried egg and top with sliced avocado and bacon. Spoon some hot sauce on top and garnish with cilantro. Top sandwich with bun and serve with Mexican spiced coffee.',
     ],
     'name' => 'This Huevos Rancheros Sandwich And Mexican Coffee Recipe Is the Key to a Good Morning',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

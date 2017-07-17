@@ -50,6 +50,7 @@ return [
         'While pork bakes, prepare slaw. Combine onion and next 5 ingredients (through 1/4 teaspoon salt) in a large bowl. Add cabbage, and toss to coat. Cover and chill 3 hours before serving. Serve pork and slaw on buns with Memphis Barbecue Sauce.',
     ],
     'name' => 'Memphis Pork and Coleslaw Sandwich',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'My Recipes',
     'totalTime' => null,

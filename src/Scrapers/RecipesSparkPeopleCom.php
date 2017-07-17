@@ -6,6 +6,9 @@ use RecipeScraper\Arr;
 use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
+/**
+ * @todo Consider extracting method for DOM access as in instructions/notes. Cookieandkate.com also.
+ */
 class RecipesSparkPeopleCom extends SchemaOrgMarkup
 {
     /**
@@ -25,7 +28,7 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
      */
     protected function extractAuthor(Crawler $crawler)
     {
-        return $this->extractString($crawler, '[itemprop="author"]');
+        return $this->extractString($crawler, '.submited_by [itemprop="author"]');
     }
 
     /**
@@ -64,20 +67,29 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
         // Unfortunately we have to drop to the lower-level DOM API for access to text node values.
         $instructions = $crawler->filter('[itemprop="recipeInstructions"]');
 
-        if (! $instructions->count()) {
+        if (! $instructions->count() || ! $first = $instructions->getNode(0)) {
             return null;
         }
 
         $return = [];
+        $value = '';
 
-        foreach ($instructions->getNode(0)->childNodes as $childNode) {
-            if (XML_ELEMENT_NODE === $childNode->nodeType) {
-                $return[] = $childNode->nodeValue;
-            }
-
+        foreach ($first->childNodes as $childNode) {
             if (XML_TEXT_NODE === $childNode->nodeType) {
-                $return[] = $childNode->wholeText;
+                $value .= $childNode->wholeText;
+            } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
+                if ('br' === $childNode->nodeName) {
+                    $return[] = $value;
+                    $value = '';
+                } else {
+                    $value .= $childNode->nodeValue;
+                }
             }
+        }
+
+        if (! empty($value)) {
+            $return[] = $value;
+            $value = '';
         }
 
         return $return;
@@ -95,6 +107,43 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler)
+    {
+        // Unfortunately we have to drop to the lower-level DOM API for access to text node values.
+        $notes = $crawler->filter('.tip_text');
+
+        if (! $notes->count() || ! $first = $notes->getNode(0)) {
+            return null;
+        }
+
+        $return = [];
+        $value = '';
+
+        foreach ($first->childNodes as $childNode) {
+            if (XML_TEXT_NODE === $childNode->nodeType) {
+                $value .= $childNode->wholeText;
+            } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
+                if ('br' === $childNode->nodeName) {
+                    $return[] = $value;
+                    $value = '';
+                } else {
+                    $value .= $childNode->nodeValue;
+                }
+            }
+        }
+
+        if (! empty($value)) {
+            $return[] = $value;
+            $value = '';
+        }
+
+        return $return;
+    }
+
+    /**
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler)
@@ -108,17 +157,18 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
      */
     protected function postNormalizeInstructions($instructions)
     {
-        if (! Arr::ofStrings($instructions)) {
+        // Is null check for Psalm...
+        if (is_null($instructions) || ! Arr::ofStrings($instructions)) {
             return $instructions;
         }
 
         // For starters - remove leading digits.
-        $instructions = array_map(function ($instruction) {
+        $instructions = array_map(function ($instruction) : string {
             return (string) s($instruction)->regexReplace('^\d+\.\s*', '');
         }, $instructions);
 
         // Then filter out servings and author info.
-        $instructions = array_filter($instructions, function ($instruction) {
+        $instructions = array_filter($instructions, function ($instruction) : bool {
             $instruction = s($instruction);
 
             return ! (

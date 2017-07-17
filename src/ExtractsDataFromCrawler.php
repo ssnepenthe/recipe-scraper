@@ -12,19 +12,21 @@ trait ExtractsDataFromCrawler
      * @param  string[] $attrs
      * @return string[]|null
      */
-    protected function extractArray(Crawler $crawler, string $selector, array $attrs = [])
+    protected function extractArray(Crawler $crawler, string $selector = '', array $attrs = [])
     {
         if (empty($attrs) || ! Arr::ofStrings($attrs)) {
             $attrs = ['_text'];
         }
 
-        $nodes = $crawler->filter($selector);
+        if (! empty($selector)) {
+            $crawler = $crawler->filter($selector);
+        }
 
-        if (! $nodes->count()) {
+        if (! $crawler->count()) {
             return null;
         }
 
-        $values = array_filter($nodes->each(
+        $values = array_filter($crawler->each(
             /**
              * @param Crawler $node
              * @return string|null

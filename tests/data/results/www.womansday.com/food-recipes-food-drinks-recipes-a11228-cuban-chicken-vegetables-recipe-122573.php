@@ -33,6 +33,7 @@ return [
         'Drizzle servings with reserved cilantro mixture.',
     ],
     'name' => 'Cuban Chicken and Vegetables',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT40M',

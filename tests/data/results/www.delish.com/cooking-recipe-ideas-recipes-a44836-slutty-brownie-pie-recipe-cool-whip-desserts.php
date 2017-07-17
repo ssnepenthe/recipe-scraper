@@ -32,6 +32,7 @@ return [
         'Make the whipped cream: In another bowl, mix Cool Whip with remaining 1/3 packet pudding mix. Fold in crumbled brownies, and pour the mixture on top of the pie. Garnish with more brownie pieces. Refrigerate for 4 hours, then drizzle with chocolate sauce just before serving.',
     ],
     'name' => 'Slutty Brownie Pie',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT4H25M',

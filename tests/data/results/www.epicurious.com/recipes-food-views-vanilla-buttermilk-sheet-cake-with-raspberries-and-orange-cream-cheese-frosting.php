@@ -68,6 +68,7 @@ return [
         'Cake can be made 3 days ahead; wrap tightly in plastic and chill, or freeze up to 2 weeks. Syrup can be made 5 days ahead; store in an airtight container and chill. Frosting can be made 3 days ahead; cover with plastic wrap, pressing directly on surface, and chill. Bring to room temperature before using.',
     ],
     'name' => 'Vanilla-Buttermilk Sheet Cake with Raspberries and Orange Cream-Cheese Frosting',
+    'notes' => null,
     'prepTime' => 'PT1H',
     'publisher' => 'Epicurious',
     'totalTime' => null,

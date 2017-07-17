@@ -50,6 +50,7 @@ return [
         'To serve: You do not have to wait for the fudge to set before serving. Using a metal spatula, cut and serve in cake-like squares.',
     ],
     'name' => 'Peanut Butter Pie Fudge',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT1H20M',

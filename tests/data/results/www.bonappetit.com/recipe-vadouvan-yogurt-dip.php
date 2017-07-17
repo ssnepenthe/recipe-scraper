@@ -34,6 +34,7 @@ return [
         'Mix yogurt, sour cream, lemon juice, garlic, and 3 Tbsp. dill in a medium bowl; season with salt and pepper. Mix in vadouvan oil. Drizzle with more oil and top with more dill.',
     ],
     'name' => 'Vadouvan Yogurt Dip',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,

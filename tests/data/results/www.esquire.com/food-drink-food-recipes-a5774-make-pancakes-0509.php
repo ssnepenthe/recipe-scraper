@@ -31,6 +31,7 @@ return [
         'Serve immediately with butter and syrup or hold briefly in warm oven.',
     ],
     'name' => 'How to Make Pancakes from Scratch',
+    'notes' => null,
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT15M',

@@ -39,6 +39,7 @@ return [
         'Place 1 cake layer on a plate; spread with 1/2 cup frosting. Top with remaining cake layer. Spread remaining frosting over top and sides of cake. Store cake loosely covered in the refrigerator.',
     ],
     'name' => 'Lemonade Layer Cake',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'My Recipes',
     'totalTime' => null,

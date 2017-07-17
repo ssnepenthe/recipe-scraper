@@ -55,6 +55,7 @@ return [
         'Generously spread aioli on cut sides of buns and build each burger with a lamb patty, 3 or 4 boquerones, and a mound of slaw. This is a messy burger, so the bib is not optional.',
     ],
     'name' => 'Lamb Burgers with Lemon-Caper Aioli and Fennel Slaw',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,

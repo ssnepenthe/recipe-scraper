@@ -7,6 +7,8 @@ use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * We lose out on ingredient group titles by using LD+JSON.
+ *
+ * Has notes but they are stuffed in with instructions.
  */
 class WwwBonAppetitCom extends SchemaOrgJsonLd
 {

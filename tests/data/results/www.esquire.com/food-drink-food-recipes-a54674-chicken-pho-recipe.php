@@ -39,6 +39,8 @@ return [
         'Stir in fish sauce, and add more to taste if necessary.',
     ],
     'name' => 'How to Make Vietnamese Chicken Pho',
+    // @todo Has notes but they are listed under "extra content" which isn't consistently useful.
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT3H',

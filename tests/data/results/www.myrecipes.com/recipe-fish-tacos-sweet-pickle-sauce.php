@@ -31,6 +31,7 @@ return [
         'Divide fish, avocado, and tomato evenly among tortillas. Drizzle tacos evenly with mayonnaise mixture; sprinkle with cilantro. Serve with lime wedges.',
     ],
     'name' => 'Fish Tacos with Sweet Pickle Sauce',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => 'My Recipes',
     'totalTime' => null,

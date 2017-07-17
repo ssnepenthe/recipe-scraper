@@ -23,6 +23,11 @@ return [
         'Stir in 1 cup of the cheese. Top with green onions and sour cream. Top with remaining cheese; serve with tortilla chips.',
     ],
     'name' => 'Slow-Cooker Cheesy Chicken Enchilada Chili',
+    'notes' => [
+        'Try 4-cheese Mexican shredded cheese blend instead of the Colby-Monterey Jack.',
+        'Make nachos! Use a slotted spoon to top the chips with the chili. Instead of stirring in cheese, sprinkle it all on top at the end.',
+        'Gone for more than 8 hours? Try this recipe overnight! Check out our tip sheet for more slow-cooker secrets.',
+    ],
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT4H10M',

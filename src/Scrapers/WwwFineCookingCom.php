@@ -40,6 +40,16 @@ class WwwFineCookingCom extends SchemaOrgJsonLd
     /**
      * @param  Crawler $crawler
      * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        return $this->extractArray($crawler, '.module--tip p');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler, array $json)
@@ -57,8 +67,13 @@ class WwwFineCookingCom extends SchemaOrgJsonLd
         // See http://www.finecooking.com/recipe/ancho-marinated-pork-and-mango-skewers.
         // It looks like LD+JSON inaccurately strips non-numeric characters from yield which leaves
         // us with 42 instead of 4. So instead, get from markup and strip out the heading.
-        $heading = $this->extractString($crawler, '.recipe__yield__heading');
-        $yield = $this->extractString($crawler, '.recipe__yield');
+        if (! $yield = $this->extractString($crawler, '.recipe__yield')) {
+            return null;
+        }
+
+        if (! $heading = $this->extractString($crawler, '.recipe__yield__heading')) {
+            return $yield;
+        }
 
         return str_replace($heading, '', $yield);
     }

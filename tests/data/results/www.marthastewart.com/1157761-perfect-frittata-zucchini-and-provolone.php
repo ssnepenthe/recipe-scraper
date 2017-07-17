@@ -25,6 +25,9 @@ return [
         'Sprinkle with provolone, pressing about half down into eggs. Transfer to oven; broil until puffed and browning in spots and eggs are just set, 1 to 2 minutes. Let stand 10 minutes before slicing. Frittata can be served hot or at room temperature.',
     ],
     'name' => 'Perfect Frittata with Zucchini and Provolone',
+    'notes' => [
+        'After adding the eggs to the skillet, use a heatproof flexible spatula to stir and push them from the edges to the center of the pan as they cook, so the liquid parts run underneath.',
+    ],
     'prepTime' => 'PT25M',
     'publisher' => 'Martha Stewart',
     'totalTime' => 'PT35M',

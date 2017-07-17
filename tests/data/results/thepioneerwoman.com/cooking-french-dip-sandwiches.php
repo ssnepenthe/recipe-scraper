@@ -32,6 +32,7 @@ return [
         'Slice the beef very thin. Pile meat and onions on rolls, then serve with dishes of jus.',
     ],
     'name' => 'French Dip Sandwiches',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => null,

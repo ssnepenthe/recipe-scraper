@@ -30,6 +30,7 @@ return [
         'Bake for 25-30 minutes or until puffy and golden brown.',
     ],
     'name' => 'Nana\'s Blueberry Muffins',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT40M',

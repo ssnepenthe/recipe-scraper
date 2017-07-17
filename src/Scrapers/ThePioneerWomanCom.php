@@ -11,6 +11,8 @@ use Symfony\Component\DomCrawler\Crawler;
  * information available but a lot of the recipe details seem to be missing.
  *
  * @link https://vip.wordpress.com/documentation/api/
+ *
+ * Many recipes have notes but they are bundled in with instructions.
  */
 class ThePioneerWomanCom extends SchemaOrgMarkup
 {

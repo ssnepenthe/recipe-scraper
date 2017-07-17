@@ -32,6 +32,9 @@ return [
         'Bake in preheated oven until chicken is no longer pink in the center and juices run clear, about 25 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Uncover and sprinkle with remaining mozzarella cheese. Bake until cheese is melted, about 5 minutes.',
     ],
     'name' => 'Baked Chicken and Zucchini',
+    'notes' => [
+        'Aluminum foil helps keep food moist, ensures it cooks evenly, keeps leftovers fresh, and makes clean-up easy.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT50M',

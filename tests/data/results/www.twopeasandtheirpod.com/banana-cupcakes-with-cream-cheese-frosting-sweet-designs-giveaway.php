@@ -44,6 +44,7 @@ return [
         'Spoon about 2 tablespoons of the frosting onto each cupcake. Using an offset spatula and holding the cupcake in your hand, spread the frosting on in swirls by turning the cupcake in your hand. Ring each cupcake with pastel candies or sprinkles, if using. Serve immediately or store in an air tight container and refrigerate up to 3 days.',
     ],
     'name' => 'Banana Cupcakes with Cream Cheese Frosting',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

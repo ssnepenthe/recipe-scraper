@@ -38,6 +38,9 @@ return [
         'Garnish with a celery stalk and a lime, or whatever else you feel like adding. Sky\'s the limit.',
     ],
     'name' => 'How to Make the Perfect Bloody Mary',
+    'notes' => [
+        'Garnish Suggestions: Lemon wedge, pepperoncini, cherry peppers with feta, shrimp cocktail, pickled green beans, garlic dill pickle spears, and of course, the classic celery stalk.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

@@ -32,6 +32,7 @@ return [
         'In a small bowl, combine the diced tomatoes and parsley leaves. Toss the salad with the remaining 1 tablespoon olive oil, red wine vinegar, and a pinch of salt and pepper. Pile the salad atop the tortilla, slice and serve.',
     ],
     'name' => 'Spanish Tortilla with Tomato Salad',
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => null,

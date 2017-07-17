@@ -38,6 +38,13 @@ return [
         'Pour the rest of the cherry tomatoes on top of the dish, and sprinkle the basil over them. Toss gently, and divide the mixture into bowls. Top individual bowls with Parmesan or nutritional yeast, if you\'d like, and a light drizzle of olive oil. Serve immediately.',
     ],
     'name' => 'Double Tomato Pesto Spaghetti with Zucchini Noodles',
+    'notes' => [
+        // 'Recipe adapted from Bon Appetit\'s spaghetti with tomato and walnut pesto.',
+        'Make it dairy free/vegan: Skip the Parmesan and add a sprinkle of nutritional yeast, if you\'d like. The sun-dried tomatoes make it plenty savory.',
+        'Make it gluten free: Use your favorite gluten-free pasta, or serve entirely with zucchini noodles.',
+        'Make it nut free: Technically pine nuts are seeds, so if those work for you, try about ⅓ cup pine nuts instead of walnuts. I often use pepitas in pestos, but I\'m not sure they\'d work well with the tomatoes here. You would still get a really tasty tomato sauce without any nuts/seeds at all.',
+        'Change it up: You could make this with all zucchini noodles instead of spaghetti (I think you\'d need about 3 large zucchini) or all spaghetti (you\'d need a full 12 ounces).If you love this recipe: Check out my pasta archives here.',
+    ],
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT30M',

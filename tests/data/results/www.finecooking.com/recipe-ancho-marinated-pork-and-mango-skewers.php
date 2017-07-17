@@ -33,6 +33,7 @@ return [
         'Prepare a medium gas or charcoal grill fire. Scrub the grill grate with a wire brush and then wipe clean with a paper towel dipped in oil. Cook the skewers, turning once, until the meat is browned on the outside but still slightly pink in the center, about 8 minutes. Serve garnished with the cilantro.',
     ],
     'name' => 'Ancho-Marinated Pork and Mango Skewers',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

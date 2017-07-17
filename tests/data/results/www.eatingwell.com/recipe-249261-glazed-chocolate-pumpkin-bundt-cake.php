@@ -44,6 +44,12 @@ return [
         'To glaze & garnish cake: Combine confectioners\' sugar and 1 tablespoon buttermilk in a small bowl, stirring until completely smooth. Place the cake on a serving plate and drizzle the glaze over the top; garnish with chocolate chips (or chopped nuts) while the glaze is still moist.',
     ],
     'name' => 'Glazed Chocolate-Pumpkin Bundt Cake',
+    'notes' => [
+        'Make Ahead Tip: Prepare through Step 4 up to 1 day ahead. Glaze and garnish (Step 5) shortly before serving.',
+        'Equipment: 12-cup Bundt pan',
+        'Tips: To warm an egg to room temperature, either set it out on the counter for 15 minutes or submerge it (in the shell) in a bowl of lukewarm (not hot) water for 5 minutes.',
+        'To toast chopped nuts & seeds: Cook in a small dry skillet over medium-low heat, stirring constantly, until fragrant and lightly browned, 2 to 4 minutes.',
+    ],
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT3H30M',
