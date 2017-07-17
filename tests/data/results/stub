@@ -19,6 +19,9 @@ return [
         '',
     ],
     'name' => '',
+    'notes' => [
+        '',
+    ],
     'prepTime' => '',
     'publisher' => '',
     'totalTime' => '',
