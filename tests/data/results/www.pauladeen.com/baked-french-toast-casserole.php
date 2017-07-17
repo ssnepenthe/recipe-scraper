@@ -36,6 +36,7 @@ return [
         'Combine raspberry preserves, water and liqueur in a small saucepan and place over medium heat. Stir until warm and thinned out like syrup.',
     ],
     'name' => 'Baked French Toast Casserole',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT1H',

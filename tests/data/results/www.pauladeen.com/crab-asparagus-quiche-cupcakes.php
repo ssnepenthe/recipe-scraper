@@ -49,6 +49,7 @@ return [
         'Serve warm.',
     ],
     'name' => 'Crab & Asparagus Quiche Cupcakes',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,

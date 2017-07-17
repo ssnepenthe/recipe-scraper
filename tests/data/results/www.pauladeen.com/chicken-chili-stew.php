@@ -31,6 +31,7 @@ return [
         'Paula\'s Note: You can find Salsa Verde in the Latin Foods section of your grocery store.',
     ],
     'name' => 'Chicken Chili Stew',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT30M',
