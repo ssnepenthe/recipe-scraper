@@ -46,6 +46,7 @@ return [
         'Cut the dough into 24 equal pieces. On a work surface that\'s lightly dusted with flour, roll each piece out to form a 5½- to 6-inch round. Place 2 tablespoons of the meat mixture slightly off-center on a round of dough. Fold the dough over to make the edges meet, and crimp the edges with the tines of a fork to seal them. Working in batches, fry the meat pies until they are golden brown on both sides, about 3 minutes. Transfer the pies to the wire rack to drain. Serve hot.',
     ],
     'name' => 'Natchitoches Meat Pies',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT45M',

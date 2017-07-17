@@ -35,6 +35,7 @@ return [
         '*Note: To toast coconut, spread it over a parchment paper-lined baking sheet. Bake in a preheated 325°F oven until golden brown, 5 to 7 minutes. Check on it regularly to see that it is browning evenly and stir a few times. Sweetened coconut flakes will brown a little faster than unsweetened. Let cool completely before using.',
     ],
     'name' => 'Triple Coconut Cake with Seven-Minute Coconut Frosting',
+    'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT45M',

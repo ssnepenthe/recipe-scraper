@@ -29,6 +29,7 @@ return [
         'Set aside to cool before using. The sauce may be made up to 1 week in advance and refrigerated in an airtight, non-reactive container.',
     ],
     'name' => 'Homemade Barbecue Sauce',
+    'notes' => null,
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,
