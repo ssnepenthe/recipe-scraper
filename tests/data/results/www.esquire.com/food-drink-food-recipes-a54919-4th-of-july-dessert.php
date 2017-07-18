@@ -3,11 +3,11 @@
 return [
     'author' => 'Esquire Editors',
     'categories' => [
+        'Esquire\'s Guide to Summer Booze and Food',
         'Food & Drink',
         'Food',
         '4th of July',
         'dessert',
-        'Recipes',
     ],
     'cookingMethod' => null,
     'cookTime' => 'PT50M',

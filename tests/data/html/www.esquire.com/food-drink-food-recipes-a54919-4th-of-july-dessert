@@ -17,10 +17,10 @@ name="keywords" content="blueberry cobbler, blueberry cobbler recipe, skillet re
 name="news_keywords" content="4th of july desserts, blueberry cobbler recipe"><meta
 name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta
 name="apple-itunes-app" content="app-id=1020421151, affiliate-data=pt=305920&ct=OnSiteESQ&mt=8"><link
-rel="icon" type="image/x-icon" href="//esq.h-cdn.co/assets/esquire/20170613154407/images/favicon.ico" /><link
-rel="apple-touch-icon-precomposed" sizes="114x114" href="//esq.h-cdn.co/assets/esquire/20170613154407/images/apple-touch-icon.png"><link
-rel="apple-touch-icon-precomposed" sizes="72x72" href="//esq.h-cdn.co/assets/esquire/20170613154407/images/apple-touch-icon.png"><link
-rel="apple-touch-icon-precomposed" href="//esq.h-cdn.co/assets/esquire/20170613154407/images/apple-touch-icon.png"><link
+rel="icon" type="image/x-icon" href="//esq.h-cdn.co/assets/esquire/20170712153520/images/favicon.ico" /><link
+rel="apple-touch-icon-precomposed" sizes="114x114" href="//esq.h-cdn.co/assets/esquire/20170712153520/images/apple-touch-icon.png"><link
+rel="apple-touch-icon-precomposed" sizes="72x72" href="//esq.h-cdn.co/assets/esquire/20170712153520/images/apple-touch-icon.png"><link
+rel="apple-touch-icon-precomposed" href="//esq.h-cdn.co/assets/esquire/20170712153520/images/apple-touch-icon.png"><link
 rel="canonical" href="http://www.esquire.com/food-drink/food/recipes/a54919/4th-of-july-dessert/" /><meta
 property="fb:app_id" content="171874009543995" /><meta
 property="fb:pages" content="84169421673" /><meta
@@ -34,8 +34,8 @@ property="og:image:height" content = "800" /><meta
 property="og:title" content="How to Make Blueberry Cobbler on Your Backyard Grill" /><meta
 property="og:description" content="A perfect 4th of July dessert." /><meta
 property="article:section" content="Food" /><meta
-property="article:published_time" content="2017-05-05 09:04:00" /><meta
-property="article:modified_time" content="2017-05-08 16:24:51" /><meta
+property="article:published_time" content="2017-06-29 04:31:00" /><meta
+property="article:modified_time" content="2017-07-03 16:31:32" /><meta
 property="article:publisher" content="https://www.facebook.com/Esquire" /><meta
 name="google-site-verification" content="jc-n3hu5vRQZpMR_8zTdWlZclmVbvCl2qFQ2fxka3rc" /><meta
 name="auto-publish" content="timely" /><link
@@ -47,7 +47,7 @@ property="twitter:description" content="A perfect 4th of July dessert." /><meta
 property="twitter:image" content="http://esq.h-cdn.co/assets/17/18/1600x800/landscape-1494007695-cobbler.jpg" /><meta
 name="sailthru.contenttype" content="article" /><meta
 name="sailthru.tags" content="Food &amp; Drink, 4th of July,dessert,Recipes,recipes for men,grill recipes" /><meta
-name="sailthru.date" content="2017-05-05T17:04:00-04:00" /><meta
+name="sailthru.date" content="2017-06-29T12:31:00-04:00" /><meta
 name="sailthru.image.full" content="http://esq.h-cdn.co/assets/17/18/768x384/landscape-1494007695-cobbler.jpg" /><meta
 name="sailthru.image.thumb" content="http://esq.h-cdn.co/assets/17/18/160x160/square-1494007695-cobbler.jpg" /><meta
 name="sailthru.socialtitle" content="How to Make Blueberry Cobbler on Your Backyard Grill" />
@@ -56,7 +56,7 @@ name="sailthru.socialtitle" content="How to Make Blueberry Cobbler on Your Backy
 		"@type": "Recipe",
 		"name": "How to Make Blueberry Cobbler on Your Backyard Grill",
 		"description": "A perfect 4th of July dessert.",
-		"datePublished": "2017-06-17T00:06:35+00:00",
+		"datePublished": "2017-07-18T00:57:18+00:00",
 		"mainEntityOfPage": "True",
 
 		"author": 			{
@@ -136,7 +136,7 @@ temperature topped with whipped cream.
 		});
 
 	})( Modernizr );</script> <link
-rel="stylesheet" href="//esq.h-cdn.co/assets/esquire/20170613154407/css/main.css" /><!--[if lte IE 8]> <script src="//esq.h-cdn.co/assets/esquire/20170613154407/libs/respond.min.js"></script> <![endif]--> <script id="dataLayer" type="text/javascript">var HRST = HRST || {};
+rel="stylesheet" href="//esq.h-cdn.co/assets/esquire/20170712153520/css/main.css" /><!--[if lte IE 8]> <script src="//esq.h-cdn.co/assets/esquire/20170712153520/libs/respond.min.js"></script> <![endif]--> <script id="dataLayer" type="text/javascript">var HRST = HRST || {};
 
 HRST.site = {
 	name:     "Esquire",
@@ -146,6 +146,8 @@ HRST.site = {
 };
 
 HRST.breakpoints = {"mobile":320,"mobile_w":480,"tablet":640,"tablet_w":768,"desktop":980,"desktop_w":1024};
+
+	HRST.videoPlayerUrl = "http://player.hearst.io/player.js";
 
 HRST.article = {
 
@@ -170,7 +172,11 @@ HRST.article = {
 	},
 
 	collection: [
-			],
+					{
+				id: 163,
+				name: "Esquire&#039;s Guide to Summer Booze and Food",
+				url: "summer-food-drinks"
+			}			],
 
 	sponsor: {
 		name: "",
@@ -209,18 +215,18 @@ HRST.article = {
 
 	publishDate: {
 		year: "2017",
-		month: "05",
-		day: "05",
-		hour: "21",
-		minute: "04"
+		month: "06",
+		day: "29",
+		hour: "16",
+		minute: "31"
 	},
 
 	modifiedDate: {
 		year: "2017",
-		month: "05",
-		day: "08",
+		month: "07",
+		day: "03",
 		hour: "16",
-		minute: "24"
+		minute: "31"
 	},
 
 	createDate: {
@@ -276,7 +282,7 @@ HRST.targeting = {
 	tool: "article",
 	artid: "esquire.article.54919",
 	clc:
-					""
+					"summer-food-drinks"
 		,
 	type: "",
 	author: "esquire-editors"
@@ -293,9 +299,9 @@ HRST.datalayer = {
 	canonicalUrl: "http://www.esquire.com/food-drink/food/recipes/a54919/4th-of-july-dessert/",
 	contentSource: "Hearst Editorial",
 	contentTopic: "blueberry cobbler, blueberry cobbler recipe, skillet recipe, grill recipe, dessert recipe, 4th of july desserts, summer grilling, how to make blueberry cobbler, grill recipe, grilled desserts",
-	contentPublishDate: "1494018240",
+	contentPublishDate: "1498753860",
 	contentCollectionName:
-					""
+					"summer-food-drinks"
 		,
 	contentAuthor: "Esquire Editors",
 	articleLength: "62",
@@ -316,7 +322,7 @@ HRST.contentTesting = {
 	url: "https://upweb.hdmtools.com",
 	streamUrl: "http://upstream.hdmtools.com",
 	site: "esquire"
-};</script> <script type="text/javascript">var mediaOsConfig = {"locale":"en_US"};</script> <script src="//esq.h-cdn.co/assets/esquire/20170613154407/libs/require-2.1.9.min.js" data-main="//esq.h-cdn.co/assets/esquire/20170613154407/js/rams.js"></script> <script type="text/javascript">( function( d ) {
+};</script> <script type="text/javascript">var mediaOsConfig = {"locale":"en_US"};</script> <script src="//esq.h-cdn.co/assets/esquire/20170712153520/libs/require-2.1.9.min.js" data-main="//esq.h-cdn.co/assets/esquire/20170712153520/js/rams.js"></script> <script type="text/javascript">( function( d ) {
 			var e = d.createElement( "script" );
 			if ( document.cookie.indexOf( "nsghtn=dev" ) > -1 ) {
 				e.src = d.location.protocol + "//nexus.ensighten.com/hearst/mag-dev/Bootstrap.js";
@@ -740,100 +746,100 @@ class="breaking-news--headline">
 </a></div></div><div
 class="module-top-pathing--container" data-type="ajax" data-tracking-id="artTopTout"><div
 class="module module-top-pathing"><div
-class="module-story module-story-1" data-uid="gallery.1979">
+class="module-story module-story-1" data-uid="article.56366">
 <a
-href="/lifestyle/g1979/gifts-for-fathers/" class="module-story--link link" title="37 Great Gifts For Every Dad"><div
+href="/food-drink/news/a56366/anthony-bourdain-comic-book/" class="module-story--link link" title="Anthony Bourdain Is Writing a New Comic Book"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497459255-es-061417-style-fathers-day-gifts.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1496951731-gettyimages-670294762.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497459255-es-061417-style-fathers-day-gifts.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1496951731-gettyimages-670294762.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">37 Great Gifts For Every Dad</span></div></div>
+class="module-story--title link-txt">Anthony Bourdain Is Writing a New Comic Book</span></div></div>
 </a></div><div
-class="module-story module-story-2" data-uid="article.55668">
+class="module-story module-story-2" data-uid="gallery.3319">
 <a
-href="/news-politics/politics/news/a55668/mueller-trump-money-russia/" class="module-story--link link" title="Mr. Mueller Is Following the Money"><div
+href="/style/mens-fashion/g3319/knit-polo-shirts/" class="module-story--link link" title="The Coolest Way to Wear a Polo Shirt Right Now"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497535938-mueller.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/16/320x160/landscape-1492705261-es-042017-poloshirt-2.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497535938-mueller.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/16/320x160/landscape-1492705261-es-042017-poloshirt-2.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">Mr. Mueller Is Following the Money</span></div></div>
+class="module-story--title link-txt">The Coolest Way to Wear a Polo Shirt Right Now</span></div></div>
 </a></div><div
-class="module-story module-story-3" data-uid="article.55662">
+class="module-story module-story-3" data-uid="article.56354">
 <a
-href="/style/mens-fashion/news/a55662/tods-mr-porter-capsule/" class="module-story--link link" title="Buying Cool Italian Clothes Just Got Even Easier"><div
+href="/entertainment/tv/news/a56354/game-of-thrones-season-7-episode-1-recap/" class="module-story--link link" title="&#039;Game of Thrones&#039; Wasted No Time Last Night"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497538054-es-061517-style-todds-mr-porter-3.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1500300086-arya-game-of-thrones.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497538054-es-061517-style-todds-mr-porter-3.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1500300086-arya-game-of-thrones.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">Buying Cool Italian Clothes Just Got Even Easier</span></div></div>
+class="module-story--title link-txt">'Game of Thrones' Wasted No Time Last Night</span></div></div>
 </a></div><div
-class="module-story module-story-4" data-uid="article.55670">
+class="module-story module-story-4" data-uid="article.56321">
 <a
-href="/news-politics/a55670/maine-woman-drowns-rabid-raccoon/" class="module-story--link link" title="This Local News Story is a Literary Masterpiece"><div
+href="/style/mens-fashion/news/a56321/apc-hiver-87-80s-capsule-collection/" class="module-story--link link" title="This 30-Year-Old Jeans Style Is Due for a Comeback"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497545929-racoon-02.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1500295386-es-071417-apc-jeans-style-is-due-for-a-comeback.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497545929-racoon-02.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1500295386-es-071417-apc-jeans-style-is-due-for-a-comeback.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">This Local News Story is a Literary Masterpiece</span></div></div>
+class="module-story--title link-txt">This 30-Year-Old Jeans Style Is Due for a Comeback</span></div></div>
 </a></div><div
-class="module-story module-story-5" data-uid="gallery.3419">
+class="module-story module-story-5" data-uid="article.56358">
 <a
-href="/style/mens-fashion/g3419/barack-obama-dad-style/" class="module-story--link link" title="Barack Obama&#039;s Glorious Dad Style Evolution"><div
+href="/news-politics/politics/news/a56358/election-2016-state-hacking/" class="module-story--link link" title="Faith in American Democracy Is Being Tested"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497470581-gettyimages-631844008.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1500301511-voting.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/320x160/landscape-1497470581-gettyimages-631844008.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/29/320x160/landscape-1500301511-voting.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">Barack Obama's Glorious Dad Style Evolution</span></div></div>
+class="module-story--title link-txt">Faith in American Democracy Is Being Tested</span></div></div>
 </a></div></div></div><div
 class="leaderboard"><div
 class="leaderboard--inner"><div
@@ -846,12 +852,16 @@ class="publish-date">
 <i
 class="icon icon-clock"></i>
 <time
-datetime="2017-05-05T17:04:00-0400" pubdate itemprop="datePublished">
-May 5, 2017
+datetime="2017-06-29T12:31:00-0400" pubdate itemprop="datePublished">
+Jun 29, 2017
 <span
 class="pubtimestamp"></span>
 </time></div><ul
 class="tags  tags--top"><li
+class="tags--item">
+<a
+data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/summer-food-drinks/" title="Esquire's Guide to Summer Booze and Food">
+Esquire's Guide to Summer Booze and Food				</a></li><li
 class="tags--item">
 <a
 data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/food-drink/" title="Food & Drink">
@@ -867,11 +877,7 @@ data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/conte
 class="tags--item">
 <a
 data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/content/dessert/" title="dessert">
-dessert				</a></li><li
-class="tags--item">
-<a
-data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/content/recipes/" title="Recipes">
-Recipes				</a></li></ul></div><h1 class="article-title" itemprop="name">How to Make Blueberry Cobbler on Your Backyard Grill</h1><h2 class="article-sub-heading" itemprop="alternativeHeadline"><p>A perfect 4th of July dessert.</p></h2>
+dessert				</a></li></ul></div><h1 class="article-title" itemprop="name">How to Make Blueberry Cobbler on Your Backyard Grill</h1><h2 class="article-sub-heading" itemprop="alternativeHeadline"><p>A perfect 4th of July dessert.</p></h2>
 </header><div
 class="recipe-page 		show-inline-ads "><div
 class="recipe-page--share-container-top"><div
@@ -880,7 +886,7 @@ class="byline--image">
 <a
 class='link' href='http://www.esquire.com/author/4760/esquire-editors/'>
 <img
-class="lazy-image link-img" data-src="http://d3cdsjlahqfkbd.cloudfront.net/4760/photo_100_1495045418.png" src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" nopin="nopin" />
+class="lazy-image link-img" data-src="http://d3cdsjlahqfkbd.cloudfront.net/4760/photo_100_1495045418.png" src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" nopin="nopin" />
 </a></div><div
 class="byline--info "><div
 class="byline--author byline--author-block" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -942,7 +948,7 @@ data-img320="http://esq.h-cdn.co/assets/17/18/480x240/landscape-1494007695-cobbl
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-data-zoom="http://esq.h-cdn.co/assets/17/18/1600x800/landscape-1494007695-cobbler.jpg"  src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/18/480x240/landscape-1494007695-cobbler.jpg" alt=""
+data-zoom="http://esq.h-cdn.co/assets/17/18/1600x800/landscape-1494007695-cobbler.jpg"  src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/18/480x240/landscape-1494007695-cobbler.jpg" alt=""
 data-img480="http://esq.h-cdn.co/assets/17/18/640x320/landscape-1494007695-cobbler.jpg"
 data-img480-w = "640"
 data-img480-h = "320"
@@ -1108,7 +1114,7 @@ data-img320="http://esq.h-cdn.co/assets/17/14/320x160/landscape-1491515493-getty
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/14/320x160/landscape-1491515493-gettyimages-154728870.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/14/320x160/landscape-1491515493-gettyimages-154728870.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
@@ -1127,7 +1133,7 @@ data-img320="http://esq.h-cdn.co/assets/15/42/320x160/landscape-1444749199-tacos
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/15/42/320x160/landscape-1444749199-tacos.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/15/42/320x160/landscape-1444749199-tacos.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
@@ -1146,7 +1152,7 @@ data-img320="http://esq.h-cdn.co/assets/16/37/320x160/landscape-1473972336-img-1
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/16/37/320x160/landscape-1473972336-img-11914.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/16/37/320x160/landscape-1473972336-img-11914.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
@@ -1203,26 +1209,26 @@ class="recipe-page--bottom-container"><div
 class="ad-marketplace-horizontal"><div
 id="article-marketplace-horizontal"></div></div><div
 class="module module-recommended norewrite recipes-module-recommended" ></div></div></div><div
-id="transporter" class="landing-feed-container" data-tracking-id="artTrnsprtr" data-tracking-label="More From Food"><div
+id="transporter" class="landing-feed-container" data-tracking-id="artTrnsprtr" data-tracking-label="More From Esquire's Guide to Summer Booze and Food"><div
 class="transporter-header"><div
 class="transporter-header--byline">More From</div><div
 class="transporter-header--name"><a
-href="http://www.esquire.com/food-drink/food" class="link link-txt">Food</a></div></div><div
+href="http://www.esquire.com/summer-food-drinks" class="link link-txt">Esquire's Guide to Summer Booze and Food</a></div></div><div
 class="landing-feed--story transporter-story-1"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-sponsor="Krups" data-uid="article.55635"><div
+class="landing-feed--story-container" data-uid="article.54232"><div
 class="landing-feed--story-image">
 <a
-href="/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/" class="link story-image--link"><div
+href="/food-drink/drinks/recipes/a54232/best-sangria-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/24/480x240/landscape-1497454740-coffee-ice-cream-sandwiches-3.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/27/480x240/landscape-1499379086-stocksy-txp9c6ec967qaz100-medium-587525.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/480x240/landscape-1497454740-coffee-ice-cream-sandwiches-3.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/24/640x320/landscape-1497454740-coffee-ice-cream-sandwiches-3.jpg"
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/27/480x240/landscape-1499379086-stocksy-txp9c6ec967qaz100-medium-587525.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/27/640x320/landscape-1499379086-stocksy-txp9c6ec967qaz100-medium-587525.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
@@ -1230,8 +1236,8 @@ nopin="nopin"  /></div>
 class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
+<span
+class="landing-feed--story-section-name link-txt">Beverages</span></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1242,60 +1248,61 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="84271" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/" data-image="http://esq.h-cdn.co/assets/17/24/1600x800/landscape-1497454740-coffee-ice-cream-sandwiches-3.jpg">
+data-content-id="82010" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/drinks/recipes/a54232/best-sangria-recipe/" data-image="http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499379086-stocksy-txp9c6ec967qaz100-medium-587525.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=The+Coffee+Ice+Cream+Sandwiches+You%27ll+Be+Making+All+Summer&description=Churn%2C+baby%2C+churn.&display=popup&link=http://www.esquire.com/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/&picture=http://esq.h-cdn.co/assets/17/24/1600x800/landscape-1497454740-coffee-ice-cream-sandwiches-3.jpg&redirect_uri=http://www.esquire.com/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/&version=v2.3"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=How+to+Make+Sangria&description=Summertime%27s+most+delicious%2C+and+grown-up%2C+fruit+punch-esque+beverage.+&display=popup&link=http://www.esquire.com/food-drink/drinks/recipes/a54232/best-sangria-recipe/&picture=http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499379086-stocksy-txp9c6ec967qaz100-medium-587525.jpg&redirect_uri=http://www.esquire.com/food-drink/drinks/recipes/a54232/best-sangria-recipe/&version=v2.3"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="84271" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/" data-image="http://esq.h-cdn.co/assets/17/24/1600x800/landscape-1497454740-coffee-ice-cream-sandwiches-3.jpg">
+data-content-id="82010" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/drinks/recipes/a54232/best-sangria-recipe/" data-image="http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499379086-stocksy-txp9c6ec967qaz100-medium-587525.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/&text=The%20Coffee%20Ice%20Cream%20Sandwiches%20You%27ll%20Be%20Making%20All%20Summer&via=Esquire"
+href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/drinks/recipes/a54232/best-sangria-recipe/&text=How%20to%20Make%20the%20Best%20Pitcher%20of%20Sangria&via=Esquire"
 data-site-handle="Esquire">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="84271" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/" data-image="http://esq.h-cdn.co/assets/17/24/1600x800/landscape-1497454740-coffee-ice-cream-sandwiches-3.jpg">
+data-content-id="82010" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/drinks/recipes/a54232/best-sangria-recipe/" data-image="http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499379086-stocksy-txp9c6ec967qaz100-medium-587525.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=The%20Coffee%20Ice%20Cream%20Sandwiches%20You%27ll%20Be%20Making%20All%20Summer&body=http://www.esquire.com/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/?src=social-email">
+href="mailto:?subject=How%20to%20Make%20Sangria&body=http://www.esquire.com/food-drink/drinks/recipes/a54232/best-sangria-recipe/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/recipes/a55635/coffee-ice-cream-sandwiches-recipe/">The Coffee Ice Cream Sandwiches You'll Be Making All Summer</a><div
-class="module-story--sponsor link-txt plaintext-created-for">Created for</div></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-drink/drinks/recipes/a54232/best-sangria-recipe/">How to Make the Best Pitcher of Sangria</a></div></div></div></div><div
 class="landing-feed--story transporter-story-2"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.55613"><div
+class="landing-feed--story-container" data-uid="gallery.490"><div
 class="landing-feed--story-image">
 <a
-href="/food-drink/food/a55613/america-guinness-world-record-longest-pizza/" class="link story-image--link"><div
+href="/food-drink/drinks/g490/tequila-brands-and-bottles/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/24/480x240/1497371970-worlds-longest-pizza-america-1497327432.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/27/480x240/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/480x240/1497371970-worlds-longest-pizza-america-1497327432.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/24/640x320/1497371970-worlds-longest-pizza-america-1497327432.jpg"
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/27/480x240/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/27/640x320/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
-nopin="nopin"  /></div></a></div><div
+nopin="nopin"  /></div>
+<i
+class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
 <a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
+class="landing-feed--story-section-name link link-txt" href="/food-drink/drinks/">Drinks</a></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1306,55 +1313,55 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="84239" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/a55613/america-guinness-world-record-longest-pizza/" data-image="http://esq.h-cdn.co/assets/17/24/1600x802/1497371970-worlds-longest-pizza-america-1497327432.jpg">
+data-content-id="7652" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/features/drinking/tequila-brands-and-bottles" data-image="http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=America+%28Obviously%29+Now+Has+the+Guinness+World+Record+For+Largest+Pizza&description=It+was+1.2+miles+long&display=popup&link=http://www.esquire.com/food-drink/food/a55613/america-guinness-world-record-longest-pizza/&picture=http://esq.h-cdn.co/assets/17/24/1600x802/1497371970-worlds-longest-pizza-america-1497327432.jpg&redirect_uri=http://www.esquire.com/food-drink/food/a55613/america-guinness-world-record-longest-pizza/&version=v2.3"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=Everything+You+Need+to+Know+About+Good+Tequila&description=Become+an+instant+expert+by+browsing+these+10+quintessential+%28and+tasty%29+ambassadors+of+tequila.+&display=popup&link=http://www.esquire.com/features/drinking/tequila-brands-and-bottles&picture=http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg&redirect_uri=http://www.esquire.com/features/drinking/tequila-brands-and-bottles&version=v2.3"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="84239" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/a55613/america-guinness-world-record-longest-pizza/" data-image="http://esq.h-cdn.co/assets/17/24/1600x802/1497371970-worlds-longest-pizza-america-1497327432.jpg">
+data-content-id="7652" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/features/drinking/tequila-brands-and-bottles" data-image="http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/a55613/america-guinness-world-record-longest-pizza/&text=America%20%28Obviously%29%20Now%20Has%20the%20Guinness%20World%20Record%20For%20Largest%20Pizza&via=Esquire"
+href="//www.twitter.com/share?url=http://www.esquire.com/features/drinking/tequila-brands-and-bottles&text=Everything%20You%20Need%20to%20Know%20About%20Good%20Tequila&via=Esquire"
 data-site-handle="Esquire">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="84239" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/a55613/america-guinness-world-record-longest-pizza/" data-image="http://esq.h-cdn.co/assets/17/24/1600x802/1497371970-worlds-longest-pizza-america-1497327432.jpg">
+data-content-id="7652" data-tracking-id="share-button-email" data-url="http://www.esquire.com/features/drinking/tequila-brands-and-bottles" data-image="http://esq.h-cdn.co/assets/17/27/1600x800/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=America%20%28Obviously%29%20Now%20Has%20the%20Guinness%20World%20Record%20For%20Largest%20Pizza&body=http://www.esquire.com/food-drink/food/a55613/america-guinness-world-record-longest-pizza/?src=social-email">
+href="mailto:?subject=Everything%20You%20Need%20to%20Know%20About%20Good%20Tequila&body=http://www.esquire.com/features/drinking/tequila-brands-and-bottles?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/a55613/america-guinness-world-record-longest-pizza/">America (Obviously) Now Has the Guinness World Record For Largest Pizza</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-drink/drinks/g490/tequila-brands-and-bottles/">Everything You Need to Know About Good Tequila</a></div></div></div></div><div
 class="landing-feed--ad landing-feed--ad-vertical"><div
 class="ad-gpt-vertical"><div
 class="gpt-tag" id="gpt-ad-vertical-bottom"></div></div></div><div
 class="landing-feed--story transporter-story-3"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.55530"><div
+class="landing-feed--story-container" data-uid="article.56030"><div
 class="landing-feed--story-image">
 <a
-href="/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/" class="link story-image--link"><div
+href="/food-drink/food/a56030/easy-backyard-smoker-upgrades/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/23/480x240/landscape-1496951731-gettyimages-670294762.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/26/480x240/landscape-1498766709-es-062917-food-hack-your-backyard-smoker-2.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/23/480x240/landscape-1496951731-gettyimages-670294762.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/23/640x320/landscape-1496951731-gettyimages-670294762.jpg"
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/26/480x240/landscape-1498766709-es-062917-food-hack-your-backyard-smoker-2.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/26/640x320/landscape-1498766709-es-062917-food-hack-your-backyard-smoker-2.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div></a></div><div
@@ -1372,52 +1379,52 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="84092" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/" data-image="http://esq.h-cdn.co/assets/17/23/1600x800/landscape-1496951731-gettyimages-670294762.jpg">
+data-content-id="84859" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/a56030/easy-backyard-smoker-upgrades/" data-image="http://esq.h-cdn.co/assets/17/26/1600x800/landscape-1498766709-es-062917-food-hack-your-backyard-smoker-2.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=Anthony+Bourdain+Says+This+Filipino+Dish+Will+Be+the+Next+Big+Food+Trend+in+America&description=%22It%27s+exactly+what+you+need+after+a+few+beers+and+that%27s+a+perfect+food.%22&display=popup&link=http://www.esquire.com/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/&picture=http://esq.h-cdn.co/assets/17/23/1600x800/landscape-1496951731-gettyimages-670294762.jpg&redirect_uri=http://www.esquire.com/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/&version=v2.3"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=Texas%27+Best+PitMaster+Shares+His+Tips+for+the+Perfect+Barbecued+Meat&description=Aaron+Franklin+hacks+your+backyard+smoker.+&display=popup&link=http://www.esquire.com/food-drink/food/a56030/easy-backyard-smoker-upgrades/&picture=http://esq.h-cdn.co/assets/17/26/1600x800/landscape-1498766709-es-062917-food-hack-your-backyard-smoker-2.jpg&redirect_uri=http://www.esquire.com/food-drink/food/a56030/easy-backyard-smoker-upgrades/&version=v2.3"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="84092" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/" data-image="http://esq.h-cdn.co/assets/17/23/1600x800/landscape-1496951731-gettyimages-670294762.jpg">
+data-content-id="84859" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/a56030/easy-backyard-smoker-upgrades/" data-image="http://esq.h-cdn.co/assets/17/26/1600x800/landscape-1498766709-es-062917-food-hack-your-backyard-smoker-2.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/&text=Anthony%20Bourdain%20Says%20This%20Filipino%20Dish%20Will%20Be%20the%20Next%20Big%20Food%20Trend%20in%20America&via=Esquire"
+href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/a56030/easy-backyard-smoker-upgrades/&text=Texas%27%20Best%20PitMaster%20Shares%20His%20Tips%20for%20the%20Perfect%20Barbecued%20Meat&via=Esquire"
 data-site-handle="Esquire">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="84092" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/" data-image="http://esq.h-cdn.co/assets/17/23/1600x800/landscape-1496951731-gettyimages-670294762.jpg">
+data-content-id="84859" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/a56030/easy-backyard-smoker-upgrades/" data-image="http://esq.h-cdn.co/assets/17/26/1600x800/landscape-1498766709-es-062917-food-hack-your-backyard-smoker-2.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=Anthony%20Bourdain%20Says%20This%20Filipino%20Dish%20Will%20Be%20the%20Next%20Big%20Food%20Trend%20in%20America&body=http://www.esquire.com/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/?src=social-email">
+href="mailto:?subject=Texas%27%20Best%20PitMaster%20Shares%20His%20Tips%20for%20the%20Perfect%20Barbecued%20Meat&body=http://www.esquire.com/food-drink/food/a56030/easy-backyard-smoker-upgrades/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/news/a55530/anthony-bourdain-filipino-food-sisig/">Anthony Bourdain Says This Filipino Dish Will Be the Next Big Food Trend in America</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-drink/food/a56030/easy-backyard-smoker-upgrades/">Texas' Best PitMaster Shares His Tips for the Perfect Barbecued Meat</a></div></div></div></div><div
 class="landing-feed--story transporter-story-4"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.45393"><div
+class="landing-feed--story-container" data-uid="article.3751"><div
 class="landing-feed--story-image">
 <a
-href="/food-drink/food/recipes/a45393/best-bloody-mary-recipe/" class="link story-image--link"><div
+href="/food-drink/drinks/recipes/a3751/gin-and-tonic-drink-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/23/480x240/landscape-1496873972-bloody-02.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/25/480x240/landscape-1497994298-credit-stocksy-txpc6227967ivx100-medium-451997mod.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/23/480x240/landscape-1496873972-bloody-02.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/23/640x320/landscape-1496873972-bloody-02.jpg"
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/25/480x240/landscape-1497994298-credit-stocksy-txpc6227967ivx100-medium-451997mod.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/25/640x320/landscape-1497994298-credit-stocksy-txpc6227967ivx100-medium-451997mod.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
@@ -1426,7 +1433,7 @@ class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
 <a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
+class="landing-feed--story-section-name link link-txt" href="/food-drink/drinks/">Drinks</a></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1437,61 +1444,61 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="66604" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/" data-image="http://esq.h-cdn.co/assets/17/23/1280x640/landscape-1496873972-bloody-02.jpg">
+data-content-id="3759" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/drinks/gin-and-tonic-drink-recipe" data-image="http://esq.h-cdn.co/assets/17/25/980x490/landscape-1497994298-credit-stocksy-txpc6227967ivx100-medium-451997mod.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=How+to+Make+the+Perfect+Bloody+Mary+&description=It%27s+brunch+season%2C+and+you+can%27t+have+a+proper+brunch+without+one.+&display=popup&link=http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/&picture=http://esq.h-cdn.co/assets/17/23/1280x640/landscape-1496873972-bloody-02.jpg&redirect_uri=http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/&version=v2.3"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=How+to+Make+a+Gin+and+Tonic&description=A+simple%2C+crisp+summer+classic.&display=popup&link=http://www.esquire.com/drinks/gin-and-tonic-drink-recipe&picture=http://esq.h-cdn.co/assets/17/25/980x490/landscape-1497994298-credit-stocksy-txpc6227967ivx100-medium-451997mod.jpg&redirect_uri=http://www.esquire.com/drinks/gin-and-tonic-drink-recipe&version=v2.3"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="66604" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/" data-image="http://esq.h-cdn.co/assets/17/23/1280x640/landscape-1496873972-bloody-02.jpg">
+data-content-id="3759" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/drinks/gin-and-tonic-drink-recipe" data-image="http://esq.h-cdn.co/assets/17/25/980x490/landscape-1497994298-credit-stocksy-txpc6227967ivx100-medium-451997mod.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/&text=How%20to%20Make%20the%20Perfect%20Bloody%20Mary%20&via=Esquire"
+href="//www.twitter.com/share?url=http://www.esquire.com/drinks/gin-and-tonic-drink-recipe&text=How%20to%20Make%20the%20Perfect%20Gin%20and%20Tonic&via=Esquire"
 data-site-handle="Esquire">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="66604" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/" data-image="http://esq.h-cdn.co/assets/17/23/1280x640/landscape-1496873972-bloody-02.jpg">
+data-content-id="3759" data-tracking-id="share-button-email" data-url="http://www.esquire.com/drinks/gin-and-tonic-drink-recipe" data-image="http://esq.h-cdn.co/assets/17/25/980x490/landscape-1497994298-credit-stocksy-txpc6227967ivx100-medium-451997mod.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=How%20to%20Make%20the%20Perfect%20Bloody%20Mary%20&body=http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/?src=social-email">
+href="mailto:?subject=How%20to%20Make%20a%20Gin%20and%20Tonic&body=http://www.esquire.com/drinks/gin-and-tonic-drink-recipe?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/recipes/a45393/best-bloody-mary-recipe/">How to Make the Perfect Bloody Mary </a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-drink/drinks/recipes/a3751/gin-and-tonic-drink-recipe/">How to Make the Perfect Gin and Tonic</a></div></div></div></div><div
 class="landing-feed--story transporter-story-5"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-sponsor="Krups" data-uid="article.55422"><div
+class="landing-feed--story-container" data-uid="gallery.3427"><div
 class="landing-feed--story-image">
 <a
-href="/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/" class="link story-image--link"><div
+href="/food-drink/news/g3427/pasta-salad-recipes/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/22/480x240/1496346565-landscape-1496346413-huevos-rancheros-mexican-coffee-3.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/24/480x240/landscape-1497709873-landscape-1459001887-picmonkey-collage-3.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/22/480x240/1496346565-landscape-1496346413-huevos-rancheros-mexican-coffee-3.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/22/640x320/1496346565-landscape-1496346413-huevos-rancheros-mexican-coffee-3.jpg"
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/24/480x240/landscape-1497709873-landscape-1459001887-picmonkey-collage-3.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/24/640x320/landscape-1497709873-landscape-1459001887-picmonkey-collage-3.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
 <i
-class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
+class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
 <a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
+class="landing-feed--story-section-name link link-txt" href="/food-drink/">Food & Drink</a></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1502,60 +1509,59 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="83921" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496346565-landscape-1496346413-huevos-rancheros-mexican-coffee-3.jpg">
+data-content-id="84376" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/news/g3427/pasta-salad-recipes/" data-image="http://esq.h-cdn.co/assets/17/24/768x384/landscape-1497709873-landscape-1459001887-picmonkey-collage-3.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=This+Huevos+Rancheros+Sandwich+And+Mexican+Coffee+Recipe+Is+the+Key+to+a+Good+Morning&description=Perfecto.&display=popup&link=http://www.esquire.com/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/&picture=http://esq.h-cdn.co/assets/17/22/1600x800/1496346565-landscape-1496346413-huevos-rancheros-mexican-coffee-3.jpg&redirect_uri=http://www.esquire.com/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/&version=v2.3"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=60+Pasta+Salad+Recipes+You%27ll+Need+This+Summer&description=These+easy+pasta+salads+will+be+the+hit+of+every+cookout.&display=popup&link=http://www.esquire.com/food-drink/news/g3427/pasta-salad-recipes/&picture=http://esq.h-cdn.co/assets/17/24/768x384/landscape-1497709873-landscape-1459001887-picmonkey-collage-3.jpg&redirect_uri=http://www.esquire.com/food-drink/news/g3427/pasta-salad-recipes/&version=v2.3"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="83921" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496346565-landscape-1496346413-huevos-rancheros-mexican-coffee-3.jpg">
+data-content-id="84376" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/news/g3427/pasta-salad-recipes/" data-image="http://esq.h-cdn.co/assets/17/24/768x384/landscape-1497709873-landscape-1459001887-picmonkey-collage-3.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/&text=This%20Huevos%20Rancheros%20Sandwich%20And%20Mexican%20Coffee%20Recipe%20Is%20the%20Key%20to%20a%20Good%20Morning&via=Esquire"
+href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/news/g3427/pasta-salad-recipes/&text=60%20Pasta%20Salad%20Recipes%20You%27ll%20Need%20This%20Summer&via=Esquire"
 data-site-handle="Esquire">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="83921" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496346565-landscape-1496346413-huevos-rancheros-mexican-coffee-3.jpg">
+data-content-id="84376" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/news/g3427/pasta-salad-recipes/" data-image="http://esq.h-cdn.co/assets/17/24/768x384/landscape-1497709873-landscape-1459001887-picmonkey-collage-3.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=This%20Huevos%20Rancheros%20Sandwich%20And%20Mexican%20Coffee%20Recipe%20Is%20the%20Key%20to%20a%20Good%20Morning&body=http://www.esquire.com/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/?src=social-email">
+href="mailto:?subject=60%20Pasta%20Salad%20Recipes%20You%27ll%20Need%20This%20Summer&body=http://www.esquire.com/food-drink/news/g3427/pasta-salad-recipes/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/recipes/a55422/huevos-rancheros-sandwich-mexican-coffee-recipe/">This Huevos Rancheros Sandwich And Mexican Coffee Recipe Is the Key to a Good Morning</a><div
-class="module-story--sponsor link-txt plaintext-created-for">Created for</div></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-drink/news/g3427/pasta-salad-recipes/">60 Pasta Salad Recipes You'll Need This Summer</a></div></div></div></div><div
 class="landing-feed--story transporter-story-6"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="gallery.3387"><div
+class="landing-feed--story-container" data-uid="article.55258"><div
 class="landing-feed--story-image">
 <a
-href="/food-drink/food/g3387/gelinaz-inside-look/" class="link story-image--link"><div
+href="/food-drink/drinks/a55258/drinking-memorial-day-weekend/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/22/480x240/landscape-1496423088-best-chef-split.jpg"
+data-img320="http://esq.h-cdn.co/assets/17/21/480x240/landscape-1495723466-es-052417-drinks-how-to-drink-through-a-3-day-weekend-lede.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/22/480x240/landscape-1496423088-best-chef-split.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/22/640x320/landscape-1496423088-best-chef-split.jpg"
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/21/480x240/landscape-1495723466-es-052417-drinks-how-to-drink-through-a-3-day-weekend-lede.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/21/640x320/landscape-1495723466-es-052417-drinks-how-to-drink-through-a-3-day-weekend-lede.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
 <a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
+class="landing-feed--story-section-name link link-txt" href="/food-drink/drinks/">Drinks</a></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1566,236 +1572,38 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="83805" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/g3387/gelinaz-inside-look/" data-image="http://esq.h-cdn.co/assets/17/22/1024x512/landscape-1496423088-best-chef-split.jpg">
+data-content-id="83643" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/drinks/a55258/drinking-memorial-day-weekend/" data-image="http://esq.h-cdn.co/assets/17/21/1600x800/landscape-1495723466-es-052417-drinks-how-to-drink-through-a-3-day-weekend-lede.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=Here%27s+What+Happens+When+20+of+the+World%27s+Best+Chefs+Cram+Into+One+Kitchen&description=Beautiful+food%2C+intense+concentration%2C+and+not+much+elbow+room.+&display=popup&link=http://www.esquire.com/food-drink/food/g3387/gelinaz-inside-look/&picture=http://esq.h-cdn.co/assets/17/22/1024x512/landscape-1496423088-best-chef-split.jpg&redirect_uri=http://www.esquire.com/food-drink/food/g3387/gelinaz-inside-look/&version=v2.3"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=How+to+Drink+Your+Way+Through+a+Three-Day+Weekend&description=Memorial+Day+requires+expert-level+attention.+&display=popup&link=http://www.esquire.com/food-drink/drinks/a55258/drinking-memorial-day-weekend/&picture=http://esq.h-cdn.co/assets/17/21/1600x800/landscape-1495723466-es-052417-drinks-how-to-drink-through-a-3-day-weekend-lede.jpg&redirect_uri=http://www.esquire.com/food-drink/drinks/a55258/drinking-memorial-day-weekend/&version=v2.3"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="83805" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/g3387/gelinaz-inside-look/" data-image="http://esq.h-cdn.co/assets/17/22/1024x512/landscape-1496423088-best-chef-split.jpg">
+data-content-id="83643" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/drinks/a55258/drinking-memorial-day-weekend/" data-image="http://esq.h-cdn.co/assets/17/21/1600x800/landscape-1495723466-es-052417-drinks-how-to-drink-through-a-3-day-weekend-lede.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/g3387/gelinaz-inside-look/&text=Here%27s%20What%20Happens%20When%2020%20of%20the%20World%27s%20Best%20Chefs%20Cram%20Into%20One%20Kitchen&via=Esquire"
+href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/drinks/a55258/drinking-memorial-day-weekend/&text=How%20to%20Drink%20Your%20Way%20Through%20a%20Long%20Weekend%20%28and%20Make%20It%20to%20Work%20on%20Tuesday%29&via=Esquire"
 data-site-handle="Esquire">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="83805" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/g3387/gelinaz-inside-look/" data-image="http://esq.h-cdn.co/assets/17/22/1024x512/landscape-1496423088-best-chef-split.jpg">
+data-content-id="83643" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/drinks/a55258/drinking-memorial-day-weekend/" data-image="http://esq.h-cdn.co/assets/17/21/1600x800/landscape-1495723466-es-052417-drinks-how-to-drink-through-a-3-day-weekend-lede.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=Here%27s%20What%20Happens%20When%2020%20of%20the%20World%27s%20Best%20Chefs%20Cram%20Into%20One%20Kitchen&body=http://www.esquire.com/food-drink/food/g3387/gelinaz-inside-look/?src=social-email">
+href="mailto:?subject=How%20to%20Drink%20Your%20Way%20Through%20a%20Three-Day%20Weekend&body=http://www.esquire.com/food-drink/drinks/a55258/drinking-memorial-day-weekend/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/g3387/gelinaz-inside-look/">Here's What Happens When 20 of the World's Best Chefs Cram Into One Kitchen</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-drink/drinks/a55258/drinking-memorial-day-weekend/">How to Drink Your Way Through a Long Weekend (and Make It to Work on Tuesday)</a></div></div></div></div><div
 class="landing-feed--story transporter-story-7"><div
-class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-sponsor="Krups" data-uid="article.55419"><div
-class="landing-feed--story-image">
-<a
-href="/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/" class="link story-image--link"><div
-class="story-image--inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/22/480x240/1496343286-landscape-1496343090-steak-sandwich-2.jpg"
-data-img320-w = "480"
-data-img320-h = "240"
-data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/22/480x240/1496343286-landscape-1496343090-steak-sandwich-2.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/22/640x320/1496343286-landscape-1496343090-steak-sandwich-2.jpg"
-data-img980-w = "640"
-data-img980-h = "320"
-nopin="nopin"  /></div>
-<i
-class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
-class="landing-feed--story-utils"><div
-class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
-class="landing-feed--story-shares">
-<i
-class="icon icon-share"></i>
-<span
-class="landing-feed--story-shares-text">Share</span><div
-class="share landing-share share-bar"><div
-class="share-module " data-share-location="social-btns-feed"><ul
-class="share-module--buttons"><li
-class="share-module--button-wrap share-module--button-wrap-facebook "><div
-class="share-button share-button--facebook "
-data-content-id="83912" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/980x490/1496343286-landscape-1496343090-steak-sandwich-2.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=The+Only+Steak+Sandwich+Recipe+You%27ll+Ever+Need&description=Go+home%2C+impostors.+Here%27s+the+undisputed+best.&display=popup&link=http://www.esquire.com/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/&picture=http://esq.h-cdn.co/assets/17/22/980x490/1496343286-landscape-1496343090-steak-sandwich-2.jpg&redirect_uri=http://www.esquire.com/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/&version=v2.3"
-target="_blank">
-<i
-class="share-button--icon icon icon-facebook link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-twitter "><div
-class="share-button share-button--twitter "
-data-content-id="83912" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/980x490/1496343286-landscape-1496343090-steak-sandwich-2.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Twitter"
-target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/&text=The%20Only%20Steak%20Sandwich%20Recipe%20You%27ll%20Ever%20Need&via=Esquire"
-data-site-handle="Esquire">
-<i
-class="share-button--icon icon icon-twitter link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-email "><div
-class="share-button share-button--email "
-data-content-id="83912" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/980x490/1496343286-landscape-1496343090-steak-sandwich-2.jpg">
-<a
-class="share-button--link link " title="Email"
-href="mailto:?subject=The%20Only%20Steak%20Sandwich%20Recipe%20You%27ll%20Ever%20Need&body=http://www.esquire.com/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/?src=social-email">
-<i
-class="share-button--icon icon icon-email link-icon"></i>
-</a></div></li></ul></div></div></div></div><div
-class="landing-feed--story-content">
-<a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/recipes/a55419/best-steak-sandwich-recipe/">The Only Steak Sandwich Recipe You'll Ever Need</a><div
-class="module-story--sponsor link-txt plaintext-created-for">Created for</div></div></div></div></div><div
-class="landing-feed--story transporter-story-8"><div
-class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-sponsor="Krups" data-uid="article.55420"><div
-class="landing-feed--story-image">
-<a
-href="/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/" class="link story-image--link"><div
-class="story-image--inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/22/480x240/1496343465-landscape-1496343268-chicken-and-waffles-1.jpg"
-data-img320-w = "480"
-data-img320-h = "240"
-data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/22/480x240/1496343465-landscape-1496343268-chicken-and-waffles-1.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/22/640x320/1496343465-landscape-1496343268-chicken-and-waffles-1.jpg"
-data-img980-w = "640"
-data-img980-h = "320"
-nopin="nopin"  /></div>
-<i
-class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
-class="landing-feed--story-utils"><div
-class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
-class="landing-feed--story-shares">
-<i
-class="icon icon-share"></i>
-<span
-class="landing-feed--story-shares-text">Share</span><div
-class="share landing-share share-bar"><div
-class="share-module " data-share-location="social-btns-feed"><ul
-class="share-module--buttons"><li
-class="share-module--button-wrap share-module--button-wrap-facebook "><div
-class="share-button share-button--facebook "
-data-content-id="83915" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496343465-landscape-1496343268-chicken-and-waffles-1.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=Upgrade+Your+Morning+Waffles+With+Maple+Bourbon+Chicken+and+Bacon&description=Behold%3A+the+recipe+to+end+all+recipes.+&display=popup&link=http://www.esquire.com/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/&picture=http://esq.h-cdn.co/assets/17/22/1600x800/1496343465-landscape-1496343268-chicken-and-waffles-1.jpg&redirect_uri=http://www.esquire.com/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/&version=v2.3"
-target="_blank">
-<i
-class="share-button--icon icon icon-facebook link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-twitter "><div
-class="share-button share-button--twitter "
-data-content-id="83915" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496343465-landscape-1496343268-chicken-and-waffles-1.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Twitter"
-target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/&text=The%20Maple%20Bourbon%20Chicken%20%26%20Waffle%20Sandwich%20Exists%20and%20It%20Is%20Glorious&via=Esquire"
-data-site-handle="Esquire">
-<i
-class="share-button--icon icon icon-twitter link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-email "><div
-class="share-button share-button--email "
-data-content-id="83915" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496343465-landscape-1496343268-chicken-and-waffles-1.jpg">
-<a
-class="share-button--link link " title="Email"
-href="mailto:?subject=Upgrade%20Your%20Morning%20Waffles%20With%20Maple%20Bourbon%20Chicken%20and%20Bacon&body=http://www.esquire.com/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/?src=social-email">
-<i
-class="share-button--icon icon icon-email link-icon"></i>
-</a></div></li></ul></div></div></div></div><div
-class="landing-feed--story-content">
-<a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/recipes/a55420/maple-bourbon-chicken-waffle-sandwich-recipe/">The Maple Bourbon Chicken & Waffle Sandwich Exists and It Is Glorious</a><div
-class="module-story--sponsor link-txt plaintext-created-for">Created for</div></div></div></div></div><div
-class="landing-feed--story transporter-story-9"><div
-class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-sponsor="Krups" data-uid="article.55424"><div
-class="landing-feed--story-image">
-<a
-href="/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/" class="link story-image--link"><div
-class="story-image--inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://esq.h-cdn.co/assets/17/22/480x240/1496346684-landscape-1496346523-buffalo-chicken-meatball-subs-1.jpg"
-data-img320-w = "480"
-data-img320-h = "240"
-data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/22/480x240/1496346684-landscape-1496346523-buffalo-chicken-meatball-subs-1.jpg" alt=""
-data-img980="http://esq.h-cdn.co/assets/17/22/640x320/1496346684-landscape-1496346523-buffalo-chicken-meatball-subs-1.jpg"
-data-img980-w = "640"
-data-img980-h = "320"
-nopin="nopin"  /></div>
-<i
-class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
-class="landing-feed--story-utils"><div
-class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-drink/food/">Food</a></div><div
-class="landing-feed--story-shares">
-<i
-class="icon icon-share"></i>
-<span
-class="landing-feed--story-shares-text">Share</span><div
-class="share landing-share share-bar"><div
-class="share-module " data-share-location="social-btns-feed"><ul
-class="share-module--buttons"><li
-class="share-module--button-wrap share-module--button-wrap-facebook "><div
-class="share-button share-button--facebook "
-data-content-id="83926" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496346684-landscape-1496346523-buffalo-chicken-meatball-subs-1.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=The+Best+Meatball+Sub+Recipe+Involves+Buffalo+Chicken&description=Because+of+course+it+does.+&display=popup&link=http://www.esquire.com/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/&picture=http://esq.h-cdn.co/assets/17/22/1600x800/1496346684-landscape-1496346523-buffalo-chicken-meatball-subs-1.jpg&redirect_uri=http://www.esquire.com/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/&version=v2.3"
-target="_blank">
-<i
-class="share-button--icon icon icon-facebook link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-twitter "><div
-class="share-button share-button--twitter "
-data-content-id="83926" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496346684-landscape-1496346523-buffalo-chicken-meatball-subs-1.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Twitter"
-target="_blank"
-href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/&text=Your%20Meatball%20Subs%20Have%20Been%20Missing%20Something%20All%20Along%20&via=Esquire"
-data-site-handle="Esquire">
-<i
-class="share-button--icon icon icon-twitter link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-email "><div
-class="share-button share-button--email "
-data-content-id="83926" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/" data-image="http://esq.h-cdn.co/assets/17/22/1600x800/1496346684-landscape-1496346523-buffalo-chicken-meatball-subs-1.jpg">
-<a
-class="share-button--link link " title="Email"
-href="mailto:?subject=The%20Best%20Meatball%20Sub%20Recipe%20Involves%20Buffalo%20Chicken&body=http://www.esquire.com/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/?src=social-email">
-<i
-class="share-button--icon icon icon-email link-icon"></i>
-</a></div></li></ul></div></div></div></div><div
-class="landing-feed--story-content">
-<a
-class="landing-feed--story-title link link-txt" href="/food-drink/food/recipes/a55424/best-buffalo-chicken-meatball-sub-recipe/">Your Meatball Subs Have Been Missing Something All Along </a><div
-class="module-story--sponsor link-txt plaintext-created-for">Created for</div></div></div></div></div><div
-class="landing-feed--story transporter-story-10"><div
 class="landing-feed--story-inner"><div
 class="landing-feed--story-container" data-uid="article.55227"><div
 class="landing-feed--story-image">
@@ -1808,7 +1616,7 @@ data-img320="http://esq.h-cdn.co/assets/17/21/480x240/landscape-1495560157-lead.
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/21/480x240/landscape-1495560157-lead.jpg" alt=""
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/21/480x240/landscape-1495560157-lead.jpg" alt=""
 data-img980="http://esq.h-cdn.co/assets/17/21/640x320/landscape-1495560157-lead.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
@@ -1858,10 +1666,205 @@ class="share-button--icon icon icon-email link-icon"></i>
 class="landing-feed--story-content">
 <a
 class="landing-feed--story-title link link-txt" href="/food-drink/food/a55227/best-butchers/">Why Befriending a Butcher Is This Summer's Power Move</a></div></div></div></div><div
+class="landing-feed--story transporter-story-8"><div
+class="landing-feed--story-inner"><div
+class="landing-feed--story-container" data-uid="article.55121"><div
+class="landing-feed--story-image">
+<a
+href="/food-drink/drinks/a55121/best-rosita-cocktail-recipe/" class="link story-image--link"><div
+class="story-image--inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://esq.h-cdn.co/assets/17/20/480x240/landscape-1495050537-stocksy-txpe8567c27j5v100-medium-731192.jpg"
+data-img320-w = "480"
+data-img320-h = "240"
+data-cut=320
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/20/480x240/landscape-1495050537-stocksy-txpe8567c27j5v100-medium-731192.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/20/640x320/landscape-1495050537-stocksy-txpe8567c27j5v100-medium-731192.jpg"
+data-img980-w = "640"
+data-img980-h = "320"
+nopin="nopin"  /></div></a></div><div
+class="landing-feed--story-utils"><div
+class="landing-feed--story-section">
+<a
+class="landing-feed--story-section-name link link-txt" href="/food-drink/drinks/">Drinks</a></div><div
+class="landing-feed--story-shares">
+<i
+class="icon icon-share"></i>
+<span
+class="landing-feed--story-shares-text">Share</span><div
+class="share landing-share share-bar"><div
+class="share-module " data-share-location="social-btns-feed"><ul
+class="share-module--buttons"><li
+class="share-module--button-wrap share-module--button-wrap-facebook "><div
+class="share-button share-button--facebook "
+data-content-id="83428" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/drinks/a55121/best-rosita-cocktail-recipe/" data-image="http://esq.h-cdn.co/assets/17/20/1600x800/landscape-1495050537-stocksy-txpe8567c27j5v100-medium-731192.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Facebook"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=How+to+Make+a+Rosita+Cocktail+with+Mezcal&description=It%27s+the+perfect+summer+drink.+&display=popup&link=http://www.esquire.com/food-drink/drinks/a55121/best-rosita-cocktail-recipe/&picture=http://esq.h-cdn.co/assets/17/20/1600x800/landscape-1495050537-stocksy-txpe8567c27j5v100-medium-731192.jpg&redirect_uri=http://www.esquire.com/food-drink/drinks/a55121/best-rosita-cocktail-recipe/&version=v2.3"
+target="_blank">
+<i
+class="share-button--icon icon icon-facebook link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-twitter "><div
+class="share-button share-button--twitter "
+data-content-id="83428" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/drinks/a55121/best-rosita-cocktail-recipe/" data-image="http://esq.h-cdn.co/assets/17/20/1600x800/landscape-1495050537-stocksy-txpe8567c27j5v100-medium-731192.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Twitter"
+target="_blank"
+href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/drinks/a55121/best-rosita-cocktail-recipe/&text=Why%20the%20Rosita%E2%80%94Not%20the%20Margarita%E2%80%94Is%20the%20Perfect%20Summer%20Cocktail&via=Esquire"
+data-site-handle="Esquire">
+<i
+class="share-button--icon icon icon-twitter link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-email "><div
+class="share-button share-button--email "
+data-content-id="83428" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/drinks/a55121/best-rosita-cocktail-recipe/" data-image="http://esq.h-cdn.co/assets/17/20/1600x800/landscape-1495050537-stocksy-txpe8567c27j5v100-medium-731192.jpg">
+<a
+class="share-button--link link " title="Email"
+href="mailto:?subject=How%20to%20Make%20a%20Rosita%20Cocktail%20with%20Mezcal&body=http://www.esquire.com/food-drink/drinks/a55121/best-rosita-cocktail-recipe/?src=social-email">
+<i
+class="share-button--icon icon icon-email link-icon"></i>
+</a></div></li></ul></div></div></div></div><div
+class="landing-feed--story-content">
+<a
+class="landing-feed--story-title link link-txt" href="/food-drink/drinks/a55121/best-rosita-cocktail-recipe/">Why the Rosita—Not the Margarita—Is the Perfect Summer Cocktail</a></div></div></div></div><div
+class="landing-feed--story transporter-story-9"><div
+class="landing-feed--story-inner"><div
+class="landing-feed--story-container" data-uid="article.55006"><div
+class="landing-feed--story-image">
+<a
+href="/food-drink/a55006/best-iced-coffee/" class="link story-image--link"><div
+class="story-image--inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://esq.h-cdn.co/assets/17/19/480x240/landscape-1494607858-lead-stocksy-txp97b2a385dbu100-medium-566468mod2.jpg"
+data-img320-w = "480"
+data-img320-h = "240"
+data-cut=320
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/19/480x240/landscape-1494607858-lead-stocksy-txp97b2a385dbu100-medium-566468mod2.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/19/640x320/landscape-1494607858-lead-stocksy-txp97b2a385dbu100-medium-566468mod2.jpg"
+data-img980-w = "640"
+data-img980-h = "320"
+nopin="nopin"  /></div></a></div><div
+class="landing-feed--story-utils"><div
+class="landing-feed--story-section">
+<a
+class="landing-feed--story-section-name link link-txt" href="/food-drink/">Food & Drink</a></div><div
+class="landing-feed--story-shares">
+<i
+class="icon icon-share"></i>
+<span
+class="landing-feed--story-shares-text">Share</span><div
+class="share landing-share share-bar"><div
+class="share-module " data-share-location="social-btns-feed"><ul
+class="share-module--buttons"><li
+class="share-module--button-wrap share-module--button-wrap-facebook "><div
+class="share-button share-button--facebook "
+data-content-id="83240" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/food-drink/a55006/best-iced-coffee/" data-image="http://esq.h-cdn.co/assets/17/19/1600x800/landscape-1494607858-lead-stocksy-txp97b2a385dbu100-medium-566468mod2.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Facebook"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=Why+Iced+Coffee+Is+So+Damn+Good&description=Cold+brew+over+everything.+&display=popup&link=http://www.esquire.com/food-drink/a55006/best-iced-coffee/&picture=http://esq.h-cdn.co/assets/17/19/1600x800/landscape-1494607858-lead-stocksy-txp97b2a385dbu100-medium-566468mod2.jpg&redirect_uri=http://www.esquire.com/food-drink/a55006/best-iced-coffee/&version=v2.3"
+target="_blank">
+<i
+class="share-button--icon icon icon-facebook link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-twitter "><div
+class="share-button share-button--twitter "
+data-content-id="83240" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/food-drink/a55006/best-iced-coffee/" data-image="http://esq.h-cdn.co/assets/17/19/1600x800/landscape-1494607858-lead-stocksy-txp97b2a385dbu100-medium-566468mod2.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Twitter"
+target="_blank"
+href="//www.twitter.com/share?url=http://www.esquire.com/food-drink/a55006/best-iced-coffee/&text=Why%20Iced%20Coffee%20Is%20So%20Damn%20Good&via=Esquire"
+data-site-handle="Esquire">
+<i
+class="share-button--icon icon icon-twitter link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-email "><div
+class="share-button share-button--email "
+data-content-id="83240" data-tracking-id="share-button-email" data-url="http://www.esquire.com/food-drink/a55006/best-iced-coffee/" data-image="http://esq.h-cdn.co/assets/17/19/1600x800/landscape-1494607858-lead-stocksy-txp97b2a385dbu100-medium-566468mod2.jpg">
+<a
+class="share-button--link link " title="Email"
+href="mailto:?subject=Why%20Iced%20Coffee%20Is%20So%20Damn%20Good&body=http://www.esquire.com/food-drink/a55006/best-iced-coffee/?src=social-email">
+<i
+class="share-button--icon icon icon-email link-icon"></i>
+</a></div></li></ul></div></div></div></div><div
+class="landing-feed--story-content">
+<a
+class="landing-feed--story-title link link-txt" href="/food-drink/a55006/best-iced-coffee/">Why Iced Coffee Is So Damn Good</a></div></div></div></div><div
+class="landing-feed--story transporter-story-10"><div
+class="landing-feed--story-inner"><div
+class="landing-feed--story-container" data-uid="article.3786"><div
+class="landing-feed--story-image">
+<a
+href="/food-drink/drinks/recipes/a3786/pina-colada-drink-recipe/" class="link story-image--link"><div
+class="story-image--inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://esq.h-cdn.co/assets/17/19/480x240/landscape-1494443601-stocksy-txpeb00402b3wu100-medium-987731-copy.jpg"
+data-img320-w = "480"
+data-img320-h = "240"
+data-cut=320
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" data-src="http://esq.h-cdn.co/assets/17/19/480x240/landscape-1494443601-stocksy-txpeb00402b3wu100-medium-987731-copy.jpg" alt=""
+data-img980="http://esq.h-cdn.co/assets/17/19/640x320/landscape-1494443601-stocksy-txpeb00402b3wu100-medium-987731-copy.jpg"
+data-img980-w = "640"
+data-img980-h = "320"
+nopin="nopin"  /></div>
+<i
+class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
+class="landing-feed--story-utils"><div
+class="landing-feed--story-section">
+<a
+class="landing-feed--story-section-name link link-txt" href="/food-drink/drinks/">Drinks</a></div><div
+class="landing-feed--story-shares">
+<i
+class="icon icon-share"></i>
+<span
+class="landing-feed--story-shares-text">Share</span><div
+class="share landing-share share-bar"><div
+class="share-module " data-share-location="social-btns-feed"><ul
+class="share-module--buttons"><li
+class="share-module--button-wrap share-module--button-wrap-facebook "><div
+class="share-button share-button--facebook "
+data-content-id="3794" data-tracking-id="share-button-facebook" data-url="http://www.esquire.com/drinks/pina-colada-drink-recipe" data-image="http://esq.h-cdn.co/assets/17/19/1280x640/landscape-1494443601-stocksy-txpeb00402b3wu100-medium-987731-copy.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Facebook"
+href="//www.facebook.com/v2.3/dialog/feed?app_id=171874009543995&name=How+to+Make+a+Pi%C3%B1a+Colada&description=That%27s+right%2C+you+don%27t+have+to+be+on+vacation+to+drink+one.&display=popup&link=http://www.esquire.com/drinks/pina-colada-drink-recipe&picture=http://esq.h-cdn.co/assets/17/19/1280x640/landscape-1494443601-stocksy-txpeb00402b3wu100-medium-987731-copy.jpg&redirect_uri=http://www.esquire.com/drinks/pina-colada-drink-recipe&version=v2.3"
+target="_blank">
+<i
+class="share-button--icon icon icon-facebook link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-twitter "><div
+class="share-button share-button--twitter "
+data-content-id="3794" data-tracking-id="share-button-twitter" data-url="http://www.esquire.com/drinks/pina-colada-drink-recipe" data-image="http://esq.h-cdn.co/assets/17/19/1280x640/landscape-1494443601-stocksy-txpeb00402b3wu100-medium-987731-copy.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Twitter"
+target="_blank"
+href="//www.twitter.com/share?url=http://www.esquire.com/drinks/pina-colada-drink-recipe&text=You%20Don%27t%20Have%20to%20Be%20on%20Vacation%20to%20Drink%20a%20Pi%C3%B1a%20Colada&via=Esquire"
+data-site-handle="Esquire">
+<i
+class="share-button--icon icon icon-twitter link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-email "><div
+class="share-button share-button--email "
+data-content-id="3794" data-tracking-id="share-button-email" data-url="http://www.esquire.com/drinks/pina-colada-drink-recipe" data-image="http://esq.h-cdn.co/assets/17/19/1280x640/landscape-1494443601-stocksy-txpeb00402b3wu100-medium-987731-copy.jpg">
+<a
+class="share-button--link link " title="Email"
+href="mailto:?subject=How%20to%20Make%20a%20Pi%C3%B1a%20Colada&body=http://www.esquire.com/drinks/pina-colada-drink-recipe?src=social-email">
+<i
+class="share-button--icon icon icon-email link-icon"></i>
+</a></div></li></ul></div></div></div></div><div
+class="landing-feed--story-content">
+<a
+class="landing-feed--story-title link link-txt" href="/food-drink/drinks/recipes/a3786/pina-colada-drink-recipe/">You Don't Have to Be on Vacation to Drink a Piña Colada</a></div></div></div></div><div
 class="ad-gpt-breaker-container"><div
 class="ad-gpt-breaker  " data-id="gpt-ad-leaderboard-bottom"><div
 class="gpt-tag" id="gpt-ad-leaderboard-bottom"></div></div></div><ul
 class="tags  tags--transporter "><li
+class="tags--item">
+<a
+data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/summer-food-drinks/" title="Esquire's Guide to Summer Booze and Food">
+Esquire's Guide to Summer Booze and Food				</a></li><li
 class="tags--item">
 <a
 data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/food-drink/" title="Food & Drink">
@@ -1892,23 +1895,23 @@ data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/conte
 grill recipes				</a></li><li
 class="tags--item tags--seo">
 <a
-class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/recipes/a15879/hellfire-bitters-recipe-092012/" title="Make Your Own Hellfire Bitters (Then Drink Them)">Make Your Own Hellfire Bitters (Then Drink Them)</a></li><li
+class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="http://www.esquire.com/style/advice/g2833/how-to-wear-red-white-and-blue/" title="3 Stylish 4th of July Outfit Ideas">3 Stylish 4th of July Outfit Ideas</a></li><li
+class="tags--item tags--seo">
+<a
+class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="http://www.esquire.com/entertainment/music/news/a46350/fourth-of-july-playlist/" title="20 Best Protest Songs for the 4th of July">20 Best Protest Songs for the 4th of July</a></li><li
 class="tags--item tags--seo">
 <a
 class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/food/recipes/a8512/spicy-oatmeal-recipe-092210/" title="How to Make Oatmeal That Will Change Your Life">How to Make Oatmeal That Will Change Your Life</a></li><li
 class="tags--item tags--seo">
 <a
+class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/recipes/a15879/hellfire-bitters-recipe-092012/" title="Make Your Own Hellfire Bitters (Then Drink Them)">Make Your Own Hellfire Bitters (Then Drink Them)</a></li><li
+class="tags--item tags--seo">
+<a
 class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/food/recipes/a23462/homemade-bitters-recipe-0813/" title="How to Make Your Own Bitters">How to Make Your Own Bitters</a></li><li
 class="tags--item tags--seo">
 <a
-class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/food/recipes/a10458/extreme-grilling-ideas-062811/" title="8 Things You Didn&#039;t Know You Could Grill">8 Things You Didn't Know You Could Grill</a></li><li
-class="tags--item tags--seo">
-<a
-class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/food/recipes/a11794/thanksgiving-grilling-recipes-6592660/" title="The Thanksgiving Suggestion: Using the Grill">The Thanksgiving Suggestion: Using the Grill</a></li><li
-class="tags--item tags--seo">
-<a
-class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/drinks/recipes/a17925/2000-dollar-lobster-pasta-recipe-14966643/" title="How to Save $2,000 on Your Next Dinner">How to Save $2,000 on Your Next Dinner</a></li></ul></div><a
-class="link" id="transporter--load-more" href="http://www.esquire.com/food-drink/food"><div
+class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-drink/food/recipes/a10458/extreme-grilling-ideas-062811/" title="8 Things You Didn&#039;t Know You Could Grill">8 Things You Didn't Know You Could Grill</a></li></ul></div><a
+class="link" id="transporter--load-more" href="http://www.esquire.com/summer-food-drinks"><div
 class="load-more static transporter" data-tracking-id="load-more-bar"><div
 class="load-more--icons">
 <i
@@ -1917,7 +1920,7 @@ class="icon icon-m icon-arrow-down01 link-icon"></i>
 class="icon icon-m icon-arrow-down01 link-icon"></i>
 <i
 class="icon icon-m icon-loader link-icon"></i></div><div
-class="load-more-label link-txt">More From Food</div></div>
+class="load-more-label link-txt">More From Esquire's Guide to Summer Booze and Food</div></div>
 </a></article><div
 class="zoomable-container"><div
 id="zoomable-close" class="zoomable-close">
@@ -2032,7 +2035,7 @@ href="http://sweepstakes.esquire.com">Giveaways</a></li><li><a
 href="http://www.hearst.com/beinggreen/">Being Green</a></li><li><a
 href="/about/oba-policy/">Why Did I Get This Ad?</a></li></ul><div
 class="footer--logo-hearst"><img
-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/blank.png" class="lazy-image" data-src="//esq.h-cdn.co/assets/esquire/20170613154407/images/logo-network-men.png" alt="Hearst Corporation"></div><p
+src="//esq.h-cdn.co/assets/esquire/20170712153520/images/blank.png" class="lazy-image" data-src="//esq.h-cdn.co/assets/esquire/20170712153520/images/logo-network-fashion.png" alt="Hearst Corporation"></div><p
 class="footer--hearst-disclaimer">A Part of Hearst Digital Media</p><p
 class="footer--affiliate-disclosure">Esquire participates in various affiliate marketing programs, which means Esquire gets paid commissions on purchases made through our links to retailer sites.</p><div
 class="footer--legal"><p
