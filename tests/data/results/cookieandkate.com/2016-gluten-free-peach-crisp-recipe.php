@@ -1,0 +1,47 @@
+<?php
+
+return [
+    'author' => 'Cookie and Kate',
+    'categories' => [
+        'Dessert',
+    ],
+    'cookingMethod' => null,
+    'cookTime' => 'PT30M',
+    'cuisines' => null,
+    'description' => 'This healthier peach crisp features juicy summer peaches and a delicious oat and almond topping. See recipe notes for special diet adjustments. Recipe yields 6 to 8 servings.',
+    'image' => 'http://cookieandkate.com/images/2016/07/peach-crisp-recipe.jpg',
+    'ingredients' => [
+        '2 1/4 pounds ripe peaches, peeled and thinly sliced (about 5 to 6 peaches)',
+        '⅓ cup honey',
+        '2 tablespoons arrowroot starch or cornstarch',
+        '1 teaspoon vanilla extract',
+        '½ teaspoon ground cinnamon',
+        '1 cup old-fashioned oats (certified gluten free if necessary)',
+        '½ cup almond meal or almond flour, lightly packed',
+        '⅓ cup sliced almonds',
+        '⅓ cup packed coconut sugar or brown sugar',
+        '1 teaspoon ground ginger',
+        '¼ teaspoon fine grain sea salt',
+        '4 tablespoons butter, melted',
+        '3 to 4 tablespoons plain yogurt (regular or Greek)',
+    ],
+    'instructions' => [
+        'Preheat the oven to 350 degrees Fahrenheit.',
+        'To prepare the filling: In a 9 by 9-inch baking dish, mix together the sliced peaches, honey, arrowroot starch, vanilla and cinnamon.',
+        'To prepare the topping: In a medium mixing bowl, stir together the oats, almond meal, sliced almonds, coconut sugar, ginger and salt. Mix in the melted butter and yogurt. Stir until the mixture is moistened throughout, adding up to 1 more tablespoon of yogurt if it seems dry.',
+        'Dollop spoonfuls of the oat mixture over the filling and use your fingers to break up the mixture until it is evenly distributed (no need to pack it down). Bake for about 30 minutes, or until the filling is bubbling around the edges and the top is lightly golden.',
+        'Let the crisp rest for 5 to 10 minutes before serving. Serve with a scoop of vanilla ice cream or plain yogurt.',
+    ],
+    'name' => 'Gluten-Free Peach Crisp',
+    'notes' => [
+        'Make it vegan: I believe you could use melted coconut oil or olive oil in place of the butter and yogurt (use 4 tablespoons oil and add up to 3 more, until the topping mixture is moistened throughout) and maple syrup instead of the honey.',
+        'Make it nut free: Omit the sliced almonds and use ¾ cup whole wheat flour and ¾ cup oats instead of the almond meal and oats specified above. It will no longer be gluten free. If you want to keep it gluten free, I suspect that you could replace the almond meal with oat flour or more oats (haven\'t tried that, please comment if you do!).',
+        'Storage suggestions: Store this crisp in the refrigerator, covered. It will be good for 4 days or so.',
+        'Change it up: Substitute any variety of stone fruit for the peaches!',
+    ],
+    'prepTime' => 'PT20M',
+    'publisher' => null,
+    'totalTime' => 'PT50M',
+    'url' => 'http://cookieandkate.com/2016/gluten-free-peach-crisp-recipe/',
+    'yield' => '8 servings',
+];

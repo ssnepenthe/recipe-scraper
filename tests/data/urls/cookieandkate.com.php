@@ -8,4 +8,5 @@ return array (
   4 => 'http://cookieandkate.com/2017/chocolate-peanut-butter-tart-recipe/',
   5 => 'http://cookieandkate.com/2016/double-tomato-pesto-spaghetti-with-zucchini-noodles/',
   6 => 'http://cookieandkate.com/2017/how-to-make-basil-pesto/',
+  7 => 'http://cookieandkate.com/2016/gluten-free-peach-crisp-recipe/',
 );

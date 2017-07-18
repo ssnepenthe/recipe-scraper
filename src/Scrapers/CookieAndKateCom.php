@@ -7,7 +7,11 @@ use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * We lose ingredient titles by using LD+JSON.
+ *
  * Sometimes multiple instructions are getting merged into one in LD+JSON.
+ *
+ * @todo Find recipe w/o notes to test against.
+ *       Consider stepping away from json ld for ingredients.
  */
 class CookieAndKateCom extends SchemaOrgJsonLd
 {
@@ -41,60 +45,54 @@ class CookieAndKateCom extends SchemaOrgJsonLd
      */
     protected function extractNotes(Crawler $crawler, array $json)
     {
-        // Notes are very inconsistent. This could use a lot more testing.
+        // Notes are inconsistent. This could use a lot more testing.
         if (! is_null($divs = $this->extractArray($crawler, '.tasty-recipes-notes div'))) {
             // Notes are split into individual div elements.
             return $divs;
         }
 
-        $crawler = $crawler->filter('.tasty-recipes-notes p');
+        // Down to native DOM API we go...
+        $notes = $crawler->filter('.tasty-recipes-notes p')->each(function (Crawler $node) : array {
+            if (! $first = $node->getNode(0)) {
+                return [];
+            }
 
-        if (! $crawler->count()) {
-            return null;
-        }
+            $values = [];
+            $current = '';
 
-        $ps = $this->extractArray($crawler);
+            foreach ($first->childNodes as $childNode) {
+                // Notes are in a paragraph element split by line breaks.
+                if (XML_TEXT_NODE === $childNode->nodeType) {
+                    $current .= $childNode->wholeText;
+                } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
+                    if ('em' === $childNode->nodeName) {
+                        // If <em> it is likely an "adapted from..." note. May want to revisit this
+                        // since it would actually be nice to have, but means preserving the link.
+                        continue;
+                    }
 
-        if (! is_null($ps) && 1 < count($ps)) {
-            // Notes are split into individual paragraph elements.
-            return $ps;
-        }
-
-        if (! $first = $crawler->getNode(0)) {
-            return null;
-        }
-
-        $notes = [];
-        $value = '';
-
-        // Down to native DOM API.
-        foreach ($first->childNodes as $childNode) {
-            // Notes are in one paragraph element split by line breaks.
-            if (XML_TEXT_NODE === $childNode->nodeType) {
-                $value .= $childNode->wholeText;
-            } elseif (XML_ELEMENT_NODE === $childNode->nodeType) {
-                if ('em' === $childNode->nodeName) {
-                    // If <em> it is likely an "adapted from..." note. May want to revisit this
-                    // since it would actually be nice to have, but means preserving the link.
-                    continue;
-                }
-
-                if ('br' === $childNode->nodeName) {
-                    // If <br> it means we are ready to move to the next note.
-                    $notes[] = $value;
-                    $value = '';
-                } else {
-                    $value .= $childNode->nodeValue;
+                    if ('br' === $childNode->nodeName) {
+                        // If <br> it means we are ready to move to the next note.
+                        $values[] = $current;
+                        $current = '';
+                    } else {
+                        $current .= $childNode->nodeValue;
+                    }
                 }
             }
-        }
 
-        // Flush any lingering value to the notes array.
-        if (! empty($value)) {
-            $notes[] = $value;
-            $value = '';
-        }
+            // Flush any lingering current value to the values array.
+            if (! empty($current)) {
+                $values[] = $current;
+                $current = '';
+            }
 
-        return $notes;
+            return array_filter($values, function ($value) {
+                // These notes are mostly links to category pages and books.
+                return false === stripos($value, 'if you love this recipe');
+            });
+        });
+
+        return call_user_func_array('array_merge', $notes);
     }
 }
