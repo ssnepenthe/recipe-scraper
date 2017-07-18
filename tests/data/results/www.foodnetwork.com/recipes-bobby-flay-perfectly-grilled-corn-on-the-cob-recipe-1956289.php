@@ -15,7 +15,7 @@ return [
     'cookTime' => 'PT25M',
     'cuisines' => null,
     'description' => 'Find out the secret to Bobby Flay\'s Perfectly Grilled Corn on the Cob recipe from Food Network, a summer side served with homemade herb and barbecue butters.',
-    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/6/20/0/GrilledCornCob.jpg.rend.hgtvcom.616.462.jpeg',
+    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/6/20/0/GrilledCornCob.jpg.rend.hgtvcom.616.462.suffix/1499870172137.jpeg',
     'ingredients' => [
         '8 ears corn',
         'Kosher salt',
