@@ -11,7 +11,7 @@ return [
     'cookTime' => 'PT35M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/1/7/0/CCTIA206H_Lamb-Burger_s4x3.jpg.rend.hgtvcom.616.462.jpeg',
+    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/1/7/0/CCTIA206H_Lamb-Burger_s4x3.jpg.rend.hgtvcom.616.462.suffix/1499880201138.jpeg',
     'ingredients' => [
         '2 tablespoons finely chopped onion',
         '2 large cloves garlic, minced',

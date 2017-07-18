@@ -14,7 +14,7 @@ return [
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/3/6/0/CCTIF110_Plum-Caprese-Salad-recipe_s4x3.jpg.rend.hgtvcom.616.462.jpeg',
+    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/3/6/0/CCTIF110_Plum-Caprese-Salad-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1492276457088.jpeg',
     'ingredients' => [
         '1 tablespoon champagne vinegar',
         '1 teaspoon white balsamic vinegar',
