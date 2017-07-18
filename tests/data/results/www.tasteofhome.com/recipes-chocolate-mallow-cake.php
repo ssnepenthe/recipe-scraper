@@ -7,7 +7,7 @@ return [
     'cookTime' => 'PT30M',
     'cuisines' => null,
     'description' => 'Nothing compares to homemade cake, especially when gathering with friends and family for a special occasion. The young and young at heart love the marshmallow frosting.-Edna Hoffman, Hebron, Indiana',
-    'image' => 'http://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps37457_THCA1693311D146.jpg',
+    'image' => 'https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps37457_THCA1693311D146.jpg',
     'ingredients' => [
         '1/3 cup shortening',
         '1 cup sugar',

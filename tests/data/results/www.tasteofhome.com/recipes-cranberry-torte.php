@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => '"Besides being eye-catching and delicious, this treat is conveniently made ahead and frozen," says field editor Pat Waymire, Yellow Springs, Ohio. "I fix the topping on the day I serve the torte."',
-    'image' => 'http://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg',
+    'image' => 'https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg',
     'ingredients' => [
         '1-1/4 cups graham cracker crumbs (about 20 squares)',
         '1/4 cup finely chopped pecans',

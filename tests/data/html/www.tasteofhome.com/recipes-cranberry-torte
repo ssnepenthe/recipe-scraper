@@ -8,44 +8,44 @@
 <html class="js">
 <!--<![endif]-->
 <head>
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bab150296b","applicationID":"518681","transactionName":"M1BUY0YAC0ZWUxVaXQoae2F3TjdQVFkRVnELW0JFWw0JUEUfKF1WAU0=","queueTime":0,"applicationTime":955,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYOVVdSGwYBXFdaBg=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];n.exports=u;var y=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(m,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2ac6605173","applicationID":"57125771","transactionName":"MVYGMUNRVkcDBxVdDAgcKTNyH2pRAQ0RUSAJXRAXXlxUURBLKFoHA0s=","queueTime":0,"applicationTime":496,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
 
     <title>Cranberry Torte Recipe | Taste of Home</title>
 
     <!-- Google Web font - 'Open Sans' -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic,300italic,300'
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic,300italic,300'
           rel='stylesheet' type='text/css'>
     <!-- Font icons -->
-    <link href='//cdn1.tmbi.com/font-awesome/4.7.0/css/font-awesome.min.css'
+    <link href='https://cdn1.tmbi.com/font-awesome/4.7.0/css/font-awesome.min.css'
           rel='stylesheet' type='text/css'>
 
     <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
     <!--[if IE]><link rel="shortcut icon" href="path/to/favicon.ico"><![endif]-->
-    <link type="image/x-icon" rel="icon" sizes="16x16" href="//cdn1.tmbi.com/TOH/images/favicon.ico" />
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-180x180.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" href="//cdn1.tmbi.com/TOH/images/apple-touch-icon-57×57.png">
-    <link rel="icon" sizes="192x192" href="//cdn1.tmbi.com/TOH/images/touch-icon-192x192.png">
-    <link rel="icon" type="image/x-icon" sizes="16x16" href="//cdn1.tmbi.com/TOH/images/favicon.ico" />
+    <link type="image/x-icon" rel="icon" sizes="16x16" href="https://cdn1.tmbi.com/TOH/images/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="https://cdn1.tmbi.com/TOH/images/apple-touch-icon-57×57.png">
+    <link rel="icon" sizes="192x192" href="https://cdn1.tmbi.com/TOH/images/touch-icon-192x192.png">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="https://cdn1.tmbi.com/TOH/images/favicon.ico" />
 
     <script type="text/javascript">
-            var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploadtimeout = setTimeout(LoadTMBIGPT, 1000,"sonobi failed loading gpt");(function () { var sonobi = document.createElement("script");sonobi.async = true; sonobi.type = "text/javascript"; var useSSL = "https:" == document.location.protocol; sonobi.src = (useSSL ? "https:" : "http:") + "//mtrx.go.sonobi.com/morpheus.tasteofhome.com.1576.js";  sonobi.onload = function () {  clearTimeout(gtploadtimeout); LoadTMBIGPT("gpt call after sonobi");};  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(sonobi, node);})(); function LoadTMBIGPT(msg) { if (document.getElementById("tmbigpt") == null) { console.log(msg); var gads = document.createElement("script"); gads.async = true; gads.id = "tmbigpt"; gads.type = "text/javascript"; var useSSL = "https:" == document.location.protocol; gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(gads, node); }}
+            var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploadtimeout = setTimeout(LoadTMBIGPT, 1000,"sonobi failed loading gpt");(function () { var sonobi = document.createElement("script");sonobi.async = true; sonobi.type = "text/javascript"; sonobi.src = "https://mtrx.go.sonobi.com/morpheus.tasteofhome.com.1576.js";  sonobi.onload = function () {  clearTimeout(gtploadtimeout); LoadTMBIGPT("gpt call after sonobi");};  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(sonobi, node);})(); function LoadTMBIGPT(msg) { if (document.getElementById("tmbigpt") == null) { console.log(msg); var gads = document.createElement("script"); gads.async = true; gads.id = "tmbigpt"; gads.type = "text/javascript"; gads.src = "https://www.googletagservices.com/tag/js/gpt.js";  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(gads, node); }}
     </script>
 
     
     <script type="text/javascript">
         
-var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploadtimeout = setTimeout(LoadTMBIGPT, 1000,"sonobi failed loading gpt");(function () { var sonobi = document.createElement("script");sonobi.async = true; sonobi.type = "text/javascript"; var useSSL = "https:" == document.location.protocol; sonobi.src = (useSSL ? "https:" : "http:") + "//mtrx.go.sonobi.com/morpheus.tasteofhome.com.1576.js";  sonobi.onload = function () {  clearTimeout(gtploadtimeout); LoadTMBIGPT("gpt call after sonobi");};  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(sonobi, node);})(); function LoadTMBIGPT(msg) { if (document.getElementById("tmbigpt") == null) { console.log(msg); var gads = document.createElement("script"); gads.async = true; gads.id = "tmbigpt"; gads.type = "text/javascript"; var useSSL = "https:" == document.location.protocol; gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(gads, node); }}
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploadtimeout = setTimeout(LoadTMBIGPT, 1000,"sonobi failed loading gpt");(function () { var sonobi = document.createElement("script");sonobi.async = true; sonobi.type = "text/javascript"; sonobi.src = "https://mtrx.go.sonobi.com/morpheus.tasteofhome.com.1576.js";  sonobi.onload = function () {  clearTimeout(gtploadtimeout); LoadTMBIGPT("gpt call after sonobi");};  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(sonobi, node);})(); function LoadTMBIGPT(msg) { if (document.getElementById("tmbigpt") == null) { console.log(msg); var gads = document.createElement("script"); gads.async = true; gads.id = "tmbigpt"; gads.type = "text/javascript"; gads.src = "https://www.googletagservices.com/tag/js/gpt.js";  var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(gads, node); }}
 
 
     </script>
      
-<script src="//assets.adobedtm.com/c30a7f4dba5fcf320694d4fefeabd1cf4867f8ed/satelliteLib-247ea3eef67c38bd658d7bf9d4d87aa2e09a9dc9.js"></script>
+<script src="https://assets.adobedtm.com/c30a7f4dba5fcf320694d4fefeabd1cf4867f8ed/satelliteLib-247ea3eef67c38bd658d7bf9d4d87aa2e09a9dc9.js"></script>
 
 
     
@@ -60,9 +60,9 @@ var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploa
                 <meta name="contentType" content="37" />
                 <meta Property="og:url" content="http://www.tasteofhome.com/recipes/cranberry-torte" />
                 <meta Property="og:title" content="Cranberry Torte" />
-                <meta Property="og:image" content="http://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
+                <meta Property="og:image" content="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
                 <meta itemprop="name" content="Cranberry Torte" />
-                <meta itemprop="image" content="http://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
+                <meta itemprop="image" content="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
                 <meta Property="og:site_name" content="Taste of Home" />
                 <meta Property="og:type" content="article" />
                 <meta Property="fb:app_id" content="1629780060583440" />
@@ -72,17 +72,17 @@ var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploa
             <meta name="parsely-tags" content="Cranberry Torte Recipe, View All recipes, Baby Shower Recipes recipes, Bridal Shower Recipes recipes, Cakes recipes, Christmas Desserts recipes, Course recipes, Cranberry Recipes recipes, Father&#39;s Day Recipes recipes, Fresh Cranberry Recipes recipes, Holiday &amp; Celebration recipes, Ingredients recipes, Nut Recipes recipes, Pecan Recipes recipes, Publication recipes, Taste of Home recipes, Tortes recipes" />
             <meta name="parsely-title" content="Cranberry Torte Recipe" />
             <meta name="parsely-link" content="http://www.tasteofhome.com/recipes/cranberry-torte" />
-            <meta name="parsely-image-url" content="http://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
+            <meta name="parsely-image-url" content="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
                 <meta name="parsely-type" content="post" />
-            <meta name="parsely-pub-date" content="2017-06-14T00:23:17Z" />
+            <meta name="parsely-pub-date" content="2017-07-17T00:26:40Z" />
             <meta name="parsely-author" content="Pat Waymire" />
     <meta name="parsely-section" content="RMSRecipe" />
 
-    <link href="/bundles/toh_redesign?v=WY8Dtze-yYpLficuLG42iStw8xMNC2HiNV3cgeEvUGg1" rel="stylesheet"/>
+    <link href="/bundles/toh_redesign?v=XpfMy4eVZqx1DEbxu8KLxzJDPSQLk7annvyFcI5dFGU1" rel="stylesheet"/>
 
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
-<link href="/bundles/responsive_redesign?v=_kcg5eYsFWFHILhmflyYfwI5s1u0Q0JrgN7zQAf6Xbo1" rel="stylesheet"/>
+<link href="/bundles/responsive_redesign?v=VJ83xnluiVJUUbPfQRq6bmwnBS9d4SWlJfqtrprKEUw1" rel="stylesheet"/>
 
 
 
@@ -97,7 +97,7 @@ var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploa
              }
              else if (window.location.href.indexOf("subscriber-exclusive-access/join-or-log-in") != -1) {
              }
-              else if (window.location.href.indexOf("myaccount/index") != -1) {
+             else if (window.location.href.indexOf("myaccount/index") != -1) {
              }
              else{
                  window.location.href = window.location.href.replace("https:","http:");
@@ -107,7 +107,7 @@ var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var gtploa
 </script>
 
 
-<script async src="//js-sec.indexww.com/ht/p/184414-1485294554771.js"></script>
+<script async src="https://js-sec.indexww.com/ht/p/184414-1485294554771.js"></script>
 
 
 
@@ -127,13 +127,13 @@ gptAdSlots[1] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[2,2],'
 gptAdSlots[1].setCollapseEmptyDiv(true, true);  
 gptAdSlots[2] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[[728, 90], [970,250]],'div-gpt-ad-1370019314148-01').addService(googletag.pubads()).setTargeting('pos', 'top').setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'top_recipe_no_aa');  
 gptAdSlots[2].setCollapseEmptyDiv(true, true);  
-gptAdSlots[3] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[[300, 250], [300, 600], [160, 600]],'div-gpt-ad-1370019314148-02').addService(googletag.pubads()).setTargeting('pos', 'top').setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'middle_recipe_no_ad');  
+gptAdSlots[3] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[300,250],'div-gpt-ad-1370019314148-02').addService(googletag.pubads()).setTargeting('pos', 'top').setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'middle_recipe_no_ad');  
 gptAdSlots[3].setCollapseEmptyDiv(true, true);  
 gptAdSlots[4] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[175, 50],'div-gpt-ad-1370019314148-06').addService(googletag.pubads()).setTargeting('pos', 'top').setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'middle_recipe_no_ac');  
 gptAdSlots[4].setCollapseEmptyDiv(true, true);  
 gptAdSlots[5] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[[300, 250], [300, 600], [160, 600]],'div-gpt-ad-1370019314148-03').addService(googletag.pubads()).setTargeting('pos', 'middle').setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'bottom_recipe_no_af');  
 gptAdSlots[5].setCollapseEmptyDiv(true, true);  
-gptAdSlots[6] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[[300, 250], [300, 600], [160, 600]],'div-gpt-ad-1370019314148-04').addService(googletag.pubads()).setTargeting('pos', 'bottom').setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'bottom_recipe_no_ae');  
+gptAdSlots[6] = googletag.defineSlot('/6178/toh.tastehome/recipechannel',[[300, 250], [300, 600], [160, 600]],'div-gpt-ad-1370019314148-04').addService(googletag.pubads()).setTargeting('pos', 'top').setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'top_recipe_no_ae');  
 gptAdSlots[6].setCollapseEmptyDiv(true, true);  
 gptAdSlots[7] = googletag.defineOutOfPageSlot('/6178/toh.tastehome/recipechannel','div-gpt-ad-1370019314148-0-oop').addService(googletag.pubads()).setTargeting('url', '/recipes/cranberry-torte').setTargeting('category', '571,3475,547,715').setTargeting('location', 'oop_recipe_no_an');  
             googletag.pubads().enableSingleRequest(); 
@@ -160,13 +160,13 @@ init: function () { q('i', arguments) }, fetchBids: function ()
 { q('f', arguments) }, setDisplayBids: function () { }, _Q: [] 
 }; A = p.createElement(s); A.async = !0; A.src = t; g = p.getElementsByTagName(s)[0]; g.parentNode.insertBefore( 
 A, g) 
-} ('apstag', window, document, 'script', '//c.amazon-adsystem.com/aax2/apstag.js') 
+} ('apstag', window, document, 'script', 'https://c.amazon-adsystem.com/aax2/apstag.js') 
 apstag.init({ 
 pubID: 3235, 
 adServer: 'googletag' 
 }); 
  apstag.fetchBids({ 
- slots: [{ slotID :'div-gpt-ad-1370019314148-20', sizes : [[728, 90]] },{ slotID :'div-gpt-ad-1370019314148-01', sizes : [[728, 90], [970,250]] },{ slotID :'div-gpt-ad-1370019314148-02', sizes : [[300, 250], [300, 600], [160, 600]] },{ slotID :'div-gpt-ad-1370019314148-03', sizes : [[300, 250], [300, 600], [160, 600]] },{ slotID :'div-gpt-ad-1370019314148-04', sizes : [[300, 250], [300, 600], [160, 600]] }], 
+ slots: [{ slotID :'div-gpt-ad-1370019314148-20', sizes : [[728, 90]] },{ slotID :'div-gpt-ad-1370019314148-01', sizes : [[728, 90], [970,250]] },{ slotID :'div-gpt-ad-1370019314148-03', sizes : [[300, 250], [300, 600], [160, 600]] },{ slotID :'div-gpt-ad-1370019314148-04', sizes : [[300, 250], [300, 600], [160, 600]] }], 
 timeout: 2e3 
  }, function (bids) { 
 googletag.cmd.push(function () { 
@@ -182,26 +182,20 @@ e.async = 1;
 e.src = u;
 f.parentNode.insertBefore(e, f);
 }(document.createElement('script'),
-document.getElementsByTagName('script')[0], 'http://cdn.taboola.com/libtrc/readersdigest-tasteofhome/loader.js');
+document.getElementsByTagName('script')[0], 'https://cdn.taboola.com/libtrc/readersdigest-tasteofhome/loader.js');
     </script>
             <link rel="canonical" href="http://www.tasteofhome.com/recipes/cranberry-torte" />
     <link href="http://www.tasteofhome.com/recipes/cranberry-torte/amp" rel="amphtml" />    
-<script type="application/ld+json">  { "@context" : "http://schema.org", "@type" : "Organization", "name" : "Taste of Home", "url" : "http://www.tasteofhome.com", "logo" : "http://cdn1.tmbi.com/TOH/Images/toh_red_logo/toh-logo-red.gif", "sameAs" : [ "http://www.wikidata.org/wiki/Q7687701", "https://www.freebase.com/m/02x0gg_","http://en.wikipedia.org/wiki/Taste_of_Home","https://www.facebook.com/tasteofhome","https://twitter.com/tasteofhome","https://www.pinterest.com/taste_of_home","https://plus.google.com/+tasteofhome/posts"] }  </script> 
-<script type="text/javascript" src="//s.ntv.io/serve/load.js" async></script>
-<script>
-        (function(d) {
-            var e = d.createElement("script");
-            e.src = d.location.protocol + "//tag.bounceexchange.com/934/i.js";
-            e.async = true;
-            d.getElementsByTagName("head")[0].appendChild(e);
-        }(document));
-        </script>
+<script type="application/ld+json">  { "@context" : "https://schema.org", "@type" : "Organization", "name" : "Taste of Home", "url" : "http://www.tasteofhome.com", "logo" : "https://cdn1.tmbi.com/TOH/Images/toh_red_logo/toh-logo-red.gif", "sameAs" : [ "http://www.wikidata.org/wiki/Q7687701", "https://www.freebase.com/m/02x0gg_","http://en.wikipedia.org/wiki/Taste_of_Home","https://www.facebook.com/tasteofhome","https://twitter.com/tasteofhome","https://www.pinterest.com/taste_of_home","https://plus.google.com/+tasteofhome/posts"] }  </script> 
+<script type="text/javascript" src="https://s.ntv.io/serve/load.js" async></script>
+<script>          (function(d) {              var e = d.createElement("script");              e.src = "https://tag.bounceexchange.com/934/i.js";              e.async = true;              d.getElementsByTagName("head")[0].appendChild(e);          }(document));          </script>
 
 
     
-<script async="async" data-client-id="hjDOwgmeFYXgPpq" type="text/javascript" src="//d1xfq2052q7thw.cloudfront.net/1.7.754.js"></script>
+<script async="async" data-client-id="hjDOwgmeFYXgPpq" type="text/javascript" src="//d1xfq2052q7thw.cloudfront.net/1.7.823.js"></script>
 
 
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 </head>
 <body>
     <div class="rd_main_container rd_layout_standard_rightcol" data-bind="with: RD.ViewModel.LoginPersonalizationVM">
@@ -212,9 +206,9 @@ document.cookie='AnalyticsState=;expires=Wed; 01 Jan 1970; domain=tasteofhome.co
 function udm_(e){ 
 var t="comScore=",n=document,r=n.cookie,i="",s="indexOf",o="substring",u="length",a=2048,f,l="&ns_",c="&",h,p,d,v,m=window,g=m.encodeURIComponent||escape;if(r[s](t)+1)for(d=0,p=r.split(";"),v=p[u];d<v;d++)h=p[d][s](t),h+1&&(i=c+unescape(p[d][o](h+t[u])));e+=l+"_t="+ +(new Date)+l+"c="+(n.characterSet||n.defaultCharset||"")+"&c8="+g(n.title)+i+"&c7="+g(n.URL)+"&c9="+g(n.referrer),e[u]>a&&e[s](c)>0&&(f=e[o](0,a-8).lastIndexOf(c),e=(e[o](0,f)+l+"cut="+g(e[o](f+1)))[o](0,a)),n.images?(h=new Image,m.ns_p||(ns_p=h),h.src=e):n.write("<","p","><",'img src="',e,'" height="1" width="1" alt="*"',"><","/p",">") 
 }; 
-udm_('https://sb.scorecardresearch.com/b?c1=2&c2=16404798&ns_site=rdna&_site=tasteofhome&rel_content=related+recipes%2crelated+recipes%2crelated+recipes&name=toh%3a+cranberry+torte+recipe+(%2frecipes%2fcranberry-torte)&page_no=view+all&content_id=14065&content_name=cranberry+torte&content_type=recipe+detail&partner_name=taste+of+home&server_name=usazrdmz12s014&physical_pg_name=recipe%2findex&login_status=logged+out&category=recipes&tmbi_ab_dailymotion=a_mediabong&tmbi_ab_getrecipedetailsapi=a_db&tmbi_ab_hotjar=a_hotjar_disabled&tmbi_ab_newrecipedesign=b_newrecipedetail&tmbi_ab_stickyheader=a_regularmenu&tmbi_ab=dailymotion_a_mediabong__getrecipedetailsapi_a_db__hotjar_a_hotjar_disabled__newrecipedesign_b_newrecipedetail__stickyheader_a_regularmenu&channel_level=recipes-content'); 
-// ]]> </script><noscript><p><img src='https://sb.scorecardresearch.com/p?c1=2&amp;c2=16404798&ns_site=rdna&_site=tasteofhome&rel_content=Related+Recipes%2cRelated+Recipes%2cRelated+Recipes&name=TOH%3a+Cranberry+Torte+Recipe+(%2frecipes%2fcranberry-torte)&page_no=View+All&content_id=14065&content_name=Cranberry+Torte&content_type=Recipe+Detail&partner_name=Taste+Of+Home&server_name=USAZRDMZ12S014&physical_pg_name=Recipe%2fIndex&login_status=Logged+Out&category=Recipes&tmbi_ab_DailyMotion=a_mediabong&tmbi_ab_getrecipedetailsapi=a_db&tmbi_ab_hotjar=a_hotjar_disabled&tmbi_ab_NewRecipeDesign=b_Newrecipedetail&tmbi_ab_StickyHeader=a_regularmenu&tmbi_ab=DailyMotion_a_mediabong__getrecipedetailsapi_a_db__hotjar_a_hotjar_disabled__NewRecipeDesign_b_Newrecipedetail__StickyHeader_a_regularmenu&channel_level=Recipes-Content' height='1' width='1' alt='*'></p></noscript>
-<script type="text/javascript">digitalData = {};digitalData.page = {};digitalData.page.content = {};digitalData.page.pageInfo = {};digitalData.subscription = {};digitalData.registration = {};digitalData.user = {};digitalData.user.profile = {};digitalData.user.profile.profileInfo = {};digitalData.ab = {};digitalData.newsletter = {};digitalData.newsletter.ehid = {};digitalData.page.pageName="TOH: TOH  Cranberry Torte Recipe   recipes cranberry torte  (/recipes/cranberry-torte)";digitalData.page.content.contentID="14065";digitalData.page.content.contentName="Cranberry Torte";digitalData.page.content.contentType="Recipe Detail";digitalData.page.content.partnerName="Taste Of Home";digitalData.serverName="USAZRDMZ12S014";digitalData.page.physicalPageName="Recipe/Index";digitalData.page.loginStatus="Logged Out";digitalData.page.category="Recipes";digitalData.ab.testing="tmbi_ab_DailyMotion:a_mediabong|tmbi_ab_getrecipedetailsapi:a_db|tmbi_ab_hotjar:a_hotjar_disabled|tmbi_ab_NewRecipeDesign:b_Newrecipedetail|tmbi_ab_StickyHeader:a_regularmenu";</script>
+udm_('https://sb.scorecardresearch.com/b?c1=2&c2=16404798&ns_site=rdna&_site=tasteofhome&rel_content=related+recipes%2crelated+recipes%2crelated+recipes&name=toh%3a+cranberry+torte+recipe+(%2frecipes%2fcranberry-torte)&page_no=view+all&content_id=14065&content_name=cranberry+torte&content_type=recipe+detail&partner_name=taste+of+home&server_name=usazrdmz12s013&physical_pg_name=recipe%2findex&login_status=logged+out&category=recipes&tmbi_ab_dailymotion=a_mediabong&tmbi_ab_hotjar=a_hotjar_disabled&tmbi_ab_stickyheader=a_regularmenu&tmbi_ab=dailymotion_a_mediabong__hotjar_a_hotjar_disabled__stickyheader_a_regularmenu&channel_level=recipes-content'); 
+// ]]> </script><noscript><p><img src='https://sb.scorecardresearch.com/p?c1=2&amp;c2=16404798&ns_site=rdna&_site=tasteofhome&rel_content=Related+Recipes%2cRelated+Recipes%2cRelated+Recipes&name=TOH%3a+Cranberry+Torte+Recipe+(%2frecipes%2fcranberry-torte)&page_no=View+All&content_id=14065&content_name=Cranberry+Torte&content_type=Recipe+Detail&partner_name=Taste+Of+Home&server_name=USAZRDMZ12S013&physical_pg_name=Recipe%2fIndex&login_status=Logged+Out&category=Recipes&tmbi_ab_DailyMotion=a_mediabong&tmbi_ab_hotjar=a_hotjar_disabled&tmbi_ab_StickyHeader=a_regularmenu&tmbi_ab=DailyMotion_a_mediabong__hotjar_a_hotjar_disabled__StickyHeader_a_regularmenu&channel_level=Recipes-Content' height='1' width='1' alt='*'></p></noscript>
+<script type="text/javascript">digitalData = {};digitalData.page = {};digitalData.page.content = {};digitalData.page.pageInfo = {};digitalData.subscription = {};digitalData.registration = {};digitalData.user = {};digitalData.user.profile = {};digitalData.user.profile.profileInfo = {};digitalData.ab = {};digitalData.newsletter = {};digitalData.newsletter.ehid = {};digitalData.page.pageName="TOH: Cranberry Torte Recipe (/recipes/cranberry-torte)";digitalData.page.content.contentID="14065";digitalData.page.content.contentName="Cranberry Torte";digitalData.page.content.contentType="Recipe Detail";digitalData.page.content.partnerName="Taste Of Home";digitalData.serverName="USAZRDMZ12S013";digitalData.page.physicalPageName="Recipe/Index";digitalData.page.loginStatus="Logged Out";digitalData.page.category="Recipes";digitalData.ab.testing="tmbi_ab_DailyMotion:a_mediabong|tmbi_ab_hotjar:a_hotjar_disabled|tmbi_ab_StickyHeader:a_regularmenu";</script>
         <img src="https://cdn1.tmbi.com/TOH/Images/tohPrintL.png" class="visible-print" />
         <header id="hd" class="rd_header ">
              
@@ -285,8 +279,7 @@ udm_('https://sb.scorecardresearch.com/b?c1=2&c2=16404798&ns_site=rdna&_site=tas
                     <div id="rd_main_logo" class="rd_header_width rd_basic_block rd_display_cell">
                             <a class="rd_tablet_logo  rd_header_display pull-left rd_marginRight" href="//www.tasteofhome.com" data-analytics-link_name="home" data-analytics-metrics='{"link_module":"secondary navigation","ns_type": "hidden","page_template":"recipe detail"}' data-adobe-metrics='{"module":"navigation","name":"taste of home","position":"secondary navigation"}'><img src="https://cdn1.tmbi.com/TOH/Images/toh-logo-red.gif" data-pin-no-hover="true" alt="Taste of Home Logo" /></a>
                             <span class="hidden-phone pull-left">
-                                <div class="TOHLeader-AD" monetate="tag002-topheaderleft-20160920"><a data-analytics-link_name="Subscribe Now" data-analytics-placement_location="
-TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&amp;cds_page_id=163153&amp;cds_response_key=IQ0AG01T "><img src="//cdn1.tmbi.com/CM/images/TOH/1501Winter/TOH-INT-1501-AD-200x90.jpg" /></a></div>
+                                <div class="TOHLeader-AD" monetate="tag002-topheaderleft-20160920"><a data-analytics-link_name="Subscribe Now" data-analytics-placement_location=" TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&amp;cds_page_id=163153&amp;cds_response_key=IQ0AG01T "><img src="https://cdn1.tmbi.com/CM/images/TOH/1501Winter/TOH-INT-1501-AD-200x90.jpg" /></a></div>
                             </span>
                     </div>
                     
@@ -308,7 +301,7 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="rd_tg_opensans rd_tg_login_links" href="/MyAccount/Index" data-analytics-link_name="my account" data-analytics-metrics='{"link_module":"secondary navigation","link_pos":"account links","ns_type": "hidden","page_template":"recipe detail"}'>My Account</a></li>
-                    <li><a class="rd_tg_opensans rd_tg_login_links" data-auth="true" href="/recipe-box?1497440980316" data-auth-title="Log In or Join Now to Access Your Recipe Box" data-auth-registrationsource="myrecipebox" data-analytics-link_name="my recipe box" data-analytics-metrics='{"link_module":"secondary navigation","link_pos":"account links","ns_type": "hidden","page_template":"recipe detail"}'>My Recipe Box</a></li>
+                    <li><a class="rd_tg_opensans rd_tg_login_links" data-auth="true" href="/recipe-box?1500324718556" data-auth-title="Log In or Join Now to Access Your Recipe Box" data-auth-registrationsource="myrecipebox" data-analytics-link_name="my recipe box" data-analytics-metrics='{"link_module":"secondary navigation","link_pos":"account links","ns_type": "hidden","page_template":"recipe detail"}'>My Recipe Box</a></li>
                     <li><a class="rd_tg_opensans rd_tg_login_links" href="/community/editprofile.aspx" data-analytics-link_name="my newsletters" data-analytics-metrics='{"link_module":"secondary navigation","link_pos":"account links","ns_type": "hidden","page_template":"recipe detail"}'>My Newsletters</a></li>
                     <li><a class="rd_tg_opensans rd_tg_login_links" data-auth="true" href="/shopping-list" data-analytics-link_name="my shopping list" data-analytics-metrics='{"link_module":"secondary navigation","link_pos":"account links","ns_type": "hidden","page_template":"recipe detail"}'>My Shopping List</a></li>
                     <li><a class="rd_tg_opensans rd_tg_login_links" href="http://www.tasteofhome.com/rd.asp?id=23040" data-analytics-link_name="customer care" data-analytics-metrics='{"link_module":"secondary navigation","link_pos":"account links","ns_type": "hidden","page_template":"recipe detail"}'>Customer Care</a></li>
@@ -381,12 +374,7 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
 
                             <!--
                             <div id="rd_sub_offer_tablet" class="hidden">
-                                <a href="http://www.tasteofhome.com/rd.asp?id=23164" title="Subscribe" class="pull-right rd_sub_offer_mob_mag">
-									<img src="//cdn1.tmbi.com/TOH/Images/CM_ADS/magazine-cover-mobile.png" alt="Subscribe"/>
-								</a>
-								<div>
-									<a class="rd_submitrecipebtn btn-danger rd_font11px rd_tg_extra_bold" href="http://www.tasteofhome.com/rd.asp?id=23164">SUBSCRIBE!</a>
-								</div>
+                                <a href="http://www.tasteofhome.com/rd.asp?id=23164" title="Subscribe" class="pull-right rd_sub_offer_mob_mag">           <img src="https://cdn1.tmbi.com/TOH/Images/CM_ADS/magazine-cover-mobile.png" alt="Subscribe"/>          </a>          <div>           <a class="rd_submitrecipebtn btn-danger rd_font11px rd_tg_extra_bold" href="http://www.tasteofhome.com/rd.asp?id=23164">SUBSCRIBE!</a>          </div>
                             </div >
                             -->
                         </div>
@@ -448,12 +436,7 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                                     <img src="https://cdn1.tmbi.com/TOH/Images/toh_red_logo/toh-logo-mobile.png" alt="Taste of Home Logo" />
                                 </a>
                                 <div id="rd_sub_offer_mob" class="rd_sub_offer_mob">
-                                    <a href="http://www.tasteofhome.com/rd.asp?id=23164" title="Subscribe" class="pull-right rd_sub_offer_mob_mag">
-									<img src="//cdn1.tmbi.com/TOH/Images/CM_ADS/magazine-cover-mobile.png" alt="Subscribe"/>
-								</a>
-								<div>
-									<a class="rd_submitrecipebtn btn-danger rd_font11px rd_tg_extra_bold" href="http://www.tasteofhome.com/rd.asp?id=23164">SUBSCRIBE!</a>
-								</div>
+                                    <a href="http://www.tasteofhome.com/rd.asp?id=23164" title="Subscribe" class="pull-right rd_sub_offer_mob_mag">           <img src="https://cdn1.tmbi.com/TOH/Images/CM_ADS/magazine-cover-mobile.png" alt="Subscribe"/>          </a>          <div>           <a class="rd_submitrecipebtn btn-danger rd_font11px rd_tg_extra_bold" href="http://www.tasteofhome.com/rd.asp?id=23164">SUBSCRIBE!</a>          </div>
                                 </div>
                         </div>
                             <div class="rd_mobile_search_container collapse rd_search_control">
@@ -506,34 +489,34 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                        >COLLECTIONS</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/breakfast-brunch-recipe-collections" target="_top" data-analytics-link_name="collections: Breakfast &amp; Brunch Ideas"
+                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/appetizer-recipe-collections" target="_top" data-analytics-link_name="collections: Appetizer Recipes For Any Occasion"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"collections:Breakfast &amp; Brunch Ideas","position":"drop down navigation"}'
-                       >Breakfast & Brunch Ideas</a>
+                       data-adobe-metrics='{"module":"navigation","name":"collections:Appetizer Recipes For Any Occasion","position":"drop down navigation"}'
+                       >Appetizer Recipes For Any Occasion</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/comfort-food-recipe-collections" target="_top" data-analytics-link_name="collections: Comfort Food Recipes"
+                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/beverage-recipe-collections" target="_top" data-analytics-link_name="collections: Beverage Recipes"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"collections:Comfort Food Recipes","position":"drop down navigation"}'
-                       >Comfort Food Recipes</a>
+                       data-adobe-metrics='{"module":"navigation","name":"collections:Beverage Recipes","position":"drop down navigation"}'
+                       >Beverage Recipes</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/healthy-recipe-collections" target="_top" data-analytics-link_name="collections: Healthy Recipes"
+                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/classic-recipes-collection" target="_top" data-analytics-link_name="collections: Classic Recipes"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"collections:Healthy Recipes","position":"drop down navigation"}'
-                       >Healthy Recipes</a>
+                       data-adobe-metrics='{"module":"navigation","name":"collections:Classic Recipes","position":"drop down navigation"}'
+                       >Classic Recipes</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/kid-friendly-recipe-collections" target="_top" data-analytics-link_name="collections: Kid-Friendly Recipes"
+                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/farmers-market-recipe-collections" target="_top" data-analytics-link_name="collections: Farmers Market Inspiration"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"collections:Kid-Friendly Recipes","position":"drop down navigation"}'
-                       >Kid-Friendly Recipes</a>
+                       data-adobe-metrics='{"module":"navigation","name":"collections:Farmers Market Inspiration","position":"drop down navigation"}'
+                       >Farmers Market Inspiration</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/potluck-recipe-collections" target="_top" data-analytics-link_name="collections: Potluck Recipes to Share"
+                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/salad-recipe-collections" target="_top" data-analytics-link_name="collections: Salad Recipes"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"collections:Potluck Recipes to Share","position":"drop down navigation"}'
-                       >Potluck Recipes to Share</a>
+                       data-adobe-metrics='{"module":"navigation","name":"collections:Salad Recipes","position":"drop down navigation"}'
+                       >Salad Recipes</a>
                 </div>
     </div>
                         
@@ -553,17 +536,17 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                 <h6>
                     <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="http://www.tasteofhome.com/recipes/recipe-collections/quick-easy-recipe-collections"
                        target="_top"
-                       data-analytics-link_name="collections: FAVORITE QUICK &amp; EASY RECIPES" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
+                       data-analytics-link_name="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps36562_GI163846C12_16_5b.jpg: FAVORITE QUICK &amp; EASY RECIPES" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
                      {"key":"link_pos","value":"FAVORITE QUICK &amp; EASY RECIPES- headline"},{"key":"page_template","value":""}]'>
                         FAVORITE QUICK & EASY RECIPES
                     </a>
                 </h6>
             <div>
                 <div class="rd_callout_image m-r-1 pull-left">
-                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/quick-easy-recipe-collections" target="" data-analytics-link_name="collections: FAVORITE QUICK &amp; EASY RECIPES"
+                    <a href="http://www.tasteofhome.com/recipes/recipe-collections/quick-easy-recipe-collections" target="" data-analytics-link_name="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps36562_GI163846C12_16_5b.jpg: FAVORITE QUICK &amp; EASY RECIPES"
                        data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"FAVORITE QUICK &amp; EASY RECIPES- image"},
                        {"key":"page_template","value":""}]'>
-                        <img src="//cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps2912_FM153592A03_20_2b.jpg" />
+                        <img src="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps36562_GI163846C12_16_5b.jpg" />
                     </a>
                 </div>
                 <div class="pull-left rd_menu_featuretext">
@@ -571,19 +554,19 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                         
                     </span>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/course/dinner-recipes/top-10-chicken-dinner-recipes" target="_top" data-analytics-link_name="collections: Top 10 Chicken Dinner Recipes"
+                            <a href="http://www.tasteofhome.com/recipes/cooking-style/grilling-recipes/surprising-foods-you-can-grill" target="_top" data-analytics-link_name="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps36562_GI163846C12_16_5b.jpg: 45 Surprising Foods You Can (and Should!) Grill"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                               {"key":"page_template","value":""}]'>Top 10 Chicken Dinner Recipes</a>
+                               {"key":"page_template","value":""}]'>45 Surprising Foods You Can (and Should!) Grill</a>
                         </div>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/course/dinner-recipes/sheet-pan-supper-recipes" target="_top" data-analytics-link_name="collections: 21 Sheet Pan Dinners to Make Tonight"
+                            <a href="http://www.tasteofhome.com/recipes/cooking-style/grilling-recipes/incredible-burgers-to-grill-this-summer" target="_top" data-analytics-link_name="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps36562_GI163846C12_16_5b.jpg: 34 Incredible Burgers to Grill This Summer"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                               {"key":"page_template","value":""}]'>21 Sheet Pan Dinners to Make Tonight</a>
+                               {"key":"page_template","value":""}]'>34 Incredible Burgers to Grill This Summer</a>
                         </div>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/recipe-collections/one-bowl-baking-recipes" target="_top" data-analytics-link_name="collections: 29 One-Bowl Baking Recipes"
+                            <a href="http://www.tasteofhome.com/recipes/cooking-style/grilling-recipes/top-10-grilled-desserts" target="_top" data-analytics-link_name="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps36562_GI163846C12_16_5b.jpg: Top 10 Grilled Desserts"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                               {"key":"page_template","value":""}]'>29 One-Bowl Baking Recipes</a>
+                               {"key":"page_template","value":""}]'>Top 10 Grilled Desserts</a>
                         </div>
                 </div>
             </div>
@@ -683,10 +666,10 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                        >RECIPES BY INGREDIENT</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/ingredients/asparagus-recipes" target="_top" data-analytics-link_name="recipes: Asparagus"
+                    <a href="http://www.tasteofhome.com/recipes/ingredients/berry-recipes/blueberry-recipes" target="_top" data-analytics-link_name="recipes: Blueberry"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"recipes:Asparagus","position":"drop down navigation"}'
-                       >Asparagus</a>
+                       data-adobe-metrics='{"module":"navigation","name":"recipes:Blueberry","position":"drop down navigation"}'
+                       >Blueberry</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
                     <a href="http://www.tasteofhome.com/recipes/ingredients/beef-recipes" target="_top" data-analytics-link_name="recipes: Beef"
@@ -701,22 +684,22 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                        >Chicken</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/ingredients/carrot-recipes" target="_top" data-analytics-link_name="recipes: Carrot"
+                    <a href="http://www.tasteofhome.com/recipes/ingredients/tomato-recipes" target="_top" data-analytics-link_name="recipes: Tomato"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"recipes:Carrot","position":"drop down navigation"}'
-                       >Carrot</a>
+                       data-adobe-metrics='{"module":"navigation","name":"recipes:Tomato","position":"drop down navigation"}'
+                       >Tomato</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/ingredients/egg-recipes" target="_top" data-analytics-link_name="recipes: Egg"
+                    <a href="http://www.tasteofhome.com/recipes/ingredients/watermelon-recipes" target="_top" data-analytics-link_name="recipes: Watermelon"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"recipes:Egg","position":"drop down navigation"}'
-                       >Egg</a>
+                       data-adobe-metrics='{"module":"navigation","name":"recipes:Watermelon","position":"drop down navigation"}'
+                       >Watermelon</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/ingredients/rhubarb-recipes" target="_top" data-analytics-link_name="recipes: Rhubarb"
+                    <a href="http://www.tasteofhome.com/recipes/ingredients/zucchini-recipes" target="_top" data-analytics-link_name="recipes: Zucchini"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"recipes:Rhubarb","position":"drop down navigation"}'
-                       >Rhubarb</a>
+                       data-adobe-metrics='{"module":"navigation","name":"recipes:Zucchini","position":"drop down navigation"}'
+                       >Zucchini</a>
                 </div>
                 <div class="rd_callout_cta rd_font11px rd_tg_opensans rd_tg_bold">
                     <a href="http://www.tasteofhome.com/recipes/ingredients" target="_top" data-analytics-link_name="recipes: More Ingredients"
@@ -846,8 +829,7 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
 
     <div class="rd_zone5">
                     <div class="rd_zone5_position0">
-                        
-<div class="rd_recipebottom">  <div class="span8 buttonarea">   <a href="http://www.tasteofhome.com/recipes/add?sb=M" class="btn btn-info btn-small rd_recipemenubtn" data-analytics-link_name="recipes: submit a recipe" data-analytics-link_module="navigation">                             <span>SUBMIT A RECIPE</span>   </a>   <a href="http://www.tasteofhome.com/contests" class="btn btn-info btn-small rd_recipemenubtn" data-analytics-link_name="recipes: recipe contests" data-analytics-link_module="navigation">                             <span>RECIPE CONTESTS</span>   </a>  </div>  <div class="span8 adimg">      <img src="//cdn1.tmbi.com/TOH/Images/megamenuadimgs/recipemenuad.png" alt="Best Deal" title="" class="recipemenuadimg">   <div class="subscripebtn">    <div class="rd_tg_extra_bold offertext" >SPECIAL HOLIDAY OFFER: Give a Gift Free!&nbsp;&nbsp;&nbsp;</div>    <a href="https://order.tasteofhome.com/servlet/ConvertibleGateway?cds_mag_code=TOH&cds_page_id=176627&cds_response_key=IPKAN01T&cds_response_key_gift=IPKBA06T" class="rd_submitrecipebtn btn-danger rd_font12px rd_tg_extra_bold subscribetoday" data-analytics-link_name="recipes: subscribe today" data-analytics-link_module="navigation">SUBSCRIBE TODAY</a>   </div>  </div>  </div>                            
+                        <div class="rd_recipebottom">  <div class="span8 buttonarea">   <a href="http://www.tasteofhome.com/recipes/add?sb=M" class="btn btn-info btn-small rd_recipemenubtn" data-analytics-link_name="recipes: submit a recipe" data-analytics-link_module="navigation">                             <span>SUBMIT A RECIPE</span>   </a>   <a href="http://www.tasteofhome.com/contests" class="btn btn-info btn-small rd_recipemenubtn" data-analytics-link_name="recipes: recipe contests" data-analytics-link_module="navigation">                             <span>RECIPE CONTESTS</span>   </a>  </div>  <div class="span8 adimg">      <img src="https://cdn1.tmbi.com/TOH/Images/megamenuadimgs/recipemenuad.png" alt="Best Deal" title="" class="recipemenuadimg">   <div class="subscripebtn">    <div class="rd_tg_extra_bold offertext" >SPECIAL HOLIDAY OFFER: Give a Gift Free!&nbsp;&nbsp;&nbsp;</div>    <a href="https://order.tasteofhome.com/servlet/ConvertibleGateway?cds_mag_code=TOH&cds_page_id=176627&cds_response_key=IPKAN01T&cds_response_key_gift=IPKBA06T" class="rd_submitrecipebtn btn-danger rd_font12px rd_tg_extra_bold subscribetoday" data-analytics-link_name="recipes: subscribe today" data-analytics-link_module="navigation">SUBSCRIBE TODAY</a>   </div>  </div>  </div>                        
                     </div>
     </div>
 
@@ -880,22 +862,16 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                        >HOLIDAYS</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/father-s-day-recipes" target="_top" data-analytics-link_name="Holiday Links: Father&#39;s Day"
-                       data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Holiday Links:Father&#39;s Day","position":"drop down navigation"}'
-                       >Father's Day</a>
-                </div>
-                <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/july-4th-recipes" target="_top" data-analytics-link_name="Holiday Links: July 4th"
-                       data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Holiday Links:July 4th","position":"drop down navigation"}'
-                       >July 4th</a>
-                </div>
-                <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
                     <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/labor-day-recipes" target="_top" data-analytics-link_name="Holiday Links: Labor Day"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
                        data-adobe-metrics='{"module":"navigation","name":"Holiday Links:Labor Day","position":"drop down navigation"}'
                        >Labor Day</a>
+                </div>
+                <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
+                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/halloween-recipes" target="_top" data-analytics-link_name="Holiday Links: Halloween"
+                       data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
+                       data-adobe-metrics='{"module":"navigation","name":"Holiday Links:Halloween","position":"drop down navigation"}'
+                       >Halloween</a>
                 </div>
                 <div class="rd_callout_cta rd_font11px rd_tg_opensans rd_tg_bold">
                     <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes" target="_top" data-analytics-link_name="Holiday Links: More Holidays"
@@ -925,22 +901,16 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                        >CELEBRATIONS</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/summer-entertaining/backyard-bbq" target="_top" data-analytics-link_name="Celebration Links: Backyard BBQs"
+                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/back-to-school-recipes" target="_top" data-analytics-link_name="Celebration Links: Back to School"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Celebration Links:Backyard BBQs","position":"drop down navigation"}'
-                       >Backyard BBQs</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Celebration Links:Back to School","position":"drop down navigation"}'
+                       >Back to School</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/graduation-party-recipes" target="_top" data-analytics-link_name="Celebration Links: Graduations"
+                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/tailgating-recipes" target="_top" data-analytics-link_name="Celebration Links: Tailgating"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Celebration Links:Graduations","position":"drop down navigation"}'
-                       >Graduations</a>
-                </div>
-                <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/summer-entertaining" target="_top" data-analytics-link_name="Celebration Links: Summer Entertaining"
-                       data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Celebration Links:Summer Entertaining","position":"drop down navigation"}'
-                       >Summer Entertaining</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Celebration Links:Tailgating","position":"drop down navigation"}'
+                       >Tailgating</a>
                 </div>
                 <div class="rd_callout_cta rd_font11px rd_tg_opensans rd_tg_bold">
                     <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes" target="_top" data-analytics-link_name="Celebration Links: More Celebrations"
@@ -964,19 +934,19 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
 
         <div class="rd_callout_container rd_top_nav_feature">
                 <h6>
-                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/father-s-day-recipes"
+                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/labor-day-recipes"
                        target="_top"
-                       data-analytics-link_name="Holiday Callout: FATHER&#39;S DAY RECIPES" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                     {"key":"link_pos","value":"FATHER&#39;S DAY RECIPES- headline"},{"key":"page_template","value":""}]'>
-                        FATHER'S DAY RECIPES
+                       data-analytics-link_name="Holiday Callout: LABOR DAY RECIPES" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
+                     {"key":"link_pos","value":"LABOR DAY RECIPES- headline"},{"key":"page_template","value":""}]'>
+                        LABOR DAY RECIPES
                     </a>
                 </h6>
             <div>
                 <div class="rd_callout_image m-r-1 pull-left">
-                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/father-s-day-recipes" target="" data-analytics-link_name="Holiday Callout: FATHER&#39;S DAY RECIPES"
-                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"FATHER&#39;S DAY RECIPES- image"},
+                    <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/labor-day-recipes" target="" data-analytics-link_name="Holiday Callout: LABOR DAY RECIPES"
+                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"LABOR DAY RECIPES- image"},
                        {"key":"page_template","value":""}]'>
-                        <img src="//cdn2.tmbi.com/TOH/Images/Photos/37/125x125/Dad-s-Lemony-Grilled-Chicken_exps167222_CD153714B09_16_4b_RMS.jpg" />
+                        <img src="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/Burger-Americana_exps179593_TH143192B02_13_14bC_RMS.jpg" />
                     </a>
                 </div>
                 <div class="pull-left rd_menu_featuretext">
@@ -984,22 +954,22 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                         
                     </span>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/father-s-day-recipes/dad-s-best-recipes" target="_top" data-analytics-link_name="Holiday Callout: Dad&#39;s Best Recipes"
+                            <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/july-4th-recipes/top-10-classic-american-recipes" target="_top" data-analytics-link_name="Holiday Callout: Top 10 Classic American Recipes"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                               {"key":"page_template","value":""}]'>Dad's Best Recipes</a>
+                               {"key":"page_template","value":""}]'>Top 10 Classic American Recipes</a>
                         </div>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/father-s-day-recipes/fathers-day-menus" target="_top" data-analytics-link_name="Holiday Callout: 4 Father&#39;s Day Menus That Are Way Better Than a Tie"
+                            <a href="http://www.tasteofhome.com/recipes/cooking-style/grilling-recipes/grilled-bbq-side-dishes" target="_top" data-analytics-link_name="Holiday Callout: 34 BBQ Side Dishes You Can Throw on the Grill"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                               {"key":"page_template","value":""}]'>4 Father's Day Menus That Are Way Better Than a Tie</a>
+                               {"key":"page_template","value":""}]'>34 BBQ Side Dishes You Can Throw on the Grill</a>
                         </div>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/father-s-day-recipes/recipes-approved-by-real-dads" target="_top" data-analytics-link_name="Holiday Callout: Recipes Approved by Real Dads"
+                            <a href="http://www.tasteofhome.com/recipes/course/desserts/cool-ice-cream-desserts" target="_top" data-analytics-link_name="Holiday Callout: 25 Cool Ice Cream Desserts"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                               {"key":"page_template","value":""}]'>Recipes Approved by Real Dads</a>
+                               {"key":"page_template","value":""}]'>25 Cool Ice Cream Desserts</a>
                         </div>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/father-s-day-recipes" target="_top" data-analytics-link_name="Holiday Callout: More Recipes"
+                            <a href="http://www.tasteofhome.com/recipes/holiday---celebration-recipes/labor-day-recipes" target="_top" data-analytics-link_name="Holiday Callout: More Recipes"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
                                {"key":"page_template","value":""}]'>More Recipes</a>
                         </div>
@@ -1040,34 +1010,34 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
                        >HOW TO</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-make-bone-broth" target="_top" data-analytics-link_name="How-To: Make Bone Broth"
+                    <a href="http://www.tasteofhome.com/lifestyle/how-to-clean-a-cast-iron-skillet" target="_top" data-analytics-link_name="How-To: Clean a Cast Iron"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"How-To:Make Bone Broth","position":"drop down navigation"}'
-                       >Make Bone Broth</a>
+                       data-adobe-metrics='{"module":"navigation","name":"How-To:Clean a Cast Iron","position":"drop down navigation"}'
+                       >Clean a Cast Iron</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-make-lemonade" target="_top" data-analytics-link_name="How-To: Make Lemonade"
+                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-grill-ribs-as-succulent-and-juicy-as-the-finest-rib-shack" target="_top" data-analytics-link_name="How-To: Grill Ribs"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"How-To:Make Lemonade","position":"drop down navigation"}'
-                       >Make Lemonade</a>
+                       data-adobe-metrics='{"module":"navigation","name":"How-To:Grill Ribs","position":"drop down navigation"}'
+                       >Grill Ribs</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-make-monkey-bread" target="_top" data-analytics-link_name="How-To: Make Monkey Bread"
+                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-make-zucchini-noodles-with-or-without-a-spiralizer" target="_top" data-analytics-link_name="How-To: Make Zucchini Noodles"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"How-To:Make Monkey Bread","position":"drop down navigation"}'
-                       >Make Monkey Bread</a>
+                       data-adobe-metrics='{"module":"navigation","name":"How-To:Make Zucchini Noodles","position":"drop down navigation"}'
+                       >Make Zucchini Noodles</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/make-this-easy-sourdough-bread-recipe-and-leave-store-bread-behind" target="_top" data-analytics-link_name="How-To: Make Sourdough Bread"
+                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/a-beginners-guide-to-plank-grilling" target="_top" data-analytics-link_name="How-To: Plank Grill"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"How-To:Make Sourdough Bread","position":"drop down navigation"}'
-                       >Make Sourdough Bread</a>
+                       data-adobe-metrics='{"module":"navigation","name":"How-To:Plank Grill","position":"drop down navigation"}'
+                       >Plank Grill</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-peel-a-kiwi-plus-tips-on-what-to-do-with-it-afterward" target="_top" data-analytics-link_name="How-To: Peel a Kiwi"
+                    <a href="http://www.tasteofhome.com/lifestyle/12-super-savvy-ways-to-save-money-at-restaurants" target="_top" data-analytics-link_name="How-To: Save at Restaurants"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"How-To:Peel a Kiwi","position":"drop down navigation"}'
-                       >Peel a Kiwi</a>
+                       data-adobe-metrics='{"module":"navigation","name":"How-To:Save at Restaurants","position":"drop down navigation"}'
+                       >Save at Restaurants</a>
                 </div>
     </div>
                         
@@ -1085,27 +1055,27 @@ TOH_ABOVEHEADER" href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_m
 
         <div class="rd_callout_container rd_top_nav_feature">
                 <h6>
-                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="http://www.tasteofhome.com/lifestyle/8-easy-fixes-for-a-dinner-with-too-much-salt"
+                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-deep-fry-at-home-with-confidence"
                        target="_top"
-                       data-analytics-link_name="HOW TO DEEP FRY AT HOME: 8 EASY FIXES FOR A DINNER WITH TOO MUCH SALT" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                     {"key":"link_pos","value":"8 EASY FIXES FOR A DINNER WITH TOO MUCH SALT- headline"},{"key":"page_template","value":""}]'>
-                        8 EASY FIXES FOR A DINNER WITH TOO MUCH SALT
+                       data-analytics-link_name="HOW TO DEEP FRY WITH CONFIDENCE: HOW TO DEEP FRY WITH CONFIDENCE" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
+                     {"key":"link_pos","value":"HOW TO DEEP FRY WITH CONFIDENCE- headline"},{"key":"page_template","value":""}]'>
+                        HOW TO DEEP FRY WITH CONFIDENCE
                     </a>
                 </h6>
             <div>
                 <div class="rd_callout_image m-r-1 pull-left">
-                    <a href="http://www.tasteofhome.com/lifestyle/8-easy-fixes-for-a-dinner-with-too-much-salt" target="" data-analytics-link_name="HOW TO DEEP FRY AT HOME: 8 EASY FIXES FOR A DINNER WITH TOO MUCH SALT"
-                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"8 EASY FIXES FOR A DINNER WITH TOO MUCH SALT- image"},
+                    <a href="http://www.tasteofhome.com/recipes/how-to-cook/how-to-deep-fry-at-home-with-confidence" target="" data-analytics-link_name="HOW TO DEEP FRY WITH CONFIDENCE: HOW TO DEEP FRY WITH CONFIDENCE"
+                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"HOW TO DEEP FRY WITH CONFIDENCE- image"},
                        {"key":"page_template","value":""}]'>
-                        <img src="http://cdn2.tmbi.com/TOH/Images/articles/shutterstock_476378164_125x125.jpg" />
+                        <img src="//cdn2.tmbi.com/TOH/Images/articles/ps167360_TH2847295D02_27_3b_125x125.jpg" />
                     </a>
                 </div>
                 <div class="pull-left rd_menu_featuretext">
                     <span class="rd_callout_description rd_font12px">
-                        Step away from the garbage can!—you just might be able to salvage a dish that has too much salt and here's how.
+                        Keep shying away from deep frying? Bookmark this guide.
                     </span>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="http://www.tasteofhome.com/recipes/how-to-cook" target="_top" data-analytics-link_name="HOW TO DEEP FRY AT HOME: More Tips &amp; How Tos"
+                            <a href="http://www.tasteofhome.com/recipes/how-to-cook" target="_top" data-analytics-link_name="HOW TO DEEP FRY WITH CONFIDENCE: More Tips &amp; How Tos"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
                                {"key":"page_template","value":""}]'>More Tips & How Tos</a>
                         </div>
@@ -1149,16 +1119,16 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                        >TASTE OF HOME LIVE!</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/live" target="_top" data-analytics-link_name="cooking schools: Taste of Home&#39;s NEW event series, launching in Spring 2017."
+                    <a href="http://www.tasteofhome.com/live" target="_top" data-analytics-link_name="cooking schools: Taste of Home&#39;s NEW event series! See us live in a city near you!"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"cooking schools:Taste of Home&#39;s NEW event series, launching in Spring 2017.","position":"drop down navigation"}'
-                       >Taste of Home's NEW event series, launching in Spring 2017.</a>
+                       data-adobe-metrics='{"module":"navigation","name":"cooking schools:Taste of Home&#39;s NEW event series! See us live in a city near you!","position":"drop down navigation"}'
+                       >Taste of Home's NEW event series! See us live in a city near you!</a>
                 </div>
                 <div class="rd_callout_cta rd_font11px rd_tg_opensans rd_tg_bold">
-                    <a href="http://www.tasteofhome.com/live" target="_top" data-analytics-link_name="cooking schools: Find Out More"
+                    <a href="http://www.tasteofhome.com/live" target="_top" data-analytics-link_name="cooking schools: Tour Dates and More"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Find Out More","position":"drop down navigation"}'
-                       >Find Out More</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Tour Dates and More","position":"drop down navigation"}'
+                       >Tour Dates and More</a>
                 </div>
     </div>
                         
@@ -1176,29 +1146,29 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
 
         <div class="rd_callout_container rd_top_nav_feature">
                 <h6>
-                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="https://www.tohcookingschool.com/bundles/all-access-membership/?trkid=DKSWPS_TOHCOM_080315_SCHLPGSUBNAV"
+                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="https://www.shoptasteofhome.com/toh-live"
                        target="_top"
-                       data-analytics-link_name="cooking schools: WHAT COULD YOU MAKE IN A YEAR?" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                     {"key":"link_pos","value":"WHAT COULD YOU MAKE IN A YEAR?- headline"},{"key":"page_template","value":""}]'>
-                        WHAT COULD YOU MAKE IN A YEAR?
+                       data-analytics-link_name="cooking schools: FOOD, FUN &amp; NEW RECIPES!" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
+                     {"key":"link_pos","value":"FOOD, FUN &amp; NEW RECIPES!- headline"},{"key":"page_template","value":""}]'>
+                        FOOD, FUN & NEW RECIPES!
                     </a>
                 </h6>
             <div>
                 <div class="rd_callout_image m-r-1 pull-left">
-                    <a href="https://www.tohcookingschool.com/bundles/all-access-membership/?trkid=DKSWPS_TOHCOM_080315_SCHLPGSUBNAV" target="" data-analytics-link_name="cooking schools: WHAT COULD YOU MAKE IN A YEAR?"
-                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"WHAT COULD YOU MAKE IN A YEAR?- image"},
+                    <a href="https://www.shoptasteofhome.com/toh-live" target="" data-analytics-link_name="cooking schools: FOOD, FUN &amp; NEW RECIPES!"
+                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"FOOD, FUN &amp; NEW RECIPES!- image"},
                        {"key":"page_template","value":""}]'>
-                        <img src="https://cdn2.tmbi.com/TOH/Images/CookingSchool/2015/member/TOHCSO-125x125.gif" />
+                        <img src="https://cdn1.tmbi.com/TOH/images/TasteofHomeLive/TOHL-125x125.jpg" />
                     </a>
                 </div>
                 <div class="pull-left rd_menu_featuretext">
                     <span class="rd_callout_description rd_font12px">
-                        Discover your cooking potential with a full year of the new All-Access Membership!
+                        Join us as we hit the road with our new live cooking show!
                     </span>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
-                            <a href="https://www.tohcookingschool.com/bundles/all-access-membership/?trkid=DKSWPS_TOHCOM_080315_SCHLPGSUBNAV" target="_top" data-analytics-link_name="cooking schools: Join Today"
+                            <a href="https://www.shoptasteofhome.com/toh-live" target="_top" data-analytics-link_name="cooking schools: Find Tickets"
                                data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                               {"key":"page_template","value":""}]'>Join Today</a>
+                               {"key":"page_template","value":""}]'>Find Tickets</a>
                         </div>
                 </div>
             </div>
@@ -1243,7 +1213,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                     <a href="http://www.tasteofhome.com/recipes/add/?sb=C&amp;cid=208192" target="" data-analytics-link_name="ULTIMATE SLOW COOKER RECIPE CONTEST: ULTIMATE SLOW COOKER RECIPE CONTEST"
                        data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"ULTIMATE SLOW COOKER RECIPE CONTEST- image"},
                        {"key":"page_template","value":""}]'>
-                        <img src="//cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps18483_GB153642B01_07_7b.jpg" />
+                        <img src="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps18483_GB153642B01_07_7b.jpg" />
                     </a>
                 </div>
                 <div class="pull-left rd_menu_featuretext">
@@ -1285,10 +1255,16 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                        >Submit a Recipe to the Test Kitchen</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&amp;cds_page_id=214337&amp;cds_response_key=IVDAJUA01" target="_top" data-analytics-link_name="Recipe Contests: Enter to Win a Le Creuset Cookware Set!"
+                    <a href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&amp;cds_page_id=214337&amp;cds_response_key=IVDAJUA01" target="_blank" data-analytics-link_name="Recipe Contests: Enter to Win a Le Creuset Cookware Set!"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
                        data-adobe-metrics='{"module":"navigation","name":"Recipe Contests:Enter to Win a Le Creuset Cookware Set!","position":"drop down navigation"}'
                        >Enter to Win a Le Creuset Cookware Set!</a>
+                </div>
+                <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
+                    <a href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&amp;cds_page_id=217194&amp;cds_response_key=IVJAJUA01" target="_blank" data-analytics-link_name="Recipe Contests: Enter to Win an All-Clad Cookware Set!"
+                       data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
+                       data-adobe-metrics='{"module":"navigation","name":"Recipe Contests:Enter to Win an All-Clad Cookware Set!","position":"drop down navigation"}'
+                       >Enter to Win an All-Clad Cookware Set!</a>
                 </div>
     </div>
                         
@@ -1329,7 +1305,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                     <a href="https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&amp;cds_page_id=163153&amp;cds_response_key=ITLRDU102" target="" data-analytics-link_name="Magazine: TRY AMERICA&#39;S #1 COOKING MAGAZINE!"
                        data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"TRY AMERICA&#39;S #1 COOKING MAGAZINE!- image"},
                        {"key":"page_template","value":""}]'>
-                        <img src="//cdn1.tmbi.com/MagCovers/thcoverx.jpg" />
+                        <img src="https://cdn1.tmbi.com/MagCovers/thcoverx.jpg" />
                     </a>
                 </div>
                 <div class="pull-left rd_menu_featuretext">
@@ -1428,24 +1404,24 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
 
         <div class="rd_callout_container rd_top_nav_feature">
                 <h6>
-                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="http://www.tasteofhome.com/recipes/cooking-style/slow-cooker-recipes/our-favorite-slow-cooker-beef-recipes"
+                    <a class="rd_callout_title rd_font14px rd_tg_opensans rd_tg_bold" href="http://www.tasteofhome.com/recipes/course/dinner-recipes/affordable-dinner-party-recipes"
                        target="_top"
-                       data-analytics-link_name="Dinner Ideas: OUR FAVORITE SLOW COOKER BEEF RECIPES" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
-                     {"key":"link_pos","value":"OUR FAVORITE SLOW COOKER BEEF RECIPES- headline"},{"key":"page_template","value":""}]'>
-                        OUR FAVORITE SLOW COOKER BEEF RECIPES
+                       data-analytics-link_name="Dinner Ideas: 35 IMPRESSIVE (AND AFFORDABLE!) DINNER PARTY RECIPES" data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},
+                     {"key":"link_pos","value":"35 IMPRESSIVE (AND AFFORDABLE!) DINNER PARTY RECIPES- headline"},{"key":"page_template","value":""}]'>
+                        35 IMPRESSIVE (AND AFFORDABLE!) DINNER PARTY RECIPES
                     </a>
                 </h6>
             <div>
                 <div class="rd_callout_image m-r-1 pull-left">
-                    <a href="http://www.tasteofhome.com/recipes/cooking-style/slow-cooker-recipes/our-favorite-slow-cooker-beef-recipes" target="" data-analytics-link_name="Dinner Ideas: OUR FAVORITE SLOW COOKER BEEF RECIPES"
-                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"OUR FAVORITE SLOW COOKER BEEF RECIPES- image"},
+                    <a href="http://www.tasteofhome.com/recipes/course/dinner-recipes/affordable-dinner-party-recipes" target="" data-analytics-link_name="Dinner Ideas: 35 IMPRESSIVE (AND AFFORDABLE!) DINNER PARTY RECIPES"
+                       data-analytics-metrics='[{"key":"link_module","value":"callout - feature text"},{"key":"link_pos","value":"35 IMPRESSIVE (AND AFFORDABLE!) DINNER PARTY RECIPES- image"},
                        {"key":"page_template","value":""}]'>
-                        <img src="//cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps111778_TH143195C07_30_7b.jpg" />
+                        <img src="https://cdn2.tmbi.com/TOH/Images/Photos/37/125x125/exps186029_MC163887D03_24_6b.jpg" />
                     </a>
                 </div>
                 <div class="pull-left rd_menu_featuretext">
                     <span class="rd_callout_description rd_font12px">
-                        Have a busy day ahead? Put your crock pot to work! Our favorite slow cooker beef recipes boast major flavor.
+                        Entertaining doesn't have to break the bank. Let our collection of guest-worthy appetizers and entrees inspire you.
                     </span>
                         <div class="row-fluid rd_callout_cta rd_font15px rd_tg_opensans rd_tg_extra_bold">
                             <a href="http://www.tasteofhome.com/recipes/cooking-style/slow-cooker-recipes/our-favorite-slow-cooker-beef-recipes" target="_top" data-analytics-link_name="Dinner Ideas: Get Recipes"
@@ -1476,34 +1452,34 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                        >WHAT'S FOR DINNER?</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/ingredients/pasta-recipes/better-for-you-pasta-recipes" target="_top" data-analytics-link_name="Dinner Ideas: 42 Better-for-You Pasta Recipes"
+                    <a href="http://www.tasteofhome.com/recipes/ingredients/pork-recipes/easy-pork-chop-recipes" target="_top" data-analytics-link_name="Dinner Ideas: 40 Easy Pork Chop Recipes"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:42 Better-for-You Pasta Recipes","position":"drop down navigation"}'
-                       >42 Better-for-You Pasta Recipes</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:40 Easy Pork Chop Recipes","position":"drop down navigation"}'
+                       >40 Easy Pork Chop Recipes</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/course/dinner-recipes/budget-friendly-dinners-that-are-big-on-taste" target="_top" data-analytics-link_name="Dinner Ideas: 70 Budget-Friendly Dinners"
+                    <a href="http://www.tasteofhome.com/recipes/ingredients/chicken-recipes/tasty-chicken-thigh-recipes" target="_top" data-analytics-link_name="Dinner Ideas: 40 Tasty Chicken Thigh Recipes"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:70 Budget-Friendly Dinners","position":"drop down navigation"}'
-                       >70 Budget-Friendly Dinners</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:40 Tasty Chicken Thigh Recipes","position":"drop down navigation"}'
+                       >40 Tasty Chicken Thigh Recipes</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/kids-recipes/kid-friendly-recipes-that-arent-chicken-nuggets" target="_top" data-analytics-link_name="Dinner Ideas: 50 Kid-Friendly Meals"
+                    <a href="http://www.tasteofhome.com/recipes/cooking-style/slow-cooker-recipes/crockpot-recipes-for-two" target="_top" data-analytics-link_name="Dinner Ideas: 46 Slow Cooker Recipes for Two"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:50 Kid-Friendly Meals","position":"drop down navigation"}'
-                       >50 Kid-Friendly Meals</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:46 Slow Cooker Recipes for Two","position":"drop down navigation"}'
+                       >46 Slow Cooker Recipes for Two</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/cooking-style/make-ahead-recipes/make-ahead-freezer-meals" target="_top" data-analytics-link_name="Dinner Ideas: 45 Make-Ahead Freezer Meals"
+                    <a href="http://www.tasteofhome.com/recipes/course/dinner-recipes/recipes-with-bread" target="_top" data-analytics-link_name="Dinner Ideas: 50 Dinners for Serious Bread Lovers"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:45 Make-Ahead Freezer Meals","position":"drop down navigation"}'
-                       >45 Make-Ahead Freezer Meals</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:50 Dinners for Serious Bread Lovers","position":"drop down navigation"}'
+                       >50 Dinners for Serious Bread Lovers</a>
                 </div>
                 <div class="rd_callout_cta rd_font12px rd_tg_opensans rd_tg_normal">
-                    <a href="http://www.tasteofhome.com/recipes/course/dinner-recipes/grandmas-best-suppers" target="_top" data-analytics-link_name="Dinner Ideas: Grandma&#39;s Best Suppers"
+                    <a href="http://www.tasteofhome.com/recipes/course/dinner-recipes/top-10-quick-dinners" target="_top" data-analytics-link_name="Dinner Ideas: Top 10 Quick Dinners"
                        data-analytics-metrics='[{"key":"link_module","value":"List of Links- Column"}]'
-                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:Grandma&#39;s Best Suppers","position":"drop down navigation"}'
-                       >Grandma's Best Suppers</a>
+                       data-adobe-metrics='{"module":"navigation","name":"Dinner Ideas:Top 10 Quick Dinners","position":"drop down navigation"}'
+                       >Top 10 Quick Dinners</a>
                 </div>
     </div>
                         
@@ -1524,12 +1500,12 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                                 </li>
 
                                 <li data-bind="visible: LoginStatus() == '2'" class="dropdown rd_user_account rd_user_item" id="main-nav-menu7">
-                                    <a class="dropdown-toggle" role="button" data-auth="true" title="My Recipe Box"  data-auth-title="Log In or Join Now to Access Your Recipe Box" data-auth-registrationsource="myrecipebox" href="http://www.tasteofhome.com/recipe-box?1497440980379"  id="drop7" data-analytics-link_name="my recipebox"
+                                    <a class="dropdown-toggle" role="button" data-auth="true" title="My Recipe Box"  data-auth-title="Log In or Join Now to Access Your Recipe Box" data-auth-registrationsource="myrecipebox" href="http://www.tasteofhome.com/recipe-box?1500324718619"  id="drop7" data-analytics-link_name="my recipebox"
                                        data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>My Recipe Box<b class="caret"></b></a>
                                 </li>
 
                                 <li data-bind="visible: LoginStatus() != '2'" class="dropdown rd_user_account rd_user_item" id="main-nav-menu8">
-                                    <a href="#" class="dropdown-toggle" role="button" data-auth="true" title="Log In" data-auth-title="Log In"  id="drop8" data-analytics-link_name="log in"
+                                    <a href="#" class="dropdown-toggle" role="button" data-auth="true" title="Log In" data-auth-title="Log In"  id="drop8login" data-analytics-link_name="log in"
                                        data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Log in<b class="caret"></b></a>
                                 </li>
                                 <li data-bind="visible: LoginStatus() == '2'" class="dropdown rd_user_account rd_user_item" id="main-nav-menu9">
@@ -1573,7 +1549,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                      <div class="rd_section_no_bg">
                                     <div class="rd_feature_multi_slide_template scroller_similar_recipes slide-stack">
                                         <ul>
-                                    <li class="rd_widget_scroller_item_selected" style="background-image: url('//cdn2.tmbi.com/TOH/Images/Photos/37/145x145/exps170814_TH143194D06_18_3b.jpg')">
+                                    <li class="rd_widget_scroller_item_selected" style="background-image: url('https://cdn2.tmbi.com/TOH/Images/Photos/37/145x145/exps170814_TH143194D06_18_3b.jpg')">
                <a href="/recipes/course/desserts/christmas-potluck-desserts-for-12-or-more" data-analytics-link_name="78 Christmas Potluck Desserts for 12 or More" data-analytics-metrics='[{"key":"link_module","value":"you may also like"},{"key":"page_template","value":"recipe detail"},{"key":"content_id","value":"208125"},{"key":"content_name","value":"78 Christmas Potluck Desserts for 12 or More"}, {"key":"link_pos","value":"thumbnail"},{"key":"link_page","value":"recipe detail"},{"key":"source","value":"recipe detail"}]' data-adobe-metrics='{"module":"content recirculation","name":"78 Christmas Potluck Desserts for 12 or More","position":"you may also like"}'> 
                 <div class="inlineBlock">
                     <div class="rd_font15px text-left" style="line-height: 1.2em">
@@ -1583,7 +1559,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                 </div>
                 </a>
             </li>
-           <li class="rd_widget_scroller_item_selected" style="background-image: url('//cdn2.tmbi.com/TOH/Images/Photos/37/145x145/Chocolate-Fruit-Basket-Cake_exps47663_SD1785600D52A_RMS.jpg')">
+           <li class="rd_widget_scroller_item_selected" style="background-image: url('https://cdn2.tmbi.com/TOH/Images/Photos/37/145x145/Chocolate-Fruit-Basket-Cake_exps47663_SD1785600D52A_RMS.jpg')">
                <a href="/recipes/course/desserts/easy-cake-decorating-ideas" data-analytics-link_name="34 Easy Cake Decorating Ideas" data-analytics-metrics='[{"key":"link_module","value":"you may also like"},{"key":"page_template","value":"recipe detail"},{"key":"content_id","value":"209346"},{"key":"content_name","value":"34 Easy Cake Decorating Ideas"}, {"key":"link_pos","value":"thumbnail"},{"key":"link_page","value":"recipe detail"},{"key":"source","value":"recipe detail"}]' data-adobe-metrics='{"module":"content recirculation","name":"34 Easy Cake Decorating Ideas","position":"you may also like"}'> 
                 <div class="inlineBlock">
                     <div class="rd_font15px text-left" style="line-height: 1.2em">
@@ -1593,7 +1569,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                 </div>
                 </a>
             </li>
-           <li class="rd_widget_scroller_item_selected" style="background-image: url('//cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps9345_QC10014C6A.jpg')">
+           <li class="rd_widget_scroller_item_selected" style="background-image: url('https://cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps9345_QC10014C6A.jpg')">
                <a href="http://www.tasteofhome.com/recipes/easy-black-forest-torte" data-analytics-link_name="Easy Black Forest Torte" data-analytics-metrics='[{"key":"link_module","value":"you may also like"},{"key":"page_template","value":"recipe detail"},{"key":"content_id","value":"0"},{"key":"content_name","value":"Easy Black Forest Torte"}, {"key":"link_pos","value":"thumbnail"},{"key":"link_page","value":"recipe detail"},{"key":"source","value":"recipe detail"}]' data-adobe-metrics='{"module":"content recirculation","name":"Easy Black Forest Torte","position":"you may also like"}'> 
                 <div class="inlineBlock">
                 <div class="rd_start_rating_similar_recipes">
@@ -1636,7 +1612,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
         <div id="mobileShare" class="rd_social_container">
             <div class="rd_mobile_social rd_font_icon_collection">
 
-                <a class="rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933285350083103" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=http%3A&name=Sticky" target="_blank"
+                <a class="rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933285350083103" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=&name=Sticky" target="_blank"
                    data-analytics-link_name="Facebook" title="facebook"
                    data-analytics-metrics='{"leave_page":"false","content_name":"Sticky","content_id":"14065","category":"recipes","subcat":"cranberry-torte","subsubcat":"","page_template":"recipe detail","partner_name":"Taste of Home","link_module":"social share"}' data-adobe-metrics='{"module":"social share","name":"Facebook","position":"left sticky nav"}'>
                     <span class="fa-stack rd_fi_ss rd_fi_small rd_fi_ss_facebook ">
@@ -1645,7 +1621,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                     </span>
                 </a>
 
-                        <a class="rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=http%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg&description=Sticky"
+                        <a class="rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=https%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg&description=Sticky"
                            target="_blank"
                            data-analytics-link_name="Pinterest" title="pinterest"
                            data-analytics-metrics='{"leave_page":"false","content_name":"Sticky","content_id":"14065","category":"recipes","subcat":"cranberry-torte","subsubcat":"","page_template":"recipe detail","partner_name":"Taste of Home","link_module":"social share"}' data-adobe-metrics='{"module":"social share","name":"Pinterest","position":"left sticky nav"}'>
@@ -1817,7 +1793,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
         <div id="mobileShare" class="rd_social_container">
             <div class="rd_mobile_social rd_font_icon_collection">
 
-                <a class="rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933285350083103" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=http%3A&name=Cranberry Torte" target="_blank"
+                <a class="rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933285350083103" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=&name=Cranberry Torte" target="_blank"
                    data-analytics-link_name="Facebook" title="facebook"
                    data-analytics-metrics='{"leave_page":"false","content_name":"Cranberry Torte","content_id":"14065","category":"recipes","subcat":"cranberry-torte","subsubcat":"","page_template":"recipe detail","partner_name":"Taste of Home","link_module":"social share"}' data-adobe-metrics='{"module":"social share","name":"Facebook","position":"left sticky nav"}'>
                     <span class="fa-stack rd_fi_ss rd_fi_small rd_fi_ss_facebook ">
@@ -1826,7 +1802,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                     </span>
                 </a>
 
-                        <a class="rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=http%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg&description=Cranberry Torte"
+                        <a class="rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=https%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg&description=Cranberry Torte"
                            target="_blank"
                            data-analytics-link_name="Pinterest" title="pinterest"
                            data-analytics-metrics='{"leave_page":"false","content_name":"Cranberry Torte","content_id":"14065","category":"recipes","subcat":"cranberry-torte","subsubcat":"","page_template":"recipe detail","partner_name":"Taste of Home","link_module":"social share"}' data-adobe-metrics='{"module":"social share","name":"Pinterest","position":"left sticky nav"}'>
@@ -1857,13 +1833,13 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                     <div class="seperator visible-phone" style="margin:.3rem auto;"></div>
                     <section class="pull-left rd_recipe_img">
                         <div class="rd_recipe_img_container">
-                            <img data-rd-fb-recipe data-share-fb-imageurl="http://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" class="hidden-phone photo" alt="Cranberry Torte Recipe" title="Cranberry Torte Recipe" itemprop="image" src="//cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
-                            <div class="visible-phone mobRecipeImage" style="background:#fff url('//cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg') center center no-repeat"></div>
+                            <img data-rd-fb-recipe data-share-fb-imageurl="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" class="hidden-phone photo" alt="Cranberry Torte Recipe" title="Cranberry Torte Recipe" itemprop="image" src="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" />
+                            <div class="visible-phone mobRecipeImage" style="background:#fff url('https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg') center center no-repeat"></div>
                             <div class="rd_photo_publisher hidden-phone">Cranberry Torte Recipe photo by Taste of Home</div>
-                            <div class="pinit" data-share-pinit-imageurl="http://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" data-src="//cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" description="&quot;Besides being eye-catching and delicious, this treat is conveniently made ahead and frozen,&quot; says field editor Pat Waymire, Yellow Springs, Ohio. &quot;I fix the topping on the day I serve the torte.&quot;" data-description="Cranberry Torte Recipe -&quot;Besides being eye-catching and delicious, this treat is conveniently made ahead and frozen,&quot; says field editor Pat Waymire, Yellow Springs, Ohio. &quot;I fix the topping on the day I serve the torte.&quot;"
+                            <div class="pinit" data-share-pinit-imageurl="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" data-src="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" description="&quot;Besides being eye-catching and delicious, this treat is conveniently made ahead and frozen,&quot; says field editor Pat Waymire, Yellow Springs, Ohio. &quot;I fix the topping on the day I serve the torte.&quot;" data-description="Cranberry Torte Recipe -&quot;Besides being eye-catching and delicious, this treat is conveniently made ahead and frozen,&quot; says field editor Pat Waymire, Yellow Springs, Ohio. &quot;I fix the topping on the day I serve the torte.&quot;"
                                  data-analytics-link_name="pinterest" data-analytics-metrics='[{"key":"link_pos","value":"image hover"}, {"key":"page_template","value":"recipe detail"}, {"key":"content-id","value":"14065"}, {"key":"partner-name","value":"Taste of Home"},{"key":"content-name","value":"Cranberry Torte"}]'>
                             </div>
-                                <span class="hide visible-xs publisher-mobile"><img src="//cdn2.tmbi.com/TOH/Images/Photos/76/100x100/CP_Waymire_1168_b.jpg" id="publisher_photo" class="publisher_photo" alt="Publisher Photo" /></span>
+                                <span class="hide visible-xs publisher-mobile"><img src="https://cdn2.tmbi.com/TOH/Images/Photos/76/100x100/CP_Waymire_1168_b.jpg" id="publisher_photo" class="publisher_photo" alt="Publisher Photo" /></span>
 
                         </div>
                     </section>
@@ -1908,10 +1884,10 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                                                                             <span>1</span>
                                 </div>
                                 <div class="visible-tablet pull-right">
-                                    <a class="social-icon facebook rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933291393415832" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=http%3A&name=Cranberry%20Torte" target="_blank" data-analytics-link_name="Facebook" title="facebook" data-analytics-metrics="{&quot;leave_page&quot;:&quot;false&quot;,&quot;content_name&quot;:&quot;Gingerbread&quot;,&quot;content_id&quot;:&quot;4148&quot;,&quot;category&quot;:&quot;recipes&quot;,&quot;subcat&quot;:&quot;gingerbread&quot;,&quot;subsubcat&quot;:&quot;&quot;,&quot;page_template&quot;:&quot;recipe detail&quot;,&quot;partner_name&quot;:&quot;Reminisce&quot;,&quot;link_module&quot;:&quot;social share&quot;}" data-adobe-metrics="{&quot;module&quot;:&quot;social share&quot;,&quot;name&quot;:&quot;Facebook&quot;,&quot;position&quot;:&quot;left sticky nav&quot;}" data-analytics-right_click_event="true">
+                                    <a class="social-icon facebook rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933291393415832" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=&name=Cranberry%20Torte" target="_blank" data-analytics-link_name="Facebook" title="facebook" data-analytics-metrics="{&quot;leave_page&quot;:&quot;false&quot;,&quot;content_name&quot;:&quot;Gingerbread&quot;,&quot;content_id&quot;:&quot;4148&quot;,&quot;category&quot;:&quot;recipes&quot;,&quot;subcat&quot;:&quot;gingerbread&quot;,&quot;subsubcat&quot;:&quot;&quot;,&quot;page_template&quot;:&quot;recipe detail&quot;,&quot;partner_name&quot;:&quot;Reminisce&quot;,&quot;link_module&quot;:&quot;social share&quot;}" data-adobe-metrics="{&quot;module&quot;:&quot;social share&quot;,&quot;name&quot;:&quot;Facebook&quot;,&quot;position&quot;:&quot;left sticky nav&quot;}" data-analytics-right_click_event="true">
                                         <i class="fa fa-facebook fa-inverse"></i>
                                     </a>
-                                    <a class="social-icon pinterest rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=http%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg" target="_blank" data-analytics-link_name="Pinterest" title="pinterest" data-analytics-metrics="{&quot;leave_page&quot;:&quot;false&quot;,&quot;content_name&quot;:&quot;Gingerbread&quot;,&quot;content_id&quot;:&quot;4148&quot;,&quot;category&quot;:&quot;recipes&quot;,&quot;subcat&quot;:&quot;gingerbread&quot;,&quot;subsubcat&quot;:&quot;&quot;,&quot;page_template&quot;:&quot;recipe detail&quot;,&quot;partner_name&quot;:&quot;Reminisce&quot;,&quot;link_module&quot;:&quot;social share&quot;}" data-adobe-metrics="{&quot;module&quot;:&quot;social share&quot;,&quot;name&quot;:&quot;Pinterest&quot;,&quot;position&quot;:&quot;left sticky nav&quot;}" data-analytics-right_click_event="true">
+                                    <a class="social-icon pinterest rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=https%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg" target="_blank" data-analytics-link_name="Pinterest" title="pinterest" data-analytics-metrics="{&quot;leave_page&quot;:&quot;false&quot;,&quot;content_name&quot;:&quot;Gingerbread&quot;,&quot;content_id&quot;:&quot;4148&quot;,&quot;category&quot;:&quot;recipes&quot;,&quot;subcat&quot;:&quot;gingerbread&quot;,&quot;subsubcat&quot;:&quot;&quot;,&quot;page_template&quot;:&quot;recipe detail&quot;,&quot;partner_name&quot;:&quot;Reminisce&quot;,&quot;link_module&quot;:&quot;social share&quot;}" data-adobe-metrics="{&quot;module&quot;:&quot;social share&quot;,&quot;name&quot;:&quot;Pinterest&quot;,&quot;position&quot;:&quot;left sticky nav&quot;}" data-analytics-right_click_event="true">
                                         <i class="fa fa-pinterest-p fa-inverse"></i>
                                     </a>
                                         <a href="javascript:void(0)" rel="nofollow" data-toggle="modal"
@@ -1929,7 +1905,7 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                             <div class="span16">
                                 <div class="row-fluid">
                                     <div class="span16" style="margin-bottom:1rem">
-                                            <img src="//cdn2.tmbi.com/TOH/Images/Photos/76/100x100/CP_Waymire_1168_b.jpg" id="publisher_photo" class="publisher_photo" alt="Publisher Photo" />
+                                            <img src="https://cdn2.tmbi.com/TOH/Images/Photos/76/100x100/CP_Waymire_1168_b.jpg" id="publisher_photo" class="publisher_photo" alt="Publisher Photo" />
                                                                                     <div class="rec-romance right">
                                                 <span itemprop="description">"Besides being eye-catching and delicious, this treat is conveniently made ahead and frozen," says field editor Pat Waymire, Yellow Springs, Ohio. "I fix the topping on the day I serve the torte."</span>
                                             </div>
@@ -1967,27 +1943,19 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                     <div class="recipe-bar">
 
 
-                            <div class="span3" style="margin-left:10px"><a href="javascript:void(0)" onclick="ScrollToRateRecipe()" data-analytics-metrics='{"link_module":"recipe engagement" ,"link_pos":"below romance copy","link_name" : "Rate Recipe"}' data-analytics-link_name="Rate Recipe" data-adobe-metrics='{"module":"recipe engagement","name":"Rate Recipe","position":"below romance copy"}'><i class="fa fa-star"></i> Rate</a></div>
+                            <div class="span4"><a href="javascript:void(0)" onclick="ScrollToRateRecipe()" data-analytics-metrics='{"link_module":"recipe engagement" ,"link_pos":"below romance copy","link_name" : "Rate Recipe"}' data-analytics-link_name="Rate Recipe" data-adobe-metrics='{"module":"recipe engagement","name":"Rate Recipe","position":"below romance copy"}'><i class="fa fa-star"></i> Rate</a></div>
                             <div class="span4"><a href="javascript:void(0)" onclick="ScrollToRateRecipe()" data-analytics-metrics='{"link_module":"recipe engagement" ,"link_pos":"below romance copy","link_name" : "Comment"}' data-analytics-link_name="Comment" data-adobe-metrics='{"module":"recipe engagement","name":"Comment","position":"below romance copy"}'><i class="fa fa-comment"></i> Comment</a></div>
-                            <div class="span3">
+                            <div class="span4">
                                     <a href="javascript:void(0)" data-auth="true" data-auth-isdependant="true" data-auth-description="Please log in or join now to manage your recipe box." data-auth-registrationsource="Add to Recipe Box"
                                        data-bind="attr: { onclick: RecipeBoxClick, 'data-auth-callback': RecipeBoxClick == 'void(0)' ? RecipeBoxUrl : RecipeBoxClick, href: RecipeBoxUrl, 'data-auth-recipe-text': RecipeBoxText, 'data-analytics-link_name' : RecipeBoxText, 'data-analytics-link_module' : RecipeBoxText }" id="lnkAddToBoxPhone"
-                                       title="Add Cranberry Torte to My Recipe Box" data-auth-title="Add Cranberry Torte to My Recipe Box" data-content-url="//cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" data-content-title="Cranberry Torte" data-content-type="37" data-content-id="14065"
+                                       title="Add Cranberry Torte to My Recipe Box" data-auth-title="Add Cranberry Torte to My Recipe Box" data-content-url="https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/exps14065_TH10145C64.jpg" data-content-title="Cranberry Torte" data-content-type="37" data-content-id="14065"
                                        data-analytics-metrics='{"page_template":"recipe detail", "ns_type": "hidden"}' data-adobe-metrics='{"module":"recipe engagement","name":"add to recipe box","position":"below romance copy"}'><i class="fa fa-heart"></i><span data-bind="text: RecipeBoxText">  Save</span></a>
                             </div>
-                            <div class="span3">
-                                <a href="http://www.tasteofhome.com/recipes/cranberry-torte/print" style="padding:0" class="rd_printbutton" data-analytics-link_name="print" data-analytics-metrics='{"link_module": "recipe detail print", "page_template":"recipe detail", "ns_type": "hidden"}' data-adobe-metrics='{"module":"recipe engagement","name":"print","position":"below romance copy"}'>
+                            <div class="span4">
+                                <a href="/recipes/cranberry-torte/print" style="padding:0" class="rd_printbutton" data-analytics-link_name="print" data-analytics-metrics='{"link_module": "recipe detail print", "page_template":"recipe detail", "ns_type": "hidden"}' data-adobe-metrics='{"module":"recipe engagement","name":"print","position":"below romance copy"}'>
                                     <i class="fa fa-print" aria-hidden="true"></i>
                                     Print
                                 </a>
-                            </div>
-                            <div class="span3">
-                                <a href="#" data-auth="true" id="btnshowaddtoshoppinglist" data-auth-title="Add Cranberry Torte to My Shopping List " data-auth-isdependant="true" data-auth-callback="Javascript:AddRecipeToShoppingList()" data-auth-registrationsource="AddtoShoppingList" data-bind="attr: { href: GroceryListUrl,'data-auth-recipe-text': GroceryListText }"
-                                   onclick="return AddToGroceryListComscoreEvent(this);"
-                                   data-content-id="14065"
-                                   data-content-title="Cranberry Torte"
-                                   data-content-type="37"
-                                   data-partner-name="Taste of Home" data-adobe-metrics='{"module":"recipe engagement","name":"add to shopping list","position":"recipe detail"}'><i class="fa fa-plus"></i><span data-bind="text: GroceryListText"> List</span></a>
                             </div>
                         <div class="clearfix"></div>
                     </div>
@@ -2071,18 +2039,6 @@ data-analytics-metrics='[{"key":"link_module","value":"navigation"}]'>Events<b c
                                         </li>
                                 </ul>
 
-                                    <div class="seperator m-y-1"></div>
-                                    <div class="rd_button_container">
-                                        <a href = "#" data-auth="true" id="btnshowaddtoshoppinglist1" data-auth-title="Add Cranberry Torte to My Shopping List " data-auth-isdependant="true" data-auth-callback="Javascript:AddRecipeToShoppingList()" data-auth-registrationsource="AddtoShoppingList" data-bind="attr: { href: GroceryListUrl }"
-                                            class="shopping-btn uppercase"
-                                           onclick="return AddToGroceryListComscoreEvent(this);"
-                                           data-content-id="14065"
-                                           data-content-title="Cranberry Torte"
-                                           data-content-type="37"
-                                           data-partner-name="Taste of Home" data-adobe-metrics='{"module":"recipe engagement","name":"add to shopping list","position":"recipe detail"}'>
-                                            <i class="fa fa-plus"></i> <span data-bind="text: GroceryListText"> List</span>
-                                        </a>
-                                    </div>
 
                             </section>
 
@@ -2241,16 +2197,6 @@ December/January 2001, p65                                        </div>
                     </div>
                 </div>
                 <div class="rd_button_container m-y-1 toggleview">
-                        <div class="m-y-1">
-                            <a href="#" data-auth="true" id="btnshowaddtoshoppinglist2" data-auth-title="Add Cranberry Torte to My Shopping List " data-auth-isdependant="true" data-auth-callback="Javascript:AddRecipeToShoppingList()" data-auth-registrationsource="AddtoShoppingList" data-bind="attr: { href: GroceryListUrl }" class="shopping-btn uppercase"
-                               onclick="return AddToGroceryListComscoreEvent(this);"
-                               data-content-id="14065"
-                               data-content-title="Cranberry Torte"
-                               data-content-type="37"
-                               data-partner-name="Taste of Home" data-adobe-metrics='{"module":"recipe engagement","name":"add to shopping list","position":"recipe detail"}'>
-                                <i class="fa fa-plus"></i> <span data-bind="text: GroceryListText"> List</span>
-                            </a>
-                        </div>
                     <div data-widget="tab"><a type="button" class="btn btn-flat btn-info uppercase btn-lg bold" data-widget="tab-link" href="#Directions">View Directions</a></div>
                 </div>
                 <div class="rd_button_container m-y-1 toggleview" style="display:none;">
@@ -2294,17 +2240,17 @@ December/January 2001, p65                                        </div>
             </section>
 
             <section class="visible-tablet text-center m-y-1">
-                <div class="mboxDefault rd_rightcol_module" monetate="tag001-rightrailfirstad-20160920"><a data-analytics-link_name="Subscribe" data-analytics-placement_location="TOH_RR_MAGAZINES" href=" https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&cds_page_id=212916&cds_response_key=IVDDDU101" title="Subscribe"><img alt="Subscribe" height="396" src="//cdn1.tmbi.com/CM/images/TOH/TOH-INT-1510-PersonaTOHMagazine.jpg " width="350" /> </a></div>
+                <div class="mboxDefault rd_rightcol_module" monetate="tag001-rightrailfirstad-20160920"><a data-analytics-link_name="Subscribe" data-analytics-placement_location="TOH_RR_MAGAZINES" href=" https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&cds_page_id=212916&cds_response_key=IVDDDU101" title="Subscribe"><img alt="Subscribe" height="396" src="https://cdn1.tmbi.com/CM/images/TOH/TOH-INT-1510-PersonaTOHMagazine.jpg " width="350" /> </a></div>
             </section>
 
             <section class="rd_zone_top_left clearfix m-y-1 hidden-phone hidden-print">
-                <div class="text-center m-y-1"><img class="logonl" src="http://cdn1.tmbi.com/TOH/Images/TOH-NL-Logo.png"></div>
+                <div class="text-center m-y-1"><img class="logonl" src="https://cdn1.tmbi.com/TOH/Images/TOH-NL-Logo.png"></div>
                 <h4 class="text-center">Select the Newsletters that interest you to subscribe</h4>
                 <div class="span33 newsletter-block">
                     <div class="newsletter-content">
                         <h5 class="uppercase">Recipe of the day newsletter</h5>
                         <div class="nlImage">
-                            <div style="background:#fff url('http://cdn1.tmbi.com/TOH/images/newsletter/rod-img.png') center center no-repeat"></div>
+                            <div style="background:#fff url('https://cdn1.tmbi.com/TOH/images/newsletter/rod-img.png') center center no-repeat"></div>
                         </div>
                         <p class="">Receive new recipes and fan favorites for daily inspiration!</p>
                     </div>
@@ -2315,7 +2261,7 @@ December/January 2001, p65                                        </div>
                     <div class="newsletter-content">
                         <h5 class="uppercase">Taste of home <br />Weeknight Dinners</h5>
                         <div class="nlImage">
-                            <div style="background:#fff url('http://cdn1.tmbi.com/TOH/images/newsletter/wd-img.png') center center no-repeat"></div>
+                            <div style="background:#fff url('https://cdn1.tmbi.com/TOH/images/newsletter/wd-img.png') center center no-repeat"></div>
                         </div>
                         <p class="">Quick &amp; easy homemade meals that are perfect anytime!</p>
                     </div>
@@ -2326,7 +2272,7 @@ December/January 2001, p65                                        </div>
                     <div class="newsletter-content">
                         <h5 class="uppercase">Taste of home <br />top 10 recipes</h5>
                         <div class="nlImage">
-                            <div style="background:#fff url('http://cdn1.tmbi.com/TOH/images/newsletter/top10-img.png') center center no-repeat"></div>
+                            <div style="background:#fff url('https://cdn1.tmbi.com/TOH/images/newsletter/top10-img.png') center center no-repeat"></div>
                         </div>
                         <p class="">Get our 10 most popular recipes delivered to your inbox!</p>
                     </div>
@@ -2403,7 +2349,7 @@ December/January 2001, p65                                        </div>
 
 
                 <div class="rd_progess_indicator">
-                    <img class="hide" id='processSubmitReview' src='//cdn1.tmbi.com/images/TOH-site/site/lightbox-ico-loading.gif' alt="Loading Image" />
+                    <img class="hide" id='processSubmitReview' src='https://cdn1.tmbi.com/images/TOH-site/site/lightbox-ico-loading.gif' alt="Loading Image" />
                 </div>
                 <div class="rd_btnfield">
                     <button class="btn btn-flat btn-info uppercase btn-lg bold" id="btnSubmitReview" onclick="SaveUserReview()" data-analytics-link_name="Cranberry Torte" data-analytics-metrics='{"link_module" :"comment submit","ns_type" :"hidden","page_template" :"recipe detail"}' 
@@ -2523,7 +2469,7 @@ December/January 2001, p65                                        </div>
 
 
                                     <div class="span16 rd_comments_body" itemprop="description">
-                                            <p>"I have made this for every t-day and  x-mas.You can make several days ahead and it is a beautiful presentations. It is <a class='recirc_words' href='http://www.tasteofhome.com/recipes/cooking-style/easy-recipes' data-analytics-link_name='easy' data-analytics-metrics='{"page_template":"recipe detail","link_pos":"review module","link_module":"recirc link"}'>easy</a> to makeI do not use frozen cranberries as they change texture once frozen.  I use a food processor to chop the fresh cranberries and it works very well. I mix the sugar and oj into cranberries and this helps to maserate the cranberries, making them softer."</p>
+                                            <p>"I have made this for every t-day and  x-mas.You can make several days ahead and it is a beautiful presentations. It is <a class='recirc_words' href='http://www.tasteofhome.com/recipes/cooking-style/easy-recipes' data-analytics-link_name='easy' data-analytics-metrics='{"page_template":"recipe detail","link_pos":"review module","link_module":"recirc link"}' data-adobe-metrics='{"module":"content recirculation","name":"easy","position":"recipe comments"}'>easy</a> to makeI do not use frozen cranberries as they change texture once frozen.  I use a food processor to chop the fresh cranberries and it works very well. I mix the sugar and oj into cranberries and this helps to maserate the cranberries, making them softer."</p>
                                     </div>
                                 </div>
                             </div>
@@ -2536,7 +2482,7 @@ December/January 2001, p65                                        </div>
         </div>
 
         <div class="rd_progess_indicator">
-            <img id='processCommentIndicator' src='//cdn1.tmbi.com/images/TOH-site/site/lightbox-ico-loading.gif' class="hide" alt="Loading Image" />
+            <img id='processCommentIndicator' src='https://cdn1.tmbi.com/images/TOH-site/site/lightbox-ico-loading.gif' class="hide" alt="Loading Image" />
         </div>
         <div class="m-y-1 text-center">
             <div id="btnCommentViewMore">
@@ -2566,7 +2512,7 @@ December/January 2001, p65                                        </div>
 
             <li>
                 <a title="Easy Black Forest Torte" href="http://www.tasteofhome.com/recipes/easy-black-forest-torte" data-analytics-link_name="Related Content -Easy Black Forest Torte" data-analytics-metrics='{"leave_page":"true","partner_name":"Quick Cooking","link_pos":"Related Content - Recipes","link_module":"Related Content - Easy Black Forest Torte","page_template":"recipe detail"}' data-adobe-metrics='{"module":"content recirculation","name":"Easy Black Forest Torte","position":"similar recipes"}'>
-                    <img class="related_recipe_img" title="Easy Black Forest Torte" alt="Easy Black Forest Torte" src="//cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps9345_QC10014C6A.jpg" />
+                    <img class="related_recipe_img" title="Easy Black Forest Torte" alt="Easy Black Forest Torte" src="https://cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps9345_QC10014C6A.jpg" />
                 </a>
                     <div class="rd_start_rating_similar_recipes">
                         
@@ -2598,7 +2544,7 @@ December/January 2001, p65                                        </div>
             </li>
             <li>
                 <a title="Date Nut Torte" href="http://www.tasteofhome.com/recipes/date-nut-torte" data-analytics-link_name="Related Content -Date Nut Torte" data-analytics-metrics='{"leave_page":"true","partner_name":"Country Woman","link_pos":"Related Content - Recipes","link_module":"Related Content - Date Nut Torte","page_template":"recipe detail"}' data-adobe-metrics='{"module":"content recirculation","name":"Date Nut Torte","position":"similar recipes"}'>
-                    <img class="related_recipe_img" title="Date Nut Torte" alt="Date Nut Torte" src="//cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps2730_DM1002C15.jpg" />
+                    <img class="related_recipe_img" title="Date Nut Torte" alt="Date Nut Torte" src="https://cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps2730_DM1002C15.jpg" />
                 </a>
                     <div class="rd_start_rating_similar_recipes">
                         
@@ -2630,7 +2576,7 @@ December/January 2001, p65                                        </div>
             </li>
             <li>
                 <a title="Maple-Mocha Brownie Torte" href="http://www.tasteofhome.com/recipes/maple-mocha-brownie-torte" data-analytics-link_name="Related Content -Maple-Mocha Brownie Torte" data-analytics-metrics='{"leave_page":"true","partner_name":"Quick Cooking","link_pos":"Related Content - Recipes","link_module":"Related Content - Maple-Mocha Brownie Torte","page_template":"recipe detail"}' data-adobe-metrics='{"module":"content recirculation","name":"Maple-Mocha Brownie Torte","position":"similar recipes"}'>
-                    <img class="related_recipe_img" title="Maple-Mocha Brownie Torte" alt="Maple-Mocha Brownie Torte" src="//cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps16487_FFWM1814242D241.jpg" />
+                    <img class="related_recipe_img" title="Maple-Mocha Brownie Torte" alt="Maple-Mocha Brownie Torte" src="https://cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps16487_FFWM1814242D241.jpg" />
                 </a>
                     <div class="rd_start_rating_similar_recipes">
                         
@@ -2662,7 +2608,7 @@ December/January 2001, p65                                        </div>
             </li>
             <li>
                 <a title="Double Chocolate Torte" href="http://www.tasteofhome.com/recipes/double-chocolate-torte" data-analytics-link_name="Related Content -Double Chocolate Torte" data-analytics-metrics='{"leave_page":"true","partner_name":"Quick Cooking","link_pos":"Related Content - Recipes","link_module":"Related Content - Double Chocolate Torte","page_template":"recipe detail"}' data-adobe-metrics='{"module":"content recirculation","name":"Double Chocolate Torte","position":"similar recipes"}'>
-                    <img class="related_recipe_img" title="Double Chocolate Torte" alt="Double Chocolate Torte" src="//cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps8602_QC2610C27A.jpg" />
+                    <img class="related_recipe_img" title="Double Chocolate Torte" alt="Double Chocolate Torte" src="https://cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps8602_QC2610C27A.jpg" />
                 </a>
                     <div class="rd_start_rating_similar_recipes">
                         
@@ -2713,7 +2659,7 @@ December/January 2001, p65                                        </div>
                         <div class="rd_section_no_bg">
                             <div class="rd_feature_multi_slide_template scroller_similar_recipes slide-stack">
                                 <ul>
-                                               <li class="rd_widget_scroller_item_selected" style="background-image: url('//cdn2.tmbi.com/TOH/Images/Photos/37/145x145/exps170814_TH143194D06_18_3b.jpg')">
+                                               <li class="rd_widget_scroller_item_selected" style="background-image: url('https://cdn2.tmbi.com/TOH/Images/Photos/37/145x145/exps170814_TH143194D06_18_3b.jpg')">
                <a href="/recipes/course/desserts/christmas-potluck-desserts-for-12-or-more" data-analytics-link_name="78 Christmas Potluck Desserts for 12 or More" data-analytics-metrics='[{"key":"link_module","value":"you may also like"},{"key":"page_template","value":"recipe detail"},{"key":"content_id","value":"208125"},{"key":"content_name","value":"78 Christmas Potluck Desserts for 12 or More"}, {"key":"link_pos","value":"thumbnail"},{"key":"link_page","value":"recipe detail"},{"key":"source","value":"recipe detail"}]' data-adobe-metrics='{"module":"content recirculation","name":"78 Christmas Potluck Desserts for 12 or More","position":"you may also like"}'> 
                 <div class="inlineBlock">
                     <div class="rd_font15px text-left" style="line-height: 1.2em">
@@ -2723,7 +2669,7 @@ December/January 2001, p65                                        </div>
                 </div>
                 </a>
             </li>
-           <li class="rd_widget_scroller_item_selected" style="background-image: url('//cdn2.tmbi.com/TOH/Images/Photos/37/145x145/Chocolate-Fruit-Basket-Cake_exps47663_SD1785600D52A_RMS.jpg')">
+           <li class="rd_widget_scroller_item_selected" style="background-image: url('https://cdn2.tmbi.com/TOH/Images/Photos/37/145x145/Chocolate-Fruit-Basket-Cake_exps47663_SD1785600D52A_RMS.jpg')">
                <a href="/recipes/course/desserts/easy-cake-decorating-ideas" data-analytics-link_name="34 Easy Cake Decorating Ideas" data-analytics-metrics='[{"key":"link_module","value":"you may also like"},{"key":"page_template","value":"recipe detail"},{"key":"content_id","value":"209346"},{"key":"content_name","value":"34 Easy Cake Decorating Ideas"}, {"key":"link_pos","value":"thumbnail"},{"key":"link_page","value":"recipe detail"},{"key":"source","value":"recipe detail"}]' data-adobe-metrics='{"module":"content recirculation","name":"34 Easy Cake Decorating Ideas","position":"you may also like"}'> 
                 <div class="inlineBlock">
                     <div class="rd_font15px text-left" style="line-height: 1.2em">
@@ -2733,7 +2679,7 @@ December/January 2001, p65                                        </div>
                 </div>
                 </a>
             </li>
-           <li class="rd_widget_scroller_item_selected" style="background-image: url('//cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps9345_QC10014C6A.jpg')">
+           <li class="rd_widget_scroller_item_selected" style="background-image: url('https://cdn2.tmbi.com/TOH/Images/Photos/37/135x135/exps9345_QC10014C6A.jpg')">
                <a href="http://www.tasteofhome.com/recipes/easy-black-forest-torte" data-analytics-link_name="Easy Black Forest Torte" data-analytics-metrics='[{"key":"link_module","value":"you may also like"},{"key":"page_template","value":"recipe detail"},{"key":"content_id","value":"0"},{"key":"content_name","value":"Easy Black Forest Torte"}, {"key":"link_pos","value":"thumbnail"},{"key":"link_page","value":"recipe detail"},{"key":"source","value":"recipe detail"}]' data-adobe-metrics='{"module":"content recirculation","name":"Easy Black Forest Torte","position":"you may also like"}'> 
                 <div class="inlineBlock">
                 <div class="rd_start_rating_similar_recipes">
@@ -2797,7 +2743,7 @@ December/January 2001, p65                                        </div>
         <div id="mobileShare" class="rd_social_container">
             <div class="rd_mobile_social rd_font_icon_collection">
 
-                <a class="rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933285350083103" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=http%3A&name=Sticky" target="_blank"
+                <a class="rd_fbshare_slideShow" id="rd_fb_social_share" data-rd-fb-app_id="933285350083103" href="https://www.facebook.com/dialog/feed?app_id=933285350083103&redirect_uri=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&link=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&picture=&name=Sticky" target="_blank"
                    data-analytics-link_name="Facebook" title="facebook"
                    data-analytics-metrics='{"leave_page":"false","content_name":"Sticky","content_id":"14065","category":"recipes","subcat":"cranberry-torte","subsubcat":"","page_template":"recipe detail","partner_name":"Taste of Home","link_module":"social share"}' data-adobe-metrics='{"module":"social share","name":"Facebook","position":"left sticky nav"}'>
                     <span class="fa-stack rd_fi_ss rd_fi_small rd_fi_ss_facebook ">
@@ -2806,7 +2752,7 @@ December/January 2001, p65                                        </div>
                     </span>
                 </a>
 
-                        <a class="rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=http%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg&description=Sticky"
+                        <a class="rd_pin" data-pinit-url="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.tasteofhome.com%2Frecipes%2Fcranberry-torte&media=https%3A%2F%2Fcdn2.tmbi.com%2FTOH%2FImages%2FPhotos%2F37%2F300x300%2Fexps14065_TH10145C64.jpg&description=Sticky"
                            target="_blank"
                            data-analytics-link_name="Pinterest" title="pinterest"
                            data-analytics-metrics='{"leave_page":"false","content_name":"Sticky","content_id":"14065","category":"recipes","subcat":"cranberry-torte","subsubcat":"","page_template":"recipe detail","partner_name":"Taste of Home","link_module":"social share"}' data-adobe-metrics='{"module":"social share","name":"Pinterest","position":"left sticky nav"}'>
@@ -2886,7 +2832,7 @@ December/January 2001, p65                                        </div>
 <div class="hidden">
 
 <div class="email_form_container" data-bind="with: RD.ViewModel.Email.Singleton">
-	<div class="rd_tg_opensans">
+    <div class="rd_tg_opensans">
         <form class="rd_form_basic">
             <fieldset>
                 <h4>Email a Friend</h4>
@@ -2928,9 +2874,11 @@ Email a link of this recipe, along with a personal message.
                             <div class="rd_email_form_row">
                                 <label class="rd_email_send_me">
                                     Send me a copy:
-                                    <input type="checkbox" name="copyMe" data-bind="checked: selfCopy" tabindex="5"/>
+                                    <input type="checkbox" name="copyMe" data-bind="checked: selfCopy" tabindex="5" />
                                 </label>
-                               <div class="pull-right">
+                                <div class="pull-right">
+                                    <div class="g-recaptcha" data-sitekey="6LfaDCcUAAAAAGgKtZWYDbl_xeNM4s4SlvMLxemV" data-callback="onSubmitEmail" data-size="invisible"></div>
+
                                     <a data-rd-form-validation-ignore="true" type="submit" class="btn btn-info rd_email_send" data-analytics-link_name="submit" data-analytics-metrics='{"link_module" :"email a friend","link_pos" :"submit form","ns_type":"hidden","page_template":"recipe detail","share_email_event":"true"}'
                                        data-bind="click: send, attr: {
                                     'data-analytics-stf_count_event': totalTo(),
@@ -2946,12 +2894,12 @@ Email a link of this recipe, along with a personal message.
                                     'data-adobe-metrics-numberofEmails': totalTo(),
                                     'data-adobe-metrics-sendmeCopy': selfCopy().toString(),
                                     'data-adobe-metrics-personalMessage': message
-                                }" 
-                                    data-adobe-metrics='{"module":"recipe engagement","name":"send","position":"email a friend overlay","shareEmail":"true"}' tabindex="6" >Send</a>							
+                                }"
+                                       data-adobe-metrics='{"module":"recipe engagement","name":"send","position":"email a friend overlay","shareEmail":"true"}' tabindex="6">Send</a>
                                     <a type="button" class="btn btn rd_email_canel" data-dismiss="modal"
-										data-analytics-link_name ="return to recipe"  
-                                        data-analytics-metrics='{"link_module" :"email a friend", "link_pos" :"submit form", "ns_type":"hidden", "page_template":"recipe detail"}'
-                                        data-adobe-metrics='{"module":"recipe engagement","name":"cancel","position":"email a friend overlay"}' tabindex="7">Cancel</a>
+                                       data-analytics-link_name="return to recipe"
+                                       data-analytics-metrics='{"link_module" :"email a friend", "link_pos" :"submit form", "ns_type":"hidden", "page_template":"recipe detail"}'
+                                       data-adobe-metrics='{"module":"recipe engagement","name":"cancel","position":"email a friend overlay"}' tabindex="7">Cancel</a>
                                 </div>
                             </div>
                         </div>
@@ -2967,8 +2915,8 @@ Email a link of this recipe, along with a personal message.
                         <br>
                         <p data-bind="visible: isSendSuccess">
                             <a type="button" class="btn btn-info rd_email_canel" data-bind="click: reset" data-dismiss="modal"
-								data-analytics-link_name ="return to recipe"  
-								data-analytics-metrics='{"link_module" :"email a friend",
+                               data-analytics-link_name="return to recipe"
+                               data-analytics-metrics='{"link_module" :"email a friend",
 														"link_pos":"confirmation",
                                                         "ns_type":"hidden",
 														"page_template":"recipe detail"}'>OK</a>
@@ -2980,7 +2928,7 @@ Email a link of this recipe, along with a personal message.
 
             <input type="hidden" name="contentId" data-bind="value: contentId" />
             <input type="hidden" name="contentType" data-bind="value: contentType" />
-            <input name="__RequestVerificationToken" type="hidden" value="OIsy-WL3KGrng0PL8Fult43vgSfbMk3tHusx32-TH-CyQRLkM_Nk85Umz9ESmdrum0TQzBxrotqETaoEfgcgUpa_a4fZNybDzhxhewiqY3p0zYlv0" />
+            <input name="__RequestVerificationToken" type="hidden" value="L3isLYaZPBZN78m80wpLxPPMC8Noe2xQ5CB2JlBdK6mequ9xR3_Bpu33jLXYvLQEqm5h3cRnVw2UsOEt4B_qu22lw3_Lg2AZooERGgMZWany-9Pa0" />
         </form>
     </div>
 </div> </div>
@@ -3038,44 +2986,6 @@ Email a link of this recipe, along with a personal message.
                         
                     </div>
                     <div class="rd_zone1_position1">
-                        <div class="mboxDefault rd_rightcol_module" monetate="tag001-rightrailfirstad-20160920"><a data-analytics-link_name="Subscribe" data-analytics-placement_location="TOH_RR_MAGAZINES" href=" https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&cds_page_id=212916&cds_response_key=IVDDDU101" title="Subscribe"><img alt="Subscribe" height="396" src="//cdn1.tmbi.com/CM/images/TOH/TOH-INT-1510-PersonaTOHMagazine.jpg " width="350" /> </a></div>                        
-                    </div>
-                    <div class="rd_zone1_position2">
-                        <div monetate="tag002-rightrailsecond-20160920"> <h4>Contests & Promotions</h4>
-<a class="rd_right_col_desktop rd_rightcol_module_align" data-analytics-link_name="Enter Now!" data-analytics-placement_location="
-TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Promotions" data-adobe-metrics='{"module":"contest and promotions","name":"Enter Now!","position":"right rail"}'><img src="//cdn2.tmbi.com/TOH/Images/contests/generic1B.jpg" alt="Contests & Promotions" /></a></div>                        
-                    </div>
-                    <div class="rd_zone1_position3">
-                        <style>
-    .rd_recipe_group_big.rd_recipe_group_ad {
-        padding-bottom: 80px !important;
-        text-align: center;
-    }
-
-    .adblock {
-        text-align: center;
-        margin: 0px;
-    }
-</style>
-
-
-        <div class="rd_recipe_group_col rd_recipe_group_big">
-            
-
-                <div class="AdBlock" id="div-gpt-ad-1370019314148-03">
-                    <script type='text/javascript'>
-                        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1370019314148-03'); });
-                    </script>
-                </div>
-        <a href="http://www.tasteofhome.com/mediakit" target="_blank" class="pull-left fltlt disclaimer-blue" title="Advertise with us">
-            Advertise with us
-        </a>
-        <div class="pull-right disclaimer-grey">ADVERTISEMENT</div>
-
-        </div>
-                        
-                    </div>
-                    <div class="rd_zone1_position4">
                         <style>
     .rd_recipe_group_big.rd_recipe_group_ad {
         padding-bottom: 80px !important;
@@ -3105,6 +3015,44 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
         </div>
                         
                     </div>
+                    <div class="rd_zone1_position2">
+                        <div class="mboxDefault rd_rightcol_module" monetate="tag001-rightrailfirstad-20160920"><a data-analytics-link_name="Subscribe" data-analytics-placement_location="TOH_RR_MAGAZINES" href=" https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&cds_page_id=212916&cds_response_key=IVDDDU101" title="Subscribe"><img alt="Subscribe" height="396" src="https://cdn1.tmbi.com/CM/images/TOH/TOH-INT-1510-PersonaTOHMagazine.jpg " width="350" /> </a></div>                        
+                    </div>
+                    <div class="rd_zone1_position3">
+                        <div monetate="tag002-rightrailsecond-20160920"> <h4>Contests & Promotions</h4>
+<a class="rd_right_col_desktop rd_rightcol_module_align" data-analytics-link_name="Enter Now!" data-analytics-placement_location="
+TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Promotions" data-adobe-metrics='{"module":"contest and promotions","name":"Enter Now!","position":"right rail"}'><img src="https://cdn2.tmbi.com/TOH/Images/contests/generic1B.jpg" alt="Contests & Promotions" /></a></div>                        
+                    </div>
+                    <div class="rd_zone1_position4">
+                        <style>
+    .rd_recipe_group_big.rd_recipe_group_ad {
+        padding-bottom: 80px !important;
+        text-align: center;
+    }
+
+    .adblock {
+        text-align: center;
+        margin: 0px;
+    }
+</style>
+
+
+        <div class="rd_recipe_group_col rd_recipe_group_big">
+            
+
+                <div class="AdBlock" id="div-gpt-ad-1370019314148-03">
+                    <script type='text/javascript'>
+                        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1370019314148-03'); });
+                    </script>
+                </div>
+        <a href="http://www.tasteofhome.com/mediakit" target="_blank" class="pull-left fltlt disclaimer-blue" title="Advertise with us">
+            Advertise with us
+        </a>
+        <div class="pull-right disclaimer-grey">ADVERTISEMENT</div>
+
+        </div>
+                        
+                    </div>
     </div>
             </aside>
           
@@ -3113,71 +3061,7 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
 
             <div class="row-fluid">
                 <div class="span16">
-                    <style>
-	.above_footer_ad_container {position: relative; text-align: center; overflow: hidden; }
-	.above_footer_ad_container ul{list_style: none; padding: 0; margin: 0;}
-	.above_footer_ad_container ul li{ display: inline-block; position: relative; bottom: -24px; color: #c76d38; font-size: 12px; font-weight: bold;  margin-right: 25px;}
-	.above_footer_ad_container ul li > *{display: inline-block;}
-	.above_footer_ad_container ul li img {border: none;}
-	.above_footer_ad_container .above_footer_ad_text {position: relative; }
-	.above_footer_ad_container .above_footer_ad_text a{text-decoration: none !important; color: #c76d38; font-size: 12px; font-weight: bold;}
-</style>
-<div class="above_footer_ad_container">
-	<ul>
-		<li>
-			<a href="http://www.tasteofhome.com/rd.asp?id=22290" target="_blank" title="Print">
-				<img src="//cdn1.tmbi.com/CM/images/TOH/Covers/1403/print2.gif"/>
-			</a>
-			<span class="above_footer_ad_text">
-				<div>
-					<a href="http://www.tasteofhome.com/rd.asp?id=22290" target="_blank" title="Print">
-						Print
-					</a><span> > </span>
-				</div>
-			</span>
-		</li>
-		
-		<li>
-			<a href="http://www.tasteofhome.com/rd.asp?id=22289" target="_blank" title="iPad">
-				<img src="//cdn1.tmbi.com/CM/images/TOH/Covers/1403/ipad2.gif"/>
-			</a>
-			<span class="above_footer_ad_text">
-				<div>
-					<a href="http://www.tasteofhome.com/rd.asp?id=22289" target="_blank" title="iPad">
-						iPad
-					</a><span> > </span>
-				</div>
-			</span>
-		</li>
-		
-		<li>
-			<a href="http://www.tasteofhome.com/rd.asp?id=22285" target="_blank" title="Kindle">
-				<img src="//cdn1.tmbi.com/CM/images/TOH/Covers/1403/kindle2.gif"/>
-			</a>
-			<span class="above_footer_ad_text">
-				<div>
-					<a href="http://www.tasteofhome.com/rd.asp?id=22285" target="_blank" title="Kindle">
-						Kindle
-					</a><span> > </span>
-				</div>
-			</span>
-		</li>
-		
-		<li>
-			<a href="http://www.tasteofhome.com/rd.asp?id=22286" target="_blank" title="Nook">
-				<img src="//cdn1.tmbi.com/CM/images/TOH/Covers/1403/nook2.gif"/>
-			</a>
-			<span class="above_footer_ad_text">
-				<div>
-					<a href="http://www.tasteofhome.com/rd.asp?id=22286" target="_blank" title="Nook">
-						Nook
-					</a><span> > </span>
-				</div>
-			</span>
-		</li>
-	</ul>
-</div>
-
+                    <style>  .above_footer_ad_container {position: relative; text-align: center; overflow: hidden; }  .above_footer_ad_container ul{list_style: none; padding: 0; margin: 0;}  .above_footer_ad_container ul li{ display: inline-block; position: relative; bottom: -24px; color: #c76d38; font-size: 12px; font-weight: bold;  margin-right: 25px;}  .above_footer_ad_container ul li > *{display: inline-block;}  .above_footer_ad_container ul li img {border: none;}  .above_footer_ad_container .above_footer_ad_text {position: relative; }  .above_footer_ad_container .above_footer_ad_text a{text-decoration: none !important; color: #c76d38; font-size: 12px; font-weight: bold;} </style> <div class="above_footer_ad_container">  <ul>   <li>    <a href="http://www.tasteofhome.com/rd.asp?id=22290" target="_blank" title="Print">     <img src="https://cdn1.tmbi.com/CM/images/TOH/Covers/1403/print2.gif"/>    </a>    <span class="above_footer_ad_text">     <div>      <a href="http://www.tasteofhome.com/rd.asp?id=22290" target="_blank" title="Print">       Print      </a><span> > </span>     </div>    </span>   </li>      <li>    <a href="http://www.tasteofhome.com/rd.asp?id=22289" target="_blank" title="iPad">     <img src="https://cdn1.tmbi.com/CM/images/TOH/Covers/1403/ipad2.gif"/>    </a>    <span class="above_footer_ad_text">     <div>      <a href="http://www.tasteofhome.com/rd.asp?id=22289" target="_blank" title="iPad">       iPad      </a><span> > </span>     </div>    </span>   </li>      <li>    <a href="http://www.tasteofhome.com/rd.asp?id=22285" target="_blank" title="Kindle">     <img src="https://cdn1.tmbi.com/CM/images/TOH/Covers/1403/kindle2.gif"/>    </a>    <span class="above_footer_ad_text">     <div>      <a href="http://www.tasteofhome.com/rd.asp?id=22285" target="_blank" title="Kindle">       Kindle      </a><span> > </span>     </div>    </span>   </li>      <li>    <a href="http://www.tasteofhome.com/rd.asp?id=22286" target="_blank" title="Nook">     <img src="https://cdn1.tmbi.com/CM/images/TOH/Covers/1403/nook2.gif"/>    </a>    <span class="above_footer_ad_text">     <div>      <a href="http://www.tasteofhome.com/rd.asp?id=22286" target="_blank" title="Nook">       Nook      </a><span> > </span>     </div>    </span>   </li>  </ul> </div>
                 </div>
             </div>
         <div class="rd_tg_ft_copyright visible-print">&copy; 2017 RDA Enthusiast Brands, LLC</div>
@@ -3439,11 +3323,11 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
                         <div class="rd_ss_row_heading">Subscribe <a href="/subscribe" target="_blank" class="pull-right" data-analytics-link_name='view all' data-analytics-metrics='{"page_template":"login_join","link_pos":"subscribe","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"view more","position":"subscribe"}'>View more <i class="fa fa-angle-right"></i></a></div>
                         <div class="rd_ss_table">
                             <a class="rd_ss_cell rd_ss_cell_red rd_ss_cell_big" href=" https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&cds_page_id=163153&cds_response_key=IT7HDU101" target="_blank" data-analytics-link_name='TASTE OF HOME' data-analytics-metrics='{"page_template":"login_join","link_pos":"subscribe","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"taste of home","position":"subscribe"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/subscribe-toh.png" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/subscribe-toh.png" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">TASTE OF HOME</div>
                             </a>
                             <a class="rd_ss_cell rd_ss_cell_red" href="https://simple.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=QCK&cds_page_id=163154&cds_response_key=IT7HDU102" target="_blank" data-analytics-link_name='SIMPLE AND DELICIOUS' data-analytics-metrics='{"page_template":"login_join","link_pos":"subscribe","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"simple & delicious","position":"subscribe"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/subscribe-snd.jpg" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/subscribe-snd.jpg" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">SIMPLE & DELICIOUS</div>
                             </a>
                         </div>
@@ -3452,15 +3336,15 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
                         <div class="rd_ss_row_heading">Newsletters <a href="/newsletter" class="pull-right" data-analytics-link_name='view all' data-analytics-metrics='{"page_template":"login_join","link_pos":"newsletters","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"all newsletters","position":"newsletters"}'>All newsletters <i class="fa fa-angle-right"></i></a></div>
                         <div class="rd_ss_table">
                             <a class="rd_ss_cell" href="/newsletter?OptID=83" data-analytics-link_name='HOLIDAYS & CELEBRATIONS' data-analytics-metrics='{"page_template":"login_join","link_pos":"newsletter","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"Holiday & celebrations","position":"newsletters"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/rod.jpg" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/rod.jpg" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">HOLIDAYS & CELEBRATIONS</div>
                             </a>
                             <a class="rd_ss_cell" href="/newsletter?OptID=81" data-analytics-link_name='WEEKNIGHT DINNER' data-analytics-metrics='{"page_template":"login_join","link_pos":"newsletter","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"weeknight dinner","position":"newsletters"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/wd.jpg" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/wd.jpg" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">WEEKNIGHT DINNER</div>
                             </a>
                             <a class="rd_ss_cell" href="/newsletter?OptID=117" data-analytics-link_name='DESSERTS' data-analytics-metrics='{"page_template":"login_join","link_pos":"newsletter","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"desserts","position":"newsletters"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/desserts.jpg" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/desserts.jpg" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">DESSERTS</div>
                             </a>
                         </div>
@@ -3469,15 +3353,15 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
                         <div class="rd_ss_row_heading">Popular Collections <a href="/contests" class="pull-right" data-analytics-link_name='recipe contests' data-analytics-metrics='{"page_template":"login_join","link_pos":"popular articles","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"recipe contests","position":"popular collections"}'>Recipe contests <i class="fa fa-angle-right"></i></a></div>
                         <div class="rd_ss_table">
                             <a class="rd_ss_cell" href="http://www.tasteofhome.com/recipes/cooking-style/potluck-recipes/potluck-salads-to-feed-a-crowd" data-analytics-link_name='25 POTLUCK SALADS' data-analytics-metrics='{"page_template":"login_join","link_pos":"popular articles","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"25 potluck salads","position":"popular collections"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/potluck.jpg" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/potluck.jpg" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">25 POTLUCK SALADS</div>
                             </a>
                             <a class="rd_ss_cell" href="http://www.tasteofhome.com/recipes/course/dinner-recipes/30-pasta-dinners-ready-in-30-minutes" data-analytics-link_name='30 PASTA DINNERS READY IN 30MIN' data-analytics-metrics='{"page_template":"login_join","link_pos":"popular articles","link_module":"explore"}'  data-adobe-metrics='{"module":"registration","name":"30 pasta dinners ready in 30 min ","position":"popular collections"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/pasta.jpg" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/pasta.jpg" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">30 PASTA DINNERS<div class="small">READY IN 30MIN</div></div>
                             </a>
                             <a class="rd_ss_cell" href="http://www.tasteofhome.com/recipes/course/desserts/30-desserts-made-in-a-13-9-pan" data-analytics-link_name='30 DESSERTS IN A 13X9 PAN' data-analytics-metrics='{"page_template":"login_join","link_pos":"popular articles","link_module":"explore"}' data-adobe-metrics='{"module":"registration","name":"30 desserts in a 13x9 pan","position":"popular collections"}'>
-                                <img src="//cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/30desserts.jpg" alt="Subscribe" />
+                                <img src="https://cdn1.tmbi.com/TOH/Images/social_signon/images/confirmation/30desserts.jpg" alt="Subscribe" />
                                 <div class="rd_ss_cell_heading">30 DESSERTS<div class="small">IN A 13X9 PAN</div></div>
                             </a>
                         </div>
@@ -3610,7 +3494,7 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
                         <!-- Join View -->
                         <div class="tab-pane" id="rd_ss_login_join">
                             <div class="text-center rd_ss_join_container">
-                                <img style="max-width: 110px; margin-bottom: 1.25em;" src="//cdn1.tmbi.com/TOH/Images/toh-logo-red.gif" title="Taste of Home" alt="Taste of Home" />
+                                <img style="max-width: 110px; margin-bottom: 1.25em;" src="https://cdn1.tmbi.com/TOH/Images/toh-logo-red.gif" title="Taste of Home" alt="Taste of Home" />
                                 <p class="muted rd_font12px" style="line-height: 1.25em; margin-bottom: 1.25em;">
                                     By creating an account you are agreeing to receive occasional email offers from our Family of Publications and you accept our <a class="red" href="http://www.tasteofhome.com/help/terms-and-conditions-of-use-notice" data-analytics-link_name='terms of service' data-analytics-metrics='{"page_template":"login_join","link_pos":"form","link_module":"join"}' data-adobe-metrics='{"module":"registration","name":"terms of service","position":"join"}'>Terms of Service</a> and <a class="red" href="http://www.tasteofhome.com/help/privacy-policy" data-analytics-link_name='privacy policy' data-analytics-metrics='{"page_template":"login_join","link_pos":"form","link_module":"join"}'  data-adobe-metrics='{"module":"registration","name":"privacy policy","position":"join"}'>Privacy Policy</a>
                                 </p>
@@ -3668,7 +3552,7 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
 
                     <div id="emailRequire" class="rd_tg_opensans overthetop" data-bind="visible: emailRequire()">
                         <div class="text-center">
-                            <img style="max-width: 110px; margin-bottom: 1.25em;" src="//cdn1.tmbi.com/TOH/Images/toh-logo-red.gif" title="Taste of Home" alt="Taste of Home">
+                            <img style="max-width: 110px; margin-bottom: 1.25em;" src="https://cdn1.tmbi.com/TOH/Images/toh-logo-red.gif" title="Taste of Home" alt="Taste of Home">
                             <p class="text-left rd_font14px" style="margin-bottom: 2rem;">
                                 Email address is required for account creation.
                             </p>
@@ -3689,7 +3573,7 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
                     <!-- User Info Update View -->
                     <div id="updateUserInfo" class="rd_tg_opensans overthetop" data-bind="visible: accountConfirmation()">
                         <div class="text-center">
-                            <img style="max-width: 110px; margin-bottom: 1.25em;" src="//cdn1.tmbi.com/TOH/Images/toh-logo-red.gif" title="Taste of Home" alt="Taste of Home">
+                            <img style="max-width: 110px; margin-bottom: 1.25em;" src="https://cdn1.tmbi.com/TOH/Images/toh-logo-red.gif" title="Taste of Home" alt="Taste of Home">
                             <h4 data-bind="visible: accountConfirmation()" class="rd_semibold">Your account has been created</h4>
                             <p class="muted rd_font14px" data-bind="visible: accountConfirmation()">
                                 Save recipes, rate favorites and join the fun!
@@ -3753,13 +3637,14 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
     </div>
 
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <script type="text/javascript">
         var globalDeviceType = 'Desktop';
+        $.ajaxSetup({ cache: false });
     </script>
         <script src='https://api.dmcdn.net/all.js'></script>
-    <script src="/bundles/mainjs?v=Ucmlg5SAlVvcrFftrL4GTb3z0VBbKk_wcCUjRrGhmDk1"></script>
+    <script src="/bundles/mainjs?v=6fe2HVnJh1wsP-KAihytAIPOiloCJQp7tNzzQNlCNYU1"></script>
 
 
     
@@ -3777,7 +3662,7 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
     </script>
 
 
-    <script src="/bundles/recipejs?v=gaW-n1flXHPpqJJC4_m2L5Ttc4mzfeytpsvu9GghoaM1"></script>
+    <script src="/bundles/recipejs?v=OMZORkiJF-JdT0DEojs_VdVu6YYf1oG6IZScUw_NvMs1"></script>
 
         <script type="text/javascript">
 		     $(document).ready(function () {
@@ -3815,32 +3700,25 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
 
     </script>
 
-<script type="text/javascript">(function() {var d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('script'); s.type='text/javascript'; s.async=true; s.src='//s.dpmsrv.com/dpm_e1822db470e60d090affd0956d743cb0e7cdf113.min.js'; h.appendChild(s); })();</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-38657577-1', 'tasteofhome.com'); 
-</script>
-<img height="1" width="1" style="border-style:none;" alt="" src="//insight.adsrvr.org/track/evnt/?adv=ilxxeer&ct=0:zxuil6yt&fmt=3"/>
-<img src="//leadback.advertising.com/adcedge/lb?site=695501&betr=tasteofhome=[+]visit[720],ltlb[8760]" width="1" height="1" border="0">
+<script type="text/javascript">(function() {var d=document,h=d.getElementsByTagName("head")[0],s=d.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://s.dpmsrv.com/dpm_e1822db470e60d090affd0956d743cb0e7cdf113.min.js"; h.appendChild(s); })();</script>
+<script>    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)    })(window,document,"script","https://www.google-analytics.com/analytics.js","ga");      ga("create", "UA-38657577-1", "tasteofhome.com");   </script>
+<img height="1" width="1" style="border-style:none;" alt="" src="https://insight.adsrvr.org/track/evnt/?adv=ilxxeer&ct=0:zxuil6yt&fmt=3"/>
+<img src="https://leadback.advertising.com/adcedge/lb?site=695501&betr=tasteofhome=[+]visit[720],ltlb[8760]" width="1" height="1" border="0">
 <img src="https://secure.leadback.advertising.com/adcedge/lb?site=695501&betr=tasteofhome=[+]visit[720],ltlb[8760]" width="1" height="1" border="0">
-<img height="1" width="1" style="border-style:none;" alt="" src="//insight.adsrvr.org/track/evnt/?adv=mgekeuu&ct=0:2bbv6r4f&fmt=3"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="https://insight.adsrvr.org/track/evnt/?adv=mgekeuu&ct=0:2bbv6r4f&fmt=3"/>
 <script>(function() { var _fbq = window._fbq || (window._fbq = []); if (!_fbq.loaded)  { var fbds = document.createElement('script'); fbds.async = true; fbds.src = '//connect.facebook.net/en_US/fbds.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fbds, s); _fbq.loaded = true; } _fbq.push(['addPixelId', '1468910830064549']); })(); window._fbq = window._fbq || []; window._fbq.push(['track', 'PixelInitialized', {}]); </script><noscript><img height='1' width='1' alt=' style='display:none' src='https://www.facebook.com/tr?id=1468910830064549&ev=PixelInitialized' /></noscript>
-<script>(function() { var csid = "F09828"; var bpid = "readersdigestnetwork"; var e = document.createElement("script"); var s = document.getElementsByTagName("script")[0]; e.src = "//js.revsci.net/gateway/gw.js?auto=t&csid=" + csid + "&bpid=" + bpid; e.async = true; s.parentNode.insertBefore(e, s);})();</script>
+<script>(function() { var csid = "F09828"; var bpid = "readersdigestnetwork"; var e = document.createElement("script"); var s = document.getElementsByTagName("script")[0]; e.src = "https://js.revsci.net/gateway/gw.js?auto=t&csid=" + csid + "&bpid=" + bpid; e.async = true; s.parentNode.insertBefore(e, s);})();</script>
 
     
 
     
-    <script type="text/javascript" src="//tags.crwdcntrl.net/c/2105/cc.js?ns=_cc2105" id="LOTCC_2105"></script>
+    <script type="text/javascript" src="https://tags.crwdcntrl.net/c/2105/cc.js?ns=_cc2105" id="LOTCC_2105"></script>
     <script type="text/javascript">_cc2105.bcp();</script>
 
 
 
     
-    <script type="text/javascript" src="//ad.crwdcntrl.net/5/c=2104/pe=y/var=ccauds" id="2104"></script>
+    <script type="text/javascript" src="https://ad.crwdcntrl.net/5/c=2104/pe=y/var=ccauds" id="2104"></script>
     <script type="text/javascript">
         var dartCCKey = 'ccaud';
         var dartCC = '';
@@ -3868,6 +3746,10 @@ TOH_RR_CONTESTS" href="http://www.tasteofhome.com/Contests" title="Contests & Pr
     
 <script type="text/javascript">_satellite.pageBottom();</script>
 
+
+            <script>window.ConstantCo = { pageType: "content-recipe", pageResourceId: "14065" }</script>
+
+<script>!function(a){var c="script";var d=a.createElement(c);d.src="https://static.foodity.com/shopping-tools/tasteofhome/constant-co.js?"+Math.floor((new Date()).getTime()/600000);var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}(document);</script>
 
 </body>
 </html>

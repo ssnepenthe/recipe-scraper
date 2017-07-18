@@ -7,7 +7,7 @@ return [
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => 'No matter how hectic the weeknight, there\'s always time to serve your family a healthy meal with recipes this easy and good! -Kami Jones, Avondale, Arizona',
-    'image' => 'http://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/Mom-s-Sloppy-Tacos_exps108738_THHC2238741C07_28_1bC_RMS.jpg',
+    'image' => 'https://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/Mom-s-Sloppy-Tacos_exps108738_THHC2238741C07_28_1bC_RMS.jpg',
     'ingredients' => [
         '1-1/2 pounds extra-lean ground beef (95% lean)',
         '1 can (15 ounces) tomato sauce',

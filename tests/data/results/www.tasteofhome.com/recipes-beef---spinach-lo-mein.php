@@ -7,7 +7,7 @@ return [
     'cookTime' => 'PT10M',
     'cuisines' => null,
     'description' => 'If you like a good stir-fry, this dish will definitely satisfy. I discovered the recipe at an international luncheon, and it\'s now a favorite go-to meal. -Denise Patterson, Bainbridge, Ohio',
-    'image' => 'http://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/exps39678_SD132779A06_11_1b_WEB.jpg',
+    'image' => 'https://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/exps39678_SD132779A06_11_1b_WEB.jpg',
     'ingredients' => [
         '1/4 cup hoisin sauce',
         '2 tablespoons soy sauce',
