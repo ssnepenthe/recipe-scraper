@@ -49,6 +49,18 @@ class WwwBonAppetitCom extends SchemaOrgJsonLd
     /**
      * @param  Crawler $crawler
      * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractInstructions(Crawler $crawler, array $json)
+    {
+        // @todo 17 July 2017: it looks like they made some updates but forgot about ld+json...
+        // This should be revisited over the next few weeks to see if they have restored it.
+        return $this->extractArray($crawler, '.preparation__hed, .preparation__step');
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
      * @return string|null
      */
     protected function extractUrl(Crawler $crawler, array $json)

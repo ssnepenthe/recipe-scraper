@@ -45,9 +45,11 @@ return [
         'A spice mill or mortar and pestle',
     ],
     'instructions' => [
-        'Basil-Chive Aioli: Using the flat side of a knife, smash anchovy and ½ tsp. salt on a cutting board until a paste forms. Scrape into a medium bowl. Add mayonnaise, lemon juice, garlic, ¼ cup basil, and 2 Tbsp. chives and whisk to combine. Season with salt and pepper; cover and chill until ready to serve.',
+        'Basil-Chive Aioli',
+        'Using the flat side of a knife, smash anchovy and ½ tsp. salt on a cutting board until a paste forms. Scrape into a medium bowl. Add mayonnaise, lemon juice, garlic, ¼ cup basil, and 2 Tbsp. chives and whisk to combine. Season with salt and pepper; cover and chill until ready to serve.',
         'Do Ahead: Aioli can be made 1 day ahead. Keep chilled.',
-        'Pork and Assembly: Grind fennel seeds and red pepper in spice mill or with mortar and pestle until coarsely ground. Transfer to a small bowl. Mix in 2 Tbsp. salt. Rub mixture all over pork and let sit, uncovered, 1 hour, or chill up to 8.',
+        'Pork and Assembly',
+        'Grind fennel seeds and red pepper in spice mill or with mortar and pestle until coarsely ground. Transfer to a small bowl. Mix in 2 Tbsp. salt. Rub mixture all over pork and let sit, uncovered, 1 hour, or chill up to 8.',
         'Prepare a grill for medium heat; thoroughly clean grates and brush with oil. Grill pork, turning every 4 minutes, until lightly charred on all sides and an instant-read thermometer inserted into the center of the loin registers 130°, 15-20 minutes. Let rest 10 minutes, then cut into very thin slices.',
         'Grill bread halves on both sides until lightly charred and warmed through, about 1 minute per side.',
         'Spread about ½ cup aioli over cut sides of both bread halves. Layer arugula over, then top with sliced pork, basil, chives, and a squeeze of lemon. Serve any remaining aioli alongside.',
