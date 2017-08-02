@@ -35,6 +35,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT30M',
-    'url' => 'http://www.tasteofhome.com/recipes/cranberry-torte',
+    'url' => 'https://www.tasteofhome.com/recipes/cranberry-torte',
     'yield' => '12-14 servings',
 ];

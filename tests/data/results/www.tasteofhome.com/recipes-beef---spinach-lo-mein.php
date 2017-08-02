@@ -36,6 +36,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT30M',
-    'url' => 'http://www.tasteofhome.com/recipes/beef---spinach-lo-mein',
+    'url' => 'https://www.tasteofhome.com/recipes/beef---spinach-lo-mein',
     'yield' => '5 servings',
 ];

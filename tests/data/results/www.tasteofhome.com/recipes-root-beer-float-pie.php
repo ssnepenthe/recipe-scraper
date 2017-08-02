@@ -28,6 +28,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT15M',
-    'url' => 'http://www.tasteofhome.com/recipes/root-beer-float-pie',
+    'url' => 'https://www.tasteofhome.com/recipes/root-beer-float-pie',
     'yield' => '8 servings',
 ];

@@ -26,6 +26,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT15M',
-    'url' => 'http://www.tasteofhome.com/recipes/peanut-butter-snowballs',
+    'url' => 'https://www.tasteofhome.com/recipes/peanut-butter-snowballs',
     'yield' => '24 servings',
 ];

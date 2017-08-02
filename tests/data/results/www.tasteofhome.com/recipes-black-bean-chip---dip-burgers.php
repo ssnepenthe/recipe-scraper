@@ -32,6 +32,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT40M',
-    'url' => 'http://www.tasteofhome.com/recipes/black-bean-chip---dip-burgers',
+    'url' => 'https://www.tasteofhome.com/recipes/black-bean-chip---dip-burgers',
     'yield' => '8 servings',
 ];

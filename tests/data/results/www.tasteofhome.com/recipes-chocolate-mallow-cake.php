@@ -50,6 +50,6 @@ return [
     'prepTime' => 'PT1H',
     'publisher' => null,
     'totalTime' => 'PT1H30M',
-    'url' => 'http://www.tasteofhome.com/recipes/chocolate-mallow-cake',
+    'url' => 'https://www.tasteofhome.com/recipes/chocolate-mallow-cake',
     'yield' => '15 servings',
 ];

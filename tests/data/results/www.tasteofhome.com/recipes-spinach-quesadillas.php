@@ -31,6 +31,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT25M',
-    'url' => 'http://www.tasteofhome.com/recipes/spinach-quesadillas',
+    'url' => 'https://www.tasteofhome.com/recipes/spinach-quesadillas',
     'yield' => '4 servings',
 ];

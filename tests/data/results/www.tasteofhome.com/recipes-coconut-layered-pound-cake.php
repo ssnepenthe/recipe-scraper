@@ -25,6 +25,6 @@ return [
     'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT10M',
-    'url' => 'http://www.tasteofhome.com/recipes/coconut-layered-pound-cake',
+    'url' => 'https://www.tasteofhome.com/recipes/coconut-layered-pound-cake',
     'yield' => '8 servings',
 ];
