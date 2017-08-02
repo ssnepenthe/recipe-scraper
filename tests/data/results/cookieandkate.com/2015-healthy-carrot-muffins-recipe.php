@@ -9,7 +9,7 @@ return [
     'cookTime' => 'PT13M',
     'cuisines' => null,
     'description' => 'Healthy carrot muffins made with whole wheat flour, coconut oil and maple syrup! They taste fantastic, too, of course. These muffins make a great, quick breakfast! Recipe yields 12 muffins.',
-    'image' => 'http://cookieandkate.com/images/2015/12/carrot-muffins.jpg',
+    'image' => 'https://cookieandkate.com/images/2015/12/carrot-muffins.jpg',
     'ingredients' => [
         '1 3/4 cups white whole wheat flour or regular whole wheat flour',
         '1 1/2 teaspoons baking powder',
@@ -43,6 +43,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT28M',
-    'url' => 'http://cookieandkate.com/2015/healthy-carrot-muffins-recipe/',
+    'url' => 'https://cookieandkate.com/2015/healthy-carrot-muffins-recipe/',
     'yield' => '12 muffins',
 ];

@@ -9,7 +9,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Learn how to make a New York sour cocktail. I sweeten mine with maple syrup instead of simple syrup, which tastes amazing! They\'re easy to make, too. Recipe as written below yields one cocktail. You can make two or three cocktails at once in your cocktail shaker; just pour them over ice and top each one with a wine float as explained below.',
-    'image' => 'http://cookieandkate.com/images/2016/12/maple-new-york-sour-3.jpg',
+    'image' => 'https://cookieandkate.com/images/2016/12/maple-new-york-sour-3.jpg',
     'ingredients' => [
         '2 ounces (1/4 cup) rye whiskey or bourbon (I like Rieger\'s brand-a local Kansas City distillery-and Bulleit)',
         '1 ounce (2 tablespoons) fresh lemon juice',
@@ -29,6 +29,6 @@ return [
     'prepTime' => 'PT5M',
     'publisher' => null,
     'totalTime' => 'PT5M',
-    'url' => 'http://cookieandkate.com/2016/maple-new-york-sour/',
+    'url' => 'https://cookieandkate.com/2016/maple-new-york-sour/',
     'yield' => '1 cocktail',
 ];

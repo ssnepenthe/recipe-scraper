@@ -11,7 +11,7 @@ return [
         'Italian',
     ],
     'description' => 'This fresh summer recipe features burst cherry tomatoes, cherry tomato and sun-dried tomato pesto, zucchini noodles and spaghetti! It\'s light and delicious. Recipe yields 4 servings.',
-    'image' => 'http://cookieandkate.com/images/2016/07/double-tomato-pesto-with-zucchini-noodles-2.jpg',
+    'image' => 'https://cookieandkate.com/images/2016/07/double-tomato-pesto-with-zucchini-noodles-2.jpg',
     'ingredients' => [
         '8 ounces whole grain spaghetti (DeLallo is my favorite)',
         '1 large zucchini',
@@ -48,6 +48,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT30M',
-    'url' => 'http://cookieandkate.com/2016/double-tomato-pesto-spaghetti-with-zucchini-noodles/',
+    'url' => 'https://cookieandkate.com/2016/double-tomato-pesto-spaghetti-with-zucchini-noodles/',
     'yield' => '4 servings',
 ];

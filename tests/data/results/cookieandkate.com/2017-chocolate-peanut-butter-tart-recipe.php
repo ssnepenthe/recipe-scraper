@@ -11,7 +11,7 @@ return [
         'American',
     ],
     'description' => 'This chocolate peanut butter tart recipe is creamy and delicious! It\'s also vegan, gluten free, and naturally sweetened, believe it or not! While this recipe is pretty easy to make, it requires some cooling/chilling time. Be sure to place cans of regular coconut milk in your refrigerator at least 12 hours in advance (I usually keep a few in my fridge at all times). Recipe yields one 9" tart (about 8 to 10 slices).',
-    'image' => 'http://cookieandkate.com/images/2017/05/chocolate-peanut-butter-tart-recipe.jpg',
+    'image' => 'https://cookieandkate.com/images/2017/05/chocolate-peanut-butter-tart-recipe.jpg',
     'ingredients' => [
         '2 cups old-fashioned oats (certified gluten-free if necessary)',
         '1/2 cup raw almonds',
@@ -52,6 +52,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT1H45M',
-    'url' => 'http://cookieandkate.com/2017/chocolate-peanut-butter-tart-recipe/',
+    'url' => 'https://cookieandkate.com/2017/chocolate-peanut-butter-tart-recipe/',
     'yield' => '8 to 10 slices',
 ];

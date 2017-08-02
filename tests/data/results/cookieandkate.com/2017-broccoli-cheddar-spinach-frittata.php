@@ -9,7 +9,7 @@ return [
     'cookTime' => 'PT25M',
     'cuisines' => null,
     'description' => 'This spinach, broccoli and cheddar frittata recipe is a simple breakfast, brunch or dinner! It\'s vegetarian and gluten free. Recipe yields 6 large or 8 more modest slices.',
-    'image' => 'http://cookieandkate.com/images/2017/02/spinach-broccoli-cheddar-frittata-recipe-1.jpg',
+    'image' => 'https://cookieandkate.com/images/2017/02/spinach-broccoli-cheddar-frittata-recipe-1.jpg',
     'ingredients' => [
         '8 SimplyNature Organic Cage Free Eggs',
         '1/2 cup milk of choice',
@@ -39,6 +39,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT40M',
-    'url' => 'http://cookieandkate.com/2017/broccoli-cheddar-spinach-frittata/',
+    'url' => 'https://cookieandkate.com/2017/broccoli-cheddar-spinach-frittata/',
     'yield' => '6 to 8 servings',
 ];

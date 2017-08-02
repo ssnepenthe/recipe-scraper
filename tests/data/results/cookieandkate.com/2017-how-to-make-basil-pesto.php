@@ -11,7 +11,7 @@ return [
         'Italian',
     ],
     'description' => 'Homemade basil pesto is so easy to make! Learn how to make basil pesto with this recipe, plus learn how to properly toss it with pasta, and freeze leftovers. Recipe yields 1 cup pesto, which is enough to toss with about 12 ounces of pasta.',
-    'image' => 'http://cookieandkate.com/images/2017/06/best-basil-pesto-recipe.jpg',
+    'image' => 'https://cookieandkate.com/images/2017/06/best-basil-pesto-recipe.jpg',
     'ingredients' => [
         '1/3 cup raw pine nuts, almonds, walnuts, pecans or pepitas',
         '2 cups packed fresh basil leaves (about 3 ounces or 2 large bunches)',
@@ -35,6 +35,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT15M',
-    'url' => 'http://cookieandkate.com/2017/how-to-make-basil-pesto/',
+    'url' => 'https://cookieandkate.com/2017/how-to-make-basil-pesto/',
     'yield' => '1 cup',
 ];

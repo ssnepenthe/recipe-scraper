@@ -9,7 +9,7 @@ return [
     'cookTime' => 'PT30M',
     'cuisines' => null,
     'description' => 'This healthier peach crisp features juicy summer peaches and a delicious oat and almond topping. See recipe notes for special diet adjustments. Recipe yields 6 to 8 servings.',
-    'image' => 'http://cookieandkate.com/images/2016/07/peach-crisp-recipe.jpg',
+    'image' => 'https://cookieandkate.com/images/2016/07/peach-crisp-recipe.jpg',
     'ingredients' => [
         '2 1/4 pounds ripe peaches, peeled and thinly sliced (about 5 to 6 peaches)',
         '⅓ cup honey',
@@ -42,6 +42,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT50M',
-    'url' => 'http://cookieandkate.com/2016/gluten-free-peach-crisp-recipe/',
+    'url' => 'https://cookieandkate.com/2016/gluten-free-peach-crisp-recipe/',
     'yield' => '8 servings',
 ];

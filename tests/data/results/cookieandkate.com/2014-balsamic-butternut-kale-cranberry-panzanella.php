@@ -9,7 +9,7 @@ return [
     'cookTime' => 'PT40M',
     'cuisines' => null,
     'description' => 'This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette. Recipe yields 3 to 4 meal-sized salads.',
-    'image' => 'http://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg',
+    'image' => 'https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg',
     'ingredients' => [
         '1 medium butternut squash (about 2 pounds), peeled and sliced into 3/4-inch cubes',
         '1 to 2 tablespoons extra-virgin olive oil',
@@ -49,6 +49,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT1H',
-    'url' => 'http://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/',
+    'url' => 'https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/',
     'yield' => '4 salads',
 ];
