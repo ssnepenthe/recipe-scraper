@@ -10,7 +10,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Just a Taste | The Ultimate Asian Flank Steak Marinade</title><!-- template start _partials/favicon- -->
+	<!-- template start _partials/favicon- -->
 <link rel="apple-touch-icon" sizes="57x57" href="https://www.justataste.com/wp-content/themes/they_taste/img/favicon/apple-icon-57x57.png" />
 <link rel="apple-touch-icon" sizes="60x60" href="https://www.justataste.com/wp-content/themes/they_taste/img/favicon/apple-icon-60x60.png" />
 <link rel="apple-touch-icon" sizes="72x72" href="https://www.justataste.com/wp-content/themes/they_taste/img/favicon/apple-icon-72x72.png" />
@@ -28,19 +28,21 @@
 <meta name="msapplication-TileColor" content="#ffffff" />
 <meta name="msapplication-TileImage" content="https://www.justataste.com/wp-content/themes/they_taste/img/favicon/ms-icon-310x310.png" />
 <meta name="theme-color" content="#ffffff" /><!-- template end _partials/favicon- -->
-<!-- Social Warfare v2.2.6 http://warfareplugins.com -->
+<!-- Social Warfare v2.2.11 https://warfareplugins.com -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Ultimate Asian Flank Steak Marinade">
 <meta name="twitter:description" content="It's hard to beat the classic combination of soy sauce and honey when it comes to steak marinades. But toss in garlic, ginger, scallions and a splash of balsamic vinegar (my secret ingredient), and you've just whisked together the best-ever bath for your favorite cuts of beef. This marinade was legendary in my house growing up. And I have vivid memories of my mom prepping the marinade a day in advance so that the flank steak could go for an overnight soak before being grilled over an open flame. The result was a perfectly seared steak with a caramelized crust">
 <meta name="twitter:image" content="https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe.jpg">
+<meta name="twitter:site" content="@justataste">
 <style type="text/css">.nc_socialPanel.swp_d_customColor a, html body .nc_socialPanel.swp_i_customColor .nc_tweetContainer:hover a, body .nc_socialPanel.swp_o_customColor:hover a {color:white} .nc_socialPanel.swp_d_customColor .nc_tweetContainer, html body .nc_socialPanel.swp_i_customColor .nc_tweetContainer:hover, body .nc_socialPanel.swp_o_customColor:hover .nc_tweetContainer {background-color:#9dcc2f;border:1px solid #9dcc2f;} </style>
 <style type="text/css">.nc_socialPanel.swp_d_ccOutlines a, html body .nc_socialPanel.swp_i_ccOutlines .nc_tweetContainer:hover a, body .nc_socialPanel.swp_o_ccOutlines:hover a { color:#9dcc2f; }
 .nc_socialPanel.swp_d_ccOutlines .nc_tweetContainer, html body .nc_socialPanel.swp_i_ccOutlines .nc_tweetContainer:hover, body .nc_socialPanel.swp_o_ccOutlines:hover .nc_tweetContainer { background:transparent; border:1px solid #9dcc2f; } </style>
-<style>@font-face {font-family: "sw-icon-font";src:url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.2.6");src:url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.2.6#iefix") format("embedded-opentype"),url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.woff?ver=2.2.6") format("woff"), url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.ttf?ver=2.2.6") format("truetype"),url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.svg?ver=2.2.6#1445203416") format("svg");font-weight: normal;font-style: normal;}</style>
-<!-- Social Warfare v2.2.6 http://warfareplugins.com -->
+<style>@font-face {font-family: "sw-icon-font";src:url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.2.11");src:url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.2.11#iefix") format("embedded-opentype"),url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.woff?ver=2.2.11") format("woff"), url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.ttf?ver=2.2.11") format("truetype"),url("https://www.justataste.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.svg?ver=2.2.11#1445203416") format("svg");font-weight: normal;font-style: normal;}</style>
+<!-- Social Warfare v2.2.11 https://warfareplugins.com -->
 
 
-<!-- This site is optimized with the Yoast SEO plugin v4.9 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>The Ultimate Asian Flank Steak Marinade Recipe</title>
 <meta name="description" content="Kick up the flavor of tender flank steak with the ultimate marinade starring fresh garlic, ginger, honey and soy sauce."/>
 <link rel="canonical" href="https://www.justataste.com/best-asian-flank-steak-marinade-recipe/" />
 <link rel="publisher" href="https://plus.google.com/+kellysenyei/about"/>
@@ -58,9 +60,10 @@
 <meta property="article:tag" content="soy sauce" />
 <meta property="article:section" content="Entrées" />
 <meta property="article:published_time" content="2013-06-26T02:36:15-04:00" />
-<meta property="article:modified_time" content="2017-04-06T12:07:28-04:00" />
-<meta property="og:updated_time" content="2017-04-06T12:07:28-04:00" />
+<meta property="article:modified_time" content="2017-07-25T10:56:17-04:00" />
+<meta property="og:updated_time" content="2017-07-25T10:56:17-04:00" />
 <meta property="og:image" content="https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe.jpg" />
+<meta property="og:image:secure_url" content="https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe.jpg" />
 <meta property="og:image:width" content="1160" />
 <meta property="og:image:height" content="760" />
 <!-- / Yoast SEO plugin. -->
@@ -84,6 +87,10 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+<link rel='stylesheet' id='wprm-public-css'  href='https://www.justataste.com/wp-content/plugins/wp-recipe-maker/assets/css/public/public.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wprm-template-css'  href='https://www.justataste.com/wp-content/themes/they_taste/wprm-templates/recipe/they-recipe/they-recipe.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tooltipster-css'  href='https://www.justataste.com/wp-content/plugins/wp-recipe-maker/vendor/tooltipster/css/tooltipster.bundle.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wprmp-public-css'  href='https://www.justataste.com/wp-content/plugins/wp-recipe-maker-premium/assets/css/public/public.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='mailchimp-for-wp-checkbox-css'  href='https://www.justataste.com/wp-content/plugins/mailchimp-for-wp-pro/assets/css/checkbox.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='social_warfare-css'  href='https://www.justataste.com/wp-content/plugins/social-warfare/css/style.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='cloud-typography-css'  href='https://cloud.typography.com/7490114/7545952/css/fonts.css' type='text/css' media='all' />
@@ -95,7 +102,7 @@ img.emoji {
 <link rel='stylesheet' id='tagoverride-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/typeahead/override.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='slick-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/slick.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='print-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/print.css' type='text/css' media='print' />
-<link rel='stylesheet' id='screen-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/screen.css?v=1497642120' type='text/css' media='screen' />
+<link rel='stylesheet' id='screen-css'  href='https://www.justataste.com/wp-content/themes/they_taste/css/screen.css?v=1501709820' type='text/css' media='screen' />
 <script type='text/javascript' src='https://www.justataste.com/wp-includes/js/jquery/jquery.js'></script>
 <script type='text/javascript' src='https://www.justataste.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='https://www.justataste.com/wp-content/themes/they_taste/js/vendor/jquery.cookie.js'></script>
@@ -103,70 +110,7 @@ img.emoji {
 <link rel="alternate" type="application/json+oembed" href="https://www.justataste.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://www.justataste.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F&#038;format=xml" />
 <!-- Stream WordPress user activity plugin v3.2.0 -->
-		<style type="text/css" id="wp-custom-css">
-			/*
-You can add your own CSS here.
-
-Click the help icon above to learn more.
-*/
-
-.AlpinePhotoTiles-tile {
-    margin: 0 0 4px 4px !important;
-}
-
-/* Begin Additions by Lauren @ Once Coupled, June 2017 */
-
-.nf-form-fields-required {
-    display: none;
-}
-
-.nf-form-cont .nf-field-label label {
-    font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
-    font-size: 14px;
-    color: #393939;
-    font-weight: 400;
-}
-
-.nf-form-cont input,
-.nf-form-cont textarea {
-    font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
-    font-style: normal;
-    font-size: 0.9em;
-    font-weight: 400;
-    color: #555050;
-    box-shadow: none;
-}
-
-.nf-form-cont input[type="button"] {
-    background: #9DCC2F;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: block;
-    margin: 15px 0 0;
-    -webkit-transition: 250ms ease;
-    -moz-transition: 250ms ease;
-    -ms-transition: 250ms ease;
-    -o-transition: 250ms ease;
-    transition: 250ms ease;
-    padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
-    font-size: 0.8125rem;
-    border: 0;
-    cursor: pointer;
-}
-
-.nf-form-cont input[type="button"]:hover,
-.nf-form-cont input[type="button"]:active,
-.nf-form-cont input[type="button"]:focus {
-    background: #40356F;
-}
-
-.sidebar.hide-for-large-up {
-    max-width: 780px;
-}
-
-/* End Additions by Lauren @ Once Coupled, June 2017 */		</style>
-	<meta name="msvalidate.01" content="BING_API_KEY_HERE" />		<script>
+<style type="text/css"> html body .wprm-recipe-container { color: #333333; } html body .wprm-recipe-container .wprm-recipe { background-color: #ffffff; } html body .wprm-recipe-container .wprm-recipe { border-color: #aaaaaa; } html body .wprm-recipe-container .wprm-recipe .wprm-color-border { border-color: #aaaaaa; } html body .wprm-recipe-container a { color: #000000; } html body .wprm-recipe-container .wprm-recipe .wprm-color-header { color: #000000; } html body .wprm-recipe-container h1 { color: #000000; } html body .wprm-recipe-container h2 { color: #000000; } html body .wprm-recipe-container h3 { color: #000000; } html body .wprm-recipe-container h4 { color: #000000; } html body .wprm-recipe-container h5 { color: #000000; } html body .wprm-recipe-container h6 { color: #000000; } html body .wprm-recipe-container svg path { fill: #343434; } html body .wprm-recipe-container svg rect { fill: #343434; } html body .wprm-recipe-container svg polygon { stroke: #343434; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { background-color: #2c3e50; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent2 { background-color: #3498db; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent2 { color: #ffffff; } .wprm-comment-rating svg path, .comment-form-wprm-rating svg path { fill: #343434; } .wprm-comment-rating svg polygon, .comment-form-wprm-rating svg polygon { stroke: #343434; }</style><meta name="msvalidate.01" content="BING_API_KEY_HERE" />		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -335,30 +279,28 @@ Click the help icon above to learn more.
 					</div>
 <!-- template start _content/recipes-single- -->	<div class="content-block" id="print-worthy">
 
-		<div class="row"  itemscope itemtype="http://schema.org/Recipe"  id="https://www.justataste.com/best-asian-flank-steak-marinade-recipe/">
+		<div class="row">
 			<div class="large-8 columns print-destroy-height">
-					<div class="blog-title">
-						<h3 itemprop="name" class="recipe-title">The Ultimate Asian Flank Steak Marinade</h3>						<ul class="recipe-categories details">
-							<li><img src="https://www.justataste.com/wp-content/themes/they_taste/img/icon-author.svg" class="icon">
-								<p>Kelly Senyei</p>
-							</li>
-							<li><img src="https://www.justataste.com/wp-content/themes/they_taste/img/icon-date.svg" class="icon">
-								<span class="day">26</span>
-								<time class="date" datetime="2013-06-26" itemprop="datePublished">June 26, 2013</time>
-							</li>
-							<li>
-								<a href="#" class="scroll-to-comments">
-									<img src="https://www.justataste.com/wp-content/themes/they_taste/img//icon-comments.svg" class="icon">
-									143 Comments
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="print-this-img hide"></div>
-											<img class="hide" itemprop="image" src="https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe-480x270.jpg">
-										<link itemprop="mainEntityOfPage" href="https://www.justataste.com/best-asian-flank-steak-marinade-recipe/" />
-					<div class="blog" itemprop="description">
-						<img class="aligncenter size-full wp-image-15609" title="The Ultimate Asian Flank Steak Marinade" src="https://www.justataste.com/wp-content/uploads/2013/06/Ultimate-Asian-Flank-Steak-Marinade.jpg" alt="The Ultimate Asian Flank Steak Marinade" width="447" height="675" srcset="https://www.justataste.com/wp-content/uploads/2013/06/Ultimate-Asian-Flank-Steak-Marinade.jpg 447w, https://www.justataste.com/wp-content/uploads/2013/06/Ultimate-Asian-Flank-Steak-Marinade-175x265.jpg 175w" sizes="(max-width: 447px) 100vw, 447px" />
+				<div class="blog-title">
+					<h3 class="recipe-title">The Ultimate Asian Flank Steak Marinade</h3>					<ul class="recipe-categories details">
+						<li><img src="https://www.justataste.com/wp-content/themes/they_taste/img/icon-author.svg" class="icon">
+							<p>Kelly Senyei</p>
+						</li>
+						<li><img src="https://www.justataste.com/wp-content/themes/they_taste/img/icon-date.svg" class="icon">
+							<span class="day">26</span>
+							<time class="date">June 26, 2013</time>
+						</li>
+						<li>
+							<a href="#" class="scroll-to-comments">
+								<img src="https://www.justataste.com/wp-content/themes/they_taste/img//icon-comments.svg" class="icon">
+								145 Comments
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="print-this-img hide"></div>
+				<div class="blog">
+					<img class="aligncenter size-full wp-image-15609" title="The Ultimate Asian Flank Steak Marinade" src="https://www.justataste.com/wp-content/uploads/2013/06/Ultimate-Asian-Flank-Steak-Marinade.jpg" alt="The Ultimate Asian Flank Steak Marinade" width="447" height="675" srcset="https://www.justataste.com/wp-content/uploads/2013/06/Ultimate-Asian-Flank-Steak-Marinade.jpg 447w, https://www.justataste.com/wp-content/uploads/2013/06/Ultimate-Asian-Flank-Steak-Marinade-175x265.jpg 175w" sizes="(max-width: 447px) 100vw, 447px" />
 <p>It&#8217;s hard to beat the classic combination of soy sauce and honey when it comes to steak marinades. But toss in garlic, ginger, scallions and a splash of balsamic vinegar (my secret ingredient), and you&#8217;ve just whisked together the best-ever bath for your favorite cuts of beef.</p>
 <p>This marinade was legendary in my house growing up. And I have vivid memories of my mom prepping the marinade a day in advance so that the flank steak could go for an overnight soak before being grilled over an open flame. The result was a perfectly seared steak with a caramelized crust (shout-out to the honey) and a tender center that offerred hints of the sweet and tangy flavors from the Asian-inspired blend.</p>
 <p>A quick tip for marinades: Make the most of sealable plastic bags to minimize cleanup and provide easy opportunities to swish the ingredients around the food item so it gets an even coating on all sides.</p>
@@ -370,73 +312,117 @@ Click the help icon above to learn more.
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<div class="swp-content-locator"></div>					</div>
-					<div class="pin-it source">
-						<a class="pin-it" href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><i class="fa fa-pinterest"></i><span>Pin It</span></a>
+<div id="wprm-recipe-container-30265" class="wprm-recipe-container" data-recipe-id="30265"><script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Recipe","name":"The Ultimate Asian Flank Steak Marinade","author":{"@type":"Person","name":"Kelly Senyei"},"datePublished":"2013-06-26 02:36:15","image":"https:\/\/www.justataste.com\/wp-content\/uploads\/2013\/06\/ultimate-asian-flank-steak-marinade-recipe.jpg","description":"It&#8217;s hard to beat the classic combination of soy sauce and honey when it comes to steak marinades. But toss in garlic, ginger, scallions and a splash of balsamic vinegar (my secret ingredient), and you&#8217;ve just whisked together the best-ever bath for your favorite cuts of beef. This marinade was legendary in my house growing [&hellip;]","recipeIngredient":["1  ( 1 1\/2- to 2-pound) flank steak","1\/4 cup low sodium soy sauce","1\/4 cup balsamic vinegar","1\/2 cup vegetable oil","3 Tablespoons honey","4  garlic cloves, minced","2 Tablespoons minced fresh ginger","3  scallions, thinly sliced","gallon size sealable plastic bag"],"recipeInstructions":["Place the plastic bag in a large bowl and then add the soy sauce, balsamic vinegar and oil to the bag. Whisk in the honey, garlic, ginger and scallions. Add the steak to the bag, flipping it to coat it in the marinade, and then seal the plastic bag.","Place the steak in the fridge and marinate it overnight, or for a minimum of 10 hours.","When ready to cook, remove the steak from the fridge and preheat your cooking surface (grill or stovetop grill pan). Remove the steak from the marinade, discard the leftover liquid, and sear the steak on each side until it's cooked to your desired degree of doneness. Let the steak rest for 5 minutes and then slice it against the grain and serve."],"recipeCategory":["Main Course"]}</script>
+<div class="wprm-recipe wprm-recipe-they-recipe" itemscope itemtype="http://schema.org/Recipe">
+	<meta itemprop="author" content="Kelly Senyei" />
+	<meta itemprop="datePublished" content="2013-06-26 02:36:15" />
+	<meta itemprop="image" content="https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe-480x270.jpg" />
+
+	<!-- <div class="wprm-recipe-image-container">
+		<div class="wprm-recipe-image"><img width="480" height="270" src="https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe-480x270.jpg" class="attachment-recipe-card size-recipe-card" alt="The Ultimate Asian Flank Steak Marinade from justataste.com #recipe" srcset="https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe-480x270.jpg 480w, https://www.justataste.com/wp-content/uploads/2013/06/ultimate-asian-flank-steak-marinade-recipe-740x416.jpg 740w" sizes="(max-width: 480px) 100vw, 480px" /></div>
+	</div> -->
+
+	<div class="wprm-recipe-they-recipe-ingredients">
+		<a href="#" class="wprm-recipe-print wprm-recipe-they-recipe-print"><button class="purple"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path fill="#343434" d="M19,5.09V1c0-0.552-0.448-1-1-1H6C5.448,0,5,0.448,5,1v4.09C2.167,5.569,0,8.033,0,11v7c0,0.552,0.448,1,1,1h4v4c0,0.552,0.448,1,1,1h12c0.552,0,1-0.448,1-1v-4h4c0.552,0,1-0.448,1-1v-7C24,8.033,21.833,5.569,19,5.09z M7,2h10v3H7V2z M17,22H7v-9h10V22z M18,10c-0.552,0-1-0.448-1-1c0-0.552,0.448-1,1-1s1,0.448,1,1C19,9.552,18.552,10,18,10z"/></g></svg> Print</button></a>
+		<h2 class="wprm-recipe-name" itemprop="name">The Ultimate Asian Flank Steak Marinade</h2>
+
+		<div class="wprm-recipe-details-container wprm-recipe-times-container">
+														</div>
+
+		<div class="wprm-recipe-buttons">
 					</div>
 
+		<meta itemprop="description" content="It&#8217;s hard to beat the classic combination of soy sauce and honey when it comes to steak marinades. But toss in garlic, ginger, scallions and a splash of balsamic vinegar (my secret ingredient), and you&#8217;ve just whisked together the best-ever bath for your favorite cuts of beef. This marinade was legendary in my house growing [&hellip;]" />
 
-										<div class="recipe-content">						
-
-												
-						<div class="actions">
-							<a href="#" id="printMe"><button class="purple radius">Print</button></a>
-						</div>
-						
-												
-												
-												<div class="ingredients">
-
-							<h3>The Ultimate Asian Flank Steak Marinade</h3>
-														<ul class="recipe-categories">
-																					</ul>
-
-							<p class="title">Ingredients</p>
-
-							<div class="row">
-								<div class="small-12 columns ingredients-list">
-									<ul><li itemprop="recipeIngredient"><span>1</span>  ( 1 1/2- to 2-pound) flank steak</li><li itemprop="recipeIngredient"><span>1/4 cup</span> low sodium soy sauce</li><li itemprop="recipeIngredient"><span>1/4 cup</span> balsamic vinegar</li><li itemprop="recipeIngredient"><span>1/2 cup</span> vegetable oil</li><li itemprop="recipeIngredient"><span>3 Tablespoons</span> honey</li><li itemprop="recipeIngredient"><span>4</span> garlic cloves, minced</li><li itemprop="recipeIngredient"><span>2 Tablespoons</span> minced fresh ginger</li><li itemprop="recipeIngredient"><span>3</span> scallions, thinly sliced</li></ul><ul><li itemprop="recipeIngredient"><span></span> <strong>Equipment:</strong></li><li itemprop="recipeIngredient"><span></span>  gallon size sealable plastic bag</li><li itemprop="recipeIngredient"><span></span></li></ul>								</div>
-							</div>
-
-
-						</div>
-						
-																		<div class="recipe-directions">
-							<h4>Directions</h4>
-
-							<div class="recipe-card-ad">
-								<div id="ad_wrap_4__large"></div>
-							</div>
-
-							<div itemprop="recipeInstructions"><p>Place the plastic bag in a large bowl and then add the soy sauce, balsamic vinegar and oil to the bag. Whisk in the honey, garlic, ginger and scallions. Add the steak to the bag, flipping it to coat it in the marinade, and then seal the plastic bag.</p>
-<p>Place the steak in the fridge and marinate it overnight, or for a minimum of 10 hours.</p>
-<p>When ready to cook, remove the steak from the fridge and preheat your cooking surface (grill or stovetop grill pan). Remove the steak from the marinade, discard the leftover liquid, and sear the steak on each side until it's cooked to your desired degree of doneness. Let the steak rest for 5 minutes and then slice it against the grain and serve.</p>
+				<div class="wprm-recipe-ingredients-container">
+			<h3 class="wprm-recipe-header">Ingredients</h3>
+						<div class="wprm-recipe-ingredient-group">
+								<ul class="wprm-recipe-ingredients">
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">1</span>
+																		<span class="wprm-recipe-ingredient-name">( 1 1/2- to 2-pound) flank steak</span>
+											</li>
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">1/4</span>
+																		<span class="wprm-recipe-ingredient-unit">cup</span>
+												<span class="wprm-recipe-ingredient-name">low sodium soy sauce</span>
+											</li>
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">1/4</span>
+																		<span class="wprm-recipe-ingredient-unit">cup</span>
+												<span class="wprm-recipe-ingredient-name">balsamic vinegar</span>
+											</li>
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">1/2</span>
+																		<span class="wprm-recipe-ingredient-unit">cup</span>
+												<span class="wprm-recipe-ingredient-name">vegetable oil</span>
+											</li>
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">3</span>
+																		<span class="wprm-recipe-ingredient-unit">Tablespoons</span>
+												<span class="wprm-recipe-ingredient-name">honey</span>
+											</li>
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">4</span>
+																		<span class="wprm-recipe-ingredient-name">garlic cloves, minced</span>
+											</li>
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">2</span>
+																		<span class="wprm-recipe-ingredient-unit">Tablespoons</span>
+												<span class="wprm-recipe-ingredient-name">minced fresh ginger</span>
+											</li>
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+												<span class="wprm-recipe-ingredient-amount">3</span>
+																		<span class="wprm-recipe-ingredient-name">scallions, thinly sliced</span>
+											</li>
+									</ul>
+			</div>
+		 			<div class="wprm-recipe-ingredient-group">
+								<h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Equipment:</h4>
+								<ul class="wprm-recipe-ingredients">
+										<li class="wprm-recipe-ingredient" itemprop="recipeIngredient">
+																		<span class="wprm-recipe-ingredient-name">gallon size sealable plastic bag</span>
+											</li>
+									</ul>
+			</div>
+		 		 		</div>
+			</div>
+	
+		<div class="wprm-recipe-instructions-container">
+		<div class="recipe-directions"></div>
+		<h3 class="wprm-recipe-header">Instructions</h3>
+				<div class="wprm-recipe-instruction-group">
+															<p>Place the plastic bag in a large bowl and then add the soy sauce, balsamic vinegar and oil to the bag. Whisk in the honey, garlic, ginger and scallions. Add the steak to the bag, flipping it to coat it in the marinade, and then seal the plastic bag.</p>																				<p>Place the steak in the fridge and marinate it overnight, or for a minimum of 10 hours.</p>																				<p>When ready to cook, remove the steak from the fridge and preheat your cooking surface (grill or stovetop grill pan). Remove the steak from the marinade, discard the leftover liquid, and sear the steak on each side until it's cooked to your desired degree of doneness. Let the steak rest for 5 minutes and then slice it against the grain and serve.</p>													</div>
+			</div>
+			</div>
 </div>
+<div class="swp-content-locator"></div>				</div>
 
-							
-							<ul class="ellipses">
-								<li><i class="fa fa-circle"></i></li>
-								<li><i class="fa fa-circle"></i></li>
-								<li><i class="fa fa-circle"></i></li>
-							</ul>
-						</div>
-						
-						<span class="hide" itemprop="author" itemscope itemtype="http://schema.org/Person">
-															<span itemprop="name"><p>Kelly Senyei</p></span>
-													</span>
+				<div class="pin-it source">
+					<a class="pin-it" href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><i class="fa fa-pinterest"></i><span>Pin It</span></a>
+				</div>
 
-						<div class="nc_socialPanel swp_flatFresh swp_d_customColor swp_i_ccOutlines swp_o_customColor scale-100 scale-fullWidth" data-position="none" data-float="floatNone" data-count="6" data-floatColor="#ffffff" data-emphasize="0"><div class="nc_tweetContainer swp_fb" data-id="4" data-network="facebook"><a rel="nofollow" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" data-link="http://www.facebook.com/share.php?u=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-facebook"></i><span class="swp_share"> Share</span></span></span><span class="swp_count">662</span></a></div><div class="nc_tweetContainer nc_pinterest" data-id="5" data-network="pinterest"><a rel="nofollow" onClick="var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e);" class="nc_tweet noPop"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-pinterest"></i><span class="swp_share"> Pin</span></span></span><span class="swp_count">160K</span></a></div><div class="nc_tweetContainer twitter" data-id="3" data-network="twitter"><a rel="nofollow" target="_blank" href="https://twitter.com/share?original_referer=/&text=The+Ultimate+Asian+Flank+Steak+Marinade&url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/" data-link="https://twitter.com/share?original_referer=/&text=The+Ultimate+Asian+Flank+Steak+Marinade&url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/" class="nc_tweet"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-twitter"></i><span class="swp_share"> Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_yummly" data-id="6" data-network="yummly"><a rel="nofollow" target="_blank" href="http://www.yummly.com/urb/verify?url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&title=The+Ultimate+Asian+Flank+Steak+Marinade&image=&yumtype=button" data-link="http://www.yummly.com/urb/verify?url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&title=The+Ultimate+Asian+Flank+Steak+Marinade&image=&yumtype=button" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-yummly"></i><span class="swp_share"> Yum</span></span></span><span class="swp_count">2K</span></a></div><div class="nc_tweetContainer googlePlus" data-id="2" data-network="google_plus"><a rel="nofollow" target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" data-link="https://plus.google.com/share?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-google-plus"></i><span class="swp_share"> +1</span></span></span><span class="swp_count">3K</span></a></div><div class="nc_tweetContainer totes totesalt" data-id="7" ><span class="swp_count"><span class="swp_label">Shares</span> 166K</span></div></div><div class="swp-content-locator"></div>
-												<div class="recipe-notes">
-							<p>Recipe by Kelly Senyei of <a title="Just a Taste" href="http://www.justataste.com">Just a Taste</a>.</p>
-						</div>
+				<div class="recipe-content">
 						
-						<div class="recipe-categories-single">
-														<p>
-								<strong>Categories:</strong>
-								<a href="https://www.justataste.com/category/recipes/entree-recipes/" class="category-link-single">Entrées</a>							</p>
-						</div>
 
-						
+					<ul class="ellipses">
+						<li><i class="fa fa-circle"></i></li>
+						<li><i class="fa fa-circle"></i></li>
+						<li><i class="fa fa-circle"></i></li>
+					</ul>
+					
+					<div class="nc_socialPanel swp_flatFresh swp_d_customColor swp_i_ccOutlines swp_o_customColor scale-100 scale-fullWidth" data-position="none" data-float="floatBottom" data-count="6" data-floatColor="#ffffff" data-emphasize="0"><div class="nc_tweetContainer swp_fb" data-id="4" data-network="facebook"><a rel="nofollow" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" data-link="http://www.facebook.com/share.php?u=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-facebook"></i><span class="swp_share"> Share</span></span></span><span class="swp_count">688</span></a></div><div class="nc_tweetContainer nc_pinterest" data-id="5" data-network="pinterest"><a rel="nofollow" onClick="var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e);" class="nc_tweet noPop"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-pinterest"></i><span class="swp_share"> Pin</span></span></span><span class="swp_count">164K</span></a></div><div class="nc_tweetContainer twitter" data-id="3" data-network="twitter"><a rel="nofollow" target="_blank" href="https://twitter.com/share?original_referer=/&text=The+Ultimate+Asian+Flank+Steak+Marinade&url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&via=justataste" data-link="https://twitter.com/share?original_referer=/&text=The+Ultimate+Asian+Flank+Steak+Marinade&url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&via=justataste" class="nc_tweet"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-twitter"></i><span class="swp_share"> Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_yummly" data-id="6" data-network="yummly"><a rel="nofollow" target="_blank" href="http://www.yummly.com/urb/verify?url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&title=The+Ultimate+Asian+Flank+Steak+Marinade&image=&yumtype=button" data-link="http://www.yummly.com/urb/verify?url=https://www.justataste.com/best-asian-flank-steak-marinade-recipe/&title=The+Ultimate+Asian+Flank+Steak+Marinade&image=&yumtype=button" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-yummly"></i><span class="swp_share"> Yum</span></span></span><span class="swp_count">2K</span></a></div><div class="nc_tweetContainer googlePlus" data-id="2" data-network="google_plus"><a rel="nofollow" target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" data-link="https://plus.google.com/share?url=https%3A%2F%2Fwww.justataste.com%2Fbest-asian-flank-steak-marinade-recipe%2F" class="nc_tweet"><span class="iconFiller"><span class="spaceManWilly"><i class="sw sw-google-plus"></i><span class="swp_share"> +1</span></span></span><span class="swp_count">3K</span></a></div><div class="nc_tweetContainer totes totesalt" data-id="7" ><span class="swp_count"><span class="swp_label">Shares</span> 170K</span></div></div><div class="swp-content-locator"></div>
+										<div class="recipe-notes">
+						<p>Recipe by Kelly Senyei of <a title="Just a Taste" href="http://www.justataste.com">Just a Taste</a>.</p>
+					</div>
+					
+					<div class="recipe-categories-single">
+												<p>
+							<strong>Categories:</strong>
+							<a href="https://www.justataste.com/category/recipes/entree-recipes/" class="category-link-single">Entrées</a>						</p>
+					</div>
+
+					
 
 <a target="_blank" href="">
 	<div class="insta-unit row collapse" data-equalizer>
@@ -453,11 +439,10 @@ Click the help icon above to learn more.
 </a>
 <br>
 
-						<div class="advert-wrapper">
-							<div id="ad_wrap_5__large"></div>
-						</div>
-
+					<div class="advert-wrapper">
+						<div id="ad_wrap_5__large"></div>
 					</div>
+				</div>
 
 			</div> <!-- end large-8 (main) -->
 
@@ -483,7 +468,7 @@ Click the help icon above to learn more.
 		<input type="checkbox" name="GROUPINGS[1][]" value="Parents" style="margin-left: 15px;"><span>Parents Posts </span>
 
 	</div>
-</div><div style="display: none;"><input type="text" name="_mc4wp_ho_db6b48a264eebb472996c8021d1cb6f8" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1497642142" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="329d808a88" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
+</div><div style="display: none;"><input type="text" name="_mc4wp_ho_691bff15bb8fd64794beedabf1489556" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1501709844" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="aafaab09fa" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
 
 	<hr>
 	<h4>FOLLOW FOR INSPIRATION</h4>
@@ -525,103 +510,104 @@ Click the help icon above to learn more.
 			<li>
 				<div class="row large--display-table">
 					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/easy-ice-cream-sandwich-cake-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/06/easy-ice-cream-sandwich-cake-recipe-370x302.jpg" alt="Easy Ice Cream Sandwich Cake"></span></a>
+						<a href="https://www.justataste.com/soba-noodle-salad-peanut-dressing-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/07/soba-noodle-salad-peanut-dressing-370x302.jpg" alt="Soba Noodle Salad with Peanut Dressing"></span></a>
 					</div>
 					<div class="large-7 columns large--display-table-cell">
 						<div class="post">
-							<!-- <p><time class="date" datetime="2017-06-15">June 15, 2017</time></p> -->
-							<h3><a href="https://www.justataste.com/easy-ice-cream-sandwich-cake-recipe/">Easy Ice Cream Sandwich Cake</a></h3>
+							<!-- <p><time class="date" datetime="2017-07-31">July 31, 2017</time></p> -->
+							<h3><a href="https://www.justataste.com/soba-noodle-salad-peanut-dressing-recipe/">Soba Noodle Salad with Peanut Dressing</a></h3>
 							<p>
+Call all noodle lovers! If pasta salad is your carb of choice, look no further than this light, refreshing and seriously flavor-packed Soba Noodle Salad with Peanut Dressing…</p>
+							<a class="read-more" href="https://www.justataste.com/soba-noodle-salad-peanut-dressing-recipe/"><span class="icon-angle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</li>
+		
+			<li>
+				<div class="row large--display-table">
+					<div class="large-5 columns large--display-table-cell recipe-thumb">
+						<a href="https://www.justataste.com/salted-chocolate-chip-cookie-bars-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/07/best-salted-chocolate-chip-cookie-bars-370x302.jpg" alt="Salted Chocolate Chip Cookie Bars"></span></a>
+					</div>
+					<div class="large-7 columns large--display-table-cell">
+						<div class="post">
+							<!-- <p><time class="date" datetime="2017-07-27">July 27, 2017</time></p> -->
+							<h3><a href="https://www.justataste.com/salted-chocolate-chip-cookie-bars-recipe/">Salted Chocolate Chip Cookie Bars</a></h3>
+							<p>
+It's been a memorable week around here, as we celebrated the 1-year birthday of my favorite 26-pound ball of snuggles and giggles. It's hard to believe I'm now mom to a 1-ye…</p>
+							<a class="read-more" href="https://www.justataste.com/salted-chocolate-chip-cookie-bars-recipe/"><span class="icon-angle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</li>
+		
+			<li>
+				<div class="row large--display-table">
+					<div class="large-5 columns large--display-table-cell recipe-thumb">
+						<a href="https://www.justataste.com/baked-southwestern-egg-rolls-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/07/baked-southwestern-egg-rolls-recipe-370x302.jpg" alt="Baked Southwestern Egg Rolls"></span></a>
+					</div>
+					<div class="large-7 columns large--display-table-cell">
+						<div class="post">
+							<!-- <p><time class="date" datetime="2017-07-24">July 24, 2017</time></p> -->
+							<h3><a href="https://www.justataste.com/baked-southwestern-egg-rolls-recipe/">Baked Southwestern Egg Rolls</a></h3>
+							<p>
+What is it about dough envelops that make for the most appetizing and often addicting snack foods? From egg rolls to wontons, hand pies to pizza pockets—stuff any type of …</p>
+							<a class="read-more" href="https://www.justataste.com/baked-southwestern-egg-rolls-recipe/"><span class="icon-angle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</li>
+		
+			<li>
+				<div class="row large--display-table">
+					<div class="large-5 columns large--display-table-cell recipe-thumb">
+						<a href="https://www.justataste.com/peanut-butter-frozen-yogurt-pops-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/07/peanut-butter-frozen-yogurt-pops-recipe-370x302.jpg" alt="Peanut Butter Frozen Yogurt Pops"></span></a>
+					</div>
+					<div class="large-7 columns large--display-table-cell">
+						<div class="post">
+							<!-- <p><time class="date" datetime="2017-07-20">July 20, 2017</time></p> -->
+							<h3><a href="https://www.justataste.com/peanut-butter-frozen-yogurt-pops-recipe/">Peanut Butter Frozen Yogurt Pops</a></h3>
+							<p>
+Peanut butter frozen yogurt has been high atop my list of recipe development ideas for ages. And it's only taken (almost) 9 years to bring that vision to life. #slowandstead…</p>
+							<a class="read-more" href="https://www.justataste.com/peanut-butter-frozen-yogurt-pops-recipe/"><span class="icon-angle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</li>
+		
+			<li>
+				<div class="row large--display-table">
+					<div class="large-5 columns large--display-table-cell recipe-thumb">
+						<a href="https://www.justataste.com/fast-fresh-gazpacho-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/07/quick-easy-gazpacho-recipe-370x302.jpg" alt="Fast and Fresh Gazpacho"></span></a>
+					</div>
+					<div class="large-7 columns large--display-table-cell">
+						<div class="post">
+							<!-- <p><time class="date" datetime="2017-07-17">July 17, 2017</time></p> -->
+							<h3><a href="https://www.justataste.com/fast-fresh-gazpacho-recipe/">Fast and Fresh Gazpacho</a></h3>
+							<p>
+Step away from the stove. I repeat: Step away from the stove. If it's hotter than a jalapeño in your kitchen, then allow me to introduce you to summer's biggest dinner winn…</p>
+							<a class="read-more" href="https://www.justataste.com/fast-fresh-gazpacho-recipe/"><span class="icon-angle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</li>
+		
+			<li>
+				<div class="row large--display-table">
+					<div class="large-5 columns large--display-table-cell recipe-thumb">
+						<a href="https://www.justataste.com/ultimate-doughnut-sundae-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/07/ultimate-doughnut-sundae-370x302.jpg" alt="The Ultimate Doughnut Sundae"></span></a>
+					</div>
+					<div class="large-7 columns large--display-table-cell">
+						<div class="post">
+							<!-- <p><time class="date" datetime="2017-07-13">July 13, 2017</time></p> -->
+							<h3><a href="https://www.justataste.com/ultimate-doughnut-sundae-recipe/">The Ultimate Doughnut Sundae</a></h3>
+							<p>
+Two words: doughnut sundae.
 
-Just when you thought dessert couldn't get any simpler than the aptly named Easiest-Ever Ice Cream Cake, I present to you the newest frosty treat to fill your freezer: Eas…</p>
-							<a class="read-more" href="https://www.justataste.com/easy-ice-cream-sandwich-cake-recipe/"><span class="icon-angle-right"></span></a>
-						</div>
-					</div>
-				</div>
-			</li>
-		
-			<li>
-				<div class="row large--display-table">
-					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/sweet-corn-pancakes-bacon-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/06/sweet-corn-pancakes-bacon-370x302.jpg" alt="Sweet Corn Pancakes with Bacon"></span></a>
-					</div>
-					<div class="large-7 columns large--display-table-cell">
-						<div class="post">
-							<!-- <p><time class="date" datetime="2017-06-12">June 12, 2017</time></p> -->
-							<h3><a href="https://www.justataste.com/sweet-corn-pancakes-bacon-recipe/">Sweet Corn Pancakes with Bacon</a></h3>
-							<p>
-Pancakes are a popular meal around our home, whether they're sweet, savory or some variation in between. And that "in between" is exactly where these Sweet Corn Pancakes wit…</p>
-							<a class="read-more" href="https://www.justataste.com/sweet-corn-pancakes-bacon-recipe/"><span class="icon-angle-right"></span></a>
-						</div>
-					</div>
-				</div>
-			</li>
-		
-			<li>
-				<div class="row large--display-table">
-					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/no-churn-vanilla-ice-cream-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/no-churn-vanilla-ice-cream-recipe-370x302.jpg" alt="No-Churn Vanilla Ice Cream"></span></a>
-					</div>
-					<div class="large-7 columns large--display-table-cell">
-						<div class="post">
-							<!-- <p><time class="date" datetime="2017-06-08">June 8, 2017</time></p> -->
-							<h3><a href="https://www.justataste.com/no-churn-vanilla-ice-cream-recipe/">No-Churn Vanilla Ice Cream</a></h3>
-							<p>
-San Diego, Chicago, New York City, Newport Beach. Name a city I've lived in and I'll tell you my go-to spot for the best ice cream in the land. Because no matter what town …</p>
-							<a class="read-more" href="https://www.justataste.com/no-churn-vanilla-ice-cream-recipe/"><span class="icon-angle-right"></span></a>
-						</div>
-					</div>
-				</div>
-			</li>
-		
-			<li>
-				<div class="row large--display-table">
-					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/garlicky-skillet-corn-bacon-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/garlic-skillet-corn-370x302.jpg" alt="Garlicky Skillet Corn with Bacon"></span></a>
-					</div>
-					<div class="large-7 columns large--display-table-cell">
-						<div class="post">
-							<!-- <p><time class="date" datetime="2017-06-04">June 4, 2017</time></p> -->
-							<h3><a href="https://www.justataste.com/garlicky-skillet-corn-bacon-recipe/">Garlicky Skillet Corn with Bacon</a></h3>
-							<p>
-The culinary trifecta of corn, bacon and cheese is on repeat all summer long at my house. And it doesn't get more versatile than this Garlicky Skillet Corn that can be serve…</p>
-							<a class="read-more" href="https://www.justataste.com/garlicky-skillet-corn-bacon-recipe/"><span class="icon-angle-right"></span></a>
-						</div>
-					</div>
-				</div>
-			</li>
-		
-			<li>
-				<div class="row large--display-table">
-					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/peach-wine-slushies-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/best-peach-wine-slushies-recipe-370x302.jpg" alt="Peach Wine Slushies"></span></a>
-					</div>
-					<div class="large-7 columns large--display-table-cell">
-						<div class="post">
-							<!-- <p><time class="date" datetime="2017-05-31">May 31, 2017</time></p> -->
-							<h3><a href="https://www.justataste.com/peach-wine-slushies-recipe/">Peach Wine Slushies</a></h3>
-							<p>
-Some people call it "frosé." Other people call it "frozen wine." I call it "Mommy's Super Juice." Peach Wine Slushies, welcome to the party. And boy, am I ever glad to see…</p>
-							<a class="read-more" href="https://www.justataste.com/peach-wine-slushies-recipe/"><span class="icon-angle-right"></span></a>
-						</div>
-					</div>
-				</div>
-			</li>
-		
-			<li>
-				<div class="row large--display-table">
-					<div class="large-5 columns large--display-table-cell recipe-thumb">
-						<a href="https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/"><span><img nopin="nopin" src="https://www.justataste.com/wp-content/uploads/2017/05/fresh-cherry-cheesecake-dip-recipe-370x302.jpg" alt="Fresh Cherry Cheesecake Dip"></span></a>
-					</div>
-					<div class="large-7 columns large--display-table-cell">
-						<div class="post">
-							<!-- <p><time class="date" datetime="2017-05-27">May 27, 2017</time></p> -->
-							<h3><a href="https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/">Fresh Cherry Cheesecake Dip</a></h3>
-							<p>
-Four words: Fresh Cherry Cheesecake Dip.
+Is it breakfast? Is it dessert? Should it legally be declared as suitable for both?
 
-The key word here is “fresh,” because you’ve probably seen dozens upon dozens of cherry cheesecake dips floating around the…</p>
-							<a class="read-more" href="https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/"><span class="icon-angle-right"></span></a>
+Yes, yes and yes. This Ultimate Doughnut Sundae is ever…</p>
+							<a class="read-more" href="https://www.justataste.com/ultimate-doughnut-sundae-recipe/"><span class="icon-angle-right"></span></a>
 						</div>
 					</div>
 				</div>
@@ -636,7 +622,7 @@ The key word here is “fresh,” because you’ve probably seen dozens upon doz
 						</div>
 						<div class="comments" id="comments">
 														<ul class="comment-list">
-								<div id="ajax-load-more" class="ajax-load-more-wrap default"  data-alm-id="" data-canonical-url="https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/" data-slug="fresh-cherry-cheesecake-dip-recipe" data-post-id="29419" ><ol class="commentlist alm-comments alm-ajax   " data-comments="true" data-comments_per_page="5" data-comments_type="comment" data-comments_style="ol" data-comments_template="none" data-comments_callback="" data-comments_post_id="15354" data-repeater="default" data-post-type="post" data-sticky-posts="" data-post-format="" data-category="" data-category-not-in="" data-tag="" data-tag-not-in="" data-taxonomy="" data-taxonomy-terms="" data-taxonomy-operator="" data-taxonomy-relation="" data-meta-key="" data-meta-value="" data-meta-compare="" data-meta-relation="" data-meta-type="" data-year="" data-month="" data-day="" data-author="" data-post-in="" data-post-not-in="" data-exclude="" data-search="" data-custom-args="" data-post-status="" data-order="DESC" data-orderby="date" data-offset="0" data-posts-per-page="5" data-lang="" data-scroll="false" data-scroll-distance="150" data-max-pages="0" data-pause-override="false" data-pause="false" data-button-label="Load More Comments" data-button-loading-label="Loading More Comments" data-button-class="button radius large" data-destroy-after="" data-transition="slide" data-transition-speed="500" data-images-loaded="false"></ol></div>							</ul>
+								<div id="ajax-load-more" class="ajax-load-more-wrap default"  data-alm-id="" data-canonical-url="https://www.justataste.com/ultimate-doughnut-sundae-recipe/" data-slug="ultimate-doughnut-sundae-recipe" data-post-id="29740" ><ol class="commentlist alm-comments alm-ajax   " data-comments="true" data-comments_per_page="5" data-comments_type="comment" data-comments_style="ol" data-comments_template="none" data-comments_callback="" data-comments_post_id="15354" data-repeater="default" data-post-type="post" data-sticky-posts="" data-post-format="" data-category="" data-category-not-in="" data-tag="" data-tag-not-in="" data-taxonomy="" data-taxonomy-terms="" data-taxonomy-operator="" data-taxonomy-relation="" data-meta-key="" data-meta-value="" data-meta-compare="" data-meta-relation="" data-meta-type="" data-year="" data-month="" data-day="" data-author="" data-post-in="" data-post-not-in="" data-exclude="" data-search="" data-custom-args="" data-post-status="" data-order="DESC" data-orderby="date" data-offset="0" data-posts-per-page="5" data-lang="" data-scroll="false" data-scroll-distance="150" data-max-pages="0" data-pause-override="false" data-pause="false" data-button-label="Load More Comments" data-button-loading-label="Loading More Comments" data-button-class="button radius large" data-destroy-after="" data-transition="slide" data-transition-speed="500" data-images-loaded="false"></ol></div>							</ul>
 						</div>
 
 							<div id="respond" class="comment-respond">
@@ -644,9 +630,15 @@ The key word here is “fresh,” because you’ve probably seen dozens upon doz
 				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30" /></p>
 <p class="comment-form-email"><label for="email">E-mail</label> <input id="email" name="email" type="text" value="" size="30" /></p>
 <p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+<p class="comment-form-wprm-rating" data-color="#343434">
+	<label for="wprm-rating">Recipe Rating</label>
+	<span class="wprm-rating-stars">
+		<span class="wprm-rating-star" data-rating="1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="4"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star" data-rating="5"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span>	</span>
+	<input id="wprm-comment-rating" name="wprm-comment-rating" type="hidden" value="0">
+</p>
 <!-- MailChimp for WordPress Pro v2.7.26 - https://mc4wp.com/ --><p id="mc4wp-checkbox" class="mc4wp-checkbox-comment_form"><label><input type="checkbox" name="_mc4wp_subscribe_comment_form" value="1" checked /> Sign me up to receive new recipes via email!</label></p><div style="display: none;"><input type="text" name="_mc4wp_required_but_not_really" value="" tabindex="-1" autocomplete="off" /></div><!-- / MailChimp for WordPress Pro --><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post" /> <input type='hidden' name='comment_post_ID' value='15354' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="667652d2c8" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="112"/></p>			</form>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e9a5721405" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="64"/></p>			</form>
 			</div><!-- #respond -->
 	
 					</div>
@@ -688,7 +680,7 @@ The key word here is “fresh,” because you’ve probably seen dozens upon doz
 		<input type="checkbox" name="GROUPINGS[1][]" value="Parents" style="margin-left: 15px;"><span>Parents Posts </span>
 
 	</div>
-</div><div style="display: none;"><input type="text" name="_mc4wp_ho_db6b48a264eebb472996c8021d1cb6f8" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1497642142" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="329d808a88" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
+</div><div style="display: none;"><input type="text" name="_mc4wp_ho_691bff15bb8fd64794beedabf1489556" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1501709844" /><input type="hidden" name="_mc4wp_form_id" value="25615" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="aafaab09fa" /></form><div class="mc4wp-response"></div></div><!-- / MailChimp for WP Pro Plugin -->	</div>
 
 	<hr>
 	<h4>FOLLOW FOR INSPIRATION</h4>
@@ -801,7 +793,26 @@ lXXXXX0o'.      ,KXXXx    ;XXXXXXk'  ;KXXk. .kXXK:   ,0XXKc  oXXXXo    oXXXX
                                                                  :KXXXXX0l.
                                                                   ;kKX0o.
 
---><!-- template end includes/theysig- --><script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/akismet/_inc/form.js'></script>
+--><!-- template end includes/theysig- --><script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/wp-recipe-maker/assets/js/public/comment-rating.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wprm_public = {"home_url":"https:\/\/www.justataste.com\/","ajax_url":"https:\/\/www.justataste.com\/wp-admin\/admin-ajax.php","nonce":"727554aec5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/wp-recipe-maker/assets/js/public/print.js'></script>
+<script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/wp-recipe-maker/vendor/tooltipster/js/tooltipster.bundle.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wprmp_servings_changer = {"display_type":"tooltip_slider"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/wp-recipe-maker-premium/assets/js/public/servings-changer.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wprmp_timer = {"text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/wp-recipe-maker-premium/assets/js/public/timer.js'></script>
 <script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/social-warfare/js/script.min.js'></script>
 <script type='text/javascript' src='https://www.justataste.com/wp-content/themes/they_taste/js/vendor/modernizr.js'></script>
 <script type='text/javascript' src='https://www.justataste.com/wp-content/themes/they_taste/js//vendor/offcanvas.svg-min.js'></script>
@@ -820,17 +831,18 @@ var mc4wp_vars = {"ajaxurl":"https:\/\/www.justataste.com\/wp-admin\/admin-ajax.
 <script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/mailchimp-for-wp-pro/assets/js/ajax-forms.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var alm_localize = {"ajaxurl":"https:\/\/www.justataste.com\/wp-admin\/admin-ajax.php","alm_nonce":"2e76b80d27","pluginurl":"https:\/\/www.justataste.com\/wp-content\/plugins\/ajax-load-more","scrolltop":"false","ajax_object":{"is_single":true,"is_singular":true}};
+var alm_localize = {"ajaxurl":"https:\/\/www.justataste.com\/wp-admin\/admin-ajax.php","alm_nonce":"eee38e46ca","pluginurl":"https:\/\/www.justataste.com\/wp-content\/plugins\/ajax-load-more","scrolltop":"false","ajax_object":{"is_single":true,"is_singular":true}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/ajax-load-more/core/dist/js/ajax-load-more.min.js'></script>
-<script type="text/javascript"> swpPinIt={"enabled":false};var swpClickTracking = false; var swp_nonce = "3e6aabd7b7";
+<script type='text/javascript' src='https://www.justataste.com/wp-content/plugins/akismet/_inc/form.js'></script>
+<script type="text/javascript"> swpPinIt={"enabled":false};var swpClickTracking = false; var swp_nonce = "309b19eaa8";
 		var swp_buttons_exist = !!document.getElementsByClassName( 'nc_socialPanel' );
 		if ( swp_buttons_exist ) {
 			swp_admin_ajax = 'https://www.justataste.com/wp-admin/admin-ajax.php';
-			swp_post_id='29419';
-			swp_post_url='https://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/';
-			swp_post_recovery_url = 'http://www.justataste.com/fresh-cherry-cheesecake-dip-recipe/';
+			swp_post_id='15354';
+			swp_post_url='https://www.justataste.com/best-asian-flank-steak-marinade-recipe/';
+			swp_post_recovery_url = 'http://www.justataste.com/best-asian-flank-steak-marinade-recipe/';
 			socialWarfarePlugin.fetchShares();
 		}
 

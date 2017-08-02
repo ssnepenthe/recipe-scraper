@@ -19,7 +19,6 @@ return [
         '4 garlic cloves, minced',
         '2 Tablespoons minced fresh ginger',
         '3 scallions, thinly sliced',
-        'Equipment:',
         'gallon size sealable plastic bag',
     ],
     'instructions' => [

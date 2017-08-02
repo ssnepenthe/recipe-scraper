@@ -2,16 +2,20 @@
 
 namespace RecipeScraper\Scrapers;
 
-use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
+ * We are losing out on ingredient and instruction group titles by using JSON LD.
+ *
  * Has notes but they all seem to be bundled with ingredients.
  *
  * Some recipes have nutrition information.
  */
-class WwwJustATasteCom extends SchemaOrgMarkup
+class WwwJustATasteCom extends SchemaOrgJsonLd
 {
+    use ExtractsDataFromCrawler;
+
     /**
      * @param  Crawler $crawler
      * @return boolean
@@ -24,59 +28,31 @@ class WwwJustATasteCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @param  array   $json
      * @return string[]|null
      */
-    protected function extractCategories(Crawler $crawler)
+    protected function extractCategories(Crawler $crawler, array $json)
     {
         return $this->extractArray($crawler, '.category-link-single');
     }
 
     /**
      * @param  Crawler $crawler
+     * @param  array   $json
      * @return string|null
      */
-    protected function extractDescription(Crawler $crawler)
+    protected function extractDescription(Crawler $crawler, array $json)
     {
         return $this->extractString($crawler, '[name="description"]', ['content']);
     }
 
     /**
      * @param  Crawler $crawler
+     * @param  array   $json
      * @return string|null
      */
-    protected function extractImage(Crawler $crawler)
-    {
-        return $this->extractString($crawler, '[property="og:image"]', ['content']);
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
-    protected function extractInstructions(Crawler $crawler)
-    {
-        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] p');
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractUrl(Crawler $crawler)
+    protected function extractUrl(Crawler $crawler, array $json)
     {
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);
-    }
-
-    /**
-     * @param  string|null $value
-     * @return string|null
-     */
-    protected function preNormalizeCookTime($value)
-    {
-        if (! is_string($value)) {
-            return $value;
-        }
-
-        return (string) s($value)->stripWhitespace();
     }
 }

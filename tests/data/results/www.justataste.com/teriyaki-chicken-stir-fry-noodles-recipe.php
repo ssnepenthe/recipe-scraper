@@ -13,7 +13,6 @@ return [
     'description' => null,
     'image' => 'https://www.justataste.com/wp-content/uploads/2016/03/teriyaki-chicken-stir-fry-noodles-recipe.jpg',
     'ingredients' => [
-        'For the teriyaki sauce:',
         '1/2 cup low sodium soy sauce',
         '1/3 cup low sodium chicken stock',
         '1/4 cup pineapple juice',
@@ -21,7 +20,6 @@ return [
         '2 cloves garlic, minced',
         '1 teaspoon minced fresh ginger',
         '2 1/2 teaspoons cornstarch',
-        'For the stir-fry:',
         '2 Tablespoons vegetable oil, divided',
         '2 cups broccoli florets',
         '1 cup sliced red peppers',
@@ -30,9 +28,7 @@ return [
         '8 ounces udon or rice noodles, cooked',
     ],
     'instructions' => [
-        'Make the teriyaki sauce:',
         'Whisk together all of the teriyaki sauce ingredients in a medium bowl. Set the sauce aside.',
-        'Make the stir-fry:',
         'Add 1 tablespoon vegetable oil to a wok or large, tall-sided sauté pan set over medium-high heat. Add the broccoli, peppers and carrots and cook, stirring constantly, for 3 minutes until the vegetables are still crisp but tender. Transfer the vegetables to a bowl.',
         'Add the remaining 1 tablespoon vegetable oil to the pan and place it back over medium-high heat. Add the sliced chicken and cook, stirring constantly, for about 3 minutes or until it is no longer pink. Push the chicken to the edges of the pan then add the prepared teriyaki sauce to the center of the pan. Bring the sauce to a boil and cook it until until it thickens to the consistency of syrup, about 3 minutes.',
         'Reduce the heat to low then return the cooked vegetables to the pan and add the cooked noodles, tossing to combine. Serve the stir-fry immediately.',
@@ -41,7 +37,7 @@ return [
     'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => null,
-    'totalTime' => null,
+    'totalTime' => 'PT28M',
     'url' => 'https://www.justataste.com/teriyaki-chicken-stir-fry-noodles-recipe/',
     'yield' => '4 servings',
 ];

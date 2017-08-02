@@ -12,14 +12,12 @@ return [
     'description' => 'Fire up the flames for the ultimate grilled flatbread pizza recipe starring creamy avocado pesto, fresh corn and melted mozzarella.',
     'image' => 'https://www.justataste.com/wp-content/uploads/2016/09/grilled-flatbread-pizza-photo.jpg',
     'ingredients' => [
-        'For the avocado pesto:',
         '1 large avocado, peeled and pitted',
         '2 cups lightly packed fresh basil leaves',
         '2 Tablespoons grated Parmesan cheese',
         '3 medium cloves garlic, chopped',
         '2 Tablespoons unsalted pistachios, toasted',
         '1/4 cup olive oil',
-        'For the flatbread pizzas:',
         '2 large ears corn, shucked',
         '2 Tablespoons unsalted butter, softened',
         '4 store-bought flatbreads (or naan)',
@@ -40,7 +38,7 @@ return [
     'notes' => null,
     'prepTime' => 'PT15M',
     'publisher' => null,
-    'totalTime' => null,
+    'totalTime' => 'PT40M',
     'url' => 'https://www.justataste.com/grilled-flatbread-pizzas-avocado-pesto-recipe/',
     'yield' => '4 servings',
 ];
