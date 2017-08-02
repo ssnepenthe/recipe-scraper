@@ -15,7 +15,7 @@ return [
     'cookTime' => 'PT15M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/3/3/0/FNM_040110-W-N-Dinners-025_s4x3.jpg.rend.hgtvcom.616.462.suffix/1497576342922.jpeg',
+    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/3/3/0/FNM_040110-W-N-Dinners-025_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371591389692.jpeg',
     'ingredients' => [
         '1 cup couscous',
         '2 bell peppers (red and yellow), cut into chunks',

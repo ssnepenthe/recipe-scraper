@@ -18,7 +18,7 @@ return [
     'cookTime' => 'PT45M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/4/10/0/WU0413H_billies-italian-cream-cake-with-blueberries-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1499914664756.jpeg',
+    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/4/10/0/WU0413H_billies-italian-cream-cake-with-blueberries-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1394034150599.jpeg',
     'ingredients' => [
         '5 eggs, separated',
         '1 stick butter',

@@ -12,7 +12,7 @@ return [
     'cookTime' => 'PT35M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/6/8/5/FNM_070110-Weekend-Dinners-026_s4x3.jpg.rend.hgtvcom.616.462.suffix/1497912277266.jpeg',
+    'image' => 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/6/8/5/FNM_070110-Weekend-Dinners-026_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371593415273.jpeg',
     'ingredients' => [
         '2 tablespoons grated lemon zest',
         '1/2 cup fresh lemon juice',
