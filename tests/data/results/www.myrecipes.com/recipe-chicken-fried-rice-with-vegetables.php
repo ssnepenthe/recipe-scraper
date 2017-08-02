@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'author' => null,
+    'author' => 'MyRecipes',
     'categories' => null,
     'cookingMethod' => null,
     'cookTime' => 'PT15M',
     'cuisines' => null,
     'description' => 'Why call for take out from your favorite Chinese restaurant when you can make this quick and easy chicken fried rice recipe at home? Use leftover rice and frozen vegetables to make this rice dish even easier.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/image/recipes/ay/06/chicken-rice-ay-1875364-x.jpg?itok=B32tu7_-',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/recipes/ay/06/chicken-rice-ay-1875364-x.jpg?itok=JG5x7dHG',
     'ingredients' => [
         '1/2 (12 oz.) chicken breast, chopped',
         '2 tablespoons soy sauce',
@@ -30,7 +30,7 @@ return [
         'This recipe also appeared in the May 2006 issue.',
     ],
     'prepTime' => 'PT7M',
-    'publisher' => 'My Recipes',
+    'publisher' => null,
     'totalTime' => null,
     'url' => 'http://www.myrecipes.com/recipe/chicken-fried-rice-with-vegetables',
     'yield' => '4 Servings',

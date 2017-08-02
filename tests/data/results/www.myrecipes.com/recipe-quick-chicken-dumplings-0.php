@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Flour tortillas stand in for the traditional biscuit dough so you can bring this crowd-pleaser from stove to table in minutes.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/quick-chicken-dumplings-mr.jpg?itok=7apo5Z4D',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/quick-chicken-dumplings-mr.jpg?itok=fg3W1eUr',
     'ingredients' => [
         '1 tablespoon butter',
         '1/2 cup prechopped onion',
@@ -29,7 +29,7 @@ return [
     'name' => 'Quick Chicken and Dumplings',
     'notes' => null,
     'prepTime' => null,
-    'publisher' => 'My Recipes',
+    'publisher' => null,
     'totalTime' => null,
     'url' => 'http://www.myrecipes.com/recipe/quick-chicken-dumplings-0',
     'yield' => '4 servings (serving size: about 1 1/2 cups)',

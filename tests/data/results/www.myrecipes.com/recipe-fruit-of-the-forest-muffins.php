@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'These gluten-free muffins highlight mixed fresh berries, but you can omit the berries and use the recipe to incorporate any other gluten-free mix-ins you like.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/image/recipes/ck/gluten-free-cookbook/fruit-forest-muffins-ck-x.jpg?itok=nKZjwxRP',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/recipes/ck/gluten-free-cookbook/fruit-forest-muffins-ck-x.jpg?itok=o73KDFtL',
     'ingredients' => [
         '3.45 ounces brown rice flour (about 3/4 cup)',
         '2.6 ounces potato starch (about 1/2 cup)',
@@ -34,7 +34,7 @@ return [
         'If you\'re planning to freeze all or some of the muffins, leave off the turbinado sugar.',
     ],
     'prepTime' => null,
-    'publisher' => 'My Recipes',
+    'publisher' => null,
     'totalTime' => 'PT45M',
     'url' => 'http://www.myrecipes.com/recipe/fruit-of-the-forest-muffins',
     'yield' => 'Serves 12 (serving size: 1 muffin)',

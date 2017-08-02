@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'If you\'ve never eaten slaw on rather than with a sandwich, you\'re in for a treat. You\'ll need to start the pork and soak the wood chunks a day ahead; you can make the mustard-laced slaw a day in advance as well. If you\'d rather not have sandwiches, serve the meat as is or use it to flavor baked beans.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/image/recipes/ck/pork-sandwich-ck-1634713-x.jpg?itok=gC6ShBes',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/recipes/ck/pork-sandwich-ck-1634713-x.jpg?itok=a84CjZ77',
     'ingredients' => [
         'Pork:',
         '8 hickory wood chunks (about 4 pounds)',
@@ -52,7 +52,7 @@ return [
     'name' => 'Memphis Pork and Coleslaw Sandwich',
     'notes' => null,
     'prepTime' => null,
-    'publisher' => 'My Recipes',
+    'publisher' => null,
     'totalTime' => null,
     'url' => 'http://www.myrecipes.com/recipe/memphis-pork-coleslaw-sandwich',
     'yield' => '13 servings (serving size: 1 bun, 3 ounces pork, about 1/3 cup slaw, and about 1 1/2 tablespoons sauce)',

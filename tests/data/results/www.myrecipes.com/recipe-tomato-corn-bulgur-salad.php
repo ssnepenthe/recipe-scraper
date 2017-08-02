@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'You can make this fresh, summery picnic dish up to two days ahead. If you\'d like a fresh herb garnish, pack the leaves separately, and sprinkle onto the salad shortly before serving.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/tomato-corn-bulgur-salad-ck.jpg?itok=6RoHEANB',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/tomato-corn-bulgur-salad-ck.jpg?itok=CKxhimPC',
     'ingredients' => [
         '1 cup water',
         '1 cup cracked bulgur wheat',
@@ -33,7 +33,7 @@ return [
         'MyRecipes is working with Let\'s Move!, the Partnership for a Healthier America, and USDA\'s MyPlate to give anyone looking for healthier options access to a trove of recipes that will help them create healthy, tasty plates. For more information about creating a healthy plate, visit www.choosemyplate.gov.',
     ],
     'prepTime' => null,
-    'publisher' => 'My Recipes',
+    'publisher' => null,
     'totalTime' => 'PT30M',
     'url' => 'http://www.myrecipes.com/recipe/tomato-corn-bulgur-salad',
     'yield' => 'Serves 8 (serving size: 3/4 cup)',

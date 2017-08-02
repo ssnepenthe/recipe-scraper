@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Thawed lemonade concentrate adds bold, fun flavor to this tart layer cake. This cake is the perfect solution to summer birthday parties or winter events when you need to wake up your taste buds.',
-    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/image/recipes/ck/02/04/layer-cake-ck-249959-x.jpg?itok=_UBEQwNK',
+    'image' => 'http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/recipes/ck/02/04/layer-cake-ck-249959-x.jpg?itok=QF-V4ygi',
     'ingredients' => [
         'Cake:',
         '1 1/3 cups granulated sugar',
@@ -41,7 +41,7 @@ return [
     'name' => 'Lemonade Layer Cake',
     'notes' => null,
     'prepTime' => null,
-    'publisher' => 'My Recipes',
+    'publisher' => null,
     'totalTime' => null,
     'url' => 'http://www.myrecipes.com/recipe/lemonade-layer-cake',
     'yield' => '16 servings (serving size: 1 slice)',
