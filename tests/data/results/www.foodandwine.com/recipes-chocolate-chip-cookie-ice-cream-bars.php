@@ -6,8 +6,8 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the dough to create one giant cookie, then bake, slice and layer it with store-bought ice cream and hot fudge sauce. The best part: dipping the bars into crushed chocolate toffee candy to form a supercrunchy shell.',
-    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/551x551/public/200603-r-xl-chocolate-chip-cookie-ice-cream-bars-fw200603_cookieicecream.jpg?itok=KR6-eLOx',
+    'description' => 'Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the dough to create one giant cookie, then bake, slice and layer it with store-bought ice cream and hot fudge sauce. The best part: dipping the bars into crushed chocolate toffee candy to form a supercrunchy shell. More Ice Cream Sandwiches',
+    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/fw200603_cookieicecream.jpg',
     'ingredients' => [
         '1 package prescored break-and-bake chocolate chip cookie dough, at room temperature',
         '2 pints vanilla ice cream, softened slightly',
@@ -30,5 +30,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT4H',
     'url' => 'http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars',
-    'yield' => '16',
+    'yield' => 'Serves : 16',
 ];

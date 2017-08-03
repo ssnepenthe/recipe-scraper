@@ -32,7 +32,7 @@ return [
     'notes' => [
         'MyRecipes is working with Let\'s Move!, the Partnership for a Healthier America, and USDA\'s MyPlate to give anyone looking for healthier options access to a trove of recipes that will help them create healthy, tasty plates. For more information about creating a healthy plate, visit www.choosemyplate.gov.',
     ],
-    'prepTime' => null,
+    'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT30M',
     'url' => 'http://www.myrecipes.com/recipe/tomato-corn-bulgur-salad',

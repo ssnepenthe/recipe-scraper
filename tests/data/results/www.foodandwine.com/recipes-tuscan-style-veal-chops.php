@@ -6,8 +6,8 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => '"Grill masters all over the world have noticed that when you grill a piece of meat and then anoint it with some kind of fat, it mixes with the meat juices and creates instant sauce," Steven Raichlen says. "At Peter Luger Steakhouse, in Brooklyn, steaks get finished with a pat of butter; other places use beef tallow." In Tuscany, olive oil is the fat of choice for finishing herbed veal chops like these.',
-    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/551x551/public/200706-r-xl-tuscan-style-veal-chops.jpg?itok=uwyF0H5g',
+    'description' => '"Grill masters all over the world have noticed that when you grill a piece of meat and then anoint it with some kind of fat, it mixes with the meat juices and creates instant sauce," Steven Raichlen says. "At Peter Luger Steakhouse, in Brooklyn, steaks get finished with a pat of butter; other places use beef tallow." In Tuscany, olive oil is the fat of choice for finishing herbed veal chops like these. More Veal Recipes',
+    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/200706-r-xl-tuscan-style-veal-chops.jpg?itok=h_hF44Sf',
     'ingredients' => [
         '2 tablespoons extra-virgin olive oil, plus more for drizzling',
         '2 garlic cloves, minced',
@@ -28,5 +28,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT40M',
     'url' => 'http://www.foodandwine.com/recipes/tuscan-style-veal-chops',
-    'yield' => '4',
+    'yield' => 'Serves : 4',
 ];

@@ -6,8 +6,8 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Luscious, rich and lemony hollandaise gets completely re-imagined here in a light, supremely creamy puree of avocado, lemon juice and olive oil.',
-    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/551x551/public/201402-xl-avocado-hollandaise.jpg?itok=BA_I8MaS',
+    'description' => 'Luscious, rich and lemony hollandaise gets completely re-imagined here in a light, supremely creamy puree of avocado, lemon juice and olive oil. Slideshow: Modern Variations on the Classics',
+    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/201402-xl-avocado-hollandaise.jpg?itok=9CkTQli7',
     'ingredients' => [
         '1/2 very ripe medium Hass avocado, peeled and chopped',
         '2 teaspoons fresh lemon juice',
@@ -25,5 +25,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT10M',
     'url' => 'http://www.foodandwine.com/recipes/avocado-hollandaise',
-    'yield' => '4',
+    'yield' => 'Serves : 4',
 ];

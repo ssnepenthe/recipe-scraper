@@ -6,8 +6,8 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'This bourbon based party punch will please any thirsty crowd.',
-    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/551x551/public/201107-xl-sunset-punch.jpg?itok=3OLu4yqn',
+    'description' => 'This bourbon based party punch will please any thirsty crowd. More Party Punch Recipes',
+    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/201107-xl-sunset-punch.jpg?itok=4-FXWGdd',
     'ingredients' => [
         '8 ounces bourbon',
         '8 ounces white vermouth',
@@ -26,5 +26,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT20M',
     'url' => 'http://www.foodandwine.com/recipes/sunset-punch',
-    'yield' => '8',
+    'yield' => 'Serves : 8',
 ];

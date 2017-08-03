@@ -2,8 +2,8 @@
 
 namespace RecipeScraperTests\Scrapers;
 
+use RecipeScraper\Scrapers\TimeInc;
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Scrapers\WwwMyRecipesCom;
 
 class WwwMyRecipesComTest extends ScraperTestCase
 {
@@ -14,6 +14,6 @@ class WwwMyRecipesComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new WwwMyRecipesCom;
+        return new TimeInc;
     }
 }

@@ -3,27 +3,41 @@
 namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
+ * Has JSON LD but with  very limited subset of data.
+ *
  * Has nutrition information.
  *
  * Has links to other recipes in ingredients.
  *
+ * Food and Wine prepends "Serves : " to the data we actually want from yield - should we trim it?
+ *
+ * Could use some more thorough testing on description.
+ *
+ * Notes have headings which may be beneficial to include.
+ *
+ * @link https://www.timeinc.com/brands/
+ *
  * @todo Consider updating parent supports method to not be dependent on scheme.
  *       Consider extracting some sort of ->extractBodyBasedOnHeaderText() type method from times.
  */
-class WwwMyRecipesCom extends SchemaOrgMarkup
+class TimeInc extends SchemaOrgMarkup
 {
+    protected $supportedHosts = [
+        'www.foodandwine.com',
+        'www.myrecipes.com',
+    ];
+
     /**
      * @param  Crawler $crawler
      * @return boolean
      */
     public function supports(Crawler $crawler) : bool
     {
-        // Uses HTTPS scheme.
-        return (bool) $crawler->filter('[itemtype="https://schema.org/Recipe"]')->count()
-            && 'www.myrecipes.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+        // Consider pushing "*=" selector up to parent class.
+        return (bool) $crawler->filter('[itemtype*="schema.org/Recipe"]')->count()
+            && in_array(parse_url($crawler->getUri(), PHP_URL_HOST), $this->supportedHosts, true);
     }
 
     /**
@@ -63,6 +77,8 @@ class WwwMyRecipesCom extends SchemaOrgMarkup
      */
     protected function extractDescription(Crawler $crawler)
     {
+        // [name="description"] and [property="og:description"] are truncated.
+        // Food and Wine seems to add category, slideshow or similar links to end of description.
         return $this->extractString($crawler, '.schema [itemprop="description"]', ['content']);
     }
 
@@ -77,6 +93,22 @@ class WwwMyRecipesCom extends SchemaOrgMarkup
             '[itemtype="https://schema.org/Recipe"] [itemprop="image"]',
             ['content', 'data-src']
         );
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractIngredients(Crawler $crawler)
+    {
+        // To include group headers.
+        $selectors = [
+            '.ingredients h2',
+            '[itemprop="recipeIngredient"]',
+            '[itemprop="ingredients"]',
+        ];
+
+        return $this->extractArray($crawler, implode(', ', $selectors));
     }
 
     /**
@@ -107,7 +139,8 @@ class WwwMyRecipesCom extends SchemaOrgMarkup
             function (Crawler $node) : bool {
                 $header = $node->filter('h3');
 
-                return $header->count() && false !== stripos($header->text(), 'notes');
+                return $header->count()
+                    && 1 === preg_match('/(notes|suggested pairing|make ahead)/i', $header->text());
             }
         );
 
@@ -127,7 +160,8 @@ class WwwMyRecipesCom extends SchemaOrgMarkup
         $meta = $crawler->filter('.recipe-meta-item')->reduce(function (Crawler $node) : bool {
             $header = $node->filter('.recipe-meta-item-header');
 
-            return $header->count() && false !== stripos($header->text(), 'prep time');
+            return $header->count()
+                && 1 === preg_match('/(prep|active|hands-on) time/i', $header->text());
         });
 
         if (! $meta->count()) {
@@ -163,12 +197,13 @@ class WwwMyRecipesCom extends SchemaOrgMarkup
      * @param  mixed $value
      * @return mixed
      */
-    protected function postNormalizeDescription($value)
+    protected function preNormalizeDescription($value)
     {
+        // Pre normalize so that we still collapse whitespace after stripping tags.
         if (! is_string($value)) {
             return $value;
         }
 
-        return trim(strip_tags($value));
+        return strip_tags($value);
     }
 }

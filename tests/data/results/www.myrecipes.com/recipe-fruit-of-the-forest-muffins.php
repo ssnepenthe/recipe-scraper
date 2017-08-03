@@ -33,7 +33,7 @@ return [
     'notes' => [
         'If you\'re planning to freeze all or some of the muffins, leave off the turbinado sugar.',
     ],
-    'prepTime' => null,
+    'prepTime' => 'PT10M',
     'publisher' => null,
     'totalTime' => 'PT45M',
     'url' => 'http://www.myrecipes.com/recipe/fruit-of-the-forest-muffins',
