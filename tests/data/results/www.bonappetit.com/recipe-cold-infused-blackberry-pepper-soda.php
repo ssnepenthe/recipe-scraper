@@ -11,6 +11,7 @@ return [
         'Lemon',
         'cook like a pro',
         'Cold Soda',
+        'Healthyish',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
