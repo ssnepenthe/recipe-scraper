@@ -21,13 +21,11 @@
 - [ ] http://www.aspicyperspective.com/
 - [ ] http://www.bakedperfection.com/
 - [ ] https://www.bbonline.com/ (very inconsistent markup)
-- [x] http://www.bonappetit.com/
 - [ ] https://www.budgetbytes.com/
 - [ ] https://www.chowhound.com/ (formerly chow.com)
 - [ ] http://www.cooks.com/
 - [ ] http://www.deliaonline.com/
 - [ ] http://www.epicurean.com/ (no structured markup)
-- [x] http://www.epicurious.com/
 - [x] http://www.finecooking.com/
 - [x] http://www.food.com/
 - [ ] http://www.foodiewithfamily.com/
@@ -73,6 +71,10 @@
 - [ ] https://www.wholefoodsmarket.com/
 - [ ] https://www.williams-sonoma.com/
 - [ ] https://www.yummly.co/ (worst possible kind of site...)
+
+# Condé Nast/Food Innovation Group
+- [x] http://www.bonappetit.com/
+- [x] http://www.epicurious.com/
 
 # General Mills Sites
 - [x] https://www.bettycrocker.com/
