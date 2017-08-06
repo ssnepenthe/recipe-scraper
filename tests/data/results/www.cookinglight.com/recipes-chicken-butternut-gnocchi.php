@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'author' => 'Paige Grandjean',
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'Gnocchi are the base for a simple toss with sweet butternut squash, rich chicken thighs, spinach, and sage. Prepared gnocchi is a fast cook\'s dream. They don\'t need to be boiled separately, take on a beautiful sear, and will hold up after a thorough sauté and simmer with other ingredients. A dollop of prepared pesto binds and brightens the dish. Look for prepeeled and cubed butternut squash to save even more time. Instead of spinach, you could also try tender baby kale. For a bit of heat, add 1⁄4 teaspoon crushed red pepper to the pan before you simmer the squash.',
+    'image' => 'http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2016/12/main/chicken-butternut-gnocchi.jpg?itok=O-UvVhIP',
+    'ingredients' => [
+        '2 tablespoons olive oil, divided',
+        '4 (6-oz.) skinless, boneless chicken thighs, cut into 1-in. pieces',
+        '3 cups (1/2-in.) cubed peeled butternut squash',
+        '1/2 cup chopped yellow onion',
+        '1 (12-oz.) pkg. whole-wheat gnocchi',
+        '3/4 cup unsalted chicken stock (such as Swanson)',
+        '2 tablespoons prepared refrigerated pesto',
+        '2 teaspoons chopped fresh sage',
+        '1/2 teaspoon chopped garlic',
+        '5 ounces baby spinach, chopped',
+        '1 ounce Parmesan cheese, grated (about 1/4 cup)',
+    ],
+    'instructions' => [
+        'Heat 1 tablespoon oil in a large skillet over medium-high. Add chicken; cook 5 minutes or until browned. Place chicken in a bowl.',
+        'Heat remaining 1 tablespoon oil in pan over medium. Add squash and onion; cook 8 minutes. Add squash mixture to chicken. Add gnocchi to pan; cook 2 minutes. Add chicken mixture, stock, pesto, sage, garlic, and spinach to pan; cook 1 minute. Top with cheese.',
+    ],
+    'name' => 'Chicken and Butternut Gnocchi',
+    'notes' => null,
+    'prepTime' => 'PT15M',
+    'publisher' => null,
+    'totalTime' => 'PT30M',
+    'url' => 'http://www.cookinglight.com/recipes/chicken-butternut-gnocchi',
+    'yield' => 'Serves 4 (serving size: about 1 1/4 cups)',
+];

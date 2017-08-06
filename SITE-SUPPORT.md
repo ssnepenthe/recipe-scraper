@@ -100,7 +100,7 @@
 - [x] http://www.foodnetwork.com/
 
 # Time Inc. Sites
-- [ ] http://www.cookinglight.com/
+- [x] http://www.cookinglight.com/
 - [x] http://www.foodandwine.com/
 - [ ] http://www.health.com/
 - [x] http://www.myrecipes.com/

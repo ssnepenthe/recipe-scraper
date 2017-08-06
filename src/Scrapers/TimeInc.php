@@ -5,7 +5,7 @@ namespace RecipeScraper\Scrapers;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
- * Has JSON LD but with  very limited subset of data.
+ * Has JSON LD but with very limited subset of data.
  *
  * Has nutrition information.
  *
@@ -17,14 +17,18 @@ use Symfony\Component\DomCrawler\Crawler;
  *
  * Notes have headings which may be beneficial to include.
  *
+ * Cooking Light (maybe others) have some blog-style posts with recipes, but no structured markup.
+ *
  * @link https://www.timeinc.com/brands/
  *
  * @todo Consider updating parent supports method to not be dependent on scheme.
  *       Consider extracting some sort of ->extractBodyBasedOnHeaderText() type method from times.
+ *       Find cookinglight.com recipes with notes to test against (if any exist).
  */
 class TimeInc extends SchemaOrgMarkup
 {
     protected $supportedHosts = [
+        'www.cookinglight.com',
         'www.foodandwine.com',
         'www.myrecipes.com',
     ];

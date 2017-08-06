@@ -1,0 +1,38 @@
+<?php
+
+return [
+    'author' => 'Rebecca Longshore',
+    'categories' => null,
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
+    'description' => 'The simple, scalloped shell made from thinly sliced rounds of sweet potatoes make this version of a popular brunch (or supper) dish gluten-free. Choose potatoes with comparable diameters to create uniform slices for the easy-to-make crust. A mandoline makes slicing quick and precise, but a sharp chef\'s knife will work too. You can also slice the potatoes in the food processor by using the slicing blade.',
+    'image' => 'http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2016/10/main/1611p258-spinach-feta-quiche-sweet-potato-crust_0.jpg?itok=d6VsHAL6',
+    'ingredients' => [
+        'Cooking spray',
+        '2 medium sweet potatoes, peeled and cut into 1/8-in.-thick slices',
+        '1 teaspoon canola oil',
+        '1/2 cup sliced onion',
+        '1 (5-oz.) bag fresh baby spinach',
+        '1/2 cup 1% low-fat milk',
+        '1/4 teaspoon kosher salt',
+        '1/4 teaspoon freshly ground black pepper',
+        '1/4 teaspoon crushed red pepper',
+        '4 large eggs',
+        '2 large egg whites',
+        '1.5 ounces feta cheese, crumbled (about 1/3 cup)',
+    ],
+    'instructions' => [
+        'Preheat oven to 350°F.',
+        'Coat a 9-inch pie plate with cooking spray. Layer sweet potatoes in slightly overlapping concentric circles on bottom and upsides of plate, cutting slices in half to fit (rounded side up) around the sides. Coat potatoes with cooking spray. Bake in preheated oven for 20 minutes or until potatoes are slightly tender. Place pan on a wire rack. Increase oven temperature to 375°F.',
+        'Heat a large nonstick skillet over medium. Add oil and onion; saute 3 minutes. Add spinach; saute 3 minutes. remove from head; cool.',
+        'Combine milk and next 5 ingredients (through egg whites) in a medium bowl; stir with a whisk. Arrange spinach mixture in crust; pour egg mixture over spinach. Sprinkle with feta. Bake at 375°F for 35 minutes or until egg mixture is set. Let stand 5 minutes; cut into 8 wedges.',
+    ],
+    'name' => 'Spinach and Feta Quiche with Sweet Potato Crust',
+    'notes' => null,
+    'prepTime' => 'PT24M',
+    'publisher' => null,
+    'totalTime' => 'PT1H10M',
+    'url' => 'http://www.cookinglight.com/recipes/spinach-feta-quiche-sweet-potato-crust',
+    'yield' => 'Serves 4 (serving size: 2 wedges)',
+];
