@@ -1,7 +1,7 @@
 # recipe-scraper
 A recipe scraping library which makes it easy to scrape recipes from popular sites around the web.
 
-Current site support is still limited. See [issue #1](https://github.com/ssnepenthe/recipe-scraper/issues/1) for a full list.
+Current site support is still limited. A full list is available in [SITE-SUPPORT.md](SITE-SUPPORT.md).
 
 ## Requirements
 Composer, PHP 7.0 or later.
