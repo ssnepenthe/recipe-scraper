@@ -75,33 +75,33 @@
 - [ ] https://www.yummly.co/ (worst possible kind of site...)
 
 # General Mills Sites
-- [x] bettycrocker.com
-- [x] pillsbury.com
-- [x] tablespoon.com
+- [x] https://www.bettycrocker.com/
+- [x] https://www.pillsbury.com/
+- [x] https://www.tablespoon.com/
 
 # Hearst Digital Sites
-- [x] countryliving.com
-- [x] delish.com
-- [x] esquire.com
-- [x] goodhousekeeping.com
-- [x] redbookmag.com
-- [x] womansday.com
+- [x] http://www.countryliving.com/
+- [x] http://www.delish.com/
+- [x] http://www.esquire.com/
+- [x] http://www.goodhousekeeping.com/
+- [x] http://www.redbookmag.com/
+- [x] http://www.womansday.com/
 
 # Meredith Corp Sites
-- [x] allrecipes.com
-- [x] bhg.com
-- [x] eatingwell.com (same template as allrecipes.com?)
-- [ ] rachaelraymag.com
+- [x] http://allrecipes.com/
+- [x] http://www.bhg.com/
+- [x] http://www.eatingwell.com/ (same template as allrecipes.com?)
+- [ ] https://www.rachaelraymag.com/
 
 # Scripps Networks Sites
-- [x] cookingchanneltv.com
-- [x] foodnetwork.com
+- [x] http://www.cookingchanneltv.com/
+- [x] http://www.foodnetwork.com/
 
 # Time Inc. Sites
 - [ ] http://www.cookinglight.com/
-- [x] foodandwine.com
+- [x] http://www.foodandwine.com/
 - [ ] http://www.health.com/
-- [x] myrecipes.com
+- [x] http://www.myrecipes.com/
 - [ ] https://www.realsimple.com/
 
 # Notes
