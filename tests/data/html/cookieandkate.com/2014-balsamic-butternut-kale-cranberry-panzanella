@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
-<meta charset="UTF-8"/>
-<title>Balsamic Butternut Kale Panzanella - Cookie and Kate</title><meta name="viewport" content="width=device-width, initial-scale=1"/>
- 
-<meta name="description" content="This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette."/>
-<link rel="canonical" href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:type" content="article"/>
-<meta property="og:title" content="Balsamic Butternut Kale Panzanella - Cookie and Kate"/>
-<meta property="og:description" content="This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette."/>
-<meta property="og:url" content="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/"/>
-<meta property="og:site_name" content="Cookie and Kate"/>
-<meta property="article:publisher" content="https://www.facebook.com/cookieandkate"/>
-<meta property="article:author" content="https://www.facebook.com/cookieandkate"/>
-<meta property="article:tag" content="butternut squash"/>
-<meta property="article:tag" content="kale"/>
-<meta property="article:tag" content="kale salad"/>
-<meta property="article:tag" content="pepitas"/>
-<meta property="article:section" content="Christmas"/>
-<meta property="article:published_time" content="2014-12-17T10:56:36-05:00"/>
-<meta property="article:modified_time" content="2017-04-27T23:33:10-05:00"/>
-<meta property="og:updated_time" content="2017-04-27T23:33:10-05:00"/>
-<meta property="og:image" content="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg"/>
-<meta property="og:image:secure_url" content="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg"/>
-<meta property="og:image:width" content="550"/>
-<meta property="og:image:height" content="756"/>
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:description" content="This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette."/>
-<meta name="twitter:title" content="Balsamic Butternut Kale Panzanella - Cookie and Kate"/>
-<meta name="twitter:site" content="@cookieandkate"/>
-<meta name="twitter:image" content="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg"/>
-<meta name="twitter:creator" content="@cookieandkate"/>
-<meta property="DC.date.issued" content="2014-12-17T10:56:36-05:00"/>
- 
-<link rel='dns-prefetch' href='//s.w.org'/>
-<link rel="alternate" type="application/rss+xml" title="Cookie and Kate &raquo; Feed" href="http://feeds.feedburner.com/CookieAndKate"/>
-<link rel="alternate" type="application/rss+xml" title="Cookie and Kate &raquo; Comments Feed" href="http://feeds.feedburner.com/CommentsForCookieAndKate"/>
-<link rel="alternate" type="application/rss+xml" title="Cookie and Kate &raquo; Balsamic Butternut, Kale and Cranberry Panzanella Comments Feed" href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/feed/"/>
-<link rel='stylesheet' id='magazine-pro-theme-css' href='https://cookieandkate.com/wp-content/themes/magazine-pro/style.css?ver=1500963310' type='text/css' media='all'/>
-<link rel='stylesheet' id='stcr-plugin-style-css' href='https://cookieandkate.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-plugin-style.css?ver=4.8' type='text/css' media='all'/>
+<meta charset="UTF-8" />
+<title>Balsamic Butternut Kale Panzanella - Cookie and Kate</title><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="description" content="This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette." />
+<link rel="canonical" href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Balsamic Butternut Kale Panzanella - Cookie and Kate" />
+<meta property="og:description" content="This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette." />
+<meta property="og:url" content="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" />
+<meta property="og:site_name" content="Cookie and Kate" />
+<meta property="article:publisher" content="https://www.facebook.com/cookieandkate" />
+<meta property="article:author" content="https://www.facebook.com/cookieandkate" />
+<meta property="article:tag" content="butternut squash" />
+<meta property="article:tag" content="kale" />
+<meta property="article:tag" content="kale salad" />
+<meta property="article:tag" content="pepitas" />
+<meta property="article:section" content="Christmas" />
+<meta property="article:published_time" content="2014-12-17T10:56:36-05:00" />
+<meta property="article:modified_time" content="2017-09-02T18:03:41-05:00" />
+<meta property="og:updated_time" content="2017-09-02T18:03:41-05:00" />
+<meta property="og:image" content="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg" />
+<meta property="og:image:secure_url" content="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg" />
+<meta property="og:image:width" content="550" />
+<meta property="og:image:height" content="756" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette." />
+<meta name="twitter:title" content="Balsamic Butternut Kale Panzanella - Cookie and Kate" />
+<meta name="twitter:site" content="@cookieandkate" />
+<meta name="twitter:image" content="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg" />
+<meta name="twitter:creator" content="@cookieandkate" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/cookieandkate.com\/","name":"Cookie and Kate","potentialAction":{"@type":"SearchAction","target":"https:\/\/cookieandkate.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/cookieandkate.com\/2014\/balsamic-butternut-kale-cranberry-panzanella\/","sameAs":["https:\/\/www.facebook.com\/cookieandkate","https:\/\/instagram.com\/cookieandkate","https:\/\/www.linkedin.com\/in\/kathryne-taylor-20012213\/","https:\/\/www.youtube.com\/user\/cookieandkate\/","https:\/\/www.pinterest.com\/cookieandkate\/","https:\/\/twitter.com\/cookieandkate"],"@id":"#organization","name":"Cookie and Kate","logo":"https:\/\/cookieandkate.com\/images\/2017\/04\/header-google.jpg"}</script>
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Cookie and Kate &raquo; Feed" href="http://feeds.feedburner.com/CookieAndKate" />
+<link rel="alternate" type="application/rss+xml" title="Cookie and Kate &raquo; Comments Feed" href="http://feeds.feedburner.com/CommentsForCookieAndKate" />
+<link rel="alternate" type="application/rss+xml" title="Cookie and Kate &raquo; Balsamic Butternut, Kale and Cranberry Panzanella Comments Feed" href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/feed/" />
+<link rel='stylesheet' id='magazine-pro-theme-css' href='https://cookieandkate.com/wp-content/themes/magazine-pro/style.css?ver=1506387591' type='text/css' media='all' />
 <script type='text/javascript' async='async' src='https://cookieandkate.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/js/stcr-plugin.js?ver=4.8'></script>
+<script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/js/stcr-plugin.js?ver=4.8.2'></script>
 <!--[if lt IE 9]>
 <script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-content/themes/genesis/lib/js/html5shiv.js?ver=3.7.3'></script>
 <![endif]-->
-<link rel='https://api.w.org/' href='https://cookieandkate.com/wp-json/'/>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cookieandkate.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cookieandkate.com/wp-includes/wlwmanifest.xml"/>
-<meta name="generator" content="WordPress 4.8"/>
-<link rel='shortlink' href='https://cookieandkate.com/?p=14513'/>
-<link rel="alternate" type="application/json+oembed" href="https://cookieandkate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F"/>
-<link rel="alternate" type="text/xml+oembed" href="https://cookieandkate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F&#038;format=xml"/>
-<script data-cfasync="false">
+<link rel='https://api.w.org/' href='https://cookieandkate.com/wp-json/' />
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel="alternate" type="application/json+oembed" href="https://cookieandkate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cookieandkate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F&#038;format=xml" />
+<script>
 window.adthrive = window.adthrive || {};
 window.adthrive.cmd = window.adthrive.cmd || [];
 window.adthrive.host = 'ads.adthrive.com';
-window.adthrive.plugin = 'adthrive-ads-1.0.10';
+window.adthrive.plugin = 'adthrive-ads-1.0.14';
 
 (function() {
 	var script = document.createElement('script');
@@ -67,7 +64,24 @@ window.adthrive.plugin = 'adthrive-ads-1.0.10';
 	node.parentNode.insertBefore(script, node);
 })();
 </script>
-<style type="text/css">.enews .screenread{height:1px;left:-1000em;overflow:hidden;position:absolute;top:-1000em;width:1px;}</style> <style type="text/css">a.pinit-button.custom{width:106px!important;height:61px!important;}a.pinit-button.custom span{width:106px!important;height:61px!important;background-image:url("https://cookieandkate.com/images/2014/03/pin-it_icon-banner3.png");background-size:106px 61px;}.pinit-hover{opacity:0.5!important;filter:alpha(opacity=50)!important;}</style>
+<style type="text/css"> .enews .screenread {
+	height: 1px;
+    left: -1000em;
+    overflow: hidden;
+    position: absolute;
+    top: -1000em;
+    width: 1px; } </style> <style type="text/css">
+            a.pinit-button.custom {
+            width: 106px !important;height: 61px !important;            }
+
+            a.pinit-button.custom span {
+            width: 106px !important;height: 61px !important;background-image: url("https://cookieandkate.com/images/2014/03/pin-it_icon-banner3.png");background-size: 106px 61px;            }
+
+            .pinit-hover {
+                opacity: 0.5 !important;
+                filter: alpha(opacity=50) !important;
+            }
+        </style>
 <script type="application/ld+json">
 {
     "@context": "http:\/\/schema.org\/",
@@ -80,9 +94,9 @@ window.adthrive.plugin = 'adthrive-ads-1.0.10';
     },
     "image": {
         "@type": "ImageObject",
-        "url": "https:\/\/cookieandkate.com\/images\/2017\/04\/winter-panzanella-recipe-1-270x372.jpg",
-        "height": 372,
-        "width": 270
+        "url": "https:\/\/cookieandkate.com\/images\/2014\/12\/winter-panzanella-recipe-1.jpg",
+        "height": 756,
+        "width": 550
     },
     "url": "https:\/\/cookieandkate.com\/2014\/balsamic-butternut-kale-cranberry-panzanella\/",
     "recipeIngredient": [
@@ -110,27 +124,84 @@ window.adthrive.plugin = 'adthrive-ads-1.0.10';
         "Prepare the croutons: On your other baking sheet, combine the cubed bread with the seeds and salt. Drizzle on 2 tablespoons olive oil and toss to lightly coat the bread. Don't worry about trying to get the seeds to stick to the bread, just try to make sure they're lightly coated in oil. Arrange the mixture in a single layer so no croutons are on top of one another.",
         "Once you have tossed the butternut and placed it back on the lower rack, place the sheet of croutons on the upper rack. Toast the bread for 10 to 13 minutes, until the edges are golden. Remove the croutons from the oven and check the squash\u2014it will probably need 5 to 10 more minutes before the edges are caramelized. Once the butternut is done, remove the pan from the oven and set it aside to cool.",
         "To prepare the vinaigrette: Whisk together all of the ingredients until emulsified.",
-        "To prepare the kale: Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant, about 30 seconds. Final assembly: Add the grated cheese, cranberries and shallot to the bowl. Drizzle enough dressing into the bowl to lightly coat the leaves (you might not need all of it), then toss to coat. Add the roasted butternut and croutons and gently toss to combine. Drizzle in extra dressing if the salad seems like it needs it. For best flavor, let the salad rest for 10 minutes before serving."
+        "To prepare the kale: Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant, about 30 seconds.",
+        "Final assembly: Add the grated cheese, cranberries and shallot to the bowl. Drizzle enough dressing into the bowl to lightly coat the leaves (you might not need all of it), then toss to coat. Add the roasted butternut and croutons and gently toss to combine. Drizzle in extra dressing if the salad seems like it needs it. For best flavor, let the salad rest for 10 minutes before serving."
     ],
     "prepTime": "PT20M",
     "cookTime": "PT40M",
     "totalTime": "PT1H",
     "recipeYield": "4 salads",
     "recipeCategory": "Salad",
+    "recipeCuisine": "Tuscan",
     "aggregateRating": {
         "@type": "AggregateRating",
-        "reviewCount": 5,
+        "reviewCount": 6,
         "ratingValue": 5
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "511",
+        "sugarContent": "21.1 g",
+        "sodiumContent": "562.7 mg",
+        "fatContent": "35.3 g",
+        "saturatedFatContent": "7.6 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "43.6 g",
+        "fiberContent": "5.8 g",
+        "proteinContent": "11.8 g",
+        "cholesterolContent": "14.5 mg",
+        "@type": "nutritionInformation"
     }
 }
 </script>
-<style type="text/css">.comment-form .tasty-recipes-ratings-buttons{unicode-bidi:bidi-override;direction:rtl;text-align:center;}.comment-form .tasty-recipes-ratings-buttons>span{display:inline-block;position:relative;width:1.1em;}.comment-form .tasty-recipes-ratings-buttons>span i{font-style:normal;}.comment-form .tasty-recipes-ratings-buttons>span .unchecked{display:inline-block;}.comment-form .tasty-recipes-ratings-buttons>span .checked{display:none;}.comment-form .tasty-recipes-ratings-buttons>*:hover .unchecked,.comment-form .tasty-recipes-ratings-buttons>*:hover~span .unchecked,.comment-form .tasty-recipes-ratings-buttons:not(:hover)>input:checked~span .unchecked{display:none;}.comment-form .tasty-recipes-ratings-buttons>*:hover .checked,.comment-form .tasty-recipes-ratings-buttons>*:hover~span .checked,.comment-form .tasty-recipes-ratings-buttons:not(:hover)>input:checked~span .checked{display:inline-block;}.comment-form .tasty-recipes-ratings-buttons>*:hover:before .unchecked,.comment-form .tasty-recipes-ratings-buttons>*:hover~span:before .unchecked,.comment-form .tasty-recipes-ratings-buttons:not(:hover)>input:checked~span:before .unchecked{display:inline-block;}.comment-form .tasty-recipes-ratings-buttons>*:hover:before .checked,.comment-form .tasty-recipes-ratings-buttons>*:hover~span:before .checked,.comment-form .tasty-recipes-ratings-buttons:not(:hover)>input:checked~span:before .checked{display:none;}.comment-form .tasty-recipes-ratings-buttons>input{margin-left:-1.1em;margin-right:0;top:3px;width:1.1em;height:1.1em;position:relative;z-index:2;opacity:0;}</style>
-<style type="text/css"></style><link rel="icon" href="https://cookieandkate.com/wp-content/themes/magazine-pro/images/favicon.ico"/>
-<link rel="publisher" href="https://www.google.com/+Cookieandkate8"/>
-<link rel="author" href="https://plus.google.com/+KateTaylor85"/>
+<style type="text/css">
+.comment-form .tasty-recipes-ratings-buttons {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center; }
+  .comment-form .tasty-recipes-ratings-buttons > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em; }
+    .comment-form .tasty-recipes-ratings-buttons > span i {
+      font-style: normal; }
+    .comment-form .tasty-recipes-ratings-buttons > span .unchecked {
+      display: inline-block; }
+    .comment-form .tasty-recipes-ratings-buttons > span .checked {
+      display: none; }
+  .comment-form .tasty-recipes-ratings-buttons > *:hover .unchecked,
+  .comment-form .tasty-recipes-ratings-buttons > *:hover ~ span .unchecked,
+  .comment-form .tasty-recipes-ratings-buttons:not(:hover) > input:checked ~ span .unchecked {
+    display: none; }
+  .comment-form .tasty-recipes-ratings-buttons > *:hover .checked,
+  .comment-form .tasty-recipes-ratings-buttons > *:hover ~ span .checked,
+  .comment-form .tasty-recipes-ratings-buttons:not(:hover) > input:checked ~ span .checked {
+    display: inline-block; }
+  .comment-form .tasty-recipes-ratings-buttons > *:hover:before .unchecked,
+  .comment-form .tasty-recipes-ratings-buttons > *:hover ~ span:before .unchecked,
+  .comment-form .tasty-recipes-ratings-buttons:not(:hover) > input:checked ~ span:before .unchecked {
+    display: inline-block; }
+  .comment-form .tasty-recipes-ratings-buttons > *:hover:before .checked,
+  .comment-form .tasty-recipes-ratings-buttons > *:hover ~ span:before .checked,
+  .comment-form .tasty-recipes-ratings-buttons:not(:hover) > input:checked ~ span:before .checked {
+    display: none; }
+  .comment-form .tasty-recipes-ratings-buttons > input {
+    margin-left: -1.1em;
+    margin-right: 0;
+    top: 3px;
+    width: 1.1em;
+    height: 1.1em;
+    position: relative;
+    z-index: 2;
+    opacity: 0; }
+
+</style>
+<style type="text/css"></style><link rel="icon" href="https://cookieandkate.com/wp-content/themes/magazine-pro/images/favicon.ico" />
 <link rel="dns-prefetch" href="//www.google-analytics.com">
-<meta name="p:domain_verify" content="e48f70f221d645c3b9b8e82f2b8765a9"/>
-<meta name="google-site-verification" content="54yhJE3k6tbVv1DkIVTV5XYeO6aZjfGtvUEkAsoqA7E"/><meta property="fb:page_id" content="173421379405020"/><meta name="msvalidate.01" content="3C33B06721B23420A6037BF6C7D84447"/>
+<link rel="publisher" href="https://www.google.com/+Cookieandkate8" />
+<link rel="author" href="https://plus.google.com/+KateTaylor85" />
+<meta name="p:domain_verify" content="e48f70f221d645c3b9b8e82f2b8765a9" />
+<meta name="google-site-verification" content="54yhJE3k6tbVv1DkIVTV5XYeO6aZjfGtvUEkAsoqA7E" /><meta property="fb:page_id" content="173421379405020" /><meta name="msvalidate.01" content="3C33B06721B23420A6037BF6C7D84447" />
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -140,9 +211,9 @@ window.adthrive.plugin = 'adthrive-ads-1.0.10';
   ga('create', 'UA-15904891-2', 'auto');
   ga('send', 'pageview');
 
-</script><style type="text/css">.site-title a{background:url(https://cookieandkate.com/images/2014/03/celebrating-whole-foods-header.jpg) no-repeat!important;}</style>
-</head>
-<body class="post-template-default single single-post postid-14513 single-format-standard custom-header header-image header-full-width content-sidebar magazine-pro-green" itemscope itemtype="https://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="https://schema.org/WPHeader"><div class="wrap"><div class="title-area"><p class="site-title" itemprop="headline"><a href="https://cookieandkate.com/">Cookie and Kate</a></p><p class="site-description" itemprop="description">Whole Foods and Vegetarian Recipe Blog</p></div></div></header><nav class="nav-primary" itemscope itemtype="https://schema.org/SiteNavigationElement"><div class="wrap"><input type="checkbox" id="toggle"/><div><label for="toggle" class="toggle" data-open="&rtrif; RECIPES & SEARCH" data-close="&dtrif; RECIPES & SEARCH" onclick></label><ul id="menu-below-header-primary-nav" class="menu genesis-nav-menu menu-primary"><li id="menu-item-10671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10671"><a href="https://cookieandkate.com/recipes/" itemprop="url"><span itemprop="name">All Recipes</span></a>
+</script><style type="text/css">.site-title a { background: url(https://cookieandkate.com/images/2014/03/celebrating-whole-foods-header.jpg) no-repeat !important; }</style>
+<link rel="preload" href="/wp-includes/js/jquery/jquery.js?ver=1.12.4" as="script"><link rel="preload" href="/wp-content/plugins/subscribe-to-comments-reloaded/includes/js/stcr-plugin.js?ver=4.8.2" as="script"><link rel="preload" href="/wp-content/themes/genesis/lib/js/html5shiv.js?ver=3.7.3" as="script"><link rel="preload" href="/wp-content/themes/magazine-pro/style.css?ver=1506387591" as="style"></head>
+<body class="post-template-default single single-post postid-14513 single-format-standard custom-header header-image header-full-width content-sidebar magazine-pro-green" itemscope itemtype="https://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="https://schema.org/WPHeader"><div class="wrap"><div class="title-area"><p class="site-title" itemprop="headline"><a href="https://cookieandkate.com/">Cookie and Kate</a></p><p class="site-description" itemprop="description">Whole Foods and Vegetarian Recipe Blog</p></div></div></header><nav class="nav-primary" itemscope itemtype="https://schema.org/SiteNavigationElement"><div class="wrap"><input type="checkbox" id="toggle" /><div><label for="toggle" class="toggle" data-open="&rtrif; RECIPES & SEARCH" data-close="&dtrif; RECIPES & SEARCH" onclick></label><ul id="menu-below-header-primary-nav" class="menu genesis-nav-menu menu-primary"><li id="menu-item-10671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10671"><a href="https://cookieandkate.com/recipes/" itemprop="url"><span itemprop="name">All Recipes</span></a>
 <ul class="sub-menu">
 <li id="menu-item-13455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13455"><a href="https://cookieandkate.com/recipes/" itemprop="url"><span itemprop="name">VIEW ALL</span></a></li>
 <li id="menu-item-17041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17041"><a itemprop="url"><span itemprop="name">COURSE</span></a>
@@ -222,43 +293,532 @@ window.adthrive.plugin = 'adthrive-ads-1.0.10';
 <li id="menu-item-17034" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17034"><a href="https://cookieandkate.com/category/food-recipes/entrees/" itemprop="url"><span itemprop="name">dinner</span></a></li>
 <li id="menu-item-17032" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17032"><a href="https://cookieandkate.com/category/food-recipes/dessert/" itemprop="url"><span itemprop="name">dessert</span></a></li>
 <li id="menu-item-22455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22455"><a href="https://cookieandkate.com/love-real-food-cookbook/" itemprop="url"><span itemprop="name">cookbook</span></a></li>
-<li class="right search"><form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://cookieandkate.com/" role="search"><meta itemprop="target" content="https://cookieandkate.com/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search..."/><input type="submit" value="s"/></form></li></ul></div></div></nav><div class="site-inner"><div class="cookbook-promo"><section id="text-92" class="widget widget_text"><div class="widget-wrap"> <div class="textwidget"><p>Our cookbook, Love Real Food, is finally here! <a href="https://cookieandkate.com/love-real-food-cookbook">Get your copy</a> ↣<img src="https://cookieandkate.com/images/2017/05/love-real-food-150.png" alt="Love Real Food" width="64" height="75"/></p>
+<li class="right search"><form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://cookieandkate.com/" role="search"><meta itemprop="target" content="https://cookieandkate.com/?s={s}" /><input itemprop="query-input" type="search" name="s" placeholder="Search..." /><input type="submit" value="s" /></form></li></ul></div></div></nav><div class="site-inner"><div class="cookbook-promo"><section id="text-92" class="widget widget_text"><div class="widget-wrap"> <div class="textwidget"><p>Our cookbook, Love Real Food, is here! <a href="https://cookieandkate.com/love-real-food-cookbook">Get your copy</a> ↣<img src="https://cookieandkate.com/images/2017/05/love-real-food-150.png" alt="Love Real Food" width="64" height="75" data-pin-nopin="true" /></p>
 </div>
 </div></section>
 </div><div class="content-sidebar-wrap"><main class="content"><article class="post-14513 post type-post status-publish format-standard has-post-thumbnail category-vegetarian-christmas-recipes category-easy-weeknight-dinners category-fall category-vegetarian-italian-recipes category-nut-free category-food-recipes category-salads category-soy-free category-vegetarian-thanksgiving-recipes category-tomato-free category-travel category-winter tag-butternut-squash tag-kale tag-kale-salad tag-pepitas entry" itemscope itemtype="https://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Balsamic Butternut, Kale and Cranberry Panzanella</h1>
-<p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2014-12-17T10:56:36+00:00">December 17, 2014</time> <span class="entry-comments-link"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comments">49 Comments</a></span> </p></header><div class="entry-content" itemprop="text"><input class="jpibfi" type="hidden"><p><img class="aligncenter size-full wp-image-14522" src="https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad.jpg" alt="Wintery butternut kale panzanella salad - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad.jpg 550w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-178x245.jpg 178w" sizes="(max-width: 550px) 100vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad.jpg"></p>
-<p>Are you knee-deep in holiday overwhelm? Me, too. I got most of my holiday shopping squared away and ate a proper dinner last night, so that’s something. I’m going to call this salad a proper dinner-in-a-bowl. It’s full of roasted winter squash, nutritious greens, whole grains, seeds and olive oil. Granted, this blog needed another kale salad like my closet needed <a href="http://rstyle.me/n/rp5pr9p3e" target="_blank" rel="nofollow">another motorcycle jacket</a>&#8230; which is to say not really but <i>absolutely</i>. </p>
-<p>Traditional panzanella is a summertime salad made with cucumbers, tomatoes, onion, vinegar and homemade croutons made from stale bread. As far as I can tell, though, any salad featuring vegetables, vinaigrette and big ol&#8217; homemade croutons qualifies as panzanella these days. This salad calls for a healthy amount of olive oil, of course, so now seems like prime time to share some photos of my trip to the olive oil harvest this fall. </p>
+<p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2014-12-17T10:56:36+00:00">December 17, 2014</time> <span class="entry-comments-link"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comments">50 Comments</a></span> </p></header><div class="entry-content" itemprop="text"><input class="jpibfi" type="hidden"><p><img class="aligncenter size-full wp-image-14522" src="https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad.jpg" alt="Wintery butternut kale panzanella salad - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad.jpg 550w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad-178x245.jpg 178w" sizes="(max-width: 480px) 90vw, (max-width: 865px) 80vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/butternut-kale-panzanella-salad.jpg"></p>
+<p>Are you knee-deep in holiday overwhelm? Me, too. I got most of my holiday shopping squared away and ate a proper dinner last night, so that’s something. I’m going to call this salad a proper dinner-in-a-bowl. It’s full of roasted winter squash, nutritious greens, whole grains, seeds and olive oil. Granted, this blog needed another kale salad like my closet needed <a href="http://rstyle.me/n/rp5pr9p3e" target="_blank" rel="nofollow noopener">another motorcycle jacket</a>&#8230; which is to say not really but <i>absolutely</i>.</p>
+<p>Traditional panzanella is a summertime salad made with cucumbers, tomatoes, onion, vinegar and homemade croutons made from stale bread. As far as I can tell, though, any salad featuring vegetables, vinaigrette and big ol&#8217; homemade croutons qualifies as panzanella these days. This salad calls for a healthy amount of olive oil, of course, so now seems like prime time to share some photos of my trip to the olive oil harvest this fall.</p>
 <p><img class="aligncenter size-full wp-image-14521" src="https://cookieandkate.com/images/2014/12/butternut-and-me.jpg" alt="butternut and me" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/butternut-and-me.jpg"></p>
-<p><a href="http://www.californiaoliveranch.com" target="_blank" rel="nofollow">California Olive Ranch</a> invited me and a few other bloggers (<a href="http://naturallyella.com" target="_blank">Erin/Naturally Ella</a>, <a href="http://www.happyolks.com" target="_blank">Kelsey/Happyolks</a>, <a href="http://www.afarmgirlsdabbles.com" target="_blank">Brenda/A Farmgirl&#8217;s Dabbles</a>, <a href="http://delightfulcrumb.com" target="_blank">Stacey/Delightful Crumb</a>!) out to the Sacramento area for a couple of days at the end of October. The two lovely ladies in charge of marketing for California Olive Ranch, Kirsten and Grace, were warm and welcoming and fit right in with the rest of the crew. </p>
+<p><a href="http://www.californiaoliveranch.com" target="_blank" rel="nofollow noopener">California Olive Ranch</a> invited me and a few other bloggers (<a href="http://naturallyella.com" target="_blank" rel="noopener">Erin/Naturally Ella</a>, <a href="http://www.happyolks.com" target="_blank" rel="noopener">Kelsey/Happyolks</a>, <a href="http://www.afarmgirlsdabbles.com" target="_blank" rel="noopener">Brenda/A Farmgirl&#8217;s Dabbles</a>, <a href="http://delightfulcrumb.com" target="_blank" rel="noopener">Stacey/Delightful Crumb</a>!) out to the Sacramento area for a couple of days at the end of October. The two lovely ladies in charge of marketing for California Olive Ranch, Kirsten and Grace, were warm and welcoming and fit right in with the rest of the crew.</p>
 <p>During those two days, I was just hanging out with friends who are as passionate about good food as I am. It was grand. I wasn&#8217;t obligated to post about the trip, but it was so inspiring and insightful that I didn&#8217;t want to keep it all to myself.</p>
 <p><span id="more-14513"></span><img class="aligncenter size-full wp-image-14520" src="https://cookieandkate.com/images/2014/12/olives-and-butternut.jpg" alt="olives and butternut" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/olives-and-butternut.jpg"></p>
-<p>Aren&#8217;t those green and purple olives gorgeous? I can&#8217;t stop admiring them. Naturally, the olive oil harvest brought to mind the <a href="https://cookieandkate.com/2014/basil-pesto-party-almonds/">almond harvest I attended a couple of months prior</a>. There are some strong similarities between the two crops, although the machinery operates differently. </p>
+<p>Aren&#8217;t those green and purple olives gorgeous? I can&#8217;t stop admiring them. Naturally, the olive oil harvest brought to mind the <a href="https://cookieandkate.com/2014/basil-pesto-party-almonds/">almond harvest I attended a couple of months prior</a>. There are some strong similarities between the two crops, although the machinery operates differently.</p>
 <p>To remove almonds from the trees, a machine shakes the base of the tree to make the almonds fall to the ground, where they dry in the sun. With olives, though, a much taller machine with an olive tree-sized opening drives down the rows of olive trees while mechanical arms built inside carefully and quickly pick the olives off the branches. The base of the machine catches the olives and they are immediately off to be processed and turned into olive oil.</p>
-<p>Olives deteriorate rapidly once they’ve been picked from the tree, so the clock starts ticking the second the olive falls. I was so impressed by the speed and efficiency in olive oil production at California Olive Ranch. Those people are passionate—you could say <i>obsessed</i>—with producing the highest quality olive oil at a grand scale. They sent me some incredible Limited Reserve oil after the trip, but I most often reach for the Everyday variety at Target. </p>
+<p>Olives deteriorate rapidly once they’ve been picked from the tree, so the clock starts ticking the second the olive falls. I was so impressed by the speed and efficiency in olive oil production at California Olive Ranch. Those people are passionate—you could say <i>obsessed</i>—with producing the highest quality olive oil at a grand scale. They sent me some incredible Limited Reserve oil after the trip, but I most often reach for the Everyday variety at Target.</p>
 <p><img class="aligncenter size-full wp-image-14531" src="https://cookieandkate.com/images/2014/12/california-olive-ranch-2014-limited-reserve-1.jpg" alt="California Olive Ranch 2014 Limited Reserve" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/california-olive-ranch-2014-limited-reserve-1.jpg"></p>
-<p>California Olive Ranch is interesting because unlike almost all other olive oil producers, they only press the olives once. They really milk those precious olives for all they’re worth. The first pressing yields extra-virgin olive oil, which is the purest olive oil. </p>
-<p>We tasted super fresh olive oil (see the photo below, look how green it is coming out of the tube!) and I was shocked when the olive oil hit the back of my throat. Those good-for-you polyphenols buuuurn. The polyphenols are responsible for giving olive oil its spicy flavor and the reason that buying fresh, quality olive oil is so important. </p>
+<p>California Olive Ranch is interesting because unlike almost all other olive oil producers, they only press the olives once. They really milk those precious olives for all they’re worth. The first pressing yields extra-virgin olive oil, which is the purest olive oil.</p>
+<p>We tasted super fresh olive oil (see the photo below, look how green it is coming out of the tube!) and I was shocked when the olive oil hit the back of my throat. Those good-for-you polyphenols buuuurn. The polyphenols are responsible for giving olive oil its spicy flavor and the reason that buying fresh, quality olive oil is so important.</p>
 <p><img class="aligncenter size-full wp-image-14515" src="https://cookieandkate.com/images/2014/12/fresh-olive-oil.jpg" alt="fresh olive oil" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/fresh-olive-oil.jpg"></p>
-<p><img src="https://cookieandkate.com/images/2014/12/how-to-prepare-kale-salad-1.jpg" alt="how to prepare kale salad" width="550" height="400" class="aligncenter size-full wp-image-14534" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/how-to-prepare-kale-salad-1.jpg"></p>
-<p>The extra-virgin distinction is critical when it comes to cooking. You may have heard before that olive oil shouldn’t be used for high heat cooking. However, the latest research found that pure extra-virgin olive oil can be cooked at high heat (up to 420 degrees Fahrenheit) without breaking down. The later pressings of olive oils contain more impurities that cause the olive oil to deteriorate at high temperatures, so you really want to use extra-virgin olive oil when it comes to cooking. I heard this first in California, and it was reiterated by a small organic producer in Israel. </p>
+<p><img class="aligncenter size-full wp-image-14534" src="https://cookieandkate.com/images/2014/12/how-to-prepare-kale-salad-1.jpg" alt="how to prepare kale salad" width="550" height="400" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/how-to-prepare-kale-salad-1.jpg"></p>
+<p>The extra-virgin distinction is critical when it comes to cooking. You may have heard before that olive oil shouldn’t be used for high heat cooking. However, the latest research found that pure extra-virgin olive oil can be cooked at high heat (up to 420 degrees Fahrenheit) without breaking down. The later pressings of olive oils contain more impurities that cause the olive oil to deteriorate at high temperatures, so you really want to use extra-virgin olive oil when it comes to cooking. I heard this first in California, and it was reiterated by a small organic producer in Israel.</p>
 <p>So why the confusion? In the past, research on cooking with olive oil was murky because olive oil labeling is tricky business. Overseas olive oil producers have gotten into trouble for intentionally mislabeling olive oils as “extra-virgin” when they are not. Some “olive” oils have even been found to contain oils other than olive oil, like canola oil or worse.</p>
 <p><img class="aligncenter size-full wp-image-14518" src="https://cookieandkate.com/images/2014/12/croutons-and-kale-salad.jpg" alt="croutons and kale salad" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/croutons-and-kale-salad.jpg"></p>
 <p>Grocery stores today are full of extra-virgin olive oil—real or fake—that has gone rancid already, too. We sampled rancid oils side-by-side with California Olive Ranch varieties. I honestly didn’t recognize the rancid oils because they tasted like the olive oil I’d known for years, but California Olive Ranch’s products tasted undeniably better and more complex.</p>
 <p>That’s why it’s so important to buy fresh olive oil from reputable suppliers. I pick domestic olive oil because we have regulations in place to prevent mislabeling. Plus, generally speaking, U.S. producers use more advanced modern technology that gets fresh olives into bottles more quickly. More tips? Pick bottles that are dark in color, which help block damaging light from reaching the oil inside, and store the bottle in a dark, cool cupboard with the lid securely fastened.</p>
-<p><img class="aligncenter size-full wp-image-14527" src="https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest.jpg" alt="California Olive Ranch harvest - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest.jpg 550w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-178x245.jpg 178w" sizes="(max-width: 550px) 100vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest.jpg"></p>
+<p><img class="aligncenter size-full wp-image-14527" src="https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest.jpg" alt="California Olive Ranch harvest - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest.jpg 550w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest-178x245.jpg 178w" sizes="(max-width: 480px) 90vw, (max-width: 865px) 80vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/california-olive-ranch-harvest.jpg"></p>
 <p>Goodness, I didn’t mean to go on an olive oil rant today, but here we are. All science aside, this salad is delicious! If you make it, will you please post a photo on Instagram and tag it #cookieandkate so I can go see it?</p>
-<p>(For more information about olive oil, check out <a href="http://www.npr.org/blogs/thesalt/2013/09/30/226844915/to-get-the-benefits-of-olive-oil-fresh-may-be-best" target="_blank">this NPR piece on freshness</a> and <a href="http://www.truthinoliveoil.com/2013/10/science-cooking-olive-oil" target="_blank">this resource about cooking with olive oil</a>.)</p>
+<p>(For more information about olive oil, check out <a href="http://www.npr.org/blogs/thesalt/2013/09/30/226844915/to-get-the-benefits-of-olive-oil-fresh-may-be-best" target="_blank" rel="noopener">this NPR piece on freshness</a> and <a href="http://www.truthinoliveoil.com/2013/10/science-cooking-olive-oil" target="_blank" rel="noopener">this resource about cooking with olive oil</a>.)</p>
 <p><img class="aligncenter size-full wp-image-14517" src="https://cookieandkate.com/images/2014/12/olive-oil-panzanella.jpg" alt="olive oil panzanella" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/olive-oil-panzanella.jpg"></p>
 <p><img class="aligncenter size-full wp-image-14532" src="https://cookieandkate.com/images/2014/12/butternut-and-olives-1.jpg" alt="butternut and olives" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/butternut-and-olives-1.jpg"></p>
-<p><img src="https://cookieandkate.com/images/2014/12/balsamic-dressing.jpg" alt="Balsamic kale panzanella - cookieandkate.com" width="550" height="756" class="aligncenter size-full wp-image-16294" srcset="https://cookieandkate.com/images/2014/12/balsamic-dressing.jpg 550w, https://cookieandkate.com/images/2014/12/balsamic-dressing-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/balsamic-dressing-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/balsamic-dressing-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/balsamic-dressing-178x245.jpg 178w" sizes="(max-width: 550px) 100vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/balsamic-dressing.jpg"></p>
+<p><img class="aligncenter size-full wp-image-16294" src="https://cookieandkate.com/images/2014/12/balsamic-dressing.jpg" alt="Balsamic kale panzanella - cookieandkate.com" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/balsamic-dressing.jpg 550w, https://cookieandkate.com/images/2014/12/balsamic-dressing-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/balsamic-dressing-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/balsamic-dressing-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/balsamic-dressing-178x245.jpg 178w" sizes="(max-width: 480px) 90vw, (max-width: 865px) 80vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/balsamic-dressing.jpg"></p>
 <p><img class="aligncenter size-full wp-image-14514" src="https://cookieandkate.com/images/2014/12/butternut-panzanella.jpg" alt="butternut panzanella" width="550" height="378" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/butternut-panzanella.jpg"></p>
-<p><img class="aligncenter size-full wp-image-14524" src="https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad.jpg" alt="Butternut, kale and cranberry panzanella salad with balsamic vinaigrette - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad.jpg 550w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-178x245.jpg 178w" sizes="(max-width: 550px) 100vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad.jpg"></p>
-<p><img class="aligncenter size-full wp-image-14530" src="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg" alt="Winter panzanella recipe - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg 550w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-178x245.jpg 178w" sizes="(max-width: 550px) 100vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg"></p>
+<p><img class="aligncenter size-full wp-image-14524" src="https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad.jpg" alt="Butternut, kale and cranberry panzanella salad with balsamic vinaigrette - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad.jpg 550w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad-178x245.jpg 178w" sizes="(max-width: 480px) 90vw, (max-width: 865px) 80vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/butternut-kale-cranberry-panzanella-salad.jpg"></p>
+<p><img class="aligncenter size-full wp-image-14530" src="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg" alt="Winter panzanella recipe - by @cookieandkate" width="550" height="756" srcset="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg 550w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-130x179.jpg 130w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-270x372.jpg 270w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-80x110.jpg 80w, https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1-178x245.jpg 178w" sizes="(max-width: 480px) 90vw, (max-width: 865px) 80vw, 550px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/" data-jpibfi-post-title="Balsamic Butternut, Kale and Cranberry Panzanella" data-jpibfi-src="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg"></p>
 <a class="button tasty-recipes-print-button tasty-recipes-no-print" target="_blank" href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/print/23726/">Print</a><div id="tasty-recipes-23726" class="tasty-recipes tasty-recipes-23726 tasty-recipes-display tasty-recipes-has-image" itemscope itemtype="http://schema.org/Recipe">
 <meta itemprop="url" content="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/">
-<link itemprop="image" href="https://cookieandkate.com/images/2017/04/winter-panzanella-recipe-1-270x372.jpg"/>
-<style type="text/css">.tasty-recipes-image{float:right;}.tasty-recipes-print-button{background-color:#666677;display:inline-block;padding-left:1em;padding-right:1em;padding-top:0.5em;padding-bottom:0.5em;text-decoration:none;}a.tasty-recipes-print-button{color:#FFF;}a.tasty-recipes-print-button:hover{color:#FFF;}.tasty-recipes-rating.tasty-recipes-clip-10{-webkit-clip-path:polygon(0 0,10% 0%,10% 100%,0% 100%);clip-path:polygon(0 0,10% 0%,10% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-20{-webkit-clip-path:polygon(0 0,20% 0%,20% 100%,0% 100%);clip-path:polygon(0 0,20% 0%,20% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-30{-webkit-clip-path:polygon(0 0,30% 0%,30% 100%,0% 100%);clip-path:polygon(0 0,30% 0%,30% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-40{-webkit-clip-path:polygon(0 0,40% 0%,40% 100%,0% 100%);clip-path:polygon(0 0,40% 0%,40% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-50{-webkit-clip-path:polygon(0 0,50% 0%,50% 100%,0% 100%);clip-path:polygon(0 0,50% 0%,50% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-60{-webkit-clip-path:polygon(0 0,60% 0%,60% 100%,0% 100%);clip-path:polygon(0 0,60% 0%,60% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-70{-webkit-clip-path:polygon(0 0,70% 0%,70% 100%,0% 100%);clip-path:polygon(0 0,70% 0%,70% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-80{-webkit-clip-path:polygon(0 0,80% 0%,80% 100%,0% 100%);clip-path:polygon(0 0,80% 0%,80% 100%,0% 100%);}.tasty-recipes-rating.tasty-recipes-clip-90{-webkit-clip-path:polygon(0 0,90% 0%,90% 100%,0% 100%);clip-path:polygon(0 0,90% 0%,90% 100%,0% 100%);}.tasty-recipes-nutrition ul{list-style-type:none;margin:0;padding:0;}.tasty-recipes-nutrition ul:after{display:block;content:' ';clear:both;}.tasty-recipes-nutrition li{float:left;margin-right:1em;}@media print {.tasty-recipes-no-print,.tasty-recipes-no-print *{display:none!important;}}.tasty-recipes-details ul{list-style-type:none;margin:0;color:#666666;font-family:Function,'Trebuchet MS',Arial,sans-serif;font-size:13px;text-align:left;padding-left:0;}.tasty-recipes-details ul li{display:inline-block;margin-right:15px;padding:0!important;}.tasty-recipes-print-button{float:right;background-color:#f7f7f7!important;padding:2px 12px 0;margin-top:12px;font-size:19px;text-decoration:none!important;border-top-right-radius:2px!important;border-top-left-radius:2px!important;border-bottom-right-radius:2px!important;border-bottom-left-radius:2px!important;}a.tasty-recipes-print-button{color:#222!important;}a.tasty-recipes-print-button:hover{color:#31ab9d!important;}a.tasty-recipes-print-button::before{font-family:'cksocialfont'!important;content:'n';margin-right:6px;text-transform:none;}.tasty-recipes h2{font-family:'Playfair Display',Georgia,serif!important;font-size:24px;margin-bottom:3px;margin-top:0;border-bottom:2px solid #F7F7F7;padding-bottom:4px;}.tasty-recipes h3{font-family:'Playfair Display',Georgia,serif!important;font-size:18px;text-transform:uppercase;margin-bottom:18px;padding-top:5px;font-weight:bold;}.tasty-recipes-notes h3{margin-bottom:8px;}.comment-respond .tasty-recipes-ratings{width:100%;font-family:Georgia,serif;font-size:16px;color:#000;}.tasty-recipes ul li,.tasty-recipes ol li{padding-bottom:5px;}.tasty-recipes-ratings{font-family:Function,'Trebuchet MS',Arial,sans-serif;text-transform:none;font-size:13px;color:#666666;width:20%;float:right;margin-top:5px;}.tasty-recipes-ratings-inner{display:inline;float:right;}.tasty-recipes-rating{font-size:15px;}.tasty-recipes-ratings p{text-align:center;margin-bottom:0;}.tasty-recipes-details{text-align:center;width:80%;display:inline-block;margin-top:8px;}.tasty-recipes-description{margin-top:24px;clear:both;}.tasty-recipes-notes strong{font-family:Function,'Trebuchet MS',Arial,sans-serif;font-style:normal;font-weight:normal!important;padding-top:10px;display:inline-block;text-transform:uppercase;}.tasty-recipe-instructions strong{font-style:italic;}.tasty-recipe-nut{color:#222;margin-top:24px;}.tasty-recipe-nut:hover{color:#31ab9d;}.tasty-recipes-nutrition ul{text-align:left;}.tasty-recipes-nutrition ul li{list-style-type:none;margin-left:0;width:45%;font-family:Georgia,serif;}strong.tasty-recipes-label{font-weight:normal;}.nutrition-disclaimer{font-family:Georgia,serif;font-size:15px;font-style:italic;margin:0 0 40px;}.tasty-recipe-ingredients h4{font-family:Georgia,serif;font-size:16px;font-style:italic;font-weight:normal;text-transform:none;}.recipe-footer-intro{font-family:'Playfair Display',Georgia,serif;font-weight:bold;font-style:italic;font-size:18px;color:#222;line-height:1.6;padding-bottom:6px;margin-top:20px;}.tasty-recipes-notes p{margin-bottom:0!important;-webkit-margin-before:0;-webkit-margin-after:0;}.recipe-footer-cookbook{padding-bottom:20px;}.tasty-recipes-print ul{font-size:14px!important;}.tasty-recipes-print tasty-recipes-rating{font-size:14px!important;}.tasty-recipes-print .recipe-footer-cookbook{display:none;}.tasty-recipes-print .tooltip{display:none;}.tasty-recipes-print .tasty-recipe-nut:hover{color:#222;}.tasty-recipes-print{font-family:Georgia,serif;line-height:1.6;font-size:14px!important;}.tasty-recipes-print h3{font-size:16px!important;}.tasty-recipes-print .tasty-recipes-details ul{color:#000;font-family:Georgia,serif;}.tasty-recipes-print-view .tasty-recipes-print-button{float:left;display:block;padding:10px 10px 10px 5px;margin:20px 100% 5px 30px;font-family:'Playfair Display',Georgia,serif;}.tasty-recipes-print-view a.tasty-recipes-print-button::before{font-family:'cksocialfont'!important;content:'';margin-right:6px;text-transform:none;}.tasty-recipes-print .tasty-recipes-ratings p{text-align:center;margin:2px 0 0 0;font-family:Georgia,serif;color:#000000;}</style>
+<link itemprop="image" href="https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg" />
+<style type="text/css">
+.tasty-recipes-image {
+  float: right; }
+
+.tasty-recipes-print-button {
+  background-color: #666677;
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-decoration: none; }
+
+a.tasty-recipes-print-button {
+  color: #FFF; }
+  a.tasty-recipes-print-button:hover {
+    color: #FFF; }
+
+.tasty-recipes-rating.tasty-recipes-clip-10 {
+  -webkit-clip-path: polygon(0 0, 10% 0%, 10% 100%, 0% 100%);
+          clip-path: polygon(0 0, 10% 0%, 10% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-20 {
+  -webkit-clip-path: polygon(0 0, 20% 0%, 20% 100%, 0% 100%);
+          clip-path: polygon(0 0, 20% 0%, 20% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-30 {
+  -webkit-clip-path: polygon(0 0, 30% 0%, 30% 100%, 0% 100%);
+          clip-path: polygon(0 0, 30% 0%, 30% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-40 {
+  -webkit-clip-path: polygon(0 0, 40% 0%, 40% 100%, 0% 100%);
+          clip-path: polygon(0 0, 40% 0%, 40% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-50 {
+  -webkit-clip-path: polygon(0 0, 50% 0%, 50% 100%, 0% 100%);
+          clip-path: polygon(0 0, 50% 0%, 50% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-60 {
+  -webkit-clip-path: polygon(0 0, 60% 0%, 60% 100%, 0% 100%);
+          clip-path: polygon(0 0, 60% 0%, 60% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-70 {
+  -webkit-clip-path: polygon(0 0, 70% 0%, 70% 100%, 0% 100%);
+          clip-path: polygon(0 0, 70% 0%, 70% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-80 {
+  -webkit-clip-path: polygon(0 0, 80% 0%, 80% 100%, 0% 100%);
+          clip-path: polygon(0 0, 80% 0%, 80% 100%, 0% 100%); }
+
+.tasty-recipes-rating.tasty-recipes-clip-90 {
+  -webkit-clip-path: polygon(0 0, 90% 0%, 90% 100%, 0% 100%);
+          clip-path: polygon(0 0, 90% 0%, 90% 100%, 0% 100%); }
+
+.tasty-recipes-nutrition ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .tasty-recipes-nutrition ul:after {
+    display: block;
+    content: ' ';
+    clear: both; }
+
+.tasty-recipes-nutrition li {
+  float: left;
+  margin-right: 1em; }
+
+@media print {
+  .tasty-recipes-no-print, .tasty-recipes-no-print * {
+    display: none !important; } }
+
+
+.tasty-recipes-details ul {
+
+list-style-type: none;
+
+margin: 0;
+
+color: #666666;
+
+font-family: Function, 'Trebuchet MS', Arial, sans-serif;
+
+font-size: 13px;
+
+text-align: left;
+
+padding-left:0;
+
+}
+
+.tasty-recipes-details ul li {
+
+display: inline-block;
+
+margin-right: 15px;
+
+padding: 0 !important;
+
+}
+
+.tasty-recipes-print-button {
+
+float: right;
+
+background-color: #f7f7f7 !important;
+
+padding: 2px 12px 0;
+
+margin-top:12px;
+
+font-size: 19px;
+
+text-decoration: none !important;
+
+border-top-right-radius: 2px !important;
+
+border-top-left-radius: 2px !important;
+
+border-bottom-right-radius: 2px !important;
+
+border-bottom-left-radius: 2px !important;
+
+}
+
+a.tasty-recipes-print-button {
+
+color: #222 !important; }
+
+a.tasty-recipes-print-button:hover {
+
+color: #31ab9d !important; 
+
+}    
+
+a.tasty-recipes-print-button::before {
+
+font-family: 'cksocialfont' !important;
+
+content: 'n';
+
+margin-right: 6px;
+
+text-transform: none;
+
+}
+
+.tasty-recipes h2 {
+
+font-family: 'Playfair Display', Georgia, serif !important;
+
+font-size: 24px;
+
+margin-bottom: 3px;
+
+margin-top: 0;
+
+border-bottom: 2px solid #F7F7F7;
+
+padding-bottom: 4px;
+
+}
+
+.tasty-recipes h3 {
+
+font-family: 'Playfair Display', Georgia, serif !important;
+
+font-size: 18px;
+
+text-transform: uppercase;
+
+margin-bottom: 18px;
+
+padding-top: 5px;
+
+font-weight: bold;
+
+}
+
+.tasty-recipes-notes h3 {
+
+margin-bottom: 8px;
+
+}
+
+.tasty-recipes-notes {
+padding-bottom: 20px;
+}
+
+.comment-respond .tasty-recipes-ratings {
+
+width:100%;
+
+font-family: Georgia, serif;
+
+font-size: 16px;
+
+color: #000;
+
+}
+
+.tasty-recipes ul li{
+
+padding-bottom: 6px;
+
+}
+
+.tasty-recipes ol li {
+
+padding-bottom: 12px;
+
+}
+
+.tasty-recipes-ratings {
+
+font-family: Function, 'Trebuchet MS', Arial, sans-serif;
+
+text-transform: none;
+
+font-size: 13px;
+
+color: #666666;
+
+width: 20%;
+
+float: right;
+
+margin-top: 5px;
+
+}
+
+.tasty-recipes-ratings-inner {
+
+display: inline;
+
+float: right;
+
+}
+
+.tasty-recipes-rating {
+
+font-size: 15px;
+
+}
+
+.tasty-recipes-ratings p {
+
+text-align: center;
+
+margin-bottom: 0;
+
+}
+
+.tasty-recipes-details {
+
+text-align: center;
+
+width: 80%;
+
+display: inline-block;
+
+margin-top: 8px;
+
+}
+
+.tasty-recipes-description {
+
+margin-top: 24px;
+
+clear: both;
+
+}
+
+.tasty-recipes-notes strong {
+
+font-family: Function, 'Trebuchet MS', Arial, sans-serif;
+
+font-size: 18px;
+
+font-style: normal;
+
+font-weight: normal !important;
+
+padding-top: 18px;
+
+line-height: 1;
+
+display: inline-block;
+
+text-transform: uppercase;
+
+}
+
+.tasty-recipe-instructions strong {
+
+font-style: italic;
+
+}
+
+.tasty-recipe-nut {
+
+color: #222;
+
+margin-top: 24px;
+
+}
+
+.tasty-recipe-nut:hover {
+
+color: #31ab9d;
+
+}
+
+.tasty-recipes-nutrition ul {
+
+text-align: left;
+
+}
+
+.tasty-recipes-nutrition ul li {
+
+list-style-type: none;
+
+margin-left: 0;
+
+width: 45%;
+
+font-family: Georgia, serif;
+
+}
+
+strong.tasty-recipes-label {
+
+font-weight: normal;
+
+}
+
+.nutrition-disclaimer { 
+
+font-family: Georgia, serif;
+
+font-size: 15px;
+
+font-style: italic;
+
+margin:0 0 40px;
+
+}
+
+.tasty-recipe-ingredients h4 {
+
+font-family: Georgia, serif;
+
+font-size: 16px;
+
+font-style: italic;
+
+font-weight: normal;
+
+text-transform: none;
+
+}   
+
+.recipe-footer-intro {
+
+font-family: 'Playfair Display', Georgia, serif;
+
+font-weight: bold;
+
+font-style: italic;
+
+font-size:18px;
+
+color: #222;
+
+line-height: 1.6;
+
+padding-bottom: 6px;
+
+margin-top: 20px;
+
+}
+
+.tasty-recipes-notes p {
+
+margin-bottom:0 !important;
+
+-webkit-margin-before: 0;
+
+-webkit-margin-after: 0;
+
+}
+
+.recipe-footer-cookbook {
+
+padding-bottom:20px;
+
+}
+
+.tasty-recipes-print ul {
+
+font-size:14px !important;
+
+}
+
+.tasty-recipes-print tasty-recipes-rating {
+
+font-size:14px !important;
+
+}
+
+.tasty-recipes-print .recipe-footer-cookbook {
+
+display:none;
+
+}
+
+.tasty-recipes-print .tooltip {
+
+display:none; 
+
+}
+
+.tasty-recipes-print .tasty-recipe-nut:hover {
+
+color: #222;
+
+}
+
+.tasty-recipes-print {
+
+font-family: Georgia, serif;
+
+line-height:1.6;
+
+font-size:14px !important;
+
+}
+
+.tasty-recipes-print h3 {
+
+font-size:16px !important;
+
+}
+
+.tasty-recipes-print .tasty-recipes-details ul {
+
+color: #000;
+
+font-family: Georgia, serif;
+
+}
+
+.tasty-recipes-print-view .tasty-recipes-print-button {
+
+float: left;
+
+display: block;
+
+padding: 10px 10px 10px 5px;
+
+margin: 20px 100% 5px 30px;
+
+font-family: 'Playfair Display', Georgia, serif;
+
+}
+
+.tasty-recipes-print-view a.tasty-recipes-print-button::before {
+
+font-family: 'cksocialfont' !important;
+
+content: '';
+
+margin-right: 6px;
+
+text-transform: none;
+
+}
+
+.tasty-recipes-print .tasty-recipes-ratings p {
+
+text-align: center;
+
+margin: 2px 0 0 0;
+
+font-family: Georgia, serif;
+
+color: #000000;
+
+}
+</style>
 <h2><span itemprop="name">Balsamic Butternut, Kale and Cranberry Panzanella</span></h2>
 <div class="tasty-recipes-details">
 <ul>
@@ -268,12 +828,13 @@ window.adthrive.plugin = 'adthrive-ads-1.0.10';
 <li><span class="tasty-recipes-label">Total Time:</span> <span itemprop="totalTime" content="PT1H">1 hour</span></li>
 <li><span class="tasty-recipes-label">Yield:</span> <span itemprop="recipeYield">4 salads</span></li>
 <li><span class="tasty-recipes-label">Category:</span> <span itemprop="recipeCategory">Salad</span></li>
+<li><span class="tasty-recipes-label">Cuisine:</span> <span itemprop="recipeCuisine">Tuscan</span></li>
 </ul>
 </div>
 <div class="tasty-recipes-ratings">
 <div class="tasty-recipes-ratings-inner">
 <p><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span></p>
-<p><span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating"><span class="average" itemprop="ratingValue">5</span> from <span class="count" itemprop="reviewCount">5</span> reviews</span></p>
+<p><span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating"><span class="average" itemprop="ratingValue">5</span> from <span class="count" itemprop="reviewCount">6</span> reviews</span></p>
 </div>
 </div>
 <div class="tasty-recipes-description">
@@ -319,792 +880,97 @@ window.adthrive.plugin = 'adthrive-ads-1.0.10';
 <li itemprop="recipeInstructions">Prepare the croutons: On your other baking sheet, combine the cubed bread with the seeds and salt. Drizzle on 2 tablespoons olive oil and toss to lightly coat the bread. Don&#8217;t worry about trying to get the seeds to stick to the bread, just try to make sure they&#8217;re lightly coated in oil. Arrange the mixture in a single layer so no croutons are on top of one another.</li>
 <li itemprop="recipeInstructions">Once you have tossed the butternut and placed it back on the lower rack, place the sheet of croutons on the upper rack. Toast the bread for 10 to 13 minutes, until the edges are golden. Remove the croutons from the oven and check the squash—it will probably need 5 to 10 more minutes before the edges are caramelized. Once the butternut is done, remove the pan from the oven and set it aside to cool.</li>
 <li itemprop="recipeInstructions">To prepare the vinaigrette: Whisk together all of the ingredients until emulsified.</li>
-<li itemprop="recipeInstructions">To prepare the kale: Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant, about 30 seconds. </li>
+<li itemprop="recipeInstructions">To prepare the kale: Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant, about 30 seconds.</li>
 <li itemprop="recipeInstructions">Final assembly: Add the grated cheese, cranberries and shallot to the bowl. Drizzle enough dressing into the bowl to lightly coat the leaves (you might not need all of it), then toss to coat. Add the roasted butternut and croutons and gently toss to combine. Drizzle in extra dressing if the salad seems like it needs it. For best flavor, let the salad rest for 10 minutes before serving.</li>
 </ol>
 </div>
 <div class="tasty-recipes-notes">
 <h3>Notes</h3>
-<p><strong>Make it gluten free:</strong> Substitute good gluten-free bread or skip the bread altogether. <br/><strong>Make it dairy free/vegan:</strong> Skip the cheese. You might want to add some sliced kalamata olives to make up for the cheese&#8217;s saltiness, or maybe add a dab of white miso to the dressing for some umami. <br/><strong>Make it nut free:</strong> Be sure your whole grain bread is nut free. <br/><strong>Change it up:</strong> Substitute sweet potato or another winter squash for the butternut. Try chopped pecans or walnuts instead of seeds. Substitute arugula or baby spinach for the kale (no need to massage it). Substitute fresh pomegranate arils for the dried cranberries. All delicious ideas!<br/><strong>Storage suggestions:</strong> This salad is best served promptly but keeps well overnight if you want to pack it for lunch the next day.</p>
+<p><strong>Make it gluten free:</strong> Substitute good gluten-free bread or skip the bread altogether.<br />
+<strong>Make it dairy free/vegan:</strong> Skip the cheese. You might want to add some sliced kalamata olives to make up for the cheese&#8217;s saltiness, or maybe add a dab of white miso to the dressing for some umami.<br />
+<strong>Make it nut free:</strong> Be sure your whole grain bread is nut free.<br />
+<strong>Change it up:</strong> Substitute sweet potato or another winter squash for the butternut. Try chopped pecans or walnuts instead of seeds. Substitute arugula or baby spinach for the kale (no need to massage it). Substitute fresh pomegranate arils for the dried cranberries. All delicious ideas!<br />
+<strong>Storage suggestions:</strong> This salad is best served promptly but keeps well overnight if you want to pack it for lunch the next day.</p>
 </div>
+<div class="tooltip"><input type="checkbox" value="selected" id="someID-1" class="tooltip-input"><label for="someID-1" class="tooltip-label">
+<h3 class="tasty-recipe-nut">&#9656; Nutrition Information</h3></label>
+<div id="tooltipID" class="tooltip-content"><div class="nutrition-disclaimer">The information shown is an estimate provided by an online nutrition calculator. It should not be considered a substitute for a professional nutritionist&#8217;s advice.</div><div class="tasty-recipes-nutrifox"><div class="nutrifox-label" data-recipe-id="15497"></div>
+<script async src="https://nutrifox.com/embed.js" charset="utf-8"></script>
+</div> <div class="tasty-recipes-nutrition" itemscope itemprop="nutrition" itemtype="http://schema.org/NutritionInformation">
+<div class="tasty-recipes-hidden-nutrition" style="display:none;">
+<span itemprop="servingSize"></span><span itemprop="calories">511</span><span itemprop="sugarContent">21.1 g</span><span itemprop="sodiumContent">562.7 mg</span><span itemprop="fatContent">35.3 g</span><span itemprop="saturatedFatContent">7.6 g</span><span itemprop="transFatContent">0 g</span><span itemprop="carbohydrateContent">43.6 g</span><span itemprop="fiberContent">5.8 g</span><span itemprop="proteinContent">11.8 g</span><span itemprop="cholesterolContent">14.5 mg</span> </div>
+</div>
+</div></div>
 <div class="recipe-footer-intro">Did you make this recipe? </div>
 <div class="recipe-footer-instagram">Please let me know how it turned out for you! Leave a comment below and share a picture on <a href="https://instagram.com/cookieandkate/" target="_blank">Instagram</a> with the hashtag <a href="https://www.instagram.com/explore/tags/cookieandkate/" target="_blank">#cookieandkate</a>.</div>
-<div class="recipe-footer-cookbook"><a href="https://amzn.to/2mYC8Q5" rel="nofollow noopener noreferrer" target="_blank"><img src="https://cookieandkate.com/images/2017/05/love-our-recipes.jpg" height="288" width="1100" alt="Buy Cookie and Kate's best-selling cookbook, Love Real Food!"></a></div>
+<div class="recipe-footer-cookbook"><a href="https://amzn.to/2mYC8Q5" rel="nofollow noopener noreferrer" target="_blank"><img src="https://cookieandkate.com/images/2017/05/love-our-recipes.jpg" ; alt="Buy Cookie and Kate's best-selling cookbook, Love Real Food!" data-pin-nopin="true" class="aligncenter size-full wp-image-24655" srcset="https://cookieandkate.com/images/2017/05/love-our-recipes.jpg 1100w, https://cookieandkate.com/images/2017/05/love-our-recipes-550x144.jpg 550w, https://cookieandkate.com/images/2017/05/love-our-recipes-270x71.jpg 270w, https://cookieandkate.com/images/2017/05/love-our-recipes-768x201.jpg 768w" sizes="(max-width: 480px) 90vw, (max-width: 865px) 80vw, 550px"></a></div>
 </div>
-<p>&nbsp;<br/>
-<strong>Disclaimer:</strong> My trip to California for the olive oil harvest was paid for by California Olive Ranch, but I&#8217;m writing about it because it was awesome!</p>
- <div class="crunchify-social"><a class="crunchify-link crunchify-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F" target="_blank">Facebook</a><a class="crunchify-link crunchify-twitter" href="https://twitter.com/intent/tweet?text=Balsamic%20Butternut,%20Kale%20and%20Cranberry%20Panzanella&amp;url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F&amp;via=Crunchify" target="_blank">Twitter</a><a class="crunchify-link crunchify-googleplus" href="https://plus.google.com/share?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F" target="_blank">Google+</a><a class="crunchify-link crunchify-pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F&amp;media=https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg&amp;description=Balsamic%20Butternut,%20Kale%20and%20Cranberry%20Panzanella" data-pin-custom="true" target="_blank">Pin It</a></div></div><footer class="entry-footer"><p class="entry-meta"><span class="entry-categories">&rtrif; Categories <a href="https://cookieandkate.com/category/vegetarian-christmas-recipes/" rel="category tag">Christmas</a>, <a href="https://cookieandkate.com/category/food-recipes/easy-weeknight-dinners/" rel="category tag">easy weeknight dinners</a>, <a href="https://cookieandkate.com/category/fall/" rel="category tag">fall</a>, <a href="https://cookieandkate.com/category/vegetarian-italian-recipes/" rel="category tag">Italian</a>, <a href="https://cookieandkate.com/category/food-recipes/nut-free/" rel="category tag">nut free</a>, <a href="https://cookieandkate.com/category/food-recipes/" rel="category tag">recipes</a>, <a href="https://cookieandkate.com/category/food-recipes/salads/" rel="category tag">salads</a>, <a href="https://cookieandkate.com/category/food-recipes/soy-free/" rel="category tag">soy free</a>, <a href="https://cookieandkate.com/category/vegetarian-thanksgiving-recipes/" rel="category tag">Thanksgiving</a>, <a href="https://cookieandkate.com/category/food-recipes/tomato-free/" rel="category tag">tomato free</a>, <a href="https://cookieandkate.com/category/travel/" rel="category tag">travel</a>, <a href="https://cookieandkate.com/category/winter/" rel="category tag">winter</a></span> <span class="entry-tags">&rtrif; Ingredients <a href="https://cookieandkate.com/tag/butternut-squash/" rel="tag">butternut squash</a>, <a href="https://cookieandkate.com/tag/kale/" rel="tag">kale</a>, <a href="https://cookieandkate.com/tag/kale-salad/" rel="tag">kale salad</a>, <a href="https://cookieandkate.com/tag/pepitas/" rel="tag">pepitas</a></span></p><div class="after-entry widget-area"><div class="wrap"><section id="user-profile-2" class="widget user-profile"><div class="widget-wrap"><h4 class="widget-title widgettitle">About Kate Taylor</h4>
-<p><span class="alignleft"></span><a href="https://cookieandkate.com/about/"><img src="https://cookieandkate.com/images/2015/08/byline-2x.jpg" alt="Cookie and Kate Taylor" width="130" height="167" class="alignleft"/></a>Vegetable enthusiast. Dog lover. I'm probably making a big mess in my Kansas City kitchen right now. <br/><a href="https://cookieandkate.com/about/">More about C+K »</a></p>
-<p><b><i>Follow us!</i></b> <a href="https://www.facebook.com/cookieandkate" target="_blank">Facebook</a> &diam; <a href="https://www.pinterest.com/cookieandkate/">Pinterest</a> &diam; <a href="https://instagram.com/cookieandkate">Instagram</a> &diam; <a href="https://www.youtube.com/user/cookieandkate/">YouTube</a></p>
-</div></section>
-<section id="enews-ext-3" class="widget enews-widget"><div class="widget-wrap"><div class="enews"><h4 class="widget-title widgettitle">Never miss a new recipe</h4>
-<p>Subscribe to receive new posts by email! As a thank you, we'll give you our welcome guide with 5 printable dinner recipes. (It's all free.)</p>
-<form id="subscribeenews-ext-3" action="https://cookieandkate.us8.list-manage.com/subscribe/post?u=ef84c57f094f5006504d082b6&amp;id=dc2361842c" method="post" target="_blank" onsubmit="if ( subbox1.value == 'First Name') { subbox1.value = ''; } if ( subbox2.value == 'Last Name') { subbox2.value = ''; }" name="enews-ext-3">
-<label for="subbox" class="screenread">Enter your email address...</label><input type="email" value="" id="subbox" placeholder="Enter your email address..." name="EMAIL" required="required"/>
-<input type="hidden" name="SOURCE" id="SOURCE" value="after-entry"> <input type="submit" value="Subscribe" id="subbutton"/>
-</form>
-</div></div></section>
-</div></div><div class="adjacent-entry-pagination pagination"><div class="pagination-previous alignleft"><a href="https://cookieandkate.com/2014/butternut-squash-frittata-with-fried-sage/" rel="next"><div class="older-newer">&larrtl; newer</div> Butternut Squash Frittata with Fried Sage</a></div><div class="pagination-next alignright"><a href="https://cookieandkate.com/2014/15-wholesome-holiday-treats/" rel="prev"><div class="older-newer">older &rarrtl;</div> 15 Wholesome Holiday Treats</a></div></div></footer></article><div class="entry-comments" id="comments"><h3>Comments</h3><ol class="comment-list"> <div id="respond" class="comment-respond">
-<h3 id="reply-title" class="comment-reply-title">Leave a comment below: <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2014/balsamic-butternut-kale-cranberry-panzanella/#respond" style="display:none;">Cancel reply</a></small></h3> <form action="https://cookieandkate.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
-<div class="comment-thank-you-box">
-<p class="comment-thank-you">Your comments make my day. Thank you!</p></div><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p> <p class="tasty-recipes-ratings">
-<label for="tasty-recipes-rating">Rate this recipe</label>
-<span class="tasty-recipes-ratings-buttons">
-<input type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="5"/><span><i class="checked">&#9733;</i><i class="unchecked">&#9734;</i></span>
-<input type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="4"/><span><i class="checked">&#9733;</i><i class="unchecked">&#9734;</i></span>
-<input type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="3"/><span><i class="checked">&#9733;</i><i class="unchecked">&#9734;</i></span>
-<input type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="2"/><span><i class="checked">&#9733;</i><i class="unchecked">&#9734;</i></span>
-<input type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="1"/><span><i class="checked">&#9733;</i><i class="unchecked">&#9734;</i></span>
-</span>
-</p>
-<div class="comment-policy-box">&nbsp;</div><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required'/></p>
-<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required'/></p>
-<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"/></p>
-  <p class='comment-form-subscriptions'><label for='subscribe-reloaded'><input style='width:30px' type='checkbox' name='subscribe-reloaded' id='subscribe-reloaded' value='replies' checked='checked'/> Notify me of follow-up comments by e-mail.</label></p> <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"/> <input type='hidden' name='comment_post_ID' value='14513' id='comment_post_ID'/>
-<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
-</p> <p class="antispam-group antispam-group-q" style="clear: both;">
-<label>Current ye@r <span class="required">*</span></label>
-<input type="hidden" name="antspm-a" class="antispam-control antispam-control-a" value="2017"/>
-<input type="text" name="antspm-q" class="antispam-control antispam-control-q" value="4.3" autocomplete="off"/>
-</p>
-<p class="antispam-group antispam-group-e" style="display: none;">
-<label>Leave this field empty</label>
-<input type="text" name="antspm-e-email-url-website" class="antispam-control antispam-control-e" value="" autocomplete="off"/>
-</p>
-</form>
-</div> 
-<li class="comment even thread-even depth-1" id="comment-242174">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://sundiegoeats.com" class="comment-author-link" rel="external nofollow" itemprop="url">J.S. @ Sun Diego Eats</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-17T12:32:54+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242174" class="comment-time-link" itemprop="url">December 17, 2014 at 12:32 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>A) It&#8217;s sooo green! At Fig &amp; Olive we&#8217;ve tried side by side olive oils and I tend to like the green ones better soooo I am all about this.</p>
-<p>B)Have you ever seen IRO&#8217;s (many) motorcycle jackets? Ahh I am obsessed. My sister just got the gray leather one and I really want a black one&#8230;.<br/>
-<a href="http://www.theoutnet.com/Shop/Search?keywords=iro+jacket" rel="nofollow">http://www.theoutnet.com/Shop/Search?keywords=iro+jacket</a></p>
-<p>C)Sorry for enabling your motorcycle jacket addiction ;)</p>
+<p><strong>Disclaimer:</strong> My trip to California for the olive oil harvest was paid for by California Olive Ranch, but I&#8217;m writing about it because it was awesome!</p>
+<div class="crunchify-social"><a class="crunchify-link crunchify-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F" target="_blank">Facebook</a><a class="crunchify-link crunchify-twitter" href="https://twitter.com/intent/tweet?text=Balsamic%20Butternut,%20Kale%20and%20Cranberry%20Panzanella&amp;url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F&amp;via=Crunchify" target="_blank">Twitter</a><a class="crunchify-link crunchify-googleplus" href="https://plus.google.com/share?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F" target="_blank">Google+</a><a class="crunchify-link crunchify-pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fcookieandkate.com%2F2014%2Fbalsamic-butternut-kale-cranberry-panzanella%2F&amp;media=https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg&amp;description=Balsamic%20Butternut,%20Kale%20and%20Cranberry%20Panzanella" data-pin-custom="true" target="_blank">Pin It</a></div></div><footer class="entry-footer"><p class="entry-meta"><span class="entry-categories">&rtrif; Categories <a href="https://cookieandkate.com/category/vegetarian-christmas-recipes/" rel="category tag">Christmas</a>, <a href="https://cookieandkate.com/category/food-recipes/easy-weeknight-dinners/" rel="category tag">easy weeknight dinners</a>, <a href="https://cookieandkate.com/category/fall/" rel="category tag">fall</a>, <a href="https://cookieandkate.com/category/vegetarian-italian-recipes/" rel="category tag">Italian</a>, <a href="https://cookieandkate.com/category/food-recipes/nut-free/" rel="category tag">nut free</a>, <a href="https://cookieandkate.com/category/food-recipes/" rel="category tag">recipes</a>, <a href="https://cookieandkate.com/category/food-recipes/salads/" rel="category tag">salads</a>, <a href="https://cookieandkate.com/category/food-recipes/soy-free/" rel="category tag">soy free</a>, <a href="https://cookieandkate.com/category/vegetarian-thanksgiving-recipes/" rel="category tag">Thanksgiving</a>, <a href="https://cookieandkate.com/category/food-recipes/tomato-free/" rel="category tag">tomato free</a>, <a href="https://cookieandkate.com/category/travel/" rel="category tag">travel</a>, <a href="https://cookieandkate.com/category/winter/" rel="category tag">winter</a></span> <span class="entry-tags">&rtrif; Ingredients <a href="https://cookieandkate.com/tag/butternut-squash/" rel="tag">butternut squash</a>, <a href="https://cookieandkate.com/tag/kale/" rel="tag">kale</a>, <a href="https://cookieandkate.com/tag/kale-salad/" rel="tag">kale salad</a>, <a href="https://cookieandkate.com/tag/pepitas/" rel="tag">pepitas</a></span></p><div class="after-entry widget-area"><div class="wrap"></div></div><div class="adjacent-entry-pagination pagination"><div class="pagination-previous alignleft"><a href="https://cookieandkate.com/2014/butternut-squash-frittata-with-fried-sage/" rel="next"><div class="older-newer">&larrtl; newer</div> Butternut Squash Frittata with Fried Sage</a></div><div class="pagination-next alignright"><a href="https://cookieandkate.com/2014/15-wholesome-holiday-treats/" rel="prev"><div class="older-newer">older &rarrtl;</div> 15 Wholesome Holiday Treats</a></div></div></footer></article>
+<input type="hidden" name="llc_ajax_url" id="llc_ajax_url" value="https://cookieandkate.com/wp-admin/admin-ajax.php" />
+<input type="hidden" name="llc_post_id" id="llc_post_id" value="14513" />
+<div id="llc_comments">
+<div style="text-align: center;">
+<div id="llc-comments-loader" style="display: none;">
+
+
+<img src="data:image/gif;base64,R0lGODlhNgA3APMJAMfHx6KiopycnO7u7rm5ufDw8Obm5rS0tM7Ozv///wAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAJACwAAAAANgA3AAAEwDDJSau9OOvNu/9gKI5kaZ6lcQjCYaAnws4CApMGTb93uOqsQy8EpA1Bxdnx8wMKl51ckXccEIIDjExnWw4CuuxFhc0AwIDRVUcwnWdpYtEENsqBdJ1oTWuX3ixxIAV1MwUxaDhrBIdQjo+QkZKTlJWWHG+CjpkagDWPnpoVhSyPpAEZp6Z6Wn2grmaJkJyXtba3uLm6u5O0iAGiH6G/gSOqeXZ3SsjLIcNusHuyv8G8kb65z7nH26zZ0d/A1uNHEQAh+QQJCgAJACwHAAYALQAvAAAEsjDJSWsdRAgyrP/gNwRa2YVoOmWlRqhw2LZxbc2lrUts++62AqlV8BgOLgPwwuJ4EDhECEACLBMGnEb59C2R2sNnmANqy7fZ8qz5UEtWIBgndlevWS33moLOpHwwR0mBhYaHiImKiyhvcYwJjpFejG8uZG2MmJsBkJuWG5CgVpKQkwGPpqqrrK2ur7A7pXyzdnC0lGNqV5syu2u/XbdXo413gbWxhsmqxa29z8HNuazMMBEAIfkECQoACQAsBwAHAC8ALgAABLAwyUmrBSEAy7v/EiaMG2ieVDaOaGuqqyt3IjnflVji/DkQpMFJ10sMYCPhpybY3YAr2wcZ6EWjIKr1ylpGnTPo10TsFaiFoqwAJaTV8Lh8Tq/bfYfRwXCncREhGWByBlxJTINweYaLWHWGkFWPkYh2jVcHCWV1hYZ8fRQIf6AWBot7pKmqq6ytYYJwm14riS6VWVdFWriOPLuzUjy3ILLCsK6gxarDq7/Nua3Mq8ouEQAh+QQJCgAJACwHAAcALgAuAAAErjDJSasFIQDLu/8JJowbaJ5TNo5oC6qrK3MiOd+UWOJ83+k+CRBUE+xwxSMHxuoxA69Vk/ckSpWzpGno4wa/4LB4TC6bz+gBgTQQZrDhwVN9Na+lxmoZz4/t+1pld3VeYwVzaBUFdwQFiY+QkZJpByMHBpIIfAhWGj0GfQKYP3U4lX0HHno3oVMWqzOtAh6BN6d8qbRvn6GjiZp4nF+FFAanl2C1kLCPzL+lmbs4EQAh+QQJCgAJACwHAAcALQAwAAAEsTDJSasFIQDLu/+YIG5faVaZKJ6smapt3IWjbFchee+8l/eTH0gl0O1oxc9r1VsGlMRnMzpUGW/I6yWjxXKB4LB4TC6bz+g0S5j+ZdtEJPPsdKadb/Sbrf+q/4CBgoOEhRQDBCMDJXw3A06LM3E9iVEEHnY8UTAdmTubc1tWlJuXPn4dBgciBwYcBZBACJsIr5UEBUAGoAKuaqugB3+8oXTEf8Clf7ugvmqzloKqrM4xEQAh+QQJCgAJACwHAAcALQAvAAAErjDJSasFIQDLu/+YIG5faVaZKJ6smapt3IWjbFchee+8l/eTH0gl0O1oxc9r1VsGlMRnMzpUGW/I6yWjxXKB4LB4TC6bz+g0S5j+ZdtEJPPsdKadb/Sbrf+q/4CBgoMlBgciBwaCCFFJfwaNIoo8fBWHkQeUcR2RMDt2HJ1zNqAWl42ZR5sckJGTqhpVqxYDBIgDYIa3HQNOuIC2UQSBncSRgcGzagW+ggXBBAU3EQAh+QQJCgAJACwFAAcALwAuAAAErTDJSauVIARwu/9dJowcaJ6UNo5oa6qrK4erUM74JN5573u7H0bDA9aKMxHpVQv8YCwQ1OmbmpS2HxZ5CQq9wrB4TC6bzz3DYXQwoGlNxLtiaK7c5+DaLjjkj3wxZlOBUWVTe3Z+Zlt1fHiMRENxcxZqbJCVmpucnZ6WBJieA1MDWpIgoU0EPltSfFVNr3axNamKrUcgBaWnGycFqgQFny5gna6eVsqynsnOqDMRACH5BAUKAAkALAYABwAuAC4AAASyMMlJq00gBHC7/1cmjBxonpM2jmgLqqsrh6tQzpVxjIfxiTfcBFEjCWWG4sp3BH52SsGhWQtWojEhjNXBcnHbgAeqnApFxk4yyjxrrBZiEXGc6Xjtun7P7/v/gCYDBHiBHgNhA4YSToRFBItoNliLYZSGYY5VkVUFiYsYbxIFjgQFoKipqqusra6BTnuxP5t1knBXRXphL7p1vLQruC63JrO2oq+cG6/FrcCs0KvOrccuEQA7"> </div>
+
 </div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242174' onclick='return addComment.moveForm( "comment-242174", "242174", "respond", "14513" )' aria-label='Reply to J.S. @ Sun Diego Eats'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-242795">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:50:31+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242795" class="comment-time-link" itemprop="url">December 19, 2014 at 10:50 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Whiiistle, those are some killer motorcycle jackets! You should get that black one!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242795' onclick='return addComment.moveForm( "comment-242795", "242795", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-242193">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://tutti-dolci.com" class="comment-author-link" rel="external nofollow" itemprop="url">Laura (Tutti Dolci)</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-17T13:22:44+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242193" class="comment-time-link" itemprop="url">December 17, 2014 at 1:22 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I love this salad, the perfect winter version of panzanella. Wish this would magically appear in my kitchen for lunch! :)</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242193' onclick='return addComment.moveForm( "comment-242193", "242193", "respond", "14513" )' aria-label='Reply to Laura (Tutti Dolci)'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-even depth-1" id="comment-242234">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://coconutandberries.com" class="comment-author-link" rel="external nofollow" itemprop="url">Emma</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-17T15:36:59+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242234" class="comment-time-link" itemprop="url">December 17, 2014 at 3:36 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Wow, so interesting about the olive oil. I&#8217;ve been avoiding cooking with it as I was one of those under the impression that it shouldn&#8217;t undergo high heat. Thanks for putting that misconception to rest. I&#8217;ll be seeking out some good-quality olive oil and getting back to cooking with it.<br/>
-Beautiful pictures too!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242234' onclick='return addComment.moveForm( "comment-242234", "242234", "respond", "14513" )' aria-label='Reply to Emma'>Reply</a></div>
-</article>
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-242236">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://warmvanillasugar.com/" class="comment-author-link" rel="external nofollow" itemprop="url">Katrina @ Warm Vanilla Sugar</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-17T15:56:45+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242236" class="comment-time-link" itemprop="url">December 17, 2014 at 3:56 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I love a good panzanella salad! This one is so unique!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242236' onclick='return addComment.moveForm( "comment-242236", "242236", "respond", "14513" )' aria-label='Reply to Katrina @ Warm Vanilla Sugar'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-even depth-1" id="comment-242261">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://dishingupthedirt.com" class="comment-author-link" rel="external nofollow" itemprop="url">dishing up the dirt</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-17T18:38:43+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242261" class="comment-time-link" itemprop="url">December 17, 2014 at 6:38 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Great minds think alike lady! I just made something similar. Thanks for the clear up on the olive oil confusion. Very helpful. Happy Holidays. BTW, I made your apple cider margaritas on Thanksgiving and they were a huge hit! Thanks for the amazing inspiration.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242261' onclick='return addComment.moveForm( "comment-242261", "242261", "respond", "14513" )' aria-label='Reply to dishing up the dirt'>Reply</a></div>
-</article>
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-242308">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.wholeyum.com" class="comment-author-link" rel="external nofollow" itemprop="url">WholeYum</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-17T20:19:26+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242308" class="comment-time-link" itemprop="url">December 17, 2014 at 8:19 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Beautiful photos as always and lovely recipe!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242308' onclick='return addComment.moveForm( "comment-242308", "242308", "respond", "14513" )' aria-label='Reply to WholeYum'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-even depth-1" id="comment-242339">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://theopenoven.com" class="comment-author-link" rel="external nofollow" itemprop="url">mary clay @ the open oven</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-17T21:22:13+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242339" class="comment-time-link" itemprop="url">December 17, 2014 at 9:22 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>what a beautiful salad! love love kale, butternut, and balsamic together. fabulous idea!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242339' onclick='return addComment.moveForm( "comment-242339", "242339", "respond", "14513" )' aria-label='Reply to mary clay @ the open oven'>Reply</a></div>
-</article>
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-242382">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.makingthymeforhealth.com" class="comment-author-link" rel="external nofollow" itemprop="url">Sarah @ Making Thyme for Health</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T00:43:48+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242382" class="comment-time-link" itemprop="url">December 18, 2014 at 12:43 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I was just wondering about using olive oil for high heat cooking earlier today when I read an article that recommended it. I could have sworn that I had read something that said it degrades at high heat so I thought it was strange but now it all makes sense. Thanks for clearing that up! </p>
-<p>I&#8217;ve actually bought California Olive Ranch olive oil many of times but, for sustainability reasons, I started buying Whole Foods organic olive oil instead. Did they mention whether or not they use pesticides or chemicals? I know some companies follow sustainable practices but aren&#8217;t certified organic due to cost. </p>
-<p>Oh, and this salad looks amazing! Kale and butternut squash ftw! :)</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242382' onclick='return addComment.moveForm( "comment-242382", "242382", "respond", "14513" )' aria-label='Reply to Sarah @ Making Thyme for Health'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-244514">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-26T17:20:18+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-244514" class="comment-time-link" itemprop="url">December 26, 2014 at 5:20 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Hey Sarah, I&#8217;m sorry, I really thought I&#8217;d answered your question earlier! Just noticed that I hadn&#8217;t. On the tour, they didn&#8217;t offer &#8220;no pesticides/chemicals&#8221; as a selling point, so take that as you will. To the best of my knowledge, olive trees are pretty hardy and do well in poor conditions so I doubt they need much help, but that&#8217;s just my speculation. I know that California Olive Ranch has very high standards for its olives.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-244514' onclick='return addComment.moveForm( "comment-244514", "244514", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-even depth-1" id="comment-242431">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Anne</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T05:07:18+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242431" class="comment-time-link" itemprop="url">December 18, 2014 at 5:07 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>A stocky little butternut just gave me &#8220;the look&#8221; as I pushed it aside to get coffee, suggesting it has waited long enough to meet its destiny, and then like magic, a perfect recipe appears! I&#8217;m going to try the nut swaps you suggest as my nut bin runneth over at the moment.</p>
-<p>Also, please continue your rants on olive oil and other topics. I learn a lot and you influence my buying choices.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242431' onclick='return addComment.moveForm( "comment-242431", "242431", "respond", "14513" )' aria-label='Reply to Anne'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-242789">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:44:12+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242789" class="comment-time-link" itemprop="url">December 19, 2014 at 10:44 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks, Anne! Hope your salad turned out fabulously.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242789' onclick='return addComment.moveForm( "comment-242789", "242789", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-242461">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.thelawstudentswife.com" class="comment-author-link" rel="external nofollow" itemprop="url">Erin | The Law Student's Wife</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T07:14:37+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242461" class="comment-time-link" itemprop="url">December 18, 2014 at 7:14 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>That JACKET. I need it like I need this salad. Given the number of caramels I ate in the past 24 hours, the situation is serious. Greens please!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242461' onclick='return addComment.moveForm( "comment-242461", "242461", "respond", "14513" )' aria-label='Reply to Erin | The Law Student&#039;s Wife'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-even depth-1" id="comment-242492">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://cupcakemuffin.blogspot.com" class="comment-author-link" rel="external nofollow" itemprop="url">sara</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T09:07:58+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242492" class="comment-time-link" itemprop="url">December 18, 2014 at 9:07 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>YUM! This looks SO tasty. :)</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242492' onclick='return addComment.moveForm( "comment-242492", "242492", "respond", "14513" )' aria-label='Reply to sara'>Reply</a></div>
-</article>
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-242505">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://freshpickedlove.com" class="comment-author-link" rel="external nofollow" itemprop="url">Elizabeth</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T09:48:41+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242505" class="comment-time-link" itemprop="url">December 18, 2014 at 9:48 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>This salad has all of my favorite things; the combination of butternut squash and kale is addictive! Thanks for sharing about the labeling of olive oil too, I didn&#8217;t know that other countries sneak in lower quality oils for filler&#8230;I will have to be more careful with my purchases.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242505' onclick='return addComment.moveForm( "comment-242505", "242505", "respond", "14513" )' aria-label='Reply to Elizabeth'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-242787">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:41:56+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242787" class="comment-time-link" itemprop="url">December 19, 2014 at 10:41 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks, Elizabeth! Olive oil mislabeling is really unfortunate. Wish it didn&#8217;t happen.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242787' onclick='return addComment.moveForm( "comment-242787", "242787", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-even depth-1" id="comment-242509">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Claire</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T10:02:54+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242509" class="comment-time-link" itemprop="url">December 18, 2014 at 10:02 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I enjoyed your post and learning about olive oil! You do a good job of balancing the advertising type stuff without seeming cold and corporate. That&#8217;s gotta be hard, so kudos!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242509' onclick='return addComment.moveForm( "comment-242509", "242509", "respond", "14513" )' aria-label='Reply to Claire'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-242784">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:38:02+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242784" class="comment-time-link" itemprop="url">December 19, 2014 at 10:38 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks, Claire, I really appreciate that!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242784' onclick='return addComment.moveForm( "comment-242784", "242784", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-242516">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.steworastory.com" class="comment-author-link" rel="external nofollow" itemprop="url">Trisha</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T10:40:22+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242516" class="comment-time-link" itemprop="url">December 18, 2014 at 10:40 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I found this post super informative! I never knew that about olive oil going rancid. The salad is gorgeous too, and you can never have enough kale salads, in my opinion. :)</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242516' onclick='return addComment.moveForm( "comment-242516", "242516", "respond", "14513" )' aria-label='Reply to Trisha'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-242783">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:37:53+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242783" class="comment-time-link" itemprop="url">December 19, 2014 at 10:37 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Glad to hear it, Trisha! Olive oil is really just fruit &#8220;juice&#8221; (olives are fruit) so it&#8217;s pretty delicate!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242783' onclick='return addComment.moveForm( "comment-242783", "242783", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-even depth-1" id="comment-242540">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.showmetheyummy.com" class="comment-author-link" rel="external nofollow" itemprop="url">Jennifer @ Show Me the Yummy</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T12:22:13+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242540" class="comment-time-link" itemprop="url">December 18, 2014 at 12:22 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>You definitely needed that motorcycle jacket, just like I really need this salad :) Mmmm! :)</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242540' onclick='return addComment.moveForm( "comment-242540", "242540", "respond", "14513" )' aria-label='Reply to Jennifer @ Show Me the Yummy'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-242609">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">sue</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T18:09:05+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242609" class="comment-time-link" itemprop="url">December 18, 2014 at 6:09 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>This was delicious! Your recipes are getting better and better.</p>
-<p class="tasty-recipes-ratings"><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span></p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242609' onclick='return addComment.moveForm( "comment-242609", "242609", "respond", "14513" )' aria-label='Reply to sue'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-242781">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:36:53+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242781" class="comment-time-link" itemprop="url">December 19, 2014 at 10:36 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thank you, Sue! :D</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242781' onclick='return addComment.moveForm( "comment-242781", "242781", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment odd alt thread-even depth-1" id="comment-242613">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://eat-spin-run-repeat.com" class="comment-author-link" rel="external nofollow" itemprop="url">Angela @ Eat Spin Run Repeat</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T18:14:59+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242613" class="comment-time-link" itemprop="url">December 18, 2014 at 6:14 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I don&#8217;t think I&#8217;ve ever had traditional panzanella, but I love your seasonal take on it! Your California trip sounds like so much fun, and an amazing learning experience too. I learned about the mislabeling of olive oil a couple of years ago and since then have been very careful with what I buy. I&#8217;m not a huge fan of olives on their own, but a good olive oil can work wonders!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242613' onclick='return addComment.moveForm( "comment-242613", "242613", "respond", "14513" )' aria-label='Reply to Angela @ Eat Spin Run Repeat'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-242779">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:36:41+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242779" class="comment-time-link" itemprop="url">December 19, 2014 at 10:36 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks, Angela! I hope you&#8217;ll get a chance to try panzanella soon. I&#8217;m particular about olives, but love me some good olive oil!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242779' onclick='return addComment.moveForm( "comment-242779", "242779", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-242623">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://thoroughlynourishedlife.com" class="comment-author-link" rel="external nofollow" itemprop="url">Amy @ Thoroughly Nourished Life</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T19:05:51+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242623" class="comment-time-link" itemprop="url">December 18, 2014 at 7:05 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Great information on olive oil (I&#8217;m a food science nerd so bring it on!) and this recipe is such a beautiful wintery take on panzanella. When you are using such fresh, simple ingredients, you can really taste the flavour contribution of the olive oil.<br/>
-I make sure to buy Australian grown and processed olive oil because I like to support our local market too.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242623' onclick='return addComment.moveForm( "comment-242623", "242623", "respond", "14513" )' aria-label='Reply to Amy @ Thoroughly Nourished Life'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-242778">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:35:42+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242778" class="comment-time-link" itemprop="url">December 19, 2014 at 10:35 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks, Amy! Couldn&#8217;t agree more. I bet that Australian olive oil is fantastic!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242778' onclick='return addComment.moveForm( "comment-242778", "242778", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment odd alt thread-even depth-1" id="comment-242655">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.athoughtforfood.net" class="comment-author-link" rel="external nofollow" itemprop="url">Brian @ A Thought For Food</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T22:20:11+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242655" class="comment-time-link" itemprop="url">December 18, 2014 at 10:20 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I would&#8217;ve been a kid in a freakin&#8217; candy store &#8212; or, I guess, in an olive grove. I&#8217;ve really grown to appreciate the subtle differences in olive oils and have enjoyed acquiring them from all over (including Davis CA&#8230; UC Davis presses their own). </p>
-<p>This panzanella is right up my alley. I do a similar one with pomegranates. The cranberries, though&#8230; that&#8217;s amazing. Such a wonderful, seasonal take on it.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242655' onclick='return addComment.moveForm( "comment-242655", "242655", "respond", "14513" )' aria-label='Reply to Brian @ A Thought For Food'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-242776">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:34:38+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242776" class="comment-time-link" itemprop="url">December 19, 2014 at 10:34 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>It was so interest to see how the olive harvest works and learn how to taste olive oil! I&#8217;m no olive oil connoisseur yet. Happy holidays, Brian.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242776' onclick='return addComment.moveForm( "comment-242776", "242776", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-242671">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://realfoodwholelife.com/" class="comment-author-link" rel="external nofollow" itemprop="url">Robyn @realfoodwholelife</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-18T23:46:30+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242671" class="comment-time-link" itemprop="url">December 18, 2014 at 11:46 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>This is exactly what I want to be eating right now. Exactly. Will be showing up in a Real Food Meal Plan sometime very soon. Thanks for sharing!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242671' onclick='return addComment.moveForm( "comment-242671", "242671", "respond", "14513" )' aria-label='Reply to Robyn @realfoodwholelife'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-242774">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:31:08+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242774" class="comment-time-link" itemprop="url">December 19, 2014 at 10:31 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Awesome, thanks Robyn!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242774' onclick='return addComment.moveForm( "comment-242774", "242774", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment odd alt thread-even depth-1" id="comment-242748">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.afarmgirlsdabbles.com" class="comment-author-link" rel="external nofollow" itemprop="url">Brenda @ a farmgirl's dabbles</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T08:56:23+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242748" class="comment-time-link" itemprop="url">December 19, 2014 at 8:56 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Fabulous recap and salad, Kate! It was great to reconnect with you. Merry Christmas!!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242748' onclick='return addComment.moveForm( "comment-242748", "242748", "respond", "14513" )' aria-label='Reply to Brenda @ a farmgirl&#039;s dabbles'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-242773">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T10:30:45+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242773" class="comment-time-link" itemprop="url">December 19, 2014 at 10:30 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks, Brenda! So nice to see you again. Happy holidays to you and your family!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242773' onclick='return addComment.moveForm( "comment-242773", "242773", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-242823">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.cupsandspoonfuls.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kelly</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-19T12:16:59+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-242823" class="comment-time-link" itemprop="url">December 19, 2014 at 12:16 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I love panzanella and your recipe looks delicious. I could use something healthy in my belly right now! Happy Holidays!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-242823' onclick='return addComment.moveForm( "comment-242823", "242823", "respond", "14513" )' aria-label='Reply to Kelly'>Reply</a></div>
-</article>
-</li> 
-<li class="comment even thread-even depth-1" id="comment-243647">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="http://www.dancingthroughsunday.com.au" class="comment-author-link" rel="external nofollow" itemprop="url">Bec</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-21T23:54:47+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-243647" class="comment-time-link" itemprop="url">December 21, 2014 at 11:54 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Panzanella&#8230;.. DROOL! What an amazing recipe. Bec x</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-243647' onclick='return addComment.moveForm( "comment-243647", "243647", "respond", "14513" )' aria-label='Reply to Bec'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-244661">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Drew</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2014-12-27T17:06:44+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-244661" class="comment-time-link" itemprop="url">December 27, 2014 at 5:06 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>My wife made this for Christmas and it was unbelievable! Never buying cheap oil and balsamic again.</p>
-<p class="tasty-recipes-ratings"><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span></p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-244661' onclick='return addComment.moveForm( "comment-244661", "244661", "respond", "14513" )' aria-label='Reply to Drew'>Reply</a></div>
-</article>
-</li> 
-<li class="comment even thread-even depth-1" id="comment-248363">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Cindy</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-01-19T20:37:01+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-248363" class="comment-time-link" itemprop="url">January 19, 2015 at 8:37 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>SOOOO Yummy, Kate&#8211;this salad was the star of tonight&#8217;s supper and the combination of flavors is just perfect. Will definitely do this one again for guests&#8211;too delicious not to share. Thank you!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-248363' onclick='return addComment.moveForm( "comment-248363", "248363", "respond", "14513" )' aria-label='Reply to Cindy'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-248442">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-01-20T13:30:03+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-248442" class="comment-time-link" itemprop="url">January 20, 2015 at 1:30 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thank you, Cindy! :)</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-248442' onclick='return addComment.moveForm( "comment-248442", "248442", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-261859">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Double twin mom</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-05-03T18:46:30+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-261859" class="comment-time-link" itemprop="url">May 3, 2015 at 6:46 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I am always looking for healthy recipes to try on my kids. We had this today. 3 out of 4 kids liked this and my husband and I too. I will be making again.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-261859' onclick='return addComment.moveForm( "comment-261859", "261859", "respond", "14513" )' aria-label='Reply to Double twin mom'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-261945">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-05-04T13:21:15+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-261945" class="comment-time-link" itemprop="url">May 4, 2015 at 1:21 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thank you! Glad to hear it!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-261945' onclick='return addComment.moveForm( "comment-261945", "261945", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-even depth-1" id="comment-277687">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Bonnie Sanders</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-09-22T00:34:25+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-277687" class="comment-time-link" itemprop="url">September 22, 2015 at 12:34 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Wow! Made this salad tonight. Delicious!!! Thanks for your awesome website.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-277687' onclick='return addComment.moveForm( "comment-277687", "277687", "respond", "14513" )' aria-label='Reply to Bonnie Sanders'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-278451">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-09-25T01:23:36+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-278451" class="comment-time-link" itemprop="url">September 25, 2015 at 1:23 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thank you, Bonnie! :)</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-278451' onclick='return addComment.moveForm( "comment-278451", "278451", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-odd thread-alt depth-1" id="comment-291975">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Lori</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-11-24T19:26:05+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-291975" class="comment-time-link" itemprop="url">November 24, 2015 at 7:26 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Just made this salad and we loved it. One thing I will do differently for my family is reduce the amount of olive oil used for the roasting portion. We found it just too much for our taste. Normally I&#8217;d use maybe 2 tsps for that much squash and love it. I think it is likely just a taste thing.</p>
-<p class="tasty-recipes-ratings"><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span></p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-291975' onclick='return addComment.moveForm( "comment-291975", "291975", "respond", "14513" )' aria-label='Reply to Lori'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-293037">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name"><a href="https://cookieandkate.com" class="comment-author-link" rel="external nofollow" itemprop="url">Kate</a></span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-11-28T15:46:10+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-293037" class="comment-time-link" itemprop="url">November 28, 2015 at 3:46 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks, Lori! I usually need that much to get an even coating on the squash, which helps it brown evenly on the edges, but do whatever works for you!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-293037' onclick='return addComment.moveForm( "comment-293037", "293037", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-<li class="comment even thread-even depth-1" id="comment-292317">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Carolyn</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2015-11-25T21:38:47+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-292317" class="comment-time-link" itemprop="url">November 25, 2015 at 9:38 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Thanks for the inspiration, made it with some of your mix it up ideas and turned out great. Used pomegranate, sweet potato and walnuts with collard greens :)</p>
-<p class="tasty-recipes-ratings"><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span></p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-292317' onclick='return addComment.moveForm( "comment-292317", "292317", "respond", "14513" )' aria-label='Reply to Carolyn'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-334201">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Abi</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2016-04-17T10:27:55+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-334201" class="comment-time-link" itemprop="url">April 17, 2016 at 10:27 AM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I just found your site and I love all the new vegetarian recipes &#8211; thank you.</p>
-<p>I could never understand the hype about good quality oils until I was gifted some from a friend. I started using these good quality oils and vinegars in dressings and the taste difference was crazy. Now we have a cupboard full of very expensive oils and vinegars!!!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-334201' onclick='return addComment.moveForm( "comment-334201", "334201", "respond", "14513" )' aria-label='Reply to Abi'>Reply</a></div>
-</article>
-</li> 
-<li class="comment even thread-even depth-1" id="comment-415823">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Laura</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2016-11-16T22:04:39+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-415823" class="comment-time-link" itemprop="url">November 16, 2016 at 10:04 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Your photos are just gorgeous on this post and the blog in general. Very impressed. Looking forward to trying this recipe. Happy Thanksgiving!</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-415823' onclick='return addComment.moveForm( "comment-415823", "415823", "respond", "14513" )' aria-label='Reply to Laura'>Reply</a></div>
-</article>
-</li> 
-<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-458245">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Franki</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2017-07-05T23:42:36+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-458245" class="comment-time-link" itemprop="url">July 5, 2017 at 11:42 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>I love this salad! I have made it several times for parties and dinners and everyone drools over it! Where can I find the nutritional information for the balsamic dressing?</p>
-<p class="tasty-recipes-ratings"><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span><span class="tasty-recipes-rating">&#9733;</span></p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-458245' onclick='return addComment.moveForm( "comment-458245", "458245", "respond", "14513" )' aria-label='Reply to Franki'>Reply</a></div>
-</article>
-<ul class="children">
-<li class="comment byuser comment-author-meaghan even depth-2" id="comment-459079">
-<article itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-<header class="comment-header">
-<p class="comment-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span itemprop="name">Kate</span> <span class="says">says</span> </p>
-<p class="comment-meta"><time class="comment-time" datetime="2017-07-09T19:15:22+00:00" itemprop="datePublished"><a href="https://cookieandkate.com/2014/balsamic-butternut-kale-cranberry-panzanella/#comment-459079" class="comment-time-link" itemprop="url">July 9, 2017 at 7:15 PM</a></time></p> </header>
-<div class="comment-content" itemprop="text">
-<p>Hey, Franki! I&#8217;m so glad you love the Panzanella. Unfortunately, I don&#8217;t have nutritional info available for my recipes just yet. I&#8217;m looking for a solution, and will update about it once I find one. In the meantime, here’s a <a href="https://www.verywell.com/recipe-nutrition-analyzer-4129594" rel="nofollow">nutrition calculator</a> that might come in handy.</p>
-</div>
-<div class="comment-reply"><a rel='nofollow' class='comment-reply-link' href='#comment-459079' onclick='return addComment.moveForm( "comment-459079", "459079", "respond", "14513" )' aria-label='Reply to Kate'>Reply</a></div>
-</article>
-</li> 
-</ul> 
-</li> 
-</ol></div></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="https://schema.org/WPSideBar"><section id="text-72" class="widget widget_text"><div class="widget-wrap"> <div class="textwidget"><p><a href="https://cookieandkate.com/about/"><img class="about" src="https://cookieandkate.com/images/2014/02/kate-600.jpg" alt="Kate" width="300" height="125"/></a></p>
+</div></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="https://schema.org/WPSideBar"><section id="custom_html-2" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><a href="https://cookieandkate.com/about/"><img src="https://cookieandkate.com/images/2014/02/kate-600.jpg" alt="Kate" width="300" height="125" class="about" srcset="https://cookieandkate.com/images/2014/02/kate-600.jpg 600w, https://cookieandkate.com/images/2014/02/kate-600-550x229.jpg 550w, https://cookieandkate.com/images/2014/02/kate-600-270x113.jpg 270w" sizes="(max-width: 480px) 90vw, 300px" data-pin-nopin="true"></a>
 <div class="intro">Hello! I cook fresh, vegetarian recipes. My dog, Cookie, catches the crumbs. <a href="https://cookieandkate.com/about/">About C+K »</a></div>
 <div class="intro-links"><a href="https://cookieandkate.com/contact/">Contact</a> ⋄ <a href="https://cookieandkate.com/links/">Links</a> ⋄ <a href="https://cookieandkate.com/healthy-kitchen-essentials/">Shop (new!)</a> ⋄ <a href="https://cookieandkate.com/subscribe/">Subscribe</a></div>
-<div class="icon-font"><a href="https://www.facebook.com/cookieandkate" target="_blank" rel="noopener">f</a>   <a href="https://www.pinterest.com/cookieandkate/" target="_blank" rel="noopener">p</a>   <a href="https://instagram.com/cookieandkate" target="_blank" rel="noopener">i</a>   <a href="https://twitter.com/cookieandkate" target="_blank" rel="noopener">t</a>   <a href="https://www.google.com/+KateTaylor85" target="_blank" rel="noopener">g</a>   <a href="https://www.bloglovin.com/blogs/cookie-kate-1792451" target="_blank" rel="noopener">h</a>   <a href="http://feeds.feedburner.com/CookieAndKate" target="_blank" rel="noopener">r</a></div>
-</div>
-</div></section>
-<section id="text-91" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">OUR COOKBOOK</h4>
-<div class="textwidget"><p><a href="https://cookieandkate.com/love-real-food-cookbook/"><img src="https://cookieandkate.com/images/2017/05/love-real-food-cookbook-now-available.jpg" alt="Love Real Food Cookbook by Kathryne Taylor" width="300" height="301"/></a></p>
-<h4 class="cookbook-sidebar">Get Your Copy:</h4>
-<h5 class="retailers-strip"><a href="https://www.amazon.com/Love-Real-Food-Feel-Good-Vegetarian/dp/1623367417//ref=as_li_ss_tl?ie=UTF8&amp;linkCode=ll1&amp;tag=cooandkatcb-20&amp;linkId=aef09b59265b7f5698b84fe831b4641a" target="_blank" rel="nofollow noopener noreferrer">Amazon</a> ⋄ <a href="http://www.anrdoezrs.net/links/6030797/type/dlg/http://www.barnesandnoble.com/w/love-real-food-kathryne-taylor/1125259408?ean=9781623367411" target="_blank" rel="nofollow noopener noreferrer">Barnes &amp; Noble</a> ⋄ <a href="http://www.anrdoezrs.net/links/6030797/type/dlg/http://www.booksamillion.com/p/Love-Real-Food/Kathryne-Taylor/9781623367411?id=6877075323182" target="_blank" rel="nofollow noopener noreferrer">BAM!</a> ⋄ <a href="http://www.indiebound.org/book/9781623367411&amp;aff=cookieandkate" target="_blank" rel="nofollow noopener noreferrer">IndieBound</a> ⋄ <a href="http://www.anrdoezrs.net/links/6030797/type/dlg/https://www.chapters.indigo.ca/en-ca/books/love-real-food-more-than/9781623367411-item.html?ikwid=love+real+food&amp;ikwsec=Home&amp;ikwidx=0" target="_blank" rel="nofollow noopener noreferrer">Indigo</a> ⋄ <a href="https://cookieandkate.com/love-real-food-cookbook/">Details »</a></h5>
-</div>
-</div></section>
+<div class="icon-font"><a href="https://www.facebook.com/cookieandkate" target="_blank" rel="noopener">f</a>&nbsp;&nbsp;&nbsp;<a href="https://www.pinterest.com/cookieandkate/" target="_blank" rel="noopener">p</a>&nbsp;&nbsp;&nbsp;<a href="https://instagram.com/cookieandkate" target="_blank" rel="noopener">i</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/cookieandkate" target="_blank" rel="noopener">t</a>&nbsp;&nbsp;&nbsp;<a href="https://www.google.com/+KateTaylor85" target="_blank" rel="noopener">g</a>&nbsp;&nbsp;&nbsp;<a href="https://www.bloglovin.com/blogs/cookie-kate-1792451" target="_blank" rel="noopener">h</a>&nbsp;&nbsp;&nbsp;<a href="http://feeds.feedburner.com/CookieAndKate" target="_blank" rel="noopener">r</a></div></div></div></section>
+<section id="custom_html-3" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title widgettitle">OUR COOKBOOK</h4>
+<div class="textwidget custom-html-widget"><a href="https://cookieandkate.com/love-real-food-cookbook/"><img class="image wp-image-25758 attachment-full size-full" src="https://cookieandkate.com/images/2017/08/love-real-food-cookbook-buy-now-1.jpg" sizes="(max-width: 480px) 90vw, 300px" srcset="https://cookieandkate.com/images/2017/08/love-real-food-cookbook-buy-now-1.jpg 600w, https://cookieandkate.com/images/2017/08/love-real-food-cookbook-buy-now-1-550x482.jpg 550w, https://cookieandkate.com/images/2017/08/love-real-food-cookbook-buy-now-1-270x237.jpg 270w, https://cookieandkate.com/images/2017/08/love-real-food-cookbook-buy-now-1-80x70.jpg 80w" alt="Love Real Food Cookbook by Kathryne Taylor" width="300" height="263" data-pin-nopin="true" /></a>
+<h5 class="retailers-strip"><a href="https://www.amazon.com/Love-Real-Food-Feel-Good-Vegetarian/dp/1623367417//ref=as_li_ss_tl?ie=UTF8&amp;linkCode=ll1&amp;tag=cooandkatcb-20&amp;linkId=aef09b59265b7f5698b84fe831b4641a" target="_blank" rel="nofollow noopener noreferrer">Amazon</a> ⋄ <a href="http://www.anrdoezrs.net/links/6030797/type/dlg/http://www.barnesandnoble.com/w/love-real-food-kathryne-taylor/1125259408?ean=9781623367411" target="_blank" rel="nofollow noopener noreferrer">Barnes &amp; Noble</a> ⋄ <a href="http://www.anrdoezrs.net/links/6030797/type/dlg/http://www.booksamillion.com/p/Love-Real-Food/Kathryne-Taylor/9781623367411?id=6877075323182" target="_blank" rel="nofollow noopener noreferrer">BAM!</a> ⋄ <a href="http://www.indiebound.org/book/9781623367411&amp;aff=cookieandkate" target="_blank" rel="nofollow noopener noreferrer">IndieBound</a> ⋄ <a href="http://www.anrdoezrs.net/links/6030797/type/dlg/https://www.chapters.indigo.ca/en-ca/books/love-real-food-more-than/9781623367411-item.html?ikwid=love+real+food&amp;ikwsec=Home&amp;ikwidx=0" target="_blank" rel="nofollow noopener noreferrer">Indigo</a> ⋄ <a href="https://cookieandkate.com/love-real-food-cookbook/">Details »</a></h5></div></div></section>
 <section id="text-90" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">OUR VIDEOS</h4>
 <div class="textwidget"><p><script type="text/javascript" language="javascript" src="https://live.sekindo.com/live/liveView.php?s=78511&#038;cbuster=%%CACHEBUSTER%%&#038;pubUrl=%%REFERRER_URL_ESC_ESC%%&#038;vp_contentFeedId=HOe9ofvZ&#038;subId=53237591208f222c05b9a652"></script></p>
 </div>
 </div></section>
 <section id="enews-ext-2" class="widget enews-widget"><div class="widget-wrap"><div class="enews"><h4 class="widget-title widgettitle">Don&#8217;t miss a new recipe</h4>
 <form id="subscribeenews-ext-2" action="https://cookieandkate.us8.list-manage.com/subscribe/post?u=ef84c57f094f5006504d082b6&amp;id=dc2361842c" method="post" target="_blank" onsubmit="if ( subbox1.value == 'First Name') { subbox1.value = ''; } if ( subbox2.value == 'Last Name') { subbox2.value = ''; }" name="enews-ext-2">
-<label for="subbox" class="screenread">Your email address</label><input type="email" value="" id="subbox" placeholder="Your email address" name="EMAIL" required="required"/>
-<input type="hidden" name="SOURCE" id="SOURCE" value="sidebar"> <input type="submit" value="Subscribe" id="subbutton"/>
+<label for="subbox" class="screenread">Your email address</label><input type="email" value="" id="subbox" placeholder="Your email address" name="EMAIL" required="required" />
+<input type="hidden" name="SOURCE" id="SOURCE" value="sidebar"> <input type="submit" value="Subscribe" id="subbutton" />
 </form>
 </div></div></section>
 <section id="featured-post-10" class="widget featured-content featuredpost"><div class="widget-wrap"><h4 class="widget-title widgettitle">POPULAR RECIPES</h4>
-<article class="post-25162 post type-post status-publish format-standard has-post-thumbnail category-appetizers category-budget-friendly category-dairy-free category-egg-free-lactovegetarian category-fall category-reader-favorites category-gluten-free category-independence-day-recipes category-vegetarian-mexican-recipes category-nut-free category-pack-for-lunch category-food-recipes category-salads category-side-dishes category-soy-free category-summer category-vegetarian-super-bowl-recipes category-vegan entry"><a href="https://cookieandkate.com/2017/black-bean-salad-recipe/" class="alignleft" aria-hidden="true"><img width="80" height="110" src="https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-80x110.jpg" class="entry-image attachment-post" alt="Fresh Black Bean Salad" itemprop="image" srcset="https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-80x110.jpg 80w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-130x179.jpg 130w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-550x757.jpg 550w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2.jpg 1100w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-270x372.jpg 270w" sizes="(max-width: 80px) 100vw, 80px"/></a><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a href="https://cookieandkate.com/2017/black-bean-salad-recipe/">Fresh Black Bean Salad</a></h2></header></article><article class="post-24893 post type-post status-publish format-standard has-post-thumbnail category-vegetarian-christmas-recipes category-dairy-free category-egg-free-lactovegetarian category-fall category-reader-favorites category-gluten-free category-vegetarian-italian-recipes category-entrees category-food-recipes category-soy-free category-spring category-vegetarian-thanksgiving-recipes category-tomato-free category-vegan category-winter tag-broccoli tag-cashews tag-pasta tag-potatoes entry"><a href="https://cookieandkate.com/2017/vegan-mac-and-cheese-recipe/" class="alignleft" aria-hidden="true"><img width="80" height="110" src="https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-80x110.jpg" class="entry-image attachment-post" alt="Vegan Mac and Cheese" itemprop="image" srcset="https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-80x110.jpg 80w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-130x179.jpg 130w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-550x757.jpg 550w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe.jpg 1100w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-270x372.jpg 270w" sizes="(max-width: 80px) 100vw, 80px"/></a><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a href="https://cookieandkate.com/2017/vegan-mac-and-cheese-recipe/">Vegan Mac and Cheese</a></h2></header></article><p class="more-from-category"><a href="https://cookieandkate.com/category/food-recipes/reader-favorites/" title="favorites">More favorites »</a></p></div></section>
-<section id="text-86" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">BLOGGER RESOURCES</h4>
-<div class="textwidget"><div class="widget featured-content featuredpost">
-<article class="post-6840 page type-page status-publish has-post-thumbnail entry">
-<header class="entry-header">
-<h2 class="entry-title">▸ New: <a title="How to Start a Blog" href="https://cookieandkate.com/how-to-start-a-blog/">How to Start a Blog</a> (any kind!)<br/>
-<a title="How to Start a Food Blog: Step by Step" href="https://cookieandkate.com/how-to-start-a-food-blog/">▸ How to Start a Food Blog</a><br/>
-<a href="https://cookieandkate.com/food-blogger-resources/">▸ Essential Food Blogger Resources</a><br/>
-<a title="Food Photography Tips for Food Bloggers" href="https://cookieandkate.com/food-photography-tips-for-food-bloggers/">▸ Food Photography Tips</a><br/>
-<a title="20 Tips for Food Bloggers" href="https://cookieandkate.com/top-20-tips-for-food-blogging/">▸ 20 Tips for Food Bloggers</a></h2>
-</header>
-</article>
-</div>
-</div>
-</div></section>
-<section id="text-38" class="widget widget_text"><div class="widget-wrap"> <div class="textwidget"><p><a href="https://cookieandkate.com/press/"><img class="saveur" src="https://cookieandkate.com/images/2014/01/saveur-nomination@2x.jpg" alt="Saveur best cooking blog 2012 nominee" width="300" height="96"/></a></p>
-</div>
-</div></section>
-</aside></div></div><div class="before-footer"><section id="featured-post-5" class="widget featured-content featuredpost"><div class="widget-wrap"><h4 class="widget-title widgettitle">Summer Recipes</h4>
-<article class="post-24984 post type-post status-publish format-standard has-post-thumbnail category-dairy-free category-drinks category-egg-free-lactovegetarian category-gluten-free category-independence-day-recipes category-vegetarian-lebanese-recipes category-greek-vegetarian-recipes category-nut-free category-food-recipes category-smoothie category-summer category-vegan tag-lemon tag-mint entry"><a href="https://cookieandkate.com/2017/frozen-mint-lemonade-recipe/" class="alignnone" aria-hidden="true"><img width="270" height="372" src="https://cookieandkate.com/images/2017/07/frozen-mint-lemonade-3-270x372.jpg" class="entry-image attachment-post" alt="Frozen Mint Lemonade" itemprop="image" srcset="https://cookieandkate.com/images/2017/07/frozen-mint-lemonade-3-270x372.jpg 270w, https://cookieandkate.com/images/2017/07/frozen-mint-lemonade-3-130x179.jpg 130w, https://cookieandkate.com/images/2017/07/frozen-mint-lemonade-3-550x757.jpg 550w, https://cookieandkate.com/images/2017/07/frozen-mint-lemonade-3.jpg 1100w, https://cookieandkate.com/images/2017/07/frozen-mint-lemonade-3-80x110.jpg 80w" sizes="(max-width: 270px) 100vw, 270px"/></a><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a href="https://cookieandkate.com/2017/frozen-mint-lemonade-recipe/">Frozen Mint Lemonade</a></h2></header></article><article class="post-24939 post type-post status-publish format-standard has-post-thumbnail category-appetizers category-dairy-free category-egg-free-lactovegetarian category-gluten-free category-independence-day-recipes category-greek-vegetarian-recipes category-nut-free category-food-recipes category-soups-and-stews category-soy-free category-summer category-vegan tag-basil tag-bell-peppers tag-cucumber tag-tomatoes entry"><a href="https://cookieandkate.com/2017/ultimate-gazpacho-recipe/" class="alignnone" aria-hidden="true"><img width="270" height="372" src="https://cookieandkate.com/images/2017/06/best-gazpacho-recipe-270x372.jpg" class="entry-image attachment-post" alt="The Ultimate Gazpacho." itemprop="image" srcset="https://cookieandkate.com/images/2017/06/best-gazpacho-recipe-270x372.jpg 270w, https://cookieandkate.com/images/2017/06/best-gazpacho-recipe-130x179.jpg 130w, https://cookieandkate.com/images/2017/06/best-gazpacho-recipe-550x757.jpg 550w, https://cookieandkate.com/images/2017/06/best-gazpacho-recipe.jpg 1100w, https://cookieandkate.com/images/2017/06/best-gazpacho-recipe-80x110.jpg 80w" sizes="(max-width: 270px) 100vw, 270px"/></a><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a href="https://cookieandkate.com/2017/ultimate-gazpacho-recipe/">The Ultimate Gazpacho.</a></h2></header></article><article class="post-24916 post type-post status-publish format-standard has-post-thumbnail category-dairy-free category-egg-free-lactovegetarian category-fall category-gluten-free category-nut-free category-food-recipes category-soy-free category-spring category-summer category-tomato-free category-vegan tag-parsley entry"><a href="https://cookieandkate.com/2017/chimichurri-recipe/" class="alignnone" aria-hidden="true"><img width="270" height="372" src="https://cookieandkate.com/images/2017/06/chimichurri-verde-recipe-270x372.jpg" class="entry-image attachment-post" alt="How to Make Chimichurri" itemprop="image" srcset="https://cookieandkate.com/images/2017/06/chimichurri-verde-recipe-270x372.jpg 270w, https://cookieandkate.com/images/2017/06/chimichurri-verde-recipe-130x179.jpg 130w, https://cookieandkate.com/images/2017/06/chimichurri-verde-recipe-550x757.jpg 550w, https://cookieandkate.com/images/2017/06/chimichurri-verde-recipe.jpg 1100w, https://cookieandkate.com/images/2017/06/chimichurri-verde-recipe-80x110.jpg 80w" sizes="(max-width: 270px) 100vw, 270px"/></a><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a href="https://cookieandkate.com/2017/chimichurri-recipe/">How to Make Chimichurri</a></h2></header></article><article class="post-24877 post type-post status-publish format-standard has-post-thumbnail category-dairy-free category-drinks category-egg-free-lactovegetarian category-gluten-free category-independence-day-recipes category-naturally-sweetened category-nut-free category-food-recipes category-soy-free category-spring category-summer category-tomato-free category-vegan tag-coconut-milk tag-honey tag-strawberries tag-tea entry"><a href="https://cookieandkate.com/2017/pink-drink-recipe/" class="alignnone" aria-hidden="true"><img width="270" height="372" src="https://cookieandkate.com/images/2017/06/pink-drink-270x372.jpg" class="entry-image attachment-post" alt="Pink Drink" itemprop="image" srcset="https://cookieandkate.com/images/2017/06/pink-drink-270x372.jpg 270w, https://cookieandkate.com/images/2017/06/pink-drink-130x179.jpg 130w, https://cookieandkate.com/images/2017/06/pink-drink-550x757.jpg 550w, https://cookieandkate.com/images/2017/06/pink-drink.jpg 1100w, https://cookieandkate.com/images/2017/06/pink-drink-80x110.jpg 80w" sizes="(max-width: 270px) 100vw, 270px"/></a><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a href="https://cookieandkate.com/2017/pink-drink-recipe/">Pink Drink</a></h2></header></article><article class="post-24848 post type-post status-publish format-standard has-post-thumbnail category-dairy-free category-egg-free-lactovegetarian category-fall category-gluten-free category-vegetarian-italian-recipes category-greek-vegetarian-recipes category-nut-free category-food-recipes category-soy-free category-summer category-tomato-free category-vegan tag-almonds tag-basil tag-pesto entry"><a href="https://cookieandkate.com/2017/how-to-make-basil-pesto/" class="alignnone" aria-hidden="true"><img width="270" height="372" src="https://cookieandkate.com/images/2017/06/best-basil-pesto-recipe-270x372.jpg" class="entry-image attachment-post" alt="How to Make Basil Pesto" itemprop="image" srcset="https://cookieandkate.com/images/2017/06/best-basil-pesto-recipe-270x372.jpg 270w, https://cookieandkate.com/images/2017/06/best-basil-pesto-recipe-130x179.jpg 130w, https://cookieandkate.com/images/2017/06/best-basil-pesto-recipe-550x757.jpg 550w, https://cookieandkate.com/images/2017/06/best-basil-pesto-recipe.jpg 1100w, https://cookieandkate.com/images/2017/06/best-basil-pesto-recipe-80x110.jpg 80w" sizes="(max-width: 270px) 100vw, 270px"/></a><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a href="https://cookieandkate.com/2017/how-to-make-basil-pesto/">How to Make Basil Pesto</a></h2></header></article></div></section>
-</div><div class="footer-widgets"><div class="wrap"><div class="widget-area footer-widgets-1 footer-widget-area"><section id="enews-ext-4" class="widget enews-widget"><div class="widget-wrap"><div class="enews"><h4 class="widget-title widgettitle">Stay in Touch</h4>
+<article class="post-25162 post type-post status-publish format-standard has-post-thumbnail category-appetizers category-budget-friendly category-dairy-free category-egg-free-lactovegetarian category-fall category-reader-favorites category-gluten-free category-independence-day-recipes category-vegetarian-mexican-recipes category-nut-free category-pack-for-lunch category-food-recipes category-salads category-side-dishes category-soy-free category-summer category-vegetarian-super-bowl-recipes category-vegan entry"><a href="https://cookieandkate.com/2017/black-bean-salad-recipe/" class="alignleft" aria-hidden="true"><img width="80" height="110" src="https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-80x110.jpg" class="entry-image attachment-post" alt="Fresh Black Bean Salad" itemprop="image" srcset="https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-80x110.jpg 80w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-130x179.jpg 130w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-550x757.jpg 550w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2.jpg 1100w, https://cookieandkate.com/images/2017/07/black-bean-salad-recipe-2-270x372.jpg 270w" sizes="(max-width: 80px) 100vw, 80px" /></a><header class="entry-header"><h5 class="entry-title"><a href="https://cookieandkate.com/2017/black-bean-salad-recipe/">Fresh Black Bean Salad</a></h5></header></article><article class="post-24893 post type-post status-publish format-standard has-post-thumbnail category-vegetarian-christmas-recipes category-dairy-free category-egg-free-lactovegetarian category-fall category-reader-favorites category-gluten-free category-vegetarian-italian-recipes category-entrees category-food-recipes category-soy-free category-spring category-vegetarian-thanksgiving-recipes category-tomato-free category-vegan category-winter tag-broccoli tag-cashews tag-pasta tag-potatoes entry"><a href="https://cookieandkate.com/2017/vegan-mac-and-cheese-recipe/" class="alignleft" aria-hidden="true"><img width="80" height="110" src="https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-80x110.jpg" class="entry-image attachment-post" alt="Vegan Mac and Cheese" itemprop="image" srcset="https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-80x110.jpg 80w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-130x179.jpg 130w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-550x757.jpg 550w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe.jpg 1100w, https://cookieandkate.com/images/2017/06/best-vegan-mac-and-cheese-recipe-270x372.jpg 270w" sizes="(max-width: 80px) 100vw, 80px" /></a><header class="entry-header"><h5 class="entry-title"><a href="https://cookieandkate.com/2017/vegan-mac-and-cheese-recipe/">Vegan Mac and Cheese</a></h5></header></article><p class="more-from-category"><a href="https://cookieandkate.com/category/food-recipes/reader-favorites/" title="favorites">More favorites »</a></p></div></section>
+<section id="custom_html-4" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title widgettitle">BLOGGER RESOURCES</h4>
+<div class="textwidget custom-html-widget"><a title="How to Start a Food Blog: Step by Step" href="https://cookieandkate.com/how-to-start-a-food-blog/">▸ How to Start a Food Blog</a><br />
+<a title="Food Photography Tips for Food Bloggers" href="https://cookieandkate.com/food-photography-tips-for-food-bloggers/">▸ Food Photography Tips</a><br />
+<a title="20 Tips for Food Bloggers" href="https://cookieandkate.com/top-20-tips-for-food-blogging/">▸ 20 Tips for Food Bloggers</a><br />
+<a title="20 Tips for Food Bloggers" href="https://cookieandkate.com/how-to-start-a-blog/">▸ How to Start Any Blog</a><br /></div></div></section>
+</aside></div></div><div class="footer-widgets"><div class="wrap"><div class="widget-area footer-widgets-1 footer-widget-area"><section id="enews-ext-4" class="widget enews-widget"><div class="widget-wrap"><div class="enews"><h4 class="widget-title widgettitle">Stay in Touch</h4>
 <form id="subscribeenews-ext-4" action="https://cookieandkate.us8.list-manage.com/subscribe/post?u=ef84c57f094f5006504d082b6&amp;id=dc2361842c" method="post" target="_blank" onsubmit="if ( subbox1.value == 'First Name') { subbox1.value = ''; } if ( subbox2.value == 'Last Name') { subbox2.value = ''; }" name="enews-ext-4">
-<label for="subbox" class="screenread">Enter your email here</label><input type="email" value="" id="subbox" placeholder="Enter your email here" name="EMAIL" required="required"/>
-<input type="hidden" name="SOURCE" id="SOURCE" value="footer"> <input type="submit" value="Subscribe" id="subbutton"/>
+<label for="subbox" class="screenread">Enter your email here</label><input type="email" value="" id="subbox" placeholder="Enter your email here" name="EMAIL" required="required" />
+<input type="hidden" name="SOURCE" id="SOURCE" value="footer"> <input type="submit" value="Subscribe" id="subbutton" />
 </form>
 <p>Our recipes, delivered straight to your inbox! Always free &amp; unsubscribe anytime.</p>
 </div></div></section>
-</div><div class="widget-area footer-widgets-2 footer-widget-area"><section id="text-93" class="widget widget_text"><div class="widget-wrap"> <div class="textwidget"><div class="icon-font-footer"><a href="https://www.facebook.com/cookieandkate" target="_blank" rel="noopener">f</a>  <a href="https://www.pinterest.com/cookieandkate/" target="_blank" rel="noopener">p</a>  <a href="https://instagram.com/cookieandkate" target="_blank" rel="noopener">i</a>  <a href="http://feeds.feedburner.com/CookieAndKate" target="_blank" rel="noopener">r</a></div>
-</div>
-</div></section>
-</div></div></div><div class="after-footer"><section id="text-85" class="widget widget_text"><div class="widget-wrap"> <div class="textwidget"><p><img src="https://cookieandkate.com/images/2016/07/my-dog-cookie120.jpg" alt="My dog, Cookie" width="45" height="60"/><br/>
-Cookie and Kate receives commissions on purchases made through our links to retailers. <a href="https://cookieandkate.com/affiliate-discretion/">More details »</a><br/>
-© Cookie and Kate 2010 &#8211; 2017. All rights reserved. Cookie and Kate is a registered trademark of Kathryne Taylor.<br/>
-<a href="https://cookieandkate.com/terms-of-use/">Comment Policy</a> &#8211; <u><a href="https://cookieandkate.com/nutrition-disclaimer/">Nutrition Disclaimer</a></u> &#8211; <u><a href="https://cookieandkate.com/cookie-and-kates-photo-and-recipe-policy/">Photo/Recipe Policy</a></u> &#8211; <u><a href="https://cookieandkate.com/privacy-policy/">Privacy Policy</a></u></p>
-</div>
-</div></section>
+</div><div class="widget-area footer-widgets-2 footer-widget-area"><section id="custom_html-6" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><div class="icon-font-footer"><a href="https://www.facebook.com/cookieandkate" target="_blank" rel="noopener">f</a>  <a href="https://www.pinterest.com/cookieandkate/" target="_blank" rel="noopener">p</a>  <a href="https://instagram.com/cookieandkate" target="_blank" rel="noopener">i</a>  <a href="http://feeds.feedburner.com/CookieAndKate" target="_blank" rel="noopener">r</a></div></div></div></section>
+</div></div></div><div class="after-footer"><section id="custom_html-5" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><p><img src="https://cookieandkate.com/images/2017/09/my-dog.png" alt="My dog, Cookie" width="55" height="55" data-pin-nopin="true" /><br />
+Cookie and Kate receives commissions on purchases made through our links to retailers. <a href="https://cookieandkate.com/affiliate-discretion/">More details »</a><br />
+© Cookie and Kate 2010 - 2017. All rights reserved. Cookie and Kate is a registered trademark of Kathryne Taylor.<br />
+<a href="https://cookieandkate.com/terms-of-use/">Comment Policy</a> - <a href="https://cookieandkate.com/nutrition-disclaimer/">Nutrition Disclaimer</a> - <a href="https://cookieandkate.com/cookie-and-kates-photo-and-recipe-policy/">Photo/Recipe Policy</a> - <a href="https://cookieandkate.com/privacy-policy/">Privacy Policy</a></p></div></div></section>
 </div></div> <div id="wbounce-modal" class="wbounce-modal underlay" style="display:none">
 <div id="wbounce-modal-flex" class="wbounce-modal-flex">
 <div id="wbounce-modal-sub" class="wbounce-modal-sub">
-<section id="scrollbox"><div class="enews"><img src="https://cookieandkate.com/images/2016/07/salad.jpg" width="220" height="302" class="alignleft"><h2>Never miss a recipe!</h2><p>Always free • Unsubscribe anytime</p><form id="subscribe" action="https://cookieandkate.us8.list-manage.com/subscribe/post?u=ef84c57f094f5006504d082b6&id=dc2361842c" method="post" target="_blank" onsubmit="if ( subbox1.value == 'First Name') { subbox1.value = ''; } if ( subbox2.value == 'Last Name') { subbox2.value = ''; }" name="Don't miss a new recipe!" class="enews"><label for="subbox" class="screenread">Your email address</label><input type="email" value="Your email address" id="subbox" onfocus="if ( this.value == 'Your email address') { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'Your email address'; }" name="EMAIL" required="required"/><input type="hidden" name="SOURCE" id="SOURCE" value="exitpopup"/><input type="submit" value="Subscribe" id="subbutton"/></form></div><div class="modal-footer"><p>No, thanks.</p></div></section> </div>
+<section id="scrollbox"><div class="enews"><img src="https://cookieandkate.com/images/2016/07/salad.jpg" width="220" height="302" class="alignleft" alt="salad"><h4>Never miss a recipe!</h4><p>Always free • Unsubscribe anytime</p><form id="subscribe" action="https://cookieandkate.us8.list-manage.com/subscribe/post?u=ef84c57f094f5006504d082b6&id=dc2361842c" method="post" target="_blank" onsubmit="if ( subbox1.value == 'First Name') { subbox1.value = ''; } if ( subbox2.value == 'Last Name') { subbox2.value = ''; }" name="Don't miss a new recipe!" class="enews"><label for="subbox" class="screenread">Your email address</label><input type="email" value="Your email address" id="subbox" onfocus="if ( this.value == 'Your email address') { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'Your email address'; }" name="EMAIL" required="required" /><input type="hidden" name="SOURCE" id="SOURCE" value="exitpopup" /><input type="submit" value="Subscribe" id="subbutton" /></form></div><div class="modal-footer"><p>No, thanks.</p></div></section> </div>
 </div>
 </div>
-<div id="wbounce-config" style="display: none;">{"cookieName":"wBounce","isAggressive":false,"isSitewide":true,"hesitation":"","openAnimation":false,"exitAnimation":false,"timer":"","sensitivity":"","cookieExpire":"14","cookieDomain":"","autoFire":"","isAnalyticsEnabled":true}</div> 
-<script type="text/javascript">
-var _qevents = _qevents || [];
-
-(function() {
-var elem = document.createElement('script');
-elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-elem.async = true;
-elem.type = "text/javascript";
-var scpt = document.getElementsByTagName('script')[0];
-scpt.parentNode.insertBefore(elem, scpt);
-})();
-
-_qevents.push({
-qacct:"p-CSb5YRNUC0GwM"
-});
-</script>
-<noscript>
-<div style="display:none;">
-<img src="//pixel.quantserve.com/pixel/p-CSb5YRNUC0GwM.gif" border="0" height="1" width="1" alt="Quantcast"/>
-</div>
-</noscript>
- 
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f5672430-70c3-4d9b-9286-61e20f75dfe6"></script><script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-content/plugins/anti-spam/js/anti-spam-4.3.js'></script>
-<script type='text/javascript'>
+<div id="wbounce-config" style="display: none;">{"cookieName":"wBounce","isAggressive":false,"isSitewide":true,"hesitation":"5","openAnimation":false,"exitAnimation":false,"timer":"","sensitivity":"","cookieExpire":"14","cookieDomain":"","autoFire":"","isAnalyticsEnabled":true}</div><script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f5672430-70c3-4d9b-9286-61e20f75dfe6"></script><script type='text/javascript'>
 /* <![CDATA[ */
 var jpibfi_options = {"hover":{"siteTitle":"Cookie and Kate","image_selector":"div.jpibfi_container img","disabled_classes":"nopin;wp-smiley","enabled_classes":"","min_image_height":275,"min_image_height_small":275,"min_image_width":275,"min_image_width_small":275,"show_on":"[front],[single],[page],[category],[archive],[search],[home]","disable_on":"","show_button":"hover","button_margin_bottom":20,"button_margin_top":20,"button_margin_left":0,"button_margin_right":20,"button_position":"top-left","description_option":["img_alt","img_title","post_title"],"pinLinkedImages":false,"transparency_value":0.5,"pin_image":"custom","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"https:\/\/cookieandkate.com\/images\/2014\/03\/pin-it_icon-banner3.png","pinImageWidth":106,"pinImageHeight":61,"scroll_selector":""}};
 /* ]]> */
 </script>
 <script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-content/plugins/jquery-pin-it-button-for-images/js/jpibfi.client.js?ver=2.3.3'></script>
 <script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-content/plugins/wbounce/frontend/js/min/wbounce.min.js?ver=1.7'></script>
-<script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-includes/js/comment-reply.min.js?ver=4.8'></script>
+<script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-includes/js/comment-reply.min.js?ver=4.8.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var llcstrings = {"loading_error":"Error occurred while loading comments. Please reload this page."};
+/* ]]> */
+</script>
+<script type='text/javascript' defer='defer' src='https://cookieandkate.com/wp-content/plugins/lazy-load-for-comments-master/public/js/llc_scroll.min.js?ver=1.0.4'></script>
 </body></html>

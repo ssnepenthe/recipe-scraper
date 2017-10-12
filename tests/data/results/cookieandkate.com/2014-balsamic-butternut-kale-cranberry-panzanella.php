@@ -7,7 +7,9 @@ return [
     ],
     'cookingMethod' => null,
     'cookTime' => 'PT40M',
-    'cuisines' => null,
+    'cuisines' => [
+        'Tuscan',
+    ],
     'description' => 'This winter panzanella salad features roasted butternut squash, kale, toasted croutons, cranberries and shallots tossed in homemade balsamic vinaigrette. Recipe yields 3 to 4 meal-sized salads.',
     'image' => 'https://cookieandkate.com/images/2014/12/winter-panzanella-recipe-1.jpg',
     'ingredients' => [
@@ -35,8 +37,8 @@ return [
         'Prepare the croutons: On your other baking sheet, combine the cubed bread with the seeds and salt. Drizzle on 2 tablespoons olive oil and toss to lightly coat the bread. Don\'t worry about trying to get the seeds to stick to the bread, just try to make sure they\'re lightly coated in oil. Arrange the mixture in a single layer so no croutons are on top of one another.',
         'Once you have tossed the butternut and placed it back on the lower rack, place the sheet of croutons on the upper rack. Toast the bread for 10 to 13 minutes, until the edges are golden. Remove the croutons from the oven and check the squash-it will probably need 5 to 10 more minutes before the edges are caramelized. Once the butternut is done, remove the pan from the oven and set it aside to cool.',
         'To prepare the vinaigrette: Whisk together all of the ingredients until emulsified.',
-        // Should be split into two steps?
-        'To prepare the kale: Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant, about 30 seconds. Final assembly: Add the grated cheese, cranberries and shallot to the bowl. Drizzle enough dressing into the bowl to lightly coat the leaves (you might not need all of it), then toss to coat. Add the roasted butternut and croutons and gently toss to combine. Drizzle in extra dressing if the salad seems like it needs it. For best flavor, let the salad rest for 10 minutes before serving.',
+        'To prepare the kale: Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant, about 30 seconds.',
+        'Final assembly: Add the grated cheese, cranberries and shallot to the bowl. Drizzle enough dressing into the bowl to lightly coat the leaves (you might not need all of it), then toss to coat. Add the roasted butternut and croutons and gently toss to combine. Drizzle in extra dressing if the salad seems like it needs it. For best flavor, let the salad rest for 10 minutes before serving.',
     ],
     'name' => 'Balsamic Butternut, Kale and Cranberry Panzanella',
     'notes' => [
