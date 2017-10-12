@@ -14,38 +14,38 @@ composer require ssnepenthe/recipe-scraper
 ## Usage
 Scraper instances work on Symfony DomCrawler instances. These can be created however you choose, but the easiest is to use a BrowserKit implementation like Goutte:
 
-```
+```PHP
 $client = new Goutte\Client;
 $crawler = $client->request('GET', 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/');
 ```
 
 If you only need to scrape recipes from a single site, you can use the corresponding class from `src/Scrapers`:
 
-```
+```PHP
 $scraper = new RecipeScraper\Scrapers\AllRecipesCom;
 ```
 
 If you want to be able to scrape recipes from all supported sites, create a `DelegatingScraper` using the `Factory` class:
 
-```
+```PHP
 $scraper = RecipeScraper\Factory::make();
 ```
 
 Check whether a scraper supports a given crawler using the `->supports()` method:
 
-```
+```PHP
 $scraper->supports($crawler); // true
 ```
 
 Finally, scrape a recipe by passing the crawler to the `->scrape()` method:
 
-```
+```PHP
 $recipe = $scraper->scrape($crawler);
 ```
 
 The following properties are guaranteed to be set on the `$recipe` array:
 
-```
+```PHP
 $recipe['author'] // string|null
 $recipe['categories'] // string[]|null
 $recipe['cookingMethod'] // string|null
@@ -68,7 +68,7 @@ If the `->scrape()` method is called on an unsupported crawler instance, all val
 
 Altogether:
 
-```
+```PHP
 $scraper = RecipeScraper\Factory::make();
 $client = new Goutte\Client;
 $url = 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/';
@@ -83,7 +83,7 @@ if ($scraper->supports($crawler)) {
 
 OUTPUT:
 
-```
+```PHP
 array(15) {
     'author' => string(9) "carrielee"
     'categories' => NULL
