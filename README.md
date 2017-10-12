@@ -62,6 +62,7 @@ $recipe['image'] // string|null
 $recipe['ingredients'] // string[]|null
 $recipe['instructions'] // string[]|null
 $recipe['name'] // string|null
+$recipe['notes'] // string[]|null
 $recipe['prepTime'] // string|null
 $recipe['publisher'] // string|null
 $recipe['totalTime'] // string|null
@@ -108,6 +109,7 @@ array(15) {
         [1] => string(200) "Remove shrimp from lime juice, reserving juice. Dice shrimp and add to the bowl of vegetables. Pour in the remaining lime juice marinade. Add cilantro and salt and pepper to taste. Toss gently to mix."
     }
     'name' => string(21) "Jose's Shrimp Ceviche"
+    'notes' => NULL
     'prepTime' => string(5) "PT45M"
     'publisher' => NULL
     'totalTime' => string(5) "PT55M"
