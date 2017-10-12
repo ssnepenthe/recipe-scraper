@@ -64,6 +64,8 @@ $recipe['url'] // string|null
 $recipe['yield'] // string|null
 ```
 
+If the `->scrape()` method is called on an unsupported crawler instance, all values in `$recipe` will be null.
+
 Altogether:
 
 ```
