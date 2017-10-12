@@ -6,7 +6,6 @@
 - [ ] https://cooking.nytimes.com/
 - [ ] http://crockingirls.com/
 - [x] http://emerils.com/
-- [x] http://farmflavor.com/
 - [ ] https://food52.com/
 - [ ] http://hugsandcookiesxoxo.com/
 - [x] https://recipes.sparkpeople.com/
@@ -26,6 +25,7 @@
 - [ ] http://www.cooks.com/
 - [ ] http://www.deliaonline.com/
 - [ ] http://www.epicurean.com/ (no structured markup)
+- [x] https://www.farmflavor.com/
 - [x] http://www.finecooking.com/
 - [x] http://www.food.com/
 - [ ] http://www.foodiewithfamily.com/

@@ -18,7 +18,7 @@ return [
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => 'Fresh blueberries and a yummy mascarpone topping take homemade waffles to the next level.',
-    'image' => 'http://farmflavor.com/wp-content/uploads/2017/03/1490816JSO7833.jpg',
+    'image' => 'https://www.farmflavor.com/wp-content/uploads/2017/03/1490816JSO7833.jpg',
     'ingredients' => [
         '2 large eggs',
         '1 ¾ cups buttermilk',
@@ -52,6 +52,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,
-    'url' => 'http://farmflavor.com/recipe/blueberries-cream-waffles/',
+    'url' => 'https://www.farmflavor.com/recipe/blueberries-cream-waffles/',
     'yield' => '6 servings',
 ];

@@ -4,7 +4,7 @@ namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
 
-class FarmFlavorCom extends SchemaOrgMarkup
+class WwwFarmFlavorCom extends SchemaOrgMarkup
 {
     /**
      * @param  Crawler $crawler
@@ -15,7 +15,7 @@ class FarmFlavorCom extends SchemaOrgMarkup
         $crawler = $this->preExtractionFilter($crawler);
 
         return parent::supports($crawler)
-            && 'farmflavor.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+            && 'www.farmflavor.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     /**

@@ -11,7 +11,7 @@ return [
     'cookTime' => 'PT40M',
     'cuisines' => null,
     'description' => 'Get the taste of a frosty root beer float in cake form.',
-    'image' => 'http://farmflavor.com/wp-content/uploads/2017/03/1060916JSO1442.jpg',
+    'image' => 'https://www.farmflavor.com/wp-content/uploads/2017/03/1060916JSO1442.jpg',
     'ingredients' => [
         'Cake',
         '1 ½ cups sugar',
@@ -43,6 +43,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,
-    'url' => 'http://farmflavor.com/recipe/root-beer-float-cake/',
+    'url' => 'https://www.farmflavor.com/recipe/root-beer-float-cake/',
     'yield' => '10 servings',
 ];

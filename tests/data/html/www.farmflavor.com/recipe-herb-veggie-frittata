@@ -1,0 +1,1731 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#"></html>
+<head>
+<meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQMAVFZRCxADXFVWBAIAUQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="pingback" href="https://www.farmflavor.com/xmlrpc.php" />
+
+
+<meta property="og:image" content="https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg" /><meta name="author" content="Charlyn Fargo">
+<link rel="icon" type="image/png" href="https://www.farmflavor.com/wp-content/uploads/2017/05/ff16.png"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="/wp-content/uploads/2016/04/farm-flavor-icon-76.png"/><link rel="apple-touch-icon-precomposed" sizes="120x120" href="/wp-content/uploads/2016/04/farm-flavor-icon-120.png"/><link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://www.farmflavor.com/wp-content/uploads/2016/04/farm-flavor-icon-152.png"/><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/wp-content/uploads/2016/04/farm-flavor-icon-114.png"/><link rel="apple-touch-icon-precomposed" sizes="144x144" href="/wp-content/uploads/2016/04/farm-flavor-icon-144.png"/><meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Herb and Veggie Frittata" />
+<meta property="og:description" content="Fresh vegetables and herbs combine for a healthy, hearty breakfast." />
+<meta property="og:url" content="https://www.farmflavor.com/recipe/herb-veggie-frittata/" />
+<meta property="og:site_name" content="Farm Flavor" />
+<meta property="article:publisher" content="https://www.facebook.com/farmflavor" />
+<meta property="article:tag" content="cheddar cheese" />
+<meta property="article:tag" content="chives" />
+<meta property="article:tag" content="eggs" />
+<meta property="article:tag" content="milk" />
+<meta property="article:tag" content="mushrooms" />
+<meta property="article:tag" content="spinach" />
+<meta property="article:tag" content="tomatoes" />
+<meta property="article:section" content="Breakfast and Brunch" />
+<meta property="article:published_time" content="2017-01-30T09:00:26-05:00" />
+<meta property="article:modified_time" content="2017-01-20T15:27:00-05:00" />
+<meta property="og:updated_time" content="2017-01-20T15:27:00-05:00" />
+<meta property="og:image" content="http://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg" />
+
+<!-- This site is optimized with the Yoast SEO plugin v5.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Herb and Veggie Frittata | Farm Flavor</title>
+<meta name="description" content="Fresh vegetables and herbs combine for a healthy, hearty frittata."/>
+<meta name="keywords" content="Farm Flavor, Breakfast and Brunch, From the Garden, Good for a Group, Healthy, Potluck Dishes, Recipe, Spring, Vegetables, Vegetarian, cheddar cheese, chives, eggs, milk, mushrooms, spinach, tomatoes, Herb and Veggie Frittata"/>
+<link rel="canonical" href="https://www.farmflavor.com/recipe/herb-veggie-frittata/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Fresh vegetables and herbs combine for a healthy, hearty frittata." />
+<meta name="twitter:title" content="Herb and Veggie Frittata | Farm Flavor" />
+<meta name="twitter:image" content="https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.farmflavor.com\/","name":"Farm Flavor","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.farmflavor.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/www.farmflavor.com\/recipe\/herb-veggie-frittata\/","sameAs":[],"@id":"#organization","name":"Journal Communications, Inc","logo":""}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.farmflavor.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Farm Flavor &raquo; Feed" href="https://www.farmflavor.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farm Flavor &raquo; Comments Feed" href="https://www.farmflavor.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farm Flavor &raquo; Herb and Veggie Frittata Comments Feed" href="https://www.farmflavor.com/recipe/herb-veggie-frittata/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.farmflavor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.farmflavor.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='td-plugin-framework-css'  href='https://www.farmflavor.com/wp-content/plugins/farm-flavor-custom-blocks/css/style.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mapstyle-frontend-css'  href='https://www.farmflavor.com/wp-content/plugins/us-map/map-style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsf_wpsf-css'  href='https://www.farmflavor.com/wp-content/plugins/wp-spam-fighter/css/wpsf.css?ver=0.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bugherd-dashboard-plugin-styles-css'  href='https://www.farmflavor.com/wp-content/plugins/bugherd-dashboard/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-style-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C400italic%2C500%2C500italic%2C700%2C900%7COpen+Sans%3A300italic%2C400%2C400italic%2C600%2C600italic%2C700&#038;ver=7.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='easy-social-share-buttons-css'  href='https://www.farmflavor.com/wp-content/plugins/easy-social-share-buttons3/assets/css/easy-social-share-buttons.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mm_prettyphoto-css'  href='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/framework/src/css/prettyphoto.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mm_bootstrap-css'  href='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/framework/src/css/bootstrap.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mm_icomoon-css'  href='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/framework/src/css/icomoon.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mm_animate-css'  href='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/framework/src/css/animate.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mm_figures-css'  href='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/framework/src/css/megamainfigures.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mme_mega_main_extensions-css'  href='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/src/css/cache.skin.css?ver=1507549594' type='text/css' media='all' />
+<link rel='stylesheet' id='td-theme-css'  href='https://www.farmflavor.com/wp-content/themes/Newspaper/style.css?ver=6.1c' type='text/css' media='all' />
+<link rel='stylesheet' id='td-theme-child-css'  href='https://www.farmflavor.com/wp-content/themes/ff-child/style.css?ver=6.1c' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://www.farmflavor.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.farmflavor.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/bugherd-dashboard/public/assets/js/public.js?ver=1.0.0'></script>
+<link rel='https://api.w.org/' href='https://www.farmflavor.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.farmflavor.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.farmflavor.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel='shortlink' href='https://www.farmflavor.com/?p=36044' />
+<link rel="alternate" type="application/json+oembed" href="https://www.farmflavor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.farmflavor.com%2Frecipe%2Fherb-veggie-frittata%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.farmflavor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.farmflavor.com%2Frecipe%2Fherb-veggie-frittata%2F&#038;format=xml" />
+
+
+<!-- Plugin: Open external links a new window. Plugin by Kristian Risager Larsen, http://kristianrisagerlarsen.dk . Download it at http://wordpress.org/extend/plugins/open-external-links-in-a-new-window/ -->
+<script type="text/javascript">//<![CDATA[
+	function external_links_in_new_windows_loop() {
+		if (!document.links) {
+			document.links = document.getElementsByTagName('a');
+		}
+		var change_link = false;
+		var force = '';
+		var ignore = '';
+
+		for (var t=0; t<document.links.length; t++) {
+			var all_links = document.links[t];
+			change_link = false;
+			
+			if(document.links[t].hasAttribute('onClick') == false) {
+				// forced if the address starts with http (or also https), but does not link to the current domain
+				if(all_links.href.search(/^http/) != -1 && all_links.href.search('www.farmflavor.com') == -1) {
+					// alert('Changeda '+all_links.href);
+					change_link = true;
+				}
+					
+				if(force != '' && all_links.href.search(force) != -1) {
+					// forced
+					// alert('force '+all_links.href);
+					change_link = true;
+				}
+				
+				if(ignore != '' && all_links.href.search(ignore) != -1) {
+					// alert('ignore '+all_links.href);
+					// ignored
+					change_link = false;
+				}
+
+				if(change_link == true) {
+					// alert('Changed '+all_links.href);
+					document.links[t].setAttribute('onClick', 'javascript:window.open(\''+all_links.href+'\'); return false;');
+					document.links[t].removeAttribute('target');
+				}
+			}
+		}
+	}
+	
+	// Load
+	function external_links_in_new_windows_load(func)
+	{	
+		var oldonload = window.onload;
+		if (typeof window.onload != 'function'){
+			window.onload = func;
+		} else {
+			window.onload = function(){
+				oldonload();
+				func();
+			}
+		}
+	}
+
+	external_links_in_new_windows_load(external_links_in_new_windows_loop);
+	//]]></script>
+
+<script type='text/javascript'>
+							SG_POPUPS_QUEUE = [];
+							SG_POPUP_DATA = [];
+							SG_APP_POPUP_URL = 'https://www.farmflavor.com/wp-content/plugins/popup-builder';
+							SG_POPUP_VERSION='2.644_1;';
+							
+							function sgAddEvent(element, eventName, fn) {
+								if (element.addEventListener)
+									element.addEventListener(eventName, fn, false);
+								else if (element.attachEvent)
+									element.attachEvent('on' + eventName, fn);
+							}
+						</script><meta name="TagPages" content="1.64"/>
+<!-- BEGIN wp-parsely Plugin Version 1.10.3 -->
+<meta name='wp-parsely_version' id='wp-parsely_version' content='1.10.3' />
+   <script type="application/ld+json">
+   {"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.farmflavor.com\/recipe\/herb-veggie-frittata\/"},"headline":"Herb and Veggie Frittata","url":"http:\/\/www.farmflavor.com\/recipe\/herb-veggie-frittata\/","thumbnailUrl":"https:\/\/www.farmflavor.com\/wp-content\/uploads\/2016\/11\/1490616JSO1565-150x150.jpg","image":{"@type":"ImageObject","url":"https:\/\/www.farmflavor.com\/wp-content\/uploads\/2016\/11\/1490616JSO1565-150x150.jpg"},"dateCreated":"2017-01-30T15:00:26Z","datePublished":"2017-01-30T15:00:26Z","dateModified":"1970-01-01T00:00:00Z","articleSection":"Breakfast and Brunch","author":[{"@type":"Person","name":"Charlyn Fargo"}],"creator":["Charlyn Fargo"],"publisher":{"@type":"Organization","name":"Farm Flavor"},"keywords":["cheddar cheese","chives","eggs","milk","mushrooms","spinach","tomatoes"]}   </script>
+    <!-- END wp-parsely Plugin Version 1.10.3 -->
+<!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    
+<script type="text/javascript">var essb_settings = {"ajax_url":"https:\/\/www.farmflavor.com\/wp-admin\/admin-ajax.php","essb3_nonce":"b42dcfba44","essb3_plugin_url":"https:\/\/www.farmflavor.com\/wp-content\/plugins\/easy-social-share-buttons3","essb3_facebook_total":true,"essb3_admin_ajax":false,"essb3_internal_counter":false,"essb3_stats":true,"essb3_ga":true,"essb3_ga_mode":"simple","essb3_counter_button_min":0,"essb3_counter_total_min":0,"blog_url":"https:\/\/www.farmflavor.com\/","ajax_type":"wp","essb3_postfloat_stay":false,"essb3_no_counter_mailprint":false,"essb3_single_ajax":false,"twitter_counter":"self","post_id":36044};var essbis_settings = {"modules":{"settings":{"moduleHoverActive":1,"activeModules":["settings","buttons","hover"]},"buttons":{"pinterestImageDescription":["titleAttribute","altAttribute","postTitle","mediaLibraryDescription"],"networks":"pinterest,facebook,twitter,linkedin,tumblr"},"hover":{"imageSelector":".essbis_site img","minImageHeight":100,"minImageWidth":100,"hoverPanelPosition":"bottom-right","theme":"flat-small","orientation":"horizontal","showOnHome":"1","showOnSingle":"1","showOnPage":"1","showOnBlog":"1","showOnLightbox":"1","networks":"pinterest,facebook,twitter,linkedin,tumblr"}},"twitteruser":"","buttonSets":[],"themes":[]};</script><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.farmflavor.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+<!-- JS generated by theme -->
+
+<script>
+    
+    
+
+	    var tdBlocksArray = []; //here we store all the items for the current page
+
+	    //td_block class - each ajax block uses a object of this class for requests
+	    function tdBlock() {
+		    this.id = '';
+		    this.block_type = 1; //block type id (1-234 etc)
+		    this.atts = '';
+		    this.td_column_number = '';
+		    this.td_current_page = 1; //
+		    this.post_count = 0; //from wp
+		    this.found_posts = 0; //from wp
+		    this.max_num_pages = 0; //from wp
+		    this.td_filter_value = ''; //current live filter value
+		    this.is_ajax_running = false;
+		    this.td_user_action = ''; // load more or infinite loader (used by the animation)
+		    this.header_color = '';
+		    this.ajax_pagination_infinite_stop = ''; //show load more at page x
+	    }
+
+
+        // td_js_generator - mini detector
+        (function(){
+            var htmlTag = document.getElementsByTagName("html")[0];
+
+            if ( navigator.userAgent.indexOf("MSIE 10.0") > -1 ) {
+                htmlTag.className += ' ie10';
+            }
+
+            if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ) {
+                htmlTag.className += ' ie11';
+            }
+
+            if ( /(iPad|iPhone|iPod)/g.test(navigator.userAgent) ) {
+                htmlTag.className += ' td-md-is-ios';
+            }
+
+            var user_agent = navigator.userAgent.toLowerCase();
+            if ( user_agent.indexOf("android") > -1 ) {
+                htmlTag.className += ' td-md-is-android';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Mac OS X')  ) {
+                htmlTag.className += ' td-md-is-os-x';
+            }
+
+            if ( /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()) ) {
+               htmlTag.className += ' td-md-is-chrome';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Firefox') ) {
+                htmlTag.className += ' td-md-is-firefox';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Safari') && -1 === navigator.userAgent.indexOf('Chrome') ) {
+                htmlTag.className += ' td-md-is-safari';
+            }
+
+            if( -1 !== navigator.userAgent.indexOf('IEMobile') ){
+                htmlTag.className += ' td-md-is-iemobile';
+            }
+
+        })();
+
+
+
+
+        var tdLocalCache = {};
+
+        ( function () {
+            "use strict";
+
+            tdLocalCache = {
+                data: {},
+                remove: function (resource_id) {
+                    delete tdLocalCache.data[resource_id];
+                },
+                exist: function (resource_id) {
+                    return tdLocalCache.data.hasOwnProperty(resource_id) && tdLocalCache.data[resource_id] !== null;
+                },
+                get: function (resource_id) {
+                    return tdLocalCache.data[resource_id];
+                },
+                set: function (resource_id, cachedData) {
+                    tdLocalCache.remove(resource_id);
+                    tdLocalCache.data[resource_id] = cachedData;
+                }
+            };
+        })();
+
+    
+    
+var td_viewport_interval_list=[{"limitBottom":767,"sidebarWidth":228},{"limitBottom":1018,"sidebarWidth":300},{"limitBottom":1140,"sidebarWidth":324}];
+var td_ajax_url="https:\/\/www.farmflavor.com\/wp-admin\/admin-ajax.php?td_theme_name=Newspaper&v=7.8.1";
+var td_get_template_directory_uri="https:\/\/www.farmflavor.com\/wp-content\/themes\/Newspaper";
+var tds_snap_menu="snap";
+var tds_logo_on_sticky="show_header_logo";
+var tds_header_style="7";
+var td_please_wait="Please wait...";
+var td_email_user_pass_incorrect="User or password incorrect!";
+var td_email_user_incorrect="Email or username incorrect!";
+var td_email_incorrect="Email incorrect!";
+var tds_more_articles_on_post_enable="";
+var tds_more_articles_on_post_time_to_wait="";
+var tds_more_articles_on_post_pages_distance_from_top=0;
+var tds_theme_color_site_wide="#4db2ec";
+var tds_smart_sidebar="enabled";
+var tdThemeName="Newspaper";
+var td_magnific_popup_translation_tPrev="Previous (Left arrow key)";
+var td_magnific_popup_translation_tNext="Next (Right arrow key)";
+var td_magnific_popup_translation_tCounter="%curr% of %total%";
+var td_magnific_popup_translation_ajax_tError="The content from %url% could not be loaded.";
+var td_magnific_popup_translation_image_tError="The image #%curr% could not be loaded.";
+var td_ad_background_click_link="";
+var td_ad_background_click_target="";
+</script>
+
+<link rel="icon" href="https://www.farmflavor.com/wp-content/uploads/2017/02/cropped-FFM_Square_icon_512-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.farmflavor.com/wp-content/uploads/2017/02/cropped-FFM_Square_icon_512-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.farmflavor.com/wp-content/uploads/2017/02/cropped-FFM_Square_icon_512-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.farmflavor.com/wp-content/uploads/2017/02/cropped-FFM_Square_icon_512-270x270.png" />
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5258312-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1045676332147183'); // Insert your pixel ID here.
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=935734086562381&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+    
+
+
+<script src='//www5.smartadserver.com/config.js?nwid=2098' type="text/javascript"></script>
+<script type="text/javascript">
+    sas.setup({ domain: '//www5.smartadserver.com', async: true, renderMode: 0});
+</script>
+
+
+
+
+
+
+
+
+</head>
+
+<body class="post-template-default single single-post postid-36044 single-format-standard mme mega_main_extensions-2-0-0 desktop herb-veggie-frittata global-block-template-1 single_template_2 essbis_site wpb-js-composer js-comp-ver-5.1.1 vc_responsive td-full-layout" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+
+<div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+
+<div id="td-outer-wrap">
+
+    <div class="td-transition-content-and-menu td-mobile-nav-wrap">
+        <div class="td-menu-background"></div>
+<div id="td-mobile-nav">
+    <div class="td-mobile-container">
+        <!-- mobile menu top section -->
+        <div class="td-menu-socials-wrap">
+            <!-- socials -->
+            <div class="td-menu-socials">
+                
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://facebook.com/farmflavor" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://instagram.com/farmflavor" title="Instagram">
+                <i class="td-icon-font td-icon-instagram"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://pinterest.com/farmflavor" title="Pinterest">
+                <i class="td-icon-font td-icon-pinterest"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://feeds.feedburner.com/FarmFlavor" title="RSS">
+                <i class="td-icon-font td-icon-rss"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://twitter.com/farmflavor" title="Twitter">
+                <i class="td-icon-font td-icon-twitter"></i>
+            </a>
+        </span>            </div>
+            <!-- close button -->
+            <div class="td-mobile-close">
+                <a href="#"><i class="td-icon-close-mobile"></i></a>
+            </div>
+        </div>
+
+        <!-- login section -->
+        
+        <!-- menu section -->
+        <div class="td-mobile-content">
+            <div class="menu-main-navigation-container"><ul id="menu-main-navigation" class="td-mobile-main-menu"><li id="menu-item-30602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-first menu-item-30602"><a href="https://www.farmflavor.com/united-states-agriculture/">U.S. Agriculture<i class="td-icon-menu-right td-element-after"></i></a>
+<ul  class="sub-menu">
+	<li id="menu-item-36991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36991"><a href="http://www.farmflavor.com/digital-magazines">Digital Magazines</a></li>
+</ul>
+</li>
+<li id="menu-item-30604" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30604"><a href="#">State Agriculture<i class="td-icon-menu-right td-element-after"></i></a>
+<ul  class="sub-menu">
+	<li id="menu-item-35701" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35701"><a href="https://www.farmflavor.com/alabama-agriculture/">Alabama Agriculture</a></li>
+	<li id="menu-item-35703" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35703"><a href="https://www.farmflavor.com/alaska-agriculture/">Alaska Agriculture</a></li>
+	<li id="menu-item-35702" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35702"><a href="https://www.farmflavor.com/arizona-agriculture/">Arizona Agriculture</a></li>
+	<li id="menu-item-35704" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35704"><a href="https://www.farmflavor.com/arkansas-agriculture/">Arkansas Agriculture</a></li>
+	<li id="menu-item-35705" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35705"><a href="https://www.farmflavor.com/california-agriculture/">California Agriculture</a></li>
+	<li id="menu-item-35706" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35706"><a href="https://www.farmflavor.com/colorado-agriculture/">Colorado Agriculture</a></li>
+	<li id="menu-item-35707" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35707"><a href="https://www.farmflavor.com/connecticut-agriculture/">Connecticut Agriculture</a></li>
+	<li id="menu-item-35708" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35708"><a href="https://www.farmflavor.com/delaware-agriculture/">Delaware Agriculture</a></li>
+	<li id="menu-item-35709" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35709"><a href="https://www.farmflavor.com/florida-agriculture/">Florida Agriculture</a></li>
+	<li id="menu-item-35710" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35710"><a href="https://www.farmflavor.com/georgia-agriculture/">Georgia Agriculture</a></li>
+	<li id="menu-item-35711" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35711"><a href="https://www.farmflavor.com/hawaii-agriculture/">Hawaii Agriculture</a></li>
+	<li id="menu-item-35712" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35712"><a href="https://www.farmflavor.com/idaho-agriculture/">Idaho Agriculture</a></li>
+	<li id="menu-item-35713" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35713"><a href="https://www.farmflavor.com/illinois-agriculture/">Illinois Agriculture</a></li>
+	<li id="menu-item-35714" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35714"><a href="https://www.farmflavor.com/indiana-agriculture/">Indiana Agriculture</a></li>
+	<li id="menu-item-35715" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35715"><a href="https://www.farmflavor.com/iowa-agriculture/">Iowa Agriculture</a></li>
+	<li id="menu-item-35716" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35716"><a href="https://www.farmflavor.com/kansas-agriculture/">Kansas Agriculture</a></li>
+	<li id="menu-item-35717" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35717"><a href="https://www.farmflavor.com/kentucky-agriculture/">Kentucky Agriculture</a></li>
+	<li id="menu-item-35718" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35718"><a href="https://www.farmflavor.com/louisiana-agriculture/">Louisiana Agriculture</a></li>
+	<li id="menu-item-35719" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35719"><a href="https://www.farmflavor.com/maine-agriculture/">Maine Agriculture</a></li>
+	<li id="menu-item-35720" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35720"><a href="https://www.farmflavor.com/maryland-agriculture/">Maryland Agriculture</a></li>
+	<li id="menu-item-35721" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35721"><a href="https://www.farmflavor.com/massachusetts-agriculture/">Massachusetts Agriculture</a></li>
+	<li id="menu-item-35722" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35722"><a href="https://www.farmflavor.com/michigan-agriculture/">Michigan Agriculture</a></li>
+	<li id="menu-item-35723" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35723"><a href="https://www.farmflavor.com/minnesota-agriculture/">Minnesota Agriculture</a></li>
+	<li id="menu-item-35724" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35724"><a href="https://www.farmflavor.com/mississippi-agriculture/">Mississippi Agriculture</a></li>
+	<li id="menu-item-35725" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35725"><a href="https://www.farmflavor.com/missouri-agriculture/">Missouri Agriculture</a></li>
+	<li id="menu-item-35726" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35726"><a href="https://www.farmflavor.com/montana-agriculture/">Montana Agriculture</a></li>
+	<li id="menu-item-35727" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35727"><a href="https://www.farmflavor.com/nebraska-agriculture/">Nebraska Agriculture</a></li>
+	<li id="menu-item-35728" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35728"><a href="https://www.farmflavor.com/nevada-agriculture/">Nevada Agriculture</a></li>
+	<li id="menu-item-35729" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35729"><a href="https://www.farmflavor.com/new-hampshire-agriculture/">New Hampshire Agriculture</a></li>
+	<li id="menu-item-35730" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35730"><a href="https://www.farmflavor.com/new-jersey-agriculture/">New Jersey Agriculture</a></li>
+	<li id="menu-item-35731" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35731"><a href="https://www.farmflavor.com/new-mexico-agriculture/">New Mexico Agriculture</a></li>
+	<li id="menu-item-35732" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35732"><a href="https://www.farmflavor.com/new-york-agriculture/">New York Agriculture</a></li>
+	<li id="menu-item-35733" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35733"><a href="https://www.farmflavor.com/north-carolina-agriculture/">North Carolina Agriculture</a></li>
+	<li id="menu-item-35734" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35734"><a href="https://www.farmflavor.com/north-dakota-agriculture/">North Dakota Agriculture</a></li>
+	<li id="menu-item-35735" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35735"><a href="https://www.farmflavor.com/ohio-agriculture/">Ohio Agriculture</a></li>
+	<li id="menu-item-35736" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35736"><a href="https://www.farmflavor.com/oklahoma-agriculture/">Oklahoma Agriculture</a></li>
+	<li id="menu-item-35737" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35737"><a href="https://www.farmflavor.com/oregon-agriculture/">Oregon Agriculture</a></li>
+	<li id="menu-item-35738" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35738"><a href="https://www.farmflavor.com/pennsylvania-agriculture/">Pennsylvania Agriculture</a></li>
+	<li id="menu-item-35739" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35739"><a href="https://www.farmflavor.com/rhode-island-agriculture/">Rhode Island Agriculture</a></li>
+	<li id="menu-item-35740" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35740"><a href="https://www.farmflavor.com/south-carolina-agriculture/">South Carolina Agriculture</a></li>
+	<li id="menu-item-35741" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35741"><a href="https://www.farmflavor.com/south-dakota-agriculture/">South Dakota Agriculture</a></li>
+	<li id="menu-item-35742" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35742"><a href="https://www.farmflavor.com/tennessee-agriculture/">Tennessee Agriculture</a></li>
+	<li id="menu-item-35743" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35743"><a href="https://www.farmflavor.com/texas-agriculture/">Texas Agriculture</a></li>
+	<li id="menu-item-35744" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35744"><a href="https://www.farmflavor.com/utah-agriculture/">Utah Agriculture</a></li>
+	<li id="menu-item-35745" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35745"><a href="https://www.farmflavor.com/vermont-agriculture/">Vermont Agriculture</a></li>
+	<li id="menu-item-35746" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35746"><a href="https://www.farmflavor.com/virginia-agriculture/">Virginia Agriculture</a></li>
+	<li id="menu-item-35747" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35747"><a href="https://www.farmflavor.com/washington-agriculture/">Washington Agriculture</a></li>
+	<li id="menu-item-35748" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35748"><a href="https://www.farmflavor.com/west-virginia-agriculture/">West Virginia Agriculture</a></li>
+	<li id="menu-item-35749" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35749"><a href="https://www.farmflavor.com/wisconsin-agriculture/">Wisconsin Agriculture</a></li>
+	<li id="menu-item-35750" class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page menu-item-35750"><a href="https://www.farmflavor.com/wyoming-agriculture/">Wyoming Agriculture</a></li>
+</ul>
+</li>
+<li id="menu-item-30603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30603"><a href="https://www.farmflavor.com/recipes/">Recipes<i class="td-icon-menu-right td-element-after"></i></a>
+<ul  class="sub-menu">
+	<li id="menu-item-35752" class="nav-mobile-recipe menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-35752"><a href="https://www.farmflavor.com/recipe/ingredient/">Recipes By Ingredient</a></li>
+	<li id="menu-item-35751" class="nav-mobile-recipe menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-35751"><a href="https://www.farmflavor.com/recipe/type/">Recipes By Meal Type</a></li>
+	<li id="menu-item-35753" class="nav-mobile-recipe menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-35753"><a href="https://www.farmflavor.com/recipe/theme/">Recipes By Theme</a></li>
+</ul>
+</li>
+<li id="menu-item-30607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30607"><a href="https://www.farmflavor.com/athome/">At Home<i class="td-icon-menu-right td-element-after"></i></a>
+<ul  class="sub-menu">
+	<li id="menu-item-38261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38261"><a href="https://www.farmflavor.com/at-home/cooking/">Cooking</a></li>
+	<li id="menu-item-38263" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38263"><a href="https://www.farmflavor.com/at-home/gardening/">Gardening</a></li>
+	<li id="menu-item-38262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38262"><a href="https://www.farmflavor.com/at-home/seasonal-foods/">Shopping</a></li>
+</ul>
+</li>
+</ul></div>        </div>
+    </div>
+
+    <!-- register/login section -->
+    </div>    	<div class="td-search-background"></div>
+<div class="td-search-wrap-mob">
+	<div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+		<form method="get" class="td-search-form" action="https://www.farmflavor.com/">
+			<!-- close button -->
+			<div class="td-search-close">
+				<a href="#"><i class="td-icon-close-mobile"></i></a>
+			</div>
+			<div role="search" class="td-search-input">
+				<span>Search</span>
+				<input id="td-header-search-mob" type="text" value="" name="s" autocomplete="off" />
+			</div>
+		</form>
+		<div id="td-aj-search-mob"></div>
+	</div>
+</div>    </div>
+
+        <div class="td-transition-content-and-menu td-content-wrap">
+
+
+
+<!--
+Header style 7
+-->
+
+<div class="td-header-wrap td-header-style-7">
+        <div class="td-header-top-menu-full">
+        <div class="td-container td-header-row td-header-top-menu">
+            
+    <div class="top-bar-style-4">
+        <div class="td-header-sp-top-widget">
+    
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://facebook.com/farmflavor" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://instagram.com/farmflavor" title="Instagram">
+                <i class="td-icon-font td-icon-instagram"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://pinterest.com/farmflavor" title="Pinterest">
+                <i class="td-icon-font td-icon-pinterest"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://feeds.feedburner.com/FarmFlavor" title="RSS">
+                <i class="td-icon-font td-icon-rss"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://twitter.com/farmflavor" title="Twitter">
+                <i class="td-icon-font td-icon-twitter"></i>
+            </a>
+        </span></div>
+        
+<div class="td-header-sp-top-menu">
+
+
+	</div>
+    </div>
+
+<!-- LOGIN MODAL -->
+        </div>
+    </div>
+    
+    <div class="td-header-menu-wrap-full">
+        <div class="td-header-menu-wrap td-header-gradient">
+            <div class="td-container td-header-row td-header-main-menu">
+                <div class="td-header-sp-logo">
+                            <a class="td-main-logo" href="https://www.farmflavor.com/">
+            <img class="td-retina-data" data-retina="https://www.farmflavor.com/wp-content/uploads/2017/02/farm-flavor-logo.png" src="https://www.farmflavor.com/wp-content/uploads/2017/02/farm-flavor-logo.png" alt="Farm Flavor" title="Farm Flavor"/>
+            <span class="td-visual-hidden">Farm Flavor</span>
+        </a>
+                    </div>
+                    <div id="td-header-menu" role="navigation">
+    <div id="td-top-mobile-toggle"><a href="#"><i class="td-icon-font td-icon-mobile"></i></a></div>
+    <div class="td-main-menu-logo td-logo-in-header">
+                <a class="td-main-logo" href="https://www.farmflavor.com/">
+            <img class="td-retina-data" data-retina="https://www.farmflavor.com/wp-content/uploads/2017/02/farm-flavor-logo.png" src="https://www.farmflavor.com/wp-content/uploads/2017/02/farm-flavor-logo.png" alt="Farm Flavor" title="Farm Flavor"/>
+        </a>
+        </div>
+    <div class="menu-main-navigation-container"><ul id="menu-main-navigation-1" class="sf-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-first td-menu-item td-normal-menu menu-item-30602"><a href="https://www.farmflavor.com/united-states-agriculture/">U.S. Agriculture</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-36991"><a href="http://www.farmflavor.com/digital-magazines">Digital Magazines</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-mega-menu td-mega-menu-page menu-item-30604"><a href="#">State Agriculture</a>
+<ul  class="sub-menu">
+	<li id="menu-item-0" class="menu-item-0"><div class="td-container-border"><div class="td-mega-grid"><input type="hidden" value="" data-essbisPostContainer="" data-essbisPostUrl="https://www.farmflavor.com/recipe/herb-veggie-frittata/" data-essbisPostTitle="Herb and Veggie Frittata" data-essbisHoverContainer=""><div class="state-column-nav"><a class="state-subnav" href="/alabama-agriculture/">Alabama</a><br />
+<a class="state-subnav" href="/alaska-agriculture/">Alaska</a><br />
+<a class="state-subnav" href="/arizona-agriculture/">Arizona</a><br />
+<a class="state-subnav" href="/arkansas-agriculture/">Arkansas</a><br />
+<a class="state-subnav" href="/california-agriculture/">California</a><br />
+<a class="state-subnav" href="/colorado-agriculture/">Colorado</a><br />
+<a class="state-subnav" href="/connecticut-agriculture/">Connecticut</a><br />
+<a class="state-subnav" href="/delaware-agriculture/">Delaware<br />
+</a><a class="state-subnav" href="/florida-agriculture/">Florida</a><a class="state-subnav" href="/delaware-agriculture/"><br />
+</a><a class="state-subnav" href="/georgia-agriculture/">Georgia</a></div>
+<div class="state-column-nav"><a class="state-subnav" href="/hawaii-agriculture/">Hawaii</a><br />
+<a class="state-subnav" href="/idaho-agriculture/">Idaho</a><br />
+<a class="state-subnav" href="/illinois-agriculture/">Illinois</a><br />
+<a class="state-subnav" href="/indiana-agriculture/">Indiana</a><br />
+<a class="state-subnav" href="/iowa-agriculture/">Iowa</a><br />
+<a class="state-subnav" href="/kansas-agriculture/">Kansas</a><br />
+<a class="state-subnav" href="/kentucky-agriculture/">Kentucky</a><br />
+<a class="state-subnav" href="/louisiana-agriculture/">Louisiana</a><br />
+<a class="state-subnav" href="/maine-agriculture/">Maine</a><br />
+<a class="state-subnav" href="/maryland-agriculture/">Maryland</a></div>
+<div class="state-column-nav"><a class="state-subnav" href="/massachusetts-agriculture/">Massachusetts</a><br />
+<a class="state-subnav" href="/michigan-agriculture/">Michigan</a><br />
+<a class="state-subnav" href="/minnesota-agriculture/">Minnesota</a><br />
+<a class="state-subnav" href="/mississippi-agriculture/">Mississippi</a><br />
+<a class="state-subnav" href="/missouri-agriculture/">Missouri</a><br />
+<a class="state-subnav" href="/montana-agriculture/">Montana</a><br />
+<a class="state-subnav" href="/nebraska-agriculture/">Nebraska</a><br />
+<a class="state-subnav" href="/nevada-agriculture/">Nevada</a><br />
+<a class="state-subnav" href="/new-hampshire-agriculture/">New Hampshire</a><br />
+<a class="state-subnav" href="/new-jersey-agriculture/">New Jersey</a></div>
+<div class="state-column-nav"><a class="state-subnav" href="/new-mexico-agriculture/">New Mexico</a><br />
+<a class="state-subnav" href="/new-york-agriculture/">New York</a><br />
+<a class="state-subnav" href="/north-carolina-agriculture/">North Carolina</a><br />
+<a class="state-subnav" href="/north-dakota-agriculture/">North Dakota</a><br />
+<a class="state-subnav" href="/ohio-agriculture/">Ohio</a><br />
+<a class="state-subnav" href="/oklahoma-agriculture/">Oklahoma</a><br />
+<a class="state-subnav" href="/oregon-agriculture/">Oregon</a><br />
+<a class="state-subnav" href="/pennsylvania-agriculture/">Pennsylvania</a><br />
+<a class="state-subnav" href="/rhode-island-agriculture/">Rhode Island</a><br />
+<a class="state-subnav" href="/south-carolina-agriculture/">South Carolina</a></div>
+<div class="state-column-nav"><a class="state-subnav" href="/south-dakota-agriculture/">South Dakota</a><br />
+<a class="state-subnav" href="/tennessee-agriculture/">Tennessee</a><br />
+<a class="state-subnav" href="/texas-agriculture/">Texas</a><br />
+<a class="state-subnav" href="/utah-agriculture/">Utah</a><br />
+<a class="state-subnav" href="/vermont-agriculture/">Vermont</a><br />
+<a class="state-subnav" href="/virginia-agriculture/">Virginia</a><br />
+<a class="state-subnav" href="/washington-agriculture/">Washington</a><br />
+<a class="state-subnav" href="/west-virginia-agriculture/">West Virginia</a><br />
+<a class="state-subnav" href="/wisconsin-agriculture/">Wisconsin</a><br />
+<a class="state-subnav" href="/wyoming-agriculture/">Wyoming</a></div>
+</div></div></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35701"><a href="https://www.farmflavor.com/alabama-agriculture/">Alabama Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35703"><a href="https://www.farmflavor.com/alaska-agriculture/">Alaska Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35702"><a href="https://www.farmflavor.com/arizona-agriculture/">Arizona Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35704"><a href="https://www.farmflavor.com/arkansas-agriculture/">Arkansas Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35705"><a href="https://www.farmflavor.com/california-agriculture/">California Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35706"><a href="https://www.farmflavor.com/colorado-agriculture/">Colorado Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35707"><a href="https://www.farmflavor.com/connecticut-agriculture/">Connecticut Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35708"><a href="https://www.farmflavor.com/delaware-agriculture/">Delaware Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35709"><a href="https://www.farmflavor.com/florida-agriculture/">Florida Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35710"><a href="https://www.farmflavor.com/georgia-agriculture/">Georgia Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35711"><a href="https://www.farmflavor.com/hawaii-agriculture/">Hawaii Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35712"><a href="https://www.farmflavor.com/idaho-agriculture/">Idaho Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35713"><a href="https://www.farmflavor.com/illinois-agriculture/">Illinois Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35714"><a href="https://www.farmflavor.com/indiana-agriculture/">Indiana Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35715"><a href="https://www.farmflavor.com/iowa-agriculture/">Iowa Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35716"><a href="https://www.farmflavor.com/kansas-agriculture/">Kansas Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35717"><a href="https://www.farmflavor.com/kentucky-agriculture/">Kentucky Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35718"><a href="https://www.farmflavor.com/louisiana-agriculture/">Louisiana Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35719"><a href="https://www.farmflavor.com/maine-agriculture/">Maine Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35720"><a href="https://www.farmflavor.com/maryland-agriculture/">Maryland Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35721"><a href="https://www.farmflavor.com/massachusetts-agriculture/">Massachusetts Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35722"><a href="https://www.farmflavor.com/michigan-agriculture/">Michigan Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35723"><a href="https://www.farmflavor.com/minnesota-agriculture/">Minnesota Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35724"><a href="https://www.farmflavor.com/mississippi-agriculture/">Mississippi Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35725"><a href="https://www.farmflavor.com/missouri-agriculture/">Missouri Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35726"><a href="https://www.farmflavor.com/montana-agriculture/">Montana Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35727"><a href="https://www.farmflavor.com/nebraska-agriculture/">Nebraska Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35728"><a href="https://www.farmflavor.com/nevada-agriculture/">Nevada Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35729"><a href="https://www.farmflavor.com/new-hampshire-agriculture/">New Hampshire Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35730"><a href="https://www.farmflavor.com/new-jersey-agriculture/">New Jersey Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35731"><a href="https://www.farmflavor.com/new-mexico-agriculture/">New Mexico Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35732"><a href="https://www.farmflavor.com/new-york-agriculture/">New York Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35733"><a href="https://www.farmflavor.com/north-carolina-agriculture/">North Carolina Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35734"><a href="https://www.farmflavor.com/north-dakota-agriculture/">North Dakota Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35735"><a href="https://www.farmflavor.com/ohio-agriculture/">Ohio Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35736"><a href="https://www.farmflavor.com/oklahoma-agriculture/">Oklahoma Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35737"><a href="https://www.farmflavor.com/oregon-agriculture/">Oregon Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35738"><a href="https://www.farmflavor.com/pennsylvania-agriculture/">Pennsylvania Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35739"><a href="https://www.farmflavor.com/rhode-island-agriculture/">Rhode Island Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35740"><a href="https://www.farmflavor.com/south-carolina-agriculture/">South Carolina Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35741"><a href="https://www.farmflavor.com/south-dakota-agriculture/">South Dakota Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35742"><a href="https://www.farmflavor.com/tennessee-agriculture/">Tennessee Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35743"><a href="https://www.farmflavor.com/texas-agriculture/">Texas Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35744"><a href="https://www.farmflavor.com/utah-agriculture/">Utah Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35745"><a href="https://www.farmflavor.com/vermont-agriculture/">Vermont Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35746"><a href="https://www.farmflavor.com/virginia-agriculture/">Virginia Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35747"><a href="https://www.farmflavor.com/washington-agriculture/">Washington Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35748"><a href="https://www.farmflavor.com/west-virginia-agriculture/">West Virginia Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35749"><a href="https://www.farmflavor.com/wisconsin-agriculture/">Wisconsin Agriculture</a></li>
+	<li class="nav-mobile-sag menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35750"><a href="https://www.farmflavor.com/wyoming-agriculture/">Wyoming Agriculture</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children td-menu-item td-mega-menu td-mega-menu-page menu-item-30603"><a href="https://www.farmflavor.com/recipes/">Recipes</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0"><div class="td-container-border"><div class="td-mega-grid"><input type="hidden" value="" data-essbisPostContainer="" data-essbisPostUrl="https://www.farmflavor.com/recipe/herb-veggie-frittata/" data-essbisPostTitle="Herb and Veggie Frittata" data-essbisHoverContainer=""><div class="vc_row wpb_row td-pb-row recipe-nav-dropdown"><div class="recipe-nav-dropdown-column wpb_column vc_column_container td-pb-span4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3>Recipes by Theme</h3>
+<ul>
+<li><a href="http://farmflavor.com/recipe/theme/fall-recipes/">Fall</a></li>
+<li><a href="http://www.farmflavor.com/recipe/theme/kid-cooking/">Kid-Friendly Cooking</a></li>
+<li><a href="/recipe/theme/potluck/">Potluck Dishes</a></li>
+<li><a href="/recipe/theme/quick/">Quick</a></li>
+<li><a href="/recipe/theme/garden-recipes/">From the Garden</a></li>
+<li><a href="/recipe/theme/few-ingredients/">5 Ingredients or Less</a></li>
+<li><a href="/recipe/theme/heirloom/">Heirloom</a></li>
+<li><a href="/recipe/theme/family-friendly/">Family Friendly</a></li>
+<li><a href="/recipe/theme/healthy/">Healthy</a></li>
+<li><a href="/recipe/theme/vegetarian/">Vegetarian</a></li>
+<li><a href="/recipe/theme/gluten-free/">Gluten-Free</a></li>
+</ul>
+<p><a href="/recipe/theme/">All Recipes By Theme</a></p>
+
+		</div>
+	</div>
+</div></div></div><div class="recipe-nav-dropdown-column wpb_column vc_column_container td-pb-span4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3>Recipes by Meal Type</h3>
+<ul>
+<li><a href="/recipe/type/appetizers/">Appetizers</a></li>
+<li><a href="/recipe/type/breads/">Breads</a></li>
+<li><a href="/recipe/type/breakfast/">Breakfast and Brunch</a></li>
+<li><a href="/recipe/type/casseroles/">Casseroles</a></li>
+<li><a href="/recipe/type/cookies-brownies/">Cookies and Brownies</a></li>
+<li><a href="/recipe/type/desserts/">Desserts</a></li>
+<li><a href="/recipe/type/dips-salsa/">Dips and Salsas</a></li>
+<li><a href="/recipe/type/entrees/">Entrees</a></li>
+<li><a href="/recipe/type/salads/">Salads</a></li>
+<li><a href="/recipe/type/side-dishes/">Side Dishes</a></li>
+<li><a href="/recipe/type/soups/">Soups, Stews and Chili</a></li>
+</ul>
+<p><a href="/recipe/type/">All Recipes By Meal Type</a></p>
+
+		</div>
+	</div>
+</div></div></div><div class="recipe-nav-dropdown-column wpb_column vc_column_container td-pb-span4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3>Recipes by Ingredient</h3>
+<ul>
+<li><a href="http://farmflavor.com/recipe/ingredient/sweet-potato-recipes/">Sweet Potatoes</a></li>
+<li><a href="http://farmflavor.com/recipe/ingredient/apple-recipes/">Apples</a></li>
+<li><a href="http://www.farmflavor.com/recipe/ingredient/chocolate-recipes/">Chocolate</a></li>
+<li><a href="/recipe/ingredient/beef-recipes/">Beef</a></li>
+<li><a href="/recipe/ingredient/chicken-recipes/">Chicken</a></li>
+<li><a href="/recipe/ingredient/pork-recipes/">Pork</a></li>
+<li><a href="/recipe/ingredient/fish-seafood/">Fish and Seafood</a></li>
+<li><a href="/recipe/ingredient/turkey-recipes/">Turkey</a></li>
+<li><a href="/recipe/ingredient/pasta/">Pasta</a></li>
+<li><a href="/recipe/ingredient/fruit/">Fruit</a></li>
+<li><a href="/recipe/ingredient/vegetables/">Vegetables</a></li>
+</ul>
+<p><a href="/recipe/ingredient/">All Recipes By Ingredient</a></p>
+
+		</div>
+	</div>
+</div></div></div></div>
+</div></div></li>
+	<li class="nav-mobile-recipe menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor td-menu-item td-normal-menu menu-item-35752"><a href="https://www.farmflavor.com/recipe/ingredient/">Recipes By Ingredient</a></li>
+	<li class="nav-mobile-recipe menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor td-menu-item td-normal-menu menu-item-35751"><a href="https://www.farmflavor.com/recipe/type/">Recipes By Meal Type</a></li>
+	<li class="nav-mobile-recipe menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor td-menu-item td-normal-menu menu-item-35753"><a href="https://www.farmflavor.com/recipe/theme/">Recipes By Theme</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children td-menu-item td-normal-menu menu-item-30607"><a href="https://www.farmflavor.com/athome/">At Home</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-38261"><a href="https://www.farmflavor.com/at-home/cooking/">Cooking</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-38263"><a href="https://www.farmflavor.com/at-home/gardening/">Gardening</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-38262"><a href="https://www.farmflavor.com/at-home/seasonal-foods/">Shopping</a></li>
+</ul>
+</li>
+</ul></div></div>
+
+
+<div class="td-search-wrapper">
+    <div id="td-top-search">
+        <!-- Search -->
+        <div class="header-search-wrap">
+            <div class="dropdown header-search">
+                <a id="td-header-search-button" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+                <a id="td-header-search-button-mob" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header-search-wrap">
+	<div class="dropdown header-search">
+		<div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+			<form method="get" class="td-search-form" action="https://www.farmflavor.com/">
+				<div role="search" class="td-head-form-search-wrap">
+					<input id="td-header-search" type="text" value="" name="s" autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search" />
+				</div>
+			</form>
+			<div id="td-aj-search"></div>
+		</div>
+	</div>
+</div>            </div>
+        </div>
+    </div>
+    <div class="td-banner-wrap-full">
+        <div class="td-container-header td-header-row td-header-header">
+            <div class="td-header-sp-recs">
+    			<div class="td-header-rec-wrap">
+            		<div class="td-a-rec td-a-rec-id-header">
+						<div class="ff-header-leaderboard">
+																					<script type="text/javascript">
+								sas.call("std", {
+								siteId:	117498,
+								pageId:		712684,
+								formatId:	45490,
+								target: 	'recipeid=36044'
+																});
+							</script>
+							<noscript>
+								<a href="//www5.smartadserver.com/ac?jump=1&nwid=2098&siteid=117498&fmtid=45490&visit=m&tmstp=[timestamp]&out=nonrich" target="_blank">                
+									<img src="//www5.smartadserver.com/ac?out=nonrich&nwid=2098&siteid=117498&fmtid=45490&visit=m&tmstp=[timestamp]" border="0" alt="" />
+								</a>
+							</noscript>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div><div class="td-main-content-wrap">
+	
+	<div class="td-container">
+		<div class="td-category-header">
+			<div class="td-pb-row">
+				<div class="td-pb-span12">
+																</div>
+			</div>
+		</div>
+
+		<!-- Magazine -->
+			</div>
+	    <div class="td-container td-post-template-2">
+        <article id="post-36044" class="post-36044 post type-post status-publish format-standard has-post-thumbnail hentry category-breakfast category-garden-recipes category-group category-healthy category-potluck category-recipe category-spring category-vegetables category-vegetarian tag-cheddar-cheese tag-chives tag-eggs tag-milk tag-mushrooms tag-spinach tag-tomatoes" 
+        	itemscope itemtype="http://schema.org/Recipe">
+            <div class="td-pb-row">
+                <div class="td-pb-span12">
+                    <div class="td-post-header">
+                    	                        	<div class="td-crumb-container"><div class="entry-crumbs" itemscope itemtype="http://schema.org/BreadcrumbList"><span class="td-bred-first"><a href="https://www.farmflavor.com/">Home</a></span> <i class="td-icon-right td-bread-sep"></i> <span itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+                               <a title="View all posts in Recipes By Meal Type" class="entry-crumb" itemscope itemprop="item" itemtype="http://schema.org/Thing" href="https://www.farmflavor.com/recipe/type/">
+                                  <span itemprop="name">Recipes By Meal Type</span>    </a>    <meta itemprop="position" content = "1"></span> <i class="td-icon-right td-bread-sep"></i> <span itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+                               <a title="View all posts in Breakfast and Brunch" class="entry-crumb" itemscope itemprop="item" itemtype="http://schema.org/Thing" href="https://www.farmflavor.com/recipe/type/breakfast/">
+                                  <span itemprop="name">Breakfast and Brunch</span>    </a>    <meta itemprop="position" content = "2"></span> <i class="td-icon-right td-bread-sep td-bred-no-url-last"></i> <span class="td-bred-no-url-last">Herb and Veggie Frittata</span></div></div>
+						                        
+                        <header class="td-post-title" itemprop="name">
+                            <h1 class="entry-title">Herb and Veggie Frittata</h1>
+                            
+
+                            <div class="td-module-meta-info">
+                                <div class="td-post-author-name">By <a href="https://www.farmflavor.com/author/charlyn-fargo/">Charlyn Fargo</a> - </div>                                <span class="td-post-date"><time class="entry-date updated td-module-date" datetime="2017-01-30T09:00:26+00:00" >January 30, 2017</time></span>                                                                                            </div>
+                            
+                        </header>
+                    </div>
+                </div>
+            </div> <!-- /.td-pb-row -->
+
+            <div class="td-pb-row">
+                                            <div class="td-pb-span8 td-main-content" role="main">
+                                <div class="td-ss-main-content">
+                                    <link rel="stylesheet" id="font-awesome-css" href="http://www.farmflavor.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=4.12" type="text/css" media="">
+        
+        <div class="td-post-content" itemscope itemtype="http://schema.org/Recipe">
+			<div class="recipe-image" itemprop="image">
+				<img width="320" height="320" src="https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565-320x320.jpg" class="attachment-medium size-medium wp-post-image" alt="Herb and Veggie Frittata" srcset="https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565-320x320.jpg 320w, https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565-150x150.jpg 150w, https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565-420x420.jpg 420w, https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565-324x324.jpg 324w, https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565-550x550.jpg 550w, https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565-190x190.jpg 190w, https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg 613w" sizes="(max-width: 320px) 100vw, 320px" />			</div>
+			<div class="recipe-top">
+            	<div class="recipe-summary">
+            	<div class="recipe-excerpt" itemprop="description">
+	            	Fresh vegetables and herbs combine for a healthy, hearty breakfast. 				</div>
+            	<ul>
+            		<li itemprop="recipeYield">Makes: <span>8 servings</span></li>            		<li itemprop="prepTime">Prep Time: <span>15 minutes</span></li>            		<li itemprop="cookTime">Cook Time: <span>30 minutes</span></li>            		<li>Difficulty Rating: <span>Easy</span></li><br>					<li>Nutrition Highlights: <span itemprop="nutrition"
+    itemscope itemtype="http://schema.org/NutritionInformation">Per serving: 292 calories, 20g fat, 340mg sodium, 21g protein, 1g fiber, 358mg cholesterol, 6g carbohydrates </span></li><br>
+
+            		<li >Recipe Created By: <span itemprop="author">
+													<a href="http://www.farmflavor.com/at-home/cooking/charlyn-fargo-nutrition-columnist">
+								Charlyn Fargo							</a>
+												</span></li>
+					            		            			<li>Recipe From: <span itemprop="publishingPrinciples"><a href="http://ilfbpartners.com" alt="ilfbpartners.com">Illinois Partners</a></span></li>
+            		            		            		            		            	</ul>
+            </div>
+            <div style="clear:both;"></div>
+			</div>
+      
+<div class="essb_links essb_counter_modern_right essb_displayed_shortcode essb_share essb_template_metro-retina essb_825524627 print-no" id="essb_displayed_shortcode_825524627" data-essb-postid="36044" data-essb-position="shortcode" data-essb-button-style="icon" data-essb-template="metro-retina" data-essb-counter-pos="right" data-essb-url="https://www.farmflavor.com/recipe/herb-veggie-frittata/" data-essb-twitter-url="https://www.farmflavor.com/recipe/herb-veggie-frittata/" data-essb-instance="825524627"><ul class="essb_links_list essb_force_hide_name essb_force_hide"><li class="essb_item essb_link_facebook nolightbox"> <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.farmflavor.com/recipe/herb-veggie-frittata/&t=Herb and Veggie Frittata&redirect_uri=https://www.farmflavor.com?sharing-thankyou=yes" title="" onclick="essb_window(&#39;https://www.facebook.com/sharer/sharer.php?u=https://www.farmflavor.com/recipe/herb-veggie-frittata/&t=Herb and Veggie Frittata&redirect_uri=https://www.farmflavor.com?sharing-thankyou=yes&#39;,&#39;facebook&#39;,&#39;825524627&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_facebook"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_twitter nolightbox"> <a href="#" title="" onclick="essb_window(&#39;https://twitter.com/intent/tweet?text=Herb and Veggie Frittata&amp;url=https://www.farmflavor.com/recipe/herb-veggie-frittata/&amp;counturl=https://www.farmflavor.com/recipe/herb-veggie-frittata/&#39;,&#39;twitter&#39;,&#39;825524627&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_twitter"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_google nolightbox"> <a href="https://plus.google.com/share?url=https://www.farmflavor.com/recipe/herb-veggie-frittata/" title="" onclick="essb_window(&#39;https://plus.google.com/share?url=https://www.farmflavor.com/recipe/herb-veggie-frittata/&#39;,&#39;google&#39;,&#39;825524627&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_google"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_pinterest nolightbox"> <a href="#" title="" onclick="essb_pinterest_picker(&#39;825524627&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_pinterest"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_linkedin nolightbox"> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;trk=EasySocialShareButtons&amp;title=Herb and Veggie Frittata&amp;url=https://www.farmflavor.com/recipe/herb-veggie-frittata/" title="" onclick="essb_window(&#39;https://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;trk=EasySocialShareButtons&amp;title=Herb and Veggie Frittata&amp;url=https://www.farmflavor.com/recipe/herb-veggie-frittata/&#39;,&#39;linkedin&#39;,&#39;825524627&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_linkedin"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_print nolightbox"> <a href="#" title="" onclick="essb_print(&#39;825524627&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_print"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_mail nolightbox"> <a href="#" title="" onclick="essb_open_mailform(&#39;825524627&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_mail"></span><span class="essb_network_name essb_noname"></span></a></li></ul></div> 
+      
+            
+			
+
+			            	<div class="recipe-ingredients fullwidth">
+                        
+            	<h2>Ingredients</h2>
+				<input type="hidden" value="" data-essbisPostContainer="" data-essbisPostUrl="https://www.farmflavor.com/recipe/herb-veggie-frittata/" data-essbisPostTitle="Herb and Veggie Frittata" data-essbisHoverContainer=""><ul>
+<li itemprop="recipeIngredient">2 teaspoons extra virgin olive oil</li>
+<li itemprop="recipeIngredient">½ cup <a href="http://farmflavor.com/tag/mushrooms">mushrooms</a>, chopped</li>
+<li itemprop="recipeIngredient">1 cup baby spinach</li>
+<li itemprop="recipeIngredient">4 tablespoons tomatoes, finely diced</li>
+<li itemprop="recipeIngredient">4 large <a href="http://farmflavor.com/tag/eggs">eggs</a></li>
+<li itemprop="recipeIngredient">½ cup milk</li>
+<li itemprop="recipeIngredient">½ cup sharp cheddar cheese, shredded and divided</li>
+<li itemprop="recipeIngredient">salt and pepper, to taste</li>
+<li itemprop="recipeIngredient">2 tablespoons fresh chives, finely diced and divided</li>
+</ul>
+            	
+            	
+            	            </div>
+
+            <div class="recipe-instructions" itemprop="recipeInstructions">
+            	<h2>Instructions</h2>
+            	<ol>
+<li>Heat oven to 350 degrees.</li>
+<li>Heat extra-virgin olive oil in an oven-safe saute pan over medium-high heat. Add the mushrooms and saute until softened, about 2 to 3 minutes. Turn off heat. Add the spinach and tomatoes, and cook for another 2 to 3 minutes.</li>
+<li>In a separate bowl, whisk together the eggs, milk and ¼ cup cheese. Season with salt and pepper and 1 tablespoon chives.</li>
+<li>Pour the egg mixture evenly into the skillet over the vegetables. Let sit, without stirring, until the edges begin to set, about 2 to 3 minutes. Then transfer the skillet to the oven and bake for about 15 to 20 minutes, or until golden brown. Sprinkle remaining cheese on top and garnish with remaining diced chives.</li>
+</ol>
+            </div>
+                        <div style="clear:both; height:36px;"></div>
+        </div>
+
+
+        <footer>
+                        
+            <div class="td-post-source-tags">
+                                <ul class="td-tags td-post-small-box clearfix"><li><span>TAGS</span></li><li><a href="https://www.farmflavor.com/tag/cheddar-cheese/">cheddar cheese</a></li><li><a href="https://www.farmflavor.com/tag/chives/">chives</a></li><li><a href="https://www.farmflavor.com/tag/eggs/">eggs</a></li><li><a href="https://www.farmflavor.com/tag/milk/">milk</a></li><li><a href="https://www.farmflavor.com/tag/mushrooms/">mushrooms</a></li><li><a href="https://www.farmflavor.com/tag/spinach/">spinach</a></li><li><a href="https://www.farmflavor.com/tag/tomatoes/">tomatoes</a></li></ul>            </div>
+            
+<div class="essb_links essb_counter_modern_right essb_displayed_shortcode essb_share essb_template_metro-retina essb_392614095 print-no" id="essb_displayed_shortcode_392614095" data-essb-postid="36044" data-essb-position="shortcode" data-essb-button-style="icon" data-essb-template="metro-retina" data-essb-counter-pos="right" data-essb-url="https://www.farmflavor.com/recipe/herb-veggie-frittata/" data-essb-twitter-url="https://www.farmflavor.com/recipe/herb-veggie-frittata/" data-essb-instance="392614095"><ul class="essb_links_list essb_force_hide_name essb_force_hide"><li class="essb_item essb_link_facebook nolightbox"> <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.farmflavor.com/recipe/herb-veggie-frittata/&t=Herb and Veggie Frittata&redirect_uri=https://www.farmflavor.com?sharing-thankyou=yes" title="" onclick="essb_window(&#39;https://www.facebook.com/sharer/sharer.php?u=https://www.farmflavor.com/recipe/herb-veggie-frittata/&t=Herb and Veggie Frittata&redirect_uri=https://www.farmflavor.com?sharing-thankyou=yes&#39;,&#39;facebook&#39;,&#39;392614095&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_facebook"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_twitter nolightbox"> <a href="#" title="" onclick="essb_window(&#39;https://twitter.com/intent/tweet?text=Herb and Veggie Frittata&amp;url=https://www.farmflavor.com/recipe/herb-veggie-frittata/&amp;counturl=https://www.farmflavor.com/recipe/herb-veggie-frittata/&#39;,&#39;twitter&#39;,&#39;392614095&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_twitter"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_google nolightbox"> <a href="https://plus.google.com/share?url=https://www.farmflavor.com/recipe/herb-veggie-frittata/" title="" onclick="essb_window(&#39;https://plus.google.com/share?url=https://www.farmflavor.com/recipe/herb-veggie-frittata/&#39;,&#39;google&#39;,&#39;392614095&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_google"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_pinterest nolightbox"> <a href="#" title="" onclick="essb_pinterest_picker(&#39;392614095&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_pinterest"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_linkedin nolightbox"> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;trk=EasySocialShareButtons&amp;title=Herb and Veggie Frittata&amp;url=https://www.farmflavor.com/recipe/herb-veggie-frittata/" title="" onclick="essb_window(&#39;https://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;trk=EasySocialShareButtons&amp;title=Herb and Veggie Frittata&amp;url=https://www.farmflavor.com/recipe/herb-veggie-frittata/&#39;,&#39;linkedin&#39;,&#39;392614095&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_linkedin"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_print nolightbox"> <a href="#" title="" onclick="essb_print(&#39;392614095&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_print"></span><span class="essb_network_name essb_noname"></span></a></li><li class="essb_item essb_link_mail nolightbox"> <a href="#" title="" onclick="essb_open_mailform(&#39;392614095&#39;); return false;" target="_blank" rel="nofollow" ><span class="essb_icon essb_icon_mail"></span><span class="essb_network_name essb_noname"></span></a></li></ul></div> 
+
+                                    <div class="td-author-name vcard author" style="display: none"><span class="fn"><a href="https://www.farmflavor.com/author/charlyn-fargo/">Charlyn Fargo</a></span></div>	        <span style="display: none;" itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Charlyn Fargo"></span><meta itemprop="datePublished" content="2017-01-30T09:00:26+00:00"><meta itemprop="dateModified" content="2017-01-20T15:27:00+00:00"><meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="https://www.farmflavor.com/recipe/herb-veggie-frittata/"/><span style="display: none;" itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span style="display: none;" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://www.farmflavor.com/wp-content/uploads/2017/02/farm-flavor-logo.png"></span><meta itemprop="name" content="Farm Flavor"></span><meta itemprop="headline " content="Herb and Veggie Frittata"><span style="display: none;" itemprop="image" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg"><meta itemprop="width" content="613"><meta itemprop="height" content="613"></span>        </footer>
+
+    
+	<div class="comments" id="comments">
+        
+            <script type="text/javascript">
+                window.wpsf_timestamp_enabled = true;
+                window.wpsf_threshold = 10000;
+                window.wpsf_message = 'This site is protected by an anti-spam feature that requires {0} seconds to have elapsed between the page load and the form submission. \n\n Please close this alert window.  The form may be resubmitted successfully in {1} seconds.';
+
+                String.prototype.format = function (args) {
+                    var str = this;
+                    return str.replace(String.prototype.format.regex, function (item) {
+                        var intVal = parseInt(item.substring(1, item.length - 1));
+                        var replace;
+                        if (intVal >= 0) {
+                            replace = args[intVal];
+                        } else if (intVal === -1) {
+                            replace = "{";
+                        } else if (intVal === -2) {
+                            replace = "}";
+                        } else {
+                            replace = "";
+                        }
+                        return replace;
+                    });
+                };
+                String.prototype.format.regex = new RegExp("{-?[0-9]+}", "g");
+            </script>
+        	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">LEAVE A REPLY <small><a rel="nofollow" id="cancel-comment-reply-link" href="/recipe/herb-veggie-frittata/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://www.farmflavor.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<div class="clearfix"></div>
+				<div class="comment-form-input-wrap td-form-comment">
+					<textarea placeholder="Comment:" id="comment" name="comment-ed0e6f163d48edf4e9ed250c5af" cols="45" rows="8" aria-required="true"></textarea><textarea name="comment" rows="1" cols="1" style="display:none"></textarea>
+					<div class="td-warning-comment">Please enter your comment!</div>
+				</div>
+		        <input type="hidden" name="comment-replaced" value="true" /><div class="comment-form-input-wrap td-form-author">
+			            <input class="" id="author" name="author" placeholder="Name:*" type="text" value="" size="30"  aria-required='true' />
+			            <div class="td-warning-author">Please enter your name here</div>
+			         </div>
+<div class="comment-form-input-wrap td-form-email">
+			            <input class="" id="email" name="email" placeholder="Email:*" type="text" value="" size="30"  aria-required='true' />
+			            <div class="td-warning-email-error">You have entered an incorrect email address!</div>
+			            <div class="td-warning-email">Please enter your email address here</div>
+			         </div>
+<div class="comment-form-input-wrap td-form-url">
+			            <input class="" id="url" name="url" placeholder="Website:" type="text" value="" size="30" />
+                     </div>
+                        <script type="text/javascript">
+                            window.wpsf_javascript_enabled = true;
+                        </script>
+                                                <script type="text/javascript">
+                            window.wpsf_timestamp_enabled = true;
+                        </script>
+                                                    <input type="text"
+                                   id="more_comment"
+                                   aria-required="true" size="30" value=""
+                                   name="more_comment"
+                                   style="display: none;">
+                        <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='36044' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display:none;"><input type="text" name="nxts" value="1507843874" /><input type="text" name="nxts_signed" value="89377c05abff577e8d6deb2c13f10c9741bb5373" /><input type="text" name="8a4afc039314856025f83a6ec5" value="c4f534db2b8aeb9e" /><input type="text" name="fbc9034427" value="" /></p>			</form>
+			</div><!-- #respond -->
+	    </div> <!-- /.content -->
+                                </div>
+                            </div>
+                            <div class="td-pb-span4 td-main-sidebar" role="complementary">
+                                <div class="td-ss-main-sidebar">            
+									<aside class="td_block_template_1 widget widget_execphp">			<div class="execphpwidget"><div style="text-align:center;">
+<script type="text/javascript">
+	sas.call("std", {
+	siteId:	117498,
+	pageId:		712684,
+	formatId:	45492,
+	target: 	'recipeid=36044'
+		});
+</script>
+<noscript>
+	<a href="//www5.smartadserver.com/ac?jump=1&nwid=2098&siteid=117498&fmtid45492=&visit=m&tmstp=[timestamp]&out=nonrich" target="_blank">                
+		<img src="//www5.smartadserver.com/ac?out=nonrich&nwid=2098&siteid=117498&fmtid=45492&visit=m&tmstp=[timestamp]" border="0" alt="" />
+	</a></noscript>
+</div></div>
+		</aside>
+        <style id="emma-emarketing" type="text/css" media="all">
+            /**
+            * Emma Emarketing Plugin Stylesheet
+            */
+
+            /** Basics **/
+            #emma-form { max-width: 100%; }
+            #emma-subscription-form { width: 100%; }
+            ul#emma-form-elements { list-style-type: none; margin: 0; padding: 0; }
+            ul#emma-form-elements li.emma-form-row { list-style-type: none; width: 90%; margin: 3px auto; display: block; }
+            ul#emma-form-elements .emma-form-label { float: left; width: 27%; }
+            ul#emma-form-elements .emma-form-input { float: right; width: 69%;}
+            ul#emma-form-elements .emma-form-row-last { clear: both; }
+            ul#emma-form-elements .emma-required { color: #C00; }
+            ul#emma-form-elements #emma-form-submit { float: right; }
+            ul#emma-form-elements .emma-form-label-required { width: 40%; }
+            .emma-status-msg { width: 90%; margin: 0 auto; }
+            .emma-error { width: 90%; margin: 0 auto; color: #C00; }
+            #emma-subscription-form .validation-container {display: none !important;position: absolute !important;left: -9000px;}
+
+			/* Deprecated */
+            #emma-form.x-small { width: 200px; }
+            #emma-form.small { width: 280px; }
+            #emma-form.medium { width: 300px; }
+            #emma-form.large { width: 340px; }
+            
+            #emma-form.emma-horizontal-layout { width: auto; }
+			.emma-horizontal-layout ul#emma-form-elements li.emma-form-row { width:24%; float:left; margin-right: 1%; }
+			.emma-horizontal-layout ul#emma-form-elements .emma-form-input { width: 100%; }
+			.emma-horizontal-layout #emma-form-submit { width: 100%; padding: 0; height: 37px; }
+			.emma-horizontal-layout ul#emma-form-elements li.emma-form-row-last { margin-right: 0; clear: none; }
+			.emma-horizontal-layout .emma-form-label,.emma-horizontal-layout .emma-form-label-required { display:none; }
+			
+			#emma-form.emma-only-email.emma-horizontal-layout ul#emma-form-elements li.emma-form-row { width: 49%; }
+
+			.emma-cf:before,.emma-cf:after { content: " "; display: table; }
+			.emma-cf:after { clear: both; }
+			.emma-cf { *zoom: 1; }
+
+            /** Customizable Elements **/
+            ul#emma-form-elements .emma-form-input {
+                border: 1px solid #000;
+                color: #000;
+                background-color: #FFF;
+            }
+            #emma-form input[type="submit"], #emma-form a#emma-form-submit {
+                border: 1px solid #555;
+                color: #FFF;
+                background-color: #000;
+                width: ;            }
+            #emma-form input[type="submit"]:hover, , #emma-form a#emma-form-submit:hover {
+                border: 1px solid #555;
+                color: #000;
+                background-color: #FFF;
+            }
+
+            #emma-form.x-small ul#emma-form-elements .emma-form-input,
+            #emma-form.x-small ul#emma-form-elements .emma-form-label { float: left; width: 97%; }
+            
+            .spinner{
+	            background: url(wp-includes/images/spinner.gif) #fff center no-repeat;
+				-webkit-background-size: 20px 20px;
+				display: none;
+				opacity: 1.7;
+				width: 20px;
+				height: 20px;
+				padding: 15px;
+				margin: 30px auto 50px;
+				border-radius: 4px;
+				box-shadow: 0px 0px 7px rgba(0,0,0,.1);
+			}
+            
+            /* alert text */
+            .emma-status, .emma-alert { 
+	            width: 100%;
+				margin: 1em auto;
+				padding: 1em 1em 1em 5em;
+				background: rgb(255, 235, 235);
+				font-size: .8em;
+				font-family: sans-serif;
+				font-style: italic;
+				color: rgb(71, 71, 71);
+				border-radius: 3px;
+				border: thin solid rgb(247, 195, 195);
+				position: relative;
+				box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+			}
+			
+			.emma-status {
+				background: rgb(255, 235, 235);
+				border: thin solid rgb(247, 195, 195);
+			}
+			
+			.emma-status:before, .emma-alert:before {
+				content: '!';
+				position: absolute;
+				top: .6em;
+				top: 13px;
+				left: .5em;
+				left: 9px;
+				color: #ffffff;
+				background: rgb(208, 45, 45);
+				height: 30px;
+				width: 30px;
+				text-align: center;
+				font-family: 'Georgia' serif;
+				font-size: 1.4em;
+				line-height: 1.5em;
+				font-style: normal;
+				border-radius: 50%;
+			}
+			
+			.emma-status:not(.emma-alert):before {
+			    content: '';
+			    background: rgb(85, 182, 85);
+			}
+			
+			.emma-status:not(.emma-alert):after {
+			    content:'';
+			    border: 4px solid #fff;
+			    border-top: none;
+			    border-left: none;
+			    width: 11px;
+			    height: 18px;
+			    display:block;
+			    position: absolute; 
+			    top: 16px; 
+			    left: 19px;
+			    transform: 		   rotate(45deg);
+				-webkit-transform: rotate(45deg);
+				   -moz-transform: rotate(45deg);
+				   	 -o-transform: rotate(45deg);
+				   	-ms-transform: rotate(45deg);
+			}
+			
+			.emma-status:not(.emma-alert) {
+			    background: rgb(230, 250, 230);
+			    border: thin solid rgb(166, 187, 166);
+			}
+			
+			.recaptcha-popup {
+				position: fixed;
+				z-index: 999999;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background: rgba(0,0,0,.6);
+			}
+			
+			.recaptcha-popup.hidden {
+				display: none;
+			}
+			
+			.recaptcha-popup .inner {
+				position: absolute;
+				top: 25vh;
+				left: 25vw;
+				width: 50vw;
+				background: #fff;
+				border-radius: 2px;
+				padding: 2em;
+				box-sizing: border-box;
+			}
+			
+			.recaptcha-popup .inner p {
+				color: #030303;
+				text-align: center;
+				font-size: 1.5vw;
+				font-size: 1.25rem;
+			}
+			
+			.recaptcha-popup .recaptcha-container > div {
+				margin: 0 auto;
+				max-width: 100%;
+			}
+			
+			@media only screen and (max-width: 760px) {
+				.recaptcha-popup .inner {
+					width: 90vw;
+					left: 5vw;
+					padding: 2em .5em;
+				}
+				.recaptcha-popup .inner p {
+					font-size: 1.25rem;
+				}
+			}
+
+        </style>
+
+    <aside class="td_block_template_1 widget widget_text">			<div class="textwidget"><div class="signup-widget" style="margin-bottom:20px;"><div id="emma-form" class="emma-vertical-layout " style="width:100%"><div class="emma-wrap"><form id="emma-subscription-form" data-form-unique="7601570" action="/recipe/herb-veggie-frittata/" method="post" accept-charset="utf-8"><ul id="emma-form-elements" class="emma-cf"><li class="emma-form-row emma-cf"><label class="emma-form-label" for="emma-main-input">Em&#97;i&#108;</label><input id="emma-main-input" class="emma-form-input" type="text" name="emma_main_input" size="30" placeholder="&#69;m&#97;&#105;l&#32;&#97;&#100;&#100;r&#101;s&#115;"></li><li class="emma-form-row emma-cf"><label class="emma-form-label" for="emma-firstname">First Name</label><input id="emma-firstname" class="emma-form-input" type="text" name="emma_firstname" size="30" placeholder="First name"></li><li class="emma-form-row emma-cf"><label class="emma-form-label" for="emma-lastname">Last Name</label><input id="emma-lastname"  class="emma-form-input" type="text" name="emma_lastname"  size="30" placeholder="Last name"></li><li class="emma-form-row emma-form-row-last"><span class="emma-form-label-required"></span><div class="validation-container"><input name="validation" type="text" /></div><input type="hidden" name="emma_signup_form_id" value="" /><input type="hidden" name="emma_send_confirmation" value="" /><input type="hidden" name="emma_form_unique" value="7601570" />
+        <div class="emma-submit-wrap-7601570"><noscript><div class="emma-alert">Sorry. You must have JavaScript enabled to fill out this form.</div></noscript></div>
+        <script type="text/javascript">
+        	jQuery(document).ready(function($) {
+        		
+        		$(".emma-submit-wrap-7601570").append('<input id="emma-form-submit-7601570" type="submit" name="emma_form_submit" value="Subscribe">');
+        		
+        	});
+        </script>
+        </li></ul></form></div><!-- end .emma-wrap --></div><!-- end #emma-form --></div></div>
+		</aside><div class="td_block_wrap td_block_1 td_block_widget td_uid_1_59dfdf22b98d0_rand td-pb-border-top td_block_template_1 td-column-1"  data-td-block-uid="td_uid_1_59dfdf22b98d0" ><script>var block_td_uid_1_59dfdf22b98d0 = new tdBlock();
+block_td_uid_1_59dfdf22b98d0.id = "td_uid_1_59dfdf22b98d0";
+block_td_uid_1_59dfdf22b98d0.atts = '{"limit":"4","sort":"random_posts","post_ids":"","tag_slug":"","autors_id":"","installed_post_types":"post","category_id":"","category_ids":"-4730, -4784, -4803, -4810, -4829, -4842, -4861, -4868, -4875, -4882, -4889, -4896, -4929, -4948, -4961, -4968, -4975, -4994, -5007, -5014, -5021, -5028, -5035, -5042, -5049, -5056, -5120, -5122","custom_title":"Popular Posts","custom_url":"","show_child_cat":"","sub_cat_ajax":"","ajax_pagination":"","header_color":"#","header_text_color":"#","ajax_pagination_infinite_stop":"","td_column_number":1,"td_ajax_preloading":"","td_ajax_filter_type":"","td_ajax_filter_ids":"","td_filter_default_txt":"All","color_preset":"","border_top":"","class":"td_block_widget td_uid_1_59dfdf22b98d0_rand","el_class":"","offset":"","css":"","tdc_css":"","tdc_css_class":"td_uid_1_59dfdf22b98d0_rand","live_filter":"","live_filter_cur_post_id":"","live_filter_cur_post_author":"","block_template_id":""}';
+block_td_uid_1_59dfdf22b98d0.td_column_number = "1";
+block_td_uid_1_59dfdf22b98d0.block_type = "td_block_1";
+block_td_uid_1_59dfdf22b98d0.post_count = "4";
+block_td_uid_1_59dfdf22b98d0.found_posts = "2960";
+block_td_uid_1_59dfdf22b98d0.header_color = "#";
+block_td_uid_1_59dfdf22b98d0.ajax_pagination_infinite_stop = "";
+block_td_uid_1_59dfdf22b98d0.max_num_pages = "740";
+tdBlocksArray.push(block_td_uid_1_59dfdf22b98d0);
+</script><div class="td-block-title-wrap"><h4 class="block-title"><span class="td-pulldown-size">Popular Posts</span></h4></div><div id=td_uid_1_59dfdf22b98d0 class="td_block_inner">
+
+	<div class="td-block-span12">
+
+        <div class="td_module_4 td_module_wrap td-animation-stack">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://www.farmflavor.com/recipe/apple-turkey-wrap/" rel="bookmark" title="Apple Turkey Wrap"><img width="324" height="235" class="entry-thumb" src="https://www.farmflavor.com/wp-content/uploads/2016/06/1521115JSO0992-324x235.jpg" srcset="https://www.farmflavor.com/wp-content/uploads/2016/06/1521115JSO0992-324x235.jpg 324w, https://www.farmflavor.com/wp-content/uploads/2016/06/1521115JSO0992-667x486.jpg 667w" sizes="(max-width: 324px) 100vw, 324px" alt="Apple Turkey Wrap" title="Apple Turkey Wrap"/></a></div>                            </div>
+
+            <h3 class="entry-title td-module-title"><a href="https://www.farmflavor.com/recipe/apple-turkey-wrap/" rel="bookmark" title="Apple Turkey Wrap">Apple Turkey Wrap</a></h3>
+            <div class="td-module-meta-info">
+                <span class="td-post-author-name"><a href="https://www.farmflavor.com/author/kim-galeaz/">Kim Galeaz</a> <span>-</span> </span>                <span class="td-post-date"><time class="entry-date updated td-module-date" datetime="2016-08-17T09:00:47+00:00" >August 17, 2016</time></span>                <div class="td-module-comments"><a href="https://www.farmflavor.com/recipe/apple-turkey-wrap/#respond">0</a></div>            </div>
+
+            <div class="td-excerpt">
+                Turkey, cheddar cheese and apples combine for one flavorful wrap.             </div>
+
+            
+        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack">
+
+        <div class="td-module-thumb"><a href="https://www.farmflavor.com/georgia/georgia-agritourism-apples/" rel="bookmark" title="Georgia Agritourism is More Than Apples"><img width="100" height="70" class="entry-thumb" src="https://www.farmflavor.com/wp-content/uploads/2016/09/1620516JWA0715-100x70.jpg" srcset="https://www.farmflavor.com/wp-content/uploads/2016/09/1620516JWA0715-100x70.jpg 100w, https://www.farmflavor.com/wp-content/uploads/2016/09/1620516JWA0715-218x150.jpg 218w" sizes="(max-width: 100px) 100vw, 100px" alt="Children enjoy a variety of fun, agricultural activities at Hillcrest Orchards owned by Lynn and Janice Hale" title="Georgia Agritourism is More Than Apples"/></a></div>
+        <div class="item-details">
+            <h3 class="entry-title td-module-title"><a href="https://www.farmflavor.com/georgia/georgia-agritourism-apples/" rel="bookmark" title="Georgia Agritourism is More Than Apples">Georgia Agritourism is More Than Apples</a></h3>            <div class="td-module-meta-info">
+                                <span class="td-post-author-name"><a href="https://www.farmflavor.com/author/rachel-bertone/">Rachel Bertone</a> <span>-</span> </span>                <span class="td-post-date"><time class="entry-date updated td-module-date" datetime="2016-10-06T10:34:43+00:00" >October 6, 2016</time></span>                            </div>
+        </div>
+
+        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack">
+
+        <div class="td-module-thumb"><a href="https://www.farmflavor.com/arkansas/from-farm-to-zoo/" rel="bookmark" title="From Farm to Zoo"><img width="100" height="70" class="entry-thumb" src="https://www.farmflavor.com/wp-content/uploads/2017/01/1630716JSO8278-100x70.jpg" srcset="https://www.farmflavor.com/wp-content/uploads/2017/01/1630716JSO8278-100x70.jpg 100w, https://www.farmflavor.com/wp-content/uploads/2017/01/1630716JSO8278-218x150.jpg 218w" sizes="(max-width: 100px) 100vw, 100px" alt="Little Rock Zoo exhibit" title="From Farm to Zoo"/></a></div>
+        <div class="item-details">
+            <h3 class="entry-title td-module-title"><a href="https://www.farmflavor.com/arkansas/from-farm-to-zoo/" rel="bookmark" title="From Farm to Zoo">From Farm to Zoo</a></h3>            <div class="td-module-meta-info">
+                                <span class="td-post-author-name"><a href="https://www.farmflavor.com/author/jessica-walker-boehm/">Jessica Walker Boehm</a> <span>-</span> </span>                <span class="td-post-date"><time class="entry-date updated td-module-date" datetime="2017-01-20T16:20:57+00:00" >January 20, 2017</time></span>                            </div>
+        </div>
+
+        </div>
+
+        
+	</div> <!-- ./td-block-span12 -->
+
+	<div class="td-block-span12">
+
+        <div class="td_module_6 td_module_wrap td-animation-stack">
+
+        <div class="td-module-thumb"><a href="https://www.farmflavor.com/kentucky/kentucky-agribusiness/poultry-ranks-high-among-kentuckys-commodities-exports/" rel="bookmark" title="Poultry Ranks High Among Kentucky&#8217;s Commodities and Exports"><img width="100" height="70" class="entry-thumb" src="https://www.farmflavor.com/wp-content/uploads/2012/11/1600912BM4952-hor-100x70.jpg" srcset="https://www.farmflavor.com/wp-content/uploads/2012/11/1600912BM4952-hor-100x70.jpg 100w, https://www.farmflavor.com/wp-content/uploads/2012/11/1600912BM4952-hor-218x150.jpg 218w" sizes="(max-width: 100px) 100vw, 100px" alt="Broilers" title="Poultry Ranks High Among Kentucky&#8217;s Commodities and Exports"/></a></div>
+        <div class="item-details">
+            <h3 class="entry-title td-module-title"><a href="https://www.farmflavor.com/kentucky/kentucky-agribusiness/poultry-ranks-high-among-kentuckys-commodities-exports/" rel="bookmark" title="Poultry Ranks High Among Kentucky&#8217;s Commodities and Exports">Poultry Ranks High Among Kentucky&#8217;s Commodities and Exports</a></h3>            <div class="td-module-meta-info">
+                                <span class="td-post-author-name"><a href="https://www.farmflavor.com/author/cathy-lockman/">Cathy Lockman</a> <span>-</span> </span>                <span class="td-post-date"><time class="entry-date updated td-module-date" datetime="2012-11-06T13:57:48+00:00" >November 6, 2012</time></span>                            </div>
+        </div>
+
+        </div>
+
+        
+	</div> <!-- ./td-block-span12 --></div></div> <!-- ./block --><aside class="td_block_template_1 widget widget_execphp">			<div class="execphpwidget"><div style="text-align:center;">
+<script type="text/javascript">
+	sas.call("std", {
+	siteId:	117498,
+	pageId:		712684,
+	formatId:	52989,
+	target: 	'recipeid=36044'
+		});
+</script>
+<noscript>
+	<a href="//www5.smartadserver.com/ac?jump=1&nwid=2098&siteid=117498&fmtid=52989&visit=m&tmstp=[timestamp]&out=nonrich" target="_blank">                
+		<img src="//www5.smartadserver.com/ac?out=nonrich&nwid=2098&siteid=117498&fmtid=52989&visit=m&tmstp=[timestamp]" border="0" alt="" />
+	</a></noscript>
+</div></div>
+		</aside>                                </div>
+                            </div>
+                                    </div> <!-- /.td-pb-row -->
+        </article> <!-- /.post -->
+    </div> <!-- /.td-container -->
+    </div> <!-- /.td-main-content-wrap -->
+
+
+
+<!-- Footer -->
+<div class="td-container">
+	<div class="td-pb-row">
+		<div class="td-pb-span12">
+			<div class="td-a-rec td-a-rec-id-footer_top">
+								<script type="text/javascript">
+					sas.call("std", {
+					siteId:	117498,
+					pageId:		712684,
+					formatId:	45491,
+					target: 	'recipeid=36044'
+										});
+				</script>
+				<noscript>
+					<a href="//www5.smartadserver.com/ac?jump=1&nwid=2098&siteid=117498&fmtid=45491&visit=m&tmstp=[timestamp]&out=nonrich" target="_blank">                
+						<img src="//www5.smartadserver.com/ac?out=nonrich&nwid=2098&siteid=117498&fmtid=45491&visit=m&tmstp=[timestamp]" border="0" alt="" />
+					</a>
+				</noscript>
+								</div>
+		</div>
+	</div>
+</div>
+
+<div class="td-footer-wrapper td-container-wrap ">
+    <div class="td-container">
+        <div class="td-pb-row">
+
+            <div class="td-pb-span4">
+                <aside class="td_block_template_1 widget widget_text">			<div class="textwidget"><p><img src="/wp-content/uploads/2016/02/farm-flavor-logo-white.png" /></p>
+<p class="footer-about-text">Farm Flavor profiles America's hardworking farmers and ranchers who produce our food, fuel and fiber, connecting consumers to the country's vital agriculture industry. Find information on exactly where our food comes from, along with delicious recipes, helpful tips and reliable data.</p>
+</div>
+		</aside>            </div>
+
+            <div class="td-pb-span4">
+                <aside class="td_block_template_1 widget widget_execphp">			<div class="execphpwidget"><div class="footer-middle">
+<h3>VISIT OUR SISTER SITES</h3><div class="ffcolhalf"><a href="http://livability.com" alt="Livability"><img src="/wp-content/uploads/2016/04/logo-liv-white.png" /></a><a href="http://tnhomeandfarm.com" alt="TN Home and Farm"><img src="/wp-content/uploads/2016/04/logo-thf-white.png" /></a><a href="http://ilfbpartners.com" alt="Illinois Partners"><img src="/wp-content/uploads/2016/04/logo-ip-white.png" /></a></div><div class="ffcolhalf"><a href="http://my-indiana-home.com.com" alt="My Indiana Home"><img src="/wp-content/uploads/2016/04/logo-mih-white.png" /></a><a href="http://ncfieldfamily.org" alt="North Carolina Field and Family"><img src="/wp-content/uploads/2016/04/logo-ncff-white.png" /></a></div></div></div>
+		</aside>            </div>
+
+            <div class="td-pb-span4">
+                <div class="footer-social-wrap td-social-style-2"><h3>FOLLOW US</h3>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://facebook.com/farmflavor" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://instagram.com/farmflavor" title="Instagram">
+                <i class="td-icon-font td-icon-instagram"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://pinterest.com/farmflavor" title="Pinterest">
+                <i class="td-icon-font td-icon-pinterest"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://feeds.feedburner.com/FarmFlavor" title="RSS">
+                <i class="td-icon-font td-icon-rss"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="http://twitter.com/farmflavor" title="Twitter">
+                <i class="td-icon-font td-icon-twitter"></i>
+            </a>
+        </span></div><aside class="td_block_template_1 widget widget_nav_menu"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-35407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-first td-menu-item td-normal-menu menu-item-35407"><a href="https://www.farmflavor.com/united-states-agriculture/">U.S. Agriculture</a></li>
+<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-213"><a href="https://www.farmflavor.com/recipes/">Recipes</a></li>
+<li id="menu-item-35408" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-35408"><a href="https://www.farmflavor.com/athome/">At Home</a></li>
+</ul></div></aside><aside class="td_block_template_1 widget widget_nav_menu"><div class="menu-footer-right-container"><ul id="menu-footer-right" class="menu"><li id="menu-item-30598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-first td-menu-item td-normal-menu menu-item-30598"><a href="https://www.farmflavor.com/advertising/">Advertise</a></li>
+<li id="menu-item-30599" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-30599"><a href="https://www.farmflavor.com/about/">About</a></li>
+<li id="menu-item-30597" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-30597"><a href="https://www.farmflavor.com/contact/">Contact</a></li>
+</ul></div></aside>            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Sub Footer -->
+    <div class="td-sub-footer-container">
+        <div class="td-container">
+            <div class="td-pb-row">
+                <div class="td-pb-span7 td-sub-footer-menu">
+                        <div class="menu-sub-footer-menu-container"><ul id="menu-sub-footer-menu" class="td-subfooter-menu"><li id="menu-item-30625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-first td-menu-item td-normal-menu menu-item-30625"><a href="https://www.farmflavor.com/farm-flavor-privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-30626" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-30626"><a href="https://www.farmflavor.com/payment/">Terms of Use / Payment</a></li>
+</ul></div>                </div>
+
+                <div class="td-pb-span12 td-sub-footer-copy">
+                    &copy; 2017 Journal Communications, Inc. All rights reserved. No portion of this website may be reproduced in whole or in part without written consent.                </div>
+            </div>
+        </div>
+    	    </div>
+    </div><!--close content div-->
+</div><!--close td-outer-wrap-->
+
+		<span class="map-tip" id="map-tip"></span>		
+		
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <div id="parsely-cfg" data-parsely-site="farmflavor.com"></div>
+</div>
+<script data-cfasync="false">
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.setAttribute('data-cfasync', 'false'); e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+
+
+    <!--
+
+        Theme: Newspaper by tagDiv.com 2017
+        Version: 7.8.1 (rara)
+        Deploy mode: deploy
+        Speed booster: v4.7
+
+        uid: 59dfdf2320ce0
+    -->
+
+    
+<!-- Custom css form theme panel -->
+<style type="text/css" media="screen">
+/* custom css theme panel */
+/* SEARCH 
+.td_search_subtitle {display:none;}
+*/
+
+/* DATES ON RIVERS */
+.td-module-meta-info .td-post-date {display:none;}
+.single .td-module-meta-info .td-post-date {display:inline;}
+
+/* VERTICAL RADIO BUTTONS ON FORMS */
+.vertical-radio span.wpcf7-list-item { display: block; }
+
+.td-visual-hidden {display:none !important;}
+
+h1.td-logo {margin-top:0;}
+.td-mobile-content .sub-menu {display:none;}
+
+.one-third {width:33%; display:inline-block; padding:12px;}
+.one-whole {width:100%; padding:12px;}
+.one-whole .wpcf7-list-item {padding:6px 6px 6px 0px; display:inline-block;}
+.dm-subscribe {margin-bottom:30px;}
+.td-mega-menu div[style] {display:none;}
+.td-main-content-wrap {margin-top:20px;}
+
+/* CATFISH */
+#catfish {width:970px; margin:0 auto;}
+/* INSTICATOR ADS */
+#div-insticator-ad-1 {margin-bottom:20px;}
+#div-insticator-ad-2 {margin:20px 0;}
+
+/* REMOVE MODAL FROM SMART LISTS */
+.td_smart_list_1 .td-slide-smart-list-figure {
+pointer-events:none!important;
+}
+
+
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (min-width: 1141px) {
+.mobile-sag-map {display:none}
+.td-post-content .recipe-summary {display:inline-block; width:50%;}
+}
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (min-width: 768px) and (max-width: 1018px) {
+.td-main-menu-logo img {max-width:170px;}
+}
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (max-width: 767px) {
+.td-main-menu-logo img {max-width:170px;}
+.sag-map {display:none;}
+.mobile-sag-map {display:block}
+.one-third {width:100%;}
+.sag-data-block-small {display:block; margin:10px auto !important;}
+ul.sag-submenu li {margin-left:0; clear:both; display:block;}
+ul.sag-submenu {text-align:center;}
+.td-post-content .recipe-summary {width:100%;}
+.relatedrecipe {width:90%;}
+.recipe-ingredients {width:90%;}
+
+/* CATFISH */
+#catfish {width:100%; margin:0 auto 40px;}
+
+/* SAG DATA BLOCKS */
+.sag-data .sag-data-block-small h3 {padding-top:10px;}
+.sag-data-block-small h3 {padding-top:10px;}
+h4.block-title {text-align:center;}
+.data-two-column {width:100%;}
+.data-one-column.green {width:100%; margin-top:20px;}
+.sag-data-block-small.green.markets {height:150px;}
+}
+</style>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.farmflavor.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/wp-spam-fighter/javascript/wp-spamfighter.js?ver=0.5.1'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/themes/Newspaper/js/tagdiv_theme.min.js?ver=7.8.1'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-includes/js/comment-reply.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/easy-social-share-buttons3/lib/modules/social-image-share/assets/js/easy-social-image-share.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/framework/src/js/jquery.prettyphoto.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/framework/src/js/jquery.viewport.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/mega_main_extensions-mcg/src/js/frontend.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/www.farmflavor.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.farmflavor.com/wp-content/plugins/emma-emarketing-plugin/assets/js/emma.js?ver=201706140834'></script>
+
+<!-- JS generated by theme -->
+
+<script>
+    
+
+                jQuery().ready(function jQuery_ready() {
+                    tdAjaxCount.tdGetViewsCountsAjax("post","[36044]");
+                });
+            
+
+	
+
+		(function(){
+			var html_jquery_obj = jQuery('html');
+
+			if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is('.ie9'))) {
+
+				var path = 'https://www.farmflavor.com/wp-content/themes/ff-child/style.css';
+
+				jQuery.get(path, function(data) {
+
+					var str_split_separator = '#td_css_split_separator';
+					var arr_splits = data.split(str_split_separator);
+					var arr_length = arr_splits.length;
+
+					if (arr_length > 1) {
+
+						var dir_path = 'https://www.farmflavor.com/wp-content/themes/Newspaper';
+						var splited_css = '';
+
+						for (var i = 0; i < arr_length; i++) {
+							if (i > 0) {
+								arr_splits[i] = str_split_separator + ' ' + arr_splits[i];
+							}
+							//jQuery('head').append('<style>' + arr_splits[i] + '</style>');
+
+							var formated_str = arr_splits[i].replace(/\surl\(\'(?!data\:)/gi, function regex_function(str) {
+								return ' url(\'' + dir_path + '/' + str.replace(/url\(\'/gi, '').replace(/^\s+|\s+$/gm,'');
+							});
+
+							splited_css += "<style>" + formated_str + "</style>";
+						}
+
+						var td_theme_css = jQuery('link#td-theme-css');
+
+						if (td_theme_css.length) {
+							td_theme_css.after(splited_css);
+						}
+					}
+				});
+			}
+		})();
+
+	
+	
+</script>
+
+
+<!-- Header style compiled by theme -->
+
+<style>
+    
+.sf-menu > .current-menu-item > a:after,
+    .sf-menu > .current-menu-ancestor > a:after,
+    .sf-menu > .current-category-ancestor > a:after,
+    .sf-menu > li:hover > a:after,
+    .sf-menu > .sfHover > a:after,
+    .td_block_mega_menu .td-next-prev-wrap a:hover,
+    .td-mega-span .td-post-category:hover,
+    .td-header-wrap .black-menu .sf-menu > li > a:hover,
+    .td-header-wrap .black-menu .sf-menu > .current-menu-ancestor > a,
+    .td-header-wrap .black-menu .sf-menu > .sfHover > a,
+    .header-search-wrap .td-drop-down-search:after,
+    .header-search-wrap .td-drop-down-search .btn:hover,
+    .td-header-wrap .black-menu .sf-menu > .current-menu-item > a,
+    .td-header-wrap .black-menu .sf-menu > .current-menu-ancestor > a,
+    .td-header-wrap .black-menu .sf-menu > .current-category-ancestor > a {
+        background-color: #3399cc;
+    }
+
+
+    .td_block_mega_menu .td-next-prev-wrap a:hover {
+        border-color: #3399cc;
+    }
+
+    .header-search-wrap .td-drop-down-search:before {
+        border-color: transparent transparent #3399cc transparent;
+    }
+
+    .td_mega_menu_sub_cats .cur-sub-cat,
+    .td_mod_mega_menu:hover .entry-title a,
+    .td-theme-wrap .sf-menu ul .td-menu-item > a:hover,
+    .td-theme-wrap .sf-menu ul .sfHover > a,
+    .td-theme-wrap .sf-menu ul .current-menu-ancestor > a,
+    .td-theme-wrap .sf-menu ul .current-category-ancestor > a,
+    .td-theme-wrap .sf-menu ul .current-menu-item > a {
+        color: #3399cc;
+    }
+
+
+    
+    .top-header-menu > li > a,
+    .td-weather-top-widget .td-weather-now .td-big-degrees,
+    .td-weather-top-widget .td-weather-header .td-weather-city,
+    .td-header-sp-top-menu .td_data_time {
+        font-family:Roboto;
+	font-weight:normal;
+	
+    }
+    
+    ul.sf-menu > .td-menu-item > a {
+        font-family:Roboto;
+	
+    }
+    
+    .block-title > span,
+    .block-title > a,
+    .widgettitle,
+    .td-trending-now-title,
+    .wpb_tabs li a,
+    .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab > a,
+    .td-theme-wrap .td-related-title a,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li a,
+    .woocommerce .product .products h2,
+    .td-theme-wrap .td-block-title {
+        font-family:Roboto;
+	font-weight:normal;
+	
+    }
+    
+    .td-post-author-name a {
+        font-family:Roboto;
+	
+    }
+    
+    .td-post-date .entry-date {
+        font-family:Roboto;
+	
+    }
+    
+    .td-module-comments a,
+    .td-post-views span,
+    .td-post-comments a {
+        font-family:Roboto;
+	
+    }
+    
+    .td-big-grid-meta .td-post-category,
+    .td_module_wrap .td-post-category,
+    .td-module-image .td-post-category {
+        font-family:Roboto;
+	
+    }
+    
+    .td-subcat-filter .td-subcat-dropdown a,
+    .td-subcat-filter .td-subcat-list a,
+    .td-subcat-filter .td-subcat-dropdown span {
+        font-family:Roboto;
+	
+    }
+    
+    .td-excerpt {
+        font-family:Roboto;
+	
+    }
+
+
+	
+	.td_module_wrap .td-module-title {
+		font-family:Roboto;
+	
+	}
+     
+    .td_module_5 .td-module-title {
+    	font-family:Roboto;
+	
+    }
+    
+	.td_block_trending_now .entry-title a,
+	.td-theme-slider .td-module-title a,
+    .td-big-grid-post .entry-title {
+		font-family:Roboto;
+	
+	}
+    
+    .td-big-grid-post.td-big-thumb .td-big-grid-meta,
+    .td-big-thumb .td-big-grid-meta .entry-title {
+        font-family:Roboto;
+	
+    }
+    
+	.post .td-post-header .entry-title {
+		font-family:Roboto;
+	
+	}
+    
+    .td-post-content p,
+    .td-post-content {
+        font-family:Georgia, Times, "Times New Roman", serif;
+	font-size:15px;
+	line-height:28px;
+	
+    }
+    
+    .td-page-title,
+    .woocommerce-page .page-title,
+    .td-category-title-holder .td-page-title {
+    	font-family:Roboto;
+	
+    }
+</style>
+
+<div class="essb_mailform"><div class="essb_mailform_content"><p>Send this to a friend</p><label class="essb_mailform_content_label">Your email</label><input type="text" id="essb_mailform_from" class="essb_mailform_content_input" placeholder="Your email"/><label class="essb_mailform_content_label">Recipient email</label><input type="text" id="essb_mailform_to" class="essb_mailform_content_input" placeholder="Recipient email"/><div class="essb_mailform_content_buttons"><button id="essb_mailform_btn_submit" class="essb_mailform_content_button" onclick="essb_mailform_send();">Send</button><button id="essb_mailform_btn_cancel" class="essb_mailform_content_button" onclick="essb_close_mailform(); return false;">Cancel</button></div><input type="hidden" id="essb_mail_salt" value=""/><input type="hidden" id="essb_mail_instance" value=""/><input type="hidden" id="essb_mail_post" value=""/></div></div><div class="essb_mailform_shadow"></div><link rel="stylesheet" id="essb-social-image-share"  href="https://www.farmflavor.com/wp-content/plugins/easy-social-share-buttons3/lib/modules/social-image-share/assets/css/easy-social-image-share.min.css" type="text/css" media="all" /><link rel="stylesheet" id="essb-cct-style"  href="https://www.farmflavor.com/wp-content/plugins/easy-social-share-buttons3/lib/modules/click-to-tweet/assets/css/styles.css" type="text/css" media="all" /><script type="text/javascript">var essb_handle_stats = function(oService, oPostID, oInstance) { var element = jQuery('.essb_'+oInstance); var instance_postion = jQuery(element).attr("data-essb-position") || ""; var instance_template = jQuery(element).attr("data-essb-template") || ""; var instance_button = jQuery(element).attr("data-essb-button-style") || ""; var instance_counters = jQuery(element).hasClass("essb_counters") ? true : false; var instance_nostats = jQuery(element).hasClass("essb_nostats") ? true : false; if (instance_nostats) { return; } var instance_mobile = false; if( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) { instance_mobile = true; } if (typeof(essb_settings) != "undefined") { jQuery.post(essb_settings.ajax_url, { 'action': 'essb_stat_log', 'post_id': oPostID, 'service': oService, 'template': instance_template, 'mobile': instance_mobile, 'position': instance_postion, 'button': instance_button, 'counter': instance_counters, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { }},'json'); } };var essb_window = function(oUrl, oService, oInstance) { var element = jQuery('.essb_'+oInstance); var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; var wnd; var w = 800 ; var h = 500; if (oService == "twitter") { w = 500; h= 300; } var left = (screen.width/2)-(w/2); var top = (screen.height/2)-(h/2); if (oService == "twitter") { wnd = window.open( oUrl, "essb_share_window", "height=300,width=500,resizable=1,scrollbars=yes,top="+top+",left="+left ); } else { wnd = window.open( oUrl, "essb_share_window", "height=500,width=800,resizable=1,scrollbars=yes,top="+top+",left="+left ); } if (typeof(essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof(essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); if (typeof(essb_abtesting_logger) != "undefined") { essb_abtesting_logger(oService, instance_post_id, oInstance); } var pollTimer = window.setInterval(function() { if (wnd.closed !== false) { window.clearInterval(pollTimer); essb_smart_onclose_events(oService, instance_post_id); } }, 200); }; var essb_self_postcount = function(oService, oCountID) { if (typeof(essb_settings) != "undefined") { oCountID = String(oCountID); jQuery.post(essb_settings.ajax_url, { 'action': 'essb_self_postcount', 'post_id': oCountID, 'service': oService, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { }},'json'); } }; var essb_smart_onclose_events = function(oService, oPostID) { if (oService == "subscribe" || oService == "comments") return; if (typeof (essbasc_popup_show) == 'function') { essbasc_popup_show(); } if (typeof essb_acs_code == 'function') { essb_acs_code(oService, oPostID); } if (typeof(after_share_easyoptin) != "undefined") { essb_toggle_subscribe(after_share_easyoptin); } }; var essb_tracking_only = function(oUrl, oService, oInstance, oAfterShare) { var element = jQuery('.essb_'+oInstance); if (oUrl == "") { oUrl = document.URL; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; if (typeof(essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof(essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); if (oAfterShare) { essb_smart_onclose_events(oService, instance_post_id); } }; var essb_pinterest_picker = function(oInstance) { essb_tracking_only('', 'pinterest', oInstance); var e=document.createElement('script'); e.setAttribute('type','text/javascript'); e.setAttribute('charset','UTF-8'); e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e); };var essb_ga_tracking = function(oService, oPosition, oURL) { var essb_ga_type = essb_settings.essb3_ga_mode; if ( 'ga' in window && window.ga !== undefined && typeof window.ga === 'function' ) { if (essb_ga_type == "extended") { ga('send', 'event', 'social', oService + ' ' + oPosition, oURL); } else { ga('send', 'event', 'social', oService, oURL); } } if (essb_ga_type == "layers" && typeof(dataLayer) != "undefined") { dataLayer.push({ 'service': oService, 'position': oPosition, 'url': oURL, 'event': 'social' }); } };var essb_print = function (oInstance) { essb_tracking_only('', 'print', oInstance); window.print(); };var essb_mailform_opened = false; function essb_open_mailform(unique_id) { jQuery.fn.extend({ center: function () { return this.each(function() { var top = (jQuery(window).height() - jQuery(this).outerHeight()) / 2; var left = (jQuery(window).width() - jQuery(this).outerWidth()) / 2; jQuery(this).css({position:'fixed', margin:0, top: (top > 0 ? top : 0)+'px', left: (left > 0 ? left : 0)+'px'}); }); } }); if (essb_mailform_opened) { essb_close_mailform(unique_id); return; } var sender_element = jQuery(".essb_"+unique_id); if (!sender_element.length) return; var sender_post_id = jQuery(sender_element).attr("data-essb-postid") || ""; jQuery("#essb_mail_instance").val(unique_id); jQuery("#essb_mail_post").val(sender_post_id); var win_width = jQuery( window ).width(); var win_height = jQuery(window).height(); var doc_height = jQuery('document').height(); var base_width = 300; if (win_width < base_width) { base_width = win_width - 30; } var height_correction = 20; var element_class = ".essb_mailform"; var element_class_shadow = ".essb_mailform_shadow"; jQuery(element_class).css( { width: base_width+'px'}); var popup_height = jQuery(element_class).outerHeight(); if (popup_height > (win_height - 30)) { jQuery(element_class).css( { height: (win_height - height_correction)+'px'}); } jQuery("#essb_mailform_from").val(""); jQuery("#essb_mailform_to").val(""); if (jQuery("#essb_mailform_c").length) jQuery("#essb_mailform_c").val(""); jQuery(element_class_shadow).css( { height: (win_height)+'px'}); jQuery(element_class).center(); jQuery(element_class).slideDown(200); jQuery(element_class_shadow).fadeIn(200); essb_mailform_opened = true; essb_tracking_only("", "mail", unique_id); }; function essb_close_mailform() { var element_class = ".essb_mailform"; var element_class_shadow = ".essb_mailform_shadow"; jQuery(element_class).fadeOut(200); jQuery(element_class_shadow).fadeOut(200); essb_mailform_opened = false; }; function essb_mailform_send() { var sender_email = jQuery("#essb_mailform_from").val(); var recepient_email = jQuery("#essb_mailform_to").val(); var captcha_validate = jQuery("#essb_mailform_c").length ? true : false; var captcha = captcha_validate ? jQuery("#essb_mailform_c").val() : ""; var custom_message = jQuery("#essb_mailform_custom").length ? jQuery("#essb_mailform_custom").val() : ""; if (sender_email == "" || recepient_email == "" || (captcha == "" && captcha_validate)) { alert("Please fill all fields in form!"); return; } var mail_salt = jQuery("#essb_mail_salt").val(); var instance_post_id = jQuery("#essb_mail_post").val(); console.log("mail salt = " + mail_salt); if (typeof(essb_settings) != "undefined") { jQuery.post(essb_settings.ajax_url, { "action": "essb_mail_action", "post_id": instance_post_id, "from": sender_email, "to": recepient_email, "c": captcha, "cu": custom_message, "salt": mail_salt, "nonce": essb_settings.essb3_nonce }, function (data) { if (data) { console.log(data); alert(data["message"]); if (data["code"] == "1") essb_close_mailform(); }},'json'); } };</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"fbcca9cd71","applicationID":"38443377","transactionName":"ZQdQY0QAXhBXWhZcVlxNc1RCCF8NGUoLW15eB21DUwxAD1dNB2oL","queueTime":0,"applicationTime":957,"atts":"SUBTFQwaTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

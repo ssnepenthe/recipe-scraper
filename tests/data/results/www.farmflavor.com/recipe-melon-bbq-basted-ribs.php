@@ -16,7 +16,7 @@ return [
     'cookTime' => 'PT4H',
     'cuisines' => null,
     'description' => 'Muskmelon is the star of this summery ribs recipe.',
-    'image' => 'http://farmflavor.com/wp-content/uploads/2017/03/1760816JSO8055.jpg',
+    'image' => 'https://www.farmflavor.com/wp-content/uploads/2017/03/1760816JSO8055.jpg',
     'ingredients' => [
         '4 cups muskmelon (any combination)',
         '½ medium onion',
@@ -40,6 +40,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,
-    'url' => 'http://farmflavor.com/recipe/melon-bbq-basted-ribs/',
+    'url' => 'https://www.farmflavor.com/recipe/melon-bbq-basted-ribs/',
     'yield' => '6-8 servings',
 ];

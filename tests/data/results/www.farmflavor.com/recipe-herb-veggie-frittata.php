@@ -15,7 +15,7 @@ return [
     'cookTime' => 'PT30M',
     'cuisines' => null,
     'description' => 'Fresh vegetables and herbs combine for a healthy, hearty breakfast.',
-    'image' => 'http://farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg',
+    'image' => 'https://www.farmflavor.com/wp-content/uploads/2016/11/1490616JSO1565.jpg',
     'ingredients' => [
         '2 teaspoons extra virgin olive oil',
         '½ cup mushrooms, chopped',
@@ -38,6 +38,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,
-    'url' => 'http://farmflavor.com/recipe/herb-veggie-frittata/',
+    'url' => 'https://www.farmflavor.com/recipe/herb-veggie-frittata/',
     'yield' => '8 servings',
 ];

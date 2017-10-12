@@ -18,7 +18,7 @@ return [
     'cookTime' => 'PT30M',
     'cuisines' => null,
     'description' => 'These bite-sized waffles put a twist on the traditional breakfast item. Featuring bacon and chives, serve them as a tasty appetizer.',
-    'image' => 'http://farmflavor.com/wp-content/uploads/2014/09/1760314JSO0518-ffcrop.jpg',
+    'image' => 'https://www.farmflavor.com/wp-content/uploads/2014/09/1760314JSO0518-ffcrop.jpg',
     'ingredients' => [
         '2 eggs',
         '1 ⅓ cup milk (or more, if needed)',
@@ -47,6 +47,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => 'Farm Flavor',
     'totalTime' => null,
-    'url' => 'http://farmflavor.com/recipe/type/appetizers/cheesy-bacon-cornbread-waffle-bites/',
+    'url' => 'https://www.farmflavor.com/recipe/type/appetizers/cheesy-bacon-cornbread-waffle-bites/',
     'yield' => '8 waffles, or 24 waffle bites',
 ];

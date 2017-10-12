@@ -3,17 +3,17 @@
 namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Scrapers\FarmFlavorCom;
+use RecipeScraper\Scrapers\WwwFarmFlavorCom;
 
 class FarmFlavorComTest extends ScraperTestCase
 {
     protected function getHost()
     {
-        return 'farmflavor.com';
+        return 'www.farmflavor.com';
     }
 
     protected function makeScraper()
     {
-        return new FarmFlavorCom;
+        return new WwwFarmFlavorCom;
     }
 }
