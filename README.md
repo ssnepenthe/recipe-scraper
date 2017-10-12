@@ -25,16 +25,16 @@ If you only need to scrape recipes from a single site, you can use the correspon
 $scraper = new RecipeScraper\Scrapers\AllRecipesCom;
 ```
 
-Check whether a scraper supports a given crawler using the `->supports()` method:
-
-```
-$scraper->supports($crawler); // true
-```
-
 If you want to be able to scrape recipes from all supported sites, create a `DelegatingScraper` using the `Factory` class:
 
 ```
 $scraper = RecipeScraper\Factory::make();
+```
+
+Check whether a scraper supports a given crawler using the `->supports()` method:
+
+```
+$scraper->supports($crawler); // true
 ```
 
 Finally, scrape a recipe by passing the crawler to the `->scrape()` method:
