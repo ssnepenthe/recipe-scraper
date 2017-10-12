@@ -69,13 +69,16 @@ If the `->scrape()` method is called on an unsupported crawler instance, all val
 Altogether:
 
 ```
-$client = new Goutte\Client;
-$crawler = $client->request('GET', 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/');
 $scraper = RecipeScraper\Factory::make();
+$client = new Goutte\Client;
+$url = 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/';
+$crawler = $client->request('GET', $url);
 
-$recipe = $scraper->scrape($crawler);
-
-var_dump($recipe);
+if ($scraper->supports($crawler)) {
+    var_dump($scraper->scrape($crawler));
+} else {
+    var_dump("{$url} not currently supported!");
+}
 ```
 
 OUTPUT:
