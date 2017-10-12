@@ -116,3 +116,12 @@ array(15) {
     'yield' => string(2) "20"
 }
 ```
+
+## Limitations
+Scraping seems to be (unfortunately) the best option available for extracting structured recipes from the sites supported by this scraper.
+
+Just keep in mind that any template updates to the target site have a very high chance of breaking this scraper.
+
+If you notice support for a particular site is broken, please submit an issue or pull request.
+
+For this same reason, it **may** be preferable to track the master branch of this repo, although I will try to tag a new release after any site-specific updates.
