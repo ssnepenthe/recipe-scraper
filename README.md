@@ -19,16 +19,10 @@ $client = new Goutte\Client;
 $crawler = $client->request('GET', 'http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/');
 ```
 
-All scrapers require an instance of `ExtractorManager`:
-
-```
-$extractor = new RecipeScraper\Extractors\ExtractorManager;
-```
-
 If you only need to scrape recipes from a single site, you can use the corresponding class from `src/Scrapers`:
 
 ```
-$scraper = new RecipeScraper\Scrapers\AllRecipesCom($extractor);
+$scraper = new RecipeScraper\Scrapers\AllRecipesCom;
 ```
 
 Check whether a scraper supports a given crawler using the `->supports()` method:
