@@ -8,7 +8,8 @@ use Symfony\Component\DomCrawler\Crawler;
  * They seem to cross-post some recipes to multiple sites - canonical may point to an
  * entirely different domain.
  *
- * Has LD+JSON but it is malformed on some pages.
+ * Has LD+JSON but it is generally malformed. The exception is esquire.com which has been given a
+ * dedicated scraper class.
  *
  * Some recipes have two recipeYield items.
  *
@@ -17,6 +18,8 @@ use Symfony\Component\DomCrawler\Crawler;
  *
  * For example, delish and esquire tend to include a sort-of byline.
  * Good housekeeping, woman's day and country living include nutritional information.
+ *
+ * May want to consider stripping prefix from yield.
  */
 class HearstDigitalMedia extends SchemaOrgMarkup
 {
@@ -26,7 +29,6 @@ class HearstDigitalMedia extends SchemaOrgMarkup
     protected $supportedHosts = [
         'www.countryliving.com',
         'www.delish.com',
-        'www.esquire.com',
         'www.goodhousekeeping.com',
         'www.redbookmag.com',
         'www.womansday.com',

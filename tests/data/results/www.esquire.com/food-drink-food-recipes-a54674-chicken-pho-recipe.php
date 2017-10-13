@@ -2,16 +2,13 @@
 
 return [
     'author' => 'Omar Mamoon',
-    'categories' => [
-        'Food & Drink',
-        'Food',
-        'Recipes',
-    ],
+    'categories' => null,
     'cookingMethod' => null,
-    'cookTime' => 'PT3H',
+    // Actually shoul dbe PT3H - error on site.
+    'cookTime' => 'PT3M',
     'cuisines' => null,
     'description' => 'San Francisco\'s Turtle Tower restaurant shares its secret recipe for Vietnamese chicken pho.',
-    'image' => 'http://esq.h-cdn.co/assets/17/16/1600x800/landscape-1492789553-hi-res-shutterstock-533096989.jpg',
+    'image' => 'https://hips.hearstapps.com/esq.h-cdn.co/assets/17/16/1492789553-hi-res-shutterstock-533096989-.jpg',
     'ingredients' => [
         '1 whole chicken, 3 lbs.',
         '2 lb. chicken carcass (ask your butcher for it)',
@@ -39,11 +36,15 @@ return [
         'Stir in fish sauce, and add more to taste if necessary.',
     ],
     'name' => 'How to Make Vietnamese Chicken Pho',
-    // @todo Has notes but they are listed under "extra content" which isn't consistently useful.
-    'notes' => null,
+    'notes' => [
+        '*MSG is an ingredient found naturally in many foods like tomatoes and mushrooms-don\'t be afraid of it. It adds a savory, umami flavor.',
+        'To Serve:',
+        'Place cooked rice noodles in a bowl, top with a small handful of chicken, and add as much chopped cilantro and green onion as you\'d like. Ladle in the broth, and add slices of jalapeño for heat if desired.',
+        'You can also serve sides of Sriracha or a mixture of lemon, black pepper, and fish sauce-but do not add these directly to the broth. Simply use as a dip for the chicken and noodles, and enjoy.',
+    ],
     'prepTime' => null,
-    'publisher' => null,
-    'totalTime' => 'PT3H',
+    'publisher' => 'Esquire',
+    'totalTime' => 'PT3M',
     'url' => 'http://www.esquire.com/food-drink/food/recipes/a54674/chicken-pho-recipe/',
-    'yield' => 'Yield: 8 Servings',
+    'yield' => '8',
 ];
