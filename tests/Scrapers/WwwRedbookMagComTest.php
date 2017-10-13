@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\HearstDigitalMedia;
 
+/**
+ * @group hearst
+ */
 class WwwRedbookMagComTest extends ScraperTestCase
 {
     protected function getHost()
