@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\ScrippsNetworks;
 
+/**
+ * @group scripps
+ */
 class WwwFoodNetworkComTest extends ScraperTestCase
 {
     protected function getHost()
