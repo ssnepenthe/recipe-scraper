@@ -17,8 +17,7 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
      */
     public function supports(Crawler $crawler) : bool
     {
-        // Uses HTTPS scheme.
-        return (bool) $crawler->filter('[itemtype="https://schema.org/Recipe"]')->count()
+        return parent::supports($crawler)
             && 'recipes.sparkpeople.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 

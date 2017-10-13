@@ -80,7 +80,7 @@ class SchemaOrgMarkup implements ScraperInterface
      */
     public function supports(Crawler $crawler) : bool
     {
-        return (bool) $crawler->filter('[itemtype="http://schema.org/Recipe"]')->count();
+        return (bool) $crawler->filter('[itemtype*="schema.org/Recipe"]')->count();
     }
 
     /**
@@ -91,7 +91,7 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->extractString(
             $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="author"]'
+            '[itemtype*="schema.org/Recipe"] [itemprop="author"]'
         );
     }
 
@@ -112,7 +112,7 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->extractString(
             $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="cookingMethod"]'
+            '[itemtype*="schema.org/Recipe"] [itemprop="cookingMethod"]'
         );
     }
 
@@ -146,7 +146,7 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->extractString(
             $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="description"]'
+            '[itemtype*="schema.org/Recipe"] [itemprop="description"]'
         );
     }
 
@@ -158,7 +158,7 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->extractString(
             $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="image"]',
+            '[itemtype*="schema.org/Recipe"] [itemprop="image"]',
             ['src']
         );
     }
@@ -192,7 +192,7 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->extractString(
             $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="name"]'
+            '[itemtype*="schema.org/Recipe"] [itemprop="name"]'
         );
     }
 
@@ -227,7 +227,7 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->extractString(
             $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="publisher"]'
+            '[itemtype*="schema.org/Recipe"] [itemprop="publisher"]'
         );
     }
 
@@ -252,7 +252,7 @@ class SchemaOrgMarkup implements ScraperInterface
     {
         return $this->extractString(
             $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="url"]',
+            '[itemtype*="schema.org/Recipe"] [itemprop="url"]',
             ['href']
         );
     }
