@@ -2,6 +2,7 @@
 
 namespace RecipeScraper\Scrapers;
 
+use RecipeScraper\Arr;
 use Symfony\Component\DomCrawler\Crawler;
 use RecipeScraper\ExtractsDataFromCrawler;
 
@@ -32,5 +33,14 @@ class WwwMarthaStewartCom extends SchemaOrgJsonLd
     protected function extractNotes(Crawler $crawler, array $json)
     {
         return $this->extractArray($crawler, '.notes-cooks .note-text');
+    }
+
+    protected function preNormalizeIngredients($value)
+    {
+        if (! Arr::ofStrings($value)) {
+            return $value;
+        }
+
+        return array_map('strip_tags', $value);
     }
 }
