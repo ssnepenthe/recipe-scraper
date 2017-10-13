@@ -31,19 +31,6 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractImage(Crawler $crawler)
-    {
-        return $this->extractString(
-            $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="image"]',
-            ['content']
-        );
-    }
-
-    /**
-     * @param  Crawler $crawler
      * @return string[]|null
      */
     protected function extractIngredients(Crawler $crawler)
@@ -68,18 +55,5 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
     {
         // @todo More testing!
         return $this->extractArray($crawler, '.chef-notes-content');
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractUrl(Crawler $crawler)
-    {
-        return $this->extractString(
-            $crawler,
-            '[itemtype="http://schema.org/Recipe"] [itemprop="url"]',
-            ['content']
-        );
     }
 }

@@ -159,7 +159,7 @@ class SchemaOrgMarkup implements ScraperInterface
         return $this->extractString(
             $crawler,
             '[itemtype*="schema.org/Recipe"] [itemprop="image"]',
-            ['src']
+            ['content', 'src']
         );
     }
 
@@ -253,7 +253,7 @@ class SchemaOrgMarkup implements ScraperInterface
         return $this->extractString(
             $crawler,
             '[itemtype*="schema.org/Recipe"] [itemprop="url"]',
-            ['href']
+            ['content', 'href']
         );
     }
 
