@@ -27,6 +27,7 @@ class Factory
         Scrapers\WwwBonAppetitCom::class => null,
         Scrapers\WwwEatingWellCom::class => null,
         Scrapers\WwwEpicuriousCom::class => null,
+        Scrapers\WwwEsquireCom::class => null,
         Scrapers\WwwFarmFlavorCom::class => null,
         Scrapers\WwwFineCookingCom::class => null,
         Scrapers\WwwFoodCom::class => null,
