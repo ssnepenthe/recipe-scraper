@@ -13,7 +13,7 @@ return [
         '2 small heads Boston or butter lettuce, leaves separated and ribs removed',
         '2/3 cup tightly packed Thai basil leaves',
         '2/3 cup tightly packed cilantro leaves',
-        '<a href="https://www.marthastewart.com/1142591/peanut-dipping-sauce-summer-rolls">Peanut Dipping Sauce for Summer Rolls</a>',
+        'Peanut Dipping Sauce for Summer Rolls',
         '2 ounces bean threads',
         '1/4 cup vegetable oil',
         '6 shallots, thinly sliced into rings',
