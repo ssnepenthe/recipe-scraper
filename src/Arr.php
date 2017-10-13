@@ -53,6 +53,20 @@ class Arr
         )));
     }
 
+    public static function ofArrays($value) : bool
+    {
+        return is_array($value) && ! count(array_filter(
+            $value,
+            /**
+             * @param  mixed $val
+             * @return boolean
+             */
+            function ($val) {
+                return ! is_array($val);
+            }
+        ));
+    }
+
     /**
      * @param  array $value
      * @return boolean
