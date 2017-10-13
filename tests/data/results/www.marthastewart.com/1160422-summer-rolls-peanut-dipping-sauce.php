@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'In this vegetarian Vietnamese appetizer, cellophane noodles, fried tofu, sauteed shallots, crunchy lettuce, carrots, and jicama are topped by a sprinkling of herbs and rolled in diaphanous rice paper rounds.',
-    'image' => 'http://assets.marthastewart.com/styles/wmax-1500/d27/summer-rolls-0506-mla101625/summer-rolls-0506-mla101625_sq.jpg?itok=K8lwQ504',
+    'image' => 'https://assets.marthastewart.com/styles/wmax-1500/d27/summer-rolls-0506-mla101625/summer-rolls-0506-mla101625_sq.jpg?itok=K8lwQ504',
     'ingredients' => [
         '16 round (8-inch) rice-paper wrappers',
         '2 small heads Boston or butter lettuce, leaves separated and ribs removed',
@@ -35,6 +35,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Martha Stewart',
     'totalTime' => null,
-    'url' => 'http://www.marthastewart.com/1160422/summer-rolls-peanut-dipping-sauce',
+    'url' => 'https://www.marthastewart.com/1160422/summer-rolls-peanut-dipping-sauce',
     'yield' => 'Makes 16',
 ];

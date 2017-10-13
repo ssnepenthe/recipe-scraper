@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Baked in coarse salt to seal in the juices, these lemon-topped rounds of tender chicken reveal an asparagus-and-Parmesan stuffed center.',
-    'image' => 'http://www.marthastewart.com/amazons3/image-derivative/drupal-assets-prod-ms/styles/wmax-1500/d27/salt-chicken-0406-mla102006/salt-chicken-0406-mla102006_sq.jpg?itok=STkkAnG8',
+    'image' => 'https://www.marthastewart.com/amazons3/image-derivative/drupal-assets-prod-ms/styles/wmax-1500/d27/salt-chicken-0406-mla102006/salt-chicken-0406-mla102006_sq.jpg?itok=STkkAnG8',
     'ingredients' => [
         '1 large whole chicken (about 7 1/2 pounds)',
         '2 lemons, very thinly sliced (less than 1/8 inch thick)',
@@ -48,6 +48,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Martha Stewart',
     'totalTime' => null,
-    'url' => 'http://www.marthastewart.com/1160377/salt-baked-chicken-breast-stuffed-asparagus',
+    'url' => 'https://www.marthastewart.com/1160377/salt-baked-chicken-breast-stuffed-asparagus',
     'yield' => '8 servings',
 ];

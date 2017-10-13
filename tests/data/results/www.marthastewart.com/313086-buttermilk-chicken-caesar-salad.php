@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Unlike traditional Caesar salad, ours uses no oil in the dressing. Instead, it relies on tangy low-fat buttermilk. Multigrain croutons also help save on calories and splurge on flavor.',
-    'image' => 'http://assets.marthastewart.com/styles/wmax-1500/d26/med102917_0507_cesearsalad/med102917_0507_cesearsalad_sq.jpg?itok=AaF9mSfA',
+    'image' => 'https://assets.marthastewart.com/styles/wmax-1500/d26/med102917_0507_cesearsalad/med102917_0507_cesearsalad_sq.jpg?itok=AaF9mSfA',
     'ingredients' => [
         '1 1/2 cups low-fat buttermilk',
         '2 tablespoons fresh lemon juice',
@@ -34,6 +34,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => 'Martha Stewart',
     'totalTime' => 'PT40M',
-    'url' => 'http://www.marthastewart.com/313086/buttermilk-chicken-caesar-salad',
+    'url' => 'https://www.marthastewart.com/313086/buttermilk-chicken-caesar-salad',
     'yield' => '4 servings',
 ];
