@@ -26,7 +26,7 @@ return [
         'Italian',
     ],
     'description' => 'This baguette sandwich combines salty prosciutto slices and olive tapenade with creamy mozzarella slices.',
-    'image' => 'http://assets.epicurious.com/photos/57aa356d47750f3f7bc358f6/master/pass/mozzarella-and-prosciutto-sandwiches-with-tapenade-09082016.jpg',
+    'image' => 'https://assets.epicurious.com/photos/57aa356d47750f3f7bc358f6/master/pass/mozzarella-and-prosciutto-sandwiches-with-tapenade-09082016.jpg',
     'ingredients' => [
         '1 1/2 teaspoons chopped anchovy fillet',
         '1 teaspoon capers (preferably salt-packed), rinsed, chopped',
@@ -51,6 +51,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.epicurious.com/recipes/food/views/mozzarella-and-prosciutto-sandwiches-with-tapenade-234141',
+    'url' => 'https://www.epicurious.com/recipes/food/views/mozzarella-and-prosciutto-sandwiches-with-tapenade-234141',
     'yield' => 'Makes 6 servings',
 ];

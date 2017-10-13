@@ -54,6 +54,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.epicurious.com/recipes/food/views/salmon-burgers-with-lemon-and-capers-103498',
+    'url' => 'https://www.epicurious.com/recipes/food/views/salmon-burgers-with-lemon-and-capers-103498',
     'yield' => 'Makes 10 burgers',
 ];

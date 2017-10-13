@@ -25,7 +25,7 @@ return [
     'cookTime' => 'PT3H',
     'cuisines' => null,
     'description' => 'This version of our delicious vanilla-buttermilk cake is simply topped with a swoosh of orange cream-cheese frosting and raspberries. It\'s so easy to serve right out of the pan, which makes it perfect for backyard barbecues and potlucks.',
-    'image' => 'http://assets.epicurious.com/photos/57719d947823d8090d928cd9/master/pass/Vanilla-Buttermilk-Cake-Raspberries-27062016.jpg',
+    'image' => 'https://assets.epicurious.com/photos/57719d947823d8090d928cd9/master/pass/Vanilla-Buttermilk-Cake-Raspberries-27062016.jpg',
     'ingredients' => [
         'For the Buttermilk Cake:',
         '2 cups cake flour, plus more for pan',
@@ -72,6 +72,6 @@ return [
     'prepTime' => 'PT1H',
     'publisher' => 'Epicurious',
     'totalTime' => null,
-    'url' => 'http://www.epicurious.com/recipes/food/views/vanilla-buttermilk-sheet-cake-with-raspberries-and-orange-cream-cheese-frosting',
+    'url' => 'https://www.epicurious.com/recipes/food/views/vanilla-buttermilk-sheet-cake-with-raspberries-and-orange-cream-cheese-frosting',
     'yield' => 'Makes one (13x9") cake',
 ];

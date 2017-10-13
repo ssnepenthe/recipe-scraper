@@ -21,7 +21,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'With a layer of sweet ripe plums sandwiched between the cake and crumb topping, this dessert is the perfect thing for summer brunch.',
-    'image' => 'http://assets.epicurious.com/photos/577e81394f2c1eb16e3d5851/master/pass/plum-steusel-coffeecake-hero-07072016.jpg',
+    'image' => 'https://assets.epicurious.com/photos/577e81394f2c1eb16e3d5851/master/pass/plum-steusel-coffeecake-hero-07072016.jpg',
     'ingredients' => [
         'For streusel',
         '1 cup all-purpose flour',
@@ -54,6 +54,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Gourmet',
     'totalTime' => null,
-    'url' => 'http://www.epicurious.com/recipes/food/views/plum-streusel-coffeecake-13137',
+    'url' => 'https://www.epicurious.com/recipes/food/views/plum-streusel-coffeecake-13137',
     'yield' => null,
 ];

@@ -20,7 +20,7 @@ return [
         'French',
     ],
     'description' => 'Vegetarian Niçoise salad with green beans, radishes, olives, new potatoes, and eggs',
-    'image' => 'http://assets.epicurious.com/photos/56d859fa15dc71625d4da650/master/pass/GREEN_BEAN_NICOISE_SALAD_091.jpg',
+    'image' => 'https://assets.epicurious.com/photos/56d859fa15dc71625d4da650/master/pass/GREEN_BEAN_NICOISE_SALAD_091.jpg',
     'ingredients' => [
         '3/4 pound small new potatoes',
         'Kosher salt',
@@ -53,6 +53,6 @@ return [
     'prepTime' => 'PT50M',
     'publisher' => 'Epicurious',
     'totalTime' => null,
-    'url' => 'http://www.epicurious.com/recipes/food/views/green-bean-nicoise-salad',
+    'url' => 'https://www.epicurious.com/recipes/food/views/green-bean-nicoise-salad',
     'yield' => 'Serves 8-12',
 ];

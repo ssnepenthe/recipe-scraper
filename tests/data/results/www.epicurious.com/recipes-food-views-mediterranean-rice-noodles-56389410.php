@@ -32,7 +32,7 @@ return [
         'Mediterranean',
     ],
     'description' => null,
-    'image' => 'http://assets.epicurious.com/photos/551d9eea6ec924e9311d16b1/master/pass/56389410_mediterranean-rice-noodles_6x4.jpg',
+    'image' => 'https://assets.epicurious.com/photos/551d9eea6ec924e9311d16b1/master/pass/56389410_mediterranean-rice-noodles_6x4.jpg',
     'ingredients' => [
         '1 package King Soba rice noodles',
         '2 to 3 tablespoons extra-virgin olive oil',
@@ -56,6 +56,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.epicurious.com/recipes/food/views/mediterranean-rice-noodles-56389410',
+    'url' => 'https://www.epicurious.com/recipes/food/views/mediterranean-rice-noodles-56389410',
     'yield' => 'Serves 2',
 ];

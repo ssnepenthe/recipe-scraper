@@ -21,7 +21,7 @@ return [
         'Mexican',
     ],
     'description' => 'Chicken breasts aren\'t the only cut sold skinless and boneless. Thighs are, too. They\'re fattier than breasts, which means they\'re more flavorful; plus, they\'re less expensive. Put them to work in any fast weeknight preparation, starting with these spiced tacos.',
-    'image' => 'http://assets.epicurious.com/photos/54af451f4074bdfd06837f8c/master/pass/51175340_grilled-chicken-tacos_1x1.jpg',
+    'image' => 'https://assets.epicurious.com/photos/54af451f4074bdfd06837f8c/master/pass/51175340_grilled-chicken-tacos_1x1.jpg',
     'ingredients' => [
         '1 medium onion, cut into wedges, keeping root intact',
         '2 garlic cloves, finely chopped',
@@ -44,6 +44,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.epicurious.com/recipes/food/views/grilled-chicken-tacos-51175340',
+    'url' => 'https://www.epicurious.com/recipes/food/views/grilled-chicken-tacos-51175340',
     'yield' => 'Makes 4 servings',
 ];
