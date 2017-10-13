@@ -38,7 +38,7 @@ return [
     ],
     'name' => 'Sausage-and-Pepper Skewers',
     'notes' => null,
-    'prepTime' => null,
+    'prepTime' => 'PT15M',
     'publisher' => 'Food Network',
     'totalTime' => 'PT45M',
     'url' => 'http://www.foodnetwork.com/recipes/food-network-kitchen/sausage-and-pepper-skewers-recipe-1972885',

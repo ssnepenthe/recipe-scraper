@@ -64,6 +64,15 @@ class ScrippsNetworks extends SchemaOrgJsonLd
      * @param  string|null $value
      * @return string|null
      */
+    protected function preNormalizePrepTime($value)
+    {
+        return $this->stripPeriodFromIntervalString($value);
+    }
+
+    /**
+     * @param  string|null $value
+     * @return string|null
+     */
     protected function preNormalizeTotalTime($value)
     {
         return $this->stripPeriodFromIntervalString($value);
