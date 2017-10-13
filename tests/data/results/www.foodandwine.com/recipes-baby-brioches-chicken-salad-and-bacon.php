@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'The classic chicken salad can be bolstered with any number of seasonings, from curry powder or mustard to harissa. To turn these two-bite snacks into mini sandwiches, cut the brioche rolls in half, mound the chicken salad, tomato and bacon inside, and secure with a toothpick. More Snack Recipes',
-    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/200809-r-xl-baby-brioches-with-chicken-salad-and-bacon.jpg?itok=sLWEw0Mn',
+    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/200809-r-xl-baby-brioches-with-chicken-salad-and-bacon.jpg?itok=GDXWBXD9',
     'ingredients' => [
         '4 slices of applewood-smoked bacon',
         '16 mini brioche rolls (about 2 inches)',
@@ -31,6 +31,6 @@ return [
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT25M',
-    'url' => 'http://www.foodandwine.com/recipes/baby-brioches-chicken-salad-and-bacon',
+    'url' => 'http://www.foodandwine.com/recipes/baby-brioches-with-chicken-salad-and-bacon',
     'yield' => 'Serves : Makes 16 hors d\'oeuvres',
 ];

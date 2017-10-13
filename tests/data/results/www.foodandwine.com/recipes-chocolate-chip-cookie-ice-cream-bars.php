@@ -23,9 +23,7 @@ return [
         'In a bowl, combine the almonds and toffee pieces. Using a sharp, heavy knife, cut the ice cream cookie into 16 bars. Press one side of each bar into the almond and toffee mixture. Return the bars to the freezer or serve right away.',
     ],
     'name' => 'Chocolate Chip Cookie Ice Cream Bars',
-    'notes' => [
-        'The ice cream bars can be stacked and frozen in an airtight container for up to 2 weeks.',
-    ],
+    'notes' => null,
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => 'PT4H',

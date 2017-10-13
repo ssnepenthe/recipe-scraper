@@ -2,31 +2,32 @@
 
 namespace RecipeScraper\Scrapers;
 
+use RecipeScraper\Arr;
 use Symfony\Component\DomCrawler\Crawler;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
- * Has JSON LD but with very limited subset of data.
- *
  * Has nutrition information.
  *
  * Has links to other recipes in ingredients.
  *
  * Food and Wine prepends "Serves : " to the data we actually want from yield - should we trim it?
  *
- * Could use some more thorough testing on description.
- *
  * Notes have headings which may be beneficial to include.
  *
  * Cooking Light (maybe others) have some blog-style posts with recipes, but no structured markup.
  *
+ * We lose out on ingredient titles by using LD+JSON.
+ *
  * @link https://www.timeinc.com/brands/
  *
- * @todo Consider updating parent supports method to not be dependent on scheme.
- *       Consider extracting some sort of ->extractBodyBasedOnHeaderText() type method from times.
+ * @todo Consider extracting some sort of ->extractBodyBasedOnHeaderText() type method from times.
  *       Find cookinglight.com recipes with notes to test against (if any exist).
  */
-class TimeInc extends SchemaOrgMarkup
+class TimeInc extends SchemaOrgJsonLd
 {
+    use ExtractsDataFromCrawler;
+
     protected $supportedHosts = [
         'www.cookinglight.com',
         'www.foodandwine.com',
@@ -39,28 +40,11 @@ class TimeInc extends SchemaOrgMarkup
      */
     public function supports(Crawler $crawler) : bool
     {
-        // Consider pushing "*=" selector up to parent class.
-        return (bool) $crawler->filter('[itemtype*="schema.org/Recipe"]')->count()
+        return parent::supports($crawler)
             && in_array(parse_url($crawler->getUri(), PHP_URL_HOST), $this->supportedHosts, true);
     }
 
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractAuthor(Crawler $crawler)
-    {
-        return $this->extractString(
-            $crawler,
-            '[itemtype="https://schema.org/Recipe"] [itemprop="author"] [itemprop="name"]'
-        );
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractCookTime(Crawler $crawler)
+    protected function extractCookTime(Crawler $crawler, array $json)
     {
         $meta = $crawler->filter('.recipe-meta-item')->reduce(function (Crawler $node) : bool {
             $header = $node->filter('.recipe-meta-item-header');
@@ -77,67 +61,34 @@ class TimeInc extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
-     * @return string|null
+     * @return string[]|null
      */
-    protected function extractDescription(Crawler $crawler)
+    protected function extractInstructions(Crawler $crawler, array $json)
     {
-        // [name="description"] and [property="og:description"] are truncated.
-        // Food and Wine seems to add category, slideshow or similar links to end of description.
-        return $this->extractString($crawler, '.schema [itemprop="description"]', ['content']);
-    }
+        // LD+JSON instructions are merged into single string. Could potentially extract list by
+        // splitting on a double space, but probably easier to extract directly from body.
+        $instructions = $crawler->filter('.recipe-instructions')->reduce(
+            function (Crawler $node) : bool {
+                $header = $node->filter('h3');
 
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractImage(Crawler $crawler)
-    {
-        return $this->extractString(
-            $crawler,
-            '[itemtype="https://schema.org/Recipe"] [itemprop="image"]',
-            ['content', 'data-src']
+                // Returns true if this is not a notes section.
+                return ! $header->count()
+                    || ! preg_match('/(notes|suggested pairing|make ahead)/i', $header->text());
+            }
         );
+
+        if (! $instructions->count()) {
+            return null;
+        }
+
+        return $this->extractArray($instructions, '.step p:last-child');
     }
 
     /**
      * @param  Crawler $crawler
      * @return string[]|null
      */
-    protected function extractIngredients(Crawler $crawler)
-    {
-        // To include group headers.
-        $selectors = [
-            '.ingredients h2',
-            '[itemprop="recipeIngredient"]',
-            '[itemprop="ingredients"]',
-        ];
-
-        return $this->extractArray($crawler, implode(', ', $selectors));
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
-    protected function extractInstructions(Crawler $crawler)
-    {
-        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] p:last-child');
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractName(Crawler $crawler)
-    {
-        return $this->extractString($crawler, '.schema [itemprop="name"]', ['content']);
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
-    protected function extractNotes(Crawler $crawler)
+    protected function extractNotes(Crawler $crawler, array $json)
     {
         $instructions = $crawler->filter('.recipe-instructions')->reduce(
             function (Crawler $node) : bool {
@@ -159,7 +110,7 @@ class TimeInc extends SchemaOrgMarkup
      * @param  Crawler $crawler
      * @return string|null
      */
-    protected function extractPrepTime(Crawler $crawler)
+    protected function extractPrepTime(Crawler $crawler, array $json)
     {
         $meta = $crawler->filter('.recipe-meta-item')->reduce(function (Crawler $node) : bool {
             $header = $node->filter('.recipe-meta-item-header');
@@ -179,35 +130,17 @@ class TimeInc extends SchemaOrgMarkup
      * @param  Crawler $crawler
      * @return string|null
      */
-    protected function extractUrl(Crawler $crawler)
+    protected function extractUrl(Crawler $crawler, array $json)
     {
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
-    /**
-     * @param  mixed $value
-     * @return mixed
-     */
-    protected function postNormalizeAuthor($value)
+    protected function preNormalizeIngredients($instructions)
     {
-        if (! is_string($value)) {
-            return $value;
+        if (! Arr::ofStrings($instructions)) {
+            return null;
         }
 
-        return trim($value, ',');
-    }
-
-    /**
-     * @param  mixed $value
-     * @return mixed
-     */
-    protected function preNormalizeDescription($value)
-    {
-        // Pre normalize so that we still collapse whitespace after stripping tags.
-        if (! is_string($value)) {
-            return $value;
-        }
-
-        return strip_tags($value);
+        return array_map('strip_tags', $instructions);
     }
 }

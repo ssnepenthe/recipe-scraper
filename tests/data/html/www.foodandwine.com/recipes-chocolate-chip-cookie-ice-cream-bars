@@ -1,23 +1,36 @@
 <!doctype html>
 <!--
-        /((((((\\\\
-=======((((((((((\\\\\
-       ((           \\\\\\\
-       ( (*   _/      \\\\\\\
-       \    /  \      \\\\\\________________
-       |  |   |       </                  ((\\\\
-       o_|   /        /                      \ \\\\    \\\\\\\
-             |  ._    (                        \ \\\\\\\\\\\\\\\\
-             | /                       /       /    \\\\\\\     \\
-     .______/\/     /                 /       /         \\\
-     / __.____/    _/         ________(       /\
-     / / / ________/`---------'         \     /  \_
-     / /  \ \                             \   \ \_  \
-     ( <    \ \                             >  /   \ \
-      \ /    \\_                           / /      > )
-               \_|                        / /      / /
-                                        _//      _//
-                                      /_|      /_|
+
+                   :@@@####@@@:`
+              `@####@;,,:@@#######
+            '####.           @####
+          `+###@               @##
+         `####@                 @@
+         @####@                 :@
+        `+####@                 ..
+         ######
+         @#####@
+          @#####@
+           @######,
+            @######@
+          .@#######@@
+        @###; @@######;              @@@+##@@@@,
+      @##@+     #######+.                `######
+    '####.       ,########`               :@###@
+   @###@'          #########              :@###.
+  @####+             @########`           @###@
+ .#####@               @#######+.        `+##@
+ @#####@                 @@#######:      @##@
+ @######.                  @@#######+   @##@
+ +######@                    @#######@@@##:
+  #######@                     :#########;
+  .#######@                      `########@@
+    :########@`               `@###@ :+#######@@.
+     '########+@`           .@+###;   `@@########@
+       `@#########@#+##+#######+         `@#########@'`
+           ,@@###########@@,                  `:'@@@@@@@@@@'
+              `,;#@@@+;.
+
 -->
 <html lang="en">
   <head>
@@ -41,32 +54,50 @@
     <meta name="keywords" content="Grace Parisi, ice cream bars, chocolate chip ice cream, cookie dough ice cream, break and bake cookies, toffee candy">
     <meta name="category" content="">
     <meta name="news_keywords" content="Grace Parisi, ice cream bars, chocolate chip ice cream, cookie dough ice cream, break and bake cookies, toffee candy">
-    <meta name="description" content="Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the">
+    <meta name="description" content="Food & Wine goes way beyond mere eating and drinking. We're on a mission to find the most exciting places, new experiences, emerging trends and">
     <link rel="canonical" href="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars">
     <link rel="amphtml" href="http://amp.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars">
-    <meta property="og:title" content="Chocolate Chip Cookie Ice Cream Bars">
+      <meta property="og:title" content="Chocolate Chip Cookie Ice Cream Bars">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Food &amp; Wine">
-    <meta property="og:url" content="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars">
-    <meta property="og:description" content="Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the ">
+      <meta property="og:url" content="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars">
+      <meta property="og:description" content="Food & Wine goes way beyond mere eating and drinking. We're on a mission to find the most exciting places, new experiences, emerging trends and sensations. ">
     <meta name="pinterest:url" content="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:url" content="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars">
       <meta name="twitter:title" content="Chocolate Chip Cookie Ice Cream Bars">
       <meta name="twitter:description" content="Food & Wine goes way beyond mere eating and drinking. We're on a mission to find the most exciting places, new experiences, emerging trends and sensations.">
+      <meta name="pinterest:description" content="Food & Wine goes way beyond mere eating and drinking. We're on a mission to find the most exciting places, new experiences, emerging trends and sensations.">
     <meta name="twitter:site" content="@foodandwine">
-    <meta name="pinterest:media" content="http://www.foodandwine.com/sites/default/files/foodandwine-social.jpg">
-    <meta name="twitter:image" content="http://www.foodandwine.com/sites/default/files/foodandwine-social.jpg">
-    <meta property="og:image" content="http://www.foodandwine.com/sites/default/files/foodandwine-social.jpg">
+    <meta name="pinterest:media" content="http://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/200603-r-xl-chocolate-chip-cookie-ice-cream-bars-fw200603_cookieicecream.jpg?itok=NtFbOPSl">
+    <meta name="twitter:image" content="http://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/200603-r-xl-chocolate-chip-cookie-ice-cream-bars-fw200603_cookieicecream.jpg?itok=NtFbOPSl">
+    <meta property="og:image" content="http://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/200603-r-xl-chocolate-chip-cookie-ice-cream-bars-fw200603_cookieicecream.jpg?itok=NtFbOPSl">
     <meta property="fb:app_id" content="154653334553109">
     <meta property="fb:pages" content="17786732025">
+      <script type="application/ld+json">
+        [{"@context":"http://schema.org","@type":"Organization","name":"Food & Wine","url":"http://www.foodandwine.com","logo":{"@type":"ImageObject","url":"http://www.foodandwine.com/img/logo.png"},"sameAs":["http://www.facebook.com/foodandwine","https://twitter.com/foodandwine","https://www.pinterest.com/foodandwine/","https://www.instagram.com/foodandwine/"]},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://www.foodandwine.com/","name":"Home","image":null}},{"@type":"ListItem","position":2,"item":{"@id":"http://www.foodandwine.com/recipes","name":"Recipes","image":null}}]},{"@context":"http://schema.org","@type":"Recipe","name":"Chocolate Chip Cookie Ice Cream Bars","image":{"@type":"ImageObject","url":"http://cdn-image.foodandwine.com/sites/default/files/fw200603_cookieicecream.jpg","width":550,"height":412},"video":null,"datePublished":"2013-12-06T23:18:24.000Z","description":"Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the dough to create one giant cookie, then bake, slice and layer it with store-bought ice cream and hot fudge sauce. The best part: dipping the bars into crushed chocolate toffee candy to form a supercrunchy shell.\r\n\r\n  More Ice Cream Sandwiches","prepTime":null,"totalTime":"PT240M","recipeYield":"Serves : 16","recipeIngredient":["1 package prescored break-and-bake chocolate chip cookie dough, at room \ntemperature\n","2 pints vanilla ice cream, softened slightly\n","1/4 cup hot fudge sauce, warmed\n","1/4 cup salted roasted almonds, coarsely chopped\n","1/4 cup chocolate-coated toffee bits or one 1 1/2-ounce chocolate-coated \ntoffee bar, coarsely chopped\n"],"recipeInstructions":" Preheat the oven to 350°. Set the cookie dough in a 9-by-13-inch baking pan. Place a sheet of plastic wrap on top and evenly press or roll the cookie dough to fill the baking pan. Remove the plastic wrap and bake the cookie for 14 minutes, until lightly browned. Let the cookie cool completely in the baking pan.  Invert the cookie onto a work surface and slide it back into the baking pan, bottom side up. Trim the edges if necessary. Scoop the vanilla ice cream over the cookie in large dollops. Place a sheet of plastic wrap on top and press or roll the ice cream into an even layer. Freeze for 1 hour, until the ice cream is just firm.  Remove the plastic wrap. Drizzle the warm chocolate sauce all over the ice cream. Cover again with plastic wrap and freeze for 1 hour longer, until firm.  Invert the baking pan onto a cutting board and tap gently to release the cookie bar. Flip the cookie bar over so it is ice cream side up. Using a sharp, heavy knife, cut the bar in half crosswise, forming two 9-by-6 1/2-inch rectangles. Sandwich the cookie bar rectangles together and press hard to seal. Wrap in plastic and freeze for at least 1 hour, until firm.  In a bowl, combine the almonds and toffee pieces. Using a sharp, heavy knife, cut the ice cream cookie into 16 bars. Press one side of each bar into the almond and toffee mixture. Return the bars to the freezer or serve right away.","author":[{"@type":"Person","name":"Grace Parisi"}],"aggregateRating":null,"nutrition":null,"review":null}]
+      </script>
     <script id="tgx-script"
       data-tgxsitename="fw"
       data-tgxzone="recipe"
         data-tgxtargeting="%7B%22ch%22%3A%22%22%2C%22sch%22%3A%22%22%2C%22ctype%22%3A%22recipe%22%2C%22mm%22%3A%221%22%2C%22tags%22%3A%22%22%2C%22aid%22%3A478180%2C%22cid%22%3A478180%7D"
-      async src="//tia.timeinc.net/foodandwine/mm.js"></script>
+      async src="//tia.timeinc.net/foodandwine/mm.min.js?cb=1"></script>
     <script async src="/dist/main.js"></script>
     <script async src="//native.sharethrough.com/assets/sfp.js"></script>
+    <script async type="text/javascript">
+      WebFontConfig = {
+        google: { families: ["Droid+Sans:400,400i,700,700i,900", "Droid+Serif:400,700"] }
+      };
+      (function() {
+        let wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        let s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
     <script type="text/javascript">
       !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
       analytics.load('8NpHEDgX8Hd2JBcbevqwVvW3CKssMaG8');
@@ -76,13 +107,16 @@
     window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];n.exports=u;var y=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(m,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);
     ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"9b2242d5fe",applicationID:"48945078",sa:1}
     </script>
+    <link rel="dns-prefetch" href="//tia.timeinc.net">
+    <link rel="dns-prefetch" href="//imagesvc.timeincapp.com">
+    <link rel="dns-prefetch" href="//ape-asset-tag.timeinc.com">
+    <link rel="dns-prefetch" href="//cdn.segment.com">
+    <link rel="dns-prefetch" href="//subscription-assets.timeinc.com">
   </head>
-  <body>
-    <link href="https://fonts.googleapis.com/css?family&#x3D;Droid+Sans:400,400i,700,700i,900|Droid+Serif:400,700" rel="stylesheet" lazyload="1">
+  <body  >
     <link rel="stylesheet" type="text/css" href="/dist/style.css" lazyload="1">
-      <header itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <header>
         <nav class="main no-secondary-ribbon no-utility-ribbon has-headline">
-          <div id="example-widget-container"></div>
           <section class="container primary">
             <section class="subcontainer">
               <button class="menu" aria-label="Menu">
@@ -91,130 +125,125 @@
                 </div>
               </button>
               <div class="logo">
-                <a class="full-logo mobile-only" href="/" data-action="primary-nav-logo"><svg xmlns="http://www.w3.org/2000/svg" width="180" height="42" viewbox="90.5 267.5 581 119" xml:space="preserve" fill="#000000">
-      <title>Food & Wine</title>
-      <path d="M151.057,322.137v13.15h-24.584v26.748h-15.578v-68.07h44.394v13.148H126.18v15.022L151.057,322.137  L151.057,322.137z"/>
-      <path d="M510.315,362.035v-68.07h15.285v68.07H510.315z"/>
-      <path d="M553.874,293.965l26.06,43.006v-43.006h14.603v68.07h-14.289l-26.939-43.006v43.006h-14.601v-68.07H553.874z  "/>
-      <path d="M645.799,321.4v12.166h-24.975v15.318h30.281v13.149h-45.566v-68.07h44.491v13.149h-29.206V321.4H645.799z"/>
-      <path d="M159.321,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385s-9.037-35.384-30.577-35.384  S159.321,308.701,159.321,328z M189.898,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  s-14.803-8.705-14.803-22.234S179.999,305.765,189.898,305.765z"/>
-      <path d="M294.643,362.035h16.909c23.148,0,37.37-9.842,37.37-34.035c0-24.193-14.222-34.035-37.37-34.035h-16.909  V362.035z M309.928,307.114h3.32c14.034,0,20.193,5.302,20.193,20.886s-6.16,20.886-20.193,20.886h-3.32V307.114z"/>
-      <path d="M429.33,293.965l11.202,45.756l13.15-45.756h11.836l12.653,45.756l10.803-45.756h14.61l-18.287,68.07h-13.06  l-13.331-42.633l-13.135,42.633h-13.56l-17.788-68.07H429.33z"/>
-      <path d="M226.883,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385S279,292.616,257.46,292.616  S226.883,308.701,226.883,328z M257.46,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  c-9.899,0-14.803-8.705-14.803-22.234S247.561,305.765,257.46,305.765z"/>
-      <path d="M377.898,363.385c-13.624,0-18.246-9.387-18.246-15.479c0-8.195,6.233-14.114,11.066-16.74  c-2.767-3.782-3.467-6.654-3.502-9.807c-0.035-5.533,5.253-12.889,16.04-12.889c3.502,0,6.584,0.701,8.476,1.611  c1.016,0.455,1.051,0.945,1.051,1.786c0,2.206-0.42,7.459-0.63,8.511c-0.176,1.051-0.42,1.189-0.771,1.189  c-0.385,0-0.456-0.279-0.456-1.33c0-1.821-0.455-4.098-2.101-5.92c-1.472-1.646-3.888-3.116-7.391-3.116  c-3.571,0-8.194,2.312-8.194,8.581c0,6.023,4.902,11.102,11.347,18.176c2.381,2.662,10.997,10.576,12.783,12.117  c1.682-2.312,3.468-6.934,3.468-11.207c0-1.051-0.281-2.381-1.331-3.326c-0.911-0.876-2.382-1.087-3.432-1.087  c-0.42,0-0.841-0.14-0.841-0.524c0-0.455,0.561-0.596,1.12-0.596c1.682,0,4.483,0.07,8.405,0.49c1.191,0.141,1.821,0.63,1.821,1.4  c0,5.533-3.362,12.328-6.899,16.565c4.658,3.888,7.774,5.776,9.701,6.897c2.241,1.332,5.953,2.593,7.915,2.593  c0.63,0,0.979,0.069,0.979,0.561c0,0.351-0.561,0.562-1.646,0.562h-6.129c-6.584,0-8.685-0.631-15.549-5.989  C392.993,358.271,387.879,363.385,377.898,363.385z M380.315,359.322c5.953,0,10.436-2.768,12.362-4.693  c-3.993-3.361-10.821-9.98-12.643-11.941s-6.304-6.97-7.88-9.28c-3.013,2.065-5.568,5.604-5.568,11.207  C366.586,353.368,372.75,359.322,380.315,359.322z"/>
-    </svg>
-    </a>
-                <a class="full-logo desktop-only" href="/" data-action="primary-nav-logo"><svg xmlns="http://www.w3.org/2000/svg" width="180" height="42" viewbox="90.5 267.5 581 119" xml:space="preserve" fill="#000000">
-      <title>Food & Wine</title>
-      <path d="M151.057,322.137v13.15h-24.584v26.748h-15.578v-68.07h44.394v13.148H126.18v15.022L151.057,322.137  L151.057,322.137z"/>
-      <path d="M510.315,362.035v-68.07h15.285v68.07H510.315z"/>
-      <path d="M553.874,293.965l26.06,43.006v-43.006h14.603v68.07h-14.289l-26.939-43.006v43.006h-14.601v-68.07H553.874z  "/>
-      <path d="M645.799,321.4v12.166h-24.975v15.318h30.281v13.149h-45.566v-68.07h44.491v13.149h-29.206V321.4H645.799z"/>
-      <path d="M159.321,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385s-9.037-35.384-30.577-35.384  S159.321,308.701,159.321,328z M189.898,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  s-14.803-8.705-14.803-22.234S179.999,305.765,189.898,305.765z"/>
-      <path d="M294.643,362.035h16.909c23.148,0,37.37-9.842,37.37-34.035c0-24.193-14.222-34.035-37.37-34.035h-16.909  V362.035z M309.928,307.114h3.32c14.034,0,20.193,5.302,20.193,20.886s-6.16,20.886-20.193,20.886h-3.32V307.114z"/>
-      <path d="M429.33,293.965l11.202,45.756l13.15-45.756h11.836l12.653,45.756l10.803-45.756h14.61l-18.287,68.07h-13.06  l-13.331-42.633l-13.135,42.633h-13.56l-17.788-68.07H429.33z"/>
-      <path d="M226.883,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385S279,292.616,257.46,292.616  S226.883,308.701,226.883,328z M257.46,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  c-9.899,0-14.803-8.705-14.803-22.234S247.561,305.765,257.46,305.765z"/>
-      <path d="M377.898,363.385c-13.624,0-18.246-9.387-18.246-15.479c0-8.195,6.233-14.114,11.066-16.74  c-2.767-3.782-3.467-6.654-3.502-9.807c-0.035-5.533,5.253-12.889,16.04-12.889c3.502,0,6.584,0.701,8.476,1.611  c1.016,0.455,1.051,0.945,1.051,1.786c0,2.206-0.42,7.459-0.63,8.511c-0.176,1.051-0.42,1.189-0.771,1.189  c-0.385,0-0.456-0.279-0.456-1.33c0-1.821-0.455-4.098-2.101-5.92c-1.472-1.646-3.888-3.116-7.391-3.116  c-3.571,0-8.194,2.312-8.194,8.581c0,6.023,4.902,11.102,11.347,18.176c2.381,2.662,10.997,10.576,12.783,12.117  c1.682-2.312,3.468-6.934,3.468-11.207c0-1.051-0.281-2.381-1.331-3.326c-0.911-0.876-2.382-1.087-3.432-1.087  c-0.42,0-0.841-0.14-0.841-0.524c0-0.455,0.561-0.596,1.12-0.596c1.682,0,4.483,0.07,8.405,0.49c1.191,0.141,1.821,0.63,1.821,1.4  c0,5.533-3.362,12.328-6.899,16.565c4.658,3.888,7.774,5.776,9.701,6.897c2.241,1.332,5.953,2.593,7.915,2.593  c0.63,0,0.979,0.069,0.979,0.561c0,0.351-0.561,0.562-1.646,0.562h-6.129c-6.584,0-8.685-0.631-15.549-5.989  C392.993,358.271,387.879,363.385,377.898,363.385z M380.315,359.322c5.953,0,10.436-2.768,12.362-4.693  c-3.993-3.361-10.821-9.98-12.643-11.941s-6.304-6.97-7.88-9.28c-3.013,2.065-5.568,5.604-5.568,11.207  C366.586,353.368,372.75,359.322,380.315,359.322z"/>
-    </svg>
-    </a>
-                <meta itemprop="name" content="Food &amp; Wine">
-                <meta itemprop="url" content="http://www.foodandwine.com">
-                <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-                  <meta itemprop="url" content="http://www.foodandwine.com/img/logo.svg">
-                </div>
+                <a class="full-logo mobile-only" href="/" data-action="primary-nav-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="180" height="42" viewbox="90.5 267.5 581 119" xml:space="preserve" fill="#000000">
+                      <title>Food & Wine</title>
+                      <path d="M151.057,322.137v13.15h-24.584v26.748h-15.578v-68.07h44.394v13.148H126.18v15.022L151.057,322.137  L151.057,322.137z"/>
+                      <path d="M510.315,362.035v-68.07h15.285v68.07H510.315z"/>
+                      <path d="M553.874,293.965l26.06,43.006v-43.006h14.603v68.07h-14.289l-26.939-43.006v43.006h-14.601v-68.07H553.874z  "/>
+                      <path d="M645.799,321.4v12.166h-24.975v15.318h30.281v13.149h-45.566v-68.07h44.491v13.149h-29.206V321.4H645.799z"/>
+                      <path d="M159.321,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385s-9.037-35.384-30.577-35.384  S159.321,308.701,159.321,328z M189.898,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  s-14.803-8.705-14.803-22.234S179.999,305.765,189.898,305.765z"/>
+                      <path d="M294.643,362.035h16.909c23.148,0,37.37-9.842,37.37-34.035c0-24.193-14.222-34.035-37.37-34.035h-16.909  V362.035z M309.928,307.114h3.32c14.034,0,20.193,5.302,20.193,20.886s-6.16,20.886-20.193,20.886h-3.32V307.114z"/>
+                      <path d="M429.33,293.965l11.202,45.756l13.15-45.756h11.836l12.653,45.756l10.803-45.756h14.61l-18.287,68.07h-13.06  l-13.331-42.633l-13.135,42.633h-13.56l-17.788-68.07H429.33z"/>
+                      <path d="M226.883,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385S279,292.616,257.46,292.616  S226.883,308.701,226.883,328z M257.46,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  c-9.899,0-14.803-8.705-14.803-22.234S247.561,305.765,257.46,305.765z"/>
+                      <path d="M377.898,363.385c-13.624,0-18.246-9.387-18.246-15.479c0-8.195,6.233-14.114,11.066-16.74  c-2.767-3.782-3.467-6.654-3.502-9.807c-0.035-5.533,5.253-12.889,16.04-12.889c3.502,0,6.584,0.701,8.476,1.611  c1.016,0.455,1.051,0.945,1.051,1.786c0,2.206-0.42,7.459-0.63,8.511c-0.176,1.051-0.42,1.189-0.771,1.189  c-0.385,0-0.456-0.279-0.456-1.33c0-1.821-0.455-4.098-2.101-5.92c-1.472-1.646-3.888-3.116-7.391-3.116  c-3.571,0-8.194,2.312-8.194,8.581c0,6.023,4.902,11.102,11.347,18.176c2.381,2.662,10.997,10.576,12.783,12.117  c1.682-2.312,3.468-6.934,3.468-11.207c0-1.051-0.281-2.381-1.331-3.326c-0.911-0.876-2.382-1.087-3.432-1.087  c-0.42,0-0.841-0.14-0.841-0.524c0-0.455,0.561-0.596,1.12-0.596c1.682,0,4.483,0.07,8.405,0.49c1.191,0.141,1.821,0.63,1.821,1.4  c0,5.533-3.362,12.328-6.899,16.565c4.658,3.888,7.774,5.776,9.701,6.897c2.241,1.332,5.953,2.593,7.915,2.593  c0.63,0,0.979,0.069,0.979,0.561c0,0.351-0.561,0.562-1.646,0.562h-6.129c-6.584,0-8.685-0.631-15.549-5.989  C392.993,358.271,387.879,363.385,377.898,363.385z M380.315,359.322c5.953,0,10.436-2.768,12.362-4.693  c-3.993-3.361-10.821-9.98-12.643-11.941s-6.304-6.97-7.88-9.28c-3.013,2.065-5.568,5.604-5.568,11.207  C366.586,353.368,372.75,359.322,380.315,359.322z"/>
+                    </svg>
+                </a>
+                <a class="full-logo desktop-only" href="/" data-action="primary-nav-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="180" height="42" viewbox="90.5 267.5 581 119" xml:space="preserve" fill="#000000">
+                      <title>Food & Wine</title>
+                      <path d="M151.057,322.137v13.15h-24.584v26.748h-15.578v-68.07h44.394v13.148H126.18v15.022L151.057,322.137  L151.057,322.137z"/>
+                      <path d="M510.315,362.035v-68.07h15.285v68.07H510.315z"/>
+                      <path d="M553.874,293.965l26.06,43.006v-43.006h14.603v68.07h-14.289l-26.939-43.006v43.006h-14.601v-68.07H553.874z  "/>
+                      <path d="M645.799,321.4v12.166h-24.975v15.318h30.281v13.149h-45.566v-68.07h44.491v13.149h-29.206V321.4H645.799z"/>
+                      <path d="M159.321,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385s-9.037-35.384-30.577-35.384  S159.321,308.701,159.321,328z M189.898,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  s-14.803-8.705-14.803-22.234S179.999,305.765,189.898,305.765z"/>
+                      <path d="M294.643,362.035h16.909c23.148,0,37.37-9.842,37.37-34.035c0-24.193-14.222-34.035-37.37-34.035h-16.909  V362.035z M309.928,307.114h3.32c14.034,0,20.193,5.302,20.193,20.886s-6.16,20.886-20.193,20.886h-3.32V307.114z"/>
+                      <path d="M429.33,293.965l11.202,45.756l13.15-45.756h11.836l12.653,45.756l10.803-45.756h14.61l-18.287,68.07h-13.06  l-13.331-42.633l-13.135,42.633h-13.56l-17.788-68.07H429.33z"/>
+                      <path d="M226.883,328c0,19.299,9.037,35.385,30.577,35.385s30.577-16.086,30.577-35.385S279,292.616,257.46,292.616  S226.883,308.701,226.883,328z M257.46,305.765c9.9,0,14.803,8.706,14.803,22.235s-4.903,22.234-14.803,22.234  c-9.899,0-14.803-8.705-14.803-22.234S247.561,305.765,257.46,305.765z"/>
+                      <path d="M377.898,363.385c-13.624,0-18.246-9.387-18.246-15.479c0-8.195,6.233-14.114,11.066-16.74  c-2.767-3.782-3.467-6.654-3.502-9.807c-0.035-5.533,5.253-12.889,16.04-12.889c3.502,0,6.584,0.701,8.476,1.611  c1.016,0.455,1.051,0.945,1.051,1.786c0,2.206-0.42,7.459-0.63,8.511c-0.176,1.051-0.42,1.189-0.771,1.189  c-0.385,0-0.456-0.279-0.456-1.33c0-1.821-0.455-4.098-2.101-5.92c-1.472-1.646-3.888-3.116-7.391-3.116  c-3.571,0-8.194,2.312-8.194,8.581c0,6.023,4.902,11.102,11.347,18.176c2.381,2.662,10.997,10.576,12.783,12.117  c1.682-2.312,3.468-6.934,3.468-11.207c0-1.051-0.281-2.381-1.331-3.326c-0.911-0.876-2.382-1.087-3.432-1.087  c-0.42,0-0.841-0.14-0.841-0.524c0-0.455,0.561-0.596,1.12-0.596c1.682,0,4.483,0.07,8.405,0.49c1.191,0.141,1.821,0.63,1.821,1.4  c0,5.533-3.362,12.328-6.899,16.565c4.658,3.888,7.774,5.776,9.701,6.897c2.241,1.332,5.953,2.593,7.915,2.593  c0.63,0,0.979,0.069,0.979,0.561c0,0.351-0.561,0.562-1.646,0.562h-6.129c-6.584,0-8.685-0.631-15.549-5.989  C392.993,358.271,387.879,363.385,377.898,363.385z M380.315,359.322c5.953,0,10.436-2.768,12.362-4.693  c-3.993-3.361-10.821-9.98-12.643-11.941s-6.304-6.97-7.88-9.28c-3.013,2.065-5.568,5.604-5.568,11.207  C366.586,353.368,372.75,359.322,380.315,359.322z"/>
+                    </svg>
+                </a>
               </div>
               <div class="contextual-social-links mobile-only">
                 <div class="component share  ">
                   <div class="social-container display-flex">
-                    <span
-                      class="icon icon-facebook-circle-solid social-icon padding-4-right"
-                      
-                    >
-                        <a href="https://www.facebook.com/sharer/sharer.php?u&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#4C76BE" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M19.608 13.972c.406-.013.812-.004 1.22-.004h.167v-1.99c-.217-.02-.444-.05-.67-.06-.417-.017-.835-.037-1.25-.028-.638.012-1.24.158-1.766.514-.61.41-.94.983-1.06 1.66-.06.28-.07.57-.08.855-.01.44 0 .89 0 1.34v.16h-2.02v2.22h2.01v5.585h2.45V18.65h2c.1-.74.202-1.47.307-2.233h-.45c-.57.002-1.877 0-1.877 0s.007-1.1.02-1.58c.02-.655.433-.855.99-.873"/></g></svg>    </a>
-                    </span>
-                      <span
-                        class="icon icon-pinterest-circle-solid social-icon padding-4-right"
-                        
-                      >
-                          <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Break-and-bake%20cookies%2C%20which%20come%20packaged%20in%20eight-inch%20squares%2C%20are%20the%20secret%20to%20these%20incredible%20ice%20cream%20sandwich%20bars.%20Simply%20roll%20out%20all%20the..." class="display-block component popup" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#E34C5C" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M17.216 20.373l-.028.1c-.472 1.847-.524 2.257-1.01 3.115-.23.408-.49.794-.778 1.164-.032.04-.064.095-.128.082-.07-.014-.077-.08-.084-.135-.078-.565-.12-1.128-.102-1.694.025-.738.116-.992 1.068-4.994.014-.06-.002-.112-.023-.167-.225-.615-.27-1.238-.07-1.87.43-1.365 1.978-1.47 2.248-.343.167.696-.274 1.608-.613 2.955-.28 1.11 1.03 1.902 2.147 1.09 1.033-.75 1.433-2.542 1.357-3.813-.15-2.535-2.93-3.083-4.694-2.267-2.02.935-2.48 3.44-1.568 4.586.116.146.205.235.167.382-.06.23-.11.46-.174.69-.047.17-.19.23-.36.16-.34-.136-.62-.35-.845-.632-.775-.96-.997-2.86.028-4.466 1.136-1.78 3.248-2.5 5.177-2.282 2.302.262 3.757 1.835 4.03 3.62.124.814.035 2.82-1.107 4.237-1.313 1.628-3.44 1.736-4.423.736-.076-.076-.137-.166-.21-.258"/></g></svg>    </a>
-                      </span>
-                    <span
-                      class="icon icon-twitter-circle-solid social-icon padding-4-right"
-                      
-                    >
-                        <a href="https://twitter.com/intent/tweet?status&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars%20via%20@foodandwine" class="display-block " target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#71B7F0" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M15.5 20.663c-1.382-.048-2.246-1.04-2.476-1.847.385.073.765.06 1.142-.035.01 0 .02 0 .038-.01-.75-.17-1.327-.57-1.73-1.22-.265-.43-.393-.9-.39-1.41.375.2.766.31 1.186.32-.564-.404-.94-.934-1.096-1.613-.153-.677-.054-1.32.286-1.93 1.44 1.7 3.265 2.63 5.49 2.78-.016-.103-.032-.2-.043-.29-.075-.626.05-1.21.39-1.74.422-.664 1.027-1.077 1.804-1.203.9-.147 1.68.11 2.33.74.05.04.09.057.15.04.55-.12 1.068-.313 1.55-.593l.04-.02h.018c-.21.62-.594 1.097-1.14 1.448.516-.052 1.008-.19 1.483-.395l.01.01c-.1.13-.2.27-.307.4-.283.344-.607.65-.97.92-.03.02-.043.04-.042.08.017.393 0 .79-.05 1.18-.1.83-.33 1.62-.683 2.37-.366.78-.84 1.48-1.44 2.1-1.013 1.05-2.235 1.724-3.657 2.04-.49.103-.986.16-1.486.172-1.536.045-2.955-.336-4.26-1.143-.02-.01-.034-.024-.063-.04.93.1 1.81-.02 2.66-.37.45-.183.87-.425 1.267-.736"/></g></svg>    </a>
-                    </span>
-                      <span
-                        class="icon icon-email-circle-solid social-icon padding-4-right"
-                        
-                      >
-                          <a href="mailto:?subject&#x3D;Food%20&amp;%20Wine:%20Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20&amp;body&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="18" cy="18" r="15" /><path fill="#FFF" style="fill:#fff!important" d="M13.2 13c-.66 0-1.194.563-1.194 1.25L12 21.75c0 .688.54 1.25 1.2 1.25h9.6c.66 0 1.2-.563 1.2-1.25v-7.5c0-.688-.54-1.25-1.2-1.25h-9.6zm9.6 8.75h-9.6V15.5l4.8 3.125 4.8-3.125v6.25zM18 17.375l-4.8-3.125h9.6L18 17.375z"/></g></svg>
-                          </a>
-                      </span>
+                        <span
+                          class="icon icon-facebook-circle-solid social-icon padding-8-right"
+                          
+                        >
+                            <a href="https://www.facebook.com/sharer/sharer.php?u&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block component popup" target="_blank">
+                          <svg width="32" height="33" viewBox="0 0 32 33" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M32 16.792c0 8.837-7.164 16-16 16-8.837 0-16-7.163-16-16 0-8.838 7.163-16 16-16 8.836 0 16 7.162 16 16" fill="#4C76BE"/><path d="M18.625 11.493c.5-.015 1.001-.004 1.504-.004h.206V9.105c-.267-.024-.546-.06-.827-.072-.513-.02-1.028-.044-1.542-.034-.785.015-1.528.19-2.177.616-.744.49-1.152 1.178-1.307 1.99a6.262 6.262 0 0 0-.091 1.023c-.015.534-.004 1.069-.002 1.604v.2h-2.493v2.663h2.478v6.692h3.028v-6.68h2.47l.38-2.676h-.555c-.702.003-2.315 0-2.315 0s.007-1.32.024-1.892c.024-.784.533-1.023 1.22-1.046" fill="#FFF"/></g></svg>    </a>
+                        </span>
+                                <span
+                            class="icon icon-pinterest-circle-solid social-icon padding-8-right"
+                            
+                          >
+                              <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars%3Futm_source%3Dpinterest.com%26utm_medium%3Dsocial%26utm_campaign%3Dfoodandwine&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Food%20%26%20Wine%20goes%20way%20beyond%20mere%20eating%20and%20drinking.%20We&#x27;re%20on%20a%20mission%20to%20find%20the%20most%20exciting%20places%2C%20new%20experiences%2C%20emerging%20trends%20and%20sensations." class="display-block component popup" target="_blank">
+                            <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16" fill="#E54A59"/><path d="M15.164 18.532c-.011.039-.022.072-.03.106-.503 1.97-.56 2.408-1.076 3.322-.246.436-.524.847-.832 1.242-.034.044-.067.102-.136.088-.076-.016-.082-.084-.09-.145-.083-.599-.128-1.2-.108-1.803.026-.788.123-1.058 1.139-5.327a.295.295 0 0 0-.024-.178c-.244-.656-.291-1.32-.079-1.995.459-1.456 2.11-1.567 2.398-.366.178.743-.292 1.716-.653 3.152-.299 1.186 1.097 2.03 2.29 1.163 1.1-.798 1.527-2.71 1.446-4.067-.16-2.703-3.125-3.287-5.005-2.417-2.157.997-2.647 3.67-1.673 4.891.123.156.219.25.177.408-.062.245-.117.49-.185.734-.05.182-.202.247-.385.173a2.212 2.212 0 0 1-.9-.675c-.827-1.024-1.064-3.049.03-4.763 1.21-1.9 3.463-2.668 5.52-2.435 2.457.28 4.01 1.958 4.3 3.863.133.867.038 3.006-1.18 4.518-1.402 1.737-3.672 1.852-4.72.786-.08-.082-.145-.178-.224-.275" fill="#FFF"/></g></svg>    </a>
+                          </span>
+                        <span
+                          class="icon icon-twitter-circle-solid social-icon padding-8-right"
+                          
+                        >
+                            <a href="https://twitter.com/intent/tweet?status&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars%20via%20@foodandwine" class="display-block component popup" target="_blank">
+                          <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0c8.836 0 16 7.163 16 16s-7.164 16-16 16z" fill="#71B7F0"/><path d="M13.334 18.841c-1.475-.052-2.397-1.11-2.642-1.97.411.078.816.062 1.218-.037.01-.002.02-.01.04-.018-.799-.186-1.415-.614-1.843-1.304a2.752 2.752 0 0 1-.416-1.509c.398.213.815.332 1.263.344-.6-.433-1.004-.999-1.169-1.722a2.813 2.813 0 0 1 .305-2.057c1.537 1.81 3.483 2.804 5.856 2.967-.017-.112-.034-.21-.046-.311-.08-.668.054-1.29.416-1.856.451-.708 1.096-1.149 1.925-1.284.955-.156 1.788.116 2.485.792.047.045.086.06.152.045a5.696 5.696 0 0 0 1.65-.635l.039-.02c.002-.002.007 0 .019 0a2.903 2.903 0 0 1-1.216 1.544 5.415 5.415 0 0 0 1.58-.426l.012.013c-.108.143-.214.288-.326.426a5.576 5.576 0 0 1-1.032.981c-.033.024-.048.047-.047.09.015.42-.001.842-.053 1.26a8.334 8.334 0 0 1-.732 2.528c-.389.83-.896 1.58-1.534 2.239a7.595 7.595 0 0 1-3.902 2.173 8.453 8.453 0 0 1-1.582.189 8.019 8.019 0 0 1-4.543-1.22c-.018-.01-.036-.023-.067-.043a5.748 5.748 0 0 0 2.84-.392 5.624 5.624 0 0 0 1.35-.787" fill="#FFF"/></g></svg>    </a>
+                        </span>
+                                <span
+                            class="icon icon-email-circle-solid social-icon padding-8-right"
+                            
+                          >
+                              <a href="mailto:?subject&#x3D;Food%20%26%20Wine%3A%20Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20&amp;body&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " >
+                            <svg width="32" height="32" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="15" cy="15" r="15"/><path fill="#FFF" style="fill:#fff!important" d="M10.2 10c-.66 0-1.194.563-1.194 1.25L9 18.75c0 .688.54 1.25 1.2 1.25h9.6c.66 0 1.2-.563 1.2-1.25v-7.5c0-.688-.54-1.25-1.2-1.25h-9.6zm9.6 8.75h-9.6V12.5l4.8 3.125 4.8-3.125v6.25zM15 14.375l-4.8-3.125h9.6L15 14.375z" fill="#FFF"/></g></svg>
+                              </a>
+                          </span>
                   </div>
-                </div>
-              </div>
+                </div>          </div>
               <div class="title-display desktop-only">
                 <span class="title-text padding-16-right">Chocolate Chip Cookie Ice Cream Bars</span>
                 <span>
                   <div class="component share  ">
                     <div class="social-container display-flex">
-                      <span
-                        class="icon icon-facebook-circle-solid social-icon padding-4-right"
-                        
-                      >
-                          <a href="https://www.facebook.com/sharer/sharer.php?u&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#4C76BE" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M19.608 13.972c.406-.013.812-.004 1.22-.004h.167v-1.99c-.217-.02-.444-.05-.67-.06-.417-.017-.835-.037-1.25-.028-.638.012-1.24.158-1.766.514-.61.41-.94.983-1.06 1.66-.06.28-.07.57-.08.855-.01.44 0 .89 0 1.34v.16h-2.02v2.22h2.01v5.585h2.45V18.65h2c.1-.74.202-1.47.307-2.233h-.45c-.57.002-1.877 0-1.877 0s.007-1.1.02-1.58c.02-.655.433-.855.99-.873"/></g></svg>    </a>
-                      </span>
-                        <span
-                          class="icon icon-pinterest-circle-solid social-icon padding-4-right"
-                          
-                        >
-                            <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Break-and-bake%20cookies%2C%20which%20come%20packaged%20in%20eight-inch%20squares%2C%20are%20the%20secret%20to%20these%20incredible%20ice%20cream%20sandwich%20bars.%20Simply%20roll%20out%20all%20the..." class="display-block component popup" target="_blank">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#E34C5C" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M17.216 20.373l-.028.1c-.472 1.847-.524 2.257-1.01 3.115-.23.408-.49.794-.778 1.164-.032.04-.064.095-.128.082-.07-.014-.077-.08-.084-.135-.078-.565-.12-1.128-.102-1.694.025-.738.116-.992 1.068-4.994.014-.06-.002-.112-.023-.167-.225-.615-.27-1.238-.07-1.87.43-1.365 1.978-1.47 2.248-.343.167.696-.274 1.608-.613 2.955-.28 1.11 1.03 1.902 2.147 1.09 1.033-.75 1.433-2.542 1.357-3.813-.15-2.535-2.93-3.083-4.694-2.267-2.02.935-2.48 3.44-1.568 4.586.116.146.205.235.167.382-.06.23-.11.46-.174.69-.047.17-.19.23-.36.16-.34-.136-.62-.35-.845-.632-.775-.96-.997-2.86.028-4.466 1.136-1.78 3.248-2.5 5.177-2.282 2.302.262 3.757 1.835 4.03 3.62.124.814.035 2.82-1.107 4.237-1.313 1.628-3.44 1.736-4.423.736-.076-.076-.137-.166-.21-.258"/></g></svg>    </a>
-                        </span>
-                      <span
-                        class="icon icon-twitter-circle-solid social-icon padding-4-right"
-                        
-                      >
-                          <a href="https://twitter.com/intent/tweet?status&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars%20via%20@foodandwine" class="display-block " target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#71B7F0" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M15.5 20.663c-1.382-.048-2.246-1.04-2.476-1.847.385.073.765.06 1.142-.035.01 0 .02 0 .038-.01-.75-.17-1.327-.57-1.73-1.22-.265-.43-.393-.9-.39-1.41.375.2.766.31 1.186.32-.564-.404-.94-.934-1.096-1.613-.153-.677-.054-1.32.286-1.93 1.44 1.7 3.265 2.63 5.49 2.78-.016-.103-.032-.2-.043-.29-.075-.626.05-1.21.39-1.74.422-.664 1.027-1.077 1.804-1.203.9-.147 1.68.11 2.33.74.05.04.09.057.15.04.55-.12 1.068-.313 1.55-.593l.04-.02h.018c-.21.62-.594 1.097-1.14 1.448.516-.052 1.008-.19 1.483-.395l.01.01c-.1.13-.2.27-.307.4-.283.344-.607.65-.97.92-.03.02-.043.04-.042.08.017.393 0 .79-.05 1.18-.1.83-.33 1.62-.683 2.37-.366.78-.84 1.48-1.44 2.1-1.013 1.05-2.235 1.724-3.657 2.04-.49.103-.986.16-1.486.172-1.536.045-2.955-.336-4.26-1.143-.02-.01-.034-.024-.063-.04.93.1 1.81-.02 2.66-.37.45-.183.87-.425 1.267-.736"/></g></svg>    </a>
-                      </span>
-                        <span
-                          class="icon icon-email-circle-solid social-icon padding-4-right"
-                          
-                        >
-                            <a href="mailto:?subject&#x3D;Food%20&amp;%20Wine:%20Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20&amp;body&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " >
-                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="18" cy="18" r="15" /><path fill="#FFF" style="fill:#fff!important" d="M13.2 13c-.66 0-1.194.563-1.194 1.25L12 21.75c0 .688.54 1.25 1.2 1.25h9.6c.66 0 1.2-.563 1.2-1.25v-7.5c0-.688-.54-1.25-1.2-1.25h-9.6zm9.6 8.75h-9.6V15.5l4.8 3.125 4.8-3.125v6.25zM18 17.375l-4.8-3.125h9.6L18 17.375z"/></g></svg>
-                            </a>
-                        </span>
+                          <span
+                            class="icon icon-facebook-circle-solid social-icon padding-8-right"
+                            
+                          >
+                              <a href="https://www.facebook.com/sharer/sharer.php?u&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block component popup" target="_blank">
+                            <svg width="32" height="33" viewBox="0 0 32 33" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M32 16.792c0 8.837-7.164 16-16 16-8.837 0-16-7.163-16-16 0-8.838 7.163-16 16-16 8.836 0 16 7.162 16 16" fill="#4C76BE"/><path d="M18.625 11.493c.5-.015 1.001-.004 1.504-.004h.206V9.105c-.267-.024-.546-.06-.827-.072-.513-.02-1.028-.044-1.542-.034-.785.015-1.528.19-2.177.616-.744.49-1.152 1.178-1.307 1.99a6.262 6.262 0 0 0-.091 1.023c-.015.534-.004 1.069-.002 1.604v.2h-2.493v2.663h2.478v6.692h3.028v-6.68h2.47l.38-2.676h-.555c-.702.003-2.315 0-2.315 0s.007-1.32.024-1.892c.024-.784.533-1.023 1.22-1.046" fill="#FFF"/></g></svg>    </a>
+                          </span>
+                                  <span
+                              class="icon icon-pinterest-circle-solid social-icon padding-8-right"
+                              
+                            >
+                                <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars%3Futm_source%3Dpinterest.com%26utm_medium%3Dsocial%26utm_campaign%3Dfoodandwine&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Food%20%26%20Wine%20goes%20way%20beyond%20mere%20eating%20and%20drinking.%20We&#x27;re%20on%20a%20mission%20to%20find%20the%20most%20exciting%20places%2C%20new%20experiences%2C%20emerging%20trends%20and%20sensations." class="display-block component popup" target="_blank">
+                              <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16" fill="#E54A59"/><path d="M15.164 18.532c-.011.039-.022.072-.03.106-.503 1.97-.56 2.408-1.076 3.322-.246.436-.524.847-.832 1.242-.034.044-.067.102-.136.088-.076-.016-.082-.084-.09-.145-.083-.599-.128-1.2-.108-1.803.026-.788.123-1.058 1.139-5.327a.295.295 0 0 0-.024-.178c-.244-.656-.291-1.32-.079-1.995.459-1.456 2.11-1.567 2.398-.366.178.743-.292 1.716-.653 3.152-.299 1.186 1.097 2.03 2.29 1.163 1.1-.798 1.527-2.71 1.446-4.067-.16-2.703-3.125-3.287-5.005-2.417-2.157.997-2.647 3.67-1.673 4.891.123.156.219.25.177.408-.062.245-.117.49-.185.734-.05.182-.202.247-.385.173a2.212 2.212 0 0 1-.9-.675c-.827-1.024-1.064-3.049.03-4.763 1.21-1.9 3.463-2.668 5.52-2.435 2.457.28 4.01 1.958 4.3 3.863.133.867.038 3.006-1.18 4.518-1.402 1.737-3.672 1.852-4.72.786-.08-.082-.145-.178-.224-.275" fill="#FFF"/></g></svg>    </a>
+                            </span>
+                          <span
+                            class="icon icon-twitter-circle-solid social-icon padding-8-right"
+                            
+                          >
+                              <a href="https://twitter.com/intent/tweet?status&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars%20via%20@foodandwine" class="display-block component popup" target="_blank">
+                            <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0c8.836 0 16 7.163 16 16s-7.164 16-16 16z" fill="#71B7F0"/><path d="M13.334 18.841c-1.475-.052-2.397-1.11-2.642-1.97.411.078.816.062 1.218-.037.01-.002.02-.01.04-.018-.799-.186-1.415-.614-1.843-1.304a2.752 2.752 0 0 1-.416-1.509c.398.213.815.332 1.263.344-.6-.433-1.004-.999-1.169-1.722a2.813 2.813 0 0 1 .305-2.057c1.537 1.81 3.483 2.804 5.856 2.967-.017-.112-.034-.21-.046-.311-.08-.668.054-1.29.416-1.856.451-.708 1.096-1.149 1.925-1.284.955-.156 1.788.116 2.485.792.047.045.086.06.152.045a5.696 5.696 0 0 0 1.65-.635l.039-.02c.002-.002.007 0 .019 0a2.903 2.903 0 0 1-1.216 1.544 5.415 5.415 0 0 0 1.58-.426l.012.013c-.108.143-.214.288-.326.426a5.576 5.576 0 0 1-1.032.981c-.033.024-.048.047-.047.09.015.42-.001.842-.053 1.26a8.334 8.334 0 0 1-.732 2.528c-.389.83-.896 1.58-1.534 2.239a7.595 7.595 0 0 1-3.902 2.173 8.453 8.453 0 0 1-1.582.189 8.019 8.019 0 0 1-4.543-1.22c-.018-.01-.036-.023-.067-.043a5.748 5.748 0 0 0 2.84-.392 5.624 5.624 0 0 0 1.35-.787" fill="#FFF"/></g></svg>    </a>
+                          </span>
+                                  <span
+                              class="icon icon-email-circle-solid social-icon padding-8-right"
+                              
+                            >
+                                <a href="mailto:?subject&#x3D;Food%20%26%20Wine%3A%20Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20&amp;body&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " >
+                              <svg width="32" height="32" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="15" cy="15" r="15"/><path fill="#FFF" style="fill:#fff!important" d="M10.2 10c-.66 0-1.194.563-1.194 1.25L9 18.75c0 .688.54 1.25 1.2 1.25h9.6c.66 0 1.2-.563 1.2-1.25v-7.5c0-.688-.54-1.25-1.2-1.25h-9.6zm9.6 8.75h-9.6V12.5l4.8 3.125 4.8-3.125v6.25zM15 14.375l-4.8-3.125h9.6L15 14.375z" fill="#FFF"/></g></svg>
+                                </a>
+                            </span>
                     </div>
-                  </div>
-                </span>
+                  </div>            </span>
               </div>
               <div class="primary-links mobile-only">
                 <ul class="primary-text-links">
                       <li class="heading-list menu-list-item" data-action="primary-nav-pos-7">
-                        <a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042381.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;mobile_header_tl">Subscribe</a>
+                        <a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042381.html">Subscribe</a>
                       </li>
                 </ul>
               </div>
-              <button class="icon search mobile-only"><span
+                <button class="icon search mobile-only js-activate"><span
       class="icon icon-search utility-icon color-ribbon-primary-text"
       
     >
       <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><title>Search</title><path d="M12.5 11h-.79l-.28-.27A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 1 0 6.5 13c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L17.49 16l-4.99-5zm-6 0C4.01 11 2 8.99 2 6.5S4.01 2 6.5 2 11 4.01 11 6.5 8.99 11 6.5 11z" /></svg>
     </span>
     </button>
-              <div class="search-container mobile-only search-open">
-                <form action="http://www.foodandwine.com/search" method="GET">
-                    <input name="keyword" type="text" class="search-field" value="" placeholder="Search Food &amp; Wine">
-                </form>
-              </div>
+                <div class="search-container mobile-only search-open">
+                  <form action="http://www.foodandwine.com/search" method="GET">
+                      <input name="keyword" type="text" class="search-field" value="" placeholder="Search Food &amp; Wine">
+                  </form>
+                </div>
               <div class="primary-links desktop-only">
                 <ul class="primary-text-links">
                       <li class="heading-list menu-list-item" data-action="primary-nav-pos-1">
@@ -288,7 +317,7 @@
                         <a href="/news" >News</a>
                       </li>
                       <li class="heading-list menu-list-item component subscribe-flyout" data-action="primary-nav-pos-7">
-                        <a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042376.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;navigation_bar">Subscribe</a>
+                        <a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042376.html">Subscribe</a>
                           <div class="subscribe-cover">
                             <img src="http://subscription-assets.timeinc.com/current/8422_top1_205_thumb.jpg" />
                           </div>
@@ -324,7 +353,7 @@
                 id="cmad-4x1_ATF"
                 class="ad ad-container ad-wrapper type-4x1 header-text-ad type-cm-subscribe desktop-ad cm-ad"
                 data-dimensions="4x1"
-                data-tgxcmpos="globalnavsubhvr"data-tgxcmtyp="tout"data-tgxpriority="4"
+                data-tgxcmpos="globalnavsubhvr" data-tgxcmtyp="tout" data-tgxpriority="4" 
               >
               </div>
             </section>
@@ -333,7 +362,7 @@
         <div class="nav-placeholder no-secondary-ribbon no-utility-ribbon"></div>
         <nav class="menu no-secondary-ribbon">
           <section class="container">
-            <section class="menu">
+            <section class="menu menu">
             
             <ul>
                 <li class="menu-item heading-menu">
@@ -628,46 +657,35 @@
                       </ul>
                     </aside>
                 </li>
-                <li class="menu-item heading-menu has-submenu">
-                  <a class="submenu-link"  href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042378.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;hamburger_subscribe">
+            </ul>
+            </section>
+            <section class="menu second-menu">
+            
+            <ul>
+                <li class="menu-item heading-menu">
+                  <a   href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042378.html">
                     Subscribe
                   </a>
-                    <button class="icon accordion accordion-arrow"><span
-                  class="icon icon-down utility-icon"
-                  
-                >
-                  <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg"><title>Down</title><path d="M12 2L10.59.59 6 5.17 1.41.59 0 2l6 6z"/></svg>
-                </span>
-                </button>
-                    <aside class="submenu">
-                      <ul>
-                          <li class="menu-item heading-menu">
-                            <a   href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042378.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;hamburger_subscribe">
-                              Magazine
-                            </a>
-                          </li>
-                          <li class="menu-item heading-menu">
-                            <a   href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042383.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;hamburger_gift">
-                              Give a Gift
-                            </a>
-                          </li>
-                          <li class="menu-item heading-menu">
-                            <a   href="https://pages.email.foodandwine.com/opt-in">
-                              Newsletters
-                            </a>
-                          </li>
-                          <li class="menu-item heading-menu">
-                            <a   href="http://www.fwwineclub.com/">
-                              Wine Club
-                            </a>
-                          </li>
-                          <li class="menu-item heading-menu">
-                            <a   href="https://www.csptcs.com/Login?MSRSMAG&#x3D;WI">
-                              Magazine Customer Service
-                            </a>
-                          </li>
-                      </ul>
-                    </aside>
+                </li>
+                <li class="menu-item heading-menu">
+                  <a   href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042383.html">
+                    Give a Gift
+                  </a>
+                </li>
+                <li class="menu-item heading-menu">
+                  <a   href="https://pages.email.foodandwine.com/opt-in">
+                    Newsletters
+                  </a>
+                </li>
+                <li class="menu-item heading-menu">
+                  <a   href="http://www.fwwineclub.com/">
+                    Wine Club
+                  </a>
+                </li>
+                <li class="menu-item heading-menu">
+                  <a   href="https://www.csptcs.com/Login?MSRSMAG&#x3D;WI">
+                    Magazine Customer Service
+                  </a>
                 </li>
             </ul>
             </section>
@@ -675,54 +693,52 @@
     
             <section class="menu">
               <label class="heading-tiny">Stay Connected</label>
-              <ul>
-                <div class="menu-item-styled no-pad-top">
-                    <link itemprop="sameAs" href="http://www.facebook.com/foodandwine">
-                    <span
-                      class="icon icon-facebook-circle-stroke social-stroke-icon color-accent margin-4-right"
-                      
-                    >
-                        <a href="http://www.facebook.com/foodandwine" class="display-block " >
-                      <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.95 18c0 8.258-6.693 14.95-14.95 14.95S3.05 26.26 3.05 18 9.742 3.05 18 3.05 32.95 9.74 32.95 18" stroke-width="2" stroke="#B7B4B4"/><path d="M19.718 13.698c.433-.014.866-.004 1.3-.004h.18V11.57c-.232-.023-.473-.054-.716-.065-.445-.02-.89-.04-1.336-.03-.68.013-1.323.17-1.884.55-.644.435-.998 1.05-1.132 1.773-.057.3-.07.607-.08.912-.01.477-.002.953 0 1.43v.18h-2.16v2.373h2.147v5.966h2.622V18.7h2.134l.33-2.385h-.482c-.608.002-2.004 0-2.004 0s.006-1.177.02-1.687c.02-.7.46-.912 1.057-.932" fill="#B7B4B4"/></g></svg>    </a>
-                    </span>
-                    <link itemprop="sameAs" href="https://twitter.com/foodandwine">
-                    <span
-                      class="icon icon-twitter-circle-stroke social-stroke-icon color-accent margin-4-right"
-                      
-                    >
-                        <a href="https://twitter.com/foodandwine" class="display-block " >
-                      <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.977 18c0 8.272-6.705 14.976-14.977 14.976S3.023 26.272 3.023 18C3.023 9.728 9.728 3.024 18 3.024S32.977 9.728 32.977 18" stroke-width="2" stroke="#B7B4B4"/><path d="M15.783 21.476c-1.48-.052-2.404-1.114-2.65-1.976.413.078.82.063 1.222-.037.01-.002.02-.01.04-.018-.8-.187-1.42-.616-1.848-1.307-.286-.46-.422-.962-.418-1.514.4.214.81.333 1.26.345-.607-.44-1.01-1.01-1.177-1.73-.164-.73-.057-1.42.306-2.07 1.54 1.813 3.492 2.81 5.872 2.973-.02-.113-.037-.21-.048-.31-.08-.67.054-1.295.416-1.86.454-.71 1.1-1.15 1.93-1.29.96-.156 1.796.117 2.495.795.046.045.085.06.15.045.586-.125 1.14-.335 1.657-.635l.04-.02h.02c-.225.664-.635 1.174-1.22 1.55.553-.06 1.08-.206 1.586-.426l.01.013c-.11.143-.215.29-.327.427-.302.373-.65.7-1.035.984-.034.025-.05.05-.05.09.016.424 0 .846-.053 1.266-.11.885-.352 1.73-.73 2.534-.39.833-.9 1.585-1.54 2.246-1.083 1.12-2.39 1.844-3.912 2.18-.52.115-1.05.173-1.585.19-1.64.046-3.16-.36-4.554-1.224l-.066-.043c.996.107 1.94-.02 2.85-.393.484-.197.93-.457 1.354-.79" fill="#B7B4B4"/></g></svg>    </a>
-                    </span>
-                    <link itemprop="sameAs" href="https://www.pinterest.com/foodandwine/">
-                    <span
-                      class="icon icon-pinterest-circle-stroke social-stroke-icon color-accent margin-4-right"
-                      
-                    >
-                        <a href="https://www.pinterest.com/foodandwine/" class="display-block " >
-                      <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.976 18c0 8.272-6.705 14.976-14.976 14.976-8.27 0-14.976-6.704-14.976-14.976C3.024 9.728 9.73 3.024 18 3.024S32.976 9.728 32.976 18" stroke-width="2" stroke="#B7B4B4"/><path d="M17.162 20.54c-.012.038-.022.072-.03.105-.505 1.976-.562 2.415-1.08 3.332-.247.437-.525.85-.834 1.246-.034.044-.067.102-.137.088-.07-.01-.08-.08-.08-.14-.08-.6-.13-1.2-.11-1.81.03-.79.13-1.06 1.15-5.34.02-.06 0-.12-.02-.18-.24-.65-.29-1.32-.08-2 .46-1.46 2.12-1.57 2.41-.36.18.75-.292 1.72-.654 3.16-.3 1.19 1.1 2.04 2.298 1.17 1.106-.8 1.534-2.72 1.45-4.08-.16-2.71-3.13-3.29-5.02-2.42-2.16 1-2.65 3.68-1.675 4.91.126.157.22.25.18.41-.06.244-.117.49-.186.735-.05.184-.2.25-.384.175-.36-.148-.66-.377-.9-.678-.83-1.026-1.07-3.057.03-4.776 1.212-1.906 3.47-2.676 5.534-2.443 2.468.28 4.02 1.964 4.316 3.873.13.87.035 3.012-1.186 4.53-1.404 1.74-3.68 1.854-4.73.785-.08-.08-.146-.18-.225-.272" fill="#B7B4B4"/></g></svg>    </a>
-                    </span>
-                    <link itemprop="sameAs" href="https://www.instagram.com/foodandwine/">
-                    <span
-                      class="icon icon-instagram-circle-stroke social-stroke-icon color-accent margin-4-right"
-                      
-                    >
-                        <a href="https://www.instagram.com/foodandwine/" class="display-block " >
-                      <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.95 18c0 8.257-6.693 14.95-14.95 14.95S3.05 26.258 3.05 18 9.742 3.05 18 3.05 32.95 9.742 32.95 18" stroke-width="2" stroke="#B7B4B4"/><path d="M22.624 22c0 .344-.28.624-.623.624h-8.47c-.342 0-.62-.28-.62-.623v-5.13h1.218c-.07.29-.104.59-.104.9 0 2.07 1.677 3.75 3.75 3.75 2.07 0 3.75-1.68 3.75-3.75 0-.306-.038-.604-.108-.89h1.22V22zm-7.137-5.13c.356-.907 1.24-1.552 2.274-1.552 1.04 0 1.92.645 2.28 1.553.11.28.17.58.17.9 0 1.347-1.1 2.444-2.44 2.444-1.345 0-2.442-1.097-2.442-2.443 0-.314.06-.615.17-.89zm4.916-3.576c0-.19.154-.344.344-.344h1.49c.19 0 .344.154.344.344v1.49c0 .19-.15.344-.34.344h-1.49c-.19 0-.34-.154-.34-.344v-1.49zM22 11.592h-8.478c-1.065 0-1.93.865-1.93 1.93v8.48c0 1.064.865 1.93 1.93 1.93h8.48c1.065 0 1.93-.866 1.93-1.93v-8.48c0-1.065-.865-1.93-1.93-1.93z" fill="#B7B4B4"/></g></svg>    </a>
-                    </span>
-                </div>
-              </ul>
+              <div class="menu-item-styled social-items no-pad-top">
+                  <link href="http://www.facebook.com/foodandwine">
+                  <span
+                    class="icon icon-facebook-circle-stroke social-stroke-icon color-accent margin-4-right"
+                    
+                  >
+                      <a href="http://www.facebook.com/foodandwine" class="display-block " target="_blank">
+                    <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.95 18c0 8.258-6.693 14.95-14.95 14.95S3.05 26.26 3.05 18 9.742 3.05 18 3.05 32.95 9.74 32.95 18" stroke-width="2" stroke="#B7B4B4"/><path d="M19.718 13.698c.433-.014.866-.004 1.3-.004h.18V11.57c-.232-.023-.473-.054-.716-.065-.445-.02-.89-.04-1.336-.03-.68.013-1.323.17-1.884.55-.644.435-.998 1.05-1.132 1.773-.057.3-.07.607-.08.912-.01.477-.002.953 0 1.43v.18h-2.16v2.373h2.147v5.966h2.622V18.7h2.134l.33-2.385h-.482c-.608.002-2.004 0-2.004 0s.006-1.177.02-1.687c.02-.7.46-.912 1.057-.932" fill="#B7B4B4"/></g></svg>    </a>
+                  </span>
+                  <link href="https://twitter.com/foodandwine">
+                  <span
+                    class="icon icon-twitter-circle-stroke social-stroke-icon color-accent margin-4-right"
+                    
+                  >
+                      <a href="https://twitter.com/foodandwine" class="display-block " target="_blank">
+                    <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.977 18c0 8.272-6.705 14.976-14.977 14.976S3.023 26.272 3.023 18C3.023 9.728 9.728 3.024 18 3.024S32.977 9.728 32.977 18" stroke-width="2" stroke="#B7B4B4"/><path d="M15.783 21.476c-1.48-.052-2.404-1.114-2.65-1.976.413.078.82.063 1.222-.037.01-.002.02-.01.04-.018-.8-.187-1.42-.616-1.848-1.307-.286-.46-.422-.962-.418-1.514.4.214.81.333 1.26.345-.607-.44-1.01-1.01-1.177-1.73-.164-.73-.057-1.42.306-2.07 1.54 1.813 3.492 2.81 5.872 2.973-.02-.113-.037-.21-.048-.31-.08-.67.054-1.295.416-1.86.454-.71 1.1-1.15 1.93-1.29.96-.156 1.796.117 2.495.795.046.045.085.06.15.045.586-.125 1.14-.335 1.657-.635l.04-.02h.02c-.225.664-.635 1.174-1.22 1.55.553-.06 1.08-.206 1.586-.426l.01.013c-.11.143-.215.29-.327.427-.302.373-.65.7-1.035.984-.034.025-.05.05-.05.09.016.424 0 .846-.053 1.266-.11.885-.352 1.73-.73 2.534-.39.833-.9 1.585-1.54 2.246-1.083 1.12-2.39 1.844-3.912 2.18-.52.115-1.05.173-1.585.19-1.64.046-3.16-.36-4.554-1.224l-.066-.043c.996.107 1.94-.02 2.85-.393.484-.197.93-.457 1.354-.79" fill="#B7B4B4"/></g></svg>    </a>
+                  </span>
+                  <link href="https://www.pinterest.com/foodandwine/">
+                  <span
+                    class="icon icon-pinterest-circle-stroke social-stroke-icon color-accent margin-4-right"
+                    
+                  >
+                      <a href="https://www.pinterest.com/foodandwine/" class="display-block " target="_blank">
+                    <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.976 18c0 8.272-6.705 14.976-14.976 14.976-8.27 0-14.976-6.704-14.976-14.976C3.024 9.728 9.73 3.024 18 3.024S32.976 9.728 32.976 18" stroke-width="2" stroke="#B7B4B4"/><path d="M17.162 20.54c-.012.038-.022.072-.03.105-.505 1.976-.562 2.415-1.08 3.332-.247.437-.525.85-.834 1.246-.034.044-.067.102-.137.088-.07-.01-.08-.08-.08-.14-.08-.6-.13-1.2-.11-1.81.03-.79.13-1.06 1.15-5.34.02-.06 0-.12-.02-.18-.24-.65-.29-1.32-.08-2 .46-1.46 2.12-1.57 2.41-.36.18.75-.292 1.72-.654 3.16-.3 1.19 1.1 2.04 2.298 1.17 1.106-.8 1.534-2.72 1.45-4.08-.16-2.71-3.13-3.29-5.02-2.42-2.16 1-2.65 3.68-1.675 4.91.126.157.22.25.18.41-.06.244-.117.49-.186.735-.05.184-.2.25-.384.175-.36-.148-.66-.377-.9-.678-.83-1.026-1.07-3.057.03-4.776 1.212-1.906 3.47-2.676 5.534-2.443 2.468.28 4.02 1.964 4.316 3.873.13.87.035 3.012-1.186 4.53-1.404 1.74-3.68 1.854-4.73.785-.08-.08-.146-.18-.225-.272" fill="#B7B4B4"/></g></svg>    </a>
+                  </span>
+                  <link href="https://www.instagram.com/foodandwine/">
+                  <span
+                    class="icon icon-instagram-circle-stroke social-stroke-icon color-accent margin-4-right"
+                    
+                  >
+                      <a href="https://www.instagram.com/foodandwine/" class="display-block " target="_blank">
+                    <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.95 18c0 8.257-6.693 14.95-14.95 14.95S3.05 26.258 3.05 18 9.742 3.05 18 3.05 32.95 9.742 32.95 18" stroke-width="2" stroke="#B7B4B4"/><path d="M22.624 22c0 .344-.28.624-.623.624h-8.47c-.342 0-.62-.28-.62-.623v-5.13h1.218c-.07.29-.104.59-.104.9 0 2.07 1.677 3.75 3.75 3.75 2.07 0 3.75-1.68 3.75-3.75 0-.306-.038-.604-.108-.89h1.22V22zm-7.137-5.13c.356-.907 1.24-1.552 2.274-1.552 1.04 0 1.92.645 2.28 1.553.11.28.17.58.17.9 0 1.347-1.1 2.444-2.44 2.444-1.345 0-2.442-1.097-2.442-2.443 0-.314.06-.615.17-.89zm4.916-3.576c0-.19.154-.344.344-.344h1.49c.19 0 .344.154.344.344v1.49c0 .19-.15.344-.34.344h-1.49c-.19 0-.34-.154-.34-.344v-1.49zM22 11.592h-8.478c-1.065 0-1.93.865-1.93 1.93v8.48c0 1.064.865 1.93 1.93 1.93h8.48c1.065 0 1.93-.866 1.93-1.93v-8.48c0-1.065-.865-1.93-1.93-1.93z" fill="#B7B4B4"/></g></svg>    </a>
+                  </span>
+              </div>
             </section>
           </section>
         </nav>
         <div class="sidebar-overlay-menu desktop-only hidden"></div>
         <div class="menu-overlay"></div>
           <div class="under-nav">
-              <div class="component feed clearfix header-recirc show-small-flair"
-                data-endpoint="/element-api/content-proxy/documents"data-request-data="%7B%22count%22%3A4%2C%22crops%22%3A%22thumbnail%2Cmarquee_large_2x%2Capp_list_thumbnail_2x%22%2C%22types%22%3A%22article%2Cgallery%2Crecipe%22%2C%22excluded%22%3A478180%7D"data-partial="list-item"data-variation="header-recirc"data-native_ad="%7B%22dimensions%22%3A%22480x100%22%2C%22placement%22%3A%22nav%22%2C%22priority%22%3A6%7D"data-nativekey="recipe-header">
+              <div class="component feed clearfix header-recirc"
+                data-endpoint="/element-api/content-proxy/documents"data-request-data="%7B%22count%22%3A4%2C%22crops%22%3A%22thumbnail%2Cmarquee_large_2x%2Capp_list_thumbnail_2x%22%2C%22types%22%3A%22article%2Cgallery%2Crecipe%22%2C%22excluded%22%3A478180%2C%22vocabulary%22%3Anull%2C%22term%22%3Anull%2C%22term_id%22%3Anull%7D"data-partial="list-item"data-variation="header-recirc"data-flair-size="20"data-type="feed"data-native_ad="%7B%22dimensions%22%3A%22480x100%22%2C%22placement%22%3A%22nav%22%2C%22priority%22%3A6%7D"data-nativekey="BeWZZ6mnMnJScaW6CFBbxjGs">
                 
+              
               </div>
           </div>
-    
           <div class="component adhesion-ad mobile-ad">
             <div class="adhesion-ad-container">
               
@@ -730,7 +746,7 @@
                 id="ad-320x50_300x50_ATF"
                 class="ad ad-container ad-wrapper type-320-flex mobile-ad "
                 data-dimensions="102x1;300x50;320x50"
-                data-tgxexclusive="true"
+                data-tgxexclusive="true" 
               >
               </div>
             </div>
@@ -744,7 +760,7 @@
               id="ad-101x1_728x90_ATF"
               class="ad ad-container ad-wrapper type-banner type-728x90 margin-16-tb tablet-ad "
               data-dimensions="101x1;728x90"
-              data-tgxposition="1"data-tgxsticky="header"
+              data-tgxposition="1" data-companion="companion" data-tgxsticky="header" data-tgxcompanion="true" 
             >
             </div>
             </div>
@@ -756,406 +772,479 @@
                 id="ad-101x1_970x90_970x66_970x250_728x90_ATF"
                 class="ad ad-container ad-wrapper type-banner type-970x90-flex margin-16-tb desktop-ad "
                 data-dimensions="101x1;970x90;970x66;970x250;728x90"
-                data-tgxposition="1"data-tgxsticky="header"
+                data-tgxposition="1" data-companion="companion" data-tgxsticky="header" data-tgxcompanion="true" 
               >
               </div>
               </div>
           </div>
-    
     
     </header>
     
 <div class="container-full-width with-sidebar-right">
-  <div class="recipe-content">
-    <main class="template recipe article clearfix margin-24-bottom" itemscope itemtype="https://schema.org/Recipe">
-      <!-- Top Section -->
+  <main class="template recipe article clearfix margin-48-bottom">
+
+      <!-- Recipe Top Section -->
       <div class="margin-16-bottom clearfix recipe-top">
 
-        <!-- Headline -->
-        <div class="recipe-header text-align-center">
-          <!-- Headline -->
-          <div class="intro article-info">
-            <div class="intro-top margin-8-bottom clearfix">
-              <!-- Breadcrumbs -->
-                <div class="partial breadcrumbs clearfix ">
-                  <nav role="navigation">
-                    <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
-                      <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a href="/" itemprop="item">
-                            <span itemprop="name">Home</span>
-                        </a>
-                        <meta itemprop="position" content="1">
-                      </li>
-                      <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a href="/recipes" itemprop="item">
-                            <span itemprop="name">Recipes</span>
-                        </a>
-                        <meta itemprop="position" content="2">
-                      </li>
-                    </ol>
-                  </nav>
-                </div>
+          <!-- Headline + Breadcrumbs-->
+          <div class="recipe-header text-align-center">
+            <!-- Headline -->
+            <div class="intro article-info">
+              
+              <div class="intro-top margin-8-bottom clearfix">
+                <!-- Breadcrumbs -->
+                  <div class="partial breadcrumbs clearfix ">
+                    <nav role="navigation">
+                      <ol>
+                        <li>
+                          <a href="/">
+                              <span>Home</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/recipes">
+                              <span>Recipes</span>
+                          </a>
+                        </li>
+                      </ol>
+                    </nav>
+                  </div>
+              </div>
+              <h1 class="headline heading-content margin-16-tb">Chocolate Chip Cookie Ice Cream Bars</h1>
             </div>
-            <h1 class="headline heading-content margin-16-tb" itemprop="headline">Chocolate Chip Cookie Ice Cream Bars</h1>
           </div>
-        </div>
 
+          <!-- Ratings and Reviews Bubble-->
 
-           <!-- SpotIM -->
-           <!-- F&W Spot IM ratings block -->
-           <script type="text/javascript">
-           <!--//--><![CDATA[//><!--
-           !function(t,e,n){function a(t)
-                 {var a=e.createElement("script");a.type="text/javascript",a.async=!1,a.src=("https:"===e.location.protocol?"https":"http")+":"+n,(t||e.body||e.head).appendChild(a)}
-                 function o()
-                 {var t=e.getElementsByTagName("script"),n=t[t.length-1];return n.parentNode}
-                 var p=o();t.spotId="sp_b3BDxGSu",t.parentElement=p,a(p)}(window.SPOTIM={},document,"//www.spot.im/launcher/bundle.js");
-           //--><!]]>
-           </script>
-           
-           <div class="spot-im-stars-rating-module" data-post-id="478180" data-spot-id="sp_b3BDxGSu">
-           </div>
-             <script type="text/javascript" src="https://www.spot.im/embed/modules/launcher/bundle.js?module=stars-rating"></script>
-           
+             <!-- SpotIM -->
+             <!-- F&W Spot IM ratings block -->
+             <script type="text/javascript">
+             <!--//--><![CDATA[//><!--
+             !function(t,e,n){function a(t)
+                   {var a=e.createElement("script");a.type="text/javascript",a.async=!1,a.src=("https:"===e.location.protocol?"https":"http")+":"+n,(t||e.body||e.head).appendChild(a)}
+                   function o()
+                   {var t=e.getElementsByTagName("script"),n=t[t.length-1];return n.parentNode}
+                   var p=o();t.spotId="sp_b3BDxGSu",t.parentElement=p,a(p)}(window.SPOTIM={},document,"//www.spot.im/launcher/bundle.js");
+             //--><!]]>
+             </script>
+             
+             <div class="spot-im-stars-rating-module" data-post-id="478180" data-spot-id="sp_b3BDxGSu">
+             </div>
+               <script type="text/javascript" src="https://www.spot.im/embed/modules/launcher/bundle.js?module=stars-rating"></script>
+             
+      </div>
 
-        <!-- Recipe Meta -->
-        <div class="recipe-meta-container clearfix">
-        
-        
-                <div class="recipe-meta-item">
-                  <div class="recipe-meta-item-header">
-                    Active Time
-                  </div>
-                  <div class="recipe-meta-item-body" >
-                    30 MIN
+      <!-- Recipe Main Content -->
+      <div class="recipe-content margin-40-bottom">
+          <!-- Lead Media -->
+              <div class="image-container">
+                <div
+                  class="component lazy-image lead-media padding-24-bottom medium_2x
+                     no-upscale 
+                    
+                    "
+                  data-src="http://cdn-image.foodandwine.com/sites/default/files/fw200603_cookieicecream.jpg"
+                  data-alt="fw200603_cookieicecream.jpg"
+                  
+                  >
+                  <noscript>
+                    <div class="inner-container">
+                      <img src="http://cdn-image.foodandwine.com/sites/default/files/fw200603_cookieicecream.jpg" alt="fw200603_cookieicecream.jpg">
+                    </div>
+                  </noscript>
+                  <div class="inner-container js-inner-container">
+                      <div class="image-overlay">
+                        <span
+                          class="icon icon-pinterest-circle-solid social-icon"
+                          
+                        >
+                            <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars%3Futm_source%3Dpinterest.com%26utm_medium%3Dsocial%26utm_campaign%3Dfoodandwine&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Food%20%26%20Wine%20goes%20way%20beyond%20mere%20eating%20and%20drinking.%20We&#x27;re%20on%20a%20mission%20to%20find%20the%20most%20exciting%20places%2C%20new%20experiences%2C%20emerging%20trends%20and%20sensations." class="display-block component popup" >
+                          <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16" fill="#E54A59"/><path d="M15.164 18.532c-.011.039-.022.072-.03.106-.503 1.97-.56 2.408-1.076 3.322-.246.436-.524.847-.832 1.242-.034.044-.067.102-.136.088-.076-.016-.082-.084-.09-.145-.083-.599-.128-1.2-.108-1.803.026-.788.123-1.058 1.139-5.327a.295.295 0 0 0-.024-.178c-.244-.656-.291-1.32-.079-1.995.459-1.456 2.11-1.567 2.398-.366.178.743-.292 1.716-.653 3.152-.299 1.186 1.097 2.03 2.29 1.163 1.1-.798 1.527-2.71 1.446-4.067-.16-2.703-3.125-3.287-5.005-2.417-2.157.997-2.647 3.67-1.673 4.891.123.156.219.25.177.408-.062.245-.117.49-.185.734-.05.182-.202.247-.385.173a2.212 2.212 0 0 1-.9-.675c-.827-1.024-1.064-3.049.03-4.763 1.21-1.9 3.463-2.668 5.52-2.435 2.457.28 4.01 1.958 4.3 3.863.133.867.038 3.006-1.18 4.518-1.402 1.737-3.672 1.852-4.72.786-.08-.082-.145-.178-.224-.275" fill="#FFF"/></g></svg>    </a>
+                        </span>
+                      </div>
                   </div>
                 </div>
+                  <div class="credit scale-12">© Tina Rupp</div>
+              </div>
+
+          <!-- Recipe Meta -->
+            <div class="recipe-meta-container clearfix">
+          
+          
+                    <div class="recipe-meta-item">
+                      <div class="recipe-meta-item-header">
+                        Active Time
+                      </div>
+                      <div class="recipe-meta-item-body" >
+                        30 MIN
+                      </div>
+                    </div>
+                    <div class="recipe-meta-item">
+                      <div class="recipe-meta-item-header">
+                        Total Time
+                      </div>
+                      <div class="recipe-meta-item-body" >
+                        4 HR
+                      </div>
+                    </div>
+          
+          
                 <div class="recipe-meta-item">
                   <div class="recipe-meta-item-header">
-                    Total Time
+                    Yield
                   </div>
                   <div class="recipe-meta-item-body" >
-                    4 HR
+                    Serves : 16
                   </div>
                 </div>
-        
-        
-            <div class="recipe-meta-item">
-              <div class="recipe-meta-item-header">
-                Yield
-              </div>
-              <div class="recipe-meta-item-body" itemprop="recipeYield">
-                Serves : 16
-              </div>
+          
             </div>
-        
-        </div>
 
-        <!-- Lead Media -->
-            <div class="image-container">
-              <div
-                class="component lazy-image lead-media padding-12-top padding-24-bottom medium_2x no-upscale "
-                data-src="http://cdn-image.foodandwine.com/sites/default/files/fw200603_cookieicecream.jpg"
-                data-alt="fw200603_cookieicecream.jpg"
-                itemprop="image"
-                
-                >
-                <noscript>
-                  <img src="http://cdn-image.foodandwine.com/sites/default/files/fw200603_cookieicecream.jpg" alt="fw200603_cookieicecream.jpg" itemprop="image">
-                </noscript>
-                  <div class="image-overlay">
-                    <span
-                      class="icon icon-pinterest-circle-solid social-icon"
-                      
-                    >
-                        <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Break-and-bake%20cookies%2C%20which%20come%20packaged%20in%20eight-inch%20squares%2C%20are%20the%20secret%20to%20these%20incredible%20ice%20cream%20sandwich%20bars.%20Simply%20roll%20out%20all%20the..." class="display-block component popup" >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#E34C5C" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M17.216 20.373l-.028.1c-.472 1.847-.524 2.257-1.01 3.115-.23.408-.49.794-.778 1.164-.032.04-.064.095-.128.082-.07-.014-.077-.08-.084-.135-.078-.565-.12-1.128-.102-1.694.025-.738.116-.992 1.068-4.994.014-.06-.002-.112-.023-.167-.225-.615-.27-1.238-.07-1.87.43-1.365 1.978-1.47 2.248-.343.167.696-.274 1.608-.613 2.955-.28 1.11 1.03 1.902 2.147 1.09 1.033-.75 1.433-2.542 1.357-3.813-.15-2.535-2.93-3.083-4.694-2.267-2.02.935-2.48 3.44-1.568 4.586.116.146.205.235.167.382-.06.23-.11.46-.174.69-.047.17-.19.23-.36.16-.34-.136-.62-.35-.845-.632-.775-.96-.997-2.86.028-4.466 1.136-1.78 3.248-2.5 5.177-2.282 2.302.262 3.757 1.835 4.03 3.62.124.814.035 2.82-1.107 4.237-1.313 1.628-3.44 1.736-4.423.736-.076-.076-.137-.166-.21-.258"/></g></svg>    </a>
+          <!-- Author Attribution and Social-->
+          <div class="author-social-container">
+            <!-- Author Attribution-->
+              <div class="recipe-author-date-attribution">
+                <span class="recipe-author">
+                  <!-- Link to Author Page -->
+                   
+                           <a class="bold" href="/contributors/grace-parisi">Grace Parisi</a>
+                  
+                    <span class='recipe-date'>
+                        <a href="/monthly/march-2006" title="Food and Wine&#x27;s March 2006 Issue"> March 2006</a>
                     </span>
-                  </div>
-              </div>
-                <div class="credit scale-12 margin-4">© Tina Rupp</div>
-            </div>
-
-
-        <aside class="recipe-top-left clearfix padded-mobile">
-            <!-- Author -->
-            <div class="recipe-author-date-attribution">
-              <span class="recipe-author">
-                <!-- Link to Author Page -->
-                  <a href="/contributors/grace-parisi">Grace Parisi</a>
-              </span>
-            </div>
-
-          <!-- Share -->
-          <div class="share padding-16-bottom padding-16-top">
-            <div class="component share  ">
-              <div class="social-container display-flex">
-                <span
-                  class="icon icon-facebook-circle-solid social-icon padding-4-right"
-                  
-                >
-                    <a href="https://www.facebook.com/sharer/sharer.php?u&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " target="_blank">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#4C76BE" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M19.608 13.972c.406-.013.812-.004 1.22-.004h.167v-1.99c-.217-.02-.444-.05-.67-.06-.417-.017-.835-.037-1.25-.028-.638.012-1.24.158-1.766.514-.61.41-.94.983-1.06 1.66-.06.28-.07.57-.08.855-.01.44 0 .89 0 1.34v.16h-2.02v2.22h2.01v5.585h2.45V18.65h2c.1-.74.202-1.47.307-2.233h-.45c-.57.002-1.877 0-1.877 0s.007-1.1.02-1.58c.02-.655.433-.855.99-.873"/></g></svg>    </a>
                 </span>
-                  <span
-                    class="icon icon-pinterest-circle-solid social-icon padding-4-right"
-                    
-                  >
-                      <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Break-and-bake%20cookies%2C%20which%20come%20packaged%20in%20eight-inch%20squares%2C%20are%20the%20secret%20to%20these%20incredible%20ice%20cream%20sandwich%20bars.%20Simply%20roll%20out%20all%20the..." class="display-block component popup" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#E34C5C" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M17.216 20.373l-.028.1c-.472 1.847-.524 2.257-1.01 3.115-.23.408-.49.794-.778 1.164-.032.04-.064.095-.128.082-.07-.014-.077-.08-.084-.135-.078-.565-.12-1.128-.102-1.694.025-.738.116-.992 1.068-4.994.014-.06-.002-.112-.023-.167-.225-.615-.27-1.238-.07-1.87.43-1.365 1.978-1.47 2.248-.343.167.696-.274 1.608-.613 2.955-.28 1.11 1.03 1.902 2.147 1.09 1.033-.75 1.433-2.542 1.357-3.813-.15-2.535-2.93-3.083-4.694-2.267-2.02.935-2.48 3.44-1.568 4.586.116.146.205.235.167.382-.06.23-.11.46-.174.69-.047.17-.19.23-.36.16-.34-.136-.62-.35-.845-.632-.775-.96-.997-2.86.028-4.466 1.136-1.78 3.248-2.5 5.177-2.282 2.302.262 3.757 1.835 4.03 3.62.124.814.035 2.82-1.107 4.237-1.313 1.628-3.44 1.736-4.423.736-.076-.076-.137-.166-.21-.258"/></g></svg>    </a>
-                  </span>
-                <span
-                  class="icon icon-twitter-circle-solid social-icon padding-4-right"
-                  
-                >
-                    <a href="https://twitter.com/intent/tweet?status&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars%20via%20@foodandwine" class="display-block " target="_blank">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><path fill="#71B7F0" d="M33 18c0 8.285-6.716 15-15 15-8.284 0-15-6.715-15-15S9.716 3 18 3c8.284 0 15 6.715 15 15"/><path fill="#FFF" style="fill:#fff!important" d="M15.5 20.663c-1.382-.048-2.246-1.04-2.476-1.847.385.073.765.06 1.142-.035.01 0 .02 0 .038-.01-.75-.17-1.327-.57-1.73-1.22-.265-.43-.393-.9-.39-1.41.375.2.766.31 1.186.32-.564-.404-.94-.934-1.096-1.613-.153-.677-.054-1.32.286-1.93 1.44 1.7 3.265 2.63 5.49 2.78-.016-.103-.032-.2-.043-.29-.075-.626.05-1.21.39-1.74.422-.664 1.027-1.077 1.804-1.203.9-.147 1.68.11 2.33.74.05.04.09.057.15.04.55-.12 1.068-.313 1.55-.593l.04-.02h.018c-.21.62-.594 1.097-1.14 1.448.516-.052 1.008-.19 1.483-.395l.01.01c-.1.13-.2.27-.307.4-.283.344-.607.65-.97.92-.03.02-.043.04-.042.08.017.393 0 .79-.05 1.18-.1.83-.33 1.62-.683 2.37-.366.78-.84 1.48-1.44 2.1-1.013 1.05-2.235 1.724-3.657 2.04-.49.103-.986.16-1.486.172-1.536.045-2.955-.336-4.26-1.143-.02-.01-.034-.024-.063-.04.93.1 1.81-.02 2.66-.37.45-.183.87-.425 1.267-.736"/></g></svg>    </a>
-                </span>
-                  <span
-                    class="icon icon-print-circle-solid social-icon padding-4-right"
-                    
-                  >
-                      <a href="javascript:window.print()" class="display-block " >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="18" cy="18" r="15" /><g fill="#FFF" fill-rule="nonzero"><path style="fill:#fff!important" d="M24.3 14.5h-1.4v-2.1c0-.77-.63-1.4-1.4-1.4h-7c-.77 0-1.4.63-1.4 1.4v2.1h-1.4c-.42 0-.7.28-.7.7v5.6c0 .42.28.7.7.7h1.4v2.1c0 .77.63 1.4 1.4 1.4h7c.77 0 1.4-.63 1.4-1.4v-2.1h1.4c.42 0 .7-.28.7-.7v-5.6c0-.42-.28-.7-.7-.7zm-9.8-2.1h7v2.1h-7v-2.1zm0 11.2v-4.2h7v4.2h-7zm8.05-5.6c-.56 0-1.05-.49-1.05-1.05s.49-1.05 1.05-1.05 1.05.49 1.05 1.05S23.11 18 22.55 18z"/><path style="fill:#fff!important" d="M20.52 20.8h-5.04c-.14 0-.28.14-.28.28v.84c0 .14.14.28.28.28h5.04c.14 0 .28-.14.28-.28v-.84c0-.14-.14-.28-.28-.28z"/></g></g></svg>
-                      </a>
-                  </span>
-                  <span
-                    class="icon icon-email-circle-solid social-icon padding-4-right"
-                    
-                  >
-                      <a href="mailto:?subject&#x3D;Food%20&amp;%20Wine:%20Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20&amp;body&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="18" cy="18" r="15" /><path fill="#FFF" style="fill:#fff!important" d="M13.2 13c-.66 0-1.194.563-1.194 1.25L12 21.75c0 .688.54 1.25 1.2 1.25h9.6c.66 0 1.2-.563 1.2-1.25v-7.5c0-.688-.54-1.25-1.2-1.25h-9.6zm9.6 8.75h-9.6V15.5l4.8 3.125 4.8-3.125v6.25zM18 17.375l-4.8-3.125h9.6L18 17.375z"/></g></svg>
-                      </a>
-                  </span>
               </div>
-            </div>
+
+            <!-- Share & Social -->
+            <div class="share">
+              <div class="component share  ">
+                <div class="social-container display-flex">
+                      <span
+                        class="icon icon-facebook-circle-solid social-icon padding-8-right"
+                        
+                      >
+                          <a href="https://www.facebook.com/sharer/sharer.php?u&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block component popup" target="_blank">
+                        <svg width="32" height="33" viewBox="0 0 32 33" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M32 16.792c0 8.837-7.164 16-16 16-8.837 0-16-7.163-16-16 0-8.838 7.163-16 16-16 8.836 0 16 7.162 16 16" fill="#4C76BE"/><path d="M18.625 11.493c.5-.015 1.001-.004 1.504-.004h.206V9.105c-.267-.024-.546-.06-.827-.072-.513-.02-1.028-.044-1.542-.034-.785.015-1.528.19-2.177.616-.744.49-1.152 1.178-1.307 1.99a6.262 6.262 0 0 0-.091 1.023c-.015.534-.004 1.069-.002 1.604v.2h-2.493v2.663h2.478v6.692h3.028v-6.68h2.47l.38-2.676h-.555c-.702.003-2.315 0-2.315 0s.007-1.32.024-1.892c.024-.784.533-1.023 1.22-1.046" fill="#FFF"/></g></svg>    </a>
+                      </span>
+                              <span
+                          class="icon icon-pinterest-circle-solid social-icon padding-8-right"
+                          
+                        >
+                            <a href="https://www.pinterest.com/pin/create/link/?url&#x3D;http%3A%2F%2Fwww.foodandwine.com%2Frecipes%2Fchocolate-chip-cookie-ice-cream-bars%3Futm_source%3Dpinterest.com%26utm_medium%3Dsocial%26utm_campaign%3Dfoodandwine&amp;media&#x3D;http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Ffw200603_cookieicecream.jpg&amp;description&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20%7C%20Food%20%26%20Wine%20goes%20way%20beyond%20mere%20eating%20and%20drinking.%20We&#x27;re%20on%20a%20mission%20to%20find%20the%20most%20exciting%20places%2C%20new%20experiences%2C%20emerging%20trends%20and%20sensations." class="display-block component popup" target="_blank">
+                          <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16" fill="#E54A59"/><path d="M15.164 18.532c-.011.039-.022.072-.03.106-.503 1.97-.56 2.408-1.076 3.322-.246.436-.524.847-.832 1.242-.034.044-.067.102-.136.088-.076-.016-.082-.084-.09-.145-.083-.599-.128-1.2-.108-1.803.026-.788.123-1.058 1.139-5.327a.295.295 0 0 0-.024-.178c-.244-.656-.291-1.32-.079-1.995.459-1.456 2.11-1.567 2.398-.366.178.743-.292 1.716-.653 3.152-.299 1.186 1.097 2.03 2.29 1.163 1.1-.798 1.527-2.71 1.446-4.067-.16-2.703-3.125-3.287-5.005-2.417-2.157.997-2.647 3.67-1.673 4.891.123.156.219.25.177.408-.062.245-.117.49-.185.734-.05.182-.202.247-.385.173a2.212 2.212 0 0 1-.9-.675c-.827-1.024-1.064-3.049.03-4.763 1.21-1.9 3.463-2.668 5.52-2.435 2.457.28 4.01 1.958 4.3 3.863.133.867.038 3.006-1.18 4.518-1.402 1.737-3.672 1.852-4.72.786-.08-.082-.145-.178-.224-.275" fill="#FFF"/></g></svg>    </a>
+                        </span>
+                      <span
+                        class="icon icon-twitter-circle-solid social-icon padding-8-right"
+                        
+                      >
+                          <a href="https://twitter.com/intent/tweet?status&#x3D;Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20undefined%20via%20@foodandwine" class="display-block component popup" target="_blank">
+                        <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0c8.836 0 16 7.163 16 16s-7.164 16-16 16z" fill="#71B7F0"/><path d="M13.334 18.841c-1.475-.052-2.397-1.11-2.642-1.97.411.078.816.062 1.218-.037.01-.002.02-.01.04-.018-.799-.186-1.415-.614-1.843-1.304a2.752 2.752 0 0 1-.416-1.509c.398.213.815.332 1.263.344-.6-.433-1.004-.999-1.169-1.722a2.813 2.813 0 0 1 .305-2.057c1.537 1.81 3.483 2.804 5.856 2.967-.017-.112-.034-.21-.046-.311-.08-.668.054-1.29.416-1.856.451-.708 1.096-1.149 1.925-1.284.955-.156 1.788.116 2.485.792.047.045.086.06.152.045a5.696 5.696 0 0 0 1.65-.635l.039-.02c.002-.002.007 0 .019 0a2.903 2.903 0 0 1-1.216 1.544 5.415 5.415 0 0 0 1.58-.426l.012.013c-.108.143-.214.288-.326.426a5.576 5.576 0 0 1-1.032.981c-.033.024-.048.047-.047.09.015.42-.001.842-.053 1.26a8.334 8.334 0 0 1-.732 2.528c-.389.83-.896 1.58-1.534 2.239a7.595 7.595 0 0 1-3.902 2.173 8.453 8.453 0 0 1-1.582.189 8.019 8.019 0 0 1-4.543-1.22c-.018-.01-.036-.023-.067-.043a5.748 5.748 0 0 0 2.84-.392 5.624 5.624 0 0 0 1.35-.787" fill="#FFF"/></g></svg>    </a>
+                      </span>
+                              <span
+                          class="icon icon-print-circle-solid social-icon padding-8-right"
+                          
+                        >
+                            <a href="javascript:window.print()" class="display-block " >
+                          <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="15" cy="15" r="15"/><g fill-rule="nonzero" fill="#FFF"><path style="fill:#fff!important" d="M21.3 11.5h-1.4V9.4c0-.77-.63-1.4-1.4-1.4h-7c-.77 0-1.4.63-1.4 1.4v2.1H8.7c-.42 0-.7.28-.7.7v5.6c0 .42.28.7.7.7h1.4v2.1c0 .77.63 1.4 1.4 1.4h7c.77 0 1.4-.63 1.4-1.4v-2.1h1.4c.42 0 .7-.28.7-.7v-5.6c0-.42-.28-.7-.7-.7zm-9.8-2.1h7v2.1h-7V9.4zm0 11.2v-4.2h7v4.2h-7zm8.05-5.6c-.56 0-1.05-.49-1.05-1.05s.49-1.05 1.05-1.05 1.05.49 1.05 1.05S20.11 15 19.55 15z"/><path d="M17.52 17.8h-5.04c-.14 0-.28.14-.28.28v.84c0 .14.14.28.28.28h5.04c.14 0 .28-.14.28-.28v-.84c0-.14-.14-.28-.28-.28z"/></g></g></svg>    </a>
+                        </span>
+                        <span
+                          class="icon icon-email-circle-solid social-icon padding-8-right"
+                          
+                        >
+                            <a href="mailto:?subject&#x3D;Food%20%26%20Wine%3A%20Chocolate%20Chip%20Cookie%20Ice%20Cream%20Bars%20&amp;body&#x3D;http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars" class="display-block " >
+                          <svg width="32" height="32" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle class="icon-fill" cx="15" cy="15" r="15"/><path fill="#FFF" style="fill:#fff!important" d="M10.2 10c-.66 0-1.194.563-1.194 1.25L9 18.75c0 .688.54 1.25 1.2 1.25h9.6c.66 0 1.2-.563 1.2-1.25v-7.5c0-.688-.54-1.25-1.2-1.25h-9.6zm9.6 8.75h-9.6V12.5l4.8 3.125 4.8-3.125v6.25zM15 14.375l-4.8-3.125h9.6L15 14.375z" fill="#FFF"/></g></svg>
+                            </a>
+                        </span>
+                </div>
+              </div>            </div>
           </div>
 
-            <div class="margin-8-bottom">
-<div class="component expander clearfix"
-     
->
-    <noscript>                <p class="margin-0-auto">Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the dough to create one giant cookie, then bake, slice and layer it with store-bought ice cream and hot fudge sauce. The best part: dipping the bars into crushed chocolate toffee candy to form a supercrunchy shell.
+          <!-- Recipe Summary -->
+            <div class="recipe-summary margin-8-bottom">
+                <p class="margin-0-auto">Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the dough to create one giant cookie, then bake, slice and layer it with store-bought ice cream and hot fudge sauce. The best part: dipping the bars into crushed chocolate toffee candy to form a supercrunchy shell.
 
  <strong><a href="/slideshows/ice-cream-sandwiches"> More Ice Cream Sandwiches</a></strong></p>
-</noscript>
-  <div class="expander-inner">
-                    <p class="margin-0-auto">Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the dough to create one giant cookie, then bake, slice and layer it with store-bought ice cream and hot fudge sauce. The best part: dipping the bars into crushed chocolate toffee candy to form a supercrunchy shell.
-    
-     <strong><a href="/slideshows/ice-cream-sandwiches"> More Ice Cream Sandwiches</a></strong></p>
-  </div>
-  <div class="expander-button">
-    <div class="open-button">More</div>
-  </div>
-</div>
             </div>
-        </aside>
-      </div>
-      <div class="separator-line"></div>
 
-      <div class="clearfix">
-        <div class="sidebar padded-mobile padding-8 grid-item grid-4-of-16">
+          <!-- Recipe Is -->
 
-          <!-- Ingredients -->
-          <div class="partial recipe-ingredients">
-              <h2>Ingredients</h2>
-          
-              <div class="ingredients">
-                <ul>
-                    <li itemprop="recipeIngredient">1 package prescored break-and-bake chocolate chip cookie dough, at room 
-          temperature
-          </li>
-                    <li itemprop="recipeIngredient">2 pints vanilla ice cream, softened slightly
-          </li>
-                    <li itemprop="recipeIngredient">1/4 cup hot fudge sauce, warmed
-          </li>
-                    <li itemprop="recipeIngredient">1/4 cup salted roasted almonds, coarsely chopped
-          </li>
-                    <li itemprop="recipeIngredient">1/4 cup chocolate-coated toffee bits or one 1 1/2-ounce chocolate-coated 
-          toffee bar, coarsely chopped
-          </li>
-                </ul>
+          <!-- Recipe Ingredients + Instructions -->
+          <div class="clearfix recipe-ingredients-instructions">
+            <!-- Ingredients and Nutrition Sidebar -->
+            <div class="sidebar padded-mobile padding-8 grid-item grid-7-of-16">
+
+              <!-- Ingredients -->
+              <div class="partial recipe-ingredients">
+                  <h2>Ingredients</h2>
+              
+                  <div class="ingredients">
+                    <ul>
+                        <li>1 package prescored break-and-bake chocolate chip cookie dough, at room 
+              temperature
+              </li>
+                        <li>2 pints vanilla ice cream, softened slightly
+              </li>
+                        <li>1/4 cup hot fudge sauce, warmed
+              </li>
+                        <li>1/4 cup salted roasted almonds, coarsely chopped
+              </li>
+                        <li>1/4 cup chocolate-coated toffee bits or one 1 1/2-ounce chocolate-coated 
+              toffee bar, coarsely chopped
+              </li>
+                    </ul>
+                  </div>
               </div>
+
+              <!-- Chicory -->
+                <div class="chicory-order-ingredients"></div>
+                <script async defer type="text/javascript" src="//www.chicoryapp.com/widget_v2/"></script>
+
+              <!-- Nutrition -->
+            </div>
+
+            <!-- Instructions -->
+            <div class="recipe-steps padded-mobile padding-8-top float-left grid-item grid-9-of-16">
+              <div class="recipe-instructions margin-0-auto">
+                <h2 class="margin-0-auto">
+                    How to Make It
+                </h2>
+                    <div class="step" itemprop="recipeInstructions">
+                        <div class="title-text">Step 1    </div>
+                          <p></p>
+                          <p>Preheat the oven to 350°. Set the cookie dough in a 9-by-13-inch baking pan. Place a sheet of plastic wrap on top and evenly press or roll the cookie dough to fill the baking pan. Remove the plastic wrap and bake the cookie for 14 minutes, until lightly browned. Let the cookie cool completely in the baking pan.</p>
+                    </div>
+                    <div class="step" itemprop="recipeInstructions">
+                        <div class="title-text">Step 2    </div>
+                          <p></p>
+                          <p>Invert the cookie onto a work surface and slide it back into the baking pan, bottom side up. Trim the edges if necessary. Scoop the vanilla ice cream over the cookie in large dollops. Place a sheet of plastic wrap on top and press or roll the ice cream into an even layer. Freeze for 1 hour, until the ice cream is just firm.</p>
+                    </div>
+                      
+                      <div
+                        id="ad-300x250_LL_m_1"
+                        class="ad ad-container ad-wrapper type-300x250 instream-ad mobile-ad "
+                        data-dimensions="300x250"
+                        data-tgxtrack="true" data-tgxupdatecorrelator="true" data-tgxlazy="50"
+                      >
+                      </div>
+                      
+                      <div
+                        id="ad-300x250_LL_t_1"
+                        class="ad ad-container ad-wrapper type-300x250 instream-ad tablet-ad "
+                        data-dimensions="300x250"
+                        data-tgxlazy="50"
+                      >
+                      </div>
+                    <div class="step" itemprop="recipeInstructions">
+                        <div class="title-text">Step 3    </div>
+                          <p></p>
+                          <p>Remove the plastic wrap. Drizzle the warm chocolate sauce all over the ice cream. Cover again with plastic wrap and freeze for 1 hour longer, until firm.</p>
+                    </div>
+                    <div class="step" itemprop="recipeInstructions">
+                        <div class="title-text">Step 4    </div>
+                          <p></p>
+                          <p>Invert the baking pan onto a cutting board and tap gently to release the cookie bar. Flip the cookie bar over so it is ice cream side up. Using a sharp, heavy knife, cut the bar in half crosswise, forming two 9-by-6 1/2-inch rectangles. Sandwich the cookie bar rectangles together and press hard to seal. Wrap in plastic and freeze for at least 1 hour, until firm.</p>
+                    </div>
+                      
+                      <div
+                        id="ad-5x5_LL_mtd_2"
+                        class="ad ad-container ad-wrapper type-5x5 instream-ad full-width-media "
+                        data-dimensions="5x5"
+                        data-tgxtrack="true" data-tgxlazy="200"
+                      >
+                      </div>
+                    <div class="step" itemprop="recipeInstructions">
+                        <div class="title-text">Step 5    </div>
+                          <p></p>
+                          <p>In a bowl, combine the almonds and toffee pieces. Using a sharp, heavy knife, cut the ice cream cookie into 16 bars. Press one side of each bar into the almond and toffee mixture. Return the bars to the freezer or serve right away.</p>
+                    </div>
+              </div>
+            </div>
           </div>
 
-          <!-- Chicory -->
-            <div class="chicory-order-ingredients"></div>
-            <script async defer type="text/javascript" src="//www.chicoryapp.com/widget_v2/"></script>
-
-          <!-- Nutrition -->
-        </div>
-        <div class="padded-mobile padding-8-top float-left grid-item grid-7-of-16">
-          <div class="recipe-instructions margin-0-auto">
-            <h2 class="margin-0-auto">
-                How to Make It
-            </h2>
-                <div class="step" itemprop="recipeInstructions">
-                    <div class="title-text">Step 1    </div>
-                      <p></p>
-                      <p>Preheat the oven to 350°. Set the cookie dough in a 9-by-13-inch baking pan. Place a sheet of plastic wrap on top and evenly press or roll the cookie dough to fill the baking pan. Remove the plastic wrap and bake the cookie for 14 minutes, until lightly browned. Let the cookie cool completely in the baking pan.</p>
+          <!-- Bottom Recirc -->
+          <div class="bottom-recirc padded-mobile grid-item no-float grid-8-of-8">
+              <div class="component outbrain clearfix  " data-action="outbrain-component">
+                <div class="OUTBRAIN "
+                    data-src="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars"
+                    data-widget-id="AR_29"
+                    data-ob-template="Food&amp;Wine"
+                    
+                    
+                >
                 </div>
-                <div class="step" itemprop="recipeInstructions">
-                    <div class="title-text">Step 2    </div>
-                      <p></p>
-                      <p>Invert the cookie onto a work surface and slide it back into the baking pan, bottom side up. Trim the edges if necessary. Scoop the vanilla ice cream over the cookie in large dollops. Place a sheet of plastic wrap on top and press or roll the ice cream into an even layer. Freeze for 1 hour, until the ice cream is just firm.</p>
-                </div>
-                  
-                  <div
-                    id="ad-300x250_LL_m_1"
-                    class="ad ad-container ad-wrapper type-300x250 instream-ad mobile-ad "
-                    data-dimensions="300x250"
-                    data-tgxtrack="true"data-tgxupdatecorrelator="true"data-tgxlazy="50"
-                  >
-                  </div>
-                  
-                  <div
-                    id="ad-300x250_LL_td_1"
-                    class="ad ad-container ad-wrapper type-300x250 instream-ad desktop-ad tablet-ad "
-                    data-dimensions="300x250"
-                    data-tgxlazy="50"
-                  >
-                  </div>
-                <div class="step" itemprop="recipeInstructions">
-                    <div class="title-text">Step 3    </div>
-                      <p></p>
-                      <p>Remove the plastic wrap. Drizzle the warm chocolate sauce all over the ice cream. Cover again with plastic wrap and freeze for 1 hour longer, until firm.</p>
-                </div>
-                <div class="step" itemprop="recipeInstructions">
-                    <div class="title-text">Step 4    </div>
-                      <p></p>
-                      <p>Invert the baking pan onto a cutting board and tap gently to release the cookie bar. Flip the cookie bar over so it is ice cream side up. Using a sharp, heavy knife, cut the bar in half crosswise, forming two 9-by-6 1/2-inch rectangles. Sandwich the cookie bar rectangles together and press hard to seal. Wrap in plastic and freeze for at least 1 hour, until firm.</p>
-                </div>
-                  
-                  <div
-                    id="ad-5x5_LL_mtd_2"
-                    class="ad ad-container ad-wrapper type-5x5 instream-ad full-width-media "
-                    data-dimensions="5x5"
-                    data-tgxtrack="true"data-tgxlazy="200"
-                  >
-                  </div>
-                <div class="step" itemprop="recipeInstructions">
-                    <div class="title-text">Step 5    </div>
-                      <p></p>
-                      <p>In a bowl, combine the almonds and toffee pieces. Using a sharp, heavy knife, cut the ice cream cookie into 16 bars. Press one side of each bar into the almond and toffee mixture. Return the bars to the freezer or serve right away.</p>
+              </div>
+          
+                <div class="component feed clearfix bottom-recirc"
+                  data-endpoint="/element-api/content-proxy/documents"data-request-data="%7B%22count%22%3A6%2C%22crops%22%3A%22thumbnail%2Cmarquee_large_2x%2Capp_list_thumbnail_2x%22%2C%22page%22%3A2%2C%22types%22%3A%22article%2Cgallery%2Crecipe%22%7D"data-partial="tile"data-variation="bottom-recirc"data-flair-size="30"data-type="feed"data-title="You May Like"data-hide-summary="1"data-native_ad="%7B%22dimensions%22%3A%22482x100%22%2C%22placement%22%3A%22footer%22%2C%22priority%22%3A6%7D"data-nativekey="furotjzo4XSQihV6TNhrSVoZ"data-fill-method="append">
+                  <h3 class="subtitle">You May Like</h3>
+                
                 </div>
           </div>
-             <!-- F&W Recipe Notes, Make Ahead, Pairing, Served With block -->
-             
-                 <div class="recipe-instructions margin-0-auto">
-                   <h3 class="margin-0-auto">Make Ahead</h3>
-                   <div class="step">The ice cream bars can be stacked and frozen in an airtight container for up to 2 weeks.</div>
-                 </div>
-        </div>
-        <div class="float-left padding-8 grid-item grid-5-of-16">
-          <div class="sidebar-item">
+      </div>
+
+      <!-- Right Rail -->
+      <!-- Sidebar -->
+      <div class="article-small-sidebar sidebar-right is-narrow">
+        <div class="sidebar-item">
+      
+          
+          <div
+            id="ad-300x600_300x250_LL_1"
+            class="ad ad-container ad-wrapper  desktop-only "
+            data-dimensions="300x600;300x250"
+            data-companion="companion" data-tgxcompanion="true" data-tgxlazy="200"
+          >
+          </div>
+      
+      
+      
+              <div class="component feed clearfix"
+                data-endpoint="/element-api/content-proxy/documents"data-request-data="%7B%22count%22%3A4%2C%22crops%22%3A%22thumbnail%2Cmarquee_large_2x%2Capp_list_thumbnail_2x%22%2C%22page%22%3A1%2C%22types%22%3A%22article%2Cgallery%2Crecipe%22%2C%22excluded%22%3A478180%7D"data-partial="list-item"data-flair-size="30"data-type="feed"data-title="Read More"data-native_ad="%7B%22dimensions%22%3A%22481x100%22%2C%22placement%22%3A%22rail%22%2C%22priority%22%3A6%7D"data-nativekey="recipe-rail">
+                <h3 class="subtitle">Read More</h3>
+              
+              </div>
+                    <div class="component newsletter-callout " data-newsletter-type="newsletter-callout">
+                <div class="partial tout">
+                  <div class="tout-content-wrapper">
+                    <h3>Sign Up for Our Newsletter</h3>
+                    <div class="tout-content">Keeping you in the know on all the latest & greatest food and travel news, and other special offers.</div>
+                  </div>
+                      <div class="button-style">
+                        <a href="http://www.foodandwine.com/newsletter-sign-up"  target="_blank" > Sign up </a>
+                      </div>
+                </div>
+              </div>
+            <div
+              class="ad-sticky-container desktop-only height-250px"
+            >
             
             <div
-              id="ad-300x600_300x250-LL"
+              id="ad-300x250_RR_LL_3"
               class="ad ad-container ad-wrapper type-300-flex desktop-only "
-              data-dimensions="300x600;300x250"
-              data-tgxposition="1"data-tgxlazy="50"
+              data-dimensions="300x250"
+              data-tgxsticky="rail" data-tgxlazy="200"
             >
             </div>
-          </div>
+            </div>
         </div>
       </div>
-      <div class="schema display-none">
-          <meta itemprop="datePublished" content="2013-12-06T23:18:24+00:00">
-          <meta itemprop="dateCreated" content="2013-12-06T23:18:24+00:00">
-          <meta itemprop="dateModified" content="2017-06-13T13:14:05+00:00">
-          <meta itemprop="name" content="Chocolate Chip Cookie Ice Cream Bars">
-          <meta itemprop="description" content="Break-and-bake cookies, which come packaged in eight-inch squares, are the secret to these incredible ice cream sandwich bars. Simply roll out all the dough to create one giant cookie, then bake, slice and layer it with store-bought ice cream and hot fudge sauce. The best part: dipping the bars into crushed chocolate toffee candy to form a supercrunchy shell.
-      
-       &lt;strong&gt;&lt;a href&#x3D;&quot;/slideshows/ice-cream-sandwiches&quot;&gt; More Ice Cream Sandwiches&lt;/a&gt;&lt;/strong&gt;">
-      
-          <meta itemprop="totalTime" content="PT240M">
-      
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">Grace Parisi</span>
-            </span>
-      
-      </div>
-    </main>
-    <div class="separator-line"></div>
-    <div class="bottom-recirc padded-mobile grid-item no-float grid-5-of-8 margin-0-auto">
-        <div class="component outbrain clearfix  " data-action="outbrain-component">
-          <div class="OUTBRAIN "
-              data-src="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars"
-              data-widget-id="AR_29"
-              data-ob-template="Food&amp;Wine"
-              
-              >
-          </div>
+
+
+      <!-- Recipe Bottom -->
+      <div class="recipe-bottom">
+        <div class="recipe-tags">
+          <!-- Article Tags -->
+          <aside class="content article tags">
+            
+          </aside>
         </div>
-          <div class="component feed clearfix bottom-recirc"
-            data-endpoint="/element-api/content-proxy/documents"data-request-data="%7B%22count%22%3A6%2C%22crops%22%3A%22thumbnail%2Cmarquee_large_2x%2Capp_list_thumbnail_2x%22%2C%22site%22%3A%22clt%22%2C%22engine%22%3A%22caas%22%2C%22page%22%3A2%2C%22types%22%3A%22article%2Cgallery%2Crecipe%22%7D"data-partial="tile"data-variation="bottom-recirc"data-title="You May Like"data-hide-summary="1"data-native_ad="%7B%22dimensions%22%3A%22482x100%22%2C%22placement%22%3A%22footer%22%2C%22priority%22%3A6%7D"data-nativekey="recipe-footer"data-fill-method="append">
-            <h3 class="subtitle">You May Like</h3>
-          </div>
-      <aside class="content article tags">
-        
-      </aside>
-    </div>
 
-    <!-- recipes ratings Livefyre / community -->
+        <!-- recipes ratings Livefyre / community -->
 
-       <!-- SpotIM comments -->
-       <!-- F&W Spot IM comments block -->
-       
-       <section class="section-container">
-         <div class="spot-im-frame-inpage" data-social-reviews=true data-post-id="478180"></div>
-       </section>
-         <script type="application/ld+json">{"@context":"http://schema.org/","@type":"AggregateRating","ratingValue":5,"reviewCount":2644,"worstRating":0,"bestRating":5,"itemReviewed":"Chocolate Chip Cookie Ice Cream Bars"}</script><script type="application/ld+json">[]</script>
-       
-       <div id = "recipe_ratings_reviews" class="hide">
-         <div id = "recipe_ratings">
-           <p>Aggregate Rating value: 5 </p>
-             <p>Review Count: 2644</p>
-             <p>Worst Rating: 0</p> 
-             <p>Best Rating: 5</p>
-         </div>
-         <div id = "recipe_reviews">
-       </div>
+        <!-- SpotIM comments -->
+          <!-- F&W Spot IM comments block -->
+          
+          <section class="section-container">
+            <div class="spot-im-frame-inpage" data-social-reviews=true data-post-id="478180"></div>
+          </section>
+          
 
-  </div>
+        <!-- Recipe Ratings and Reviews -->
+      </div>
+  </main>
 </div>
 
-
+    <div class="component yieldmo-ad mobile-ad">
+        <div id="ym_1202104734725815282" class="ym"></div>
+        <script type="text/javascript">(function(e,t){if(t._ym===void 0){t._ym="";var m=e.createElement("script");m.type="text/javascript",m.async=!0,m.src="//static.yieldmo.com/ym.m1.js",(e.getElementsByTagName("head")[0]||e.getElementsByTagName("body")[0]).appendChild(m)}else t._ym instanceof String||void 0===t._ym.chkPls||t._ym.chkPls()})(document,window);</script>
+    </div>
     
     <div
       id="footer-gum-gum"
       class="ad ad-container ad-wrapper type-gum-gum desktop-ad tablet-ad "
       data-dimensions="1x6"
-      data-tgxpriority="6"
+      data-tgxpriority="6" 
     >
     </div>
     <div class="above-footer">
         <div class="component subscribe-callout media">
           <div class="media-img">
-            <img class="evergreen-cover" src="/img/covers/FW_20170501_C1_1338634_C1.png" />
-            <img class="latest-cover" src="http://subscription-assets.timeinc.com/current/8422_top1_205_thumb.jpg" />
+            <div
+              class="component lazy-image evergreen-cover 
+                
+                 skip-imagesvc 
+                "
+              data-src="/img/covers/FW_20170501_C1_1338634_C1.png"
+              data-alt=""
+              
+              >
+              <noscript>
+                <div class="inner-container">
+                  <img src="/img/covers/FW_20170501_C1_1338634_C1.png" alt="">
+                </div>
+              </noscript>
+              <div class="inner-container js-inner-container">
+              </div>
+            </div>
+            <div
+              class="component lazy-image latest-cover 
+                
+                 skip-imagesvc 
+                "
+              data-src="http://subscription-assets.timeinc.com/current/8422_top1_205_thumb.jpg"
+              data-alt=""
+              
+              >
+              <noscript>
+                <div class="inner-container">
+                  <img src="http://subscription-assets.timeinc.com/current/8422_top1_205_thumb.jpg" alt="">
+                </div>
+              </noscript>
+              <div class="inner-container js-inner-container">
+              </div>
+            </div>
           </div>
           <div class="media-body">
             <div class="partial tout">
-              <h3>DELICIOUS DEAL</h3>
-              <div class="tout-content">12 ISSUES FOR JUST $12</div>
-              <button>
-                  <a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042379.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;footer_banner" target="_blank"> Subscribe &amp; Save </a>
-              </button>
-            </div>  </div>
+              <div class="tout-content-wrapper">
+                <h3>DELICIOUS DEAL</h3>
+                <div class="tout-content">12 ISSUES FOR JUST $12</div>
+              </div>
+                  <div class="button-style">
+                    <a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1033742.html"  target="_blank" > Subscribe &amp; Save </a>
+                  </div>
+            </div>
+          </div>
         </div>
-      <div 
-        class="component newsletter-callout" 
-        style="background-image:url('/img/covers/fw-subscribe-bg.png')"data-source="WI_CMS_Footer"
-      >
+      <div class="component newsletter-callout " >
+          <div
+            class="component lazy-image  
+              
+              
+              "
+            data-src="/img/covers/fw-subscribe-bg.jpg"
+            data-alt=""
+            
+            >
+            <noscript>
+              <div class="inner-container">
+                <img src="/img/covers/fw-subscribe-bg.jpg" alt="">
+              </div>
+            </noscript>
+            <div class="inner-container js-inner-container">
+            </div>
+          </div>
         <div class="partial tout">
-          <h3>Sign Up for our Newsletter</h3>
-          <div class="tout-content">Keep you in the know on all the latest &amp; greatest food and travel news, and other special offers.</div>
-          <button>
-              Sign up
-          </button>
-        </div></div>
-    </div>
-    <footer class="main padding-32-top">
+          <div class="tout-content-wrapper">
+            <h3>Sign Up for Our Newsletter</h3>
+            <div class="tout-content">Keeping you in the know on all the latest & greatest food and travel news, and other special offers.</div>
+          </div>
+              <div class="button-style">
+                <a href="http://www.foodandwine.com/newsletter-sign-up?source&#x3D;WI_CMS_recipe_Footer"  target="_blank" > Sign up </a>
+              </div>
+        </div>
+      </div></div>
+    <footer class="main padding-24-top">
       <div class="logo-container margin-0-auto">
         <a class="display-inline-block" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="180" height="42" viewbox="90.5 267.5 581 119" xml:space="preserve" fill="#000000">
       <title>Food & Wine</title>
@@ -1171,33 +1260,33 @@
     </svg>
     </a>
       </div>
-      <div class="social-container margin-0-auto padding-16-tb display-flex rule-bottom">
+      <div class="social-container margin-0-auto padding-24-tb display-flex rule-bottom">
           <span
             class="icon icon-facebook-circle-stroke social-stroke-icon color-accent margin-4-right"
             
           >
-              <a href="http://www.facebook.com/foodandwine" class="display-block " >
+              <a href="http://www.facebook.com/foodandwine" class="display-block " target="_blank">
             <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.95 18c0 8.258-6.693 14.95-14.95 14.95S3.05 26.26 3.05 18 9.742 3.05 18 3.05 32.95 9.74 32.95 18" stroke-width="2" stroke="#B7B4B4"/><path d="M19.718 13.698c.433-.014.866-.004 1.3-.004h.18V11.57c-.232-.023-.473-.054-.716-.065-.445-.02-.89-.04-1.336-.03-.68.013-1.323.17-1.884.55-.644.435-.998 1.05-1.132 1.773-.057.3-.07.607-.08.912-.01.477-.002.953 0 1.43v.18h-2.16v2.373h2.147v5.966h2.622V18.7h2.134l.33-2.385h-.482c-.608.002-2.004 0-2.004 0s.006-1.177.02-1.687c.02-.7.46-.912 1.057-.932" fill="#B7B4B4"/></g></svg>    </a>
           </span>
           <span
             class="icon icon-twitter-circle-stroke social-stroke-icon color-accent margin-4-right"
             
           >
-              <a href="https://twitter.com/foodandwine" class="display-block " >
+              <a href="https://twitter.com/foodandwine" class="display-block " target="_blank">
             <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.977 18c0 8.272-6.705 14.976-14.977 14.976S3.023 26.272 3.023 18C3.023 9.728 9.728 3.024 18 3.024S32.977 9.728 32.977 18" stroke-width="2" stroke="#B7B4B4"/><path d="M15.783 21.476c-1.48-.052-2.404-1.114-2.65-1.976.413.078.82.063 1.222-.037.01-.002.02-.01.04-.018-.8-.187-1.42-.616-1.848-1.307-.286-.46-.422-.962-.418-1.514.4.214.81.333 1.26.345-.607-.44-1.01-1.01-1.177-1.73-.164-.73-.057-1.42.306-2.07 1.54 1.813 3.492 2.81 5.872 2.973-.02-.113-.037-.21-.048-.31-.08-.67.054-1.295.416-1.86.454-.71 1.1-1.15 1.93-1.29.96-.156 1.796.117 2.495.795.046.045.085.06.15.045.586-.125 1.14-.335 1.657-.635l.04-.02h.02c-.225.664-.635 1.174-1.22 1.55.553-.06 1.08-.206 1.586-.426l.01.013c-.11.143-.215.29-.327.427-.302.373-.65.7-1.035.984-.034.025-.05.05-.05.09.016.424 0 .846-.053 1.266-.11.885-.352 1.73-.73 2.534-.39.833-.9 1.585-1.54 2.246-1.083 1.12-2.39 1.844-3.912 2.18-.52.115-1.05.173-1.585.19-1.64.046-3.16-.36-4.554-1.224l-.066-.043c.996.107 1.94-.02 2.85-.393.484-.197.93-.457 1.354-.79" fill="#B7B4B4"/></g></svg>    </a>
           </span>
           <span
             class="icon icon-pinterest-circle-stroke social-stroke-icon color-accent margin-4-right"
             
           >
-              <a href="https://www.pinterest.com/foodandwine/" class="display-block " >
+              <a href="https://www.pinterest.com/foodandwine/" class="display-block " target="_blank">
             <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.976 18c0 8.272-6.705 14.976-14.976 14.976-8.27 0-14.976-6.704-14.976-14.976C3.024 9.728 9.73 3.024 18 3.024S32.976 9.728 32.976 18" stroke-width="2" stroke="#B7B4B4"/><path d="M17.162 20.54c-.012.038-.022.072-.03.105-.505 1.976-.562 2.415-1.08 3.332-.247.437-.525.85-.834 1.246-.034.044-.067.102-.137.088-.07-.01-.08-.08-.08-.14-.08-.6-.13-1.2-.11-1.81.03-.79.13-1.06 1.15-5.34.02-.06 0-.12-.02-.18-.24-.65-.29-1.32-.08-2 .46-1.46 2.12-1.57 2.41-.36.18.75-.292 1.72-.654 3.16-.3 1.19 1.1 2.04 2.298 1.17 1.106-.8 1.534-2.72 1.45-4.08-.16-2.71-3.13-3.29-5.02-2.42-2.16 1-2.65 3.68-1.675 4.91.126.157.22.25.18.41-.06.244-.117.49-.186.735-.05.184-.2.25-.384.175-.36-.148-.66-.377-.9-.678-.83-1.026-1.07-3.057.03-4.776 1.212-1.906 3.47-2.676 5.534-2.443 2.468.28 4.02 1.964 4.316 3.873.13.87.035 3.012-1.186 4.53-1.404 1.74-3.68 1.854-4.73.785-.08-.08-.146-.18-.225-.272" fill="#B7B4B4"/></g></svg>    </a>
           </span>
           <span
             class="icon icon-instagram-circle-stroke social-stroke-icon color-accent margin-4-right"
             
           >
-              <a href="https://www.instagram.com/foodandwine/" class="display-block " >
+              <a href="https://www.instagram.com/foodandwine/" class="display-block " target="_blank">
             <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" fill="none" stroke="null"><path d="M32.95 18c0 8.257-6.693 14.95-14.95 14.95S3.05 26.258 3.05 18 9.742 3.05 18 3.05 32.95 9.742 32.95 18" stroke-width="2" stroke="#B7B4B4"/><path d="M22.624 22c0 .344-.28.624-.623.624h-8.47c-.342 0-.62-.28-.62-.623v-5.13h1.218c-.07.29-.104.59-.104.9 0 2.07 1.677 3.75 3.75 3.75 2.07 0 3.75-1.68 3.75-3.75 0-.306-.038-.604-.108-.89h1.22V22zm-7.137-5.13c.356-.907 1.24-1.552 2.274-1.552 1.04 0 1.92.645 2.28 1.553.11.28.17.58.17.9 0 1.347-1.1 2.444-2.44 2.444-1.345 0-2.442-1.097-2.442-2.443 0-.314.06-.615.17-.89zm4.916-3.576c0-.19.154-.344.344-.344h1.49c.19 0 .344.154.344.344v1.49c0 .19-.15.344-.34.344h-1.49c-.19 0-.34-.154-.34-.344v-1.49zM22 11.592h-8.478c-1.065 0-1.93.865-1.93 1.93v8.48c0 1.064.865 1.93 1.93 1.93h8.48c1.065 0 1.93-.866 1.93-1.93v-8.48c0-1.065-.865-1.93-1.93-1.93z" fill="#B7B4B4"/></g></svg>    </a>
           </span>
       </div>
@@ -1240,8 +1329,8 @@
         <section>
           <a href="">Subscribe</a>
           <ul class="margin-8-top">
-            <li><a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042380.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;footer_subscribe_tl" >Subscribe to Food &amp; Wine</a></li>
-            <li><a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042384.html?utm_source&#x3D;FoodandWine.com&amp;utm_medium&#x3D;footer_gift_tl" >Give a Gift Subscription</a></li>
+            <li><a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042380.html" >Subscribe to Food &amp; Wine</a></li>
+            <li><a href="https://subscription.foodandwine.com/storefront/subscribe-to-food-and-wine/link/1042384.html" >Give a Gift Subscription</a></li>
             <li><a href="/books" >Food &amp; Wine Books</a></li>
             <li><a href="http://itunes.apple.com/us/app/food-wine/id391100624" >Get Food &amp; Wine iPad Edition</a></li>
             <li><a href="/mobile-apps" >Get Food &amp; Wine Mobile Apps</a></li>
@@ -1271,13 +1360,13 @@
         </section>
       </nav>
       <div class="footer-legal padding-16-tb text-align-center">
-        All products and services featured are selected by our editors. Food & Wine may receive compensation for some links to products and services on this website. &copy; 2017 Time Inc. Affluent Media Group. All rights reserved. <br>View Website <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/privacy_terms_service.html">Terms and Conditions</a> and <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/generic_privacy_new.html">Privacy Policy</a>. <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/generic_privacy_new.html?dnp-source=E#california">Your California Privacy Rights</a>. <a href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html">Ad Choices</a>. Users of this site agree to be bound by the <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/privacy_terms_service.html">Website Terms and Conditions</a> and <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/generic_privacy_new.html">Privacy Policy</a>.<br>foodandwine.com is part of the Time Inc. Food Collection and the MyRecipes Network.
+        Food & Wine may receive compensation for some links to products and services on this website. Offers may be subject to change without notice. &copy; 2017 Time Inc. Affluent Media Group. All rights reserved. <br>View Website <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/privacy_terms_service.html">Terms and Conditions</a> and <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/generic_privacy_new.html">Privacy Policy</a>. <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/generic_privacy_new.html?dnp-source=E#california">Your California Privacy Rights</a>. <a href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html">Ad Choices</a>. Users of this site agree to be bound by the <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/privacy_terms_service.html">Website Terms and Conditions</a> and <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/generic_privacy_new.html">Privacy Policy</a>.<br>foodandwine.com is part of the Time Inc. Food Collection and the MyRecipes Network.
       </div>
     </footer>
     
     <div id="page-segment-values">
       <div class="keyvals"
-          data-content_author_name="Grace Parisi,Grace Parisi"
+          data-content_author_name="Grace Parisi"
           data-content_cms_category=""
           data-content_cms_sub_category=""
           data-content_cms_id="478180"
@@ -1295,7 +1384,6 @@
           data-time_inc_application="front end"
           data-time_inc_brand="foodandwine.com"
           data-title="Chocolate Chip Cookie Ice Cream Bars"
-          data-url="http://www.foodandwine.com/recipes/chocolate-chip-cookie-ice-cream-bars"
           data-recipe_convenience=""
           data-recipe_courses=""
           data-recipe_cuisine=""
@@ -1303,487 +1391,11 @@
           data-recipe_food_main_ingredients=""
       ></div>
     </div>
-    <div class="overlay-component newsletter-signup-modal-overlay-container">
-      <div class="overlay-popup newsletter-signup-modal-overlay-popup" data-action="overlay-popup-newsletter-signup-modal">
-        <div class="component newsletter-signup-modal">
-          <div class="popup-child-container newsletter-signup-container secondary-view">
-            <div class="close-btn">✕</div>
-              <form class="signup-form" action="https://pages.email.foodandwine.com/web-opt-in/" method="post">
-              <div class="newsletter-signup">
-                <div class="clearfix">
-                  <header>
-                    <h2 class="container-heading margin-24-bottom large">Newsletter Sign Up</h2>
-                  </header>
-                  <p class="instructions margin-24-bottom center">Sign up now to receive our best recipes, restaurant intel, cooking advice, wine picks and pairings in your inbox.</p>
-            
-            
-                      <div class="input-container left">
-                        <input type="email" name="email_address" class="standard-input signup-email" placeholder="Email Address" required />
-                      </div>
-            
-                      <div class="input-container right">
-                        <input type="text" name="zip" class="standard-input signup-zipcode" placeholder="Zip Code" data-validation="required postalcode" required />
-                        <div class="invalid-message before invalid-zip non-overlap"></div>
-                      </div>
-            
-                        <div class="input-container">
-                          <div class="g-recaptcha" data-sitekey="6LdZ_CgTAAAAAGWSvwUprQSZQz_oQ9lGa18C3t1Z"></div>
-                          <div class="invalid-message before invalid-recaptcha"></div>
-                        </div>
-            
-            
-            
-                  <div class="select">
-                    <a href="#" class="unskinned js-deselect-all select-all">SELECT ALL</a></div>
-                </div>
-                <div class="invalid-message after select-error"></div>
-                <div class="newsletters-list margin-16-lr">
-                    <div class="newsletter-container-mobile narrow-only">
-                      <div class="media vertically-center">
-                        <div class="media-img newsletter-checkbox">
-                          <div class="newsletter-item-mobile">
-                            <input name="newsletter_name" value="THE_DISH" id="thedish-modal" type="checkbox" modal  />
-                          </div>
-                        </div>
-                        <div class="media-body">
-                            <label for="thedish-modal" style="display: block;">
-                              <div
-                                class="component lazy-image THE_DISH-image newsletter-image "
-                                data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thedish.jpg"
-                                data-alt=""
-                                
-                                
-                                >
-                                <noscript>
-                                  <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thedish.jpg" alt="" >
-                                </noscript>
-                              </div>
-                            </label>
-                          <div class="newsletter-description">
-                            <strong>The Dish:</strong> A five-time-weekly roundup of the best seasonal recipes
-                            <div class="newsletter-date vertically-center margin-8-top">
-                              <span
-                                class="icon icon-clock default-icon"
-                                
-                              >
-                                <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                              </span>
-                              5x per week
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container collapse-narrow--table-row">
-                      <div class="newsletter-item newsletter-checkbox">
-                        <input name="newsletter_name" value="THE_DISH" id="thedish-desktop-modal"  type="checkbox" />
-                      </div>
-                        <label class="newsletter-item newsletter-image" for="thedish-desktop-modal">
-                          <div
-                            class="component lazy-image THE_DISH-image newsletter-image "
-                            data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thedish.jpg"
-                            data-alt=""
-                            
-                            
-                            >
-                            <noscript>
-                              <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thedish.jpg" alt="" >
-                            </noscript>
-                          </div>
-                        </label>
-                      <div class="newsletter-item newsletter-description">
-                        <strong>The Dish:</strong> A five-time-weekly roundup of the best seasonal recipes
-                        <div class="newsletter-date media vertically-center margin-8-top">
-                          <div class="media-img">
-                            <span
-                              class="icon icon-clock default-icon"
-                              
-                            >
-                              <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                            </span>
-                          </div>
-                          <div class="media-body">
-                            5x per week
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container-mobile narrow-only">
-                      <div class="media vertically-center">
-                        <div class="media-img newsletter-checkbox">
-                          <div class="newsletter-item-mobile">
-                            <input name="newsletter_name" value="TOP_10" id="TOP_10-modal" type="checkbox" modal  />
-                          </div>
-                        </div>
-                        <div class="media-body">
-                            <label for="TOP_10-modal" style="display: block;">
-                              <div
-                                class="component lazy-image TOP_10-image newsletter-image "
-                                data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/FWTop10.jpg"
-                                data-alt=""
-                                
-                                
-                                >
-                                <noscript>
-                                  <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/FWTop10.jpg" alt="" >
-                                </noscript>
-                              </div>
-                            </label>
-                          <div class="newsletter-description">
-                            <strong>Top 10:</strong> A once-weekly roundup of the top ten stories of the week
-                            <div class="newsletter-date vertically-center margin-8-top">
-                              <span
-                                class="icon icon-clock default-icon"
-                                
-                              >
-                                <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                              </span>
-                              1x per week
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container collapse-narrow--table-row">
-                      <div class="newsletter-item newsletter-checkbox">
-                        <input name="newsletter_name" value="TOP_10" id="TOP_10-desktop-modal"  type="checkbox" />
-                      </div>
-                        <label class="newsletter-item newsletter-image" for="TOP_10-desktop-modal">
-                          <div
-                            class="component lazy-image TOP_10-image newsletter-image "
-                            data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/FWTop10.jpg"
-                            data-alt=""
-                            
-                            
-                            >
-                            <noscript>
-                              <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/FWTop10.jpg" alt="" >
-                            </noscript>
-                          </div>
-                        </label>
-                      <div class="newsletter-item newsletter-description">
-                        <strong>Top 10:</strong> A once-weekly roundup of the top ten stories of the week
-                        <div class="newsletter-date media vertically-center margin-8-top">
-                          <div class="media-img">
-                            <span
-                              class="icon icon-clock default-icon"
-                              
-                            >
-                              <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                            </span>
-                          </div>
-                          <div class="media-body">
-                            1x per week
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container-mobile narrow-only">
-                      <div class="media vertically-center">
-                        <div class="media-img newsletter-checkbox">
-                          <div class="newsletter-item-mobile">
-                            <input name="newsletter_name" value="FWX" id="fwx-modal" type="checkbox" modal  />
-                          </div>
-                        </div>
-                        <div class="media-body">
-                            <label for="fwx-modal" style="display: block;">
-                              <div
-                                class="component lazy-image FWX-image newsletter-image "
-                                data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_FWx.jpg"
-                                data-alt=""
-                                
-                                
-                                >
-                                <noscript>
-                                  <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_FWx.jpg" alt="" >
-                                </noscript>
-                              </div>
-                            </label>
-                          <div class="newsletter-description">
-                            <strong>FWx:</strong> A twice-weekly roundup of the best food and wine news
-                            <div class="newsletter-date vertically-center margin-8-top">
-                              <span
-                                class="icon icon-clock default-icon"
-                                
-                              >
-                                <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                              </span>
-                              2x per week
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container collapse-narrow--table-row">
-                      <div class="newsletter-item newsletter-checkbox">
-                        <input name="newsletter_name" value="FWX" id="fwx-desktop-modal"  type="checkbox" />
-                      </div>
-                        <label class="newsletter-item newsletter-image" for="fwx-desktop-modal">
-                          <div
-                            class="component lazy-image FWX-image newsletter-image "
-                            data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_FWx.jpg"
-                            data-alt=""
-                            
-                            
-                            >
-                            <noscript>
-                              <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_FWx.jpg" alt="" >
-                            </noscript>
-                          </div>
-                        </label>
-                      <div class="newsletter-item newsletter-description">
-                        <strong>FWx:</strong> A twice-weekly roundup of the best food and wine news
-                        <div class="newsletter-date media vertically-center margin-8-top">
-                          <div class="media-img">
-                            <span
-                              class="icon icon-clock default-icon"
-                              
-                            >
-                              <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                            </span>
-                          </div>
-                          <div class="media-body">
-                            2x per week
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container-mobile narrow-only">
-                      <div class="media vertically-center">
-                        <div class="media-img newsletter-checkbox">
-                          <div class="newsletter-item-mobile">
-                            <input name="newsletter_name" value="THE_DAILY" id="fwdaily-modal" type="checkbox" modal  />
-                          </div>
-                        </div>
-                        <div class="media-body">
-                            <label for="fwdaily-modal" style="display: block;">
-                              <div
-                                class="component lazy-image THE_DAILY-image newsletter-image "
-                                data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_fandwdaily.jpg"
-                                data-alt=""
-                                
-                                
-                                >
-                                <noscript>
-                                  <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_fandwdaily.jpg" alt="" >
-                                </noscript>
-                              </div>
-                            </label>
-                          <div class="newsletter-description">
-                            <strong>The Daily:</strong> One perfect daily recipe picked by the pros
-                            <div class="newsletter-date vertically-center margin-8-top">
-                              <span
-                                class="icon icon-clock default-icon"
-                                
-                              >
-                                <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                              </span>
-                              Daily
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container collapse-narrow--table-row">
-                      <div class="newsletter-item newsletter-checkbox">
-                        <input name="newsletter_name" value="THE_DAILY" id="fwdaily-desktop-modal"  type="checkbox" />
-                      </div>
-                        <label class="newsletter-item newsletter-image" for="fwdaily-desktop-modal">
-                          <div
-                            class="component lazy-image THE_DAILY-image newsletter-image "
-                            data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_fandwdaily.jpg"
-                            data-alt=""
-                            
-                            
-                            >
-                            <noscript>
-                              <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_fandwdaily.jpg" alt="" >
-                            </noscript>
-                          </div>
-                        </label>
-                      <div class="newsletter-item newsletter-description">
-                        <strong>The Daily:</strong> One perfect daily recipe picked by the pros
-                        <div class="newsletter-date media vertically-center margin-8-top">
-                          <div class="media-img">
-                            <span
-                              class="icon icon-clock default-icon"
-                              
-                            >
-                              <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                            </span>
-                          </div>
-                          <div class="media-body">
-                            Daily
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container-mobile narrow-only">
-                      <div class="media vertically-center">
-                        <div class="media-img newsletter-checkbox">
-                          <div class="newsletter-item-mobile">
-                            <input name="newsletter_name" value="TRAVEL_TIPS" id="traveltips-modal" type="checkbox" modal  />
-                          </div>
-                        </div>
-                        <div class="media-body">
-                            <label for="traveltips-modal" style="display: block;">
-                              <div
-                                class="component lazy-image TRAVEL_TIPS-image newsletter-image "
-                                data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_TravelTips_logo.jpg"
-                                data-alt=""
-                                
-                                
-                                >
-                                <noscript>
-                                  <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_TravelTips_logo.jpg" alt="" >
-                                </noscript>
-                              </div>
-                            </label>
-                          <div class="newsletter-description">
-                            <strong>Travel Tips:</strong> A once-weekly curated guide to our top travel content
-                            <div class="newsletter-date vertically-center margin-8-top">
-                              <span
-                                class="icon icon-clock default-icon"
-                                
-                              >
-                                <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                              </span>
-                              1x per week
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container collapse-narrow--table-row">
-                      <div class="newsletter-item newsletter-checkbox">
-                        <input name="newsletter_name" value="TRAVEL_TIPS" id="traveltips-desktop-modal"  type="checkbox" />
-                      </div>
-                        <label class="newsletter-item newsletter-image" for="traveltips-desktop-modal">
-                          <div
-                            class="component lazy-image TRAVEL_TIPS-image newsletter-image "
-                            data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_TravelTips_logo.jpg"
-                            data-alt=""
-                            
-                            
-                            >
-                            <noscript>
-                              <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_TravelTips_logo.jpg" alt="" >
-                            </noscript>
-                          </div>
-                        </label>
-                      <div class="newsletter-item newsletter-description">
-                        <strong>Travel Tips:</strong> A once-weekly curated guide to our top travel content
-                        <div class="newsletter-date media vertically-center margin-8-top">
-                          <div class="media-img">
-                            <span
-                              class="icon icon-clock default-icon"
-                              
-                            >
-                              <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                            </span>
-                          </div>
-                          <div class="media-body">
-                            1x per week
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container-mobile narrow-only">
-                      <div class="media vertically-center">
-                        <div class="media-img newsletter-checkbox">
-                          <div class="newsletter-item-mobile">
-                            <input name="newsletter_name" value="WINE_LIST" id="winelist-modal" type="checkbox" modal  />
-                          </div>
-                        </div>
-                        <div class="media-body">
-                            <label for="winelist-modal" style="display: block;">
-                              <div
-                                class="component lazy-image WINE_LIST-image newsletter-image "
-                                data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thewinelist.jpg"
-                                data-alt=""
-                                
-                                
-                                >
-                                <noscript>
-                                  <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thewinelist.jpg" alt="" >
-                                </noscript>
-                              </div>
-                            </label>
-                          <div class="newsletter-description">
-                            <strong>The Wine List:</strong> A once-weekly wine dispatch from the experts
-                            <div class="newsletter-date vertically-center margin-8-top">
-                              <span
-                                class="icon icon-clock default-icon"
-                                
-                              >
-                                <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                              </span>
-                              1x per week
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-container collapse-narrow--table-row">
-                      <div class="newsletter-item newsletter-checkbox">
-                        <input name="newsletter_name" value="WINE_LIST" id="winelist-desktop-modal"  type="checkbox" />
-                      </div>
-                        <label class="newsletter-item newsletter-image" for="winelist-desktop-modal">
-                          <div
-                            class="component lazy-image WINE_LIST-image newsletter-image "
-                            data-src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thewinelist.jpg"
-                            data-alt=""
-                            
-                            
-                            >
-                            <noscript>
-                              <img src="http://image.email.foodandwine.com/lib/fe8f13727467037872/m/1/20160406_thewinelist.jpg" alt="" >
-                            </noscript>
-                          </div>
-                        </label>
-                      <div class="newsletter-item newsletter-description">
-                        <strong>The Wine List:</strong> A once-weekly wine dispatch from the experts
-                        <div class="newsletter-date media vertically-center margin-8-top">
-                          <div class="media-img">
-                            <span
-                              class="icon icon-clock default-icon"
-                              
-                            >
-                              <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-626.000000, -704.000000)"><g transform="translate(331.000000, 180.000000)"><g transform="translate(49.000000, 10.000000)"><g transform="translate(0.000000, 462.000000)"><g transform="translate(245.000000, 51.000000)"><g><path d="M8.9925,1.5 C4.8525,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.8525,16.5 8.9925,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 8.9925,1.5 L8.9925,1.5 Z M9,15 C5.685,15 3,12.315 3,9 C3,5.685 5.685,3 9,3 C12.315,3 15,5.685 15,9 C15,12.315 12.315,15 9,15 L9,15 Z" fill="#A3A5A9"></path><polygon points="0 0 18 0 18 18 0 18"></polygon><polygon fill="#A3A5A9" points="9.375 5.25 8.25 5.25 8.25 9.75 12.1875 12.1125 12.75 11.19 9.375 9.1875"></polygon></g></g></g></g></g></g></g></svg>
-                            </span>
-                          </div>
-                          <div class="media-body">
-                            1x per week
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <input type="hidden" value="MAIN" name="source">
-              </div>
-            
-            
-                <p class="signup-agreement margin-16 description center">By signing up I agree to the Food & Wine <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/privacy_terms_service.html">Terms of Use</a>. I acknowledge that I have read the <a href="https://subscription.foodandwine.com/storefront/privacy/foodwine/generic_privacy_new.html">Privacy Policy</a>. You may unsubscribe from email communication at anytime.</p>
-            
-                <div class="text-align-center">
-                  <button type="submit" class="button orange">Submit</button>
-                </div>
-            
-                <p class="margin-16 description center">&copy; 2017 Time Inc. Affluent Media Group.</br> All rights reserved.</br> foodandwine.com is part of the Time Inc. Food Collection and the MyRecipes Network.</br> Food & Wine is a trademark of Time Inc. Affluent Media Group, registered in the United States and other countries.</p>
-              </form>
-          </div>
-        </div>  </div>
-    </div>    <div class="overlay-component newsletter-success-modal-overlay-container">
-      <div class="overlay-popup newsletter-success-modal-overlay-popup" data-action="overlay-popup-newsletter-success-modal">
-        <div class="component newsletter-success-modal">
-          <div class="close-btn">✕</div>
-          <div class="content-container">
-            <h3 class="primary-heading">Success</h3>
-            <p class="primary-message">
-              Thank you for signing up!<br>You will start receiving newsletters soon.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>  </body>
+      <div id="site-components"
+        data-brand-sync=""
+        data-brand-async=""
+        data-core-sync="navigation,lazy-image,overlay,popup"
+        data-core-async="video,feed,gallery,dropdown,autofill-content-container,expander,outbrain,newsletter-signup-modal,vertical-gallery,search-results-form,embed-playbuzz,embed-rakuten,embed-thinglink,aside,pinterest-board,pinterest-pin,topic-sub-nav,embed-facebook,embed-instagram,embed-twitter,build-a-meal,ecommerce-hub,content-loader,before-after,burst-text"
+      ></div>
+  </body>
 </html>

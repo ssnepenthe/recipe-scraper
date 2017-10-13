@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'For a zippy version of a New England classic, Laurence Jossel bakes buttery Rancho Gordo Yellow Eye beans in a tangy-hot mixture of apple cider vinegar, molasses, brown sugar and crushed red pepper. Regular Italian cannellini or Great Northern beans can replace the Yellow Eyes. More Bean Recipes',
-    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/200811-r-xl-baked-beans-with-maple-glazed-bacon.jpg?itok=ElAsdfNS',
+    'image' => 'http://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/200811-r-xl-baked-beans-with-maple-glazed-bacon.jpg?itok=uYiQSYqh',
     'ingredients' => [
         '3 1/2 cups dried yellow eye or cannellini beans, rinsed and picked over, then soaked for 2 hours and drained',
         'Kosher salt',
@@ -30,12 +30,10 @@ return [
         'Increase the oven temperature to 400°. Top the beans with the glazed bacon and bake until browned, about 15 minutes. Let rest for 10 minutes before serving.',
     ],
     'name' => 'Baked Beans with Maple-Glazed Bacon',
-    'notes' => [
-        'The beans can be prepared through Step 2 and refrigerated overnight. Reheat, covered, in a 350° oven before proceeding.',
-    ],
+    'notes' => null,
     'prepTime' => 'PT35M',
     'publisher' => null,
     'totalTime' => 'PT4H',
-    'url' => 'http://www.foodandwine.com/recipes/baked-beans-maple-glazed-bacon',
+    'url' => 'http://www.foodandwine.com/recipes/baked-beans-with-maple-glazed-bacon',
     'yield' => 'Serves : 8',
 ];
