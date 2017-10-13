@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraper\Scrapers\TimeInc;
 use RecipeScraperTests\ScraperTestCase;
 
+/**
+ * @group time
+ */
 class WwwMyRecipesComTest extends ScraperTestCase
 {
     protected function getHost()
