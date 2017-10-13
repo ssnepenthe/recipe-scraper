@@ -27,10 +27,10 @@
 - [ ] http://www.epicurean.com/ (no structured markup)
 - [x] https://www.farmflavor.com/
 - [x] http://www.finecooking.com/
-- [x] http://www.food.com/
 - [ ] http://www.foodiewithfamily.com/
 - [ ] http://www.foodnetwork.ca/ (Corus Entertainment, not Scripps)
 - [ ] http://www.foodrepublic.com/
+- [x] http://www.geniuskitchen.com/ (formerly www.food.com)
 - [ ] http://www.great-chicago-italian-recipes.com/ (malformed html, no structured markup)
 - [ ] http://www.halfhourmeals.com/
 - [ ] https://www.hillshirefarm.com/
@@ -43,7 +43,7 @@
 - [ ] http://www.kraftrecipes.com/
 - [ ] http://www.laaloosh.com/
 - [ ] http://www.lyndasrecipebox.com/ (blogger site, no structured markup)
-- [x] http://www.marthastewart.com/
+- [x] https://www.marthastewart.com/
 - [ ] http://www.momswhothink.com/
 - [ ] https://www.mrfood.com/
 - [ ] http://www.mysanantonio.com/
@@ -73,8 +73,8 @@
 - [ ] https://www.yummly.co/ (worst possible kind of site...)
 
 # Condé Nast/Food Innovation Group
-- [x] http://www.bonappetit.com/
-- [x] http://www.epicurious.com/
+- [x] https://www.bonappetit.com/
+- [x] https://www.epicurious.com/
 
 # General Mills Sites
 - [x] https://www.bettycrocker.com/
@@ -105,6 +105,7 @@
 - [ ] http://www.health.com/
 - [x] http://www.myrecipes.com/
 - [ ] https://www.realsimple.com/
+- [ ] http://www.southernliving.com
 
 # Notes
 - Livebetteramerica.com was a General Mills property but no longer exists.
