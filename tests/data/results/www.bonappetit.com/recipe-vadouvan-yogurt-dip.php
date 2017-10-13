@@ -17,7 +17,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'This dip recipe goes beyond vegetables and can also be paired with lamb, chicken, or fish.',
-    'image' => 'http://assets.bonappetit.com/photos/59480971c6b8ec7209c53d75/16:9/w_1000,c_limit/vadouvan-yogurt-dip.jpg',
+    'image' => 'https://assets.bonappetit.com/photos/59480971c6b8ec7209c53d75/16:9/w_1000,c_limit/vadouvan-yogurt-dip.jpg',
     'ingredients' => [
         '1 tablespoon vadouvan',
         '3 tablespoons olive oil, plus more for drizzling',
@@ -38,6 +38,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.bonappetit.com/recipe/vadouvan-yogurt-dip',
+    'url' => 'https://www.bonappetit.com/recipe/vadouvan-yogurt-dip',
     'yield' => 'Makes about 2 cups',
 ];

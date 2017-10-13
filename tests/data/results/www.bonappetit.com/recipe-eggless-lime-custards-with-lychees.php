@@ -16,7 +16,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'These sweet-tart wonders are surprisingly easy to make-only 5 ingredients!',
-    'image' => 'http://assets.bonappetit.com/photos/5942fae5c6b8ec7209c53cfe/16:9/w_1000,c_limit/lime-posset-with-lychees.jpg',
+    'image' => 'https://assets.bonappetit.com/photos/5942fae5c6b8ec7209c53cfe/16:9/w_1000,c_limit/lime-posset-with-lychees.jpg',
     'ingredients' => [
         '2 limes, zest removed in wide strips, plus finely grated zest for serving',
         'Pinch of kosher salt',
@@ -36,6 +36,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.bonappetit.com/recipe/eggless-lime-custards-with-lychees',
+    'url' => 'https://www.bonappetit.com/recipe/eggless-lime-custards-with-lychees',
     'yield' => '4 servings',
 ];

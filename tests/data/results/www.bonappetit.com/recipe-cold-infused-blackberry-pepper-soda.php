@@ -17,7 +17,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'A refreshing homemade soda to drink all summer long from Anna Wallace at the awesome Seattle Seltzer Company.',
-    'image' => 'http://assets.bonappetit.com/photos/594406ff41d81c7bc3015f3f/16:9/w_1000,c_limit/cold-infused-blackberry-pepper-soda.jpg',
+    'image' => 'https://assets.bonappetit.com/photos/594406ff41d81c7bc3015f3f/16:9/w_1000,c_limit/cold-infused-blackberry-pepper-soda.jpg',
     'ingredients' => [
         '1 tablespoon black peppercorns',
         '2 pounds very ripe blackberries, plus more for serving',
@@ -39,6 +39,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.bonappetit.com/recipe/cold-infused-blackberry-pepper-soda',
+    'url' => 'https://www.bonappetit.com/recipe/cold-infused-blackberry-pepper-soda',
     'yield' => 'Makes 12',
 ];

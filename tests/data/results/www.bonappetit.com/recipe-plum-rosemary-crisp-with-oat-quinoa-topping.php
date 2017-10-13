@@ -19,7 +19,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'The crumble is already gluten-free, so replace the 3 Tbsp. flour in the filling with 1 Tbsp. cornstarch to make this dessert recipe completely gluten-free.',
-    'image' => 'http://assets.bonappetit.com/photos/5948046841d81c7bc3015f6b/16:9/w_1000,c_limit/plum-rosemary-crisp-with-oat-quinoa-topping.jpg',
+    'image' => 'https://assets.bonappetit.com/photos/5948046841d81c7bc3015f6b/16:9/w_1000,c_limit/plum-rosemary-crisp-with-oat-quinoa-topping.jpg',
     'ingredients' => [
         '1 tablespoon unsalted butter, melted',
         '3 pounds ripe plums, cut into wedges',
@@ -52,6 +52,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.bonappetit.com/recipe/plum-rosemary-crisp-with-oat-quinoa-topping',
+    'url' => 'https://www.bonappetit.com/recipe/plum-rosemary-crisp-with-oat-quinoa-topping',
     'yield' => '8 servings',
 ];

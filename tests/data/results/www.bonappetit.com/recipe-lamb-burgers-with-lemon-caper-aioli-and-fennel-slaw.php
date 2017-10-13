@@ -23,7 +23,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'For this rich and juicy lamb burgers recipe, you will want to splurge on good sturdy bakery buns that can absorb the extra liquid from the slaw and burger without disintegrating.',
-    'image' => 'http://assets.bonappetit.com/photos/594416c4c6b8ec7209c53d28/16:9/w_1000,c_limit/lamb-burgers-with-lemon-caper-aioli-and-fennel-slaw.jpg',
+    'image' => 'https://assets.bonappetit.com/photos/594416c4c6b8ec7209c53d28/16:9/w_1000,c_limit/lamb-burgers-with-lemon-caper-aioli-and-fennel-slaw.jpg',
     'ingredients' => [
         '¼ cup rinsed salt-packed capers',
         '1 cup mayonnaise',
@@ -61,6 +61,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.bonappetit.com/recipe/lamb-burgers-with-lemon-caper-aioli-and-fennel-slaw',
+    'url' => 'https://www.bonappetit.com/recipe/lamb-burgers-with-lemon-caper-aioli-and-fennel-slaw',
     'yield' => 'Makes 4',
 ];

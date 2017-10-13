@@ -24,7 +24,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Give your knife a few swipes on the sharpener and try to slice the grilled tenderloin as thinly as possible (think roast beef from the deli). It\'ll make these open-faced pork sandwiches a lot easier to eat and such a difference in texture.',
-    'image' => 'http://assets.bonappetit.com/photos/592f04668d142570373a5c69/16:9/w_1000,c_limit/0617-grilled-pork-tenderloin-sandwich-lau-judy.jpg',
+    'image' => 'https://assets.bonappetit.com/photos/592f04668d142570373a5c69/16:9/w_1000,c_limit/0617-grilled-pork-tenderloin-sandwich-lau-judy.jpg',
     'ingredients' => [
         '1 oil-packed anchovy fillet',
         'Kosher salt',
@@ -59,6 +59,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Bon Appétit',
     'totalTime' => null,
-    'url' => 'http://www.bonappetit.com/recipe/grilled-pork-tenderloin-sandwiches',
+    'url' => 'https://www.bonappetit.com/recipe/grilled-pork-tenderloin-sandwiches',
     'yield' => '4 servings',
 ];
