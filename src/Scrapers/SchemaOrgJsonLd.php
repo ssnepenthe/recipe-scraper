@@ -346,37 +346,37 @@ class SchemaOrgJsonLd implements ScraperInterface
      */
     protected function getJson(Crawler $crawler)
     {
-        $nodes = $crawler->filter('script[type="application/ld+json"]');
+        $scripts = $crawler->filter('script[type="application/ld+json"]');
 
-        if (! $nodes->count()) {
+        if (! $scripts->count()) {
             return [];
         }
 
-        $recipes = array_filter($nodes->each(
-            /**
-             * @param Crawler $node
-             * @return array|false
-             */
-            function (Crawler $node) {
-                $json = json_decode($node->text(), true);
+        // Decode and normalize values to arrays of arrays (to match the case where we are given
+        // multiple types per script element) and bring everything up a level with array_merge().
+        $jsons = call_user_func_array('array_merge', $scripts->each(function (Crawler $script) {
+            $json = json_decode($script->text(), true);
 
-                if (is_null($json)
-                    || JSON_ERROR_NONE !== json_last_error()
-                    || ! $this->hasSchemaOrgContext($json)
-                    || ! $this->hasRecipeType($json)
-                ) {
-                    return false;
-                }
-
-                return $json;
+            if (null === $json || JSON_ERROR_NONE !== json_last_error()) {
+                return [];
             }
-        ));
+
+            // Normalize to array of arrays to match the case of multiple types per script.
+            return Arr::ofArrays($json) ? $json : [$json];
+        }));
+
+        // Remove any non-recipe elements.
+        $recipes = array_filter($jsons, function ($json) {
+            return is_array($json)
+                && $this->hasSchemaOrgContext($json)
+                && $this->hasRecipeType($json);
+        });
 
         if (! count($recipes)) {
             return [];
         }
 
-        // @todo Verify is array?
+        // And finally only return the first found recipe element.
         return array_shift($recipes);
     }
 
