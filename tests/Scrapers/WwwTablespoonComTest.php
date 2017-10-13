@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\GeneralMills;
 
+/**
+ * @group gm
+ */
 class WwwTablespoonComTest extends ScraperTestCase
 {
     protected function getHost()
