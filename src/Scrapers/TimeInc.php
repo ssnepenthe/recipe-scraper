@@ -135,12 +135,12 @@ class TimeInc extends SchemaOrgJsonLd
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
-    protected function preNormalizeIngredients($instructions)
+    protected function preNormalizeIngredients($value)
     {
-        if (! Arr::ofStrings($instructions)) {
-            return null;
+        if (! Arr::ofStrings($value)) {
+            return $value;
         }
 
-        return array_map('strip_tags', $instructions);
+        return array_map('strip_tags', $value);
     }
 }
