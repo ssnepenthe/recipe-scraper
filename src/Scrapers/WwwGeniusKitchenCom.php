@@ -12,7 +12,7 @@ use RecipeScraper\ExtractsDataFromCrawler;
  *
  * Does not seem to have any notes.
  */
-class WwwFoodCom extends SchemaOrgJsonLd
+class WwwGeniusKitchenCom extends SchemaOrgJsonLd
 {
     use ExtractsDataFromCrawler;
 
@@ -23,7 +23,7 @@ class WwwFoodCom extends SchemaOrgJsonLd
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
-            && 'www.food.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+            && 'www.geniuskitchen.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     /**

@@ -39,8 +39,8 @@ return [
     'name' => 'Mexican Rice',
     'notes' => null,
     'prepTime' => 'PT20M',
-    'publisher' => 'Food.com',
+    'publisher' => 'Genius Kitchen',
     'totalTime' => 'PT55M',
-    'url' => 'http://www.food.com/recipe/mexican-rice-117892',
+    'url' => 'http://www.geniuskitchen.com/recipe/mexican-rice-117892',
     'yield' => '8-10 serving(s)',
 ];

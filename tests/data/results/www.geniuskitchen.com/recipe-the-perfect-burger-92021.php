@@ -52,8 +52,8 @@ return [
     'name' => 'The Perfect Burger',
     'notes' => null,
     'prepTime' => 'PT15M',
-    'publisher' => 'Food.com',
+    'publisher' => 'Genius Kitchen',
     'totalTime' => 'PT30M',
-    'url' => 'http://www.food.com/recipe/the-perfect-burger-92021',
+    'url' => 'http://www.geniuskitchen.com/recipe/the-perfect-burger-92021',
     'yield' => '4 serving(s)',
 ];

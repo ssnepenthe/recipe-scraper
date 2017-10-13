@@ -26,8 +26,8 @@ return [
     'name' => 'Mexican Spice Blend',
     'notes' => null,
     'prepTime' => 'PT5M',
-    'publisher' => 'Food.com',
+    'publisher' => 'Genius Kitchen',
     'totalTime' => 'PT5M',
-    'url' => 'http://www.food.com/recipe/mexican-spice-blend-334953',
+    'url' => 'http://www.geniuskitchen.com/recipe/mexican-spice-blend-334953',
     'yield' => '1/3 cup, 4 serving(s)',
 ];

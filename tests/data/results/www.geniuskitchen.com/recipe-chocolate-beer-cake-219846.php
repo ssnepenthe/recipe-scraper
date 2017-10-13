@@ -40,8 +40,8 @@ return [
     'name' => 'Chocolate Beer Cake',
     'notes' => null,
     'prepTime' => 'PT15M',
-    'publisher' => 'Food.com',
+    'publisher' => 'Genius Kitchen',
     'totalTime' => 'PT45M',
-    'url' => 'http://www.food.com/recipe/chocolate-beer-cake-219846',
+    'url' => 'http://www.geniuskitchen.com/recipe/chocolate-beer-cake-219846',
     'yield' => '8-10 serving(s)',
 ];

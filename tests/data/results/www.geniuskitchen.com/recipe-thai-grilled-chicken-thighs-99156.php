@@ -30,8 +30,8 @@ return [
     'name' => 'Thai Grilled Chicken Thighs',
     'notes' => null,
     'prepTime' => 'PT10M',
-    'publisher' => 'Food.com',
+    'publisher' => 'Genius Kitchen',
     'totalTime' => 'PT25M',
-    'url' => 'http://www.food.com/recipe/thai-grilled-chicken-thighs-99156',
+    'url' => 'http://www.geniuskitchen.com/recipe/thai-grilled-chicken-thighs-99156',
     'yield' => '4 serving(s)',
 ];

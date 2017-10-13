@@ -37,8 +37,8 @@ return [
     'name' => 'Emeril Lagasse\'s Coleslaw',
     'notes' => null,
     'prepTime' => 'PT15M',
-    'publisher' => 'Food.com',
+    'publisher' => 'Genius Kitchen',
     'totalTime' => 'PT15M',
-    'url' => 'http://www.food.com/recipe/emeril-lagasses-coleslaw-22236',
+    'url' => 'http://www.geniuskitchen.com/recipe/emeril-lagasses-coleslaw-22236',
     'yield' => '10 serving(s)',
 ];

@@ -2,18 +2,18 @@
 
 namespace RecipeScraperTests\Scrapers;
 
-use RecipeScraper\Scrapers\WwwFoodCom;
+use RecipeScraper\Scrapers\WwwGeniusKitchenCom;
 use RecipeScraperTests\ScraperTestCase;
 
-class WwwFoodComTest extends ScraperTestCase
+class WwwGeniusKitchenComTest extends ScraperTestCase
 {
     protected function getHost()
     {
-        return 'www.food.com';
+        return 'www.geniuskitchen.com';
     }
 
     protected function makeScraper()
     {
-        return new WwwFoodCom;
+        return new WwwGeniusKitchenCom;
     }
 }
