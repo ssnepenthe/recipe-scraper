@@ -28,6 +28,9 @@ class TimeInc extends SchemaOrgJsonLd
 {
     use ExtractsDataFromCrawler;
 
+    /**
+     * @var string[]
+     */
     protected $supportedHosts = [
         'www.cookinglight.com',
         'www.foodandwine.com',
@@ -135,6 +138,10 @@ class TimeInc extends SchemaOrgJsonLd
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
+    /**
+     * @param  mixed $value
+     * @return mixed
+     */
     protected function preNormalizeIngredients($value)
     {
         if (! Arr::ofStrings($value)) {

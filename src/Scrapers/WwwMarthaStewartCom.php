@@ -35,6 +35,10 @@ class WwwMarthaStewartCom extends SchemaOrgJsonLd
         return $this->extractArray($crawler, '.notes-cooks .note-text');
     }
 
+    /**
+     * @param  mixed $value
+     * @return mixed
+     */
     protected function preNormalizeIngredients($value)
     {
         if (! Arr::ofStrings($value)) {

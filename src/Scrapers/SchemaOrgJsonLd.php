@@ -354,23 +354,36 @@ class SchemaOrgJsonLd implements ScraperInterface
 
         // Decode and normalize values to arrays of arrays (to match the case where we are given
         // multiple types per script element) and bring everything up a level with array_merge().
-        $jsons = call_user_func_array('array_merge', $scripts->each(function (Crawler $script) {
-            $json = json_decode($script->text(), true);
+        $jsons = call_user_func_array('array_merge', $scripts->each(
+            /**
+             * @param Crawler $script
+             * @return array
+             */
+            function (Crawler $script) {
+                $json = json_decode($script->text(), true);
 
-            if (null === $json || JSON_ERROR_NONE !== json_last_error()) {
-                return [];
+                if (null === $json || JSON_ERROR_NONE !== json_last_error()) {
+                    return [];
+                }
+
+                // Normalize to array of arrays to match the case of multiple types per script.
+                return Arr::ofArrays($json) ? $json : [$json];
             }
-
-            // Normalize to array of arrays to match the case of multiple types per script.
-            return Arr::ofArrays($json) ? $json : [$json];
-        }));
+        ));
 
         // Remove any non-recipe elements.
-        $recipes = array_filter($jsons, function ($json) {
-            return is_array($json)
-                && $this->hasSchemaOrgContext($json)
-                && $this->hasRecipeType($json);
-        });
+        $recipes = array_filter(
+            $jsons,
+            /**
+             * @param array $json
+             * @return boolean
+             */
+            function (array $json) : bool {
+                return is_array($json)
+                    && $this->hasSchemaOrgContext($json)
+                    && $this->hasRecipeType($json);
+            }
+        );
 
         if (! count($recipes)) {
             return [];
