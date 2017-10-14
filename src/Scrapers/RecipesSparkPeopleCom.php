@@ -2,8 +2,8 @@
 
 namespace RecipeScraper\Scrapers;
 
+use Stringy\Stringy;
 use RecipeScraper\Arr;
-use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -163,12 +163,12 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
 
         // For starters - remove leading digits.
         $instructions = array_map(function ($instruction) : string {
-            return (string) s($instruction)->regexReplace('^\d+\.\s*', '');
+            return (string) Stringy::create($instruction)->regexReplace('^\d+\.\s*', '');
         }, $instructions);
 
         // Then filter out servings and author info.
         $instructions = array_filter($instructions, function ($instruction) : bool {
-            $instruction = s($instruction);
+            $instruction = Stringy::create($instruction);
 
             return ! (
                 $instruction->startsWith('serving size:', false)

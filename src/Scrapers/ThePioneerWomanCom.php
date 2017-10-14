@@ -2,8 +2,8 @@
 
 namespace RecipeScraper\Scrapers;
 
+use Stringy\Stringy;
 use RecipeScraper\Arr;
-use function Stringy\create as s;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -77,7 +77,7 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
         foreach ($value as $instruction) {
             $newInstructions = array_merge(
                 $newInstructions,
-                array_map('strval', s($instruction)->lines())
+                array_map('strval', Stringy::create($instruction)->lines())
             );
         }
 

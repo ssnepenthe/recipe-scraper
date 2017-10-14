@@ -2,7 +2,7 @@
 
 namespace RecipeScraper\Scrapers;
 
-use function Stringy\create as s;
+use Stringy\Stringy;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -79,7 +79,7 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
         // for a recipe. The bad canonical *seems* to always be the first in the page and doesn't
         // end with a trailing "/". Not sure what would be the best check to perform here...
         $crawler = $crawler->filter('[rel="canonical"]')->reduce(function (Crawler $node) : bool {
-            return $node->count() ? s($node->attr('href'))->endsWith('/') : false;
+            return $node->count() ? Stringy::create($node->attr('href'))->endsWith('/') : false;
         });
 
         if (! $crawler->count() || ! $href = $crawler->attr('href')) {

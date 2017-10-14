@@ -2,7 +2,7 @@
 
 namespace RecipeScraper;
 
-use function Stringy\create as s;
+use Stringy\Stringy;
 
 class Str
 {
@@ -12,7 +12,7 @@ class Str
      */
     public static function normalize(string $value) : string
     {
-        return s($value)
+        return Stringy::create($value)
             ->htmlDecode()
             ->tidy()
             ->trim()
