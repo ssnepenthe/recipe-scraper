@@ -61,7 +61,6 @@ class AllRecipesCom extends SchemaOrgMarkup
 
     protected function extractCategories(Crawler $crawler)
     {
-        $a = $this->extractArray($crawler, 'meta[itemprop="recipeCategory"]',["content"]);
-        return $a;
+        return $this->extractArray($crawler, 'meta[itemprop="recipeCategory"]',["content"]);;
     }
 }
