@@ -2,12 +2,12 @@
 
 return [
     'author' => 'Carol',
-    'categories' => null,
+    'categories' => ['Meat and Poultry','Chicken','Chicken Breasts'],
     'cookingMethod' => null,
     'cookTime' => 'PT35M',
     'cuisines' => null,
     'description' => '"Simple to make, just dip and bake! Garlicky goodness in a breaded chicken dish. Yum!"',
-    'image' => 'http://images.media-allrecipes.com/userphotos/250x250/394412.jpg',
+    'image' => 'http://images.media-allrecipes.com/userphotos/560x315/4562452.jpg',
     'ingredients' => [
         '1/4 cup olive oil',
         '2 cloves garlic, crushed',

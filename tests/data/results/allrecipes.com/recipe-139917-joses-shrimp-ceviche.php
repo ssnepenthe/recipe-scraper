@@ -2,7 +2,7 @@
 
 return [
     'author' => 'carrielee',
-    'categories' => null,
+    'categories' => ['Appetizers and Snacks', 'Spicy'],
     'cookingMethod' => null,
     'cookTime' => 'PT10M',
     'cuisines' => null,

@@ -2,7 +2,7 @@
 
 return [
     'author' => 'luaucow',
-    'categories' => null,
+    'categories' => ['Meat and Poultry','Chicken','Chicken Breasts'],
     'cookingMethod' => null,
     'cookTime' => 'PT30M',
     'cuisines' => null,
