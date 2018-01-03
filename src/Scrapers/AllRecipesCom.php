@@ -18,6 +18,15 @@ class AllRecipesCom extends SchemaOrgMarkup
 
     /**
      * @param  Crawler $crawler
+     * @return string[]|null
+     */
+    protected function extractCategories(Crawler $crawler)
+    {
+        return $this->extractArray($crawler, 'meta[itemprop="recipeCategory"]', ["content"]);
+    }
+
+    /**
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function extractDescription(Crawler $crawler)
@@ -57,10 +66,5 @@ class AllRecipesCom extends SchemaOrgMarkup
             });
 
         return $this->extractArray($crawler);
-    }
-
-    protected function extractCategories(Crawler $crawler)
-    {
-        return $this->extractArray($crawler, 'meta[itemprop="recipeCategory"]', ["content"]);
     }
 }
