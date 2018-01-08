@@ -36,4 +36,13 @@ class UrlTest extends TestCase
 
         $this->assertSame($url, Url::relativeToAbsolute($url, $this->crawler));
     }
+
+    /** @test */
+    function it_does_not_modify_urls_when_uri_has_not_been_set_on_crawler()
+    {
+        $url = '//example.com/some/path/here';
+        $crawler = new Crawler('<html><head></head><body></body></html>');
+
+        $this->assertSame($url, Url::relativeToAbsolute($url, $crawler));
+    }
 }
