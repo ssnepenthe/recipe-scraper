@@ -53,7 +53,7 @@ class SchemaOrgJsonLd implements ScraperInterface
             $value = $this->{$extractor}($crawler, $json);
 
             if (method_exists($this, $preNormalizer)) {
-                $value = $this->{$preNormalizer}($value);
+                $value = $this->{$preNormalizer}($value, $crawler);
             }
 
             if (is_array($value)) {
@@ -63,7 +63,7 @@ class SchemaOrgJsonLd implements ScraperInterface
             }
 
             if (method_exists($this, $postNormalizer)) {
-                $value = $this->{$postNormalizer}($value);
+                $value = $this->{$postNormalizer}($value, $crawler);
             }
 
             $recipe[$key] = $value ?: null;
@@ -457,7 +457,7 @@ class SchemaOrgJsonLd implements ScraperInterface
      * @param  string|null $value
      * @return string|null
      */
-    protected function postNormalizeCookTime($value)
+    protected function postNormalizeCookTime($value, $crawler)
     {
         return $this->normalizeInterval($value);
     }
@@ -468,7 +468,7 @@ class SchemaOrgJsonLd implements ScraperInterface
      *
      * @todo
      */
-    protected function preNormalizeImage($value)
+    protected function preNormalizeImage($value, $crawler)
     {
         return $this->normalizeObject($value, 'url');
     }
@@ -477,7 +477,7 @@ class SchemaOrgJsonLd implements ScraperInterface
      * @param  string|null $value
      * @return string|null
      */
-    protected function postNormalizePrepTime($value)
+    protected function postNormalizePrepTime($value, $crawler)
     {
         return $this->normalizeInterval($value);
     }
@@ -486,7 +486,7 @@ class SchemaOrgJsonLd implements ScraperInterface
      * @param  string|null $value
      * @return string|null
      */
-    protected function postNormalizeTotalTime($value)
+    protected function postNormalizeTotalTime($value, $crawler)
     {
         return $this->normalizeInterval($value);
     }
@@ -497,7 +497,7 @@ class SchemaOrgJsonLd implements ScraperInterface
      *
      * @todo
      */
-    protected function preNormalizeAuthor($value)
+    protected function preNormalizeAuthor($value, $crawler)
     {
         return $this->normalizeObject($value, 'name');
     }
@@ -508,7 +508,7 @@ class SchemaOrgJsonLd implements ScraperInterface
      *
      * @todo
      */
-    protected function preNormalizePublisher($value)
+    protected function preNormalizePublisher($value, $crawler)
     {
         return $this->normalizeObject($value, 'name');
     }

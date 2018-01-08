@@ -142,7 +142,7 @@ class TimeInc extends SchemaOrgJsonLd
      * @param  mixed $value
      * @return mixed
      */
-    protected function preNormalizeIngredients($value)
+    protected function preNormalizeIngredients($value, $crawler)
     {
         if (! Arr::ofStrings($value)) {
             return $value;
