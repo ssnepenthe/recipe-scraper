@@ -3,6 +3,7 @@
 namespace RecipeScraper\Scrapers;
 
 use Stringy\Stringy;
+use RecipeScraper\Url;
 use Symfony\Component\DomCrawler\Crawler;
 use RecipeScraper\ExtractsDataFromCrawler;
 
@@ -53,6 +54,7 @@ class ScrippsNetworks extends SchemaOrgJsonLd
 
     /**
      * @param  string|null $value
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function preNormalizeCookTime($value, $crawler)
@@ -62,6 +64,21 @@ class ScrippsNetworks extends SchemaOrgJsonLd
 
     /**
      * @param  string|null $value
+     * @param  Crawler $crawler
+     * @return string|null
+     */
+    protected function preNormalizeImage($value, $crawler)
+    {
+        if (! $newValue = $this->normalizeObject($value, 'url')) {
+            return null;
+        }
+
+        return Url::relativeToAbsolute($newValue, $crawler);
+    }
+
+    /**
+     * @param  string|null $value
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function preNormalizePrepTime($value, $crawler)
@@ -71,11 +88,26 @@ class ScrippsNetworks extends SchemaOrgJsonLd
 
     /**
      * @param  string|null $value
+     * @param  Crawler $crawler
      * @return string|null
      */
     protected function preNormalizeTotalTime($value, $crawler)
     {
         return $this->stripPeriodFromIntervalString($value);
+    }
+
+    /**
+     * @param  string|null $value
+     * @param  Crawler $crawler
+     * @return string|null
+     */
+    protected function preNormalizeUrl($value, $crawler)
+    {
+        if (! is_string($value)) {
+            return $value;
+        }
+
+        return Url::relativeToAbsolute($value, $crawler);
     }
 
     /**

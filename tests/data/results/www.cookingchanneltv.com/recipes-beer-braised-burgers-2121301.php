@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Cooking Channel',
+    'author' => 'Patrick Decker',
     'categories' => [
         'Burgers',
         'Beer',
@@ -13,7 +13,7 @@ return [
     'cookTime' => 'PT15M',
     'cuisines' => null,
     'description' => 'This "knife and fork" style beer-braised burger does most of its cooking in a delicious sudsy bath of brew, which not only builds in a great depth of flavor, it also helps to create a killer pan sauce that you can pour over your finished masterpiece.',
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2013/3/27/0/CCDevour_Decker-beer-braised-burgers-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1492285745868.jpeg',
+    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2013/3/27/0/CCDevour_Decker-beer-braised-burgers-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1364409358241.jpeg',
     'ingredients' => [
         '1 tablespoon olive oil',
         '1 tablespoon butter',

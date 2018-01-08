@@ -5,6 +5,7 @@ return [
     'categories' => [
         'Easy Side Dish Recipes',
         'Easy',
+        'Side Dish',
         'Easy Grilling Recipes',
         'Grilling',
         'American',
@@ -47,7 +48,7 @@ return [
     ],
     'name' => 'Perfectly Grilled Corn on the Cob',
     'notes' => null,
-    'prepTime' => null,
+    'prepTime' => 'PT25M',
     'publisher' => 'Food Network',
     'totalTime' => 'PT1H35M',
     'url' => 'http://www.foodnetwork.com/recipes/bobby-flay/perfectly-grilled-corn-on-the-cob-recipe-1956289',
