@@ -55,7 +55,7 @@ class SchemaOrgMarkup implements ScraperInterface
             $value = $this->{$extractor}($crawler);
 
             if (method_exists($this, $preNormalizer)) {
-                $value = $this->{$preNormalizer}($value);
+                $value = $this->{$preNormalizer}($value, $crawler);
             }
 
             if (is_array($value)) {
@@ -65,7 +65,7 @@ class SchemaOrgMarkup implements ScraperInterface
             }
 
             if (method_exists($this, $postNormalizer)) {
-                $value = $this->{$postNormalizer}($value);
+                $value = $this->{$postNormalizer}($value, $crawler);
             }
 
             $recipe[$key] = $value ?: null;
@@ -283,7 +283,7 @@ class SchemaOrgMarkup implements ScraperInterface
      * @param  string|null $value
      * @return string|null
      */
-    protected function postNormalizeCookTime($value)
+    protected function postNormalizeCookTime($value, $crawler)
     {
         return $this->normalizeInterval($value);
     }
@@ -292,7 +292,7 @@ class SchemaOrgMarkup implements ScraperInterface
      * @param  string|null $value
      * @return string|null
      */
-    protected function postNormalizePrepTime($value)
+    protected function postNormalizePrepTime($value, $crawler)
     {
         return $this->normalizeInterval($value);
     }
@@ -301,7 +301,7 @@ class SchemaOrgMarkup implements ScraperInterface
      * @param  string|null $value
      * @return string|null
      */
-    protected function postNormalizeTotalTime($value)
+    protected function postNormalizeTotalTime($value, $crawler)
     {
         return $this->normalizeInterval($value);
     }

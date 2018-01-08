@@ -55,7 +55,7 @@ class ScrippsNetworks extends SchemaOrgJsonLd
      * @param  string|null $value
      * @return string|null
      */
-    protected function preNormalizeCookTime($value)
+    protected function preNormalizeCookTime($value, $crawler)
     {
         return $this->stripPeriodFromIntervalString($value);
     }
@@ -64,7 +64,7 @@ class ScrippsNetworks extends SchemaOrgJsonLd
      * @param  string|null $value
      * @return string|null
      */
-    protected function preNormalizePrepTime($value)
+    protected function preNormalizePrepTime($value, $crawler)
     {
         return $this->stripPeriodFromIntervalString($value);
     }
@@ -73,7 +73,7 @@ class ScrippsNetworks extends SchemaOrgJsonLd
      * @param  string|null $value
      * @return string|null
      */
-    protected function preNormalizeTotalTime($value)
+    protected function preNormalizeTotalTime($value, $crawler)
     {
         return $this->stripPeriodFromIntervalString($value);
     }

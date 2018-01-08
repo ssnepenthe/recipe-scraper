@@ -154,7 +154,7 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
      * @param  string[]|null $instructions
      * @return string[]|null
      */
-    protected function postNormalizeInstructions($instructions)
+    protected function postNormalizeInstructions($instructions, $crawler)
     {
         // Is null check for Psalm...
         if (is_null($instructions) || ! Arr::ofStrings($instructions)) {
