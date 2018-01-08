@@ -2,7 +2,11 @@
 
 return [
     'author' => 'Carol',
-    'categories' => ['Meat and Poultry','Chicken','Chicken Breasts'],
+    'categories' => [
+        'Meat and Poultry',
+        'Chicken',
+        'Chicken Breasts',
+    ],
     'cookingMethod' => null,
     'cookTime' => 'PT35M',
     'cuisines' => null,

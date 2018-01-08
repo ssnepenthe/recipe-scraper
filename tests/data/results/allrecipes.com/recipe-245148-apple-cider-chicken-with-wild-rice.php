@@ -2,7 +2,10 @@
 
 return [
     'author' => 'Nestle® Beneful®',
-    'categories' => ['Trusted Brands: Recipes and Tips','Nestle® Beneful®'],
+    'categories' => [
+        'Trusted Brands: Recipes and Tips',
+        'Nestle® Beneful®',
+    ],
     'cookingMethod' => null,
     'cookTime' => 'PT20M',
     'cuisines' => null,
