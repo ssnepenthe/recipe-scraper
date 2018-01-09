@@ -69,13 +69,13 @@ class Factory
     protected static function makeScraperInstance(string $class) : Scrapers\ScraperInterface
     {
         if (! array_key_exists($class, static::$scrapers)) {
-            throw new \InvalidArgumentException;
+            throw new \InvalidArgumentException("Scraper class {$class} not supported");
         }
 
-        if (isset(static::$scrapers[$class])) {
-            return static::$scrapers[$class];
+        if (null === static::$scrapers[$class]) {
+            static::$scrapers[$class] = new $class;
         }
 
-        return static::$scrapers[$class] = new $class;
+        return static::$scrapers[$class];
     }
 }

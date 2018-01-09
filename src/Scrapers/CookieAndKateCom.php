@@ -87,11 +87,20 @@ class CookieAndKateCom extends SchemaOrgJsonLd
                 $current = '';
             }
 
-            return array_filter($values, function ($value) : bool {
-                // These notes are mostly links to category pages and books.
-                return false === stripos($value, 'if you love this recipe');
-            });
+            return array_filter(
+                $values,
+                /**
+                 * @param  string $value
+                 * @return bool
+                 */
+                function (string $value) : bool {
+                    // These notes are mostly links to category pages and books.
+                    return false === stripos($value, 'if you love this recipe');
+                }
+            );
         });
+
+        // @todo Verify array is not empty?
 
         return call_user_func_array('array_merge', $notes);
     }

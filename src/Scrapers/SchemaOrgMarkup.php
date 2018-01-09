@@ -281,27 +281,30 @@ class SchemaOrgMarkup implements ScraperInterface
 
     /**
      * @param  string|null $value
+     * @param  Crawler     $crawler
      * @return string|null
      */
-    protected function postNormalizeCookTime($value, $crawler)
+    protected function postNormalizeCookTime($value, Crawler $crawler)
     {
         return $this->normalizeInterval($value);
     }
 
     /**
      * @param  string|null $value
+     * @param  Crawler     $crawler
      * @return string|null
      */
-    protected function postNormalizePrepTime($value, $crawler)
+    protected function postNormalizePrepTime($value, Crawler $crawler)
     {
         return $this->normalizeInterval($value);
     }
 
     /**
      * @param  string|null $value
+     * @param  Crawler     $crawler
      * @return string|null
      */
-    protected function postNormalizeTotalTime($value, $crawler)
+    protected function postNormalizeTotalTime($value, Crawler $crawler)
     {
         return $this->normalizeInterval($value);
     }

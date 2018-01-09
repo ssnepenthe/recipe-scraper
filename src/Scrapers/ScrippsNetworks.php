@@ -64,10 +64,10 @@ class ScrippsNetworks extends SchemaOrgJsonLd
 
     /**
      * @param  string|null $value
-     * @param  Crawler $crawler
+     * @param  Crawler     $crawler
      * @return string|null
      */
-    protected function preNormalizeImage($value, $crawler)
+    protected function preNormalizeImage($value, Crawler $crawler)
     {
         if (! $newValue = $this->normalizeObject($value, 'url')) {
             return null;

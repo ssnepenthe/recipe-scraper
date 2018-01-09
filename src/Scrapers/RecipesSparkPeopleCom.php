@@ -152,9 +152,10 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
 
     /**
      * @param  string[]|null $instructions
+     * @param  Crawler       $crawler
      * @return string[]|null
      */
-    protected function postNormalizeInstructions($instructions, $crawler)
+    protected function postNormalizeInstructions($instructions, Crawler $crawler)
     {
         // Is null check for Psalm...
         if (is_null($instructions) || ! Arr::ofStrings($instructions)) {
@@ -162,20 +163,34 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
         }
 
         // For starters - remove leading digits.
-        $instructions = array_map(function ($instruction) : string {
-            return (string) Stringy::create($instruction)->regexReplace('^\d+\.\s*', '');
-        }, $instructions);
+        $instructions = array_map(
+            /**
+             * @param  string $instruction
+             * @return string
+             */
+            function (string $instruction) : string {
+                return (string) Stringy::create($instruction)->regexReplace('^\d+\.\s*', '');
+            },
+            $instructions
+        );
 
         // Then filter out servings and author info.
-        $instructions = array_filter($instructions, function ($instruction) : bool {
-            $instruction = Stringy::create($instruction);
+        $instructions = array_filter(
+            $instructions,
+            /**
+             * @param  string $instruction
+             * @return bool
+             */
+            function (string $instruction) : bool {
+                $instruction = Stringy::create($instruction);
 
-            return ! (
-                $instruction->startsWith('serving size:', false)
-                || $instruction->startsWith('number of servings:', false)
-                || $instruction->startsWith('recipe submitted by', false)
-            );
-        });
+                return ! (
+                    $instruction->startsWith('serving size:', false)
+                    || $instruction->startsWith('number of servings:', false)
+                    || $instruction->startsWith('recipe submitted by', false)
+                );
+            }
+        );
 
         return count($instructions) ? array_values($instructions) : null;
     }
