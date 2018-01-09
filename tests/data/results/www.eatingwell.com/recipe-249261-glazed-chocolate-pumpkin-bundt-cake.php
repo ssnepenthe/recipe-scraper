@@ -6,7 +6,6 @@ return [
         'Heart Healthy',
         'High Fiber',
         'Low Sodium',
-        'Vegetarian',
     ],
     'cookingMethod' => null,
     'cookTime' => 'PT30M',
