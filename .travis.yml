@@ -6,6 +6,9 @@ notifications:
 branches:
   only:
     - master
+cache:
+  directories:
+    - $HOME/.composer/cache/files
 php:
   - 7.0
   - 7.1
