@@ -7,7 +7,6 @@ return [
         'Gluten-Free',
         'Healthy Immunity',
         'Heart Healthy',
-        'Low Added Sugars',
         'Low-Calorie',
         'Low Carbohydrate',
         'Low Sodium',

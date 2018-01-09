@@ -41,7 +41,12 @@ class WwwEatingWellCom extends SchemaOrgMarkup
      */
     protected function extractDescription(Crawler $crawler)
     {
-        return $this->extractString($crawler, '[itemprop="description"]', ['content']);
+        // Look for a direct descendent of the recipe to avoid capturing description from video.
+        return $this->extractString(
+            $crawler,
+            '[itemtype*="schema.org/Recipe"] > [itemprop="description"]',
+            ['content']
+        );
     }
 
     /**
@@ -50,7 +55,12 @@ class WwwEatingWellCom extends SchemaOrgMarkup
      */
     protected function extractImage(Crawler $crawler)
     {
-        return $this->extractString($crawler, '[itemprop="image"]', ['content']);
+        // Look for a direct descendant of the recipe to avoid capturing image from video element.
+        return $this->extractString(
+            $crawler,
+            '[itemtype*="schema.org/Recipe"] > [itemprop="image"]',
+            ['content']
+        );
     }
 
     /**
@@ -60,6 +70,11 @@ class WwwEatingWellCom extends SchemaOrgMarkup
     protected function extractInstructions(Crawler $crawler)
     {
         return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
+    }
+
+    protected function extractName(Crawler $crawler)
+    {
+        return $this->extractString($crawler, '.recipeDetailHeader');
     }
 
     /**

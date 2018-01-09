@@ -5,7 +5,6 @@ return [
     'categories' => [
         'Gluten-Free',
         'Healthy Immunity',
-        'Low Added Sugars',
         'Low-Calorie',
         'Low Carbohydrate',
         'Vegetarian',

@@ -7,7 +7,6 @@ return [
         'Healthy Aging',
         'Healthy Immunity',
         'High Fiber',
-        'Low Added Sugars',
         'Low-Calorie',
         'Vegan',
         'Vegetarian',

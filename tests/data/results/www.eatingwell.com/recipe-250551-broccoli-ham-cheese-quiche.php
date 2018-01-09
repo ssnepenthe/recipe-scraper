@@ -4,7 +4,6 @@ return [
     'author' => 'Carolyn Malcoun',
     'categories' => [
         'High Calcium',
-        'Low Added Sugars',
         'Low-Calorie',
     ],
     'cookingMethod' => null,
