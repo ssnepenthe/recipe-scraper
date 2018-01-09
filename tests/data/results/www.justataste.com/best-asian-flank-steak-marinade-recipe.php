@@ -28,9 +28,9 @@ return [
     ],
     'name' => 'The Ultimate Asian Flank Steak Marinade',
     'notes' => null,
-    'prepTime' => null,
+    'prepTime' => 'PT10H',
     'publisher' => null,
     'totalTime' => null,
     'url' => 'https://www.justataste.com/best-asian-flank-steak-marinade-recipe/',
-    'yield' => null,
+    'yield' => '4 servings',
 ];
