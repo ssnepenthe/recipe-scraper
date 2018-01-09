@@ -64,9 +64,10 @@ class ThePioneerWomanCom extends SchemaOrgMarkup
 
     /**
      * @param  string[]|null $value
+     * @param  Crawler       $crawler
      * @return string[]|null
      */
-    protected function preNormalizeInstructions($value, $crawler)
+    protected function preNormalizeInstructions($value, Crawler $crawler)
     {
         if (is_null($value) || ! Arr::ofStrings($value)) {
             return $value;

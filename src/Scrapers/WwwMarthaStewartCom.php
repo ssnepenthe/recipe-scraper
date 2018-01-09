@@ -36,10 +36,11 @@ class WwwMarthaStewartCom extends SchemaOrgJsonLd
     }
 
     /**
-     * @param  mixed $value
+     * @param  mixed   $value
+     * @param  Crawler $crawler
      * @return mixed
      */
-    protected function preNormalizeIngredients($value, $crawler)
+    protected function preNormalizeIngredients($value, Crawler $crawler)
     {
         if (! Arr::ofStrings($value)) {
             return $value;

@@ -216,7 +216,7 @@ class SchemaOrgJsonLd implements ScraperInterface
         }
 
         if (is_string($ingredients)) {
-            return $ingredients;
+            return [$ingredients];
         }
 
         return null;
@@ -455,60 +455,66 @@ class SchemaOrgJsonLd implements ScraperInterface
 
     /**
      * @param  string|null $value
+     * @param  Crawler     $crawler
      * @return string|null
      */
-    protected function postNormalizeCookTime($value, $crawler)
+    protected function postNormalizeCookTime($value, Crawler $crawler)
     {
         return $this->normalizeInterval($value);
     }
 
     /**
-     * @param  mixed $value
+     * @param  mixed   $value
+     * @param  Crawler $crawler
      * @return mixed
      *
      * @todo
      */
-    protected function preNormalizeImage($value, $crawler)
+    protected function preNormalizeImage($value, Crawler $crawler)
     {
         return $this->normalizeObject($value, 'url');
     }
 
     /**
      * @param  string|null $value
+     * @param  Crawler     $crawler
      * @return string|null
      */
-    protected function postNormalizePrepTime($value, $crawler)
+    protected function postNormalizePrepTime($value, Crawler $crawler)
     {
         return $this->normalizeInterval($value);
     }
 
     /**
      * @param  string|null $value
+     * @param  Crawler     $crawler
      * @return string|null
      */
-    protected function postNormalizeTotalTime($value, $crawler)
+    protected function postNormalizeTotalTime($value, Crawler $crawler)
     {
         return $this->normalizeInterval($value);
     }
 
     /**
-     * @param  mixed $value
+     * @param  mixed   $value
+     * @param  Crawler $crawler
      * @return mixed
      *
      * @todo
      */
-    protected function preNormalizeAuthor($value, $crawler)
+    protected function preNormalizeAuthor($value, Crawler $crawler)
     {
         return $this->normalizeObject($value, 'name');
     }
 
     /**
-     * @param  mixed $value
+     * @param  mixed   $value
+     * @param  Crawler $crawler
      * @return mixed
      *
      * @todo
      */
-    protected function preNormalizePublisher($value, $crawler)
+    protected function preNormalizePublisher($value, Crawler $crawler)
     {
         return $this->normalizeObject($value, 'name');
     }
