@@ -41,5 +41,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT1H5M',
     'url' => 'https://www.justataste.com/mixed-berry-banana-bread-recipe/',
-    'yield' => '1 (9-inch) loaf',
+    'yield' => '8 servings',
 ];

@@ -189,7 +189,14 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $image;
         }
 
-        if (! is_null($image = Arr::get($json, 'image'))) {
+        $image = Arr::get($json, 'image');
+
+        // For www.justataste.com.
+        if (is_array($image)) {
+            return array_shift($image);
+        }
+
+        if (is_string($image)) {
             return $image;
         }
 
