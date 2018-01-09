@@ -20,7 +20,10 @@ return [
         'Light a charcoal grill. On a platter, mix the 2 tablespoons of olive oil with the garlic, rosemary and sage. Season the veal chops with salt and black pepper and drizzle generously with olive oil. Grill the chops over moderately high heat, turning once, about 6 minutes per side for medium. Transfer the chops to the platter and turn to coat with the olive oil and herbs. Generously drizzle the veal with olive oil and let stand for 3 minutes, turning the chops a few times. Spoon the juices and oil over the chops and serve.',
     ],
     'name' => 'Tuscan-Style Veal Chops',
-    'notes' => null,
+    'notes' => [
+        // @todo Dash between "red" and "not" is being replaced with a non-visible character.
+        'These Tuscan-style chops go well with a Sangiovese-based Tuscan rednot a surprise, since Tuscan Sangiovese usually has a lightly foresty, herbal aroma.',
+    ],
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT40M',

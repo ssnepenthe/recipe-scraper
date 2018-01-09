@@ -30,7 +30,9 @@ return [
         'Increase the oven temperature to 400°. Top the beans with the glazed bacon and bake until browned, about 15 minutes. Let rest for 10 minutes before serving.',
     ],
     'name' => 'Baked Beans with Maple-Glazed Bacon',
-    'notes' => null,
+    'notes' => [
+        'The beans can be prepared through Step 2 and refrigerated overnight. Reheat, covered, in a 350° oven before proceeding.',
+    ],
     'prepTime' => 'PT35M',
     'publisher' => null,
     'totalTime' => 'PT4H',
