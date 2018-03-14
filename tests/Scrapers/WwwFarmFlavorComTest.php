@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\WwwFarmFlavorCom;
 
+/**
+ * @group scraper
+ */
 class FarmFlavorComTest extends ScraperTestCase
 {
     protected function getHost()

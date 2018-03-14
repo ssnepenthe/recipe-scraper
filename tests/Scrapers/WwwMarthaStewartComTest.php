@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\WwwMarthaStewartCom;
 
+/**
+ * @group scraper
+ */
 class WwwMarthaStewartComTest extends ScraperTestCase
 {
     protected function getHost()

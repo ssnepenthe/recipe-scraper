@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\CookieAndKateCom;
 
+/**
+ * @group scraper
+ */
 class CookieAndKateComTest extends ScraperTestCase
 {
     protected function getHost()

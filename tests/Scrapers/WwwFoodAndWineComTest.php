@@ -6,6 +6,7 @@ use RecipeScraper\Scrapers\TimeInc;
 use RecipeScraperTests\ScraperTestCase;
 
 /**
+ * @group scraper
  * @group time
  */
 class WwwFoodAndWineComTest extends ScraperTestCase

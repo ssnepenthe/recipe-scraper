@@ -7,6 +7,7 @@ use RecipeScraper\Scrapers\GeneralMills;
 
 /**
  * @group gm
+ * @group scraper
  */
 class WwwBettyCrockerComTest extends ScraperTestCase
 {

@@ -7,6 +7,7 @@ use RecipeScraper\Scrapers\HearstDigitalMedia;
 
 /**
  * @group hearst
+ * @group scraper
  */
 class WwwDelishComTest extends ScraperTestCase
 {

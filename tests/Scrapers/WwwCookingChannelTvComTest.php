@@ -6,6 +6,7 @@ use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\ScrippsNetworks;
 
 /**
+ * @group scraper
  * @group scripps
  */
 class WwwCookingChannelTvComTest extends ScraperTestCase

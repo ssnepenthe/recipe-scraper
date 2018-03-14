@@ -7,6 +7,7 @@ use RecipeScraperTests\ScraperTestCase;
 
 /**
  * @todo Haven't been able to find recipes with ingredient groups.
+ * @group scraper
  */
 class WwwBhgComTest extends ScraperTestCase
 {

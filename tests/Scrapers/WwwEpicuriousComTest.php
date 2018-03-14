@@ -5,6 +5,9 @@ namespace RecipeScraperTests\Scrapers;
 use RecipeScraperTests\ScraperTestCase;
 use RecipeScraper\Scrapers\WwwEpicuriousCom;
 
+/**
+ * @group scraper
+ */
 class WwwEpicuriousComTest extends ScraperTestCase
 {
     protected function getHost()
