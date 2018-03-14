@@ -18,6 +18,8 @@ matrix:
   allow_failures:
     - php: nightly
 install: composer install --no-interaction --optimize-autoloader --prefer-dist
+before_script:
+  - composer global require "phpunit/phpunit=^7.0"
 script:
   - ./vendor/bin/phpunit
   - ./vendor/bin/phpcs
