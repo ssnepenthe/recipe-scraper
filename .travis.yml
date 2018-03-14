@@ -20,6 +20,7 @@ matrix:
 install: composer install --no-interaction --optimize-autoloader --prefer-dist
 before_script:
   - composer global require "phpunit/phpunit=^7.0"
+  - composer global require "squizlabs/php_codesniffer=^3.0"
 script:
   - ./vendor/bin/phpunit
   - ./vendor/bin/phpcs
