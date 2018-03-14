@@ -7,7 +7,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => '"If you like pumpkin, you\'ll love these moist muffins. With an appealing streusel topping and tender apple bits throughout, they make a great accompaniment to a meal or a handy breakfast on the run."',
-    'image' => 'http://images.media-allrecipes.com/userphotos/250x250/742085.jpg',
+    'image' => 'https://images.media-allrecipes.com/userphotos/250x250/742085.jpg',
     'ingredients' => [
         '2 1/2 cups all-purpose flour',
         '2 cups sugar',
@@ -35,6 +35,6 @@ return [
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://allrecipes.com/recipe/42273/apple-pumpkin-muffins/',
+    'url' => 'https://www.allrecipes.com/recipe/42273/apple-pumpkin-muffins/',
     'yield' => '18',
 ];

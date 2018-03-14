@@ -10,7 +10,7 @@ return [
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => '"Apple slices, cider, thyme and mustard bring incredible, rich flavors to this easy chicken dinner. Wild or brown rice makes a perfect side dish."',
-    'image' => 'http://images.media-allrecipes.com/userphotos/560x315/2731461.jpg',
+    'image' => 'https://images.media-allrecipes.com/userphotos/560x315/2731461.jpg',
     'ingredients' => [
         'Chicken:',
         '3 skinless, boneless chicken breast halves, cut in half lengthwise to make thin cutlets',
@@ -46,6 +46,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => 'PT35M',
-    'url' => 'http://allrecipes.com/recipe/245148/apple-cider-chicken-with-wild-rice/',
+    'url' => 'https://www.allrecipes.com/recipe/245148/apple-cider-chicken-with-wild-rice/',
     'yield' => '4',
 ];

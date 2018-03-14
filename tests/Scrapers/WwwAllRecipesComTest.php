@@ -3,20 +3,20 @@
 namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Scrapers\AllRecipesCom;
+use RecipeScraper\Scrapers\WwwAllRecipesCom;
 
 /**
  * @group scraper
  */
-class AllRecipesComTest extends ScraperTestCase
+class WwwAllRecipesComTest extends ScraperTestCase
 {
     protected function getHost()
     {
-        return 'allrecipes.com';
+        return 'www.allrecipes.com';
     }
 
     protected function makeScraper()
     {
-        return new AllRecipesCom;
+        return new WwwAllRecipesCom;
     }
 }

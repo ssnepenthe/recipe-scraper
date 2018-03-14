@@ -4,7 +4,7 @@ namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
 
-class AllRecipesCom extends SchemaOrgMarkup
+class WwwAllRecipesCom extends SchemaOrgMarkup
 {
     /**
      * @param  Crawler $crawler
@@ -13,7 +13,7 @@ class AllRecipesCom extends SchemaOrgMarkup
     public function supports(Crawler $crawler) : bool
     {
         return parent::supports($crawler)
-            && 'allrecipes.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
+            && 'www.allrecipes.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
     /**

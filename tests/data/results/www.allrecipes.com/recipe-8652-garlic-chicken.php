@@ -11,7 +11,7 @@ return [
     'cookTime' => 'PT35M',
     'cuisines' => null,
     'description' => '"Simple to make, just dip and bake! Garlicky goodness in a breaded chicken dish. Yum!"',
-    'image' => 'http://images.media-allrecipes.com/userphotos/560x315/4562452.jpg',
+    'image' => 'https://images.media-allrecipes.com/userphotos/560x315/4562452.jpg',
     'ingredients' => [
         '1/4 cup olive oil',
         '2 cloves garlic, crushed',
@@ -33,6 +33,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT55M',
-    'url' => 'http://allrecipes.com/recipe/8652/garlic-chicken/',
+    'url' => 'https://www.allrecipes.com/recipe/8652/garlic-chicken/',
     'yield' => '4',
 ];

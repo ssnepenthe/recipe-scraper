@@ -11,7 +11,7 @@ return [
     'cookTime' => 'PT30M',
     'cuisines' => null,
     'description' => '"A perfect summertime dish, this baked chicken with zucchini, tomatoes, and fresh basil is colorful and tasty."',
-    'image' => 'http://images.media-allrecipes.com/userphotos/560x315/1118325.jpg',
+    'image' => 'https://images.media-allrecipes.com/userphotos/560x315/1118325.jpg',
     'ingredients' => [
         '1 egg',
         '1 tablespoon water',
@@ -42,6 +42,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => null,
     'totalTime' => 'PT50M',
-    'url' => 'http://allrecipes.com/recipe/222585/baked-chicken-and-zucchini/',
+    'url' => 'https://www.allrecipes.com/recipe/222585/baked-chicken-and-zucchini/',
     'yield' => '4',
 ];
