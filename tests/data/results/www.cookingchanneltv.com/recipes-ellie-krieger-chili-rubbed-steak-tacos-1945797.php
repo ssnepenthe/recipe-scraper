@@ -29,7 +29,7 @@ return [
     'cookTime' => 'PT12M',
     'cuisines' => null,
     'description' => 'Cooking Channel serves up this Chili-Rubbed Steak Tacos recipe from Ellie Krieger plus many other recipes at CookingChannelTV.com',
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/8/8/0/71761_steak_s4x3.jpg.rend.hgtvcom.616.462.suffix/1393360583825.jpeg',
+    'image' => 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/8/8/0/71761_steak_s4x3.jpg.rend.hgtvcom.616.462.suffix/1393360583825.jpeg',
     'ingredients' => [
         '1 tablespoon chili powder',
         '2 cloves garlic, minced',
@@ -61,6 +61,6 @@ return [
     'prepTime' => 'PT20M',
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT47M',
-    'url' => 'http://www.cookingchanneltv.com/recipes/ellie-krieger/chili-rubbed-steak-tacos-1945797',
+    'url' => 'https://www.cookingchanneltv.com/recipes/ellie-krieger/chili-rubbed-steak-tacos-1945797',
     'yield' => '12 Tacos (serving size is 2 tacos)',
 ];

@@ -12,7 +12,7 @@ return [
     'cookTime' => 'PT10M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/8/10/0/VM0104_Beer-Marinated-Grilled-Skirt-Steak_s4x3.jpg.rend.hgtvcom.616.462.suffix/1439230114182.jpeg',
+    'image' => 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/8/10/0/VM0104_Beer-Marinated-Grilled-Skirt-Steak_s4x3.jpg.rend.hgtvcom.616.462.suffix/1439230114182.jpeg',
     'ingredients' => [
         '1 orange, thinly sliced with peel',
         '1/2 onion, thinly sliced',
@@ -33,6 +33,6 @@ return [
     'prepTime' => 'PT10M',
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT1H20M',
-    'url' => 'http://www.cookingchanneltv.com/recipes/marcela-valladolid/beer-marinated-grilled-skirt-steak-2104699',
+    'url' => 'https://www.cookingchanneltv.com/recipes/marcela-valladolid/beer-marinated-grilled-skirt-steak-2104699',
     'yield' => '4 servings',
 ];

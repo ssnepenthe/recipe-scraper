@@ -14,7 +14,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'These are our most recognizable ribs because of the red sauce they\'re slathered in. You don\'t need special seasonings because the smoke and the sauce add more than enough flavor.',
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/7/13/0/CC_Brother-Jimmys-BBQ-Northern-Style-Ribs-Recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1358966903754.jpeg',
+    'image' => 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/7/13/0/CC_Brother-Jimmys-BBQ-Northern-Style-Ribs-Recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1358966903754.jpeg',
     'ingredients' => [
         '3 racks St. Louis-style ribs (see note, below)',
         '3 tablespoons kosher salt',
@@ -41,6 +41,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => null,
-    'url' => 'http://www.cookingchanneltv.com/recipes/northern-style-ribs-2108846',
+    'url' => 'https://www.cookingchanneltv.com/recipes/northern-style-ribs-2108846',
     'yield' => 'Serves 6 to 8',
 ];

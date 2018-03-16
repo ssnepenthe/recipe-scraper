@@ -11,7 +11,7 @@ return [
     'cookTime' => 'PT35M',
     'cuisines' => null,
     'description' => 'Cooking Channel serves up this Peanut Butter Pie Fudge recipe plus many other recipes at CookingChannelTV.com',
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/8/20/0/CCUQS206_Peanut-Butter-Pie-Fudge_s4x3.jpg.rend.hgtvcom.616.462.suffix/1372095474514.jpeg',
+    'image' => 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/8/20/0/CCUQS206_Peanut-Butter-Pie-Fudge_s4x3.jpg.rend.hgtvcom.616.462.suffix/1372095474514.jpeg',
     'ingredients' => [
         '20 cream-filled chocolate sandwich cookies',
         '1 tablespoon butter, melted',
@@ -54,6 +54,6 @@ return [
     'prepTime' => 'PT45M',
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT1H20M',
-    'url' => 'http://www.cookingchanneltv.com/recipes/peanut-butter-pie-fudge-2042389',
+    'url' => 'https://www.cookingchanneltv.com/recipes/peanut-butter-pie-fudge-2042389',
     'yield' => 'sixteen 4-inch squares',
 ];

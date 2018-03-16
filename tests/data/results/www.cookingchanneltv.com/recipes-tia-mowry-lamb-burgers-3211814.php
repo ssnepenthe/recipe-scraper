@@ -11,7 +11,7 @@ return [
     'cookTime' => 'PT35M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/1/7/0/CCTIA206H_Lamb-Burger_s4x3.jpg.rend.hgtvcom.616.462.suffix/1452197304983.jpeg',
+    'image' => 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/1/7/0/CCTIA206H_Lamb-Burger_s4x3.jpg.rend.hgtvcom.616.462.suffix/1452197304983.jpeg',
     'ingredients' => [
         '2 tablespoons finely chopped onion',
         '2 large cloves garlic, minced',
@@ -44,6 +44,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT1H5M',
-    'url' => 'http://www.cookingchanneltv.com/recipes/tia-mowry/lamb-burgers-3211814',
+    'url' => 'https://www.cookingchanneltv.com/recipes/tia-mowry/lamb-burgers-3211814',
     'yield' => '4 servings',
 ];

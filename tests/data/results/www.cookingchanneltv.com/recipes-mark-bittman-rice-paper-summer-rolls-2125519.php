@@ -7,7 +7,7 @@ return [
     'cookTime' => 'PT30M',
     'cuisines' => null,
     'description' => 'Cooking Channel serves up this Rice Paper Summer Rolls recipe from Mark Bittman plus many other recipes at CookingChannelTV.com',
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/2/23/0/CCMIN102_Rice-Paper-Summer-Rolls_s4x3.jpg.rend.hgtvcom.616.462.suffix/1351620439632.jpeg',
+    'image' => 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/2/23/0/CCMIN102_Rice-Paper-Summer-Rolls_s4x3.jpg.rend.hgtvcom.616.462.suffix/1351620439632.jpeg',
     'ingredients' => [
         '16 (6-inch) rice paper rounds',
         '8 leaves lettuce, washed, dried and torn or chopped',
@@ -37,6 +37,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT30M',
-    'url' => 'http://www.cookingchanneltv.com/recipes/mark-bittman/rice-paper-summer-rolls-2125519',
+    'url' => 'https://www.cookingchanneltv.com/recipes/mark-bittman/rice-paper-summer-rolls-2125519',
     'yield' => '16 rolls',
 ];

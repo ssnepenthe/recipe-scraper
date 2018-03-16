@@ -14,7 +14,7 @@ return [
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/3/6/0/CCTIF110_Plum-Caprese-Salad-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1425652665310.jpeg',
+    'image' => 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/3/6/0/CCTIF110_Plum-Caprese-Salad-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1425652665310.jpeg',
     'ingredients' => [
         '1 tablespoon champagne vinegar',
         '1 teaspoon white balsamic vinegar',
@@ -36,6 +36,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Cooking Channel',
     'totalTime' => 'PT20M',
-    'url' => 'http://www.cookingchanneltv.com/recipes/tiffani-thiessen/plum-caprese-salad-2735607',
+    'url' => 'https://www.cookingchanneltv.com/recipes/tiffani-thiessen/plum-caprese-salad-2735607',
     'yield' => '6 servings',
 ];
