@@ -13,7 +13,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'This salmon dish really does pressure-cook in just one minute.',
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/2016/12/1/RU289505.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/2016/12/1/RU289505.jpg.rendition.largest.jpg',
     'ingredients' => [
         '2 cups reduced-sodium chicken broth',
         '1 pound baby yellow potatoes, quartered',
@@ -44,6 +44,6 @@ return [
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/salmon-with-lentil-hash-and-bacon/',
+    'url' => 'https://www.bhg.com/recipe/salmon-with-lentil-hash-and-bacon/',
     'yield' => '4 servings',
 ];

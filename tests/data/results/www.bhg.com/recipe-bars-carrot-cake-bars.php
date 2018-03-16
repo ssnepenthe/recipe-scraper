@@ -24,7 +24,7 @@ return [
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => 'Carrot cake is a delicious dessert but it takes time to make. These tender bars start with a cake mix, making short work of the classic favorite.',
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/recipe/35/R136374.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/recipe/35/R136374.jpg.rendition.largest.jpg',
     'ingredients' => [
         '1 package 2-layer-size yellow or white cake mix',
         '1/4 cup milk',
@@ -48,6 +48,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/bars/carrot-cake-bars/',
+    'url' => 'https://www.bhg.com/recipe/bars/carrot-cake-bars/',
     'yield' => '32 bars',
 ];

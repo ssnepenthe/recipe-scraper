@@ -10,7 +10,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Elevate your ham and mayo sandwich by tucking in crispy oven-fried asparagus spears.',
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/2017/3/6/RU292005.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/2017/3/6/RU292005.jpg.rendition.largest.jpg',
     'ingredients' => [
         '1 1/2 cups panko bread crumbs',
         '2 tablespoons lemon-pepper seasoning',
@@ -41,6 +41,6 @@ return [
     'publisher' => null,
     // Has totalTime but it is at itemprop="".
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/battered-asparagus-ham-hoagies/',
+    'url' => 'https://www.bhg.com/recipe/battered-asparagus-ham-hoagies/',
     'yield' => '4 servings',
 ];

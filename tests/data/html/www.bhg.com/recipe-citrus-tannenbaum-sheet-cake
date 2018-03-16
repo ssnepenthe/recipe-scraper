@@ -20,6 +20,8 @@
 
 
 
+
+
 <!DOCTYPE html>
     
 
@@ -35,7 +37,7 @@
 
 <title data-socialtitle="" data-socialdescription="">Citrus Tannenbaum Sheet Cake</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>meta.foundation-version{font-family:"/5.5.1/"}meta.foundation-mq-small{font-family:"/only screen/";width:0}meta.foundation-mq-small-only{font-family:"/only screen and (max-width: 42.375rem)/";width:0}meta.foundation-mq-medium{font-family:"/only screen and (min-width:42.4375rem)/";width:42.4375rem}meta.foundation-mq-medium-only{font-family:"/only screen and (min-width:42.4375rem) and (max-width:62.8125rem)/";width:42.4375rem}meta.foundation-mq-large{font-family:"/only screen and (min-width:62.875rem)/";width:62.875rem}meta.foundation-mq-large-only{font-family:"/only screen and (min-width:62.875rem) and (max-width:80.625rem)/";width:62.875rem}meta.foundation-mq-xlarge{font-family:"/only screen and (min-width:80.6875rem)/";width:80.6875rem}meta.foundation-mq-xlarge-only{font-family:"/only screen and (min-width:80.6875rem) and (max-width:99999999em)/";width:80.6875rem}meta.foundation-mq-xxlarge{font-family:"/only screen and (min-width:120.063em)/";width:120.063em}meta.foundation-data-attribute-namespace{font-family:false}html,body{height:100%;font-size:16px;margin:0}*,:before,:after{box-sizing:border-box}img{max-width:100%;height:auto}body{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:16px;line-height:20px}a{color:#AB308A;text-decoration:none}a:hover{text-decoration:underline}h1{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:30px;line-height:30px;margin:10px 0}h2{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:26px;line-height:28px;margin:10px 0}p{margin:10px 0}ul,ol{margin:0;padding:0;list-style:none}ul li,ol li{padding:4px 0}.hide,.mediumUp,.largeUp{display:none}#siteContainer{margin:0 auto}#siteContent{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:auto;padding:.625rem}#siteContent:before,#siteContent:after{content:" ";display:table}#siteContent:after{clear:both}.headerWrapper{background:#474747}.recipeDetail.mobile .headerWrapper,.story4.mobile .headerWrapper,.videoStory.mobile .headerWrapper,.slideshow2.mobile .headerWrapper{overflow:hidden}#siteHeader{height:50px}#siteHeader>.menu{display:none}.recipeDetail.mobile #siteHeader,.story4.mobile #siteHeader,.videoStory.mobile #siteHeader,.slideshow2.mobile #siteHeader{height:70px}#siteHeader .logo{text-align:center;padding-top:0;margin:auto}#siteHeader .headerTextLinks{display:none}#siteHeader .search .siteSearchForm .leftSide .searchSubmit,#siteHeader .search .siteSearchForm .leftSide .leftSearchIcon{display:none}#siteHeader .searchBox{width:0;visibility:hidden}#siteHeader .slideOutNav{position:absolute;visibility:hidden;top:0;left:0}#subNavSource{display:none}.homepage3 .topMenuItems,.homepage3 #homepageHeader{display:none}#innerPageNav{display:none}.yingsLightBox{position:fixed;pointer-events:none;z-index:600;display:none}.breadCrumb ul{padding:0;margin:0;list-style:none}.breadCrumb ul li{display:inline-block;font-size:13px;line-height:16px}#shareBarData,.shareBarData{display:none}.shareBarDirectApi{padding:0;margin:0 0 20px;list-style:none;text-align:center;white-space:nowrap}.shareBarDirectApi li{display:inline-block;margin:0 2px;vertical-align:middle;padding:0}.shareBarDirectApi li.hide{display:none}.shareBarDirectApi li.totalShares{display:none}.shareBarDirectApi li a{text-align:center;display:block;width:2.1875rem;height:2.1875rem;background:rgba(221,221,221,.4);border-radius:50%;font-size:0}.shareBarDirectApi:after{content:'';display:block;clear:both}.slideTitleCopy{display:none}.plantquickfind2{border:1px solid;border-color:#ddd transparent;clear:both;margin-bottom:1em;padding:0 0 10px}.plantquickfind2 h4.quickFind{margin:12px 0}.plantquickfind2 h4.quickFind a{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:16px;line-height:20px;font-size:.9em;float:right}.searchRow{display:flex;flex-direction:row;margin-right:5px;height:40px}.searchRow .qfPlantName{flex:10 10 35%}.searchRow .qfZoneZip{flex:10 10 15%}.searchRow .qfSubmit{flex:0 0 40px}.searchRow .qfPlantName,.searchRow .qfZoneZip{margin-right:5px}.searchRow .qfPlantName input,.searchRow .qfZoneZip input{border:2px solid #ddd;padding:.5em;font-size:1rem;width:100%;outline:0;border-radius:3px;-webkit-appearance:none;min-height:40px}.searchOptions .group{display:none}.plantQFOptions{display:flex;margin:10px 0 0;padding:0}.plantQFOptions li{display:block}.plantQFOptions li.light{flex:0 0 15%}.plantQFOptions li.color{flex:0 0 15%}.plantQFOptions li.type{flex:0 0 14%}.plantQFOptions li.chars{flex:0 0 35%}.plantQFOptions li.specialFeatures{flex:0 0 21%}.plantQFOptions li a{display:block;height:45px;border:1px solid #ddd;font-size:0}.plantDescription{display:block;font-size:16px;line-height:20px;max-height:40px;overflow:hidden;margin-bottom:10px}.plantDescription>p{margin:0 0 20px}.plantDescription>p:last-of-type{margin-bottom:0}.plantDescription.hasMore,.plantDescription.hasLess{position:relative}.topinfoandtoolbar2 .readmore{display:block;font-size:16px;line-height:20px;max-height:40px;overflow:hidden;margin-bottom:10px}.topinfoandtoolbar2 .readmore>p{margin:0 0 20px}.topinfoandtoolbar2 .readmore>p:last-of-type{margin-bottom:0}.topinfoandtoolbar2 .readmore.hasMore,.topinfoandtoolbar2 .readmore.hasLess{position:relative}.byline{font-size:13px;line-height:17px;margin-bottom:10px}.recipe__byline{border-bottom:1px solid #ddd;padding-bottom:.625rem}.recipe__bylineLogo{height:3.5rem;width:3.5rem;background-color:#AB308A;display:inline-block}.userActivity__container{display:none}.bhgcelebrate__logo{display:none}@media only screen and (min-width:42.4375rem){#siteContent{padding:0 .625rem}#siteContent .mainColumn{padding-left:.3125rem;padding-right:.3125rem;width:68.75%;float:left;width:calc(100% - 300px);padding-right:1.25rem}#siteContent .rightColumn{padding-left:.3125rem;padding-right:.3125rem;width:31.25%;float:left;width:300px;padding:0;position:relative}#siteContent .rightColumn>div{margin:15px 0;text-align:center}#siteContent .rightColumn>div:first-of-type{margin-top:0;padding-top:15px}.slideshow2 #siteContent .rightColumn{margin-top:15px}#siteContent .singleColumn{padding-left:.3125rem;padding-right:.3125rem;width:100%;float:left}.mediumUp{display:block}.smallOnly{display:none}.topBannerAd{min-height:100px;padding:5px}#innerPageNav{display:block;height:51px;background-color:#fff;overflow:hidden;border-bottom:1px solid #ddd;text-align:center}#innerPageNav .topMenuItems a{height:50px}#innerPageNav .topMenuItems .topMenuItemText{text-transform:uppercase;font-size:13px;padding:13px 10px}.shareBarDirectApi{text-align:left}.slideImageWrapper .prev,.slideImageWrapper .next{display:none}.slideImage{text-align:center;margin-bottom:20px}}@media only screen and (min-width:62.875rem){#siteContent{padding:0 15px}.breadCrumb{margin:5px 0 0}.breadCrumb ul li{margin-right:15px}.breadCrumb ul li a{padding:8px 12px;display:block;height:32px;line-height:1;color:#777;position:relative;padding-top:9px}.recipe__top--noVideo{display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-end;flex-direction:row-reverse}.recipe__top--noVideo .recipe__imageContainer{flex:0 1 auto}.recipe__top--noVideo .recipe__infoContainer{flex:0 1 auto}}@media only screen and (min-width:80.6875rem){#siteContent{padding:0;max-width:79.625rem}#siteFooter .mpmFooter{padding:20px}#siteFooter .mpmCopyrightFooterContainer{margin:20px auto;max-width:79.625rem}}</style>
+    <style>meta.foundation-version{font-family:"/5.5.1/"}meta.foundation-mq-small{font-family:"/only screen/";width:0}meta.foundation-mq-small-only{font-family:"/only screen and (max-width: 42.375rem)/";width:0}meta.foundation-mq-medium{font-family:"/only screen and (min-width:42.4375rem)/";width:42.4375rem}meta.foundation-mq-medium-only{font-family:"/only screen and (min-width:42.4375rem) and (max-width:62.8125rem)/";width:42.4375rem}meta.foundation-mq-large{font-family:"/only screen and (min-width:62.875rem)/";width:62.875rem}meta.foundation-mq-large-only{font-family:"/only screen and (min-width:62.875rem) and (max-width:80.625rem)/";width:62.875rem}meta.foundation-mq-xlarge{font-family:"/only screen and (min-width:80.6875rem)/";width:80.6875rem}meta.foundation-mq-xlarge-only{font-family:"/only screen and (min-width:80.6875rem) and (max-width:99999999em)/";width:80.6875rem}meta.foundation-mq-xxlarge{font-family:"/only screen and (min-width:120.063em)/";width:120.063em}meta.foundation-data-attribute-namespace{font-family:false}html,body{height:100%;font-size:16px;margin:0}*,:before,:after{box-sizing:border-box}img{max-width:100%;height:auto}body{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:16px;line-height:20px}a{color:#AB308A;text-decoration:none}a:hover{text-decoration:underline}h1{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:30px;line-height:30px;margin:10px 0}h2{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:26px;line-height:28px;margin:10px 0}p{margin:10px 0}ul,ol{margin:0;padding:0;list-style:none}ul li,ol li{padding:4px 0}.hide,.mediumUp,.largeUp{display:none}#siteContainer{margin:0 auto}#siteContent{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:auto;padding:.625rem}#siteContent:before,#siteContent:after{content:" ";display:table}#siteContent:after{clear:both}.headerWrapper{background:#474747}.recipeDetail.mobile .headerWrapper,.story4.mobile .headerWrapper,.videoStory.mobile .headerWrapper,.slideshow2.mobile .headerWrapper{overflow:hidden}#siteHeader{height:50px}#siteHeader>.menu{display:none}.recipeDetail.mobile #siteHeader,.story4.mobile #siteHeader,.videoStory.mobile #siteHeader,.slideshow2.mobile #siteHeader{height:70px}#siteHeader .logo{text-align:center;padding-top:0;margin:auto}#siteHeader .headerTextLinks{display:none}#siteHeader .search .siteSearchForm .leftSide .searchSubmit,#siteHeader .search .siteSearchForm .leftSide .leftSearchIcon{display:none}#siteHeader .searchBox{width:0;visibility:hidden}#siteHeader .slideOutNav{position:absolute;visibility:hidden;top:0;left:0}#subNavSource{display:none}.homepage3 .topMenuItems,.homepage3 #homepageHeader{display:none}#innerPageNav{display:none}.yingsLightBox{position:fixed;pointer-events:none;z-index:600;display:none}.breadCrumb ul{padding:0;margin:0;list-style:none}.breadCrumb ul li{display:inline-block;font-size:13px;line-height:16px}#shareBarData,.shareBarData{display:none}.story4.userActivity__container{border-bottom:1px solid #ddd;padding-bottom:13px}.story4.userActivity__container .userActivity__countContainer{text-align:left}.story4.userActivity__container .userActivity__countContainer .userActivity__didCount,.story4.userActivity__container .userActivity__countContainer .userActivity__didPhotoCount{font-size:14px;text-transform:lowercase;font-weight:700}.story4.userActivity__container .userActivity__countContainer .userActivity__didCount{color:#000}.story4.userActivity__container .userActivity__didPhotoView{border-left:0}.shareBarDirectApi{padding:0;margin:0 0 20px;list-style:none;text-align:center;white-space:nowrap}.shareBarDirectApi li{display:inline-block;margin:0 2px;vertical-align:middle;padding:0}.shareBarDirectApi li.hide{display:none}.shareBarDirectApi li.totalShares{display:none}.shareBarDirectApi li a{text-align:center;display:block;width:2.1875rem;height:2.1875rem;background:rgba(221,221,221,.4);border-radius:50%;font-size:0}.shareBarDirectApi:after{content:'';display:block;clear:both}.slideTitleCopy{display:none}.plantquickfind2{border:1px solid;border-color:#ddd transparent;clear:both;margin-bottom:1em;padding:0 0 10px}.plantquickfind2 h4.quickFind{margin:12px 0}.plantquickfind2 h4.quickFind a{font-family:"Source Sans Pro","Segoe UI","Segoe UI Light",HelveticaNeue-Light,"Roboto Thin",sans-serif;font-weight:300;color:#000;font-size:16px;line-height:20px;font-size:.9em;float:right}.searchRow{display:flex;flex-direction:row;margin-right:5px;height:40px}.searchRow .qfPlantName{flex:10 10 35%}.searchRow .qfZoneZip{flex:10 10 15%}.searchRow .qfSubmit{flex:0 0 40px}.searchRow .qfPlantName,.searchRow .qfZoneZip{margin-right:5px}.searchRow .qfPlantName input,.searchRow .qfZoneZip input{border:2px solid #ddd;padding:.5em;font-size:1rem;width:100%;outline:0;border-radius:3px;-webkit-appearance:none;min-height:40px}.searchOptions .group{display:none}.plantQFOptions{display:flex;margin:10px 0 0;padding:0}.plantQFOptions li{display:block}.plantQFOptions li.light{flex:0 0 15%}.plantQFOptions li.color{flex:0 0 15%}.plantQFOptions li.type{flex:0 0 14%}.plantQFOptions li.chars{flex:0 0 35%}.plantQFOptions li.specialFeatures{flex:0 0 21%}.plantQFOptions li a{display:block;height:45px;border:1px solid #ddd;font-size:0}.plantDescription{display:block;font-size:16px;line-height:20px;max-height:40px;overflow:hidden;margin-bottom:10px}.plantDescription>p{margin:0 0 20px}.plantDescription>p:last-of-type{margin-bottom:0}.plantDescription.hasMore,.plantDescription.hasLess{position:relative}.topinfoandtoolbar2 .readmore{display:block;font-size:16px;line-height:20px;max-height:40px;overflow:hidden;margin-bottom:10px}.topinfoandtoolbar2 .readmore>p{margin:0 0 20px}.topinfoandtoolbar2 .readmore>p:last-of-type{margin-bottom:0}.topinfoandtoolbar2 .readmore.hasMore,.topinfoandtoolbar2 .readmore.hasLess{position:relative}.byline{font-size:13px;line-height:17px;margin-bottom:10px}.recipe__byline{border-bottom:1px solid #ddd;padding-bottom:.625rem}.recipe__bylineLogo{height:3.5rem;width:3.5rem;background-color:#AB308A;display:inline-block}.userActivity__container{display:none}.bhgcelebrate__logo{display:none}@media only screen and (min-width:42.4375rem){#siteContent{padding:0 .625rem}#siteContent .mainColumn{padding-left:.3125rem;padding-right:.3125rem;width:68.75%;float:left;width:calc(100% - 300px);padding-right:1.25rem}#siteContent .rightColumn{padding-left:.3125rem;padding-right:.3125rem;width:31.25%;float:left;width:300px;padding:0;position:relative}#siteContent .rightColumn>div{margin:15px 0;text-align:center}#siteContent .rightColumn>div:first-of-type{margin-top:0;padding-top:15px}.slideshow2 #siteContent .rightColumn{margin-top:15px}#siteContent .singleColumn{padding-left:.3125rem;padding-right:.3125rem;width:100%;float:left}.mediumUp{display:block}.smallOnly{display:none}.topBannerAd{min-height:100px;padding:5px}#innerPageNav{display:block;height:51px;background-color:#fff;overflow:hidden;border-bottom:1px solid #ddd;text-align:center}#innerPageNav .topMenuItems a{height:50px}#innerPageNav .topMenuItems .topMenuItemText{text-transform:uppercase;font-size:13px;padding:13px 10px}.shareBarDirectApi{text-align:left}.slideImageWrapper .prev,.slideImageWrapper .next{display:none}.slideImage{text-align:center;margin-bottom:20px}}@media only screen and (min-width:62.875rem){#siteContent{padding:0 15px}.breadCrumb{margin:5px 0 0}.breadCrumb ul li{margin-right:15px}.breadCrumb ul li a{padding:8px 12px;display:block;height:32px;line-height:1;color:#777;position:relative;padding-top:9px}.recipe__top--noVideo{display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-end;flex-direction:row-reverse}.recipe__top--noVideo .recipe__imageContainer{flex:0 1 auto}.recipe__top--noVideo .recipe__infoContainer{flex:0 1 auto}}@media only screen and (min-width:80.6875rem){#siteContent{padding:0;max-width:79.625rem}#siteFooter .mpmFooter{padding:20px}#siteFooter .mpmCopyrightFooterContainer{margin:20px auto;max-width:79.625rem}}</style>
     
 
 
@@ -69,17 +71,19 @@
 
 
 
+    <meta property="og:description" content="From Better Homes and Gardens, ideas and improvement projects for your home and garden plus recipes and entertaining ideas.">
+
 
 
     <meta property="og:type" content="article">
 
 
 
-    <meta property="og:url" content="http://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/">
+    <meta property="og:url" content="https://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/">
 
 
 
-    <meta property="og:image" content="http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg">
+    <meta property="og:image" content="https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg">
 
 
 
@@ -102,42 +106,42 @@
 
 
     
-        <link rel="canonical" href="http://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/">
+        <link rel="canonical" href="https://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/">
     
     
-        <link rel="amphtml" href="http://amp.bhg.com/recipe/citrus-tannenbaum-sheet-cake/"/>
-    
-
+        <link rel="amphtml" href="https://amp.bhg.com/recipe/citrus-tannenbaum-sheet-cake/"/>
     
 
-    <link rel="shortcut icon" href="http://images.meredith.com/content/dam/bhg/Images/assets/favicon/bhg.ico"/>
-    <link rel="apple-touch-icon" href="http://images.meredith.com/content/dam/bhg/Images/assets/apple_icons/bhg_57x57.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="http://images.meredith.com/content/dam/bhg/Images/assets/apple_icons/bhg_72x72.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="http://images.meredith.com/content/dam/bhg/Images/assets/apple_icons/bhg_114x114.png"/>
+    
+
+    <link rel="shortcut icon" href="https://images.meredith.com/content/dam/bhg/Images/assets/favicon/bhg.ico"/>
+    <link rel="apple-touch-icon" href="https://images.meredith.com/content/dam/bhg/Images/assets/apple_icons/bhg_57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="https://images.meredith.com/content/dam/bhg/Images/assets/apple_icons/bhg_72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="https://images.meredith.com/content/dam/bhg/Images/assets/apple_icons/bhg_114x114.png"/>
 
     
         
         
     
 
-    <script src="http://karma.mdpcdn.com/service/js-min/karma.header.js"></script>
+    <script src="https://karma.mdpcdn.com/service/js-min/karma.header.js"></script>
     <script>
         function loadCSS(e,t,n){function o(){for(var t,l=0;l<d.length;l++)d[l].href&&d[l].href.indexOf(e)>-1&&(t=!0);t?r.media=n||"all":setTimeout(o)}var r=window.document.createElement("link"),s=window.document.getElementsByTagName("script"),l=t||s[s.length-1],d=window.document.styleSheets;return r.rel="stylesheet",r.href=e,r.media="only x",l.parentNode.insertBefore(r,l),o(),r};
-        loadCSS( "http://s1.mdpcdn.com/etc/designs/bhg/assets/responsive/core-7.0.27.min.css" );
+        loadCSS( "https://s1.mdpcdn.com/etc/designs/bhg/assets/responsive/core-7.13.1.min.css" );
     </script>
-    <script src="http://s2.mdpcdn.com/etc/designs/bhg/assets/responsive/head-7.0.27.min.js"></script>
+    <script src="https://s2.mdpcdn.com/etc/designs/bhg/assets/responsive/head-7.13.1.min.js"></script>
     
 
     
 
-    <span itemscope itemtype="http://schema.org/Organization">
-      <link itemprop="url" href="http://www.bhg.com/"/>
+    <span itemscope itemtype="https://schema.org/Organization">
+      <link itemprop="url" href="https://www.bhg.com/"/>
       <link itemprop="sameAs" href="https://www.facebook.com/mybhg"/>
       <link itemprop="sameAs" href="https://twitter.com/bhg"/>
       <link itemprop="sameAs" href="https://www.pinterest.com/bhg/"/>
       <link itemprop="sameAs" href="https://instagram.com/betterhomesandgardens"/>
-      <link itemprop="logo" href="http://images.meredith.com/content/dam/bhg/Images/assets/logo.png"/>
-      <span itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+      <link itemprop="logo" href="https://images.meredith.com/content/dam/bhg/Images/assets/logo.png"/>
+      <span itemprop="contactPoint" itemscope itemtype="https://schema.org/ContactPoint">
           <meta itemprop="contactType" content="customer service"/>
           <meta itemprop="telephone" content="+1-800-374-4244"/>
           <meta itemprop="email" content="BHGcustserv@cdsfulfillment.com"/>
@@ -145,7 +149,7 @@
     </span>
 </head>
 
-    <body class="shell bhg recipedetail recipeDetail " data-shareimage="http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg" data-pinterest-shareimage="http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg">
+    <body class="shell bhg recipedetail recipeDetail " data-shareimage="https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg" data-pinterest-shareimage="https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg">
         
 
 
@@ -154,6 +158,9 @@
 
 <script>
     
+
+
+
 
 
 
@@ -214,8 +221,10 @@
     APP.ReportingData.setProperty('PAGE_categoryId', 'S3');
     APP.ReportingData.setProperty('PAGE_contentId', 'RU189693');
     APP.ReportingData.setProperty('PAGE_contentType', 'recipe');
-    APP.ReportingData.setProperty('PAGE_imageUrl', 'http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg');
+    APP.ReportingData.setProperty('PAGE_imageUrl', 'https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg');
     APP.ReportingData.setProperty('PAGE_title', 'Citrus Tannenbaum Sheet Cake');
+
+    APP.ReportingData.setProperty('Content Creation Date', '08/13/2012');
 
     
         APP.ReportingData.setProperty('Author', 'Better Homes and Gardens');
@@ -232,8 +241,8 @@
 
 </script>
 <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WMWB88" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WMWB88');</script>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMWB88" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WMWB88');</script>
 <!-- End Google Tag Manager -->
 
 <div class="globalheaderipar iparsys parsys"><div class="section"><div class="new"></div>
@@ -282,11 +291,11 @@
 
 <ul class="navLinks">
     <li id="registration" class="noSubNav registration"><div class="menu">
-        <a href="/common/profile/regStep1.jsp?regSource=1000&amp;returnURL=/" title="Join Now!" id="navJoinNow"><span>Join Now</span></a>
-        <a href="/common/profile/login1.jsp?regSource=1000&amp;returnURL=/" title="Log in" data-reglink="true" id="navLogIn"><span>Log In</span></a></div>
+        <a href="https://secure.bhg.com/common/profile/regStep1.jsp?regSource=1000&amp;returnURL=/" title="Join Now!" id="navJoinNow"><span>Join Now</span></a>
+        <a href="https://secure.bhg.com/common/profile/login1.jsp?regSource=9381&returnURL=/" title="Log in" data-reglink="true" id="navLogIn"><span>Log In</span></a></div>
     </li>
     <li id="profile" class="noSubNav hamburgerProfileLink"><div class="menu">
-        <a href="/my/profile/" class="hamburgerProfileLink--registered">Hi, Friend</a>
+        <a href="https://secure.bhg.com/my/profile/" class="hamburgerProfileLink--registered">Hi, Friend</a>
     </div>
     </li>
     <li id="subscribe" class="noSubNav subscribe"><div class="menu"><a href="#"><span>Subscribe</span></a></div></li>
@@ -294,79 +303,73 @@
     
         <li id="recipes">
             <div class="menu">
-                <a href="/recipes/" class="topMenuItem"><span>Recipes</span></a>
+                <a href="https://www.bhg.com/recipes/" class="topMenuItem"><span>Recipes</span></a>
             </div>
         </li>
     
         <li id="decorating">
             <div class="menu">
-                <a href="/decorating/" class="topMenuItem"><span>Decorating</span></a>
+                <a href="https://www.bhg.com/decorating/" class="topMenuItem"><span>Decorating</span></a>
             </div>
         </li>
     
         <li id="home-improvement">
             <div class="menu">
-                <a href="/home-improvement/" class="topMenuItem"><span>Home Improvement</span></a>
+                <a href="https://www.bhg.com/home-improvement/" class="topMenuItem"><span>Home Improvement</span></a>
             </div>
         </li>
     
         <li id="gardening">
             <div class="menu">
-                <a href="/gardening/" class="topMenuItem"><span>Gardening</span></a>
+                <a href="https://www.bhg.com/gardening/" class="topMenuItem"><span>Gardening</span></a>
             </div>
         </li>
     
         <li id="holidays">
             <div class="menu">
-                <a href="/holidays/" class="topMenuItem"><span>Holidays</span></a>
+                <a href="https://www.bhg.com/holidays/" class="topMenuItem"><span>Holidays</span></a>
             </div>
         </li>
     
         <li id="shop">
             <div class="menu">
-                <a href="/shop/" class="topMenuItem"><span>Shop</span></a>
+                <a href="https://www.bhg.com/shop/" class="topMenuItem"><span>Shop</span></a>
             </div>
         </li>
     
-        <li id="videos">
+        <li id="httpwwwbhgcomvideos">
             <div class="menu">
-                <a href="/videos/" class="topMenuItem"><span>Videos</span></a>
+                <a href="https://www.bhg.com/videos/" class="topMenuItem"><span>Videos</span></a>
             </div>
         </li>
     
         <li id="party">
             <div class="menu">
-                <a href="/party/" class="topMenuItem"><span>Entertaining</span></a>
+                <a href="https://www.bhg.com/party/" class="topMenuItem"><span>Entertaining</span></a>
             </div>
         </li>
     
         <li id="httpwwwbhgcomhome-services">
             <div class="menu">
-                <a href="http://www.bhg.com/home-services/" class="topMenuItem"><span>Home Services</span></a>
+                <a href="https://www.bhg.com/home-services/" class="topMenuItem"><span>Home Services</span></a>
             </div>
         </li>
     
         <li id="beauty-fashion">
             <div class="menu">
-                <a href="/beauty-fashion/" class="topMenuItem"><span>Beauty</span></a>
+                <a href="https://www.bhg.com/beauty-fashion/" class="topMenuItem"><span>Beauty</span></a>
             </div>
         </li>
     
         <li id="better-homes-and-garden-magazine">
             <div class="menu">
-                <a href="/better-homes-and-garden-magazine/" class="topMenuItem"><span>Magazine</span></a>
+                <a href="https://www.bhg.com/better-homes-and-garden-magazine/" class="topMenuItem"><span>Magazine</span></a>
             </div>
         </li>
     
         <li id="pets">
             <div class="menu">
-                <a href="/pets/" class="topMenuItem"><span>Pets</span></a>
-            </div>
-        </li>
-    
-        <li id="vacations">
-            <div class="menu">
-                <a href="/vacations/" class="topMenuItem"><span>Vacations</span></a>
+                <a href="https://www.bhg.com/pets/" class="topMenuItem"><span>Pets</span></a>
             </div>
         </li>
     
@@ -398,7 +401,7 @@
                                 
                                     
                                     
-                                        <a href="/common/profile/login1.jsp?regSource=1000&amp;returnURL=/">Login</a>
+                                        <a href="https://secure.bhg.com/common/profile/login1.jsp?regSource=1000&amp;returnURL=/">Login</a>
                                     
                                 
 
@@ -410,7 +413,7 @@
                                 
                                     
                                     
-                                        <a href="/common/profile/regStep1.jsp?regSource=1000&amp;returnURL=/">Join Now</a>
+                                        <a href="https://secure.bhg.com/common/profile/regStep1.jsp?regSource=1000&amp;returnURL=/">Join Now</a>
                                     
                                 
 
@@ -434,7 +437,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/bhg/help/">Help</a>
+                                        <a href="https://www.bhg.com/bhg/help/">Help</a>
                                     
                                 
 
@@ -446,7 +449,7 @@
                                 
                                     
                                     
-                                        <a href="/common/profile/community/edit.jsp?regSource=1056">Profile</a>
+                                        <a href="https://secure.bhg.com/common/profile/community/edit.jsp?regSource=1056">Profile</a>
                                     
                                 
 
@@ -458,7 +461,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/newsletters/?prsc=R1402BHDFTRNWR231">Newsletters</a>
+                                        <a href="https://www.bhg.com/newsletters/?prsc=R1402BHDFTRNWR231">Newsletters</a>
                                     
                                 
 
@@ -494,7 +497,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/member-benefits/">Member Benefits</a>
+                                        <a href="https://www.bhg.com/member-benefits/">Member Benefits</a>
                                     
                                 
 
@@ -530,7 +533,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/bhg/file.jsp?item=/marketing/splashPages/digitaledition/bhg_splashpage_digital&amp;psrc=bhgdigitalfooter">Digital Subscriptions</a>
+                                        <a href="https://www.bhg.com/bhg/file.jsp?item=/marketing/splashPages/digitaledition/bhg_splashpage_digital&amp;psrc=bhgdigitalfooter">Digital Subscriptions</a>
                                     
                                 
 
@@ -542,7 +545,7 @@
                                 
                                     
                                     
-                                        <a href="/common/profile/member/logout.jsp?successPage=/">Logout</a>
+                                        <a href="https://secure.bhg.com/common/profile/member/logout.jsp?successPage=/">Logout</a>
                                     
                                 
 
@@ -568,7 +571,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/tools/meet-the-staff-of-bhgcom/">About Us</a>
+                                        <a href="https://www.bhg.com/tools/meet-the-staff-of-bhgcom/">About Us</a>
                                     
                                 
 
@@ -580,7 +583,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/bhg/file.jsp?item=/partner/srds/index&amp;temp=no">Advertise on BHG.com</a>
+                                        <a href="https://www.bhg.com/bhg/file.jsp?item=/partner/srds/index&amp;temp=no">Advertise on BHG.com</a>
                                     
                                 
 
@@ -604,7 +607,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/tools/">Tools</a>
+                                        <a href="https://www.bhg.com/tools/">Tools</a>
                                     
                                 
 
@@ -616,7 +619,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/license-products/">BHG Products</a>
+                                        <a href="https://www.bhg.com/license-products/">BHG Products</a>
                                     
                                 
 
@@ -628,7 +631,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/sweepstakes/?psrc=R1105BSRVNAVDEALS5432">Sweepstakes &amp; Offers</a>
+                                        <a href="https://www.bhg.com/sweepstakes/?psrc=R1105BSRVNAVDEALS5432">Sweepstakes &amp; Offers</a>
                                     
                                 
 
@@ -665,7 +668,7 @@
                             <li class="mainLink logos">
                                 
                                     
-                                        <a href="/kitchen/" class="bhgLogo">BHG Logo</a>
+                                        <a href="https://www.bhg.com/kitchen/" class="bhgLogo">BHG Logo</a>
                                     
                                     
                                 
@@ -945,7 +948,7 @@
                                 
                                     
                                     
-                                        <a href="http://www.bhg.com/">Better Homes and Gardens</a>
+                                        <a href="https://www.bhg.com/">Better Homes and Gardens</a>
                                     
                                 
 
@@ -1287,7 +1290,7 @@
     <span class="copyrightMwnLogo">Meredith Women's Network | </span>
     <span class="copyrightTextLinks">
 
-        <span class="copyrightYear">&#169; Copyright <span class="meredithCopyrightYear">2017</span> <a href="http://www.meredith.com/">Meredith Corporation</a>. All Rights Reserved</span>
+        <span class="copyrightYear">&#169; Copyright <span class="meredithCopyrightYear">2018</span> <a href="http://www.meredith.com/">Meredith Corporation</a>. All Rights Reserved</span>
         <span class="privacyPolicy"><a href="http://www.meredith.com/legal/privacy">Privacy Policy</a></span>
         <span class="dataPolicy"><a href="http://www.meredith.com/datapolicy.html">Data Policy</a></span>
         <span class="termsOfService"><a href="http://www.meredith.com/legal/terms">Terms of Service</a></span>
@@ -1303,7 +1306,7 @@
         </nav>
         <div class="headerCenter hideSharing">
             <div class="logo">
-                <a href="/" class="bhgLogo">
+                <a href="https://www.bhg.com/" class="bhgLogo">
                     Better Homes and Gardens
                 </a>
 
@@ -1320,10 +1323,10 @@
 
 
 
-<div class="search" itemscope itemtype="http://schema.org/WebSite">
-    <link itemprop="url" href="http://www.bhg.com/"/>
-    <form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" action="http://www.bhg.com/search/s" name="searchbhg" method="get" _lpchecked="1" class="siteSearchForm" target="_parent">
-        <meta itemprop="target" content="http://www.bhg.com/search/s?q={q}"/>
+<div class="search" itemscope itemtype="https://schema.org/WebSite">
+    <link itemprop="url" href="https://www.bhg.com/"/>
+    <form itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" action="https://www.bhg.com/search/s" name="searchbhg" method="get" _lpchecked="1" class="siteSearchForm" target="_parent">
+        <meta itemprop="target" content="https://www.bhg.com/search/s?q={q}"/>
         <div class="leftSide">
             <input itemprop="query-input" type="text" name="q" class="searchBox" placeholder="Search">
             <span class="leftSearchIcon"></span>
@@ -1352,8 +1355,8 @@
                     <a href="https://secure.bhg.com/order/?containerName=i4cvbhl00&psrc=I4CVBHL00">BHG just $5.99!</a>
                 </div>
                 <div class="headerProfileLink" id="headerProfileLink">
-                    <a href="/common/profile/regStep1.jsp?regSource=1000&amp;returnURL=/" title="Join Now!" class="headerProfileLink--anonymous">Join Now</a>
-                    <a href="/my/profile/" class="headerProfileLink--registered">Hi, Friend</a>
+                    <a href="https://secure.bhg.com/common/profile/regStep1.jsp?regSource=1000&amp;returnURL=/" title="Join Now!" class="headerProfileLink--anonymous">Join Now</a>
+                    <a href="https://secure.bhg.com/my/profile/" class="headerProfileLink--registered">Hi, Friend</a>
                 </div>
             </div>
         
@@ -1366,31 +1369,29 @@
                 <header id="innerPageNav">
                     <div class="topMenuItems">
                         
-                            <a href="/recipes/" class="topMenuItem">Recipes</a>
+                            <a href="https://www.bhg.com/recipes/" class="topMenuItem">Recipes</a>
                         
-                            <a href="/decorating/" class="topMenuItem">Decorating</a>
+                            <a href="https://www.bhg.com/decorating/" class="topMenuItem">Decorating</a>
                         
-                            <a href="/home-improvement/" class="topMenuItem">Home Improvement</a>
+                            <a href="https://www.bhg.com/home-improvement/" class="topMenuItem">Home Improvement</a>
                         
-                            <a href="/gardening/" class="topMenuItem">Gardening</a>
+                            <a href="https://www.bhg.com/gardening/" class="topMenuItem">Gardening</a>
                         
-                            <a href="/holidays/" class="topMenuItem">Holidays</a>
+                            <a href="https://www.bhg.com/holidays/" class="topMenuItem">Holidays</a>
                         
-                            <a href="/shop/" class="topMenuItem">Shop</a>
+                            <a href="https://www.bhg.com/shop/" class="topMenuItem">Shop</a>
                         
-                            <a href="/videos/" class="topMenuItem">Videos</a>
+                            <a href="https://www.bhg.com/videos/" class="topMenuItem">Videos</a>
                         
-                            <a href="/party/" class="topMenuItem">Entertaining</a>
+                            <a href="https://www.bhg.com/party/" class="topMenuItem">Entertaining</a>
                         
-                            <a href="http://www.bhg.com/home-services/" class="topMenuItem">Home Services</a>
+                            <a href="https://www.bhg.com/home-services/" class="topMenuItem">Home Services</a>
                         
-                            <a href="/beauty-fashion/" class="topMenuItem">Beauty</a>
+                            <a href="https://www.bhg.com/beauty-fashion/" class="topMenuItem">Beauty</a>
                         
-                            <a href="/better-homes-and-garden-magazine/" class="topMenuItem">Magazine</a>
+                            <a href="https://www.bhg.com/better-homes-and-garden-magazine/" class="topMenuItem">Magazine</a>
                         
-                            <a href="/pets/" class="topMenuItem">Pets</a>
-                        
-                            <a href="/vacations/" class="topMenuItem">Vacations</a>
+                            <a href="https://www.bhg.com/pets/" class="topMenuItem">Pets</a>
                         
                     </div>
                 </header>
@@ -1403,78 +1404,78 @@
         <ul>
             
                 <li>
-                    <a href="/recipes/">Recipes</a>
+                    <a href="https://www.bhg.com/recipes/">Recipes</a>
                     <ul>
                         
-                            <li><a href="/recipes/quick-easy/">Quick & Easy</a></li>
+                            <li><a href="https://www.bhg.com/recipes/quick-easy/">Quick & Easy</a></li>
                         
-                            <li><a href="/recipes/appetizer/">Appetizers</a></li>
+                            <li><a href="https://www.bhg.com/recipes/appetizer/">Appetizers</a></li>
                         
-                            <li><a href="/recipes/bread/">Bread</a></li>
+                            <li><a href="https://www.bhg.com/recipes/bread/">Bread</a></li>
                         
-                            <li><a href="/recipes/salads/">Salad</a></li>
+                            <li><a href="https://www.bhg.com/recipes/salads/">Salad</a></li>
                         
-                            <li><a href="/recipes/soup/">Soup</a></li>
+                            <li><a href="https://www.bhg.com/recipes/soup/">Soup</a></li>
                         
-                            <li><a href="/recipes/sides/">Side Dishes</a></li>
+                            <li><a href="https://www.bhg.com/recipes/sides/">Side Dishes</a></li>
                         
-                            <li><a href="/recipes/potato/">Potatoes</a></li>
+                            <li><a href="https://www.bhg.com/recipes/potato/">Potatoes</a></li>
                         
-                            <li><a href="/recipes/vegetable/">Vegetables</a></li>
+                            <li><a href="https://www.bhg.com/recipes/vegetable/">Vegetables</a></li>
                         
-                            <li><a href="/recipes/grilling/">BBQ & Grilling</a></li>
+                            <li><a href="https://www.bhg.com/recipes/grilling/">BBQ & Grilling</a></li>
                         
-                            <li><a href="/recipes/slow-cooker/">Slow Cooker</a></li>
+                            <li><a href="https://www.bhg.com/recipes/slow-cooker/">Slow Cooker</a></li>
                         
-                            <li><a href="/recipes/from-better-homes-and-gardens/">Magazine Recipes</a></li>
+                            <li><a href="https://www.bhg.com/recipes/from-better-homes-and-gardens/">Magazine Recipes</a></li>
                         
-                            <li><a href="/recipes/healthy/">Healthy Recipes</a></li>
+                            <li><a href="https://www.bhg.com/recipes/healthy/">Healthy Recipes</a></li>
                         
-                            <li><a href="/recipes/main/">Main Courses</a></li>
+                            <li><a href="https://www.bhg.com/recipes/main/">Main Courses</a></li>
                         
-                            <li><a href="/recipes/beef/">Beef</a></li>
+                            <li><a href="https://www.bhg.com/recipes/beef/">Beef</a></li>
                         
-                            <li><a href="/recipes/burgers/">Burgers</a></li>
+                            <li><a href="https://www.bhg.com/recipes/burgers/">Burgers</a></li>
                         
-                            <li><a href="/recipes/casseroles/">Casseroles</a></li>
+                            <li><a href="https://www.bhg.com/recipes/casseroles/">Casseroles</a></li>
                         
-                            <li><a href="/recipes/chicken/">Chicken</a></li>
+                            <li><a href="https://www.bhg.com/recipes/chicken/">Chicken</a></li>
                         
-                            <li><a href="/recipes/fish/">Fish</a></li>
+                            <li><a href="https://www.bhg.com/recipes/fish/">Fish</a></li>
                         
-                            <li><a href="/recipes/pork/">Pork</a></li>
+                            <li><a href="https://www.bhg.com/recipes/pork/">Pork</a></li>
                         
-                            <li><a href="/recipes/beef/steak/">Steak</a></li>
+                            <li><a href="https://www.bhg.com/recipes/beef/steak/">Steak</a></li>
                         
-                            <li><a href="/recipes/pasta/">Pasta</a></li>
+                            <li><a href="https://www.bhg.com/recipes/pasta/">Pasta</a></li>
                         
-                            <li><a href="/recipes/savory-pies/">Savory Pies</a></li>
+                            <li><a href="https://www.bhg.com/recipes/savory-pies/">Savory Pies</a></li>
                         
-                            <li><a href="/recipes/ethnic-food/">International Cuisines</a></li>
+                            <li><a href="https://www.bhg.com/recipes/ethnic-food/">International Cuisines</a></li>
                         
-                            <li><a href="/recipes/ethnic-food/italian/">Italian</a></li>
+                            <li><a href="https://www.bhg.com/recipes/ethnic-food/italian/">Italian</a></li>
                         
-                            <li><a href="/recipes/ethnic-food/mexican/">Mexican</a></li>
+                            <li><a href="https://www.bhg.com/recipes/ethnic-food/mexican/">Mexican</a></li>
                         
-                            <li><a href="/recipes/desserts/">Desserts</a></li>
+                            <li><a href="https://www.bhg.com/recipes/desserts/">Desserts</a></li>
                         
-                            <li><a href="/recipes/desserts/cakes/">Cake</a></li>
+                            <li><a href="https://www.bhg.com/recipes/desserts/cakes/">Cake</a></li>
                         
-                            <li><a href="/recipes/desserts/cookies/">Cookies</a></li>
+                            <li><a href="https://www.bhg.com/recipes/desserts/cookies/">Cookies</a></li>
                         
-                            <li><a href="/recipes/desserts/cupcakes/">Cupcakes</a></li>
+                            <li><a href="https://www.bhg.com/recipes/desserts/cupcakes/">Cupcakes</a></li>
                         
-                            <li><a href="/recipes/desserts/pies/">Pie</a></li>
+                            <li><a href="https://www.bhg.com/recipes/desserts/pies/">Pie</a></li>
                         
-                            <li><a href="/recipes/drinks/">Drinks</a></li>
+                            <li><a href="https://www.bhg.com/recipes/drinks/">Drinks</a></li>
                         
-                            <li><a href="/recipes/drinks/wine-cocktails/">Cocktails</a></li>
+                            <li><a href="https://www.bhg.com/recipes/drinks/wine-cocktails/">Cocktails</a></li>
                         
-                            <li><a href="/recipes/drinks/smoothies/">Smoothies</a></li>
+                            <li><a href="https://www.bhg.com/recipes/drinks/smoothies/">Smoothies</a></li>
                         
-                            <li><a href="/recipes/how-to/">How To</a></li>
+                            <li><a href="https://www.bhg.com/recipes/how-to/">How To</a></li>
                         
-                            <li><a href="/holidays/">Holidays & Events</a></li>
+                            <li><a href="https://www.bhg.com/holidays/">Holidays & Events</a></li>
                         
                     </ul>
                 </li>
@@ -1489,7 +1490,7 @@
 
 
 
-<div class="textimage" data-imageAvailable="false" data-imageRendition="http://images.meredith.com" data-mobileImage="">
+<div class="textimage" data-imageAvailable="false" data-imageRendition="https://images.meredith.com" data-mobileImage="">
     
 
     
@@ -1500,7 +1501,7 @@
 
     
 
-    <div class="text"><p style="display: none;"><a style="display: none;" href="/new-this-month/" rel="nofollow">New this month!</a></p>
+    <div class="text"><p style="display: none;"><a style="display: none;" href="https://www.bhg.com/new-this-month/" rel="nofollow">New this month!</a></p>
 </div>
 </div></div>
 </div>
@@ -1527,22 +1528,22 @@
 
     
         
-            <article class="recipe__container" itemscope itemtype="http://schema.org/Recipe" data-id="RU189693">
-                <link itemprop="url" href="http://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/"/>
+            <article class="recipe__container" itemscope itemtype="https://schema.org/Recipe" data-id="RU189693">
+                <link itemprop="url" href="https://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/"/>
                 <meta itemprop="mainEntityOfPage" content="True" />
                 <div id="karma-lazy-sponsorLogo"></div>
                 
 
 
 <nav class="recipe__breadcrumb breadCrumb">
-    <ul itemscope itemtype="http://schema.org/BreadcrumbList">
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
             <meta itemprop="position" content="1" />
-            <a href="/" itemprop="url"><span itemprop="name">BHG.com</span></a>
+            <a href="https://www.bhg.com/" itemprop="url"><span itemprop="name">BHG.com</span></a>
         </li>
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
             <meta itemprop="position" content="2" />
-            <a href="/recipes/" itemprop="url"><span itemprop="name">Recipes</span></a>
+            <a href="https://www.bhg.com/recipes/" itemprop="url"><span itemprop="name">Recipes</span></a>
         </li>
     </ul>
 </nav>
@@ -1553,12 +1554,19 @@
     
 
 
+
+
+
+
+
+
+
 <h1 itemprop="name" class="recipe__mainHeading">Citrus Tannenbaum Sheet Cake</h1>
 
     
 
 
-<div class="recipe__byline" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<div class="recipe__byline" itemprop="author" itemscope itemtype="https://schema.org/Person">
     
         
         
@@ -1630,6 +1638,7 @@
 			
 			
 			
+			
 		
 	
 </div>
@@ -1646,13 +1655,13 @@
 
 
     
-        <figure class="recipe__imageContainer" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+        <figure class="recipe__imageContainer" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
             <meta itemprop="representativeOfPage" content="True" />
             
                 
                 
                 
-                    <img class="lazyload recipe__image" alt="Citrus Tannenbaum Sheet Cake" itemprop="url" content="http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg" data-src="http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg" data-srcset="http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg 550w, http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.p.jpg 360w, http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg 300w" sizes="(min-width: 42.438rem) 550px, (min-device-width : 23rem) 360px, 300px"/>
+                    <img class="lazyload recipe__image" alt="Citrus Tannenbaum Sheet Cake" itemprop="url" content="https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg" data-src="https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg" data-srcset="https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg 550w, https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.p.jpg 360w, https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.ss.jpg 300w" sizes="(min-width: 42.438rem) 550px, (min-device-width : 23rem) 360px, 300px"/>
                 
             
         </figure>
@@ -1668,10 +1677,10 @@
     <section class="recipe__ratingDetails">
     <h4><span class="hide">Reviews (<a href="#reviews" rel="nofollow" class="recipe__readReviewLink">0</a>)</span></h4>
     
-            <div  itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+            <div  itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
             <div class="recipe__rating rating four"></div>
                 <div class="recipe__ratedBy">
-                    <span class="recipe__ratingValue" itemprop="ratingValue">4.0</span> by <span itemprop="ratingCount">7</span> people
+                    <span class="recipe__ratingValue" itemprop="ratingValue">4.0</span> by <span itemprop="ratingCount">8</span> people
                 </div>
             </div>
     
@@ -1779,7 +1788,7 @@
             
                 <li class="recipe__ingredient" itemprop="recipeIngredient">
                     <span class="recipe__ingredientAmt">1 2/3</span>
-                    <span class="recipe__ingredientText">cups <a href="http://www.bhg.com/recipes/how-to/bake/flours-and-grains/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">all-purpose flour</span></a></span>
+                    <span class="recipe__ingredientText">cups <a href="https://www.bhg.com/recipes/how-to/bake/flours-and-grains/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">all-purpose flour</span></a></span>
                 </li>
             
         </ul>
@@ -1789,7 +1798,7 @@
             
                 <li class="recipe__ingredient" itemprop="recipeIngredient">
                     <span class="recipe__ingredientAmt">1</span>
-                    <span class="recipe__ingredientText">teaspoon <a href="/recipes/how-to/bake/importance-of-baking-powder-baking-soda/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">baking powder</span></a></span>
+                    <span class="recipe__ingredientText">teaspoon <a href="https://www.bhg.com/recipes/how-to/bake/importance-of-baking-powder-baking-soda/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">baking powder</span></a></span>
                 </li>
             
         </ul>
@@ -1799,7 +1808,7 @@
             
                 <li class="recipe__ingredient" itemprop="recipeIngredient">
                     <span class="recipe__ingredientAmt">1/4</span>
-                    <span class="recipe__ingredientText">teaspoon <a href="/recipes/how-to/bake/importance-of-baking-powder-baking-soda/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">baking soda</span></a></span>
+                    <span class="recipe__ingredientText">teaspoon <a href="https://www.bhg.com/recipes/how-to/bake/importance-of-baking-powder-baking-soda/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">baking soda</span></a></span>
                 </li>
             
         </ul>
@@ -1879,7 +1888,7 @@
             
                 <li class="recipe__ingredient" itemprop="recipeIngredient">
                     <span class="recipe__ingredientAmt"></span>
-                    <span class="recipe__ingredientText"><a href="/recipes/how-to/cooking-basics/how-to-cook-nuts/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">Chopped pistachio nuts</span></a> (optional)</span>
+                    <span class="recipe__ingredientText"><a href="https://www.bhg.com/recipes/how-to/cooking-basics/how-to-cook-nuts/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">Chopped pistachio nuts</span></a> (optional)</span>
                 </li>
             
         </ul>
@@ -1899,13 +1908,13 @@
         
         <ol class="recipe__directionsList" itemprop="recipeInstructions">
             
-                <li class="recipe__direction">Allow butter and eggs to stand at room temperature for 30 minutes. Meanwhile, <a class="has-tip" href="/recipes/how-to/bake/how-to-prepare-a-baking-pan/">grease and lightly flour</a> a 13x9x2-inch baking pan;** set aside. In a medium bowl stir together flour, baking powder, baking soda, and salt; set aside.</li>
+                <li class="recipe__direction">Allow butter and eggs to stand at room temperature for 30 minutes. Meanwhile, <a class="has-tip" href="https://www.bhg.com/recipes/how-to/bake/how-to-prepare-a-baking-pan/">grease and lightly flour</a> a 13x9x2-inch baking pan;** set aside. In a medium bowl stir together flour, baking powder, baking soda, and salt; set aside.</li>
             
                 <li class="recipe__direction">Preheat oven to 350 degrees F. In a large mixing bowl beat butter with an electric mixer on medium to high speed for 30 seconds. Add sugar, citrus peel, and citrus juice, beating until combined. Add eggs, one at a time, beating well after each addition. Alternately add flour mixture and buttermilk to butter mixture, beating on low speed after each addition just until combined. Pour batter into the prepared pan, spreading evenly.</li>
             
-                <li class="recipe__direction">Bake for 28 to 32 minutes or until a wooden toothpick inserted near center comes out clean. Cool in pan on a wire rack for 10 minutes. If desired, <a class="has-tip" href="/recipes/desserts/cakes/how-to-keep-cake-from-sticking-to-the-pan/">remove cake</a> from pan. Cool completely on wire rack.</li>
+                <li class="recipe__direction">Bake for 28 to 32 minutes or until a wooden toothpick inserted near center comes out clean. Cool in pan on a wire rack for 10 minutes. If desired, <a class="has-tip" href="https://www.bhg.com/recipes/desserts/cakes/how-to-keep-cake-from-sticking-to-the-pan/">remove cake</a> from pan. Cool completely on wire rack.</li>
             
-                <li class="recipe__direction"><a class="has-tip" href="/recipes/how-to/bake/the-icing-on-the-cake/">Frost cake</a> with Butter Frosting. Using Candied Citrus Slices, arrange clementine and lemon slices in a tree shape on top of cake, decorating with kumquat slices. If desired, sprinkle with pistachios to make a trunk and garland.</li>
+                <li class="recipe__direction"><a class="has-tip" href="https://www.bhg.com/recipes/how-to/bake/the-icing-on-the-cake/">Frost cake</a> with Butter Frosting. Using Candied Citrus Slices, arrange clementine and lemon slices in a tree shape on top of cake, decorating with kumquat slices. If desired, sprinkle with pistachios to make a trunk and garland.</li>
             
         </ol>
     
@@ -2053,12 +2062,12 @@
                                 
                                     <li class="subRecipe__ingredient">
                                         <span class="subRecipe__ingredientAmt">6</span>
-                                        <span class="subRecipe__ingredientText">tablespoons <a href="/recipes/how-to/cooking-basics/how-to-soften-butter/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">butter, softened</span></a></span>
+                                        <span class="subRecipe__ingredientText">tablespoons <a href="https://www.bhg.com/recipes/how-to/cooking-basics/how-to-soften-butter/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">butter, softened</span></a></span>
                                     </li>
                                 
                                     <li class="subRecipe__ingredient">
                                         <span class="subRecipe__ingredientAmt">1</span>
-                                        <span class="subRecipe__ingredientText">pound <a href="/recipes/how-to/bake/how-to-measure-sugar/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">powdered sugar</span></a> (4 cups)</span>
+                                        <span class="subRecipe__ingredientText">pound <a href="https://www.bhg.com/recipes/how-to/bake/how-to-measure-sugar/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">powdered sugar</span></a> (4 cups)</span>
                                     </li>
                                 
                                     <li class="subRecipe__ingredient">
@@ -2073,7 +2082,7 @@
                                 
                                     <li class="subRecipe__ingredient">
                                         <span class="subRecipe__ingredientAmt">1/4</span>
-                                        <span class="subRecipe__ingredientText">teaspoon <a href="/recipes/how-to/cooking-basics/citrus-zest-or-peel/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">finely shredded lemon peel</span></a> (optional)</span>
+                                        <span class="subRecipe__ingredientText">teaspoon <a href="https://www.bhg.com/recipes/how-to/cooking-basics/citrus-zest-or-peel/"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="Learn more about this ingredient">finely shredded lemon peel</span></a> (optional)</span>
                                     </li>
                                 
                                     <li class="subRecipe__ingredient">
@@ -2170,6 +2179,7 @@
 			
 			
 			
+			
 		
 	
 </div>
@@ -2182,32 +2192,61 @@
 
 
 
-    <div class="recipe__nutrition" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
+    <div class="recipe__nutrition" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
         <h3 class="recipe__nutritionHeading">Nutrition Facts <span class="recipe__nutritionRecipeName">(Citrus Tannenbaum Sheet Cake)</span></h3>
         <ul class="recipe__nutritionList">
             <li class="recipe__nutritionPerServing">Per serving:</li>
             
-                <li class="recipe__nutrient"><span itemprop="calories">296 kcal</span> cal., </li>
+                <li class="recipe__nutrient"><span itemprop="calories">296 kcal</span>
+                    
+                    , 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="fatcontent">10 g</span> fat </li>
+                <li class="recipe__nutrient"><span itemprop="fatcontent">10 g</span>
+                     fat
+                     
+                </li>
             
-                <li class="recipe__nutrient">(<span itemprop="saturatedfatcontent">6 g</span> sat. fat, </li>
+                <li class="recipe__nutrient">(<span itemprop="saturatedfatcontent">6 g</span>
+                     sat. fat
+                    , 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="">3 g</span> monounsatured fat), </li>
+                <li class="recipe__nutrient"><span itemprop="">3 g</span>
+                     monounsaturated fat
+                    ), 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="cholesterolcontent">47 mg</span> chol., </li>
+                <li class="recipe__nutrient"><span itemprop="cholesterolcontent">47 mg</span>
+                     chol.
+                    , 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="sodiumcontent">153 mg</span> sodium, </li>
+                <li class="recipe__nutrient"><span itemprop="sodiumcontent">153 mg</span>
+                     sodium
+                    , 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="carbohydratecontent">52 g</span> carb., </li>
+                <li class="recipe__nutrient"><span itemprop="carbohydratecontent">52 g</span>
+                     carb.
+                    , 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="fibercontent">1 g</span> fiber, </li>
+                <li class="recipe__nutrient"><span itemprop="fibercontent">1 g</span>
+                     fiber
+                    , 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="sugarcontent">45 g</span> sugar, </li>
+                <li class="recipe__nutrient"><span itemprop="sugarcontent">45 g</span>
+                     sugar
+                    , 
+                </li>
             
-                <li class="recipe__nutrient"><span itemprop="proteincontent">2 g</span> pro.</li>
+                <li class="recipe__nutrient"><span itemprop="proteincontent">2 g</span>
+                     pro.
+                    
+                </li>
             
-            <li class="recipe__nutritionBasedOnText">Percent Daily Values are based on a 2,000 calorie diet</li>
         </ul>
     </div>
 
@@ -2272,7 +2311,7 @@
 		<div class="recipe__totalRatings">
 
 				
-					<span>7</span> Ratings
+					<span>8</span> Ratings
 				
 			</div>
 			
@@ -2319,9 +2358,6 @@
 
 
 <div id="BHGTrafficRight" class="teaser normal topRightTargeter">
-    <a href="http://win.bhg.com/?psrc=R506BRB141201">
-        <img src="http://images.bhg.com/content/dam/bhg/Images/promo_images/popOfColor/300x150_11644_01_DftDlySwps.jpg" width="300" height="150"/>
-    </a>
 </div>
 
         <div id="dockedBannerWrapper">
@@ -2374,6 +2410,7 @@
 
 
 
+
     
 
 
@@ -2385,53 +2422,33 @@
 
     <div class="shopNationFooterWrapper">
     <div id="shopNationFooter" class="shopNationFooter">
-        <a href="/shop/" class="shopLogo">
-            <span class="image" style="background-image: url('http://images.meredith.com/content/dam/bhg/Images/assets/shopnationFooterImages/recipes.jpg')"></span>
+        <a href="https://www.bhg.com/shop/" class="shopLogo">
+            <span class="image" style="background-image: url('https://images.meredith.com/content/dam/bhg/Images/assets/shopnationFooterImages/recipes.jpg')"></span>
         </a>
 
         <ul class="shopSearchLinks">
             
-                <li><a href="http://www.bhg.com/shop/bedroom/beds/headboards-a2836.html">headboards</a></li>
+                <li><a href="https://www.bhg.com/shop/furniture/living-room-a1936.html">living room furniture </a></li>
             
-                <li><a href="http://www.bhg.com/shop/bathroom/towels-a1867.html">bathroom towels</a></li>
+                <li><a href="https://www.bhg.com/shop/furniture/rustic-done-right-farmhouse-furniture-were-loving-from-overstock-sc281474979770435.html">farmhouse furniture</a></li>
             
-                <li><a href="http://www.bhg.com/shop/furniture/dining-room-a1924.html">dining room furniture</a></li>
+                <li><a href="https://www.bhg.com/shop/home-improvement/best-reviews-dehumidifiers-sc281474979780679.html">dehumidifiers</a></li>
             
-                <li><a href="http://www.bhg.com/shop/electronics/computers-a6079.html">computers</a></li>
+                <li><a href="https://www.bhg.com/shop/furniture/bedroom/headboards/upholstered/3430-ad2347.html">upholstered headboards</a></li>
             
-                <li><a href="http://www.bhg.com/shop/electronics/cameras-a6035.html">cameras</a></li>
+                <li><a href="https://www.bhg.com/shop/furniture/kitchen-and-dining/sets-a2384.html">dining room sets </a></li>
             
-                <li><a href="http://www.bhg.com/shop/furniture/bedroom-a1869.html">bedroom furniture</a></li>
+                <li><a href="https://www.bhg.com/shop/home-improvement/heating-and-cooling/space-heaters-a2631.html">space heaters</a></li>
             
-                <li><a href="http://www.bhg.com/shop/furniture/home-office-a1930.html">home office</a></li>
+                <li><a href="https://www.bhg.com/shop/home-improvement/bathroom-fixtures-a2642.html">bathroom fixtures</a></li>
             
-                <li><a href="http://www.bhg.com/shop/electronics/home-audio-a5998.html">home audio</a></li>
+                <li><a href="https://www.bhg.com/shop/decor/rugs/area-rugs/round/10999-ad2931.html">round area rugs</a></li>
             
-                <li><a href="http://www.bhg.com/shop/bedroom/beds-a2824.html">beds</a></li>
+                <li><a href="https://www.bhg.com/shop/outdoor-and-garden/patio-furniture-a2508.html">patio furniture</a></li>
             
-                <li><a href="http://www.bhg.com/shop/furniture/living-room-a1936.html">living room</a></li>
+                <li><a href="https://www.bhg.com/shop/outdoor-and-garden/lighting/landscape-a2488.html">landscape lighting</a></li>
             
-                <li><a href="http://www.bhg.com/shop/decor/lighting-and-lamps/table-a2284.html">table lamps</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/electronics/cell-phones-and-accessories-a6058.html">cell phones and accessories</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/bedroom/bedding/sets-a2240.html">bedding sets</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/decor/bookshelves-a2257.html">bookshelves</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/decor/decorative-and-throw-pillows-a2903.html">decorative and throw pillows</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/decor/rugs-a2294.html">rugs</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/bathroom/shower-curtains-a1865.html">shower curtains</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/furniture/living-room/sofas-and-couches-a2402.html">sofas and couches</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/decor/slip-covers-a2945.html">slip covers</a></li>
-            
-                <li><a href="http://www.bhg.com/shop/kitchen/small-kitchen-appliances-a2576.html">small kitchen appliances</a></li>
-            
-            <li class="last"><a href="/shop/">Shop More</a></li>
+            <li class="last"><a href="https://www.bhg.com/shop/">Shop More</a></li>
         </ul>
     </div>
     </div>
@@ -2464,7 +2481,7 @@
     <span class="copyrightMwnLogo">Meredith Women's Network | </span>
     <span class="copyrightTextLinks">
 
-        <span class="copyrightYear">&#169; Copyright <span class="meredithCopyrightYear">2017</span> <a href="http://www.meredith.com/">Meredith Corporation</a>. All Rights Reserved</span>
+        <span class="copyrightYear">&#169; Copyright <span class="meredithCopyrightYear">2018</span> <a href="http://www.meredith.com/">Meredith Corporation</a>. All Rights Reserved</span>
         <span class="privacyPolicy"><a href="http://www.meredith.com/legal/privacy">Privacy Policy</a></span>
         <span class="dataPolicy"><a href="http://www.meredith.com/datapolicy.html">Data Policy</a></span>
         <span class="termsOfService"><a href="http://www.meredith.com/legal/terms">Terms of Service</a></span>
@@ -2723,6 +2740,8 @@
 
 
 
+
+
 <script>
     mdp = mdp || {};
     mdp.channel = 'S3';
@@ -2770,6 +2789,7 @@
                     type:  'recipe',
                     
                     
+                    collection: "",
                     search: ''
                 },
                 environment: environment,
@@ -2780,12 +2800,13 @@
                     }
                 ]
             };
-            /* Load KARMA core */
-            var karmaCore=document.createElement("script");
-            karmaCore.src="http://karma.mdpcdn.com/service/js-min/karma.footer.js";
-            var node=document.getElementsByTagName("script")[0];
-            node.parentNode.insertBefore(karmaCore,node);
-        })(window);
+            /* add collapseall page targeting value */
+            if(window.mdpKarmaNoAds){
+                adService.pageTargetingValues.collapseall = 'true';
+            }
+
+            /* Load KARMA */
+            !function(a){function b(){var a=adService.kismetReported||null!==document.querySelector('img[src$="kismet/spacer.png"]');if(!a){adService.kismetReported=!0;var b=document.createElement("img");b.src="/kismet/spacer.png",document.body.appendChild(b)}}var c=document.createElement("script");c.src="https://karma.mdpcdn.com/service/js-min/karma.footer.js",c.onload=c.onreadystatechange=function(){var a=this.readyState;a&&"complete"!=a&&"loaded"!=a&&b();try{}catch(a){b()}},c.onerror=b;var d=document.getElementsByTagName("script")[0];d.parentNode.insertBefore(c,d)}(window);        })(window);
     </script>
 
     
@@ -2797,9 +2818,9 @@
 
 
 
-    <script src="http://s2.mdpcdn.com/etc/designs/bhg/assets/responsive/common-7.0.27.min.js"></script>
+    <script src="https://s2.mdpcdn.com/etc/designs/bhg/assets/responsive/common-7.13.1.min.js"></script>
 
-    <script src="http://s2.mdpcdn.com/etc/designs/bhg/assets/responsive/recipedetail-7.0.27.min.js"></script>
+    <script src="https://s2.mdpcdn.com/etc/designs/bhg/assets/responsive/recipedetail-7.13.1.min.js"></script>
 
 
 

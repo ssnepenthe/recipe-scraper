@@ -13,7 +13,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Cauliflower meets Mexican with chorizo, beans, and jalapeno. Finish the tacos with a squeeze of lime.',
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/2015/8/24/RU260640.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/2015/8/24/RU260640.jpg.rendition.largest.jpg',
     'ingredients' => [
         '14 - 16 ounces uncooked chorizo sausage',
         '1 medium head cauliflower (2 pounds), cut into florets (about 4 1/2 cups)',
@@ -33,6 +33,6 @@ return [
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/cauliflower-chorizo-tacos/',
+    'url' => 'https://www.bhg.com/recipe/cauliflower-chorizo-tacos/',
     'yield' => '4 servings',
 ];

@@ -7,7 +7,7 @@ return [
     'cookTime' => 'PT28M',
     'cuisines' => null,
     'description' => null,
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/recipecq/2012/08/RU189693.jpg.rendition.largest.jpg',
     'ingredients' => [
         '3/4 cup butter',
         '3 eggs',
@@ -37,6 +37,6 @@ return [
     'prepTime' => 'PT30M',
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/',
+    'url' => 'https://www.bhg.com/recipe/citrus-tannenbaum-sheet-cake/',
     'yield' => '24 servings',
 ];

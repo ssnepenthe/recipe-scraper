@@ -21,7 +21,7 @@ return [
     'cookTime' => 'PT20M',
     'cuisines' => null,
     'description' => 'Flavors meld beautifully when you roast the apples alongside the seasoned pork in this easy, low-calorie dinner recipe.',
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/recipe/43/R137745.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/recipe/43/R137745.jpg.rendition.largest.jpg',
     'ingredients' => [
         '1 teaspoon snipped fresh sage or 1/2 teaspoon dried sage, crushed',
         '1/4 teaspoon salt',
@@ -44,6 +44,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/pork/roasted-pork-with-apples/',
+    'url' => 'https://www.bhg.com/recipe/pork/roasted-pork-with-apples/',
     'yield' => '4 servings',
 ];

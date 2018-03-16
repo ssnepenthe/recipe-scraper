@@ -12,7 +12,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'The best baking apples have sweet and tart flavor and hold up as they cook. We like to use Honeycrisp, Braeburn, and Gala here.',
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/2015/9/16/RU262673.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/2015/9/16/RU262673.jpg.rendition.largest.jpg',
     'ingredients' => [
         '2 medium baking apples',
         '1/3 cup butter, melted',
@@ -39,6 +39,6 @@ return [
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/apple-sheet-cake/',
+    'url' => 'https://www.bhg.com/recipe/apple-sheet-cake/',
     'yield' => '24 servings',
 ];

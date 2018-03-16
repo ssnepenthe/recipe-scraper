@@ -19,7 +19,7 @@ return [
     'cookTime' => 'PT4H',
     'cuisines' => null,
     'description' => 'For more of the flavor of Germany, heat Bavarian-style sauerkraut to serve along with the well-seasoned pork and tangy gravy.',
-    'image' => 'http://images.meredith.com/content/dam/bhg/Images/recipe/38/37352.jpg.rendition.largest.jpg',
+    'image' => 'https://images.meredith.com/content/dam/bhg/Images/recipe/38/37352.jpg.rendition.largest.jpg',
     'ingredients' => [
         '1 1 1/2 pound boneless pork shoulder roast',
         '2 teaspoons caraway seed',
@@ -44,6 +44,6 @@ return [
     'prepTime' => 'PT25M',
     'publisher' => null,
     'totalTime' => null,
-    'url' => 'http://www.bhg.com/recipe/meat/bavarian-pork-roast/',
+    'url' => 'https://www.bhg.com/recipe/meat/bavarian-pork-roast/',
     'yield' => '6 servings',
 ];
