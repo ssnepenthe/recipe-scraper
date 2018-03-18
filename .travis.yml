@@ -20,6 +20,7 @@ matrix:
     - php: nightly
 install: composer install --no-interaction --optimize-autoloader --prefer-dist
 before_script:
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
   - composer global require "phpunit/phpunit=~6.0|~7.0"
   - composer global require "squizlabs/php_codesniffer=^3.0"
 script:
