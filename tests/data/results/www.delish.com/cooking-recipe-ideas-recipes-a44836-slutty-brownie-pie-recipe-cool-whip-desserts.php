@@ -3,16 +3,14 @@
 return [
     'author' => 'Candace Braun Davison',
     'categories' => [
-        'Meals & Cooking',
-        'Recipes',
-        'chocolate chip cookies',
         'Cool Whip',
+        'chocolate chip cookies',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'It\'s a whole new take on the fudgy dessert that set Pinterest on fire.',
-    'image' => 'http://del.h-cdn.co/assets/15/46/1447456786-delish-cool-whip-pies-slutty-brownie-recipe.jpg',
+    'description' => 'For the folded-in brownie layer, you could buy 1 or 2 brownies from the grocery store or a nearby bakery, or make some from scratch. It\'s your call.',
+    'image' => 'https://hips.hearstapps.com/del.h-cdn.co/assets/15/46/1447456786-delish-cool-whip-pies-slutty-brownie-recipe.jpg',
     'ingredients' => [
         'For the Crust',
         '1 tube pre-made chocolate chip cookie dough',
@@ -34,8 +32,8 @@ return [
     'name' => 'Slutty Brownie Pie',
     'notes' => null,
     'prepTime' => 'PT20M',
-    'publisher' => null,
+    'publisher' => 'Delish',
     'totalTime' => 'PT4H25M',
-    'url' => 'http://www.delish.com/cooking/recipe-ideas/recipes/a44836/slutty-brownie-pie-recipe-cool-whip-desserts/',
-    'yield' => 'Serves: 8',
+    'url' => 'https://www.delish.com/cooking/recipe-ideas/recipes/a44836/slutty-brownie-pie-recipe-cool-whip-desserts/',
+    'yield' => '8',
 ];

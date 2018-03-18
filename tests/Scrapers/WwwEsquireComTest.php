@@ -3,9 +3,10 @@
 namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Scrapers\WwwEsquireCom;
+use RecipeScraper\Scrapers\HearstDigitalMedia;
 
 /**
+ * @group hearst
  * @group scraper
  */
 class WwwEsquireComTest extends ScraperTestCase
@@ -17,6 +18,6 @@ class WwwEsquireComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new WwwEsquireCom;
+        return new HearstDigitalMedia;
     }
 }

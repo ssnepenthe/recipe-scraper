@@ -3,14 +3,13 @@
 return [
     'author' => 'Marian Cooper Cairns',
     'categories' => [
-        'Food & Drinks',
         'chicken recipes',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Looking for an easy stuffed chicken recipe? This Stuffed Chicken 4 Ways Recipe from CountryLiving.com is the best.',
-    'image' => 'http://clv.h-cdn.co/assets/16/31/1600x800/landscape-1470084436-stuffed-chicken-0916.jpg',
+    'description' => 'Give the weeknight staple an overhaul by stuffing it with one of these combos.',
+    'image' => 'https://hips.hearstapps.com/clv.h-cdn.co/assets/16/31/1470084436-stuffed-chicken-0916.jpg',
     'ingredients' => [
         '4 (8-oz.) boneless, skinless chicken breasts',
         'Option 1',
@@ -43,8 +42,8 @@ return [
     'name' => 'Stuffed Chicken 4 Ways',
     'notes' => null,
     'prepTime' => 'PT5M',
-    'publisher' => null,
+    'publisher' => 'Country Living',
     'totalTime' => 'PT30M',
-    'url' => 'http://www.countryliving.com/food-drinks/recipes/a39374/stuffed-chicken-4-ways-recipe/',
-    'yield' => 'Yield: 4 servings',
+    'url' => 'https://www.countryliving.com/food-drinks/recipes/a39374/stuffed-chicken-4-ways-recipe/',
+    'yield' => '4 servings',
 ];

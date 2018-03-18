@@ -1,8 +1,13 @@
 <?php
 
 return [
-    'author' => 'Micah Morton',
-    'categories' => null,
+    'author' => null, // Author is still available (Micah Morton) but not from LD+JSON.
+    'categories' => [
+        'Huevos Rancheros Sandwich and Mexican Coffee',
+        'best Huevos Rancheros Sandwich and Mexican Coffee recipe',
+        'how to make mexican coffee',
+        'best mexican coffee recipe',
+    ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
@@ -36,6 +41,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Esquire',
     'totalTime' => null,
-    'url' => 'http://www.delish.com/cooking/recipe-ideas/recipes/a53178/huevos-rancheros-sandwich-mexican-coffee-recipe/',
+    'url' => 'https://www.delish.com/cooking/recipe-ideas/recipes/a53178/huevos-rancheros-sandwich-mexican-coffee-recipe/',
     'yield' => '1',
 ];

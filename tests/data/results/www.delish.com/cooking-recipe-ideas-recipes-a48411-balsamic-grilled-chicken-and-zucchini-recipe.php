@@ -3,17 +3,14 @@
 return [
     'author' => 'Judy Kim',
     'categories' => [
-        'Insanely Easy Chicken Dinners',
-        'Meals & Cooking',
-        'Recipes',
         'cook insta',
         'weeknight dinners',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Looking for an easy grilled chicken recipe? This Balsamic Grilled Chicken and Zucchini Recipe from Delish.com is the best.',
-    'image' => 'http://del.h-cdn.co/assets/16/30/1600x800/landscape-1469634984-balsamic-honey-chicken-zucchinip2.jpg',
+    'description' => 'Drizzle on honey-balsamic glaze to add sweet and tangy flavor to this low-carb plate.',
+    'image' => 'https://hips.hearstapps.com/del.h-cdn.co/assets/16/30/1469634984-balsamic-honey-chicken-zucchinip2.jpg',
     'ingredients' => [
         '1/2 c. honey',
         '1/2 c. balsamic vinegar',
@@ -36,8 +33,8 @@ return [
     'name' => 'Balsamic Grilled Chicken and Zucchini',
     'notes' => null,
     'prepTime' => 'PT10M',
-    'publisher' => null,
+    'publisher' => 'Delish',
     'totalTime' => 'PT35M',
-    'url' => 'http://www.delish.com/cooking/recipe-ideas/recipes/a48411/balsamic-grilled-chicken-and-zucchini-recipe/',
-    'yield' => 'Serves: 4',
+    'url' => 'https://www.delish.com/cooking/recipe-ideas/recipes/a48411/balsamic-grilled-chicken-and-zucchini-recipe/',
+    'yield' => '4',
 ];

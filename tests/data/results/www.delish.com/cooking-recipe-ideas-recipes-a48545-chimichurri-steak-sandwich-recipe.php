@@ -3,16 +3,14 @@
 return [
     'author' => 'Judy Kim',
     'categories' => [
-        'Meals & Cooking',
-        'Recipes',
         'cook insta',
         'weeknight dinners',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Looking for an easy steak sandwich recipe? This Chimichurri Steak Sandwich Recipe from Delish.com is the best.',
-    'image' => 'http://del.h-cdn.co/assets/16/31/1600x800/landscape-1470330385-chimichurri-steak-sandwichp2.jpg',
+    'description' => 'Ditch the deli meat and spring for juicy steak.',
+    'image' => 'https://hips.hearstapps.com/del.h-cdn.co/assets/16/31/1470330385-chimichurri-steak-sandwichp2.jpg',
     'ingredients' => [
         '1/2 c. freshly chopped cilantro',
         '3/4 c. fresh basil, divided',
@@ -36,8 +34,8 @@ return [
     'name' => 'Chimichurri Steak Sandwich',
     'notes' => null,
     'prepTime' => 'PT10M',
-    'publisher' => null,
+    'publisher' => 'Delish',
     'totalTime' => 'PT20M',
-    'url' => 'http://www.delish.com/cooking/recipe-ideas/recipes/a48545/chimichurri-steak-sandwich-recipe/',
-    'yield' => 'Serves: 4',
+    'url' => 'https://www.delish.com/cooking/recipe-ideas/recipes/a48545/chimichurri-steak-sandwich-recipe/',
+    'yield' => '4',
 ];

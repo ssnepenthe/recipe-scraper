@@ -3,15 +3,16 @@
 return [
     'author' => 'Woman\'s Day Kitchen',
     'categories' => [
-        'Food & Cocktails',
-        'tex-mex',
+        'Tex-Mex',
+        'soups',
+        'chicken soup',
         'southwestern',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Chicken tortilla soup is a restaurant favorite, but you can easily make your own version at home in about 30 minutes.',
-    'image' => 'http://rbk.h-cdn.co/assets/cm/15/26/1600x800/5590130325471-tex-mex-chicken-soup-recipe-wdy0214-s2.jpg',
+    'image' => 'https://hips.hearstapps.com/rbk.h-cdn.co/assets/cm/15/26/5590130325471-tex-mex-chicken-soup-recipe-wdy0214-s2.jpg',
     'ingredients' => [
         '2 tbsp. olive oil',
         '1 large onion',
@@ -40,8 +41,8 @@ return [
     'name' => 'Tex-Mex Chicken Soup',
     'notes' => null,
     'prepTime' => 'PT25M',
-    'publisher' => null,
+    'publisher' => 'Redbook',
     'totalTime' => 'PT30M',
-    'url' => 'http://www.womansday.com/food-recipes/food-drinks/recipes/a12447/tex-mex-chicken-soup-recipe-wdy0214/',
-    'yield' => 'Yield: 6 servings (cost per serving of $1.35)',
+    'url' => 'https://www.womansday.com/food-recipes/food-drinks/recipes/a12447/tex-mex-chicken-soup-recipe-wdy0214/',
+    'yield' => '6',
 ];

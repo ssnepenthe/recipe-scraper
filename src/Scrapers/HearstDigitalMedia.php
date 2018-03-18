@@ -3,33 +3,35 @@
 namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
+use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
- * They seem to cross-post some recipes to multiple sites - canonical may point to an
- * entirely different domain.
- *
- * Has LD+JSON but it is generally malformed. The exception is esquire.com which has been given a
- * dedicated scraper class.
- *
- * Some recipes have two recipeYield items.
- *
  * May want to revisit notes. There is an "extra-content" section which has a lot of note-type
  * content, but is not included yet because the type of content is very inconsistent.
  *
- * For example, delish and esquire tend to include a sort-of byline.
- * Good housekeeping, woman's day and country living include nutritional information.
+ * Good Housekeeping LD+JSON is unreliable so that site gets dedicated scraper class.
  *
- * May want to consider stripping prefix from yield.
+ * Latest migration seems to have resulted in some data loss - "⅓" character was removed entirely
+ * instead of being converted to "1/3".
+ *
+ * Delish seems to be occasionally storing notes in the description field.
+ *
+ * Esquire seems to be using the description field to store the entire article text.
+ *
+ * @TODO Consider "ucwords" on extracted categories?
+ *       Verify whether image extracted from LD+JSON is largest available - og:image may be better.
  */
-class HearstDigitalMedia extends SchemaOrgMarkup
+class HearstDigitalMedia extends SchemaOrgJsonLd
 {
+    use ExtractsDataFromCrawler;
+
     /**
      * @var string[]
      */
     protected $supportedHosts = [
         'www.countryliving.com',
         'www.delish.com',
-        'www.goodhousekeeping.com',
+        'www.esquire.com',
         'www.redbookmag.com',
         'www.womansday.com',
     ];
@@ -47,84 +49,62 @@ class HearstDigitalMedia extends SchemaOrgMarkup
         );
     }
 
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractAuthor(Crawler $crawler)
+    protected function extractCategories(Crawler $crawler, array $json)
     {
-        return $this->extractString($crawler, '[rel="author"]');
+        $categories = $this->extractString($crawler, 'meta[name="keywords"]', ['content']);
+
+        if (! is_string($categories)) {
+            return null;
+        }
+
+        return array_map('trim', explode(',', $categories));
+    }
+
+    protected function extractDescription(Crawler $crawler, array $json)
+    {
+        if ('www.esquire.com' === parse_url($crawler->getUri(), PHP_URL_HOST)) {
+            return $this->extractString($crawler, '[name="description"]', ['content']);
+        }
+
+        return parent::extractDescription($crawler, $json);
+    }
+
+    protected function extractIngredients(Crawler $crawler, array $json)
+    {
+        return $this->extractArray($crawler, '.ingredient-title, .ingredient-item');
     }
 
     /**
      * @param  Crawler $crawler
      * @return string[]|null
      */
-    protected function extractCategories(Crawler $crawler)
+    protected function extractInstructions(Crawler $crawler, array $json)
     {
-        return $this->extractArray($crawler, '.tags--top .tags--item');
+        return $this->extractArray($crawler, '.direction-lists li');
     }
 
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractDescription(Crawler $crawler)
+    protected function extractNotes(Crawler $crawler, array $json)
     {
-        return $this->extractString($crawler, '[name="description"]', ['content']);
+        $notes = $this->extractArray($crawler, '.tip, .recipe-tips p, .recipe-tips blockquote');
+
+        if (! is_array($notes)) {
+            return null;
+        }
+
+        // Filter out nutrition data from www.womansday.com.
+        $notes = array_filter($notes, function ($note) {
+            return 0 !== stripos(trim($note), 'per serving');
+        });
+
+        return array_values($notes);
     }
 
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractImage(Crawler $crawler)
+    protected function preNormalizeDescription($value, Crawler $crawler)
     {
-        // @todo May not be the most appropriate of available images.
-        // .embedded-image__inner img @ data-pin-media?
-        return $this->extractString($crawler, '[property="og:image"]', ['content']);
-    }
+        if (! is_string($value)) {
+            return null;
+        }
 
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
-    protected function extractIngredients(Crawler $crawler)
-    {
-        return $this->extractArray(
-            $crawler,
-            '[itemprop="ingredients"], .recipe-ingredients-group-header'
-        );
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
-    protected function extractInstructions(Crawler $crawler)
-    {
-        return $this->extractArray($crawler, '[itemprop="recipeInstructions"] li');
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
-    protected function extractNotes(Crawler $crawler)
-    {
-        // @todo More recipes to test.
-        return $this->extractArray(
-            $crawler,
-            '.recipe-extra-content .tip, .recipe-extra-content blockquote'
-        );
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractUrl(Crawler $crawler)
-    {
-        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
+        return strip_tags($value);
     }
 }

@@ -1,22 +1,24 @@
 <?php
 
 return [
-    'author' => 'Khalil Hymore',
+    'author' => null, // Author is still available (Khalil Hymore), just not from LD+JSON.
     'categories' => [
-        'Food & Cocktails',
+        'Food',
+        'Cooking',
+        'Recipes',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'These steps will turn out a perfect one every time, no matter what flavor combinations you choose.',
-    'image' => 'http://rbk.h-cdn.co/assets/16/30/1600x800/landscape-1469475350-rbk080116icecreampies-001.jpg',
+    'description' => 'You know what would be a really good occasion to make this creamy, dreamy dessert? Tuesday. Also: any other day. It turns an ordinary afternoon into a party, so you really ought to try all the flavor combos. You can also save a step and just use store-bought whipped topping instead of making your own. Whatever makes you happy - because that\'s the whole point.',
+    'image' => 'https://hips.hearstapps.com/rbk.h-cdn.co/assets/16/30/1469475350-rbk080116icecreampies-001.jpg',
     'ingredients' => [
-        '10-14 oz. store-bought cookies (for this recipe we used an 11.3-oz package of pecan shortbread cookies)',
+        '14 oz. store-bought cookies (for this recipe we used an 11.3-oz package of pecan shortbread cookies)',
         '1 tbsp. sugar',
         '1/2 tsp. kosher salt',
         '4 tbsp. unsalted butter, melted',
         '4 pt. ice cream or sorbet (we used 2 pints each ice cream and raspberry sorbet)',
-        '1/2-2 c. filling toppings: candy, fruit, sauces, or additional cookies (we used a 6-oz container of fresh raspberries and 2 small fresh peaches, cored and sliced',
+        '2 c. filling toppings: candy, fruit, sauces, or additional cookies (we used a 6-oz container of fresh raspberries and 2 small fresh peaches, cored and sliced',
         '1 c. heavy cream',
         '1 tbsp. sugar',
         '1 tsp. vanilla',
@@ -30,8 +32,8 @@ return [
     'name' => 'Anyone Can Make This Deliciously Decadent Ice Cream Pie',
     'notes' => null,
     'prepTime' => 'PT25M',
-    'publisher' => null,
+    'publisher' => 'Redbook',
     'totalTime' => 'PT35M',
-    'url' => 'http://www.redbookmag.com/food-recipes/recipes/a45244/ice-cream-pie-recipe/',
-    'yield' => null,
+    'url' => 'https://www.redbookmag.com/food-recipes/recipes/a45244/ice-cream-pie-recipe/',
+    'yield' => '1',
 ];

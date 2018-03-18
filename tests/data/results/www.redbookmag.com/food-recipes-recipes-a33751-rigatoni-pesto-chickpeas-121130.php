@@ -3,7 +3,6 @@
 return [
     'author' => 'Woman\'s Day Kitchen',
     'categories' => [
-        'Food & Cocktails',
         'pasta',
         'pesto',
         'chickpeas',
@@ -11,13 +10,12 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    // @todo ?
-    'description' => 'Step inside the all-new REDBOOK! It\'s got even more of what you want: fashion deals, beauty tricks, weight-loss secrets, and ways to be happier - for less!',
-    'image' => 'http://rbk.h-cdn.co/assets/cm/15/26/558e53067eb1b-rigatoni-with-pesto-and-chickpeas-lg.jpg',
+    'description' => null,
+    'image' => 'https://hips.hearstapps.com/rbk.h-cdn.co/assets/cm/15/26/558e53067eb1b-rigatoni-with-pesto-and-chickpeas-lg.jpg',
     'ingredients' => [
         '12 oz. rigatoni',
         '1 can chickpeas',
-        '¾ c. prepared basil pesto (from a tub; see Note)',
+        '3/4 c. prepared basil pesto (from a tub; see Note)',
         'Top with: diced tomatoes and Italian parsley, cut in narrow strips',
     ],
     'instructions' => [
@@ -30,8 +28,8 @@ return [
         'Look for tubs of pesto in the dairy or fresh pasta section.',
     ],
     'prepTime' => 'PT5M',
-    'publisher' => null,
+    'publisher' => 'Redbook',
     'totalTime' => 'PT20M',
-    'url' => 'http://www.womansday.com/food-recipes/food-drinks/recipes/a9667/rigatoni-pesto-chickpeas-121130/',
-    'yield' => 'Serves: 4',
+    'url' => 'https://www.womansday.com/food-recipes/food-drinks/recipes/a9667/rigatoni-pesto-chickpeas-121130/',
+    'yield' => '4',
 ];

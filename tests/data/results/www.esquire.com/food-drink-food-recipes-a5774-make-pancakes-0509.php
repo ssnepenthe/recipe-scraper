@@ -2,7 +2,13 @@
 
 return [
     'author' => 'Esquire Editors',
-    'categories' => null,
+    'categories' => [
+        'how to make pancakes',
+        'pancake recipe',
+        'how to make pancakes from scratch',
+        'best pancake recipe',
+        'easy pancake recipe',
+    ],
     'cookingMethod' => null,
     'cookTime' => 'PT5M',
     'cuisines' => null,
@@ -31,6 +37,6 @@ return [
     'prepTime' => 'PT15M',
     'publisher' => 'Esquire',
     'totalTime' => 'PT20M',
-    'url' => 'http://www.esquire.com/food-drink/food/recipes/a5774/make-pancakes-0509/',
+    'url' => 'https://www.esquire.com/food-drink/food/recipes/a5774/make-pancakes-0509/',
     'yield' => '4 servings',
 ];

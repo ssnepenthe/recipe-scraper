@@ -14,11 +14,12 @@ http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta
 name="title" content="Best Flatbread Cubano Sandwiches Recipe - How to Make Flatbread Cubano Sandwiches" /><meta
 name="description" content="Two flour tortillas make a classic cubano extra flaky and crunchy." /><meta
 name="keywords" content="cubano, sandwich, ham, swiss cheese, tortilla, summer sandwiches, flatbread sandwiches, sandwich recipes" /><meta
-name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link
-rel="icon" type="image/x-icon" href="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/favicon.ico" /><link
-rel="apple-touch-icon-precomposed" sizes="114x114" href="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/apple-touch-icon.png"><link
-rel="apple-touch-icon-precomposed" sizes="72x72" href="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/apple-touch-icon.png"><link
-rel="apple-touch-icon-precomposed" href="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/apple-touch-icon.png"><link
+name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta
+name="thumbnail" content="http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg" /><link
+rel="icon" type="image/x-icon" href="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/favicon.ico" /><link
+rel="apple-touch-icon-precomposed" sizes="114x114" href="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/apple-touch-icon.png"><link
+rel="apple-touch-icon-precomposed" sizes="72x72" href="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/apple-touch-icon.png"><link
+rel="apple-touch-icon-precomposed" href="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/apple-touch-icon.png"><link
 rel="canonical" href="http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/" /><meta
 property="fb:app_id" content="119423528138309" /><meta
 property="fb:pages" content="40241492597" /><meta
@@ -54,7 +55,7 @@ name="sailthru.socialtitle" content="Flatbread Cubano Sandwiches" />
 		"@type": "Recipe",
 		"name": "Flatbread Cubano Sandwiches",
 		"description": "Two flour tortillas make a classic cubano extra flaky and crunchy.",
-		"datePublished": "2017-06-17T00:10:05+00:00",
+		"datePublished": "2018-03-18T13:52:05+00:00",
 		"mainEntityOfPage": "True",
 
 		"author": 			{
@@ -123,7 +124,7 @@ and green salad.",
 		});
 
 	})( Modernizr );</script> <link
-rel="stylesheet" href="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/css/main.css" /><!--[if lte IE 8]> <script src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/libs/respond.min.js"></script> <![endif]--> <script id="dataLayer" type="text/javascript">var HRST = HRST || {};
+rel="stylesheet" href="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/css/main.css" /><!--[if lte IE 8]> <script src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/libs/respond.min.js"></script> <![endif]--> <script id="dataLayer" type="text/javascript">var HRST = HRST || {};
 
 HRST.site = {
 	name:     "Good Housekeeping",
@@ -133,6 +134,8 @@ HRST.site = {
 };
 
 HRST.breakpoints = {"mobile":320,"mobile_w":480,"tablet":640,"tablet_w":768,"desktop":980,"desktop_w":1024};
+
+	HRST.videoPlayerUrl = "http://player.goodhousekeeping.com/player.js";
 
 HRST.article = {
 
@@ -303,7 +306,7 @@ HRST.contentTesting = {
 	url: "https://upweb.hdmtools.com",
 	streamUrl: "http://upstream.hdmtools.com",
 	site: "goodhousekeeping"
-};</script> <script type="text/javascript">var mediaOsConfig = {"locale":"en_US"};</script> <script src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/libs/require-2.1.9.min.js" data-main="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/js/rams.js"></script> <script type="text/javascript">( function( d ) {
+};</script> <script type="text/javascript">var mediaOsConfig = {"locale":"en_US"};</script> <script src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/libs/require-2.1.9.min.js" data-main="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/js/rams.js"></script> <script type="text/javascript">( function( d ) {
 			var e = d.createElement( "script" );
 			if ( document.cookie.indexOf( "nsghtn=dev" ) > -1 ) {
 				e.src = d.location.protocol + "//nexus.ensighten.com/hearst/mag-dev/Bootstrap.js";
@@ -321,7 +324,7 @@ id="themes-recirc-transporter" data-stories="0"></div><div
 id="themes-recirc-left-rail" data-stories="0"></div><div
 id="themes-recirc-primary" data-stories="0"></div><div
 id="themes-recirc-secondary" data-stories="0"></div><div
-id="themes-recirc-end-of-content" data-stories="2" data-ad-enabled="0"></div></div><div
+id="themes-recirc-end-of-content" data-stories="2" data-ad-enabled="1"></div></div><div
 class="gpt-tag gpt-tag-oop" id="gpt-ad-oop-1" data-oop="true"></div><div
 id="fb-root"></div> <script id="module-story--template" type="text/template"><% if ( typeof sponsorship !== "undefined" && _.isObject(sponsorship.sponsor) && typeof sponsorship.sponsor.sponsor_display_name !== "undefined" ) { %>
 		<div class="module-story" data-sponsor="<%= sponsorship.sponsor.sponsor_name %>" data-uid="<%= uid %>">
@@ -404,6 +407,16 @@ id="auto-complete-suggest--scrollable"><ul
 class="auto-complete-suggest slide-back"></ul></div></div></div><nav
 id="nav-panel" class="nav-panel" role="navigation"><ul
 id="nav-panel--scrollable" class="nav-panel--inner"><li>
+<a
+class="nav-panel--trigger nav-panel--panel--title link link-txt" href="#">Subscribe</a><ul
+class="nav-panel--panel">
+<a
+class="nav-panel--panel--close link" href="#"><i
+class="icon icon-m icon-arrow-left01 link-icon"></i></a><li><a
+class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_sub_nav_link?source=ghk_sub_nav_left" target="_blank">Subscribe</a></li><li><a
+class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_sub_nav_link?source=ghk_print_nav_left" target="_blank">Print Edition</a></li><li><a
+class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_digital_nav_link?source=ghk_digital_nav_left" target="_blank">Digital Edition</a></li><li><a
+class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_gift_nav_link?source=ghk_gift_nav_left" target="_blank">Give a Gift</a></li></ul></li><li>
 <a
 class="nav-panel--trigger nav-panel--panel--title link link-txt" href="#">Product Reviews</a><ul
 class="nav-panel--panel">
@@ -512,16 +525,6 @@ class="nav-panel--panel--link link link-txt" href="/holidays/fathers-day/">Fathe
 <a
 class="nav-panel--panel--title link link-txt" href="http://www.goodhousekeeping.tv/">GH&bull;TV</a></li><li>
 <a
-class="nav-panel--trigger nav-panel--panel--title link link-txt" href="#">Subscribe</a><ul
-class="nav-panel--panel">
-<a
-class="nav-panel--panel--close link" href="#"><i
-class="icon icon-m icon-arrow-left01 link-icon"></i></a><li><a
-class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_sub_nav_link" target="_blank">Subscribe</a></li><li><a
-class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_sub_nav_link" target="_blank">Print Edition</a></li><li><a
-class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_digital_nav_link" target="_blank">Digital Edition</a></li><li><a
-class="nav-panel--panel--link link link-txt" href="https://subscribe.hearstmags.com/subscribe/splits/goodhousekeeping/ghk_gift_nav_link" target="_blank">Give a Gift</a></li></ul></li><li>
-<a
 class="nav-panel--panel--title link link-txt" href="https://preferences.hearstmags.com/brands/GHK/subscribe.aspx?authId=1F113D06-AF8A-4E66-829B-060AC4AF914B&maj=WNL&min=UNDEF" target="_blank">Newsletter</a></li><li>
 <a
 class="nav-panel--trigger nav-panel--panel--title link link-txt" href="#">Follow</a><ul
@@ -626,7 +629,7 @@ class="nav--main-menu"><ul
 class="nav--primary" data-type="ajax"><li
 class="nav--primary--item">
 <a
-class="nav--primary--link link link-txt" href="/home/">Home Ideas</a></li><li
+class="nav--primary--link link link-txt" href="/home">Home Ideas</a></li><li
 class="nav--primary--item">
 <a
 class="nav--primary--link link link-txt" href="/food-recipes/">Food</a></li><li
@@ -635,7 +638,7 @@ class="nav--primary--item">
 class="nav--primary--link link link-txt" href="/beauty/">Beauty</a></li><li
 class="nav--primary--item">
 <a
-class="nav--primary--link link link-txt" href="/holidays/fathers-day/">Father's Day</a></li><li
+class="nav--primary--link link link-txt" href="/holidays/easter-ideas/">Easter Ideas</a></li><li
 class="nav--primary--item">
 <a
 class="nav--primary--link link link-txt" href="/product-reviews/">Product Reviews</a></li><li
@@ -643,7 +646,7 @@ class="nav--primary--item">
 <a
 class="nav--primary--link link" href="/product-reviews/seal">
 <img
-class="nav--primary--link--image" src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/gh-seal.svg" />
+class="nav--primary--link--image" src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/gh-seal.svg" />
 </a></li></ul></div><div
 class="nav--sub-menu"><ul
 class="nav--secondary"><li
@@ -712,100 +715,100 @@ class="breaking-news--headline">
 </a></div></div><div
 class="module-top-pathing--container" data-type="ajax" data-tracking-id="artTopTout"><div
 class="module module-top-pathing"><div
-class="module-story module-story-1" data-uid="article.44655">
+class="module-story module-story-1" data-uid="article.48185">
 <a
-href="/life/pets/news/a44655/rawhide-dog-chew-recall/" class="module-story--link link" title="Multiple Brands of Rawhide Dog Chews Recalled"><div
+href="/childrens-products/news/a48185/dr-browns-pacificer-holder-recall/" class="module-story--link link" title="Dr. Brown&#039;s Pacificer Holders Recalled"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/24/320x160/landscape-1497456664-rawhide-bones-recalled.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521211956-drbrowns-pacifier-holder-recall.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/24/320x160/landscape-1497456664-rawhide-bones-recalled.jpg" alt=""
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521211956-drbrowns-pacifier-holder-recall.jpg" alt="600,000 dr. brown&#039;s lovey pacifier and teether holders are being recalled due to choking hazard."
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">Multiple Brands of Rawhide Dog Chews Recalled</span></div></div>
+class="module-story--title link-txt">Dr. Brown's Pacificer Holders Recalled</span></div></div>
 </a></div><div
-class="module-story module-story-2" data-uid="article.44577">
+class="module-story module-story-2" data-uid="article.48168">
 <a
-href="/home/craft-ideas/news/a44577/adorable-crochet-baby-flip-flops/" class="module-story--link link" title="These Crochet Baby Flip-Flops Are Too Cute"><div
+href="/appliances/news/a48168/air-fryer-amazon-sale/" class="module-story--link link" title="This Popular Amazon Air Fryer Is 50% Off"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/23/320x160/landscape-1497035099-crochetbabyflipflops.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521127690-amazon-air-fryer-sale.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/23/320x160/landscape-1497035099-crochetbabyflipflops.jpg" alt="Crochet flip flop design by blogger of Whistle &amp; Ivy"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521127690-amazon-air-fryer-sale.jpg" alt="The GoWise USA 3.7-Quart Programmable Air Fryer, is on sale for nearly 50% off right now."
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">These Crochet Baby Flip-Flops Are Too Cute</span></div></div>
+class="module-story--title link-txt">This Popular Amazon Air Fryer Is 50% Off</span></div></div>
 </a></div><div
-class="module-story module-story-3" data-uid="article.44412">
+class="module-story module-story-3" data-uid="gallery.419">
 <a
-href="/home/gardening/a44412/houseplant-cheat-sheet/" class="module-story--link link" title="This Cheat Sheet Will Save Your Houseplants"><div
+href="/holidays/easter-ideas/g419/easter-egg-decorating-ideas/" class="module-story--link link" title="80+ So-Adorable Easter Egg Decorating Ideas"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/22/320x160/1496159879-landscape-1491333152-index-houseplant-cheat-sheet.jpg"
+data-img320="http://ghk.h-cdn.co/assets/16/09/320x160/landscape-1457125624-flash-tatts.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/22/320x160/1496159879-landscape-1491333152-index-houseplant-cheat-sheet.jpg" alt="houseplant cheat sheet"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/16/09/320x160/landscape-1457125624-flash-tatts.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">This Cheat Sheet Will Save Your Houseplants</span></div></div>
+class="module-story--title link-txt">80+ So-Adorable Easter Egg Decorating Ideas</span></div></div>
 </a></div><div
-class="module-story module-story-4" data-uid="gallery.4417">
+class="module-story module-story-4" data-uid="article.48184">
 <a
-href="/beauty/fashion/g4417/swimsuits-every-decade/" class="module-story--link link" title="The Best Retro Swimsuits Over the Years"><div
+href="/beauty/fashion/news/a48184/meghan-markle-clothes-costs/" class="module-story--link link" title="Who Pays for Meghan Markle&#039;s Clothes?"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/24/320x160/landscape-1497394171-bathing-suits-through-the-years-v1a.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521215624-meghan-markle.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/24/320x160/landscape-1497394171-bathing-suits-through-the-years-v1a.jpg" alt=""
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521215624-meghan-markle.jpg" alt="meghan markle"
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">The Best Retro Swimsuits Over the Years</span></div></div>
+class="module-story--title link-txt">Who Pays for Meghan Markle's Clothes?</span></div></div>
 </a></div><div
-class="module-story module-story-5" data-uid="gallery.4431">
+class="module-story module-story-5" data-uid="gallery.5189">
 <a
-href="/home/decorating-ideas/g4431/gray-malin-west-hollywood-home/" class="module-story--link link" title="Turn Your Unused Garage Into a Guest House"><div
+href="/life/g5189/what-you-should-never-do-at-a-wedding/" class="module-story--link link" title="15 Things You Should Never Do at a Wedding"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/23/320x160/landscape-1496955127-pool-patio.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521060898-index-wedding-etiquette.jpg"
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/23/320x160/landscape-1496955127-pool-patio.jpg" alt="pool patio"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/11/320x160/landscape-1521060898-index-wedding-etiquette.jpg" alt="wedding etiquette"
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">Turn Your Unused Garage Into a Guest House</span></div></div>
+class="module-story--title link-txt">15 Things You Should Never Do at a Wedding</span></div></div>
 </a></div></div></div><div
 class="leaderboard"><div
 class="leaderboard--inner"><div
@@ -872,7 +875,7 @@ class="share-button share-button--facebook "
 data-content-id="61835" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/" data-image="http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=Flatbread+Cubano+Sandwiches&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&picture=http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Flatbread+Cubano+Sandwiches&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&picture=http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
@@ -926,7 +929,7 @@ data-img320="http://ghk.h-cdn.co/assets/17/20/480x719/gallery-1494961384-daniell
 data-img320-w = "480"
 data-img320-h = "719"
 data-cut=320
-data-zoom="http://ghk.h-cdn.co/assets/17/20/640x959/gallery-1494961384-danielle-occhiogrosso-cubanos-0617.jpg"  src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/20/480x719/gallery-1494961384-danielle-occhiogrosso-cubanos-0617.jpg" alt=""
+data-zoom="http://ghk.h-cdn.co/assets/17/20/640x959/gallery-1494961384-danielle-occhiogrosso-cubanos-0617.jpg"  src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/20/480x719/gallery-1494961384-danielle-occhiogrosso-cubanos-0617.jpg" alt=""
 data-img480="http://ghk.h-cdn.co/assets/17/20/480x719/gallery-1494961384-danielle-occhiogrosso-cubanos-0617.jpg"
 data-img480-w = "480"
 data-img480-h = "719"
@@ -1041,25 +1044,6 @@ More
 class="link link-txt" href="/recipes/">recipes</a>
 like this</div></div><div
 class="module-story-list--stories"><div
-class="module-story " data-uid="3986">
-<a
-href="/food-recipes/a3685/flatbread-zahtar-629/" class="module-story--link link" title="Flatbread with Zahtar"><div
-class="module-story--image"><div
-class="module-story--image-inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/cm/15/10/54fa29d8dc098-flatbread-zahtar-629-200.jpg"
-data-img320-w = "200"
-data-img320-h = "200"
-data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/10/54fa29d8dc098-flatbread-zahtar-629-200.jpg" alt=""
-nopin="nopin"  /></div></div><div
-class="module-story--inner"><div
-class="module-story--text"><div
-class="module-story--category"></div>
-<span
-class="module-story--title link-txt">Flatbread with Zahtar</span></div></div>
-</a></div><div
 class="module-story " data-uid="4744">
 <a
 href="/food-recipes/a4444/romano-cheese-flatbread-crisps-1846/" class="module-story--link link" title="Romano-Cheese Flatbread Crisps"><div
@@ -1071,7 +1055,7 @@ data-img320="http://ghk.h-cdn.co/assets/15/17/320x160/landscape-1429908331-flatb
 data-img320-w = "320"
 data-img320-h = "160"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/15/17/320x160/landscape-1429908331-flatbread-crackers.jpg" alt=""
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/15/17/320x160/landscape-1429908331-flatbread-crackers.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
@@ -1090,7 +1074,7 @@ data-img320="http://ghk.h-cdn.co/assets/cm/15/12/5508c9de554d4-78grirp2.jpg"
 data-img320-w = "150"
 data-img320-h = "206"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/12/5508c9de554d4-78grirp2.jpg" alt="flatbread with salad"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/12/5508c9de554d4-78grirp2.jpg" alt="flatbread with salad"
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
@@ -1098,24 +1082,24 @@ class="module-story--category"></div>
 <span
 class="module-story--title link-txt">Flatbread with Salad</span></div></div>
 </a></div><div
-class="module-story " data-uid="16698">
+class="module-story " data-uid="3986">
 <a
-href="/food-recipes/a16331/cheeseburger-flatbread-pizza-recipe-wdy0115/" class="module-story--link link" title="Cheeseburger Flatbread Pizza"><div
+href="/food-recipes/a3685/flatbread-zahtar-629/" class="module-story--link link" title="Flatbread with Zahtar"><div
 class="module-story--image"><div
 class="module-story--image-inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/cm/15/11/320x160/54fe862f7e7c8-cheeseburger-flatbread-pizza-recipe-wdy0115-lgn.jpg"
-data-img320-w = "320"
-data-img320-h = "160"
+data-img320="http://ghk.h-cdn.co/assets/cm/15/10/54fa29d8dc098-flatbread-zahtar-629-200.jpg"
+data-img320-w = "200"
+data-img320-h = "200"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/11/320x160/54fe862f7e7c8-cheeseburger-flatbread-pizza-recipe-wdy0115-lgn.jpg" alt="cheeseburger flatbread pizza"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/10/54fa29d8dc098-flatbread-zahtar-629-200.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
-class="module-story--title link-txt">Cheeseburger Flatbread Pizza</span></div></div>
+class="module-story--title link-txt">Flatbread with Zahtar</span></div></div>
 </a></div><div
 class="module-story " data-uid="12402">
 <a
@@ -1128,13 +1112,32 @@ data-img320="http://ghk.h-cdn.co/assets/cm/15/11/54fe2cdca27d0-sweet-potato-flat
 data-img320-w = "300"
 data-img320-h = "300"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/11/54fe2cdca27d0-sweet-potato-flatbread-recipe-lg.jpg" alt=""
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/11/54fe2cdca27d0-sweet-potato-flatbread-recipe-lg.jpg" alt=""
 nopin="nopin"  /></div></div><div
 class="module-story--inner"><div
 class="module-story--text"><div
 class="module-story--category"></div>
 <span
 class="module-story--title link-txt">Sweet Potato Flatbread</span></div></div>
+</a></div><div
+class="module-story " data-uid="16698">
+<a
+href="/food-recipes/a16331/cheeseburger-flatbread-pizza-recipe-wdy0115/" class="module-story--link link" title="Cheeseburger Flatbread Pizza"><div
+class="module-story--image"><div
+class="module-story--image-inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://ghk.h-cdn.co/assets/cm/15/11/320x160/54fe862f7e7c8-cheeseburger-flatbread-pizza-recipe-wdy0115-lgn.jpg"
+data-img320-w = "320"
+data-img320-h = "160"
+data-cut=320
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/cm/15/11/320x160/54fe862f7e7c8-cheeseburger-flatbread-pizza-recipe-wdy0115-lgn.jpg" alt="cheeseburger flatbread pizza"
+nopin="nopin"  /></div></div><div
+class="module-story--inner"><div
+class="module-story--text"><div
+class="module-story--category"></div>
+<span
+class="module-story--title link-txt">Cheeseburger Flatbread Pizza</span></div></div>
 </a></div></div></div><div
 class="recipe-page--share-container-bottom"><div
 class="share-module " data-share-location="social-btns-secondary"><ul
@@ -1144,7 +1147,7 @@ class="share-button share-button--facebook "
 data-content-id="61835" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/" data-image="http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=Flatbread+Cubano+Sandwiches&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&picture=http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Flatbread+Cubano+Sandwiches&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&picture=http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
@@ -1184,7 +1187,8 @@ class="share-button--icon icon icon-email link-icon"></i>
 class="recipe-page--bottom-container"><div
 class="ad-marketplace-horizontal"><div
 id="article-marketplace-horizontal"></div></div><div
-class="module module-recommended norewrite recipes-module-recommended" ></div></div></div><div
+class="module module-recommended norewrite recipes-module-recommended" ><div
+class="recommended-module"></div></div></div></div><div
 id="transporter" class="landing-feed-container" data-tracking-id="artTrnsprtr" data-tracking-label="More From Quick & Easy Recipes"><div
 class="transporter-header"><div
 class="transporter-header--byline">More From</div><div
@@ -1192,19 +1196,19 @@ class="transporter-header--name"><a
 href="http://www.goodhousekeeping.com/food-recipes/easy" class="link link-txt">Quick & Easy Recipes</a></div></div><div
 class="landing-feed--story transporter-story-1"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.44227"><div
+class="landing-feed--story-container" data-uid="article.47888"><div
 class="landing-feed--story-image">
 <a
-href="/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/" class="link story-image--link"><div
+href="/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/20/480x240/landscape-1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/07/480x240/landscape-1518461290-thai-beef-veggie-stir-fry-ghk-0318.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/20/480x240/landscape-1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/17/20/640x320/landscape-1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/07/480x240/landscape-1518461290-thai-beef-veggie-stir-fry-ghk-0318.jpg" alt="thai beef and  veggie stir-fry"
+data-img980="http://ghk.h-cdn.co/assets/18/07/640x320/landscape-1518461290-thai-beef-veggie-stir-fry-ghk-0318.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
@@ -1224,52 +1228,52 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="61831" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg">
+data-content-id="67767" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518461290-thai-beef-veggie-stir-fry-ghk-0318.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=Sweet+Potato%2C+Avocado+and+Black+Bean+Tacos&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/&picture=http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Thai+Beef+and+Veggie+Stir-Fry&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/&picture=http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518461290-thai-beef-veggie-stir-fry-ghk-0318.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="61831" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg">
+data-content-id="67767" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518461290-thai-beef-veggie-stir-fry-ghk-0318.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/&text=Sweet%20Potato%2C%20Avocado%20and%20Black%20Bean%20Tacos&via=goodhousemag"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/&text=Thai%20Beef%20and%20Veggie%20Stir-Fry&via=goodhousemag"
 data-site-handle="goodhousemag">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="61831" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg">
+data-content-id="67767" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518461290-thai-beef-veggie-stir-fry-ghk-0318.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=Sweet%20Potato%2C%20Avocado%20and%20Black%20Bean%20Tacos&body=http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/?src=social-email">
+href="mailto:?subject=Thai%20Beef%20and%20Veggie%20Stir-Fry&body=http://www.goodhousekeeping.com/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/">Sweet Potato, Avocado and Black Bean Tacos</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47888/thai-beef-and-veggie-stir-fry-recipe/">Thai Beef and Veggie Stir-Fry</a></div></div></div></div><div
 class="landing-feed--story transporter-story-2"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.44226"><div
+class="landing-feed--story-container" data-uid="article.47887"><div
 class="landing-feed--story-image">
 <a
-href="/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/" class="link story-image--link"><div
+href="/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/20/480x240/landscape-1494954524-danielle-occhiogrosso-farro-salad-steak-0617.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/07/480x240/landscape-1518460472-tex-mex-pizzetas-ghk-0318.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/20/480x240/landscape-1494954524-danielle-occhiogrosso-farro-salad-steak-0617.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/17/20/640x320/landscape-1494954524-danielle-occhiogrosso-farro-salad-steak-0617.jpg"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/07/480x240/landscape-1518460472-tex-mex-pizzetas-ghk-0318.jpg" alt="tex-mex pizzettas"
+data-img980="http://ghk.h-cdn.co/assets/18/07/640x320/landscape-1518460472-tex-mex-pizzetas-ghk-0318.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
@@ -1289,55 +1293,248 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="61830" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494954524-danielle-occhiogrosso-farro-salad-steak-0617.jpg">
+data-content-id="67765" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518460472-tex-mex-pizzetas-ghk-0318.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=Summer+Farro+Salad+with+Grilled+Steak&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/&picture=http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494954524-danielle-occhiogrosso-farro-salad-steak-0617.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Tex-Mex+Pizzettas&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/&picture=http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518460472-tex-mex-pizzetas-ghk-0318.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="61830" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494954524-danielle-occhiogrosso-farro-salad-steak-0617.jpg">
+data-content-id="67765" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518460472-tex-mex-pizzetas-ghk-0318.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/&text=Summer%20Farro%20Salad%20with%20Grilled%20Steak&via=goodhousemag"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/&text=Tex-Mex%20Pizzettas&via=goodhousemag"
 data-site-handle="goodhousemag">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="61830" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494954524-danielle-occhiogrosso-farro-salad-steak-0617.jpg">
+data-content-id="67765" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518460472-tex-mex-pizzetas-ghk-0318.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=Summer%20Farro%20Salad%20with%20Grilled%20Steak&body=http://www.goodhousekeeping.com/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/?src=social-email">
+href="mailto:?subject=Tex-Mex%20Pizzettas&body=http://www.goodhousekeeping.com/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a44226/summer-farro-salad-grilled-steak-recipe/">Summer Farro Salad with Grilled Steak</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47887/tex-mex-pizzettas-recipe/">Tex-Mex Pizzettas</a></div></div></div></div><div
 class="landing-feed--ad landing-feed--ad-vertical"><div
 class="ad-gpt-vertical"><div
 class="gpt-tag" id="gpt-ad-vertical-bottom"></div></div></div><div
 class="landing-feed--story transporter-story-3"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.44201"><div
+class="landing-feed--story-container" data-uid="article.47886"><div
 class="landing-feed--story-image">
 <a
-href="/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/" class="link story-image--link"><div
+href="/food-recipes/easy/a47886/chicken-marsala-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/20/480x240/landscape-1494872459-mike-garten-marios-goat-cheese-cherry-caprese-0617.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/07/480x240/landscape-1518458949-chicken-marsala-lite-ghk-0218.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/20/480x240/landscape-1494872459-mike-garten-marios-goat-cheese-cherry-caprese-0617.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/17/20/640x320/landscape-1494872459-mike-garten-marios-goat-cheese-cherry-caprese-0617.jpg"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/07/480x240/landscape-1518458949-chicken-marsala-lite-ghk-0218.jpg" alt="light chicken marsala"
+data-img980="http://ghk.h-cdn.co/assets/18/07/640x320/landscape-1518458949-chicken-marsala-lite-ghk-0218.jpg"
+data-img980-w = "640"
+data-img980-h = "320"
+nopin="nopin"  /></div>
+<i
+class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
+class="landing-feed--story-utils"><div
+class="landing-feed--story-section">
+<span
+class="landing-feed--story-section-name link-txt">Dinner</span></div><div
+class="landing-feed--story-shares">
+<i
+class="icon icon-share"></i>
+<span
+class="landing-feed--story-shares-text">Share</span><div
+class="share landing-share share-bar"><div
+class="share-module " data-share-location="social-btns-feed"><ul
+class="share-module--buttons"><li
+class="share-module--button-wrap share-module--button-wrap-facebook "><div
+class="share-button share-button--facebook "
+data-content-id="67764" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47886/chicken-marsala-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518458949-chicken-marsala-lite-ghk-0218.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Facebook"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Chicken+Marsala&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a47886/chicken-marsala-recipe/&picture=http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518458949-chicken-marsala-lite-ghk-0218.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a47886/chicken-marsala-recipe/&version=v2.10"
+target="_blank">
+<i
+class="share-button--icon icon icon-facebook link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-twitter "><div
+class="share-button share-button--twitter "
+data-content-id="67764" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47886/chicken-marsala-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518458949-chicken-marsala-lite-ghk-0218.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Twitter"
+target="_blank"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a47886/chicken-marsala-recipe/&text=Chicken%20Marsala&via=goodhousemag"
+data-site-handle="goodhousemag">
+<i
+class="share-button--icon icon icon-twitter link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-email "><div
+class="share-button share-button--email "
+data-content-id="67764" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47886/chicken-marsala-recipe/" data-image="http://ghk.h-cdn.co/assets/18/07/1600x800/landscape-1518458949-chicken-marsala-lite-ghk-0218.jpg">
+<a
+class="share-button--link link " title="Email"
+href="mailto:?subject=Chicken%20Marsala&body=http://www.goodhousekeeping.com/food-recipes/easy/a47886/chicken-marsala-recipe/?src=social-email">
+<i
+class="share-button--icon icon icon-email link-icon"></i>
+</a></div></li></ul></div></div></div></div><div
+class="landing-feed--story-content">
+<a
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47886/chicken-marsala-recipe/">Chicken Marsala</a></div></div></div></div><div
+class="landing-feed--story transporter-story-4"><div
+class="landing-feed--story-inner"><div
+class="landing-feed--story-container" data-uid="gallery.871"><div
+class="landing-feed--story-image">
+<a
+href="/food-recipes/easy/g871/quick-breakfasts/" class="link story-image--link"><div
+class="story-image--inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://ghk.h-cdn.co/assets/18/06/480x240/landscape-1518035207-quick-breakfasts.jpg"
+data-img320-w = "480"
+data-img320-h = "240"
+data-cut=320
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/06/480x240/landscape-1518035207-quick-breakfasts.jpg" alt=""
+data-img980="http://ghk.h-cdn.co/assets/18/06/640x320/landscape-1518035207-quick-breakfasts.jpg"
+data-img980-w = "640"
+data-img980-h = "320"
+nopin="nopin"  /></div>
+<i
+class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
+class="landing-feed--story-utils"><div
+class="landing-feed--story-section">
+<a
+class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
+class="landing-feed--story-shares">
+<i
+class="icon icon-share"></i>
+<span
+class="landing-feed--story-shares-text">Share</span><div
+class="share landing-share share-bar"><div
+class="share-module " data-share-location="social-btns-feed"><ul
+class="share-module--buttons"><li
+class="share-module--button-wrap share-module--button-wrap-facebook "><div
+class="share-button share-button--facebook "
+data-content-id="21923" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/recipes/easy/quick-breakfasts" data-image="http://ghk.h-cdn.co/assets/18/06/640x320/landscape-1518035207-quick-breakfasts.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Facebook"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=60%2B+Quick+and+Easy+Healthy+Breakfasts+for+Your+Busiest+Mornings&description=There%27s+no+excuse+for+skipping+breakfast+once+you+see+these+super+fast+and+simple+recipes+%E2%80%94+plus+some+good-for-you+pre-packaged+breakfast+ideas+that+aced+our+taste+tests.&display=popup&link=http://www.goodhousekeeping.com/recipes/easy/quick-breakfasts&picture=http://ghk.h-cdn.co/assets/18/06/640x320/landscape-1518035207-quick-breakfasts.jpg&redirect_uri=http://www.goodhousekeeping.com/recipes/easy/quick-breakfasts&version=v2.10"
+target="_blank">
+<i
+class="share-button--icon icon icon-facebook link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-twitter "><div
+class="share-button share-button--twitter "
+data-content-id="21923" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/recipes/easy/quick-breakfasts" data-image="http://ghk.h-cdn.co/assets/18/06/640x320/landscape-1518035207-quick-breakfasts.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Twitter"
+target="_blank"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/recipes/easy/quick-breakfasts&text=60%2B%20Quick%20and%20Easy%20Breakfasts%20for%20Your%20Busiest%20Mornings&via=goodhousemag"
+data-site-handle="goodhousemag">
+<i
+class="share-button--icon icon icon-twitter link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-email "><div
+class="share-button share-button--email "
+data-content-id="21923" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/recipes/easy/quick-breakfasts" data-image="http://ghk.h-cdn.co/assets/18/06/640x320/landscape-1518035207-quick-breakfasts.jpg">
+<a
+class="share-button--link link " title="Email"
+href="mailto:?subject=60%2B%20Quick%20and%20Easy%20Healthy%20Breakfasts%20for%20Your%20Busiest%20Mornings&body=http://www.goodhousekeeping.com/recipes/easy/quick-breakfasts?src=social-email">
+<i
+class="share-button--icon icon icon-email link-icon"></i>
+</a></div></li></ul></div></div></div></div><div
+class="landing-feed--story-content">
+<a
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/g871/quick-breakfasts/">60+ Quick and Easy Breakfasts for Your Busiest Mornings</a></div></div></div></div><div
+class="landing-feed--story transporter-story-5"><div
+class="landing-feed--story-inner"><div
+class="landing-feed--story-container" data-uid="gallery.5066"><div
+class="landing-feed--story-image">
+<a
+href="/food-recipes/easy/g5066/low-calorie-bowl-recipes/" class="link story-image--link"><div
+class="story-image--inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://ghk.h-cdn.co/assets/18/04/480x240/landscape-1516988022-low-calorie-bowls-oz-index.jpg"
+data-img320-w = "480"
+data-img320-h = "240"
+data-cut=320
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/04/480x240/landscape-1516988022-low-calorie-bowls-oz-index.jpg" alt="low calorie bowls"
+data-img980="http://ghk.h-cdn.co/assets/18/04/640x320/landscape-1516988022-low-calorie-bowls-oz-index.jpg"
+data-img980-w = "640"
+data-img980-h = "320"
+nopin="nopin"  /></div></a></div><div
+class="landing-feed--story-utils"><div
+class="landing-feed--story-section">
+<a
+class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
+class="landing-feed--story-shares">
+<i
+class="icon icon-share"></i>
+<span
+class="landing-feed--story-shares-text">Share</span><div
+class="share landing-share share-bar"><div
+class="share-module " data-share-location="social-btns-feed"><ul
+class="share-module--buttons"><li
+class="share-module--button-wrap share-module--button-wrap-facebook "><div
+class="share-button share-button--facebook "
+data-content-id="67550" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g5066/low-calorie-bowl-recipes/" data-image="http://ghk.h-cdn.co/assets/18/04/1600x800/landscape-1516988022-low-calorie-bowls-oz-index.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Facebook"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=4+Easy+Low-Cal+Bowl+Recipes+That+Will+Satisfy+Your+Cravings+&description=These+one-bowl+wonders+are+delightfully+simple+to+make.&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/g5066/low-calorie-bowl-recipes/&picture=http://ghk.h-cdn.co/assets/18/04/1600x800/landscape-1516988022-low-calorie-bowls-oz-index.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/g5066/low-calorie-bowl-recipes/&version=v2.10"
+target="_blank">
+<i
+class="share-button--icon icon icon-facebook link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-twitter "><div
+class="share-button share-button--twitter "
+data-content-id="67550" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g5066/low-calorie-bowl-recipes/" data-image="http://ghk.h-cdn.co/assets/18/04/1600x800/landscape-1516988022-low-calorie-bowls-oz-index.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Twitter"
+target="_blank"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/g5066/low-calorie-bowl-recipes/&text=4%20Easy%20Low-Cal%20Bowl%20Recipes%20That%20Will%20Satisfy%20Your%20Cravings%20&via=goodhousemag"
+data-site-handle="goodhousemag">
+<i
+class="share-button--icon icon icon-twitter link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-email "><div
+class="share-button share-button--email "
+data-content-id="67550" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g5066/low-calorie-bowl-recipes/" data-image="http://ghk.h-cdn.co/assets/18/04/1600x800/landscape-1516988022-low-calorie-bowls-oz-index.jpg">
+<a
+class="share-button--link link " title="Email"
+href="mailto:?subject=4%20Easy%20Low-Cal%20Bowl%20Recipes%20That%20Will%20Satisfy%20Your%20Cravings%20&body=http://www.goodhousekeeping.com/food-recipes/easy/g5066/low-calorie-bowl-recipes/?src=social-email">
+<i
+class="share-button--icon icon icon-email link-icon"></i>
+</a></div></li></ul></div></div></div></div><div
+class="landing-feed--story-content">
+<a
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/g5066/low-calorie-bowl-recipes/">4 Easy Low-Cal Bowl Recipes That Will Satisfy Your Cravings </a></div></div></div></div><div
+class="landing-feed--story transporter-story-6"><div
+class="landing-feed--story-inner"><div
+class="landing-feed--story-container" data-uid="article.47659"><div
+class="landing-feed--story-image">
+<a
+href="/food-recipes/easy/a47659/crispy-mushroom-and-muenster-sliders-recipe/" class="link story-image--link"><div
+class="story-image--inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516288933-crispy-mushroom-muenster-slides-ghk-0218.jpg"
+data-img320-w = "480"
+data-img320-h = "240"
+data-cut=320
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516288933-crispy-mushroom-muenster-slides-ghk-0218.jpg" alt="crispy mushroom and muenster cheese sliders"
+data-img980="http://ghk.h-cdn.co/assets/18/03/640x320/landscape-1516288933-crispy-mushroom-muenster-slides-ghk-0218.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
@@ -1357,312 +1554,52 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="61798" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494872459-mike-garten-marios-goat-cheese-cherry-caprese-0617.jpg">
+data-content-id="67401" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/party-ideas/a47659/crispy-mushroom-and-muenster-sliders-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516288933-crispy-mushroom-muenster-slides-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=Goat+Cheese+and+Cherry+Caprese&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/&picture=http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494872459-mike-garten-marios-goat-cheese-cherry-caprese-0617.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Crispy+Mushroom+and+Muenster+Sliders+&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/party-ideas/a47659/crispy-mushroom-and-muenster-sliders-recipe/&picture=http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516288933-crispy-mushroom-muenster-slides-ghk-0218.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/party-ideas/a47659/crispy-mushroom-and-muenster-sliders-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="61798" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494872459-mike-garten-marios-goat-cheese-cherry-caprese-0617.jpg">
+data-content-id="67401" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/party-ideas/a47659/crispy-mushroom-and-muenster-sliders-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516288933-crispy-mushroom-muenster-slides-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/&text=Goat%20Cheese%20and%20Cherry%20Caprese&via=goodhousemag"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/party-ideas/a47659/crispy-mushroom-and-muenster-sliders-recipe/&text=Crispy%20Mushroom%20and%20Muenster%20Sliders%20&via=goodhousemag"
 data-site-handle="goodhousemag">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="61798" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/" data-image="http://ghk.h-cdn.co/assets/17/20/1280x640/landscape-1494872459-mike-garten-marios-goat-cheese-cherry-caprese-0617.jpg">
+data-content-id="67401" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/party-ideas/a47659/crispy-mushroom-and-muenster-sliders-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516288933-crispy-mushroom-muenster-slides-ghk-0218.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=Goat%20Cheese%20and%20Cherry%20Caprese&body=http://www.goodhousekeeping.com/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/?src=social-email">
+href="mailto:?subject=Crispy%20Mushroom%20and%20Muenster%20Sliders%20&body=http://www.goodhousekeeping.com/food-recipes/party-ideas/a47659/crispy-mushroom-and-muenster-sliders-recipe/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a44201/goat-cheese-cherry-caprese-recipe/">Goat Cheese and Cherry Caprese</a></div></div></div></div><div
-class="landing-feed--story transporter-story-4"><div
-class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="gallery.2352"><div
-class="landing-feed--story-image">
-<a
-href="/food-recipes/easy/g2352/quick-summer-dinner-recipes/" class="link story-image--link"><div
-class="story-image--inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/16/20/480x240/landscape-1463422072-summerdinners.jpg"
-data-img320-w = "480"
-data-img320-h = "240"
-data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/16/20/480x240/landscape-1463422072-summerdinners.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/16/20/640x320/landscape-1463422072-summerdinners.jpg"
-data-img980-w = "640"
-data-img980-h = "320"
-nopin="nopin"  /></div>
-<i
-class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
-class="landing-feed--story-utils"><div
-class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
-class="landing-feed--story-shares">
-<i
-class="icon icon-share"></i>
-<span
-class="landing-feed--story-shares-text">Share</span><div
-class="share landing-share share-bar"><div
-class="share-module " data-share-location="social-btns-feed"><ul
-class="share-module--buttons"><li
-class="share-module--button-wrap share-module--button-wrap-facebook "><div
-class="share-button share-button--facebook "
-data-content-id="31991" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/recipes/easy/quick-summer-dinner-recipes" data-image="http://ghk.h-cdn.co/assets/16/20/1600x800/landscape-1463422072-summerdinners.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=60+Super-Easy+Summer+Dinner+Recipes&description=Celebrate+the+best+season+of+the+year+by+gathering+around+a+table+full+of+grilled-meats+and+tasty+sides+like+gazpacho%2C+coconut+grits+and+summery+salads.+Not+written+about+here+but+also+recommended%3A+wine.+Lots+of+wine.&display=popup&link=http://www.goodhousekeeping.com/recipes/easy/quick-summer-dinner-recipes&picture=http://ghk.h-cdn.co/assets/16/20/1600x800/landscape-1463422072-summerdinners.jpg&redirect_uri=http://www.goodhousekeeping.com/recipes/easy/quick-summer-dinner-recipes&version=v2.3"
-target="_blank">
-<i
-class="share-button--icon icon icon-facebook link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-twitter "><div
-class="share-button share-button--twitter "
-data-content-id="31991" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/recipes/easy/quick-summer-dinner-recipes" data-image="http://ghk.h-cdn.co/assets/16/20/1600x800/landscape-1463422072-summerdinners.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Twitter"
-target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/recipes/easy/quick-summer-dinner-recipes&text=60%20Super-Easy%20Summer%20Dinner%20Recipes&via=goodhousemag"
-data-site-handle="goodhousemag">
-<i
-class="share-button--icon icon icon-twitter link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-email "><div
-class="share-button share-button--email "
-data-content-id="31991" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/recipes/easy/quick-summer-dinner-recipes" data-image="http://ghk.h-cdn.co/assets/16/20/1600x800/landscape-1463422072-summerdinners.jpg">
-<a
-class="share-button--link link " title="Email"
-href="mailto:?subject=60%20Super-Easy%20Summer%20Dinner%20Recipes&body=http://www.goodhousekeeping.com/recipes/easy/quick-summer-dinner-recipes?src=social-email">
-<i
-class="share-button--icon icon icon-email link-icon"></i>
-</a></div></li></ul></div></div></div></div><div
-class="landing-feed--story-content">
-<a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/g2352/quick-summer-dinner-recipes/">60 Super-Easy Summer Dinner Recipes</a></div></div></div></div><div
-class="landing-feed--story transporter-story-5"><div
-class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="gallery.3589"><div
-class="landing-feed--story-image">
-<a
-href="/food-recipes/easy/g3589/best-sangria-recipes/" class="link story-image--link"><div
-class="story-image--inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/18/480x240/landscape-1493848179-picmonkey-collage.jpg"
-data-img320-w = "480"
-data-img320-h = "240"
-data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/18/480x240/landscape-1493848179-picmonkey-collage.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/17/18/640x320/landscape-1493848179-picmonkey-collage.jpg"
-data-img980-w = "640"
-data-img980-h = "320"
-nopin="nopin"  /></div>
-<i
-class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
-class="landing-feed--story-utils"><div
-class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
-class="landing-feed--story-shares">
-<i
-class="icon icon-share"></i>
-<span
-class="landing-feed--story-shares-text">Share</span><div
-class="share landing-share share-bar"><div
-class="share-module " data-share-location="social-btns-feed"><ul
-class="share-module--buttons"><li
-class="share-module--button-wrap share-module--button-wrap-facebook "><div
-class="share-button share-button--facebook "
-data-content-id="52072" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g3589/best-sangria-recipes/" data-image="http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493848179-picmonkey-collage.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=17+Best+Sangrias+to+Sip+All+Summer+Long&description=Whether+you%27re+a+wine+lover+or+more+of+a+tequila+drinker%2C+we+have+the+perfect+recipes+to+serve+on+hot+summer+days.+&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/g3589/best-sangria-recipes/&picture=http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493848179-picmonkey-collage.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/g3589/best-sangria-recipes/&version=v2.3"
-target="_blank">
-<i
-class="share-button--icon icon icon-facebook link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-twitter "><div
-class="share-button share-button--twitter "
-data-content-id="52072" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g3589/best-sangria-recipes/" data-image="http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493848179-picmonkey-collage.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Twitter"
-target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/g3589/best-sangria-recipes/&text=17%20Sangrias%20to%20Sip%20All%20Summer%20Long&via=goodhousemag"
-data-site-handle="goodhousemag">
-<i
-class="share-button--icon icon icon-twitter link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-email "><div
-class="share-button share-button--email "
-data-content-id="52072" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g3589/best-sangria-recipes/" data-image="http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493848179-picmonkey-collage.jpg">
-<a
-class="share-button--link link " title="Email"
-href="mailto:?subject=17%20Best%20Sangrias%20to%20Sip%20All%20Summer%20Long&body=http://www.goodhousekeeping.com/food-recipes/easy/g3589/best-sangria-recipes/?src=social-email">
-<i
-class="share-button--icon icon icon-email link-icon"></i>
-</a></div></li></ul></div></div></div></div><div
-class="landing-feed--story-content">
-<a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/g3589/best-sangria-recipes/">17 Sangrias to Sip All Summer Long</a></div></div></div></div><div
-class="landing-feed--story transporter-story-6"><div
-class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="gallery.2134"><div
-class="landing-feed--story-image">
-<a
-href="/food-recipes/easy/g2134/grilled-chicken-recipes/" class="link story-image--link"><div
-class="story-image--inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/16/27/480x240/landscape-1459877937-chickencollage.jpg"
-data-img320-w = "480"
-data-img320-h = "240"
-data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/16/27/480x240/landscape-1459877937-chickencollage.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/16/27/640x320/landscape-1459877937-chickencollage.jpg"
-data-img980-w = "640"
-data-img980-h = "320"
-nopin="nopin"  /></div>
-<i
-class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
-class="landing-feed--story-utils"><div
-class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
-class="landing-feed--story-shares">
-<i
-class="icon icon-share"></i>
-<span
-class="landing-feed--story-shares-text">Share</span><div
-class="share landing-share share-bar"><div
-class="share-module " data-share-location="social-btns-feed"><ul
-class="share-module--buttons"><li
-class="share-module--button-wrap share-module--button-wrap-facebook "><div
-class="share-button share-button--facebook "
-data-content-id="30073" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/recipes/cooking-tips/grilled-chicken-recipes" data-image="http://ghk.h-cdn.co/assets/16/27/1600x800/landscape-1459877937-chickencollage.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=35+Ways+to+Cook+Grilled+Chicken+Breast&description=It%27s+the+easiest+thing+to+grab+at+the+grocery+store+%E2%80%94+but+it%27s+not+so+simple+to+decide+what+to+do+with+plain+ol%27+chicken+once+you+get+home.+Look+no+further+than+these+fun%2C+flavor-packed+dishes.+Don%27t+blame+us+when+a+line+of+hungry+people+magically+appears.+Plus%2C+get+our+best+tips+for+grilling+perfect+chicken%21&display=popup&link=http://www.goodhousekeeping.com/recipes/cooking-tips/grilled-chicken-recipes&picture=http://ghk.h-cdn.co/assets/16/27/1600x800/landscape-1459877937-chickencollage.jpg&redirect_uri=http://www.goodhousekeeping.com/recipes/cooking-tips/grilled-chicken-recipes&version=v2.3"
-target="_blank">
-<i
-class="share-button--icon icon icon-facebook link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-twitter "><div
-class="share-button share-button--twitter "
-data-content-id="30073" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/recipes/cooking-tips/grilled-chicken-recipes" data-image="http://ghk.h-cdn.co/assets/16/27/1600x800/landscape-1459877937-chickencollage.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Twitter"
-target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/recipes/cooking-tips/grilled-chicken-recipes&text=30%20Ways%20to%20Make%20Grilled%20Chicken&via=goodhousemag"
-data-site-handle="goodhousemag">
-<i
-class="share-button--icon icon icon-twitter link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-email "><div
-class="share-button share-button--email "
-data-content-id="30073" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/recipes/cooking-tips/grilled-chicken-recipes" data-image="http://ghk.h-cdn.co/assets/16/27/1600x800/landscape-1459877937-chickencollage.jpg">
-<a
-class="share-button--link link " title="Email"
-href="mailto:?subject=35%20Ways%20to%20Cook%20Grilled%20Chicken%20Breast&body=http://www.goodhousekeeping.com/recipes/cooking-tips/grilled-chicken-recipes?src=social-email">
-<i
-class="share-button--icon icon icon-email link-icon"></i>
-</a></div></li></ul></div></div></div></div><div
-class="landing-feed--story-content">
-<a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/g2134/grilled-chicken-recipes/">30 Ways to Make Grilled Chicken</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47659/crispy-mushroom-and-muenster-sliders-recipe/">Crispy Mushroom and Muenster Sliders </a></div></div></div></div><div
 class="landing-feed--story transporter-story-7"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="gallery.4310"><div
+class="landing-feed--story-container" data-uid="article.47667"><div
 class="landing-feed--story-image">
 <a
-href="/food-recipes/easy/g4310/fourth-of-july-appetizers/" class="link story-image--link"><div
+href="/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/18/480x240/landscape-1493652595-4thofjulyappetizers.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516310054-three-ingredient-chocolate-mousse-ghk-0218.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/18/480x240/landscape-1493652595-4thofjulyappetizers.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/17/18/640x320/landscape-1493652595-4thofjulyappetizers.jpg"
-data-img980-w = "640"
-data-img980-h = "320"
-nopin="nopin"  /></div>
-<i
-class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
-class="landing-feed--story-utils"><div
-class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
-class="landing-feed--story-shares">
-<i
-class="icon icon-share"></i>
-<span
-class="landing-feed--story-shares-text">Share</span><div
-class="share landing-share share-bar"><div
-class="share-module " data-share-location="social-btns-feed"><ul
-class="share-module--buttons"><li
-class="share-module--button-wrap share-module--button-wrap-facebook "><div
-class="share-button share-button--facebook "
-data-content-id="61289" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g4310/fourth-of-july-appetizers/" data-image="http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493652595-4thofjulyappetizers.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=15+Best+4th+of+July+Appetizers+for+a+Classic+American+BBQ&description=These+dips%2C+kabobs%2C+wings+and+more+pair+well+with+tasty+mains+and+some+good+ole+country+heart.+&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/g4310/fourth-of-july-appetizers/&picture=http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493652595-4thofjulyappetizers.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/g4310/fourth-of-july-appetizers/&version=v2.3"
-target="_blank">
-<i
-class="share-button--icon icon icon-facebook link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-twitter "><div
-class="share-button share-button--twitter "
-data-content-id="61289" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g4310/fourth-of-july-appetizers/" data-image="http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493652595-4thofjulyappetizers.jpg">
-<a
-class="share-button--link share-button--open-window link " title="Share on Twitter"
-target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/g4310/fourth-of-july-appetizers/&text=15%20Best%204th%20of%20July%20Appetizers%20for%20a%20Classic%20American%20BBQ&via=goodhousemag"
-data-site-handle="goodhousemag">
-<i
-class="share-button--icon icon icon-twitter link-icon"></i>
-</a></div></li><li
-class="share-module--button-wrap share-module--button-wrap-email "><div
-class="share-button share-button--email "
-data-content-id="61289" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g4310/fourth-of-july-appetizers/" data-image="http://ghk.h-cdn.co/assets/17/18/1600x800/landscape-1493652595-4thofjulyappetizers.jpg">
-<a
-class="share-button--link link " title="Email"
-href="mailto:?subject=15%20Best%204th%20of%20July%20Appetizers%20for%20a%20Classic%20American%20BBQ&body=http://www.goodhousekeeping.com/food-recipes/easy/g4310/fourth-of-july-appetizers/?src=social-email">
-<i
-class="share-button--icon icon icon-email link-icon"></i>
-</a></div></li></ul></div></div></div></div><div
-class="landing-feed--story-content">
-<a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/g4310/fourth-of-july-appetizers/">15 Best 4th of July Appetizers for a Classic American BBQ</a></div></div></div></div><div
-class="landing-feed--story transporter-story-8"><div
-class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.43669"><div
-class="landing-feed--story-image">
-<a
-href="/food-recipes/easy/a43669/radishes-fennel-panzanella-recipe/" class="link story-image--link"><div
-class="story-image--inner">
-<img
-class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/15/480x240/landscape-1491858799-mike-garten-radishes-fennel-panzanella-0517.jpg"
-data-img320-w = "480"
-data-img320-h = "240"
-data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/15/480x240/landscape-1491858799-mike-garten-radishes-fennel-panzanella-0517.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/17/15/640x320/landscape-1491858799-mike-garten-radishes-fennel-panzanella-0517.jpg"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516310054-three-ingredient-chocolate-mousse-ghk-0218.jpg" alt="3-ingredient chocolate mousse"
+data-img980="http://ghk.h-cdn.co/assets/18/03/640x320/landscape-1516310054-three-ingredient-chocolate-mousse-ghk-0218.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
@@ -1671,7 +1608,7 @@ class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
 <span
-class="landing-feed--story-section-name link-txt">Side Dish</span></div><div
+class="landing-feed--story-section-name link-txt">Dessert</span></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1682,61 +1619,126 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="60973" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-products/a43669/radishes-fennel-panzanella-recipe/" data-image="http://ghk.h-cdn.co/assets/17/15/1280x640/landscape-1491858799-mike-garten-radishes-fennel-panzanella-0517.jpg">
+data-content-id="67413" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516310054-three-ingredient-chocolate-mousse-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=Radishes+and+Fennel+Panzanella&description=&display=popup&link=http://www.goodhousekeeping.com/food-products/a43669/radishes-fennel-panzanella-recipe/&picture=http://ghk.h-cdn.co/assets/17/15/1280x640/landscape-1491858799-mike-garten-radishes-fennel-panzanella-0517.jpg&redirect_uri=http://www.goodhousekeeping.com/food-products/a43669/radishes-fennel-panzanella-recipe/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=3-Ingredient+Chocolate+Mousse&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/&picture=http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516310054-three-ingredient-chocolate-mousse-ghk-0218.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="60973" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-products/a43669/radishes-fennel-panzanella-recipe/" data-image="http://ghk.h-cdn.co/assets/17/15/1280x640/landscape-1491858799-mike-garten-radishes-fennel-panzanella-0517.jpg">
+data-content-id="67413" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516310054-three-ingredient-chocolate-mousse-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-products/a43669/radishes-fennel-panzanella-recipe/&text=Radishes%20and%20Fennel%20Panzanella&via=goodhousemag"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/&text=3-Ingredient%20Chocolate%20Mousse&via=goodhousemag"
 data-site-handle="goodhousemag">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="60973" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-products/a43669/radishes-fennel-panzanella-recipe/" data-image="http://ghk.h-cdn.co/assets/17/15/1280x640/landscape-1491858799-mike-garten-radishes-fennel-panzanella-0517.jpg">
+data-content-id="67413" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516310054-three-ingredient-chocolate-mousse-ghk-0218.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=Radishes%20and%20Fennel%20Panzanella&body=http://www.goodhousekeeping.com/food-products/a43669/radishes-fennel-panzanella-recipe/?src=social-email">
+href="mailto:?subject=3-Ingredient%20Chocolate%20Mousse&body=http://www.goodhousekeeping.com/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a43669/radishes-fennel-panzanella-recipe/">Radishes and Fennel Panzanella</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47667/3-ingredient-chocolate-mousse-recipe/">3-Ingredient Chocolate Mousse</a></div></div></div></div><div
+class="landing-feed--story transporter-story-8"><div
+class="landing-feed--story-inner"><div
+class="landing-feed--story-container" data-uid="article.47669"><div
+class="landing-feed--story-image">
+<a
+href="/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/" class="link story-image--link"><div
+class="story-image--inner">
+<img
+class="lazy-image swap-image    "
+data-img320="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516311940-korean-pineapple-beef-lettuce-wraps-ghk-0218.jpg"
+data-img320-w = "480"
+data-img320-h = "240"
+data-cut=320
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516311940-korean-pineapple-beef-lettuce-wraps-ghk-0218.jpg" alt="Korean Pineapple Beef Lettuce Wraps"
+data-img980="http://ghk.h-cdn.co/assets/18/03/640x320/landscape-1516311940-korean-pineapple-beef-lettuce-wraps-ghk-0218.jpg"
+data-img980-w = "640"
+data-img980-h = "320"
+nopin="nopin"  /></div>
+<i
+class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
+class="landing-feed--story-utils"><div
+class="landing-feed--story-section">
+<span
+class="landing-feed--story-section-name link-txt">Appetizers</span></div><div
+class="landing-feed--story-shares">
+<i
+class="icon icon-share"></i>
+<span
+class="landing-feed--story-shares-text">Share</span><div
+class="share landing-share share-bar"><div
+class="share-module " data-share-location="social-btns-feed"><ul
+class="share-module--buttons"><li
+class="share-module--button-wrap share-module--button-wrap-facebook "><div
+class="share-button share-button--facebook "
+data-content-id="67415" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516311940-korean-pineapple-beef-lettuce-wraps-ghk-0218.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Facebook"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Korean+Pineapple+Beef+Lettuce+Wraps+&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/&picture=http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516311940-korean-pineapple-beef-lettuce-wraps-ghk-0218.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/&version=v2.10"
+target="_blank">
+<i
+class="share-button--icon icon icon-facebook link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-twitter "><div
+class="share-button share-button--twitter "
+data-content-id="67415" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516311940-korean-pineapple-beef-lettuce-wraps-ghk-0218.jpg">
+<a
+class="share-button--link share-button--open-window link " title="Share on Twitter"
+target="_blank"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/&text=Korean%20Pineapple%20Beef%20Lettuce%20Wraps%20&via=goodhousemag"
+data-site-handle="goodhousemag">
+<i
+class="share-button--icon icon icon-twitter link-icon"></i>
+</a></div></li><li
+class="share-module--button-wrap share-module--button-wrap-email "><div
+class="share-button share-button--email "
+data-content-id="67415" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516311940-korean-pineapple-beef-lettuce-wraps-ghk-0218.jpg">
+<a
+class="share-button--link link " title="Email"
+href="mailto:?subject=Korean%20Pineapple%20Beef%20Lettuce%20Wraps%20&body=http://www.goodhousekeeping.com/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/?src=social-email">
+<i
+class="share-button--icon icon icon-email link-icon"></i>
+</a></div></li></ul></div></div></div></div><div
+class="landing-feed--story-content">
+<a
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47669/korean-pineapple-beef-lettuce-wraps-recipe/">Korean Pineapple Beef Lettuce Wraps </a></div></div></div></div><div
 class="landing-feed--story transporter-story-9"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="article.38282"><div
+class="landing-feed--story-container" data-uid="article.47670"><div
 class="landing-feed--story-image">
 <a
-href="/food-recipes/easy/videos/a38282/mimosa-recipes/" class="link story-image--link"><div
+href="/food-recipes/easy/a47670/baguette-pizza-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/16/18/480x240/landscape-1462295008-3-easy-mimosas.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516313014-baguette-pizzas-index-ghk-0218.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/16/18/480x240/landscape-1462295008-3-easy-mimosas.jpg" alt="Learn how to make a mimosa three different ways."
-data-img980="http://ghk.h-cdn.co/assets/16/18/640x320/landscape-1462295008-3-easy-mimosas.jpg"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516313014-baguette-pizzas-index-ghk-0218.jpg" alt="baguette pizzas"
+data-img980="http://ghk.h-cdn.co/assets/18/03/640x320/landscape-1516313014-baguette-pizzas-index-ghk-0218.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
 <i
-class="icon link-icon icon-play icon-xs icon-content-type"></i></a></div><div
+class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
+<span
+class="landing-feed--story-section-name link-txt">Dinner</span></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1747,61 +1749,61 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="51314" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/videos/a38282/mimosa-recipes/" data-image="http://ghk.h-cdn.co/assets/16/18/1600x800/landscape-1462295008-3-easy-mimosas.jpg">
+data-content-id="67416" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47670/baguette-pizza-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516313014-baguette-pizzas-index-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=3+So-Fresh%2C+So-Simple+Ways+to+Make+a+Mimosa&description=Pop+the+bubbly.+These+easy+cocktail+recipes+are+as+beautiful+as+they+are+delicious.&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/videos/a38282/mimosa-recipes/&picture=http://ghk.h-cdn.co/assets/16/18/1600x800/landscape-1462295008-3-easy-mimosas.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/videos/a38282/mimosa-recipes/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Baguette+Pizzas+&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a47670/baguette-pizza-recipe/&picture=http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516313014-baguette-pizzas-index-ghk-0218.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a47670/baguette-pizza-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="51314" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/videos/a38282/mimosa-recipes/" data-image="http://ghk.h-cdn.co/assets/16/18/1600x800/landscape-1462295008-3-easy-mimosas.jpg">
+data-content-id="67416" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47670/baguette-pizza-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516313014-baguette-pizzas-index-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/videos/a38282/mimosa-recipes/&text=3%20Couldn%27t-Be-Easier%20Mimosas%20&via=goodhousemag"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a47670/baguette-pizza-recipe/&text=Baguette%20Pizzas%20&via=goodhousemag"
 data-site-handle="goodhousemag">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="51314" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/videos/a38282/mimosa-recipes/" data-image="http://ghk.h-cdn.co/assets/16/18/1600x800/landscape-1462295008-3-easy-mimosas.jpg">
+data-content-id="67416" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47670/baguette-pizza-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516313014-baguette-pizzas-index-ghk-0218.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=3%20So-Fresh%2C%20So-Simple%20Ways%20to%20Make%20a%20Mimosa&body=http://www.goodhousekeeping.com/food-recipes/easy/videos/a38282/mimosa-recipes/?src=social-email">
+href="mailto:?subject=Baguette%20Pizzas%20&body=http://www.goodhousekeeping.com/food-recipes/easy/a47670/baguette-pizza-recipe/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/videos/a38282/mimosa-recipes/">3 Couldn't-Be-Easier Mimosas </a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47670/baguette-pizza-recipe/">Baguette Pizzas </a></div></div></div></div><div
 class="landing-feed--story transporter-story-10"><div
 class="landing-feed--story-inner"><div
-class="landing-feed--story-container" data-uid="gallery.4258"><div
+class="landing-feed--story-container" data-uid="article.47672"><div
 class="landing-feed--story-image">
 <a
-href="/food-recipes/easy/g4258/quiche-recipes/" class="link story-image--link"><div
+href="/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/" class="link story-image--link"><div
 class="story-image--inner">
 <img
 class="lazy-image swap-image    "
-data-img320="http://ghk.h-cdn.co/assets/17/13/480x240/landscape-1490891240-quiche-recipes.jpg"
+data-img320="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516376713-spicy-deviled-walnuts-ghk-0218.jpg"
 data-img320-w = "480"
 data-img320-h = "240"
 data-cut=320
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" data-src="http://ghk.h-cdn.co/assets/17/13/480x240/landscape-1490891240-quiche-recipes.jpg" alt=""
-data-img980="http://ghk.h-cdn.co/assets/17/13/640x320/landscape-1490891240-quiche-recipes.jpg"
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" data-src="http://ghk.h-cdn.co/assets/18/03/480x240/landscape-1516376713-spicy-deviled-walnuts-ghk-0218.jpg" alt="spicy deviled walnuts"
+data-img980="http://ghk.h-cdn.co/assets/18/03/640x320/landscape-1516376713-spicy-deviled-walnuts-ghk-0218.jpg"
 data-img980-w = "640"
 data-img980-h = "320"
 nopin="nopin"  /></div>
 <i
-class="icon link-icon icon-gallery icon-xs icon-content-type"></i></a></div><div
+class="icon link-icon icon-recipe icon-xs icon-content-type"></i></a></div><div
 class="landing-feed--story-utils"><div
 class="landing-feed--story-section">
-<a
-class="landing-feed--story-section-name link link-txt" href="/food-recipes/easy/">Quick & Easy Recipes</a></div><div
+<span
+class="landing-feed--story-section-name link-txt">Snack</span></div><div
 class="landing-feed--story-shares">
 <i
 class="icon icon-share"></i>
@@ -1812,37 +1814,37 @@ class="share-module " data-share-location="social-btns-feed"><ul
 class="share-module--buttons"><li
 class="share-module--button-wrap share-module--button-wrap-facebook "><div
 class="share-button share-button--facebook "
-data-content-id="60683" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g4258/quiche-recipes/" data-image="http://ghk.h-cdn.co/assets/17/13/1600x800/landscape-1490891240-quiche-recipes.jpg">
+data-content-id="67418" data-tracking-id="share-button-facebook" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516376713-spicy-deviled-walnuts-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Facebook"
-href="//www.facebook.com/v2.3/dialog/feed?app_id=119423528138309&name=20+Quiches+That+Will+Upgrade+Your+Brunch+Game&description=Quit+scrambling+to+make+eggs+for+a+crowd+and+whip+up+one+of+these+tasty+quiche+creations.+Then%2C+branch+out+and+try+one+of+these+50%2B+brunch+ideas.+&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/g4258/quiche-recipes/&picture=http://ghk.h-cdn.co/assets/17/13/1600x800/landscape-1490891240-quiche-recipes.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/g4258/quiche-recipes/&version=v2.3"
+href="//www.facebook.com/v2.10/dialog/feed?app_id=119423528138309&name=Spicy+Deviled+Walnuts+&description=&display=popup&link=http://www.goodhousekeeping.com/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/&picture=http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516376713-spicy-deviled-walnuts-ghk-0218.jpg&redirect_uri=http://www.goodhousekeeping.com/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/&version=v2.10"
 target="_blank">
 <i
 class="share-button--icon icon icon-facebook link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-twitter "><div
 class="share-button share-button--twitter "
-data-content-id="60683" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g4258/quiche-recipes/" data-image="http://ghk.h-cdn.co/assets/17/13/1600x800/landscape-1490891240-quiche-recipes.jpg">
+data-content-id="67418" data-tracking-id="share-button-twitter" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516376713-spicy-deviled-walnuts-ghk-0218.jpg">
 <a
 class="share-button--link share-button--open-window link " title="Share on Twitter"
 target="_blank"
-href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/g4258/quiche-recipes/&text=20%20Quiches%20That%20Will%20Upgrade%20Your%20Brunch%20Game&via=goodhousemag"
+href="//www.twitter.com/share?url=http://www.goodhousekeeping.com/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/&text=Spicy%20Deviled%20Walnuts%20&via=goodhousemag"
 data-site-handle="goodhousemag">
 <i
 class="share-button--icon icon icon-twitter link-icon"></i>
 </a></div></li><li
 class="share-module--button-wrap share-module--button-wrap-email "><div
 class="share-button share-button--email "
-data-content-id="60683" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/g4258/quiche-recipes/" data-image="http://ghk.h-cdn.co/assets/17/13/1600x800/landscape-1490891240-quiche-recipes.jpg">
+data-content-id="67418" data-tracking-id="share-button-email" data-url="http://www.goodhousekeeping.com/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/" data-image="http://ghk.h-cdn.co/assets/18/03/1600x800/landscape-1516376713-spicy-deviled-walnuts-ghk-0218.jpg">
 <a
 class="share-button--link link " title="Email"
-href="mailto:?subject=20%20Quiches%20That%20Will%20Upgrade%20Your%20Brunch%20Game&body=http://www.goodhousekeeping.com/food-recipes/easy/g4258/quiche-recipes/?src=social-email">
+href="mailto:?subject=Spicy%20Deviled%20Walnuts%20&body=http://www.goodhousekeeping.com/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/?src=social-email">
 <i
 class="share-button--icon icon icon-email link-icon"></i>
 </a></div></li></ul></div></div></div></div><div
 class="landing-feed--story-content">
 <a
-class="landing-feed--story-title link link-txt" href="/food-recipes/easy/g4258/quiche-recipes/">20 Quiches That Will Upgrade Your Brunch Game</a></div></div></div></div><div
+class="landing-feed--story-title link link-txt" href="/food-recipes/easy/a47672/spicy-deviled-walnuts-recipe/">Spicy Deviled Walnuts </a></div></div></div></div><div
 class="ad-gpt-breaker-container"><div
 class="ad-gpt-breaker  " data-id="gpt-ad-leaderboard-bottom"><div
 class="gpt-tag" id="gpt-ad-leaderboard-bottom"></div></div></div><ul
@@ -1857,13 +1859,13 @@ data-tracking-id="recirc-SEO-tags" class="tags--link link link-txt" href="/food-
 Quick & Easy Recipes				</a></li><li
 class="tags--item tags--seo">
 <a
-class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a3685/flatbread-zahtar-629/" title="Flatbread with Zahtar">Flatbread with Zahtar</a></li><li
-class="tags--item tags--seo">
-<a
 class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a112/flatbread-salad-482/" title="Flatbread with Salad">Flatbread with Salad</a></li><li
 class="tags--item tags--seo">
 <a
 class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a4444/romano-cheese-flatbread-crisps-1846/" title="Romano-Cheese Flatbread Crisps">Romano-Cheese Flatbread Crisps</a></li><li
+class="tags--item tags--seo">
+<a
+class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a3685/flatbread-zahtar-629/" title="Flatbread with Zahtar">Flatbread with Zahtar</a></li><li
 class="tags--item tags--seo">
 <a
 class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a16331/cheeseburger-flatbread-pizza-recipe-wdy0115/" title="Cheeseburger Flatbread Pizza">Cheeseburger Flatbread Pizza</a></li><li
@@ -1872,7 +1874,7 @@ class="tags--item tags--seo">
 class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a12096/sweet-potato-flatbread-recipe-122838/" title="Sweet Potato Flatbread">Sweet Potato Flatbread</a></li><li
 class="tags--item tags--seo">
 <a
-class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a7756/flatbread-pizzas-4039/" title="Flatbread Pizzas">Flatbread Pizzas</a></li></ul></div><a
+class="tags--link link link-txt" data-tracking-id="recirc-SEO-tags" href="/food-recipes/a6168/grilled-flatbread-2243/" title="Grilled Flatbread">Grilled Flatbread</a></li></ul></div><a
 class="link" id="transporter--load-more" href="http://www.goodhousekeeping.com/food-recipes/easy"><div
 class="load-more static transporter" data-tracking-id="load-more-bar"><div
 class="load-more--icons">
@@ -1987,11 +1989,11 @@ href="http://sweepstakes.goodhousekeeping.com">Giveaways</a></li><li><a
 href="http://www.hearst.com/beinggreen/">Being Green</a></li><li><a
 href="/about/oba-policy/">Why Did I Get This Ad?</a></li></ul><div
 class="footer--logo-hearst"><img
-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/blank.png" class="lazy-image" data-src="//ghk.h-cdn.co/assets/goodhousekeeping/20170613162629/images/logo-network-home.png" alt="Hearst Corporation"></div><p
+src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/blank.png" class="lazy-image" data-src="//ghk.h-cdn.co/assets/goodhousekeeping/20180222135935/images/logo-network-lifestyle-color.png" alt="Hearst Corporation"></div><p
 class="footer--hearst-disclaimer">A Part of Hearst Digital Media</p><p
 class="footer--affiliate-disclosure">Good Housekeeping participates in various affiliate marketing programs, which means Good Housekeeping gets paid commissions on purchases made through our links to retailer sites.</p><div
 class="footer--legal"><p
-class="footer--legal-text">&copy;2017 Hearst Communications, Inc. All Rights Reserved.</p><ul
+class="footer--legal-text">&copy;2018 Hearst Communications, Inc. All Rights Reserved.</p><ul
 class="footer--legal-links"><li
 class="footer--legal-link"><a
 class="link link-txt" href="/about/privacy-policy">Privacy Policy</a></li><li

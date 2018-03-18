@@ -3,13 +3,17 @@
 return [
     'author' => 'The Good Housekeeping Test Kitchen',
     'categories' => [
-        'Cheap Meals',
-        'Food & Recipes',
+        'pancake recipe',
+        'how to make pancakes',
+        'easy pancake recipes',
+        'best pancake recipe',
+        'pancakes recipe',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'Cooked to a sunny golden-brown, these pancakes are a quick indulgence to warm you up for the day ahead.',
+    // @todo &#039;
+    'description' => 'Cooked to a fluffy golden-brown, these pancakes are truly the only recipe you&#039;ll ever need.',
     'image' => 'http://ghk.h-cdn.co/assets/16/38/1600x800/landscape-1474822198-how-to-make-pancakes.jpg',
     'ingredients' => [
         '1 c. all-purpose flour',
@@ -34,5 +38,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT30M',
     'url' => 'http://www.goodhousekeeping.com/food-recipes/a15177/pancakes-recipe-ghk0213/',
-    'yield' => 'Yield: 3 servings, 12 pancakes',
+    'yield' => '3 servings, 12 pancakes',
 ];

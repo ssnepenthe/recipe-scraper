@@ -1,8 +1,14 @@
 <?php
 
 return [
-    'author' => 'Micah Morton',
-    'categories' => null,
+    'author' => null,
+    'categories' => [
+        'Coffee Ice Cream Sandwiches',
+        'best Coffee Ice Cream Sandwiches recipe',
+        'how to make Coffee Ice Cream Sandwiches',
+        'how to make coffee ice cream',
+        'coffee ice cream recipe',
+    ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
@@ -22,7 +28,7 @@ return [
         '1 Egg',
         '2 c. rolled oats',
         '3/4 c. all-purpose flour',
-        '3/4 c. baking soda',
+        '3/4 tsp. baking soda',
         '3/4 c. dark chocolate chips',
     ],
     'instructions' => [
@@ -37,6 +43,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Esquire',
     'totalTime' => null,
-    'url' => 'http://www.delish.com/cooking/recipe-ideas/recipes/a53170/coffee-ice-cream-sandwiches-recipe/',
+    'url' => 'https://www.delish.com/cooking/recipe-ideas/recipes/a53170/coffee-ice-cream-sandwiches-recipe/',
     'yield' => '3-4',
 ];

@@ -3,8 +3,10 @@
 return [
     'author' => 'Nancy Dell\'Aria',
     'categories' => [
-        'Meals & Cooking',
-        'Recipes',
+        'Fish and Veggie Chowder',
+        'fish chowder',
+        'vegetable chowder',
+        'fish and vegetable chowder',
         'fish recipes',
         'seafood chowder',
     ],
@@ -12,7 +14,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Fish can get predictable pretty easily, so liven things up with this creamy chowder featuring cod with corn, bacon and a mix of cubed red potatoes, onions, carrots and celery sautéed in bacon fat.',
-    'image' => 'http://del.h-cdn.co/assets/cm/15/10/54f8dc103b330_-_fish-veggie-chowder-lg.jpg',
+    'image' => 'https://hips.hearstapps.com/del.h-cdn.co/assets/cm/15/10/54f8dc103b330_-_fish-veggie-chowder-lg.jpg',
     'ingredients' => [
         '4 slice bacon',
         '2 carrots',
@@ -22,9 +24,9 @@ return [
         '3 tbsp. all-purpose flour',
         '3 c. whole milk',
         '1 lb. red potatoes',
-        '1½ tsp. Old Bay seasoning',
+        '1 1/2 tsp. Old Bay seasoning',
         '1 c. corn kernels',
-        '¾ lb. skinless firm white fish (such as, cod, haddock or hake)',
+        '3/4 lb. skinless firm white fish (such as, cod, haddock or hake)',
     ],
     'instructions' => [
         'Cook the bacon in a large saucepan or Dutch oven over medium heat until crisp, 5 to 6 minutes. Transfer to a paper towel-lined plate. Discard all but 1 Tbsp fat from the pan.',
@@ -34,8 +36,8 @@ return [
     'name' => 'Fish and Veggie Chowder',
     'notes' => null,
     'prepTime' => 'PT40M',
-    'publisher' => null,
+    'publisher' => 'Delish',
     'totalTime' => 'PT40M',
-    'url' => 'http://www.womansday.com/food-recipes/food-drinks/recipes/a10509/fish-veggie-chowder-121971/',
-    'yield' => 'Serves: 4',
+    'url' => 'https://www.womansday.com/food-recipes/food-drinks/recipes/a10509/fish-veggie-chowder-121971/',
+    'yield' => '4',
 ];

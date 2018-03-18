@@ -1,19 +1,20 @@
 <?php
 
 return [
-    'author' => 'Lauren Salkeld',
+    'author' => null, // Author is still available (Lauren Salkeld), but not from LD+JSON.
     'categories' => [
-        'Meals & Cooking',
-        'Recipes',
-        'cheesecake recipes',
-        'pumpkin desserts',
-        'brownie recipes',
+        'pumpkin cheesecake bars',
+        'pumpkin brownies',
+        'brownie cheesecake',
+        'brownie cheesecake bars',
+        'pumpkin cheesecake recipes',
+        'pumpkin chocolate cheesecake recipe',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    'description' => 'A recipe for Pumpkin Cheesecake Brownie Bars from Delish.com',
-    'image' => 'http://del.h-cdn.co/assets/15/43/1600x800/landscape-1445292205-pumpkin-cheesecake-bars-1.jpg',
+    'description' => 'With a fudgy brownie bottom and rich layer of pumpkin cheesecake, these bars are on the must-make list for fall.',
+    'image' => 'https://hips.hearstapps.com/del.h-cdn.co/assets/15/43/1445292205-pumpkin-cheesecake-bars-1.jpg',
     'ingredients' => [
         'For the brownies',
         '1 c. unsalted butter (2 sticks)',
@@ -47,8 +48,8 @@ return [
     'name' => 'Pumpkin Cheesecake Brownies',
     'notes' => null,
     'prepTime' => 'PT30M',
-    'publisher' => null,
+    'publisher' => 'Delish',
     'totalTime' => 'PT4H30M',
-    'url' => 'http://www.delish.com/cooking/recipe-ideas/recipes/a44395/pumpkin-cheesecake-brownie-bars-recipe/',
-    'yield' => 'Yield: 24',
+    'url' => 'https://www.delish.com/cooking/recipe-ideas/recipes/a44395/pumpkin-cheesecake-brownie-bars-recipe/',
+    'yield' => '24',
 ];

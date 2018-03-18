@@ -3,7 +3,6 @@
 return [
     'author' => 'Marian Cooper Cairns',
     'categories' => [
-        'Food & Drinks',
         'chipotle chicken',
         'fajitas',
         'skillet recipes',
@@ -12,7 +11,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'These spicy chicken fajitas take barely any time and require only a cast-iron skillet. Oh, and they\'re great too!',
-    'image' => 'http://clv.h-cdn.co/assets/16/02/1600x800/landscape-1452550145-clx010116brkfeature-04.jpg',
+    'image' => 'https://hips.hearstapps.com/clv.h-cdn.co/assets/16/02/1452550145-clx010116brkfeature-04.jpg',
     'ingredients' => [
         '1 lb. boneless, skinless chicken breasts, cut into thin strips',
         '1 tsp. ground cumin',
@@ -39,8 +38,8 @@ return [
     'name' => 'Chipotle Chicken Fajitas',
     'notes' => null,
     'prepTime' => 'PT30M',
-    'publisher' => null,
+    'publisher' => 'Country Living',
     'totalTime' => 'PT30M',
-    'url' => 'http://www.countryliving.com/food-drinks/recipes/a37293/chipotle-chicken-fajitas/',
-    'yield' => 'Serves: 4',
+    'url' => 'https://www.countryliving.com/food-drinks/recipes/a37293/chipotle-chicken-fajitas/',
+    'yield' => '4',
 ];

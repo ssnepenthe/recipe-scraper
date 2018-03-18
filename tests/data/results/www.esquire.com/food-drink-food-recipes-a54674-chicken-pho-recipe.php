@@ -2,9 +2,20 @@
 
 return [
     'author' => 'Omar Mamoon',
-    'categories' => null,
+    'categories' => [
+        'chicken pho',
+        'vietnamese pho',
+        'recipe for pho',
+        'easy pho recipe',
+        'pho recipe',
+        'chicken pho recipe',
+        'vietnamese pho recipe',
+        'how to make pho',
+        'pho soup recipe',
+        'homemade pho',
+    ],
     'cookingMethod' => null,
-    // Actually shoul dbe PT3H - error on site.
+    // Actually should be PT3H - error on site.
     'cookTime' => 'PT3M',
     'cuisines' => null,
     'description' => 'San Francisco\'s Turtle Tower restaurant shares its secret recipe for Vietnamese chicken pho.',
@@ -45,6 +56,6 @@ return [
     'prepTime' => null,
     'publisher' => 'Esquire',
     'totalTime' => 'PT3M',
-    'url' => 'http://www.esquire.com/food-drink/food/recipes/a54674/chicken-pho-recipe/',
+    'url' => 'https://www.esquire.com/food-drink/food/recipes/a54674/chicken-pho-recipe/',
     'yield' => '8',
 ];

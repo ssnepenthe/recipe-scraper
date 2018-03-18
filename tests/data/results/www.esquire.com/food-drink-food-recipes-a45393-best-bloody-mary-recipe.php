@@ -2,7 +2,13 @@
 
 return [
     'author' => 'Esquire Editors',
-    'categories' => null,
+    'categories' => [
+        'best bloody mary recipe',
+        'bloody mary mix',
+        'bloody mary',
+        'bloody mary recipe',
+        'how to make a bloody mary',
+    ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
@@ -39,6 +45,6 @@ return [
     'prepTime' => 'PT10M',
     'publisher' => 'Esquire',
     'totalTime' => 'PT10M',
-    'url' => 'http://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/',
+    'url' => 'https://www.esquire.com/food-drink/food/recipes/a45393/best-bloody-mary-recipe/',
     'yield' => '1 serving',
 ];

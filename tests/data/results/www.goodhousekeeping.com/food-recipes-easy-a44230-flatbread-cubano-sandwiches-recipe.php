@@ -3,8 +3,14 @@
 return [
     'author' => 'The Good Housekeeping Test Kitchen',
     'categories' => [
-        'Food & Recipes',
-        'Quick & Easy Recipes',
+        'cubano',
+        'sandwich',
+        'ham',
+        'swiss cheese',
+        'tortilla',
+        'summer sandwiches',
+        'flatbread sandwiches',
+        'sandwich recipes',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
@@ -29,5 +35,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT30M',
     'url' => 'http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/',
-    'yield' => 'Yield: 4 servings',
+    'yield' => '4 servings',
 ];

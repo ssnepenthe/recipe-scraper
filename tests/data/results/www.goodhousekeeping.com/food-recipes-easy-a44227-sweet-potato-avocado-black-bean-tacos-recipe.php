@@ -3,8 +3,14 @@
 return [
     'author' => 'The Good Housekeeping Test Kitchen',
     'categories' => [
-        'Food & Recipes',
-        'Quick & Easy Recipes',
+        'tacos',
+        'taco recipe',
+        'vegetarian taco recipe',
+        'meatless tacos',
+        'black beans',
+        'sweet potatoes',
+        'avocado',
+        'summer taco recipe',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
@@ -33,5 +39,5 @@ return [
     'publisher' => null,
     'totalTime' => 'PT40M',
     'url' => 'http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/',
-    'yield' => 'Yield: 4 servings',
+    'yield' => '4 servings',
 ];
