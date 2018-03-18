@@ -4,7 +4,7 @@ namespace RecipeScraperTests;
 
 use RecipeScraper\Factory;
 use PHPUnit\Framework\TestCase;
-use RecipeScraper\Scrapers\AllRecipesCom;
+use RecipeScraper\Scrapers\WwwAllRecipesCom;
 use RecipeScraper\Scrapers\DelegatingScraper;
 
 class FactoryTest extends TestCase
@@ -14,9 +14,9 @@ class FactoryTest extends TestCase
     /** @test */
     public function it_can_make_individual_scrapers()
     {
-        $scraper = Factory::make(AllRecipesCom::class);
+        $scraper = Factory::make(WwwAllRecipesCom::class);
 
-        $this->assertInstanceOf(AllRecipesCom::class, $scraper);
+        $this->assertInstanceOf(WwwAllRecipesCom::class, $scraper);
     }
 
     /** @test */
@@ -30,9 +30,9 @@ class FactoryTest extends TestCase
     /** @test */
     public function it_caches_scraper_instances()
     {
-        $scraper = Factory::make(AllRecipesCom::class);
+        $scraper = Factory::make(WwwAllRecipesCom::class);
 
-        $this->assertSame(Factory::make(AllRecipesCom::class), $scraper);
+        $this->assertSame(Factory::make(WwwAllRecipesCom::class), $scraper);
     }
 
     /** @test */
