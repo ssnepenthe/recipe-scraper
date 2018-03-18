@@ -9,6 +9,8 @@ use Symfony\Component\DomCrawler\Crawler;
  * Look for recipes with ingredient groups to test.
  *
  * The only notes I have found are bundled in with instructions.
+ *
+ * @todo Times are all jacked... Prep is tagged cook and cook is untagged.
  */
 class WwwPaulaDeenCom extends SchemaOrgMarkup
 {
@@ -22,6 +24,11 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
             && 'www.pauladeen.com' === parse_url($crawler->getUri(), PHP_URL_HOST);
     }
 
+    protected function extractCategories(Crawler $crawler)
+    {
+        return $this->extractArray($crawler, '.tags a');
+    }
+
     /**
      * @param  Crawler $crawler
      * @return string|null
@@ -31,13 +38,13 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
         return $this->extractString($crawler, '[name="description"]', ['content']);
     }
 
-    /**
-     * @param  Crawler $crawler
-     * @return string[]|null
-     */
-    protected function extractIngredients(Crawler $crawler)
+    protected function extractImage(Crawler $crawler)
     {
-        return $this->extractArray($crawler, '.recipe-detail-wrapper .ingredients li');
+        return $this->extractString(
+            $crawler,
+            '[itemprop="image"] [itemprop="contentUrl"]',
+            ['src']
+        );
     }
 
     /**
@@ -46,46 +53,19 @@ class WwwPaulaDeenCom extends SchemaOrgMarkup
      */
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractArray($crawler, '.recipe-detail-wrapper .preparation p');
+        return $this->extractArray($crawler, '.directions__content p');
     }
 
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractName(Crawler $crawler)
+    protected function extractYield(Crawler $crawler)
     {
-        // Other locations are inconsistent.
-        return $this->extractString($crawler, '.breadcrumbs .product');
-    }
+        $yield = $this->extractString($crawler, '[itemprop="recipeYield"]');
 
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractTotalTime(Crawler $crawler)
-    {
-        // Not perfect - preptime and cooktime combined in the print view.
-        return $this->extractString($crawler, '.prep-cook .data');
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @return string|null
-     */
-    protected function extractUrl(Crawler $crawler)
-    {
-        // Could use some more thorough testing. It looks like there are always two canonical links
-        // for a recipe. The bad canonical *seems* to always be the first in the page and doesn't
-        // end with a trailing "/". Not sure what would be the best check to perform here...
-        $crawler = $crawler->filter('[rel="canonical"]')->reduce(function (Crawler $node) : bool {
-            return $node->count() ? Stringy::create($node->attr('href'))->endsWith('/') : false;
-        });
-
-        if (! $crawler->count() || ! $href = $crawler->attr('href')) {
+        if (! is_string($yield)) {
             return null;
         }
 
-        return trim($href) ?: null;
+        $label = $this->extractString($crawler, '[itemprop="recipeYield"] b');
+
+        return trim(str_replace(($label ?: ''), '', $yield));
     }
 }

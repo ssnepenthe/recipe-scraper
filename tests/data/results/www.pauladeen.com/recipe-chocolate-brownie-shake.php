@@ -1,22 +1,29 @@
 <?php
 
 return [
-    'author' => null,
-    'categories' => null,
+    'author' => 'Paula Deen',
+    'categories' => [
+        'family',
+        'kid friendly',
+        'picnic',
+        'summer',
+        'sweets',
+        'valentine\'s day',
+    ],
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'A double-chocolate shake becomes even more decadent with the addition of a brownie!',
-    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/s/0/s01ep08022_onek_chocolatebrownieshake_i_e_eng_1.jpg',
+    'image' => 'https://cdn-pauladeen-com.s3.amazonaws.com/wp-content/uploads/s/0/s01ep08022_onek_chocolatebrownieshake_i_c_eng_1.jpg',
     'ingredients' => [
-        '1/2 cup chocolate syrup, plus extra for top',
+        '1/2 cup plus extra for top chocolate syrup',
         '3 cups chocolate ice cream',
         '1 (2 inch) square brownie',
         '1 1/2 cups whole milk',
-        '1 can whipped cream, or homemade, for topping',
-        '1 maraschino cherry, long-stemmed, for topping',
-        'chocolate, shaved, for topping',
-        'mint, for topping',
+        '1 can or homemade, for topping whipped cream',
+        '1 long-stemmed, for topping maraschino cherry',
+        'shaved, for topping chocolate',
+        'for topping mint',
     ],
     'instructions' => [
         'Squeeze the chocolate sauce around the inside of a milkshake glass.',
@@ -28,6 +35,6 @@ return [
     'prepTime' => null,
     'publisher' => null,
     'totalTime' => 'PT4M',
-    'url' => 'http://www.pauladeen.com/chocolate-brownie-shake/',
-    'yield' => null,
+    'url' => 'https://www.pauladeen.com/recipe/chocolate-brownie-shake/',
+    'yield' => '4',
 ];

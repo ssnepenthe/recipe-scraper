@@ -1,25 +1,25 @@
 <?php
 
 return [
-    'author' => null,
+    'author' => 'Paula Deen',
     'categories' => null,
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Nana\'s Blueberry Muffins by Paula Deen is a classic breakfast pastry that\'s simply delicious.',
-    'image' => 'http://static.pauladeen.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/n/a/nanas-blueberry-muffins_1.jpg',
+    'image' => 'https://cdn-pauladeen-com.s3.amazonaws.com/wp-content/uploads/n/a/nanas-blueberry-muffins_1.jpg',
     'ingredients' => [
-        '1/2 cup butter, room temperature',
-        '1 1/4 cups sugar, plus 2 teaspoons, divided',
+        '1/2 cup room temperature butter',
+        '1 1/4 cups plus 2 teaspoons, divided sugar',
         '2 eggs',
-        '2 cups all-purpose flour',
+        '2 cups all purpose flour',
         '2 teaspoons baking powder',
         '1/2 teaspoon salt',
         '1/2 cup milk',
         '2 1/2 cups fresh blueberries',
     ],
     'instructions' => [
-        'Preheat oven to 350°.',
+        'Preheat oven to 350 °F.',
         'Line a 12 cup muffin tin with paper liners and set aside.',
         'In a large mixing bowl, beat butter and 1 1/4 cups sugar until fluffy and pale in color.',
         'Add in eggs one at a time, beating well after each addition.',
@@ -33,7 +33,7 @@ return [
     'notes' => null,
     'prepTime' => null,
     'publisher' => null,
-    'totalTime' => 'PT40M',
-    'url' => 'http://www.pauladeen.com/nanas-blueberry-muffins/',
-    'yield' => null,
+    'totalTime' => 'PT15M',
+    'url' => 'https://www.pauladeen.com/recipe/nanas-blueberry-muffins/',
+    'yield' => '15',
 ];
