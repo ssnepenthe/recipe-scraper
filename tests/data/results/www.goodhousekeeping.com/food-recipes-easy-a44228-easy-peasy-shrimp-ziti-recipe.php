@@ -15,7 +15,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Fresh peas add a pop of color to this creamy pasta dish.',
-    'image' => 'http://ghk.h-cdn.co/assets/17/20/1494958288-danielle-occhiogrosso-shrimp-ziti-0617.jpg',
+    'image' => 'https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/20/1494958288-danielle-occhiogrosso-shrimp-ziti-0617.jpg',
     'ingredients' => [
         '1 lb. ziti or rigatoni',
         '3 garlic cloves',
@@ -35,8 +35,8 @@ return [
     'name' => 'Easy-Peasy Shrimp Ziti',
     'notes' => null,
     'prepTime' => null,
-    'publisher' => null,
+    'publisher' => 'Good Housekeeping',
     'totalTime' => 'PT25M',
-    'url' => 'http://www.goodhousekeeping.com/food-recipes/easy/a44228/easy-peasy-shrimp-ziti-recipe/',
+    'url' => 'https://www.goodhousekeeping.com/food-recipes/easy/a44228/easy-peasy-shrimp-ziti-recipe/',
     'yield' => '6',
 ];

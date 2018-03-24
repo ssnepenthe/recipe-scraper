@@ -16,7 +16,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Two flour tortillas make a classic cubano extra flaky and crunchy.',
-    'image' => 'http://ghk.h-cdn.co/assets/17/21/1600x800/landscape-1495637967-cubano.jpg',
+    'image' => 'https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/21/1495637967-cubano.jpg',
     'ingredients' => [
         '4 oz. lower-sodium Swiss cheese, very thinly sliced',
         '4 oz. lower-sodium deli ham, very thinly sliced',
@@ -32,8 +32,8 @@ return [
     'name' => 'Flatbread Cubano Sandwiches',
     'notes' => null,
     'prepTime' => 'PT10M',
-    'publisher' => null,
+    'publisher' => 'Good Housekeeping',
     'totalTime' => 'PT30M',
-    'url' => 'http://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/',
+    'url' => 'https://www.goodhousekeeping.com/food-recipes/easy/a44230/flatbread-cubano-sandwiches-recipe/',
     'yield' => '4 servings',
 ];

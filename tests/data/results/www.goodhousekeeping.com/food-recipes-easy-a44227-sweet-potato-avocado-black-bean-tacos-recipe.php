@@ -16,7 +16,7 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'Swap ground beef for spicy sweet potatoes for the ultimate vegetarian taco.',
-    'image' => 'http://ghk.h-cdn.co/assets/17/20/1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg',
+    'image' => 'https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/20/1494956254-danielle-occhiogrosso-sweet-potato-black-bean-tacos-0617.jpg',
     'ingredients' => [
         '1 3/4 lb. sweet potatoes, scrubbed and cut into 1/2" chunks',
         '1 tbsp. olive oil',
@@ -36,8 +36,8 @@ return [
     'name' => 'Sweet Potato, Avocado and Black Bean Tacos',
     'notes' => null,
     'prepTime' => 'PT15M',
-    'publisher' => null,
+    'publisher' => 'Good Housekeeping',
     'totalTime' => 'PT40M',
-    'url' => 'http://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/',
+    'url' => 'https://www.goodhousekeeping.com/food-recipes/easy/a44227/sweet-potato-avocado-black-bean-tacos-recipe/',
     'yield' => '4 servings',
 ];

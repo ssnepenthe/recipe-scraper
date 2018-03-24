@@ -3,7 +3,7 @@
 namespace RecipeScraperTests\Scrapers;
 
 use RecipeScraperTests\ScraperTestCase;
-use RecipeScraper\Scrapers\WwwGoodHousekeepingCom;
+use RecipeScraper\Scrapers\HearstDigitalMedia;
 
 /**
  * @group hearst
@@ -18,6 +18,6 @@ class WwwGoodHousekeepingComTest extends ScraperTestCase
 
     protected function makeScraper()
     {
-        return new WwwGoodHousekeepingCom;
+        return new HearstDigitalMedia;
     }
 }

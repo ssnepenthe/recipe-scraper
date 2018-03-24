@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Unknown',
+    'author' => null,
     'categories' => [
         'christmas cookie recipes',
         'macarons',
@@ -14,15 +14,14 @@ return [
     'cookTime' => null,
     'cuisines' => null,
     'description' => 'These light, fluffy cookies get in the holiday spirit with a layer of chocolate and a couple drops of green food coloring.',
-    // @todo Image is blown up and blurry.
-    'image' => 'http://ghk.h-cdn.co/assets/17/46/1600x800/landscape-1510866416-christmas-macaroons-index.jpg',
+    'image' => 'https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/46/1510866416-christmas-macaroons-index.jpg',
     'ingredients' => [
         '1 c. slivered almonds',
         '2 c. confectioners\' sugar',
         '3 large egg whites',
-        '¼ tsp. salt',
+        '1/4 tsp. salt',
         '7 drop green liquid food coloring',
-        '¼ tsp. almond extract',
+        '1/4 tsp. almond extract',
         '4 oz. bittersweet chocolate',
     ],
     'instructions' => [
@@ -36,8 +35,8 @@ return [
     'name' => 'Christmas Macarons',
     'notes' => null,
     'prepTime' => 'PT25M',
-    'publisher' => null,
+    'publisher' => 'Good Housekeeping',
     'totalTime' => 'PT1H',
-    'url' => 'http://www.goodhousekeeping.com/food-recipes/a15029/christmas-macarons-recipe-ghk1212/',
-    'yield' => 'about 3 dozen cookies',
+    'url' => 'https://www.goodhousekeeping.com/food-recipes/a15029/christmas-macarons-recipe-ghk1212/',
+    'yield' => '1 dozen',
 ];

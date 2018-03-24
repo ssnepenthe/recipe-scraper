@@ -12,9 +12,8 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => null,
-    // @todo &#039;
-    'description' => 'Cooked to a fluffy golden-brown, these pancakes are truly the only recipe you&#039;ll ever need.',
-    'image' => 'http://ghk.h-cdn.co/assets/16/38/1600x800/landscape-1474822198-how-to-make-pancakes.jpg',
+    'description' => 'Cooked to a sunny golden-brown, these pancakes are a quick indulgence to warm you up for the day ahead.',
+    'image' => 'https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/38/1474822198-how-to-make-pancakes.jpg',
     'ingredients' => [
         '1 c. all-purpose flour',
         '2 tbsp. sugar',
@@ -35,8 +34,8 @@ return [
         'Tip: For thinner pancakes, add a little more milk to the batter.',
     ],
     'prepTime' => 'PT20M',
-    'publisher' => null,
+    'publisher' => 'Good Housekeeping',
     'totalTime' => 'PT30M',
-    'url' => 'http://www.goodhousekeeping.com/food-recipes/a15177/pancakes-recipe-ghk0213/',
-    'yield' => '3 servings, 12 pancakes',
+    'url' => 'https://www.goodhousekeeping.com/food-recipes/a15177/pancakes-recipe-ghk0213/',
+    'yield' => '3 servings',
 ];

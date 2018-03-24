@@ -32,6 +32,7 @@ class HearstDigitalMedia extends SchemaOrgJsonLd
         'www.countryliving.com',
         'www.delish.com',
         'www.esquire.com',
+        'www.goodhousekeeping.com',
         'www.redbookmag.com',
         'www.womansday.com',
     ];
@@ -62,7 +63,11 @@ class HearstDigitalMedia extends SchemaOrgJsonLd
 
     protected function extractDescription(Crawler $crawler, array $json)
     {
-        if ('www.esquire.com' === parse_url($crawler->getUri(), PHP_URL_HOST)) {
+        if (in_array(
+            parse_url($crawler->getUri(), PHP_URL_HOST),
+            ['www.esquire.com', 'www.goodhousekeeping.com'],
+            true
+        )) {
             return $this->extractString($crawler, '[name="description"]', ['content']);
         }
 
@@ -91,9 +96,9 @@ class HearstDigitalMedia extends SchemaOrgJsonLd
             return null;
         }
 
-        // Filter out nutrition data from www.womansday.com.
+        // Filter out nutrition data from www.womansday.com and www.goodhousekeeping.com.
         $notes = array_filter($notes, function ($note) {
-            return 0 !== stripos(trim($note), 'per serving');
+            return false === stripos(trim($note), 'per serving');
         });
 
         return array_values($notes);
