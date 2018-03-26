@@ -14,13 +14,16 @@ php:
   - 7.1
   - 7.2
   - nightly
+env:
+  - PREFER_LOWEST="--prefer-lowest --prefer-stable"
+  - PREFER_LOWEST=""
 matrix:
   fast_finish: true
   allow_failures:
     - php: nightly
-install: composer install --no-interaction --optimize-autoloader --prefer-dist
 before_script:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - composer update --no-interaction --optimize-autoloader --prefer-dist $PREFER_LOWEST
   - composer global require "phpunit/phpunit=~6.0|~7.0"
   - composer global require "squizlabs/php_codesniffer=^3.0"
 script:
