@@ -90,7 +90,9 @@ class HearstDigitalMedia extends SchemaOrgJsonLd
 
     protected function extractNotes(Crawler $crawler, array $json)
     {
-        $notes = $this->extractArray($crawler, '.tip, .recipe-tips p, .recipe-tips blockquote');
+        $selectors = ['.recipe-tips .tip', '.recipe-tips p', '.recipe-tips blockquote'];
+
+        $notes = $this->extractArray($crawler, implode(',', $selectors));
 
         if (! is_array($notes)) {
             return null;
