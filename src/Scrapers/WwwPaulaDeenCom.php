@@ -2,7 +2,6 @@
 
 namespace RecipeScraper\Scrapers;
 
-use Stringy\Stringy;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
