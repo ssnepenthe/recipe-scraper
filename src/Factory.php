@@ -30,6 +30,7 @@ class Factory
         Scrapers\WwwFarmFlavorCom::class => null,
         Scrapers\WwwFineCookingCom::class => null,
         Scrapers\WwwGeniusKitchenCom::class => null,
+        Scrapers\WwwJamieOliverCom::class => null,
         Scrapers\WwwJustATasteCom::class => null,
         Scrapers\WwwMarthaStewartCom::class => null,
         Scrapers\WwwPaulaDeenCom::class => null,
