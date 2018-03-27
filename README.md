@@ -86,12 +86,15 @@ OUTPUT:
 ```PHP
 array(15) {
     'author' => string(9) "carrielee"
-    'categories' => NULL
+    'categories' => array(2) {
+        [0] => string(21) "Appetizers and Snacks"
+        [1] => string(5) "Spicy"
+    }
     'cookingMethod' => NULL
     'cookTime' => string(5) "PT10M"
     'cuisines' => NULL
     'description' => string(336) ""I've looked all over the net and haven't found a shrimp ceviche quite like this one! My friends absolutely love it and beg me for the recipe! You can always double it for larger parties--it goes FAST! Serve as a dip with tortilla chips or as a topping on a tostada spread with mayo. The fearless palate might like this with hot sauce.""
-    'image' => string(65) "http://images.media-allrecipes.com/userphotos/560x315/1364063.jpg"
+    'image' => string(66) "https://images.media-allrecipes.com/userphotos/560x315/1364063.jpg"
     'ingredients' => array(9) {
         [0] => string(41) "1 pound peeled and deveined medium shrimp"
         [1] => string(22) "1 cup fresh lime juice"
@@ -112,7 +115,7 @@ array(15) {
     'prepTime' => string(5) "PT45M"
     'publisher' => NULL
     'totalTime' => string(5) "PT55M"
-    'url' => string(57) "http://allrecipes.com/recipe/139917/joses-shrimp-ceviche/"
+    'url' => string(62) "https://www.allrecipes.com/recipe/139917/joses-shrimp-ceviche/"
     'yield' => string(2) "20"
 }
 ```
