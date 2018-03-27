@@ -34,7 +34,7 @@ trait UsesTestData
         if (! file_exists($htmlPath)) {
             $this->fail(
                 "Unable to locate test HTML for {$url} at {$htmlPath}\n"
-                    . 'Please run ./bin/test-tools get-html --missing'
+                    . 'Please run ./bin/test-tools html:get-missing'
             );
         }
 
@@ -90,7 +90,7 @@ trait UsesTestData
         if (! file_exists($resultsPath)) {
             $this->fail(
                 "Unable to locate test results for {$url} at {$resultsPath}\n"
-                    . 'Please run ./bin/test-tools stub-results'
+                    . 'Please run ./bin/test-tools results:stub-all'
             );
         }
 
