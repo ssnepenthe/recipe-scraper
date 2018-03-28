@@ -6,6 +6,25 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class DelegatingScraper implements ScraperInterface
 {
+    const EMPTY_RECIPE = [
+        'author' => null,
+        'categories' => null,
+        'cookingMethod' => null,
+        'cookTime' => null,
+        'cuisines' => null,
+        'description' => null,
+        'image' => null,
+        'ingredients' => null,
+        'instructions' => null,
+        'name' => null,
+        'notes' => null,
+        'prepTime' => null,
+        'publisher' => null,
+        'totalTime' => null,
+        'url' => null,
+        'yield' => null,
+    ];
+
     /**
      * @var ScraperResolverInterface
      */
@@ -23,7 +42,7 @@ class DelegatingScraper implements ScraperInterface
     public function scrape(Crawler $crawler) : array
     {
         if (false === $scraper = $this->resolver->resolve($crawler)) {
-            return $this->generateEmptyRecipe();
+            return self::EMPTY_RECIPE;
         }
 
         return $scraper->scrape($crawler);
@@ -36,29 +55,5 @@ class DelegatingScraper implements ScraperInterface
     public function supports(Crawler $crawler) : bool
     {
         return false !== $this->resolver->resolve($crawler);
-    }
-
-    /**
-     * @return array
-     */
-    protected function generateEmptyRecipe() : array
-    {
-        return [
-            'author' => null,
-            'categories' => null,
-            'cookingMethod' => null,
-            'cookTime' => null,
-            'cuisines' => null,
-            'description' => null,
-            'image' => null,
-            'ingredients' => null,
-            'instructions' => null,
-            'name' => null,
-            'prepTime' => null,
-            'publisher' => null,
-            'totalTime' => null,
-            'url' => null,
-            'yield' => null,
-        ];
     }
 }

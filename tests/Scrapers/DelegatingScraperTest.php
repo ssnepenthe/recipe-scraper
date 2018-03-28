@@ -13,23 +13,14 @@ class DelegatingScraperTest extends TestCase
     /** @test */
     public function it_delegates_to_resolver_when_performing_scrape()
     {
-        $recipe = [
+        $recipe = array_merge(DelegatingScraper::EMPTY_RECIPE, [
             'author' => 'doesn\'t',
-            'categories' => null,
             'cookingMethod' => 'really',
-            'cookTime' => null,
-            'cuisines' => null,
             'description' => 'matter',
             'image' => 'now',
-            'ingredients' => null,
-            'instructions' => null,
             'name' => 'does',
-            'prepTime' => null,
             'publisher' => 'it',
-            'totalTime' => null,
-            'url' => null,
-            'yield' => null,
-        ];
+        ]);
 
         $crawlerStub = $this->createMock(Crawler::class);
 
@@ -51,24 +42,6 @@ class DelegatingScraperTest extends TestCase
     /** @test */
     public function it_returns_empty_recipe_for_unsupported_crawler()
     {
-        $recipe = [
-            'author' => null,
-            'categories' => null,
-            'cookingMethod' => null,
-            'cookTime' => null,
-            'cuisines' => null,
-            'description' => null,
-            'image' => null,
-            'ingredients' => null,
-            'instructions' => null,
-            'name' => null,
-            'prepTime' => null,
-            'publisher' => null,
-            'totalTime' => null,
-            'url' => null,
-            'yield' => null,
-        ];
-
         $crawlerStub = $this->createMock(Crawler::class);
 
         $resolverStub = $this->createMock(ScraperResolverInterface::class);
@@ -78,7 +51,7 @@ class DelegatingScraperTest extends TestCase
 
         $scraper = new DelegatingScraper($resolverStub);
 
-        $this->assertSame($recipe, $scraper->scrape($crawlerStub));
+        $this->assertSame(DelegatingScraper::EMPTY_RECIPE, $scraper->scrape($crawlerStub));
     }
 
     /** @test */
