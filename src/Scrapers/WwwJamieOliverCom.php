@@ -2,6 +2,7 @@
 
 namespace RecipeScraper\Scrapers;
 
+use Stringy\Stringy;
 use RecipeScraper\Arr;
 use Symfony\Component\DomCrawler\Crawler;
 use RecipeScraper\ExtractsDataFromCrawler;
@@ -66,6 +67,12 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
 
         return empty($cuisines) ? null : $cuisines;
     }
+
+    protected function extractIngredients(Crawler $crawler, array $json)
+    {
+        return $this->extractArray($crawler, '.ingred-list li');
+    }
+
     /**
      * @param  Crawler $crawler
      * @param  array   $json
@@ -90,5 +97,18 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
     protected function extractUrl(Crawler $crawler, array $json)
     {
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);
+    }
+
+    protected function postNormalizeIngredients($value, Crawler $crawler)
+    {
+        if (! Arr::ofStrings($value)) {
+            return null;
+        }
+
+        return array_map(function ($ingredient) {
+            // Note/descriptor is appended with leading " , " - let's remove that front space.
+            return (string) Stringy::create($ingredient)
+                ->regexReplace('[[:space:]]+,[[:space:]]+', ', ');
+        }, $value);
     }
 }

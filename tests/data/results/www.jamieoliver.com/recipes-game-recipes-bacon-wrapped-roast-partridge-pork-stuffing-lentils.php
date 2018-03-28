@@ -31,7 +31,7 @@ return [
         'a few sprigs of fresh rosemary',
         '4 fresh bay leaves',
         '2-3 cloves of garlic',
-        '1-2 cherry tomatoes optional',
+        '1-2 cherry tomatoes, optional',
         'extra virgin olive oil',
         '2 tablespoons red wine vinegar',
         '100 g baby spinach',
