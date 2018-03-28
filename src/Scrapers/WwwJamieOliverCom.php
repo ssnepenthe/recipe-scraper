@@ -81,7 +81,11 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
     protected function extractInstructions(Crawler $crawler, array $json)
     {
         // Instructions within JSON have HTML tags, avoiding them
-        return $this->extractArray($crawler, '.recipeSteps li');
+        if ($list = $this->extractArray($crawler, '.recipeSteps li')) {
+            return $list;
+        }
+
+        return $this->extractString($crawler, '.method-p div');
     }
 
     protected function extractNameSub(Crawler $crawler, array $json)
@@ -116,5 +120,22 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
             return (string) Stringy::create($ingredient)
                 ->regexReplace('[[:space:]]+,[[:space:]]+', ', ');
         }, $value);
+    }
+
+    protected function preNormalizeInstructions($value, Crawler $crawler)
+    {
+        if (Arr::ofStrings($value)) {
+            return $value;
+        }
+
+        // Separate instructions that are split by line breaks into multiple instructions.
+        // @see https://www.jamieoliver.com/recipes/egg-recipes/scrambled-egg-omelette/
+        if (is_string($value)) {
+            return array_filter(array_map(function ($instruction) {
+                return (string) $instruction->trim();
+            }, Stringy::create($value)->lines()));
+        }
+
+        return null;
     }
 }
