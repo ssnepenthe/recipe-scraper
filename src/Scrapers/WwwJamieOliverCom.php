@@ -89,6 +89,12 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
         return $this->extractString($crawler, '.subheading');
     }
 
+    protected function extractNotes(Crawler $crawler, array $json)
+    {
+        // @todo Needs further testing...
+        return $this->extractArray($crawler, '.instructions-wrapper > p');
+    }
+
     /**
      * @param  Crawler $crawler
      * @param  array   $json
