@@ -51,7 +51,7 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
     protected function extractCategories(Crawler $crawler, array $json)
     {
         $categories = Arr::get($json, 'recipeCategory');
-        $tags = $this->extractArrayFromChildren($crawler, '[class="tags-list"] a');
+        $tags = $this->extractArray($crawler, '[class="tags-list"] a');
 
         if (is_array($categories)) {
             return array_merge($categories, $tags);
@@ -91,7 +91,7 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
             '[class="recipeSteps"] li',
         ];
 
-        return $this->extractArrayFromChildren($crawler, implode(', ', $selectors));
+        return $this->extractArray($crawler, implode(', ', $selectors));
     }
 
     protected function extractNameSub(Crawler $crawler, array $json)
