@@ -9,7 +9,7 @@ return [
         'Jamie Magazine',
     ],
     'cookingMethod' => null,
-    'cookTime' => 'PT1H',
+    'cookTime' => null,
     'cuisines' => null,
     'description' => 'The beauty of this dish is you can freeze any leftovers, ready for another day when you\'re short on time, or aren\'t feeling in the mood - it beats takeaways!',
     'image' => 'http://cdn.jamieoliver.com/recipe-database/xtra_med/EE8JvDBE4Iq807-JvFz0o5.jpg',

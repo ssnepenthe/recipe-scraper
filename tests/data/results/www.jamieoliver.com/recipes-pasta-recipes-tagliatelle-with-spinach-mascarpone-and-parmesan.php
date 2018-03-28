@@ -10,7 +10,7 @@ return [
             'Jamie\'s Dinners',
     ],
     'cookingMethod' => null,
-    'cookTime' => 'PT25M',
+    'cookTime' => null,
     'cuisines' => [
         'https://schema.org/VegetarianDiet',
     ],

@@ -61,20 +61,6 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
     /**
      * @param  Crawler $crawler
      * @param  array   $json
-     * @return string|null
-     */
-    protected function extractCookTime(Crawler $crawler, array $json)
-    {
-        if (is_string($cookTime = Arr::get($json, 'totalTime'))) {
-            return $cookTime;
-        }
-
-        return null;
-    }
-
-    /**
-     * @param  Crawler $crawler
-     * @param  array   $json
      * @return string[]|null
      */
     protected function extractInstructions(Crawler $crawler, array $json)

@@ -10,7 +10,7 @@ return [
         'Alfresco',
     ],
     'cookingMethod' => null,
-    'cookTime' => 'PT30M',
+    'cookTime' => null,
     'cuisines' => [
         'https://schema.org/VegetarianDiet',
         'https://schema.org/VeganDiet',

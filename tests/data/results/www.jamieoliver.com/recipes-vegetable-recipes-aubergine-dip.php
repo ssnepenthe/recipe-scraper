@@ -10,7 +10,7 @@ return [
             'Party food',
     ],
     'cookingMethod' => null,
-    'cookTime' => 'PT1H5M',
+    'cookTime' => null,
     'cuisines' => [
         'https://schema.org/VegetarianDiet',
     ],
