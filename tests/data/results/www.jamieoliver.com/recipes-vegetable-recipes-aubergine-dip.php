@@ -12,7 +12,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => [
-        'https://schema.org/VegetarianDiet',
+        'Vegetarian',
     ],
     'description' => null,
     'image' => 'http://cdn.jamieoliver.com/recipe-database/xtra_med/46256344.jpg',

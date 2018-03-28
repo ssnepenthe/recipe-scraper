@@ -10,9 +10,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  * Lose out on ingredient and instruction group titles by using LD+JSON.
  * (eg - https://www.jamieoliver.com/recipes/seafood-recipes/alesha-dixon-s-spicy-prawns/)
  *
- * Some recipes return cuisines
- * - is a schema.org url (eg 'https://schema.org/VegetarianDiet')
- * - cuisine = diatary category in JO's world. Vegan/GlutenFree etc
  * No Cooking Method seen
  * No Notes seen
  * Sporadic use of cookTime, prepTime & totalTime
@@ -58,6 +55,17 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
         return empty($categories) ? null : $categories;
     }
 
+    protected function extractCuisines(Crawler $crawler, array $json)
+    {
+        $json = parent::extractCuisines($crawler, $json) ?: [];
+        $markup = $this->extractArray($crawler, '.special-diets-list .full-name') ?: [];
+
+        $cuisines = array_unique(array_filter(array_merge($json, $markup), function ($cuisine) {
+            return false === strpos($cuisine, 'schema.org');
+        }));
+
+        return empty($cuisines) ? null : $cuisines;
+    }
     /**
      * @param  Crawler $crawler
      * @param  array   $json

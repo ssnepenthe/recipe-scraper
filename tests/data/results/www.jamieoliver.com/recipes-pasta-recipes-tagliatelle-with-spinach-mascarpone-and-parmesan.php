@@ -12,7 +12,7 @@ return [
     'cookingMethod' => null,
     'cookTime' => null,
     'cuisines' => [
-        'https://schema.org/VegetarianDiet',
+        'Vegetarian',
     ],
     'description' => 'This delicious tagliatelle looks fancy but is really simple to throw together - a great quick dinner',
     'image' => 'http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/589_1_1438868514.jpg',
