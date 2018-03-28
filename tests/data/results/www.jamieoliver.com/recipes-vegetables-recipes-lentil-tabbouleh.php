@@ -26,7 +26,7 @@ return [
         '1 large bunch of fresh flat-leaf parsley',
         '1 large bunch of fresh mint',
         'extra virgin olive oil',
-        '1 lemon'
+        '1 lemon',
     ],
     'instructions' => [
         'Rinse the lentils, then cook in plenty of salted water until tender. Drain and set aside to cool.',
@@ -40,5 +40,5 @@ return [
     'totalTime' => 'PT30M',
     'url' => 'https://www.jamieoliver.com/recipes/vegetables-recipes/lentil-tabbouleh/',
     'yield' => '4',
-    'nameSub' => null
+    'nameSub' => null,
 ];

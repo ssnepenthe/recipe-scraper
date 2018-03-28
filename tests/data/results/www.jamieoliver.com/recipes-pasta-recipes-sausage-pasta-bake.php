@@ -8,7 +8,7 @@ return [
         'Father\'s day',
         'Jamie Magazine',
     ],
-    'cookingMethod' => '',
+    'cookingMethod' => null,
     'cookTime' => 'PT1H',
     'cuisines' => null,
     'description' => 'The beauty of this dish is you can freeze any leftovers, ready for another day when you\'re short on time, or aren\'t feeling in the mood - it beats takeaways!',
@@ -22,7 +22,7 @@ return [
         '4 higher-welfare sausages',
         '1 pinch of dried chilli flakes',
         '3 x 400 g tins of quality plum tomatoes',
-        '400 g dried rigatoni'
+        '400 g dried rigatoni',
     ],
     'instructions' => [
         'Preheat the oven to 200ºC/400ºF/gas 6.',
@@ -32,7 +32,7 @@ return [
         'Heat a little oil in a frying pan over a medium heat. Add the remaining sliced garlic and oregano, and the chilli flakes. Stir until the garlic is coloured, then tip in the tomatoes.',
         'Add a pinch of salt and pepper, bring to the boil, then reduce the heat and simmer for 10 minutes, stirring occasionally.',
         'Cook the rigatoni according to the packet instructions, taking it off the heat 2 minutes before the end, so it\'s al dente. Drain in a colander and tip into a large baking dish.',
-        'Add the meatballs, pour over the sauce and toss well. Sprinkle over the cheesy crumb mix and bake for 15 minutes, or until golden on top and bubbling.'
+        'Add the meatballs, pour over the sauce and toss well. Sprinkle over the cheesy crumb mix and bake for 15 minutes, or until golden on top and bubbling.',
     ],
     'name' => 'Sausage pasta bake',
     'notes' => null,
@@ -41,5 +41,5 @@ return [
     'totalTime' => 'PT1H',
     'url' => 'https://www.jamieoliver.com/recipes/pasta-recipes/sausage-pasta-bake/',
     'yield' => '4',
-    'nameSub' => 'Topped with Cheddar & oregano breadcrumbs'
+    'nameSub' => 'Topped with Cheddar & oregano breadcrumbs',
 ];

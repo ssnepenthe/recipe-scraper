@@ -8,7 +8,6 @@ return [
         'Dinner Party',
         'Sunday lunch',
         'British',
-
     ],
     'cookingMethod' => null,
     'cookTime' => null,
@@ -37,7 +36,7 @@ return [
         '2 tablespoons red wine vinegar',
         '100 g baby spinach',
         '2-3 tablespoons quality blueberry jam',
-        'Greek yoghurt'
+        'Greek yoghurt',
     ],
     'instructions' => [
         'Preheat the oven to 220ºC/gas 7 and place roasting tray inside to heat up.',
@@ -46,8 +45,7 @@ return [
         'Roll any leftover stuffing into balls. Rub olive oil, sea salt and black pepper all over the birds, then drape the pancetta or bacon over the breasts. Top each bird with a sprig of thyme, securing everything with string.',
         'Squeeze the cherry tomatoes into the pan, if you\'ve got them. Bring to the boil, then turn down and simmer for 12 to 15 minutes, or until the lentils are soft but holding their shape - the time will vary according to the type of lentil, so check the packet instructions.',
         'At this point, you only want 1cm of water, so drain away any extra, then add a swig of extra virgin olive oil and the vinegar.',
-        'Take the partridges from the plate and put them and the stuffing, on the lentils. When the sauce is sticky, dollop some yoghurt over the lentils and pour the sauce over everything. Serve right away.'
-        
+        'Take the partridges from the plate and put them and the stuffing, on the lentils. When the sauce is sticky, dollop some yoghurt over the lentils and pour the sauce over everything. Serve right away.',
     ],
     'name' => 'Bacon-wrapped roast partridge, pork stuffing & lentils',
     'notes' => null,
@@ -56,5 +54,5 @@ return [
     'totalTime' => null,
     'url' => 'https://www.jamieoliver.com/recipes/game-recipes/bacon-wrapped-roast-partridge-pork-stuffing-lentils/',
     'yield' => '4',
-    'nameSub' => null
+    'nameSub' => null,
 ];

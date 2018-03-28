@@ -7,7 +7,7 @@ return [
             'Vegetables',
             'Al Fresco',
             'Lighter New Year',
-            'Party food'
+            'Party food',
     ],
     'cookingMethod' => null,
     'cookTime' => 'PT1H5M',
@@ -38,5 +38,5 @@ return [
     'totalTime' => 'PT1H5M',
     'url' => 'https://www.jamieoliver.com/recipes/vegetable-recipes/aubergine-dip/',
     'yield' => '4 as a snack',
-    'nameSub' => null
+    'nameSub' => null,
 ];
