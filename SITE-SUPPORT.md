@@ -36,7 +36,7 @@
 - [ ] https://www.hillshirefarm.com/
 - [ ] https://www.humoroushomemaking.com/ (formerly stacymakescents.com)
 - [ ] http://www.inspiredtaste.net/
-- [ ] http://www.jamieoliver.com/
+- [x] http://www.jamieoliver.com/
 - [ ] http://www.joyofbaking.com/ (no structured markup)
 - [x] https://www.justataste.com/
 - [ ] http://www.kingarthurflour.com/
