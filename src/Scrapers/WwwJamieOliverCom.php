@@ -50,19 +50,12 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
      */
     protected function extractCategories(Crawler $crawler, array $json)
     {
-        $categories = Arr::get($json, 'recipeCategory');
-        $tags = $this->extractArray($crawler, '[class="tags-list"] a');
+        $categories = array_values(array_filter(array_merge(
+            [Arr::get($json, 'recipeCategory')],
+            $this->extractArray($crawler, '[class="tags-list"] a') ?: []
+        )));
 
-        if (is_array($categories)) {
-            return array_merge($categories, $tags);
-        }
-
-        if (is_string($categories)) {
-            return array_merge([$categories], $tags);
-            return [$categories];
-        }
-
-        return null;
+        return empty($categories) ? null : $categories;
     }
 
     /**
