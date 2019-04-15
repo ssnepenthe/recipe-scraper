@@ -14,7 +14,6 @@ cache:
     - $HOME/.composer/cache/files
 
 php:
-  - 7.0
   - 7.1
   - 7.2
   - nightly
@@ -31,7 +30,7 @@ matrix:
 before_script:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
   - composer update --no-interaction --optimize-autoloader --prefer-dist $PREFER_LOWEST
-  - composer global require "phpunit/phpunit=~6.0|~7.0"
+  - composer global require "phpunit/phpunit=~7.0"
   - composer global require "squizlabs/php_codesniffer=^3.0"
 
 script:
