@@ -25,6 +25,7 @@ return [
         'Soy Free',
         'No Sugar Added',
         'Kosher',
+        'Small Plates',
     ],
     'cookingMethod' => null,
     'cookTime' => 'PT15M',

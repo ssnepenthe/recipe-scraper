@@ -14,6 +14,7 @@ return [
         'Healthy',
         'Tortillas',
         'Bon Appétit',
+        'Small Plates',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
