@@ -8,4 +8,5 @@ return array (
   4 => 'https://www.epicurious.com/recipes/food/views/salmon-burgers-with-lemon-and-capers-103498',
   5 => 'https://www.epicurious.com/recipes/food/views/green-bean-nicoise-salad',
   6 => 'https://www.epicurious.com/recipes/food/views/mediterranean-rice-noodles-56389410',
+  7 => 'https://www.epicurious.com/recipes/food/views/glazed-cinnamon-cardamom-buns',
 );
