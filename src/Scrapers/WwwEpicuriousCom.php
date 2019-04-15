@@ -35,7 +35,7 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
      */
     protected function extractIngredients(Crawler $crawler)
     {
-        return $this->extractArray($crawler, '.ingredient-group strong, [itemprop="ingredients"]');
+        return $this->extractArray($crawler, '.ingredient-group > strong, [itemprop="ingredients"]');
     }
 
     /**
@@ -44,7 +44,7 @@ class WwwEpicuriousCom extends SchemaOrgMarkup
      */
     protected function extractInstructions(Crawler $crawler)
     {
-        return $this->extractArray($crawler, '.preparation-group strong, .preparation-step');
+        return $this->extractArray($crawler, '.preparation-group > strong, .preparation-step');
     }
 
     /**
