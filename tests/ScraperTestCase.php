@@ -12,7 +12,7 @@ abstract class ScraperTestCase extends TestCase
     protected $scraper;
     protected $urls;
 
-    public function setUp()
+    public function setUp() : void
     {
         $urlsPath = $this->getUrlsDataFilePath($this->getHost());
 
@@ -24,7 +24,7 @@ abstract class ScraperTestCase extends TestCase
         $this->urls = static::includeFile($urlsPath);
     }
 
-    public function tearDown()
+    public function tearDown() : void
     {
         $this->scraper = null;
         $this->urls = null;

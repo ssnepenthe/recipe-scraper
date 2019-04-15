@@ -8,7 +8,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class UrlTest extends TestCase
 {
-    public function setUp()
+    public function setUp() : void
     {
         $this->crawler = new Crawler(
             '<html><head></head><body></body></html>',
