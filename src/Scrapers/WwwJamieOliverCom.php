@@ -70,6 +70,13 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
 
     protected function extractIngredients(Crawler $crawler, array $json)
     {
+        // If .ingred-list.metric is present, the usual .ingred-list selector
+        // would double each ingredient, showing imperial measurements.
+        // eg: https://www.jamieoliver.com/recipes/fish-recipes/jumbo-fish-fingers/
+        if ($metric = $this->extractArray($crawler, '.ingred-list.metric li')) {
+            return $metric;
+        }
+
         return $this->extractArray($crawler, '.ingred-list li');
     }
 
@@ -81,6 +88,11 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
     protected function extractInstructions(Crawler $crawler, array $json)
     {
         // Instructions within JSON have HTML tags, avoiding them
+        // Defaulting to metric steps, if metric & imperial are present
+        if ($list = $this->extractArray($crawler, '.metric .recipeSteps li')) {
+            return $list;
+        }
+
         if ($list = $this->extractArray($crawler, '.recipeSteps li')) {
             return $list;
         }
