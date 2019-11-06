@@ -4,10 +4,11 @@ return [
     'author' => 'Anna Jones',
     'categories' => [
         'Healthy meals',
+        'Jamie Magazine',
         'Vegetables',
         'Christmas',
-        'Vegetarian',
-        'Dairy-free',
+        'Cauliflower',
+        'Family',
     ],
     'cookingMethod' => null,
     'cookTime' => null,

@@ -4,10 +4,11 @@ return [
     'author' => 'Rebecca Rauter',
     'categories' => [
         'Sides',
+        'Jamie Magazine',
         'Vegetables',
-        'Picnic',
-        'Lighter New Year',
         'Alfresco',
+        'Greek',
+        'Lentil',
     ],
     'cookingMethod' => null,
     'cookTime' => null,

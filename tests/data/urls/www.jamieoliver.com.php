@@ -8,4 +8,5 @@ return array (
   4 => 'https://www.jamieoliver.com/recipes/vegetables-recipes/grilled-cauliflower-with-winter-pesto/',
   5 => 'https://www.jamieoliver.com/recipes/pasta-recipes/cracker-ravioli/',
   6 => 'https://www.jamieoliver.com/recipes/egg-recipes/scrambled-egg-omelette/',
+  7 => 'https://www.jamieoliver.com/recipes/eggs-recipes/simple-cheese-omelette/',
 );

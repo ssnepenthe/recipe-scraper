@@ -4,10 +4,12 @@ return [
     'author' => 'Jamie Oliver',
     'categories' => [
         'Mains',
+        'Jamie Magazine',
         'Game',
         'Dinner Party',
         'Sunday lunch',
         'British',
+        'Lentil',
     ],
     'cookingMethod' => null,
     'cookTime' => null,
