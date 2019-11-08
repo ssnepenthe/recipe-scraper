@@ -90,14 +90,17 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
         // Instructions within JSON have HTML tags, avoiding them
         // Defaulting to metric steps, if metric & imperial are present
         if ($list = $this->extractArray($crawler, '.metric .recipeSteps li')) {
-            return $list;
+        } elseif ($list = $this->extractArray($crawler, '.recipeSteps li')) {
+        } else {
+            return $this->extractString($crawler, '.method-p div');
         }
 
-        if ($list = $this->extractArray($crawler, '.recipeSteps li')) {
-            return $list;
-        }
+        // Filter out any 'PRINT THIS RECIPE' steps
+        $list = array_filter($list, function ($instruction) {
+            return false === stripos(trim($instruction), 'print this recipe');
+        });
 
-        return $this->extractString($crawler, '.method-p div');
+        return array_values($list);
     }
 
     protected function extractNameSub(Crawler $crawler, array $json)

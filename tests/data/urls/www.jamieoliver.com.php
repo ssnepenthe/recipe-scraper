@@ -10,4 +10,5 @@ return array (
   6 => 'https://www.jamieoliver.com/recipes/egg-recipes/scrambled-egg-omelette/',
   7 => 'https://www.jamieoliver.com/recipes/eggs-recipes/simple-cheese-omelette/',
   8 => 'https://www.jamieoliver.com/recipes/fish-recipes/jumbo-fish-fingers/',
+  9 => 'https://www.jamieoliver.com/recipes/vegetable-recipes/simple-houmous/',
 );

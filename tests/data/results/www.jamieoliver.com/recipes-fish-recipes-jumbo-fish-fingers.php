@@ -11,9 +11,9 @@ return [
         'Freezer-friendly recipes',
         'Healthy fish recipes'
     ],
-    'cookingMethod' => '',
-    'cookTime' => '',
-    'cuisines' => '',
+    'cookingMethod' => null,
+    'cookTime' => null,
+    'cuisines' => null,
     'description' => 'The perfect family favourite to have in the freezer, fish, especially salmon, is packed with omega-3 fatty acids, which are essential for keeping our blood cholesterol healthy.',
     'image' => 'http://cdn.jamieoliver.com/recipe-database/xtra_med/51137579.jpg',
     'ingredients' => [
@@ -37,8 +37,8 @@ return [
     'notes' => [
         'Sides of salmon are often on offer - it\'s simply one of the realities of the fish farming industry that due to variations in supply and demand, there\'ll be surpluses. So when you see salmon on offer - take action and take advantage of that great value!',
     ],
-    'prepTime' => '',
-    'publisher' => '',
+    'prepTime' => null,
+    'publisher' => null,
     'totalTime' => 'PT25M',
     'url' => 'https://www.jamieoliver.com/recipes/fish-recipes/jumbo-fish-fingers/',
     'yield' => '10 portions',
