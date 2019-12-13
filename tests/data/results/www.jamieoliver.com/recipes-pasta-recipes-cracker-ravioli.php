@@ -4,10 +4,10 @@ return [
     'author' => 'Jamie Oliver',
     'categories' => [
         'Mains',
-        'Pasta',
         'Christmas',
-        'Vegetarian',
-        'Jamie Oliver\'s Christmas Cookbook',
+        'Spinach',
+        'Italian',
+        'Pasta & risotto',
     ],
     'cookingMethod' => null,
     'cookTime' => null,

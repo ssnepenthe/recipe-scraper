@@ -48,10 +48,10 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
      */
     protected function extractCategories(Crawler $crawler, array $json)
     {
-        $categories = array_values(array_filter(array_merge(
+        $categories = array_values(array_unique(array_filter(array_merge(
             [Arr::get($json, 'recipeCategory')],
             $this->extractArray($crawler, '.tags-list a') ?: []
-        )));
+        ))));
 
         return empty($categories) ? null : $categories;
     }
@@ -70,6 +70,13 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
 
     protected function extractIngredients(Crawler $crawler, array $json)
     {
+        // If .ingred-list.metric is present, the usual .ingred-list selector
+        // would double each ingredient, showing imperial measurements.
+        // eg: https://www.jamieoliver.com/recipes/fish-recipes/jumbo-fish-fingers/
+        if ($metric = $this->extractArray($crawler, '.ingred-list.metric li')) {
+            return $metric;
+        }
+
         return $this->extractArray($crawler, '.ingred-list li');
     }
 
@@ -81,11 +88,19 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
     protected function extractInstructions(Crawler $crawler, array $json)
     {
         // Instructions within JSON have HTML tags, avoiding them
-        if ($list = $this->extractArray($crawler, '.recipeSteps li')) {
-            return $list;
+        // Defaulting to metric steps, if metric & imperial are present
+        if ($list = $this->extractArray($crawler, '.metric .recipeSteps li')) {
+        } elseif ($list = $this->extractArray($crawler, '.recipeSteps li')) {
+        } else {
+            return $this->extractString($crawler, '.method-p div');
         }
 
-        return $this->extractString($crawler, '.method-p div');
+        // Filter out any 'PRINT THIS RECIPE' steps
+        $list = array_filter($list, function ($instruction) {
+            return false === stripos(trim($instruction), 'print this recipe');
+        });
+
+        return array_values($list);
     }
 
     protected function extractNameSub(Crawler $crawler, array $json)
@@ -96,7 +111,7 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
     protected function extractNotes(Crawler $crawler, array $json)
     {
         // @todo Needs further testing...
-        return $this->extractArray($crawler, '.instructions-wrapper > p');
+        return $this->extractArray($crawler, '.tip > p');
     }
 
     /**

@@ -13,13 +13,13 @@
 
 
     <!-- Meta -->
-    <title>Sausage pasta bake recipe | Jamie Oliver pasta recipes</title>
-    <meta name="description" content="A Jamie Oliver sausage pasta bake recipe that's packed with flavour. This is like the best sausage pasta recipe kicked up a gear! Topped with Cheddar cheese" />
+    <title>Easy cheese omelette recipe | Jamie Oliver egg recipes</title>
+    <meta name="description" content="An easy cheese omelette recipe shows you the easiest way to make an omelette. This is a great quick meal for any time of day! Delicious with a green salad." />
     <meta name="keywords" content="Jamie Oliver, recipes, food, pasta, lasagne, videos" />
     <meta name="author" content="JamieOliver.com" />
     <meta name="p:domain_verify" content="050179ea6bc8e9e62d0fd9edcc154d4a" />
 
-	<meta property="fb:pages" content="27994914806">    <link rel="canonical" href="https://www.jamieoliver.com/recipes/pasta-recipes/sausage-pasta-bake/" />
+	<meta property="fb:pages" content="27994914806">    <link rel="canonical" href="https://www.jamieoliver.com/recipes/eggs-recipes/simple-cheese-omelette/" />
 
     <meta name="google-signin-client_id" content="619762044509-j5p2iaoirs7u0pveeqh0qahjj4tddk05.apps.googleusercontent.com">
 
@@ -42,14 +42,14 @@
         <link href="//cdn.jamieoliver.com/library/build/331/style.concat.css" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,700,300" rel="stylesheet">
-<meta property="og:image" content="//cdn.jamieoliver.com/recipe-database/medium/EE8JvDBE4Iq807-JvFz0o5.jpg" />
-<meta property="og:site_name" content="Jamie Oliver" /><meta property="og:title" content="Sausage pasta bake recipe | Jamie Oliver pasta recipes" />
-<meta property="og:description" content="A Jamie Oliver sausage pasta bake recipe that's packed with flavour. This is like the best sausage pasta recipe kicked up a gear! Topped with Cheddar cheese" />
+<meta property="og:image" content="//cdn.jamieoliver.com/recipe-database/medium/0siQaM1MqTv8KwCQYOv41F.jpg" />
+<meta property="og:site_name" content="Jamie Oliver" /><meta property="og:title" content="Easy cheese omelette recipe | Jamie Oliver egg recipes" />
+<meta property="og:description" content="An easy cheese omelette recipe shows you the easiest way to make an omelette. This is a great quick meal for any time of day! Delicious with a green salad." />
 <meta name="twitter:site" content="@jamieoliver">
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Sausage pasta bake recipe | Jamie Oliver pasta recipes" />
-<meta name="twitter:description" content="A Jamie Oliver sausage pasta bake recipe that's packed with flavour. This is like the best sausage pasta recipe kicked up a gear! Topped with Cheddar cheese" />
-<meta name="twitter:image" content="https://cdn.jamieoliver.com/recipe-database/medium/EE8JvDBE4Iq807-JvFz0o5.jpg" />
+<meta name="twitter:title" content="Easy cheese omelette recipe | Jamie Oliver egg recipes" />
+<meta name="twitter:description" content="An easy cheese omelette recipe shows you the easiest way to make an omelette. This is a great quick meal for any time of day! Delicious with a green salad." />
+<meta name="twitter:image" content="https://cdn.jamieoliver.com/recipe-database/medium/0siQaM1MqTv8KwCQYOv41F.jpg" />
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -78,31 +78,31 @@
 <!-- Google tag manager -->
 <script>dataLayer = [];
  digitalData = {
- pageInstanceID: "72169",
+ pageInstanceID: "73614",
  page:{
    pageInfo: {
-     pageID: "72169",
+     pageID: "73614",
      pageName: "Recipes",
      destinationURL: document.location
    },
    category : {
      primaryCategory: "Recipes",
-     subCategory1: "Pasta Recipes",
-     subCategory2: "Sausage pasta bake",
-     pageType: "Pasta Recipes"
+     subCategory1: "Eggs Recipes",
+     subCategory2: "Simple cheese omelette",
+     pageType: "Eggs Recipes"
    },
    attributes: {
-     numberServes: "4",
-     timeCooksIn: "1 hour",
+     numberServes: "1",
+     timeCooksIn: "10 minutes",
      difficulty: "Super easy",
-     caloriesPercentageOfIntake: "28%",
-     fatPercentageOfIntake: "29%",
-     saturatesPercentageOfIntake: "34%",
-     proteinPercentageOfIntake: "57%",
-     carbsPercentageOfIntake: "28%",
-     sugarPercentageOfIntake: "12%",
-     specialDiets: [],
-     src: "jamie-magazine"
+     caloriesPercentageOfIntake: "12%",
+     fatPercentageOfIntake: "26%",
+     saturatesPercentageOfIntake: "37%",
+     proteinPercentageOfIntake: "39%",
+     carbsPercentageOfIntake: "0%",
+     sugarPercentageOfIntake: "0%",
+     specialDiets: ["gluten-free","vegetarian"],
+     src: "jamies-food-revolution"
    }
   }
   };
@@ -110,7 +110,7 @@
   dataLayer.push({
     "digitalData" : digitalData
   });</script>
-<div class="site-wrapper wrap--sausage-pasta-bake">
+<div class="site-wrapper wrap--simple-cheese-omelette">
 
     <header id="main-header" class="main-header has-leaderboard-ad">
         <div class="header-content stick ">
@@ -449,7 +449,7 @@
     </header>
 
     <script type="application/ld+json">
-{"@context":"http:\/\/schema.org","@type":"Recipe","image":"http:\/\/cdn.jamieoliver.com\/recipe-database\/xtra_med\/EE8JvDBE4Iq807-JvFz0o5.jpg","name":"Sausage pasta bake","recipeCategory":"Mains","description":"The beauty of this dish is you can freeze any leftovers, ready for another day when you\u2019re short on time, or aren\u2019t feeling in the mood \u2013 it beats takeaways!","recipeYield":"4","totalTime":"PT1H","recipeIngredient":["3 cloves of garlic ","50 g mature Cheddar cheese  ","50 g stale bread ","2 teaspoons dried oregano ","  olive oil ","4  higher-welfare sausages  ","1 pinch of dried chilli flakes ","3 x 400 g tins of quality plum tomatoes ","400 g dried rigatoni "],"recipeInstructions":"<ol class=\"recipeSteps\"><li>Preheat the oven to 200\u00baC\/400\u00baF\/gas 6. <\/li><li>Peel and finely slice the garlic. Coarsely grate the Cheddar. Tear the stale bread into small chunks or blitz in the food processor. <\/li><li>Tip the breadcrumbs into a bowl with one of the sliced garlic cloves, a good pinch of the oregano, the grated cheese and a pinch of sea salt and a sprinkling of black pepper. Drizzle with a little oil and toss to mix it all together. <\/li><li>Pop the sausages out of their skins and break each one into 4 equal pieces. Roll each piece into a ball shape and place in an ovenproof dish. Drizzle over a little oil and roll to coat. Bake in the oven for about 10 minutes, or until golden and cooked through. <\/li><li>Heat a little oil in a frying pan over a medium heat. Add the remaining sliced garlic and oregano, and the chilli flakes. Stir until the garlic is coloured, then tip in the tomatoes. <\/li><li>Add a pinch of salt and pepper, bring to the boil, then reduce the heat and simmer for 10 minutes, stirring occasionally. <\/li><li>Cook the rigatoni according to the packet instructions, taking it off the heat 2 minutes early, so it\u2019s al dente. Drain in a colander and tip into a large baking dish. <\/li><li>Add the sausage balls, pour over the sauce and toss well. Sprinkle over the cheesy crumb mix and bake for 15 minutes, or until golden on top and bubbling.<\/li><\/ol>","keywords":"pork, meat, sausage, sausages, pasta, bake, Pasta &amp; risotto, bread, pasta bake, Pasta, Baking, Father's day, Pasta Bake, tomato","author":"Phillippa Spence","nutrition":{"calories":"567 calories","fatContent":"20 g fat","saturatedFatContent":"6.7 g saturated fat","proteinContent":"28.6 g protein","carbohydrateContent":"73 g carbohydrate","sugarContent":"10.6 g sugar","sodiumContent":"0 g salt","fiberContent":"0 g fibre","@type":"NutritionInformation"},"datePublished":"2016-03-22"}</script>
+{"@context":"http:\/\/schema.org","@type":"Recipe","image":"http:\/\/cdn.jamieoliver.com\/recipe-database\/xtra_med\/0siQaM1MqTv8KwCQYOv41F.jpg","name":"Simple cheese omelette","recipeCategory":"Breakfast","description":"This is a great quick meal at any time of the day. Eggs are a fantastic, affordable source of protein, helping our muscles to grow and repair and helping us to feel fuller for longer. Serve your omelette with wholemeal bread and a simple tomato salad for a healthy, balanced meal.","recipeYield":"1","totalTime":"PT10M","recipeIngredient":["2 large free-range eggs ","  olive oil ","10 g Cheddar cheese "],"recipeInstructions":"<ol class=\"recipeSteps\"><li>Crack the eggs into a mixing bowl, season with a pinch of sea salt and black pepper, then beat well with a fork until fully combined.<\/li><li>Place a small non-stick frying pan on a low heat to warm up.<\/li><li>Grate the cheese onto a board and set aside.<\/li><li>Add \u00bd tablespoon of oil to the hot pan, then carefully pour in the eggs.<\/li><li>Tilt the pan to spread them out evenly, using a fork to swirl the eggs around the pan a little.<\/li><li>When the omelette begins to cook and firm up, but still has a little raw egg on top, sprinkle over the cheese.<\/li><li>Using a spatula, ease around the edges of the omelette, then fold it over in half.<\/li><li>When it starts to turn golden brown underneath, remove the pan from the heat and slide the omelette onto a plate. Delicious with a tomato salad and wholemeal bread.<\/li><li>PRINT THIS RECIPE <a href=\"http:\/\/cdn.jamieoliver.com\/foodrevolution\/pdf\/cheese-omelette-fr-uk.pdf\">(UK)<\/a>\nPRINT THIS RECIPE <a href=\"http:\/\/cdn.jamieoliver.com\/foodrevolution\/pdf\/cheese-omelette-fr-usa.pdf\">(USA)<\/a><\/li><\/ol>","keywords":"jamie oliver, dairy, cheddar, cheese, gluten-free, vegetarian, Brilliant breakfast recipes, Family one-pan recipes, Mains, Meals for one, Money-saving recipes, One-pan recipes, Quick &amp; easy recipes, Quick fixes, eggs, omelette, Eggs, Frying, Jamie's Food Revolution, Popular","recipeCuisine":["https:\/\/schema.org\/GlutenFreeDiet","https:\/\/schema.org\/VegetarianDiet"],"author":"Jamie Oliver","nutrition":{"calories":"241 calories","fatContent":"18.1 g fat","saturatedFatContent":"7.4 g saturated fat","proteinContent":"19.6 g protein","carbohydrateContent":"0 g carbohydrate","sugarContent":"0.1 g sugar","sodiumContent":"1.31 g salt","fiberContent":"0.1 g fibre","@type":"NutritionInformation"},"datePublished":"2016-04-29"}</script>
     <section id="recipe-single" class=" family-food-inspiration-page-container">
 
         <div class="container recipe-container">
@@ -458,12 +458,20 @@
                 <div class="single-recipe-details-mobile col-xs-12 visible-xs-block">
 
                     <div class="single-recipe-details-mobile-top">
-                        <h3 class="h1 single-recipe-title">Sausage pasta bake</h3>
-                                                    <p class="subheading">Topped with Cheddar & oregano breadcrumbs</p>
+                        <h3 class="h1 single-recipe-title">Simple cheese omelette</h3>
+                                                    <p class="subheading">Simple, quick and nutritious</p>
                                             </div>
 
                     <div class="float-wrapper">
-                                            </div>
+                            <div class="special-diets-wrapper" >
+        <ul class="special-diets-list quantity-2">
+                            <li>
+                <a href='/recipes/category/special-diets/gluten-free/'><span class='full-name'>Gluten-free</span><span class='abbreviation'>gf</span></a>                </li>
+                            <li>
+                <a href='/recipes/category/special-diets/vegetarian/'><span class='full-name'>Vegetarian</span><span class='abbreviation'>v</span></a>                </li>
+                    </ul>
+    </div>
+                    </div>
 
                 </div>
             </div>
@@ -477,10 +485,10 @@
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sm-ls-7 recipe-header-left">
 
                             <div class="hero-wrapper">
-                                <picture><source media="(min-width:1490px)" data-breakpoint="lg" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/EE8JvDBE4Iq807-JvFz0o5.jpg?tr=w-400,"><source media="(min-width:1200px)" data-breakpoint="sd" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/EE8JvDBE4Iq807-JvFz0o5.jpg?tr=w-430,"><source media="(min-width:992px)" data-breakpoint="md" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/EE8JvDBE4Iq807-JvFz0o5.jpg?tr=w-363,"><source media="(min-width:768px)" data-breakpoint="sm" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/EE8JvDBE4Iq807-JvFz0o5.jpg?tr=w-335,"><img src="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/EE8JvDBE4Iq807-JvFz0o5.jpg?tr=w-414," alt="Sausage pasta bake"></picture>                                                            </div>
+                                <picture><source media="(min-width:1490px)" data-breakpoint="lg" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/0siQaM1MqTv8KwCQYOv41F.jpg?tr=w-400,"><source media="(min-width:1200px)" data-breakpoint="sd" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/0siQaM1MqTv8KwCQYOv41F.jpg?tr=w-430,"><source media="(min-width:992px)" data-breakpoint="md" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/0siQaM1MqTv8KwCQYOv41F.jpg?tr=w-363,"><source media="(min-width:768px)" data-breakpoint="sm" srcset="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/0siQaM1MqTv8KwCQYOv41F.jpg?tr=w-335,"><img src="//img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/0siQaM1MqTv8KwCQYOv41F.jpg?tr=w-414," alt="Simple cheese omelette"></picture>                                                            </div>
 
                             
-                                <div class="binder-component" data-id="72169"></div>
+                                <div class="binder-component" data-id="73614"></div>
 
                             
                             <a class="print-link gtm-print-link hidden-xs" title="Print"></a>
@@ -488,17 +496,25 @@
                         </div>
 
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sm-ls-5 col-xs-12 single-recipe-details">
-                            <h1 class="hidden-xs">Sausage pasta bake</h1>
-                                                            <p class="subheading hidden-xs">Topped with Cheddar & oregano breadcrumbs</p>
+                            <h1 class="hidden-xs">Simple cheese omelette</h1>
+                                                            <p class="subheading hidden-xs">Simple, quick and nutritious</p>
                             
 
                             <div class="float-wrapper hidden-xs" >
-                                                            </div>
+                                    <div class="special-diets-wrapper" >
+        <ul class="special-diets-list quantity-2">
+                            <li>
+                <a href='/recipes/category/special-diets/gluten-free/'><span class='full-name'>Gluten-free</span><span class='abbreviation'>gf</span></a>                </li>
+                            <li>
+                <a href='/recipes/category/special-diets/vegetarian/'><span class='full-name'>Vegetarian</span><span class='abbreviation'>v</span></a>                </li>
+                    </ul>
+    </div>
+                            </div>
 
                             <div class="row">
                                                                     <div class="col-md-12 hidden-xs">
                                         <div class="recipe-intro">
-                                            &ldquo;The beauty of this dish is you can freeze any leftovers, ready for another day when you’re short on time, or aren’t feeling in the mood – it beats takeaways! &rdquo;
+                                            &ldquo;This is a great quick meal at any time of the day. Eggs are a fantastic, affordable source of protein, helping our muscles to grow and repair and helping us to feel fuller for longer. Serve your omelette with wholemeal bread and a simple tomato salad for a healthy, balanced meal. &rdquo;
                                         </div>
                                     </div>
                                 
@@ -506,10 +522,10 @@
                                         <div class="row recipe-details">
                                             <div class="col-md-12 recipe-details-col remove-left-col-padding-md">
                                                                                                     <div class="recipe-detail serves">
-                                                                                                                    <span class="detail_desc">Serves</span> 4                                                                                                            </div>
+                                                                                                                    <span class="detail_desc">Serves</span> 1                                                                                                            </div>
                                                 
                                                                                                     <div class="recipe-detail time">
-                                                        <span class="detail_desc">Cooks In</span>1 hour                                                    </div>
+                                                        <span class="detail_desc">Cooks In</span>10 minutes                                                    </div>
                                                 
                                                                                                     <div class="recipe-detail difficulty super-easy">
                                                         <span class="detail_desc">Difficulty</span>Super easy                                                    </div>
@@ -529,7 +545,7 @@
     <path fill="#62A5A1" d="M17.3,6.3c-1,1-0.9,2.5,0,3.5s2.6,1,3.5,0c1-1,0.9-2.5,0-3.5C19.9,5.4,18.3,5.4,17.3,6.3z M20,9
 		c-0.5,0.5-1.3,0.5-1.8,0s-0.5-1.3,0-1.8c0.5-0.5,1.3-0.5,1.8,0C20.5,7.7,20.5,8.5,20,9z"/>
 </g>
-</svg>                                        <a href="https://www.jamieoliver.com/recipes/category/books/jamie-magazine/">Jamie Magazine</a><a href="https://www.jamieoliver.com/recipes/category/occasion/fathers-day/">Father's day</a><a href="https://www.jamieoliver.com/recipes/pork-recipes/">Pork</a><a href="https://www.jamieoliver.com/recipes/sausage-recipes/">Sausage</a><a href="https://www.jamieoliver.com/recipes/category/course/mains/">Mains</a><a href="https://www.jamieoliver.com/recipes/category/dishtype/pasta-risotto/">Pasta &amp; risotto</a>                                    </div>
+</svg>                                        <a href="https://www.jamieoliver.com/recipes/category/occasion/jamies-food-revolution/">Jamie's Food Revolution</a><a href="https://www.jamieoliver.com/recipes/eggs-recipes/">Eggs</a><a href="https://www.jamieoliver.com/recipes/category/course/breakfast/">Breakfast</a><a href="https://www.jamieoliver.com/recipes/category/course/brilliant-breakfast-recipes/">Brilliant breakfast recipes</a><a href="https://www.jamieoliver.com/recipes/category/course/family-one-pan-recipes/">Family one-pan recipes</a><a href="https://www.jamieoliver.com/recipes/category/course/mains/">Mains</a>                                    </div>
                                 </div>
                             
                             
@@ -546,9 +562,9 @@
                                 <span class="title">
                                     Calories                                </span>
                                     <span class="top">
-                                    567                                </span>
+                                    241                                </span>
                                     <span class="bottom">
-                                    28%                                </span>
+                                    12%                                </span>
                             </div>
 
                         </li>
@@ -558,9 +574,9 @@
                                 <span class="title">
                                     Fat                                </span>
                                     <span class="top">
-                                    20g                                </span>
+                                    18.1g                                </span>
                                     <span class="bottom">
-                                    29%                                </span>
+                                    26%                                </span>
                             </div>
 
                         </li>
@@ -570,9 +586,9 @@
                                 <span class="title">
                                     Saturates                                </span>
                                     <span class="top">
-                                    6.7g                                </span>
+                                    7.4g                                </span>
                                     <span class="bottom">
-                                    34%                                </span>
+                                    37%                                </span>
                             </div>
 
                         </li>
@@ -582,21 +598,33 @@
                                 <span class="title">
                                     Sugars                                </span>
                                     <span class="top">
-                                    10.6g                                </span>
+                                    0.1g                                </span>
                                     <span class="bottom">
-                                    12%                                </span>
+                                    0%                                </span>
                             </div>
 
                         </li>
-                                                                                                                    <li class="no-weight" title="Protein" data-desc="Protein helps our muscles to grow and repair, as well as providing you with essential amino acids. When it comes to protein, try to eat leaner sources such as chicken and fish or non-meat sources such as eggs, dairy, beans, nuts, seeds, tofu and pulses.">
+                                                                                <li class="no-weight" title="Salt" data-desc="Although we need a small amount of salt in our diets to help regulate the amount of water in our bodies and other bodily functions, there is a strong link between consuming too much salt and bad health. Too much salt can damage our organs and increases the risk of disease.">
+
+                            <div class="inner">
+                                <span class="title">
+                                    Salt                                </span>
+                                    <span class="top">
+                                    1.31g                                </span>
+                                    <span class="bottom">
+                                    22%                                </span>
+                            </div>
+
+                        </li>
+                                                                                <li class="no-weight" title="Protein" data-desc="Protein helps our muscles to grow and repair, as well as providing you with essential amino acids. When it comes to protein, try to eat leaner sources such as chicken and fish or non-meat sources such as eggs, dairy, beans, nuts, seeds, tofu and pulses.">
 
                             <div class="inner">
                                 <span class="title">
                                     Protein                                </span>
                                     <span class="top">
-                                    28.6g                                </span>
+                                    19.6g                                </span>
                                     <span class="bottom">
-                                    57%                                </span>
+                                    39%                                </span>
                             </div>
 
                         </li>
@@ -606,13 +634,25 @@
                                 <span class="title">
                                     Carbs                                </span>
                                     <span class="top">
-                                    73g                                </span>
+                                    0g                                </span>
                                     <span class="bottom">
-                                    28%                                </span>
+                                    0%                                </span>
                             </div>
 
                         </li>
-                                                                                    </ul>
+                                                                                <li class="no-weight" title="Fibre" data-desc="Fibre is classed as a carbohydrate and is mainly found in plant-based foods. We should be aiming for about 30g of fibre each day, to help other food and waste pass through the gut and keep our insides happy, fibre also helps to reduce blood cholesterol.">
+
+                            <div class="inner">
+                                <span class="title">
+                                    Fibre                                </span>
+                                    <span class="top">
+                                    0.1g                                </span>
+                                    <span class="bottom">
+                                    -                                </span>
+                            </div>
+
+                        </li>
+                                                </ul>
 
             <h6 class="ref">
                 Of an adult's reference intake            </h6>
@@ -628,8 +668,8 @@
 
             <div class="recipe-source-images">
                                         <div class="recipe-source-image">
-                                                            <a class="src-jamie-magazine" href="https://www.jamieoliver.com/recipes/category/books/jamie-magazine/" target="_blank">
-                                    <img src="//img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/16244a096125da879b3ceb332f0e8a37.jpeg?tr=w-140," alt="Jamie Magazine" />
+                                                            <a class="src-jamies-food-revolution" href="https://www.jamieoliver.com/campaigns/" target="_blank">
+                                    <img src="//img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/0f5baf852df8c1c72ff2cb1ceb528325?tr=w-140," alt="Jamie's Food Revolution" />
                                 </a>
                                                     </div>
                         
@@ -637,14 +677,14 @@
 
             <div class="recipe-source-details">
                 <div class="recipe-source-banner">Recipe From</div>
-                <h4>Jamie Magazine</h4>
+                <h4>Jamie's Food Revolution</h4>
 
                                     <span class="author">
-                        By Phillippa Spence                    </span>
+                        By Jamie Oliver                    </span>
                 
                 
                                                             <div class="recipe-source-link gtm-recipe-source-link">
-                            <a class="src-jamie-magazine" href="https://www.jamieoliver.com/recipes/category/books/jamie-magazine/" target="_blank">READ MORE</a>
+                            <a class="src-jamies-food-revolution" href="https://www.jamieoliver.com/campaigns/" target="_blank">Find out more about Jamie\'s campaigns</a>
                         </div>
                                     
             </div>
@@ -655,7 +695,7 @@
                     </div>
 
                     <div class="row">
-    <div class="promo-banner recipe-tag" data-slot="recipe-tag-vegepedia-promo-4">
+    <div class="promo-banner recipe-tag" data-slot="recipe-tag-vegepedia-promo-2">
         <a class="cookies-required" onclick="CookieControl.open();">Please enable targetting cookies to show this banner</a>
     </div>
 </div>
@@ -685,23 +725,11 @@
 
                                         <ul class="ingred-list ">
                                                                                                                                             <li>
-                                                                                                            3                                                                                                                                                                cloves of                                                                                                                                                                garlic                                                                                                                                                        </li>
-                                                                                                                                            <li>
-                                                                                                            50                                                                                                                                                                g                                                                                                                                                                mature Cheddar cheese                                                                                                                                                         </li>
-                                                                                                                                            <li>
-                                                                                                            50                                                                                                                                                                g                                                                                                                                                                stale bread                                                                                                                                                        </li>
-                                                                                                                                            <li>
-                                                                                                            2                                                                                                                                                                teaspoons                                                                                                                                                                dried oregano                                                                                                                                                        </li>
+                                                                                                            2                                                                                                                                                                large                                                                                                                                                                free-range eggs                                                                                                                                                        </li>
                                                                                                                                             <li>
                                                                                                                                                                                                                     olive oil                                                                                                                                                        </li>
                                                                                                                                             <li>
-                                                                                                            4                                                                                                                                                                                                                    higher-welfare sausages                                                                                                                                                         </li>
-                                                                                                                                            <li>
-                                                                                                            1                                                                                                                                                                pinch of                                                                                                                                                                dried chilli flakes                                                                                                                                                        </li>
-                                                                                                                                            <li>
-                                                                                                            3 x 400                                                                                                                                                                g tins of                                                                                                                                                                quality plum tomatoes                                                                                                                                                        </li>
-                                                                                                                                            <li>
-                                                                                                            400                                                                                                                                                                g                                                                                                                                                                dried rigatoni                                                                                                                                                        </li>
+                                                                                                            10                                                                                                                                                                g                                                                                                                                                                Cheddar cheese                                                                                                                                                        </li>
                                                                                     </ul>
                                                                             </div>
                                 </div>
@@ -714,11 +742,11 @@
                                 </div>
                             </div>
 
-                            <div class="cc-recipe-details-container" data-resource-id="72169"></div>
+                            <div class="cc-recipe-details-container" data-resource-id="73614"></div>
                             <script>
                                 window.ConstantCo = {
                                     pageType: 'content-recipe',
-                                    pageResourceId: 72169                                }
+                                    pageResourceId: 73614                                }
                             </script>
                                                         <div class="visible-mobile lower-recipe-source">
                                 
@@ -726,8 +754,8 @@
 
             <div class="recipe-source-images">
                                         <div class="recipe-source-image">
-                                                            <a class="src-jamie-magazine" href="https://www.jamieoliver.com/recipes/category/books/jamie-magazine/" target="_blank">
-                                    <img src="//img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/16244a096125da879b3ceb332f0e8a37.jpeg?tr=w-140," alt="Jamie Magazine" />
+                                                            <a class="src-jamies-food-revolution" href="https://www.jamieoliver.com/campaigns/" target="_blank">
+                                    <img src="//img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/0f5baf852df8c1c72ff2cb1ceb528325?tr=w-140," alt="Jamie's Food Revolution" />
                                 </a>
                                                     </div>
                         
@@ -735,14 +763,14 @@
 
             <div class="recipe-source-details">
                 <div class="recipe-source-banner">Recipe From</div>
-                <h4>Jamie Magazine</h4>
+                <h4>Jamie's Food Revolution</h4>
 
                                     <span class="author">
-                        By Phillippa Spence                    </span>
+                        By Jamie Oliver                    </span>
                 
                 
                                                             <div class="recipe-source-link gtm-recipe-source-link">
-                            <a class="src-jamie-magazine" href="https://www.jamieoliver.com/recipes/category/books/jamie-magazine/" target="_blank">READ MORE</a>
+                            <a class="src-jamies-food-revolution" href="https://www.jamieoliver.com/campaigns/" target="_blank">Find out more about Jamie\'s campaigns</a>
                         </div>
                                     
             </div>
@@ -768,7 +796,7 @@
                             <div id="share-tools">
     <h2 class="title">Share this Recipe</h2>
     <div class="share-tools-content">
-        <div class="addthis_inline_share_toolbox" data-url="www.jamieoliver.com/recipes/pasta-recipes/sausage-pasta-bake/">
+        <div class="addthis_inline_share_toolbox" data-url="www.jamieoliver.com/recipes/eggs-recipes/simple-cheese-omelette/">
             <a class="cookies-required" onclick="CookieControl.open();">Please enable functionality cookies to use this feature</a>
         </div>
     </div>
@@ -790,8 +818,13 @@
                                                                             <div class="method-p">
                                             <h2>Method</h2>
                                             <div class="">
-                                                <ol class="recipeSteps"><li>Preheat the oven to 200ºC/400ºF/gas 6. </li><li>Peel and finely slice the garlic. Coarsely grate the Cheddar. Tear the stale bread into small chunks or blitz in the food processor. </li><li>Tip the breadcrumbs into a bowl with one of the sliced garlic cloves, a good pinch of the oregano, the grated cheese and a pinch of sea salt and a sprinkling of black pepper. Drizzle with a little oil and toss to mix it all together. </li><li>Pop the sausages out of their skins and break each one into 4 equal pieces. Roll each piece into a ball shape and place in an ovenproof dish. Drizzle over a little oil and roll to coat. Bake in the oven for about 10 minutes, or until golden and cooked through. </li><li>Heat a little oil in a frying pan over a medium heat. Add the remaining sliced garlic and oregano, and the chilli flakes. Stir until the garlic is coloured, then tip in the tomatoes. </li><li>Add a pinch of salt and pepper, bring to the boil, then reduce the heat and simmer for 10 minutes, stirring occasionally. </li><li>Cook the rigatoni according to the packet instructions, taking it off the heat 2 minutes early, so it’s al dente. Drain in a colander and tip into a large baking dish. </li><li>Add the sausage balls, pour over the sauce and toss well. Sprinkle over the cheesy crumb mix and bake for 15 minutes, or until golden on top and bubbling.</li></ol>                                            </div>
+                                                <ol class="recipeSteps"><li>Crack the eggs into a mixing bowl, season with a pinch of sea salt and black pepper, then beat well with a fork until fully combined.</li><li>Place a small non-stick frying pan on a low heat to warm up.</li><li>Grate the cheese onto a board and set aside.</li><li>Add ½ tablespoon of oil to the hot pan, then carefully pour in the eggs.</li><li>Tilt the pan to spread them out evenly, using a fork to swirl the eggs around the pan a little.</li><li>When the omelette begins to cook and firm up, but still has a little raw egg on top, sprinkle over the cheese.</li><li>Using a spatula, ease around the edges of the omelette, then fold it over in half.</li><li>When it starts to turn golden brown underneath, remove the pan from the heat and slide the omelette onto a plate. Delicious with a tomato salad and wholemeal bread.</li><li>PRINT THIS RECIPE <a href="http://cdn.jamieoliver.com/foodrevolution/pdf/cheese-omelette-fr-uk.pdf">(UK)</a><br />
+PRINT THIS RECIPE <a href="http://cdn.jamieoliver.com/foodrevolution/pdf/cheese-omelette-fr-usa.pdf">(USA)</a></li></ol>                                            </div>
                                             
+                                                                                            <div class="tip">
+                                                    <h4>Tips</h4>
+                                                    <p>Omelettes don’t always need to be folded in half with the filling inside, you can leave the omelette open and sprinkle over your favourite ingredients before finishing it under a hot grill until it’s bubbling and delicious.</p>
+                                                </div>
                                             
                                             <div class="promo-banner" data-slot="under-recipe">
                                                 <a class="cookies-required" onclick="CookieControl.open();">Please enable targetting cookies to show this banner</a>
@@ -829,29 +862,29 @@
                             <div class="recipe-related-items">
                                                             <div class="recipe-related-item -is-feature">
                                     <div class="recipe-related-item-image">
-                                        <a href="https://www.jamieoliver.com/features/our-10-favourite-vegan-summer-recipes/" class="hover-link">
-                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2019/07/tomatobruschetta630x420.jpg?tr=w-330," src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Our 10 favourite vegan summer recipes" />                                        </a>
+                                        <a href="https://www.jamieoliver.com/features/egg-recipes-master-the-basics/" class="hover-link">
+                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2019/08/eggsroyal630x420.jpg?tr=w-330," src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Egg recipes: master the basics" />                                        </a>
                                     </div>
                                     <div class="recipe-related-item-title">
-                                        <a href="https://www.jamieoliver.com/features/our-10-favourite-vegan-summer-recipes/" class="hover-link">Our 10 favourite vegan summer recipes</a>
+                                        <a href="https://www.jamieoliver.com/features/egg-recipes-master-the-basics/" class="hover-link">Egg recipes: master the basics</a>
                                     </div>
                                 </div>
                                                             <div class="recipe-related-item -is-feature">
                                     <div class="recipe-related-item-image">
-                                        <a href="https://www.jamieoliver.com/features/pasta-recipes-for-kids/" class="hover-link">
-                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2019/04/veggie_spag_bol_01_630x420.jpg?tr=w-330," src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Pasta recipes for kids" />                                        </a>
+                                        <a href="https://www.jamieoliver.com/features/egg-recipes-for-every-occasion/" class="hover-link">
+                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2019/06/4.Baked_eggs_group_24-630x420.jpg?tr=w-330," src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Egg recipes for every occasion" />                                        </a>
                                     </div>
                                     <div class="recipe-related-item-title">
-                                        <a href="https://www.jamieoliver.com/features/pasta-recipes-for-kids/" class="hover-link">Pasta recipes for kids</a>
+                                        <a href="https://www.jamieoliver.com/features/egg-recipes-for-every-occasion/" class="hover-link">Egg recipes for every occasion</a>
                                     </div>
                                 </div>
                                                             <div class="recipe-related-item -is-feature">
                                     <div class="recipe-related-item-image">
-                                        <a href="https://www.jamieoliver.com/features/dinner-recipes-two/" class="hover-link">
-                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/features-import/2019/02/dinnerfortwo_LEAD_630x420.jpg?tr=w-330," src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Dinner recipes for two" />                                        </a>
+                                        <a href="https://www.jamieoliver.com/features/the-ultimate-egg-recipes/" class="hover-link">
+                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2019/02/Poached_Egg_630x420.jpg?tr=w-330," src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="The ultimate egg recipes" />                                        </a>
                                     </div>
                                     <div class="recipe-related-item-title">
-                                        <a href="https://www.jamieoliver.com/features/dinner-recipes-two/" class="hover-link">Dinner recipes for two</a>
+                                        <a href="https://www.jamieoliver.com/features/the-ultimate-egg-recipes/" class="hover-link">The ultimate egg recipes</a>
                                     </div>
                                 </div>
                                                         </div>
@@ -870,8 +903,8 @@
 
             <div class="recipe-source-images">
                                         <div class="recipe-source-image">
-                                                            <a class="src-jamie-magazine" href="https://www.jamieoliver.com/recipes/category/books/jamie-magazine/" target="_blank">
-                                    <img src="//img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/16244a096125da879b3ceb332f0e8a37.jpeg?tr=w-140," alt="Jamie Magazine" />
+                                                            <a class="src-jamies-food-revolution" href="https://www.jamieoliver.com/campaigns/" target="_blank">
+                                    <img src="//img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/0f5baf852df8c1c72ff2cb1ceb528325?tr=w-140," alt="Jamie's Food Revolution" />
                                 </a>
                                                     </div>
                         
@@ -879,14 +912,14 @@
 
             <div class="recipe-source-details">
                 <div class="recipe-source-banner">Recipe From</div>
-                <h4>Jamie Magazine</h4>
+                <h4>Jamie's Food Revolution</h4>
 
                                     <span class="author">
-                        By Phillippa Spence                    </span>
+                        By Jamie Oliver                    </span>
                 
                 
                                                             <div class="recipe-source-link gtm-recipe-source-link">
-                            <a class="src-jamie-magazine" href="https://www.jamieoliver.com/recipes/category/books/jamie-magazine/" target="_blank">READ MORE</a>
+                            <a class="src-jamies-food-revolution" href="https://www.jamieoliver.com/campaigns/" target="_blank">Find out more about Jamie\'s campaigns</a>
                         </div>
                                     
             </div>
@@ -914,13 +947,13 @@
                                 <div class="recipe-related-title">Related video</div>
                                                                     <div class="recipe-related-item -is-video">
                                         <div class="recipe-related-item-image">
-                                            <a href="https://www.jamieoliver.com/videos/summer-sausage-pasta-jamie-oliver/" class="hover-link">
-                                                <img src="https://img.jamieoliver.com/jamieoliver/vi/JGzYJpG1eLs/maxresdefault.jpg?tr=w-330," alt="Summer sausage pasta: Jamie Oliver" title="Summer sausage pasta: Jamie Oliver">
+                                            <a href="https://www.jamieoliver.com/videos/fantastic-4-omelettes-jamie-oliver-folded-omelette/" class="hover-link">
+                                                <img src="https://img.jamieoliver.com/jamieoliver/vi/Ow9pGXT3KwY/maxresdefault.jpg?tr=w-330," alt="How to cook an omelette, 4 ways: Jamie Oliver" title="How to cook an omelette, 4 ways: Jamie Oliver">
                                                 <span class="video-play -responsive"></span>
                                             </a>
                                         </div>
                                         <div class="recipe-related-item-title" class="hover-link">
-                                            <a href="https://www.jamieoliver.com/videos/summer-sausage-pasta-jamie-oliver/">Summer sausage pasta: Jamie Oliver</a>
+                                            <a href="https://www.jamieoliver.com/videos/fantastic-4-omelettes-jamie-oliver-folded-omelette/">How to cook an omelette, 4 ways: Jamie Oliver</a>
                                         </div>
                                     </div>
                                                             </div>
@@ -1018,9 +1051,9 @@ src: rDb
 
 </div> <!-- End: #geo-region -->
 
-<!-- Generated: 2019-10-30 10:12:18-->
-<!-- Src: 210-->
-<script>(function () { var v = 1573051101 * 3.1415926535898; v = Math.floor(v); document.cookie = "__zjc6105="+v+"; expires=Wed, 06 Nov 2019 14:43:27 UTC; path=/"; })()</script></body>
+<!-- Generated: 2019-10-30 10:01:28-->
+<!-- Src: 7e7-->
+<script>(function () { var v = 1573053357 * 3.1415926535898; v = Math.floor(v); document.cookie = "__zjc2748="+v+"; expires=Wed, 06 Nov 2019 15:21:22 UTC; path=/"; })()</script></body>
 </html>
 
 <!--
@@ -1029,5 +1062,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 Page Caching using disk: enhanced 
 Content Delivery Network via Amazon Web Services: CloudFront: cdn.jamieoliver.com
 
-Served from: www.jamieoliver.com @ 2019-10-30 10:12:18 by W3 Total Cache
+Served from: www.jamieoliver.com @ 2019-10-30 10:01:28 by W3 Total Cache
 -->
