@@ -186,6 +186,7 @@ class SchemaOrgJsonLd implements ScraperInterface
     protected function extractImage(Crawler $crawler, array $json)
     {
         if (is_string($image = Arr::get($json, 'image.url'))) {
+            $this->removeExtraHttpFromImageUrl($image);
             return $image;
         }
 
@@ -193,14 +194,24 @@ class SchemaOrgJsonLd implements ScraperInterface
 
         // For www.justataste.com.
         if (is_array($image)) {
-            return array_shift($image);
+            return $this->removeExtraHttpFromImageUrl(array_shift($image));
         }
 
         if (is_string($image)) {
-            return $image;
+
+            return $this->removeExtraHttpFromImageUrl($image);
         }
 
         return null;
+    }
+
+    /**
+     * @param string $image
+     * @return string
+     */
+    private function removeExtraHttpFromImageUrl(string $image)
+    {
+        return str_replace('http:https', 'https', $image);
     }
 
     /**

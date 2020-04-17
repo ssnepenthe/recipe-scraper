@@ -4,3 +4,4 @@ composer.lock
 phpcs.xml
 phpunit.xml
 composer.phar
+.idea
