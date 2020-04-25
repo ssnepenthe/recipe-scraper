@@ -29,6 +29,7 @@ class SchemaOrgJsonLd implements ScraperInterface
         'totalTime',
         'url',
         'yield',
+        'nutrition'
     ];
 
     /**
@@ -98,6 +99,34 @@ class SchemaOrgJsonLd implements ScraperInterface
         }
 
         return null;
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
+    protected function extractNutrition(Crawler $crawler, array $json)
+    {
+        $nutritionFields = [
+            'calories' => 'calories',
+            'fatContent' => 'fat',
+            'fiberContent' => 'fiber',
+            'proteinContent' => 'protein',
+            'sugarContent' => 'sugar'
+        ];
+
+        $nutrition = [];
+
+        foreach($nutritionFields as $originalField => $mapField) {
+            if (is_string($value = Arr::get($json, 'nutrition.' . $originalField))) {
+                $nutrition[$mapField] = $value;
+            } else {
+                $nutrition[$mapField] = null;
+            }
+        }
+
+        return $nutrition;
     }
 
     /**
