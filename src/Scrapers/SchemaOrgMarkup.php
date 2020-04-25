@@ -32,6 +32,7 @@ class SchemaOrgMarkup implements ScraperInterface
         'totalTime',
         'url',
         'yield',
+        'nutrition'
     ];
 
     /**
@@ -95,6 +96,33 @@ class SchemaOrgMarkup implements ScraperInterface
         );
     }
 
+    /**
+     * TODO implement nutrition support
+     * @param  Crawler $crawler
+     * @param  array   $json
+     * @return string|null
+     */
+    protected function extractNutrition(Crawler $crawler, array $json)
+    {
+        $nutritionFields = [
+            'calories' => 'invalid-DOM',
+            'fat' => 'invalid-DOM',
+            'fiber' => 'invalid-DOM',
+            'protein' => 'invalid-DOM',
+            'sugar' => 'invalid-DOM'
+        ];
+
+        $nutrition = [];
+
+        foreach($nutritionFields as $nutritionField => $domElement) {
+            $nutrition[$nutritionField] = $this->extractString(
+                $crawler,
+                '[itemtype*="schema.org/Recipe"] [itemprop="' . $domElement .'"]'
+            );
+        }
+
+        return $nutrition;
+    }
     /**
      * @param  Crawler $crawler
      * @return string[]|null
