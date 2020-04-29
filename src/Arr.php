@@ -47,6 +47,13 @@ class Arr
             return [];
         }
 
+        if (self::isAssoc($value)) {
+            return array_filter(array_map(
+                [Str::class, 'normalize'],
+                $value
+            ));
+        }
+
         return array_values(array_filter(array_map(
             [Str::class, 'normalize'],
             $value
@@ -87,5 +94,16 @@ class Arr
                 return ! is_string($val);
             }
         ));
+    }
+
+    /**
+     * Wheather variable is associative array
+     * 
+     * @param mixed $var
+     * @return boolean
+     */
+    static function isAssoc($var)
+    {
+        return is_array($var) && array_diff_key($var,array_keys(array_keys($var)));
     }
 }
