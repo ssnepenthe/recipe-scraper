@@ -65,7 +65,7 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
             return false === strpos($cuisine, 'schema.org');
         }));
 
-        return empty($cuisines) ? null : $cuisines;
+        return empty($cuisines) ? null : array_values($cuisines);
     }
 
     protected function extractIngredients(Crawler $crawler, array $json)
