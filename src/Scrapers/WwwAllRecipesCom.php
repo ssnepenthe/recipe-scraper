@@ -105,7 +105,7 @@ class WwwAllRecipesCom extends SchemaOrgJsonLd
     protected function extractName(Crawler $crawler, array $json)
     {
         return parent::extractName($crawler, $json)
-            ?: $this->extractString($crawler, 'h1[itemprop="name"]' );
+            ?: $this->extractString($crawler, 'h1[itemprop="name"]');
     }
 
     /**
