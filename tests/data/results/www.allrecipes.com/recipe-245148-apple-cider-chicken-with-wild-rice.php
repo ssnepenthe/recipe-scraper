@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Nestle® Beneful®',
+    'author' => 'Nestle(R) Beneful(R)',
     'categories' => [
         'Trusted Brands: Recipes and Tips',
         'Nestle® Beneful®',
@@ -9,14 +9,13 @@ return [
     'cookingMethod' => null,
     'cookTime' => 'PT20M',
     'cuisines' => null,
-    'description' => '"Apple slices, cider, thyme and mustard bring incredible, rich flavors to this easy chicken dinner. Wild or brown rice makes a perfect side dish."',
-    'image' => 'https://images.media-allrecipes.com/userphotos/560x315/2731461.jpg',
+    'description' => 'Apple slices, cider, thyme and mustard bring incredible, rich flavors to this easy chicken dinner. Wild or brown rice makes a perfect side dish.',
+    'image' => 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2731461.jpg',
     'ingredients' => [
-        'Chicken:',
-        '3 skinless, boneless chicken breast halves, cut in half lengthwise to make thin cutlets',
-        'salt and ground black pepper to taste',
+        '3 eaches skinless, boneless chicken breast halves, cut in half lengthwise to make thin cutlets',
+        '1 pinch salt and ground black pepper to taste',
         '1 tablespoon canola oil or other neutral-flavor cooking oil',
-        '1/4 cup shallots, minced',
+        '¼ cup shallots, minced',
         '1 tablespoon apple cider vinegar',
         '2 cups sweet apple cider',
         '1 tart apple, such as Granny Smith - peeled, cored and thinly sliced',
@@ -25,8 +24,7 @@ return [
         '3 teaspoons cornstarch',
         '2 tablespoons fresh thyme leaves',
         '1 teaspoon Dijon mustard',
-        'salt and pepper to taste',
-        'Sides:',
+        '1 pinch salt and pepper to taste',
         '3 cups cooked wild rice or brown rice, or combination of the two',
     ],
     'instructions' => [
