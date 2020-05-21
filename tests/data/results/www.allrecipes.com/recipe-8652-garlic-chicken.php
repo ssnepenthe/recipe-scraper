@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => 'Carol',
+    'author' => 'Anonymous',
     'categories' => [
         'Meat and Poultry',
         'Chicken',
@@ -10,13 +10,13 @@ return [
     'cookingMethod' => null,
     'cookTime' => 'PT35M',
     'cuisines' => null,
-    'description' => '"Simple to make, just dip and bake! Garlicky goodness in a breaded chicken dish. Yum!"',
-    'image' => 'https://images.media-allrecipes.com/userphotos/560x315/4562452.jpg',
+    'description' => 'Simple to make, just dip and bake! Garlicky goodness in a breaded chicken dish. Yum!',
+    'image' => 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4562452.jpg',
     'ingredients' => [
-        '1/4 cup olive oil',
+        '¼ cup olive oil',
         '2 cloves garlic, crushed',
-        '1/4 cup Italian-seasoned bread crumbs',
-        '1/4 cup grated Parmesan cheese',
+        '¼ cup Italian-seasoned bread crumbs',
+        '¼ cup grated Parmesan cheese',
         '4 skinless, boneless chicken breast halves',
     ],
     'instructions' => [

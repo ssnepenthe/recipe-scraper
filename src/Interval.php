@@ -15,12 +15,19 @@ class Interval
      */
     public static function fromString(string $string) : DateInterval
     {
+        $interval = null;
+
         try {
             // First try standard spec.
             $interval = new DateInterval($string);
         } catch (Exception $e) {
             // And fall back to relative time string.
-            $interval = DateInterval::createFromDateString($string);
+            // Error suppression necessary - see issue #43.
+            $interval = @DateInterval::createFromDateString($string);
+        }
+
+        if (! $interval instanceof DateInterval) {
+            $interval = new DateInterval('PT0H');
         }
 
         if (static::isEmpty($interval)) {
