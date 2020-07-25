@@ -65,7 +65,7 @@ class IntervalTest extends TestCase
     function it_knows_when_an_interval_is_empty()
     {
         $this->assertTrue(
-            Interval::isEmpty(DateInterval::createFromDateString('bad string'))
+            Interval::isEmpty(DateInterval::createFromDateString('0 minutes'))
         );
         $this->assertFalse(Interval::isEmpty(
             DateInterval::createFromDateString('55 minutes')

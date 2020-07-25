@@ -26,6 +26,13 @@ class HtmlGetHostCommand extends Command
                 InputOption::VALUE_OPTIONAL,
                 'Seconds to wait between requests',
                 1
+            )
+            ->addOption(
+                'timeout',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                'The number of seconds to wait while trying to connect',
+                10
             );
     }
 
@@ -33,6 +40,7 @@ class HtmlGetHostCommand extends Command
     {
         $host = $input->getArgument('host');
         $rate = intval(round(max(0.0, floatval($input->getOption('rate'))) * 1000000));
+        $timeout = (int) $input->getOption('timeout');
 
         $file = $this->getUrlsDataFilePath($host);
 
@@ -59,7 +67,7 @@ class HtmlGetHostCommand extends Command
         $io->progressStart(count($urls));
 
         foreach ($urls as $url) {
-            $htmlGetInput = new ArrayInput(['url' => $url]);
+            $htmlGetInput = new ArrayInput(['url' => $url, '--timeout' => $timeout]);
 
             // @todo Error handling base on return code?
             $returnCode = $htmlGetCommand->run($htmlGetInput, $output);

@@ -6,6 +6,7 @@ use RecipeScraperTests\UsesTestData;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class HtmlGetCommand extends Command
@@ -16,13 +17,22 @@ class HtmlGetCommand extends Command
     {
         $this->setName('html:get')
             ->setDescription('Retrieve and save the HTML for a given URL')
-            ->addArgument('url', InputArgument::REQUIRED, 'The URL to get');
+            ->addArgument('url', InputArgument::REQUIRED, 'The URL to get')
+            ->addOption(
+                'timeout',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                'The number of seconds to wait while trying to connect',
+                10
+            );
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $url = $input->getArgument('url');
-        $html = $this->getRemoteHtml($url);
+        $timeout = $input->getOption('timeout');
+
+        $html = $this->getRemoteHtml($url, $timeout);
         $file = $this->getHtmlDataFilePathFromUrl($url);
         $dir = pathinfo($file, PATHINFO_DIRNAME);
 
@@ -34,7 +44,7 @@ class HtmlGetCommand extends Command
         file_put_contents($file, $html);
     }
 
-    protected function getRemoteHtml($url)
+    protected function getRemoteHtml($url, $timeout)
     {
         if (false === $curl = curl_init()) {
             throw new \RuntimeException('Unable to create a cURL handle.');
@@ -43,7 +53,7 @@ class HtmlGetCommand extends Command
         curl_setopt($curl, CURLOPT_FAILONERROR, false);
         curl_setopt($curl, CURLOPT_HEADER, true);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 10);
+        curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, $timeout);
         curl_setopt($curl, CURLOPT_TIMEOUT, 20);
         curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt(

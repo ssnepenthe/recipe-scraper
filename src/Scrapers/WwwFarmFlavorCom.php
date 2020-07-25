@@ -136,4 +136,20 @@ class WwwFarmFlavorCom extends SchemaOrgMarkup
 
         return $crawler;
     }
+
+    /**
+     * Sad fix for https://www.farmflavor.com/recipe/melon-bbq-basted-ribs/.
+     *
+     * @param  string|null $value
+     * @param  Crawler     $crawler
+     * @return string|null
+     */
+    protected function preNormalizeCookTime($value, Crawler $crawler)
+    {
+        if (! is_string($value)) {
+            return null;
+        }
+
+        return preg_replace('/about\s*/i', '', $value);
+    }
 }
