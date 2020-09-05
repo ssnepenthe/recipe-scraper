@@ -113,12 +113,15 @@ class SchemaOrgJsonLd implements ScraperInterface
             'fatContent' => 'fat',
             'fiberContent' => 'fiber',
             'proteinContent' => 'protein',
-            'sugarContent' => 'sugar'
+            'sugarContent' => 'sugar',
+            'saturatedFatContent' => 'saturatedFat',
+            'carbohydrateContent' => 'carbohydrate',
+            'sodiumContent' => 'sodium'
         ];
 
         $nutrition = [];
 
-        foreach($nutritionFields as $originalField => $mapField) {
+        foreach ($nutritionFields as $originalField => $mapField) {
             if (is_string($value = Arr::get($json, 'nutrition.' . $originalField))) {
                 $nutrition[$mapField] = $value;
             } else {
@@ -227,7 +230,6 @@ class SchemaOrgJsonLd implements ScraperInterface
         }
 
         if (is_string($image)) {
-
             return $this->removeExtraHttpFromImageUrl($image);
         }
 

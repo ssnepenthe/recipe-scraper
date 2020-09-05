@@ -1,5 +1,6 @@
 <?php
-	return [
+
+return [
     'author' => '',
     'categories' => [
         '',
@@ -32,6 +33,8 @@
         'fiber' => '3.8 g fibre',
         'protein' => '28 g protein',
         'sugar' => '14.6 g sugar',
+        'saturatedFat' => '28.2 g saturated fat',
+        'carbohydrate' => '46.2 g carbohydrate',
+        'sodium' => '1.9 g salt',
     ],
-]
-?>
+];
