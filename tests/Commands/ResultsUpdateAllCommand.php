@@ -46,8 +46,11 @@ class ResultsUpdateAllCommand extends Command
 
 
         foreach ($urls as $url) {
-            $arguments = ['fields' => $fields];
-            $arguments = ['url' => $url];
+            $arguments = [
+                'fields' => $fields,
+                'url' => $url
+            ];
+
             $resultUpdateInput = new ArrayInput($arguments);
 
             // @todo Error handling base on return code?
