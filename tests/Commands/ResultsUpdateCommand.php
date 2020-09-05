@@ -70,7 +70,7 @@ class ResultsUpdateCommand extends Command
             }
         }
 
-        $newResultContentString = "<?php\nreturn " . VarExporter::export($currentResultFileContent) . "\n";
+        $newResultContentString = "<?php\n\nreturn " . VarExporter::export($currentResultFileContent) . "\n";
         file_put_contents($resultFile, $newResultContentString);
     }
 }

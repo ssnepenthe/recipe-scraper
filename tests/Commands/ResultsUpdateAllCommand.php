@@ -40,14 +40,12 @@ class ResultsUpdateAllCommand extends Command
 
         $htmlGetCommand = $this->getApplication()->find('results:update');
 
-        $fieldsStr = $input->getArgument('fields');
-        $fields = explode(',', $fieldsStr);
+        $fieldsParam = $input->getArgument('fields');
         // @todo check if fields match with stub fields
-
 
         foreach ($urls as $url) {
             $arguments = [
-                'fields' => $fields,
+                'fields' => $fieldsParam,
                 'url' => $url
             ];
 
