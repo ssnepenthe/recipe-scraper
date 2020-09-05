@@ -38,7 +38,7 @@ class ResultsUpdateAllCommand extends Command
 
         $io->progressStart(count($urls));
 
-        $htmlGetCommand = $this->getApplication()->find('result:update');
+        $htmlGetCommand = $this->getApplication()->find('results:update');
 
         $fieldsStr = $input->getArgument('fields');
         $fields = explode(',', $fieldsStr);
@@ -47,6 +47,7 @@ class ResultsUpdateAllCommand extends Command
 
         foreach ($urls as $url) {
             $arguments = ['fields' => $fields];
+            $arguments = ['url' => $url];
             $resultUpdateInput = new ArrayInput($arguments);
 
             // @todo Error handling base on return code?
