@@ -26,22 +26,42 @@ class ResultsUpdateAllCommand extends Command
                 'fields',
                 InputArgument::REQUIRED,
                 'A comma separated list of result fields to update'
+            )->addArgument(
+                'host',
+                InputArgument::OPTIONAL,
+                'Host to update results for'
             );
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $urls = $this->getTestUrls();
+        $host = $input->getArgument('host');
+        $urls = [];
+        if ($host !== '') {
+            $file = $this->getUrlsDataFilePath($host);
+
+            if (! file_exists($file)) {
+                throw new \InvalidArgumentException(sprintf(
+                    'URLs file [%s] for provided host [%s] does not exist',
+                    $file,
+                    $host
+                ));
+            }
+            $urls = (array) static::includeFile($file);
+        } else {
+            $urls = $this->getTestUrls();
+        }
+
         shuffle($urls);
 
         $io = new SymfonyStyle($input, $output);
 
         $io->progressStart(count($urls));
 
-        $htmlGetCommand = $this->getApplication()->find('results:update');
+        $resultUpdateCommand = $this->getApplication()->find('results:update');
 
         $fieldsParam = $input->getArgument('fields');
-        // @todo check if fields match with stub fields
+        // @todo check if fields exist in stub
 
         foreach ($urls as $url) {
             $arguments = [
@@ -52,7 +72,7 @@ class ResultsUpdateAllCommand extends Command
             $resultUpdateInput = new ArrayInput($arguments);
 
             // @todo Error handling base on return code?
-            $returnCode = $htmlGetCommand->run($resultUpdateInput, $output);
+            $returnCode = $resultUpdateCommand->run($resultUpdateInput, $output);
 
             $io->progressAdvance();
         }

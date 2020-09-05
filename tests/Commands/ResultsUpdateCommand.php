@@ -25,8 +25,7 @@ class ResultsUpdateCommand extends Command
                 'fields',
                 InputArgument::REQUIRED,
                 'A comma separated list of result fields to update'
-            )
-            ->addArgument('url', InputArgument::REQUIRED, 'Recipe URL');
+            )->addArgument('url', InputArgument::REQUIRED, 'Recipe URL');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -34,7 +33,7 @@ class ResultsUpdateCommand extends Command
         $url = $input->getArgument('url');
         $fieldsStr = $input->getArgument('fields');
         $fields = explode(',', $fieldsStr);
-        // TODO check if fields match with stub fields
+        // @todo check if fields exist in stub
 
         $htmlFile = $this->getHtmlDataFilePathFromUrl($url);
 
@@ -65,7 +64,7 @@ class ResultsUpdateCommand extends Command
         $newHtmlResult = $scraper->scrape($crawler);
 
         foreach ($fields as $field) {
-            if (key_exists($field, $currentResultFileContent)) {
+            if (key_exists($field, $newHtmlResult)) {
                 $currentResultFileContent[$field] = $newHtmlResult[$field];
             }
         }
