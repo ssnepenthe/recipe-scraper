@@ -36,8 +36,9 @@ class ResultsUpdateAllCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $host = $input->getArgument('host');
+
         $urls = [];
-        if ($host !== '') {
+        if ($host) {
             $file = $this->getUrlsDataFilePath($host);
 
             if (! file_exists($file)) {

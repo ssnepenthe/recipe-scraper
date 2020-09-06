@@ -104,7 +104,7 @@ class SchemaOrgJsonLd implements ScraperInterface
     /**
      * @param  Crawler $crawler
      * @param  array   $json
-     * @return string|null
+     * @return array|null
      */
     protected function extractNutrition(Crawler $crawler, array $json)
     {

@@ -99,10 +99,9 @@ class SchemaOrgMarkup implements ScraperInterface
     /**
      * TODO implement nutrition support
      * @param  Crawler $crawler
-     * @param  array   $json
-     * @return string|null
+     * @return array|null
      */
-    protected function extractNutrition(Crawler $crawler, array $json)
+    protected function extractNutrition(Crawler $crawler)
     {
         $nutritionFields = [
             'calories' => 'invalid-DOM',
@@ -114,7 +113,7 @@ class SchemaOrgMarkup implements ScraperInterface
 
         $nutrition = [];
 
-        foreach($nutritionFields as $nutritionField => $domElement) {
+        foreach ($nutritionFields as $nutritionField => $domElement) {
             $nutrition[$nutritionField] = $this->extractString(
                 $crawler,
                 '[itemtype*="schema.org/Recipe"] [itemprop="' . $domElement .'"]'
