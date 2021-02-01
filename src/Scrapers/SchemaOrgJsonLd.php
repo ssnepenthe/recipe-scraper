@@ -456,7 +456,7 @@ class SchemaOrgJsonLd implements ScraperInterface
 
     /**
      * @param  array   $json
-     * @return boolean
+     * @return mixed
      */
     protected function getGraphElements(array $json) : array
     {
