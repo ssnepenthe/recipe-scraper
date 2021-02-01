@@ -243,19 +243,7 @@ class SchemaOrgJsonLd implements ScraperInterface
         if (is_array($instructions)) {
             $instructionLines = [];
             foreach ($instructions as $instruction) {
-                if (is_string($instruction)) {
-                    $instructionLines[] = $instruction;
-                } elseif (array_key_exists('@type', $instruction)) {
-                    switch ($instruction['@type']) {
-                        case 'HowToStep':
-                            $instructionLines[] = $instruction['text'];
-                            break;
-
-                        case 'HowToSection':
-                            // Not pulling in, but may be useful...
-                            break;
-                    }
-                }
+                $instructionLines = array_merge($instructionLines, $this->extractHowToText($instruction));
             }
             return $instructionLines;
         }
@@ -265,6 +253,35 @@ class SchemaOrgJsonLd implements ScraperInterface
         }
 
         return null;
+    }
+
+    /**
+     * @param  array   $json
+     * @return string[]|null
+     */
+    protected function extractHowToText(array $json)
+    {
+        $instructionLines = [];
+        if (array_key_exists('@type', $json)) {
+            switch ($json['@type']) {
+                case 'HowToStep':
+                    $instructionLine = [];
+                    $instructionLine[] = Arr::get($json, 'name');
+                    $instructionLine[] = Arr::get($json, 'text');
+                    $instructionLines[] = implode(' ', $instructionLine);
+                    break;
+
+                case 'HowToSection':
+                    $instructionLines[] = Arr::get($json, 'name');
+                    foreach (Arr::get($json, 'itemListElement') as $item) {
+                        $instructionLines = array_merge($instructionLines, $this->extractHowToText($item));
+                    }
+                    break;
+            }
+            return $instructionLines;
+        } else {
+            return null;
+        }
     }
 
     /**
@@ -398,6 +415,14 @@ class SchemaOrgJsonLd implements ScraperInterface
             }
         ));
 
+        // Graph elements? Move them to first level of array
+        foreach ($jsons as $k => $json) {
+            if ($graphContents = $this->getGraphElements($json)) {
+                $jsons = array_merge($jsons, $graphContents);
+                unset($jsons[$k]);
+            }
+        }
+
         // Remove any non-recipe elements.
         $recipes = array_filter(
             $jsons,
@@ -427,6 +452,15 @@ class SchemaOrgJsonLd implements ScraperInterface
     protected function hasRecipeType(array $json) : bool
     {
         return 'Recipe' === Arr::get($json, '@type');
+    }
+
+    /**
+     * @param  array   $json
+     * @return boolean
+     */
+    protected function getGraphElements(array $json) : array
+    {
+        return Arr::get($json, '@graph') ?: [];
     }
 
     /**
