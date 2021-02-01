@@ -238,8 +238,26 @@ class SchemaOrgJsonLd implements ScraperInterface
     {
         if (Arr::ofStrings($instructions = Arr::get($json, 'recipeInstructions'))) {
             return $instructions;
-        } elseif ($instructions && $text_instructions = array_column($instructions, 'text')) {
-            return $text_instructions;
+        }
+
+        if (is_array($instructions)) {
+            $instructionLines = [];
+            foreach ($instructions as $instruction) {
+                if (is_string($instruction)) {
+                    $instructionLines[] = $instruction;
+                } elseif (array_key_exists('@type', $instruction)) {
+                    switch ($instruction['@type']) {
+                        case 'HowToStep':
+                            $instructionLines[] = $instruction['text'];
+                            break;
+
+                        case 'HowToSection':
+                            // Not pulling in, but may be useful...
+                            break;
+                    }
+                }
+            }
+            return $instructionLines;
         }
 
         if (is_string($instructions)) {
