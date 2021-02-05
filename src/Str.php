@@ -32,6 +32,7 @@ class Str
     {
         $value = static::htmlDecode($value);
         $value = static::tidy($value);
+        $value = static::stripTags($value);
         $value = static::collapseWhitespace($value); // Also calls trim.
 
         return $value;
@@ -82,6 +83,11 @@ class Str
         }
 
         return (string) $substring === $startOfStr;
+    }
+
+    public static function stripTags(string $string) : string
+    {
+        return strip_tags($string);
     }
 
     /**

@@ -105,13 +105,4 @@ class HearstDigitalMedia extends SchemaOrgJsonLd
 
         return array_values($notes);
     }
-
-    protected function preNormalizeDescription($value, Crawler $crawler)
-    {
-        if (! is_string($value)) {
-            return null;
-        }
-
-        return strip_tags($value);
-    }
 }
