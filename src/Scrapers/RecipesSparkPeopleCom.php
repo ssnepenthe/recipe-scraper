@@ -2,8 +2,8 @@
 
 namespace RecipeScraper\Scrapers;
 
-use Stringy\Stringy;
 use RecipeScraper\Arr;
+use RecipeScraper\Str;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -169,7 +169,7 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
              * @return string
              */
             function (string $instruction) : string {
-                return (string) Stringy::create($instruction)->regexReplace('^\d+\.\s*', '');
+                return preg_replace('/^\d+\.\s*/ums', '', $instruction);
             },
             $instructions
         );
@@ -182,12 +182,10 @@ class RecipesSparkPeopleCom extends SchemaOrgMarkup
              * @return bool
              */
             function (string $instruction) : bool {
-                $instruction = Stringy::create($instruction);
-
                 return ! (
-                    $instruction->startsWith('serving size:', false)
-                    || $instruction->startsWith('number of servings:', false)
-                    || $instruction->startsWith('recipe submitted by', false)
+                    Str::startsWith($instruction, 'serving size:', false)
+                    || Str::startsWith($instruction, 'number of servings:', false)
+                    || Str::startsWith($instruction, 'recipe submitted by', false)
                 );
             }
         );
