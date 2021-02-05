@@ -4,7 +4,6 @@ namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Arr;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Occasionally includes links to other recipes in ingredients section
@@ -13,8 +12,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class WwwMarthaStewartCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @param  Crawler $crawler
      * @return boolean

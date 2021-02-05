@@ -4,7 +4,6 @@ namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Url;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Lose out on ingredient and instruction group titles by using LD+JSON.
@@ -13,8 +12,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class ScrippsNetworks extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @param  Crawler $crawler
      * @return boolean

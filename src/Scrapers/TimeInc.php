@@ -4,7 +4,6 @@ namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Arr;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Has nutrition information.
@@ -26,8 +25,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class TimeInc extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @var string[]
      */

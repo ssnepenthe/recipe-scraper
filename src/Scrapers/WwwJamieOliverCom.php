@@ -3,7 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Arr;
-use RecipeScraper\ExtractsDataFromCrawler;
 use RecipeScraper\Str;
 use Symfony\Component\DomCrawler\Crawler;
 
@@ -22,8 +21,6 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class WwwJamieOliverCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     public function __construct()
     {
         // Add nameSub to the $properties array

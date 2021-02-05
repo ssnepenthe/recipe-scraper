@@ -3,7 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Also has "tags" which could potentially be merged into recipe categories.
@@ -14,8 +13,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class WwwFineCookingCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @param  Crawler $crawler
      * @return boolean

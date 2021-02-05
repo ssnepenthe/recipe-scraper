@@ -3,12 +3,15 @@
 namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Arr;
-use RecipeScraper\Str;
+use RecipeScraper\ExtractsDataFromCrawler;
 use RecipeScraper\Interval;
+use RecipeScraper\Str;
 use Symfony\Component\DomCrawler\Crawler;
 
 class SchemaOrgJsonLd implements ScraperInterface
 {
+    use ExtractsDataFromCrawler;
+
     /**
      * @var string[]
      */

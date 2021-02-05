@@ -3,7 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * We lose ingredient titles by using LD+JSON.
@@ -15,8 +14,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class CookieAndKateCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @param  Crawler $crawler
      * @return boolean

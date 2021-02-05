@@ -3,7 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * May want to revisit notes. There is an "extra-content" section which has a lot of note-type
@@ -23,8 +22,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class HearstDigitalMedia extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @var string[]
      */

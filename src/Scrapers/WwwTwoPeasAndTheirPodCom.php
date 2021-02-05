@@ -3,7 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Can potentially switch to name="description" for description but it isn't always that great...
@@ -15,8 +14,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class WwwTwoPeasAndTheirPodCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @param  Crawler $crawler
      * @return boolean

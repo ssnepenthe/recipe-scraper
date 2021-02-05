@@ -3,7 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Looks like there might be some encoding issues?
@@ -14,8 +13,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class WwwGeniusKitchenCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @param  Crawler $crawler
      * @return boolean
