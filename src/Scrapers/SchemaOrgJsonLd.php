@@ -115,6 +115,10 @@ class SchemaOrgJsonLd implements ScraperInterface
         }
 
         if (is_string($categories)) {
+            if (Str::isList($categories, ',')) {
+                return Arr::fromList($categories, ', ');
+            }
+
             return [$categories];
         }
 
@@ -370,7 +374,7 @@ class SchemaOrgJsonLd implements ScraperInterface
             return $url;
         }
 
-        return null;
+        return $this->extractString($crawler, '[rel="canonical"]', ['href']);
     }
 
     /**
@@ -380,8 +384,14 @@ class SchemaOrgJsonLd implements ScraperInterface
      */
     protected function extractYield(Crawler $crawler, array $json)
     {
-        if (is_string($yield = Arr::get($json, 'recipeYield'))) {
+        $yield = Arr::get($json, 'recipeYield');
+
+        if (is_string($yield)) {
             return $yield;
+        }
+
+        if (is_int($yield)) {
+            return (string) $yield;
         }
 
         return null;

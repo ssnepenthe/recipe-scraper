@@ -15,9 +15,15 @@ class Str
     /**
      * Adapted from danielstjules/stringy.
      */
-    public static function htmlDecode(string $value, int $flags = ENT_COMPAT) : string
+    public static function htmlDecode(string $string, int $flags = ENT_QUOTES) : string
     {
-        return html_entity_decode($value, $flags, mb_internal_encoding());
+        return html_entity_decode($string, $flags, mb_internal_encoding());
+    }
+
+    public static function isList(string $string) : bool
+    {
+        // @todo Incredibly naive... Need to revisit at some point.
+        return false !== strpos($string, ',');
     }
 
     /**
@@ -28,14 +34,14 @@ class Str
         return static::split($string, '[\r\n]{1,2}');
     }
 
-    public static function normalize(string $value) : string
+    public static function normalize(string $string) : string
     {
-        $value = static::htmlDecode($value);
-        $value = static::tidy($value);
-        $value = static::stripTags($value);
-        $value = static::collapseWhitespace($value); // Also calls trim.
+        $string = static::htmlDecode($string);
+        $string = static::tidy($string);
+        $string = static::stripTags($string);
+        $string = static::collapseWhitespace($string); // Also calls trim.
 
-        return $value;
+        return $string;
     }
 
     /**
