@@ -32,8 +32,7 @@ class Str
     {
         $value = static::htmlDecode($value);
         $value = static::tidy($value);
-        $value = static::trim($value);
-        $value = static::collapseWhitespace($value);
+        $value = static::collapseWhitespace($value); // Also calls trim.
 
         return $value;
     }
