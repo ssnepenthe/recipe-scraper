@@ -3,7 +3,6 @@
 namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Arr;
-use RecipeScraper\ExtractsDataFromCrawler;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -12,8 +11,6 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class WwwAllRecipesCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @param  Crawler $crawler
      * @return boolean

@@ -4,7 +4,6 @@ namespace RecipeScraper\Scrapers;
 
 use RecipeScraper\Arr;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Has nutrition information.
@@ -26,8 +25,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class TimeInc extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     /**
      * @var string[]
      */
@@ -136,19 +133,5 @@ class TimeInc extends SchemaOrgJsonLd
     protected function extractUrl(Crawler $crawler, array $json)
     {
         return $this->extractString($crawler, '[rel="canonical"]', ['href']);
-    }
-
-    /**
-     * @param  mixed   $value
-     * @param  Crawler $crawler
-     * @return mixed
-     */
-    protected function preNormalizeIngredients($value, Crawler $crawler)
-    {
-        if (! Arr::ofStrings($value)) {
-            return $value;
-        }
-
-        return array_map('strip_tags', $value);
     }
 }

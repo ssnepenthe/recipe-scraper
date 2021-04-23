@@ -2,10 +2,9 @@
 
 namespace RecipeScraper\Scrapers;
 
-use Stringy\Stringy;
 use RecipeScraper\Arr;
+use RecipeScraper\Str;
 use Symfony\Component\DomCrawler\Crawler;
-use RecipeScraper\ExtractsDataFromCrawler;
 
 /**
  * Lose out on ingredient and instruction group titles by using LD+JSON.
@@ -22,8 +21,6 @@ use RecipeScraper\ExtractsDataFromCrawler;
  */
 class WwwJamieOliverCom extends SchemaOrgJsonLd
 {
-    use ExtractsDataFromCrawler;
-
     public function __construct()
     {
         // Add nameSub to the $properties array
@@ -132,8 +129,7 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
 
         return array_map(function ($ingredient) {
             // Note/descriptor is appended with leading " , " - let's remove that front space.
-            return (string) Stringy::create($ingredient)
-                ->regexReplace('[[:space:]]+,[[:space:]]+', ', ');
+            return preg_replace('/[[:space:]]+,[[:space:]]+/ums', ', ', $ingredient);
         }, $value);
     }
 
@@ -146,9 +142,7 @@ class WwwJamieOliverCom extends SchemaOrgJsonLd
         // Separate instructions that are split by line breaks into multiple instructions.
         // @see https://www.jamieoliver.com/recipes/egg-recipes/scrambled-egg-omelette/
         if (is_string($value)) {
-            return array_filter(array_map(function ($instruction) {
-                return (string) $instruction->trim();
-            }, Stringy::create($value)->lines()));
+            return array_filter(array_map('trim', Str::lines($value)));
         }
 
         return null;

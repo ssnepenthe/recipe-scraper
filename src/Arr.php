@@ -4,6 +4,12 @@ namespace RecipeScraper;
 
 class Arr
 {
+    public static function fromList(string $list) : array
+    {
+        // @todo Incredibly naive... Need to revisit with Str::isList().
+        return explode(', ', $list);
+    }
+
     /**
      * Adapted from illuminate/support.
      *
