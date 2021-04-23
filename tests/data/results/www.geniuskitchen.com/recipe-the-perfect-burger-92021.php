@@ -35,15 +35,11 @@ return [
     'instructions' => [
         'Lightly oil grill& heat BBQ to medium.',
         'Whisk egg in a bowl& add next 6 ingredients.',
-        // Strange characters...
         'Add any of the stir-ins that appeal to you.',
         'Crumble in beef& using your hands or a fork, gently mix together.',
-        // Strange characters...
         'Handle the meat as little as possible  the more you work it, the tougher it gets.',
-        // Strange characters...
         'Gently shape (dont firmly press) mixture into burgers about ¾ inch thick.',
         'Using your thumb, make a shallow depression in the centre of each burger to prevent puffing up during cooking.',
-        // Strange characters...
         'Place burgers on the grill, close lid& BBQ until NO LONGER PINK INSIDE, turning once, about 6  8 minutes per side.',
         'An instant read thermometer should read 160F.',
         'Don\'t abuse your burgers by pressing with a spatula, pricking with a fork or turning frequently as precious juices will be lost!',
@@ -56,4 +52,14 @@ return [
     'totalTime' => 'PT30M',
     'url' => 'http://www.geniuskitchen.com/recipe/the-perfect-burger-92021',
     'yield' => '4 serving(s)',
+    'nutrition' => [
+        'calories' => '320.4',
+        'fat' => '22.3',
+        'fiber' => '1.1',
+        'protein' => '23.6',
+        'sugar' => '2.8',
+        'saturatedFat' => '7.9',
+        'carbohydrate' => '5.5',
+        'sodium' => '575.5',
+    ],
 ];

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => null, // Author is still available (Khalil Hymore), just not from LD+JSON.
+    'author' => null,
     'categories' => [
         'Food',
         'Cooking',
@@ -36,4 +36,5 @@ return [
     'totalTime' => 'PT35M',
     'url' => 'https://www.redbookmag.com/food-recipes/recipes/a45244/ice-cream-pie-recipe/',
     'yield' => '1',
+    'nutrition' => null,
 ];

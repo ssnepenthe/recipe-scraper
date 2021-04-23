@@ -7,7 +7,6 @@ return [
     'cookTime' => 'PT7H',
     'cuisines' => null,
     'description' => 'Another crockpot winner! Got this off of Recipegoldmine.com. The cheese mixture inside the chicken rolls keeps the meat nice and moist!',
-    // They use a default picture/icon when one isn't set for the recipe.
     'image' => 'http://geniuskitchen.sndimg.com/gk/img/gk-shareGraphic.png',
     'ingredients' => [
         '4 boneless skinless chicken breasts, pounded thin',
@@ -33,4 +32,14 @@ return [
     'totalTime' => 'PT7H15M',
     'url' => 'http://www.geniuskitchen.com/recipe/green-chile-stuffed-chicken-breasts-29059',
     'yield' => '4 serving(s)',
+    'nutrition' => [
+        'calories' => '381.5',
+        'fat' => '21.9',
+        'fiber' => '1.1',
+        'protein' => '33.9',
+        'sugar' => '5.4',
+        'saturatedFat' => '10.3',
+        'carbohydrate' => '11.6',
+        'sodium' => '1136.2',
+    ],
 ];

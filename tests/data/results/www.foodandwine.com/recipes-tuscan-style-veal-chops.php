@@ -21,7 +21,6 @@ return [
     ],
     'name' => 'Tuscan-Style Veal Chops',
     'notes' => [
-        // @todo Dash between "red" and "not" is being replaced with a non-visible character.
         'These Tuscan-style chops go well with a Sangiovese-based Tuscan rednot a surprise, since Tuscan Sangiovese usually has a lightly foresty, herbal aroma.',
     ],
     'prepTime' => 'PT15M',
@@ -29,4 +28,5 @@ return [
     'totalTime' => 'PT40M',
     'url' => 'http://www.foodandwine.com/recipes/tuscan-style-veal-chops',
     'yield' => 'Serves : 4',
+    'nutrition' => null,
 ];
