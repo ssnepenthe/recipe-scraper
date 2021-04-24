@@ -128,7 +128,7 @@ class SchemaOrgJsonLd implements ScraperInterface
             if (is_string($value = Arr::get($json, 'nutrition.' . $originalField))) {
                 $nutrition[$mapField] = $value;
             } else {
-                $nutrition[$mapField] = null;
+                $nutrition[$mapField] = '';
             }
         }
 
