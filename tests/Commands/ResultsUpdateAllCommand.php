@@ -28,8 +28,8 @@ class ResultsUpdateAllCommand extends Command
                 'A comma separated list of result fields to update'
             )->addArgument(
                 'host',
-                InputArgument::OPTIONAL,
-                'Host to update results for'
+                InputArgument::REQUIRED,
+                'Host to update results for, use all for all hosts'
             );
     }
 
@@ -38,7 +38,7 @@ class ResultsUpdateAllCommand extends Command
         $host = $input->getArgument('host');
 
         $urls = [];
-        if ($host) {
+        if ($host !== 'all') {
             $file = $this->getUrlsDataFilePath($host);
 
             if (! file_exists($file)) {
