@@ -22,7 +22,6 @@ return [
     ],
     'name' => 'Maple New York Sour',
     'notes' => [
-        // 'Recipe adapted from my cinnamon maple whiskey sour and Bon Appetit.',
         'Recommended equipment: Measuring small quantities of liquids for cocktails (and salad dressing, etc.) is WAY easier with this stainless steel measuring jigger.',
         '*Wine notes: Look for wine descriptions that suggest notes of cherry/plum/berries, etc. and you should find a winner. I just wouldn\'t use a particularly spicy or dry red wine here. I used an organic 2014 cabernet sauvignon from Trader Joe\'s labeled "Rare Earth."',
     ],
@@ -31,4 +30,14 @@ return [
     'totalTime' => 'PT5M',
     'url' => 'https://cookieandkate.com/2016/maple-new-york-sour/',
     'yield' => '1 cocktail',
+    'nutrition' => [
+        'calories' => '264',
+        'fat' => '0.1 g',
+        'fiber' => '0.1 g',
+        'protein' => '0.2 g',
+        'sugar' => '12.9 g',
+        'saturatedFat' => '0 g',
+        'carbohydrate' => '17.7 g',
+        'sodium' => '2.7 mg',
+    ],
 ];

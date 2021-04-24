@@ -39,7 +39,6 @@ return [
     ],
     'name' => 'Double Tomato Pesto Spaghetti with Zucchini Noodles',
     'notes' => [
-        // 'Recipe adapted from Bon Appetit\'s spaghetti with tomato and walnut pesto.',
         'Make it dairy free/vegan: Skip the Parmesan and add a sprinkle of nutritional yeast, if you\'d like. The sun-dried tomatoes make it plenty savory.',
         'Make it gluten free: Use your favorite gluten-free pasta, or serve entirely with zucchini noodles.',
         'Make it nut free: Technically pine nuts are seeds, so if those work for you, try about ⅓ cup pine nuts instead of walnuts. I often use pepitas in pestos, but I\'m not sure they\'d work well with the tomatoes here. You would still get a really tasty tomato sauce without any nuts/seeds at all.',
@@ -50,4 +49,14 @@ return [
     'totalTime' => 'PT30M',
     'url' => 'https://cookieandkate.com/2016/double-tomato-pesto-spaghetti-with-zucchini-noodles/',
     'yield' => '4 servings',
+    'nutrition' => [
+        'calories' => '673',
+        'fat' => '25 g',
+        'fiber' => '17.5 g',
+        'protein' => '20.1 g',
+        'sugar' => '9.8 g',
+        'saturatedFat' => '2.8 g',
+        'carbohydrate' => '99.3 g',
+        'sodium' => '187.2 mg',
+    ],
 ];
