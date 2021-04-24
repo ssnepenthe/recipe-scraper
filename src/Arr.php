@@ -54,10 +54,10 @@ class Arr
         }
 
         if (self::isAssoc($value)) {
-            return array_map(
+            return array_filter(array_map(
                 [Str::class, 'normalize'],
                 $value
-            );
+            ));
         }
 
         return array_values(array_filter(array_map(
