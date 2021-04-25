@@ -1,6 +1,5 @@
 <?php
 
-// Has times but mislabeled and represented as ranges...
 return [
     'author' => 'Better Homes and Gardens',
     'categories' => [
@@ -46,4 +45,7 @@ return [
     'totalTime' => null,
     'url' => 'https://www.bhg.com/recipe/salmon-with-lentil-hash-and-bacon/',
     'yield' => '4 servings',
+    'nutrition' => [
+        'calories' => '623 kcal',
+    ],
 ];

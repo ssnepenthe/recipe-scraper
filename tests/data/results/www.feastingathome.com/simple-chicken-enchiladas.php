@@ -23,7 +23,6 @@ return [
     ],
     'instructions' => [
         'Make the Shredded Chicken (or shred a rotisserie chicken-see notes) drain, set aside 4 cups of the chicken and stir in the small can of green chilies.',
-        // 'Preheat oven to 350F',
         'Make the 5-Minute Enchilada Sauce',
         'Heat the tortillas until they are pliable, to prevent cracking when rolling-especially if using corn tortillas. (In a microwave -wrap the stack in a kitchen towel for 20 seconds, or spread out on the rack in a 350 F oven, or lightly toast over a gas burner using tongs)',
         'Grease a 9×13-inch baking dish. Spread 1/2 cup Enchilada sauce, or enough to coat the bottom.',
@@ -34,10 +33,20 @@ return [
         'Top with garnishes before serving!',
     ],
     'name' => 'Simple Chicken Enchiladas',
-    'notes' => null, // @todo
+    'notes' => null,
     'prepTime' => 'PT40M',
     'publisher' => null,
     'totalTime' => 'PT1H',
     'url' => 'https://www.feastingathome.com/simple-chicken-enchiladas/',
-    'yield' => null, // @todo
+    'yield' => null,
+    'nutrition' => [
+        'calories' => '400',
+        'fat' => '16.3 g',
+        'fiber' => '6.4 g',
+        'protein' => '31.1 g',
+        'sugar' => '3.8 g',
+        'saturatedFat' => '8.1 g',
+        'carbohydrate' => '30.9 g',
+        'sodium' => '1023 mg',
+    ],
 ];

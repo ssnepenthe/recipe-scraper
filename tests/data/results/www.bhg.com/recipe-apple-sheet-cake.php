@@ -1,6 +1,5 @@
 <?php
 
-// Has times but not labeled correctly.
 return [
     'author' => 'Better Homes and Gardens',
     'categories' => [
@@ -41,4 +40,7 @@ return [
     'totalTime' => null,
     'url' => 'https://www.bhg.com/recipe/apple-sheet-cake/',
     'yield' => '24 servings',
+    'nutrition' => [
+        'calories' => '209 kcal',
+    ],
 ];

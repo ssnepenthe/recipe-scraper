@@ -35,10 +35,20 @@ return [
         'Peel both types of potatoes and cut into slices 2mm thick, by hand or using a mandoline. Alternate layers of potato and sweet potato in circles over the pie, or randomly, if you prefer. Dot the cubed butter over the top and bake for 1-1½ hrs until the potato is tender. Nestle in the whole sage leaves, brushed in a little oil, for the last 10 mins. Leave to rest for 10 mins before serving.',
     ],
     'name' => 'Slow-cooked pork, cider & sage hotpot',
-    'notes' => null, // @todo
+    'notes' => null,
     'prepTime' => 'PT40M',
     'publisher' => 'BBC Good Food',
     'totalTime' => 'PT3H40M',
     'url' => 'https://www.bbcgoodfood.com/recipes/slow-cooked-pork-cider-sage-hotpot',
     'yield' => '6',
+    'nutrition' => [
+        'calories' => '644 calories',
+        'fat' => '35 grams fat',
+        'fiber' => '80 grams fiber',
+        'protein' => '35 grams protein',
+        'sugar' => '13 grams sugar',
+        'saturatedFat' => '14 grams saturated fat',
+        'carbohydrate' => '39 grams carbohydrates',
+        'sodium' => '0.6 milligram of sodium',
+    ],
 ];

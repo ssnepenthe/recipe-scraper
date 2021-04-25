@@ -28,7 +28,6 @@ return [
         '1 can low-sodium beef broth',
         '1 1/4 tsp. Kosher salt',
         '1 tsp. Freshly ground black pepper',
-        // @todo Measure (1/3) has gone missing...
         'c. Chopped fresh cilantro',
         'Sliced fresh jalapeños',
         'Chipotle Sour Cream',
@@ -50,4 +49,7 @@ return [
     'totalTime' => 'PT45M',
     'url' => 'https://www.countryliving.com/food-drinks/recipes/a6184/pumpkin-beef-black-bean-chili-recipe-clx1014/',
     'yield' => '6',
+    'nutrition' => [
+        'calories' => '398 calories',
+    ],
 ];

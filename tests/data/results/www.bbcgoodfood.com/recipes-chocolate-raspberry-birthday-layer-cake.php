@@ -32,10 +32,20 @@ return [
         'Spoon most of the reserved raspberry mixture over one of the cakes, then dollop on half of the cream. Smooth over with a palette knife, then place the other sponge on top. Swirl over the remaining cream and swirl the last of the raspberry mixture through it. Will keep in the fridge for two days.',
     ],
     'name' => 'Chocolate & raspberry birthday layer cake',
-    'notes' => null, // @todo
+    'notes' => null,
     'prepTime' => 'PT20M',
     'publisher' => 'BBC Good Food',
     'totalTime' => 'PT1H',
     'url' => 'https://www.bbcgoodfood.com/recipes/chocolate-raspberry-birthday-layer-cake',
     'yield' => '12',
+    'nutrition' => [
+        'calories' => '549 calories',
+        'fat' => '36 grams fat',
+        'fiber' => '2 grams fiber',
+        'protein' => '6 grams protein',
+        'sugar' => '33 grams sugar',
+        'saturatedFat' => '12 grams saturated fat',
+        'carbohydrate' => '49 grams carbohydrates',
+        'sodium' => '0.6 milligram of sodium',
+    ],
 ];

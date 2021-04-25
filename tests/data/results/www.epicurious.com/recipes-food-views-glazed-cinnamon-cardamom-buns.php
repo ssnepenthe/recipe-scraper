@@ -1,8 +1,5 @@
 <?php
 
-/**
- * @see https://github.com/ssnepenthe/recipe-scraper/issues/36
- */
 return [
     'author' => 'Kat Boytsova',
     'categories' => [
@@ -55,7 +52,6 @@ return [
         'Place racks in upper and lower thirds of oven; preheat to 325°F. Bake cinnamon buns, rotating pans from top to bottom halfway through, until deeply golden brown, 25-30 minutes.',
         'Bring remaining 1 cup brown sugar and 1/2 cup water to a boil in a small saucepan. Generously brush syrup over hot buns. If you like a sweeter pastry, wait 5 minutes, then brush again.',
         'Do Ahead: Buns can be made 2 days ahead. Tightly wrap with plastic and store at room temperature.',
-        // This test ensures we don't get a second "Do Ahead:" entry here.
     ],
     'name' => 'Glazed Cinnamon-Cardamom Buns',
     'notes' => null,
@@ -64,4 +60,13 @@ return [
     'totalTime' => null,
     'url' => 'https://www.epicurious.com/recipes/food/views/glazed-cinnamon-cardamom-buns',
     'yield' => 'Makes 8',
+    'nutrition' => [
+        'calories' => '604',
+        'fat' => '20 g(31%)',
+        'fiber' => '4 g(15%)',
+        'protein' => '9 g(19%)',
+        'saturatedFat' => '12 g(60%)',
+        'carbohydrate' => '98 g(33%)',
+        'sodium' => '274 mg(11%)',
+    ],
 ];

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => null, // Author is still available (Micah Morton) but not from LD+JSON.
+    'author' => null,
     'categories' => [
         'Huevos Rancheros Sandwich and Mexican Coffee',
         'best Huevos Rancheros Sandwich and Mexican Coffee recipe',
@@ -43,4 +43,5 @@ return [
     'totalTime' => null,
     'url' => 'https://www.delish.com/cooking/recipe-ideas/recipes/a53178/huevos-rancheros-sandwich-mexican-coffee-recipe/',
     'yield' => '1',
+    'nutrition' => null,
 ];

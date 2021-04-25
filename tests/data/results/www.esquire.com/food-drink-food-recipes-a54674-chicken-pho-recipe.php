@@ -15,7 +15,6 @@ return [
         'homemade pho',
     ],
     'cookingMethod' => null,
-    // Actually should be PT3H - error on site.
     'cookTime' => 'PT3M',
     'cuisines' => null,
     'description' => 'San Francisco\'s Turtle Tower restaurant shares its secret recipe for Vietnamese chicken pho.',
@@ -58,4 +57,5 @@ return [
     'totalTime' => 'PT3M',
     'url' => 'https://www.esquire.com/food-drink/food/recipes/a54674/chicken-pho-recipe/',
     'yield' => '8',
+    'nutrition' => null,
 ];
