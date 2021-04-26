@@ -35,7 +35,6 @@ return [
         '6 cups chopped green cabbage',
         'Remaining ingredients:',
         '13 hamburger buns',
-        // @todo Site links to another recipe...
         '1 2/3 cups Memphis Barbecue Sauce',
     ],
     'instructions' => [
@@ -56,4 +55,13 @@ return [
     'totalTime' => null,
     'url' => 'http://www.myrecipes.com/recipe/memphis-pork-coleslaw-sandwich',
     'yield' => '13 servings (serving size: 1 bun, 3 ounces pork, about 1/3 cup slaw, and about 1 1/2 tablespoons sauce)',
+    'nutrition' => [
+        'calories' => '387',
+        'fat' => '15.2 g',
+        'fiber' => '2.3 g',
+        'protein' => '26.6 g',
+        'saturatedFat' => '5.1 g',
+        'carbohydrate' => '33.7 g',
+        'sodium' => '843 mg',
+    ],
 ];
