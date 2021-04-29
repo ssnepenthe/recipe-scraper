@@ -32,7 +32,7 @@ return [
         'Spoon most of the reserved raspberry mixture over one of the cakes, then dollop on half of the cream. Smooth over with a palette knife, then place the other sponge on top. Swirl over the remaining cream and swirl the last of the raspberry mixture through it. Will keep in the fridge for two days.',
     ],
     'name' => 'Chocolate & raspberry birthday layer cake',
-    'notes' => null,
+    'notes' => null, // @todo
     'prepTime' => 'PT20M',
     'publisher' => 'BBC Good Food',
     'totalTime' => 'PT1H',

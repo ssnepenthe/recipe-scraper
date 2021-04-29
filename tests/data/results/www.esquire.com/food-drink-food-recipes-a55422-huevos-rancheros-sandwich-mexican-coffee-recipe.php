@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => null,
+    'author' => null, // Author is still available (Micah Morton) but not from LD+JSON.
     'categories' => [
         'Huevos Rancheros Sandwich and Mexican Coffee',
         'best Huevos Rancheros Sandwich and Mexican Coffee recipe',

@@ -21,6 +21,7 @@ return [
     ],
     'name' => 'Tuscan-Style Veal Chops',
     'notes' => [
+        // @todo Dash between "red" and "not" is being replaced with a non-visible character.
         'These Tuscan-style chops go well with a Sangiovese-based Tuscan rednot a surprise, since Tuscan Sangiovese usually has a lightly foresty, herbal aroma.',
     ],
     'prepTime' => 'PT15M',

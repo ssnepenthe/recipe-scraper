@@ -39,6 +39,7 @@ return [
     ],
     'prepTime' => null,
     'publisher' => null,
+    // Has totalTime but it is at itemprop="".
     'totalTime' => null,
     'url' => 'https://www.bhg.com/recipe/battered-asparagus-ham-hoagies/',
     'yield' => '4 servings',

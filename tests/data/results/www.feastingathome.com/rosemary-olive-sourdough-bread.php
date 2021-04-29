@@ -35,12 +35,12 @@ return [
         'COOL Remove from the dutch oven, let it cool 1 hour on a rack or tilted up on its side, before slicing so you don\'t let the steam out and don\'t smash it- be patient. This is the hardest part. 😉. Take a picture! Feel proud. You did it!',
     ],
     'name' => 'Rosemary Olive Sourdough Bread',
-    'notes' => null,
+    'notes' => null, // @todo
     'prepTime' => 'PT25M',
     'publisher' => '',
     'totalTime' => 'PT1H5M',
     'url' => 'https://www.feastingathome.com/rosemary-olive-sourdough-bread/',
-    'yield' => null,
+    'yield' => null, // @todo
     'nutrition' => [
         'calories' => '199',
         'fat' => '2.4 g',

@@ -12,6 +12,16 @@ class SchemaOrgJsonLd implements ScraperInterface
 {
     use ExtractsDataFromCrawler;
 
+    public static $NUTRITION_FIELDS = [
+        'calories' => 'calories',
+        'fatContent' => 'fat',
+        'fiberContent' => 'fiber',
+        'proteinContent' => 'protein',
+        'sugarContent' => 'sugar',
+        'saturatedFatContent' => 'saturatedFat',
+        'carbohydrateContent' => 'carbohydrate',
+        'sodiumContent' => 'sodium'
+    ];
     /**
      * @var string[]
      */
@@ -111,20 +121,9 @@ class SchemaOrgJsonLd implements ScraperInterface
      */
     protected function extractNutrition(Crawler $crawler, array $json)
     {
-        $nutritionFields = [
-            'calories' => 'calories',
-            'fatContent' => 'fat',
-            'fiberContent' => 'fiber',
-            'proteinContent' => 'protein',
-            'sugarContent' => 'sugar',
-            'saturatedFatContent' => 'saturatedFat',
-            'carbohydrateContent' => 'carbohydrate',
-            'sodiumContent' => 'sodium'
-        ];
-
         $nutrition = [];
 
-        foreach ($nutritionFields as $originalField => $mapField) {
+        foreach (self::$NUTRITION_FIELDS as $originalField => $mapField) {
             if (is_string($value = Arr::get($json, 'nutrition.' . $originalField))) {
                 $nutrition[$mapField] = $value;
             } else {
@@ -231,8 +230,8 @@ class SchemaOrgJsonLd implements ScraperInterface
 
         $image = Arr::get($json, 'image');
 
-        // For www.justataste.com.
         if (is_array($image)) {
+            // For www.justataste.com
             return $this->removeExtraHttpFromImageUrl(array_shift($image));
         }
 

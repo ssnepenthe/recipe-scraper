@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'author' => null,
+    'author' => null, // Author is still available (Lauren Salkeld), but not from LD+JSON.
     'categories' => [
         'pumpkin cheesecake bars',
         'pumpkin brownies',

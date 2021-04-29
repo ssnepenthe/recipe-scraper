@@ -1,5 +1,6 @@
 <?php
 
+// Has a sub-recipe...
 return [
     'author' => 'Better Homes and Gardens',
     'categories' => [

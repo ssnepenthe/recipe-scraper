@@ -28,6 +28,7 @@ return [
         'In a large bowl, combine chicken, cabbage, mushrooms, carrots, cilantro, cucumber, and dressing. Toss well.',
         'Top with green onions and tangerine sections. Pepper to taste.',
         'Serves 4.',
+        // @todo Funky symbol in space between "Health" and "Seattle"?
         'Reprinted with permission by Public Health  Seattle & King County',
     ],
     'name' => 'Asian Chicken Salad',

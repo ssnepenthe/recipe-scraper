@@ -15,6 +15,7 @@ return [
     'description' => 'This muffin-tin baked oatmeal is the perfect morning taste treat.',
     'image' => 'https://hips.hearstapps.com/rbk.h-cdn.co/assets/cm/15/26/558ea829794eb-baked-oatmeal-recipe-rbk0912-de.jpg',
     'ingredients' => [
+        // 1/3 measures seem to have been lost in the site update...
         '1 c. steel-cut oats',
         '1/2 c. raisins',
         'c. walnut pieces',

@@ -18,8 +18,10 @@ return [
         '1/2 teaspoon simple syrup',
         '1/2 teaspoon honey simple syrup',
         '1-2 dashes of Angostura bitters',
+        // 'Simple Syrup', // @todo
         '1/4 cup sugar',
         '1/4 cup water',
+        // 'Honey Simple Syrup', // @todo
         '1/4 cup honey',
         '1/4 cup hot water',
     ],
@@ -29,10 +31,10 @@ return [
     ],
     'name' => 'Old Fashioned Cocktail',
     'notes' => null,
-    'prepTime' => 'PT30M',
+    'prepTime' => 'PT30M', // @todo Probably supposed to be 30 seconds? Maybe not worth fixing.
     'publisher' => '',
-    'totalTime' => 'PT30M',
+    'totalTime' => 'PT30M', // @todo See above.
     'url' => 'https://www.feastingathome.com/old-fashioned-cocktail/',
-    'yield' => null,
+    'yield' => null, // @todo
     'nutrition' => null,
 ];

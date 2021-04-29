@@ -1,5 +1,6 @@
 <?php
 
+// Has times but mislabeled and represented as ranges...
 return [
     'author' => 'Better Homes and Gardens',
     'categories' => [

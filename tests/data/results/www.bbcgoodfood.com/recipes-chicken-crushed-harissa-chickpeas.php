@@ -31,7 +31,7 @@ return [
         'Heat the chickpeas in a pan with the harissa paste and 2 tbsp water until warmed through, then roughly mash with a potato masher. Wilt the spinach in a pan with 1 tbsp of water or in the microwave in a heatproof bowl. Stir the pepper and onion mixture, spinach and parsley through the chickpeas. Serve with the sliced chicken and the lemon wedges for squeezing over.',
     ],
     'name' => 'Chicken with crushed harissa chickpeas',
-    'notes' => null,
+    'notes' => null, // @todo
     'prepTime' => 'PT5M',
     'publisher' => 'BBC Good Food',
     'totalTime' => 'PT15M',
