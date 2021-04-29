@@ -40,5 +40,5 @@ return [
     'totalTime' => null,
     'url' => 'https://www.farmflavor.com/recipe/herb-veggie-frittata/',
     'yield' => '8 servings',
-    'nutrition' => [],
+    'nutrition' => null,
 ];

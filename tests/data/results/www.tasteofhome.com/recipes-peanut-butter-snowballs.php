@@ -27,5 +27,5 @@ return [
     'totalTime' => 'PT15M',
     'url' => 'https://www.tasteofhome.com/recipes/peanut-butter-snowballs',
     'yield' => '24 servings',
-    'nutrition' => [],
+    'nutrition' => null,
 ];

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" class="single-recipe has-leaderboard country-code-default">
+<html lang="en" class="single-recipe country-code-default">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="//cdn.jamieoliver.com" rel="preconnect" crossorigin>
+    <link href="https://cdn.jamieoliver.com" rel="preconnect" crossorigin>
     <link href="//img.jamieoliver.com" rel="preconnect" crossorigin>
     <link href="//fonts.googleapis.com" rel="preconnect" crossorigin>
     <link href="//code.jquery.com" rel="preconnect" crossorigin>
@@ -13,7 +13,7 @@
 
 
     <!-- Meta -->
-    <title>Spinach & Ricotta Cannelloni| Pasta Recipes | Jamie Oliver Recipes</title>
+    <title>Spinach & ricotta cannelloni| Pasta recipes | Jamie Oliver recipes</title>
     <meta name="description" content="This delicious cannelloni recipe is one of Jamie's favourites; packed full of spinach and ricotta you can't go wrong with this awesome pasta dish." />
     <meta name="keywords" content="Jamie Oliver, recipes, food, pasta, lasagne, videos" />
     <meta name="author" content="JamieOliver.com" />
@@ -25,42 +25,42 @@
 
     <!-- Icons -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="shortcut icon" href="//cdn.jamieoliver.com/library/images/favicon.ico?v=2" type="image/x-icon" />
-    <link rel="icon" sizes="192x192" href="//cdn.jamieoliver.com/icons/icon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="//cdn.jamieoliver.com/icons/152x152.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="//cdn.jamieoliver.com/icons/144x144.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="//cdn.jamieoliver.com/icons/120x120.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="//cdn.jamieoliver.com/icons/114x114.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="//cdn.jamieoliver.com/icons/72x72.png" />
-    <link rel="apple-touch-icon-precomposed" href="//cdn.jamieoliver.com/icons/57x57.png" />
+    <link rel="shortcut icon" href="https://cdn.jamieoliver.com/library/images/favicon.ico?v=2" type="image/x-icon" />
+    <link rel="icon" sizes="192x192" href="https://cdn.jamieoliver.com/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.jamieoliver.com/icons/152x152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.jamieoliver.com/icons/144x144.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.jamieoliver.com/icons/120x120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.jamieoliver.com/icons/114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.jamieoliver.com/icons/72x72.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://cdn.jamieoliver.com/icons/57x57.png" />
 
     <!-- Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Montserrat:700,400|Average|Roboto:300,700|Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700,400|Average|Roboto:300,700|Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-            <link href="//cdn.jamieoliver.com/library/build/347/vendor.concat.css" rel="stylesheet">
-        <link href="//cdn.jamieoliver.com/library/build/347/style.concat.css" rel="stylesheet">
-    
+    <link href="https://cdn.jamieoliver.com/library/build/1013/vendor.concat.css" rel="stylesheet">
+    <link href="https://cdn.jamieoliver.com/library/build/1013/style.concat.css" rel="stylesheet">
+
     <link rel="alternate" hreflang="de" href="https://www.jamieoliver.com/de/recipes/pasta-recipes/awesome-spinach-and-ricotta-cannelloni/" />
 <link rel="alternate" hreflang="en" href="https://www.jamieoliver.com/recipes/pasta-recipes/awesome-spinach-and-ricotta-cannelloni/" />
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,700,300" rel="stylesheet">
-<meta property="og:image" content="//cdn.jamieoliver.com/recipe-database/oldImages/medium/34_1_1439914604.jpg" />
-<meta property="og:site_name" content="Jamie Oliver" /><meta property="og:title" content="Spinach & Ricotta Cannelloni| Pasta Recipes | Jamie Oliver Recipes" />
+<meta property="og:image" content="https://cdn.jamieoliver.com/recipe-database/oldImages/medium/34_1_1439914604.jpg" />
+<meta property="og:site_name" content="Jamie Oliver" /><meta property="og:title" content="Spinach & ricotta cannelloni| Pasta recipes | Jamie Oliver recipes" />
 <meta property="og:description" content="This delicious cannelloni recipe is one of Jamie's favourites; packed full of spinach and ricotta you can't go wrong with this awesome pasta dish." />
 <meta name="twitter:site" content="@jamieoliver">
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Spinach & Ricotta Cannelloni| Pasta Recipes | Jamie Oliver Recipes" />
+<meta name="twitter:title" content="Spinach & ricotta cannelloni| Pasta recipes | Jamie Oliver recipes" />
 <meta name="twitter:description" content="This delicious cannelloni recipe is one of Jamie's favourites; packed full of spinach and ricotta you can't go wrong with this awesome pasta dish." />
 <meta name="twitter:image" content="https://cdn.jamieoliver.com/recipe-database/oldImages/medium/34_1_1439914604.jpg" />
 
     
+    <script>window['gtag_enable_tcf_support'] = true</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <style>:root{--main-colour:#62a5a1;--brand-text-colour:#62a5a1;--contrast-text-colour:#ffffff;}</style><!-- custom-css cache updated 2020-08-28 13:14:21 -->
-    <script src="//cdn.jamieoliver.com/library/build/347/cookie.concat.js"></script>
+    <style>:root{--main-colour:#62a5a1;--brand-text-colour:#62a5a1;--contrast-text-colour:#ffffff;}</style><!-- custom-css cache updated 2021-04-27 17:04:49 -->
 
-
-
+<script src="https://cdn.jamieoliver.com/library/build/1013/cookie.concat.js"></script>
 <!-- Proper Media Tags -->
     <script>
         var propertag = propertag || {};
@@ -75,6 +75,13 @@
         })();
     </script>
 
+        <script async="true" src="https://cdn.whisk.com/sdk/shopping-list-sp.js" type="text/javascript"></script>
+        <script>
+          var whisk = whisk || {};
+          whisk.queue = whisk.queue || [];
+          var whiskRecipeUrl = "https://www.jamieoliver.com/recipes/pasta-recipes/awesome-spinach-and-ricotta-cannelloni/";
+        </script>
+    
 
 </head>
 <body>
@@ -96,7 +103,7 @@
    category : {
      primaryCategory: "Recipes",
      subCategory1: "Pasta Recipes",
-     subCategory2: "Awesome spinach and ricotta cannelloni",
+     subCategory2: "Awesome spinach & ricotta cannelloni",
      pageType: "Pasta Recipes"
    },
    attributes: {
@@ -120,7 +127,7 @@
   });</script>
 <div class="site-wrapper wrap--awesome-spinach-and-ricotta-cannelloni">
 
-    <header id="main-header" class="main-header has-leaderboard-ad">
+    <header id="main-header" class="main-header ">
         <div class="header-content stick ">
 
     
@@ -131,7 +138,7 @@
                                 'event' : 'HomepageInteraction'
                             })
                         </script>
-                        <div class="navbar-header ">
+                        <div class="navbar-header">
                             <a id="gtm_nav_logo" class="logo" href="/" title="Jamie Oliver"></a>
                             <div class="mobile-headline"></div>
                         </div>
@@ -155,7 +162,7 @@
                                     <li>
                                         <a href="/recipes/" id="gtm_nav_recipes" title="Recipes" data-submenu=".submenu-recipes" data-submenu-mobile="#menu-recipe-header-menu>li>a" class="has-submenu">Recipes</a>
                                     </li>
-                                                                        <li>
+                                    <li>
                                         <a href="#" id="gtm_nav_discover" title="Discover" data-submenu=".submenu-discover" data-submenu-mobile="#menu-discover-header-menu>li>a" class="x-disable-link has-submenu">Discover</a>
                                     </li>
                                     <li>
@@ -163,9 +170,6 @@
                                     </li>
                                    <li>
                                         <a href="/videos/" title="Video" id="gtm_nav_videos">Video</a>
-                                    </li>
-                                    <li>
-                                        <a href="/recipes/category/books/jamies-keep-cooking-family-favourites/" id="gtm_nav_kcff" title="Keep Cooking Family Favourites">Keep Cooking</a>
                                     </li>
                                 </ul>
                             </div>
@@ -219,7 +223,7 @@
 </li>
 <li id="menu-item-49" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49"><a title="Meals &#038; Courses" href="/recipes/category/course/">Meals &#038; Courses</a>
 <ul class="sub-menu">
-	<li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a title="Starter" href="/recipes/category/course/breakfast/">Brilliant breakfast</a></li>
+	<li id="menu-item-141939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141939"><a href="https://www.jamieoliver.com/recipes/category/dishtype/salad/">Salad recipes</a></li>
 	<li id="menu-item-53" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53"><a title="Sides" href="/recipes/category/course/cheap-cheerful/">Cheap &#038; cheerful</a></li>
 	<li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a title="Desserts recipes" href="/recipes/category/course/desserts/">Desserts</a></li>
 	<li id="menu-item-52" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52"><a title="Dessert" href="/recipes/category/course/one-pan-recipes/">One-pan recipes</a></li>
@@ -231,7 +235,6 @@
 <li id="menu-item-106916" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-106916"><a href="/recipes/beautiful-baking/">Baking</a>
 <ul class="sub-menu">
 	<li id="menu-item-106917" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106917"><a href="/recipes/beautiful-baking/cake/">Cakes</a></li>
-	<li id="menu-item-106918" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106918"><a href="/recipes/beautiful-baking/gluten-free-cake/">Gluten-free cakes</a></li>
 	<li id="menu-item-106920" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106920"><a href="/recipes/beautiful-baking/afternoon-tea/">Afternoon tea treats</a></li>
 	<li id="menu-item-106921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106921"><a href="/recipes/beautiful-baking/cookie/">Cookies</a></li>
 	<li id="menu-item-106922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106922"><a href="/recipes/beautiful-baking/bread-doughs/">Breads &#038; doughs</a></li>
@@ -241,8 +244,7 @@
 </li>
 <li id="menu-item-103835" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-103835"><a title="Family Food" href="/family/">Family Food</a>
 <ul class="sub-menu">
-	<li id="menu-item-106571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106571"><a href="/kitchen-buddies/">Cooking with kids</a></li>
-	<li id="menu-item-106569" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106569"><a href="/family/family-favourites/">Family favourites</a></li>
+	<li id="menu-item-106571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106571"><a href="/get-kids-cooking/">Cooking with kids</a></li>
 	<li id="menu-item-106570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106570"><a href="/family/school-night-suppers/">School night suppers</a></li>
 	<li id="menu-item-106572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106572"><a href="/family/batch-cooking/">Batch cooking</a></li>
 	<li id="menu-item-106573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106573"><a href="/family/quick-easy/">Quick &#038; easy</a></li>
@@ -252,23 +254,21 @@
 </li>
 <li id="menu-item-107129" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-107129"><a title="Special occasions" href="/recipes/category/occasion/">Special occasions</a>
 <ul class="sub-menu">
-	<li id="menu-item-108929" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108929"><a href="https://www.jamieoliver.com/recipes/category/occasion/mothers-day/">Mother&#8217;s Day</a></li>
-	<li id="menu-item-108838" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108838"><a href="https://www.jamieoliver.com/recipes/category/occasion/easter-treats/">Easter treats</a></li>
+	<li id="menu-item-141936" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141936"><a href="https://www.jamieoliver.com/recipes/category/occasion/picnic/">Picnic recipes</a></li>
+	<li id="menu-item-141938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141938"><a href="https://www.jamieoliver.com/summer-recipes/">Summer recipes</a></li>
+	<li id="menu-item-141955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141955"><a href="https://www.jamieoliver.com/recipes/holidays-from-home/">Holidays from Home</a></li>
 	<li id="menu-item-107132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107132"><a href="/recipes/category/occasion/sunday-lunch/">Sunday lunch</a></li>
-	<li id="menu-item-107131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107131"><a href="/recipes/category/occasion/dinner-party/">Dinner party</a></li>
-	<li id="menu-item-108839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108839"><a href="https://www.jamieoliver.com/recipes/category/occasion/party-food/">Party food</a></li>
-	<li id="menu-item-107296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107296"><a href="/recipes/category/occasion/dinner-for-two/">Dinner for two</a></li>
+	<li id="menu-item-141956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141956"><a href="https://www.jamieoliver.com/recipes/category/course/cocktails/">Cocktails recipes</a></li>
 	<li id="menu-item-48" class="view-more menu-item menu-item-type-custom menu-item-object-custom menu-item-48"><a title="Dish Type View More" href="/recipes/category/occasion/">View more&#8230;</a></li>
 </ul>
 </li>
 <li id="menu-item-77" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77"><a title="Books &#038; TV" href="/recipes/category/books/">Books &#038; TV</a>
 <ul class="sub-menu">
-	<li id="menu-item-138645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138645"><a href="https://www.jamieoliver.com/recipes/category/books/jamies-keep-cooking-family-favourites/">Keep Cooking Family Favourites</a></li>
+	<li id="menu-item-141165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141165"><a href="https://www.jamieoliver.com/recipes/category/books/jamies-keep-cooking-family-favourites/">Jamie&#8217;s Keep Cooking Family Favourites</a></li>
+	<li id="menu-item-139629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139629"><a href="https://www.jamieoliver.com/recipes/category/books/7-ways/">7 ways</a></li>
 	<li id="menu-item-136376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136376"><a href="https://www.jamieoliver.com/recipes/category/books/keep-cooking-and-carry-on/">Jamie: Keep Cooking &#038; Carry On</a></li>
-	<li id="menu-item-133329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-133329"><a href="https://www.jamieoliver.com/recipes/category/books/jamies-meat-free-meals/">Jamie&#8217;s Meat-Free Meals</a></li>
+	<li id="menu-item-141203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141203"><a href="https://www.jamieoliver.com/recipes/category/books/veg/">Veg</a></li>
 	<li id="menu-item-115031" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-115031"><a href="/recipes/category/books/5-ingredients-quick-easy-food-recipes/">5 Ingredients – Quick &#038; Easy Food</a></li>
-	<li id="menu-item-133330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-133330"><a href="https://www.jamieoliver.com/recipes/category/books/20-years-of-the-naked-chef/">20 years of The Naked Chef</a></li>
-	<li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="/family/jamies-super-food-family-classics/">Jamie&#8217;s Super Food Family Classics</a></li>
 	<li id="menu-item-83" class="view-more menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a title="Books View more" href="/recipes/category/books/">View more&#8230;</a></li>
 </ul>
 </li>
@@ -281,38 +281,38 @@
                             <div class="row">
                                 <div class="menu-discover-header-menu-container"><ul id="menu-discover-header-menu" class="menu"><li id="menu-item-138261" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-138261"><a href="https://www.jamieoliver.com/family/">Family Food</a>
 <ul class="sub-menu">
+	<li id="menu-item-138329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138329"><a href="https://www.jamieoliver.com/get-kids-cooking/">Cooking with kids</a></li>
 	<li id="menu-item-138328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138328"><a href="https://www.jamieoliver.com/family/batch-cooking/">Batch Cooking</a></li>
-	<li id="menu-item-138329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138329"><a href="https://www.jamieoliver.com/get-kids-cooking/">Get Kids Cooking</a></li>
-	<li id="menu-item-138330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138330"><a href="https://www.jamieoliver.com/family/family-favourites/">Family Favourites</a></li>
+	<li id="menu-item-142041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142041"><a href="https://www.jamieoliver.com/recipes/category/course/store-cupboard-recipes/">Store cupboard recipes</a></li>
 	<li id="menu-item-138331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138331"><a href="https://www.jamieoliver.com/family/freezer-friendly-recipes/">Freezer Recipes</a></li>
 	<li id="menu-item-138332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138332"><a href="https://www.jamieoliver.com/family/school-night-suppers/">Midweek Family Meals</a></li>
-	<li id="menu-item-138333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138333"><a href="https://www.jamieoliver.com/family/weaning/">Weaning</a></li>
 	<li id="menu-item-138334" class="view-more menu-item menu-item-type-custom menu-item-object-custom menu-item-138334"><a href="https://www.jamieoliver.com/family/">View more</a></li>
 </ul>
 </li>
 <li id="menu-item-138335" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-138335"><a href="https://www.jamieoliver.com/features/">Features</a>
 <ul class="sub-menu">
+	<li id="menu-item-138341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138341"><a href="https://www.jamieoliver.com/features/category/healthy/">Healthy meals</a></li>
 	<li id="menu-item-138336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138336"><a href="https://www.jamieoliver.com/features/tag/breakfast-brunch/">Breakfast &#038; Brunch</a></li>
-	<li id="menu-item-138337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138337"><a href="https://www.jamieoliver.com/features/category/comfort-food/">Comfort Food</a></li>
-	<li id="menu-item-138338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138338"><a href="https://www.jamieoliver.com/features/category/desserts/">Desserts</a></li>
+	<li id="menu-item-138337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138337"><a href="https://www.jamieoliver.com/features/category/quick-fixes/">Quick Fixes</a></li>
+	<li id="menu-item-138338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138338"><a href="https://www.jamieoliver.com/features/category/family/">Family Cooking</a></li>
 	<li id="menu-item-138339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138339"><a href="https://www.jamieoliver.com/family/fakeaways/">Fakeaways</a></li>
-	<li id="menu-item-138340" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138340"><a href="https://www.jamieoliver.com/features/category/meat-fish/">Meat &#038; Fish</a></li>
-	<li id="menu-item-138341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138341"><a href="https://www.jamieoliver.com/features/category/vegan/">Vegan</a></li>
 	<li id="menu-item-138342" class="view-more menu-item menu-item-type-custom menu-item-object-custom menu-item-138342"><a href="https://www.jamieoliver.com/features/">View more</a></li>
 </ul>
 </li>
 <li id="menu-item-138343" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-138343"><a href="https://www.jamieoliver.com/features/category/how-to/">How to&#8217;s</a>
 <ul class="sub-menu">
-	<li id="menu-item-138344" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138344"><a href="https://www.jamieoliver.com/features/category/grow-your-own/">Grow your own</a></li>
-	<li id="menu-item-138345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138345"><a href="https://www.jamieoliver.com/features/how-to-cook-pasta-in-6-easy-steps/">How to cook pasta</a></li>
+	<li id="menu-item-141934" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-141934"><a href="https://www.jamieoliver.com/features/fermenting-sauerkraut-simple-guide/">How to make sauerkraut</a></li>
 	<li id="menu-item-138346" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138346"><a href="https://www.jamieoliver.com/features/how-to-cook-the-perfect-steak/">How to cook the perfect steak</a></li>
-	<li id="menu-item-138347" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138347"><a href="https://www.jamieoliver.com/features/how-to-make-hash-browns/">How to make hash browns</a></li>
-	<li id="menu-item-138348" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138348"><a href="https://www.jamieoliver.com/features/how-to-make-perfectly-poached-eggs/">How to make poach eggs</a></li>
+	<li id="menu-item-141162" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-141162"><a href="https://www.jamieoliver.com/features/how-to-cook-rice/">How to cook perfect rice every time</a></li>
+	<li id="menu-item-140062" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-140062"><a href="https://www.jamieoliver.com/features/how-to-make-french-toast/">How to make French toast</a></li>
+	<li id="menu-item-141957" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-141957"><a href="https://www.jamieoliver.com/features/recipes-to-reduce-food-waste/">Recipes to reduce food waste</a></li>
 	<li id="menu-item-138349" class="view-more menu-item menu-item-type-custom menu-item-object-custom menu-item-138349"><a href="https://www.jamieoliver.com/features/category/how-to/">View more</a></li>
 </ul>
 </li>
 <li id="menu-item-138350" class="submenu-heading col-md-3 dropdown-element menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-138350"><a href="#">More Jamie Oliver</a>
 <ul class="sub-menu">
+	<li id="menu-item-140560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140560"><a href="https://www.jamieoliver.com/7-days-of-7-ways/">7 days of 7 ways</a></li>
+	<li id="menu-item-140644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140644"><a href="https://www.jamieoliver.com/keep-cooking-daily/">Keep Cooking Daily</a></li>
 	<li id="menu-item-138351" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138351"><a href="https://www.jamieolivercookeryschool.com/">The Jamie Oliver Cookery School</a></li>
 	<li id="menu-item-138352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138352"><a href="https://www.jamiesministryoffood.com/">Ministry of Food</a></li>
 	<li id="menu-item-138353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138353"><a href="https://www.jamieoliver.com/campaigns/">Campaigns</a></li>
@@ -348,18 +348,23 @@
 
                         <div class="search-close">
                             <a href="#" class="close">
-                                <img class="close-img" src="//cdn.jamieoliver.com/library/images/closebutton.svg" onerror="this.onerror=null;this.src='//cdn.jamieoliver.com/library/images/closebutton.png';" width="24" height="23" alt="close" title="close">
+                                <img class="close-img" src="https://cdn.jamieoliver.com/library/images/closebutton.svg" onerror="this.onerror=null;this.src='https://cdn.jamieoliver.com/library/images/closebutton.png';" width="24" height="23" alt="close" title="close">
                             </a>
                         </div>
                     </div>
                 </div>
                 <!-- End Search bar -->
 
-        <!-- menu cache updated 2020-08-28 13:14:21 -->
-                    <div class="top-avocado">
-                <div class="wrap">
+        <!-- menu cache updated 2021-04-27 17:07:45 -->
+        
+        </div>
+    </header>
 
-                    <!-- Advertisement -->
+    
+            <div class="top-avocado -is-inline">
+            <div class="wrap">
+
+                <!-- Advertisement -->
 <div class="proper-ad-unit ">
         <div id="proper-ad-jamieoliver_leaderboard">
                     <script>
@@ -372,14 +377,15 @@
 </div>
 <!-- End Advertisement -->
 
-                </div>
             </div>
-        
         </div>
-    </header>
+    
 
-    <script type="application/ld+json">
-{"@context":"http:\/\/schema.org","@type":"Recipe","image":"http:\/\/cdn.jamieoliver.com\/recipe-database\/oldImages\/xtra_med\/34_1_1439914604.jpg","name":"Awesome spinach and ricotta cannelloni","recipeCategory":"Mains","description":"This creamy ricotta and spinach-filled pasta with tomato base sauce is an absolute classic","recipeYield":"8","totalTime":"PT1H10M","recipeIngredient":["2 knobs butter ","  olive oil ","2 cloves garlic peeled and finely sliced","1 large handful fresh marjoram or oregano roughly chopped","\u00bc  nutmeg grated","8 large handfuls spinach thoroughly washed","1 handful fresh basil stalks chopped, leaves ripped","2 x 400 g good-quality tinned plum tomatoes chopped","  sea salt ","  freshly ground black pepper ","1 pinch sugar ","400 g crumbly ricotta cheese ","2 handfuls Parmesan cheese freshly grated","16  cannelloni tubes ","200 g mozzarella broken up","500 ml cr\u00e8me fra\u00eeche ","3  anchovies finely chopped","2 handfuls Parmesan cheese freshly grated"],"recipeInstructions":"<ol class=\"recipeSteps\"><li><i>This is a super-tasty cannelloni, and I've avoided making the frustrating, painstaking b\u00e9chamel sauce and given you a much tastier and simpler version. All you need to make sure of is that you fill the cannelloni well with the ricotta and spinach mix, so it's not all full of air. And the lovely thing about it is that it goes crispy and golden on top, but remains soft and moist at the bottom. This is a bit of naughty one but you'll love it!<\/i><\/li><li>Preheat the oven to 180\u00baC\/350\u00baF\/gas 4. Then find a metal baking tray or ovenproof dish that will fit the cannelloni in one layer so it's nice and snug. This way you'll get the right cover of sauce and the right amount of crispiness on top. When I cook this at home I just use one pan to cut down on lots of washing up! Take your metal tray or a saucepan, put it on a high heat and add your butter, a drizzle of olive oil, one of the sliced garlic cloves, a handful of marjoram or oregano and the grated nutmeg. By the time the pan is hot the garlic should be soft. Put as much spinach as will fit into the pan. Keep turning it over; it will wilt quickly so you will be able to keep adding more spinach until it's all in. Moisture will cook out of the spinach, which is fine. By cooking it this way you don't lose any of the nutrients that you would if boiling it in water.<\/li><li>After 5 minutes, put the spinach into a large bowl and leave to cool. Place the pan back on the heat, add a little olive oil, the other clove of sliced garlic, your basil stalks and the tomatoes, then fill one of the empty tomato tins with cold water and add this too. Bring to the boil, then turn the heat down, add a pinch of salt and pepper and the sugar, and simmer for about 10 minutes, until you get a loose tomato sauce consistency. Then take the pan off the heat and add the basil leaves.<\/li><li>By now the spinach will have cooled down, so squeeze any excess liquid out of it and pour this back into the bowl. Finely chop the spinach and put it back into the bowl. Mix it with the liquid, add the ricotta and a handful of the Parmesan, and then use a piping bag to squeeze the mixture into the cannelloni. You can make your own piping bag by getting a sandwich bag and putting the spinach mix into the corner of it. Then twist the bag up and cut the corner off. Carefully squeeze the filling into the cannelloni tubes so each one is filled right up \u2013 really easy.<\/li><li>Lay the cannelloni over the tomato sauce in the pan. Or you can pour the tomato sauce into your ovenproof dish and lay the cannelloni on top. To make the white sauce, mix together the cr\u00e8me fra\u00eeche, anchovies and the 2 handfuls of Parmesan with a little salt and pepper, then loosen with a little water until you can spoon it over the cannelloni. Drizzle with olive oil, sprinkle with the remaining Parmesan and the mozzarella pieces, and bake for about 20 to 25 minutes until golden and bubbling.<\/li><\/ol>","keywords":"vegetable, pasta, spinach, cannelloni, ricotta, Pasta &amp; risotto, Pasta, Baking, Popular","author":"Jamie Oliver","nutrition":{"calories":"715 calories","fatContent":"47.1 g fat","saturatedFatContent":"28.2 g saturated fat","proteinContent":"28 g protein","carbohydrateContent":"46.2 g carbohydrate","sugarContent":"14.6 g sugar","sodiumContent":"1.9 g salt","fiberContent":"3.8 g fibre","@type":"NutritionInformation"},"datePublished":"2015-09-16"}</script>
+
+
+<script type="application/ld+json">
+{"@context":"http:\/\/schema.org","@type":"Recipe","image":"https:\/\/img.jamieoliver.com\/jamieoliver\/recipe-database\/oldImages\/large\/34_1_1439914604.jpg?tr=w-450","name":"Awesome spinach & ricotta cannelloni","recipeCategory":"Mains","recipeYield":"8","totalTime":"PT1H10M","recipeIngredient":["2 knobs butter ","  olive oil ","2 cloves garlic peeled and finely sliced","1 large handful fresh marjoram or oregano roughly chopped","\u00bc  nutmeg grated","8 large handfuls spinach thoroughly washed","1 handful fresh basil stalks chopped, leaves ripped","2 x 400 g good-quality tinned plum tomatoes chopped","  sea salt ","  freshly ground black pepper ","1 pinch sugar ","400 g crumbly ricotta cheese ","2 handfuls Parmesan cheese freshly grated","16  cannelloni tubes ","200 g mozzarella broken up","500 ml cr\u00e8me fra\u00eeche ","3  anchovies finely chopped","2 handfuls Parmesan cheese freshly grated"],"recipeInstructions":"<ol class=\"recipeSteps\"><li>Preheat the oven to 180\u00baC\/350\u00baF\/gas 4. Then find a metal baking tray or ovenproof dish that will fit the cannelloni in one layer so it's nice and snug. This way you'll get the right cover of sauce and the right amount of crispiness on top. When I cook this at home I just use one pan to cut down on lots of washing up! <\/li><li>Take your metal tray or a saucepan, put it on a high heat and add your butter, a drizzle of olive oil, one of the sliced garlic cloves, a handful of marjoram or oregano and the grated nutmeg. By the time the pan is hot the garlic should be soft. <\/li><li>Put as much spinach as will fit into the pan. Keep turning it over; it will wilt quickly so you will be able to keep adding more spinach until it's all in. Moisture will cook out of the spinach, which is fine. By cooking it this way you don't lose any of the nutrients that you would if boiling it in water.<\/li><li>After 5 minutes, put the spinach into a large bowl and leave to cool. Place the pan back on the heat, add a little olive oil, the other clove of sliced garlic, your basil stalks and the tomatoes, then fill one of the empty tomato tins with cold water and add this too. <\/li><li>Bring to the boil, then turn the heat down, add a pinch of salt and pepper and the sugar, and simmer for about 10 minutes, until you get a loose tomato sauce consistency. Then take the pan off the heat and add the basil leaves.<\/li><li>By now the spinach will have cooled down, so squeeze any excess liquid out of it and pour this back into the bowl. Finely chop the spinach and put it back into the bowl. Mix it with the liquid, add the ricotta and a handful of the Parmesan, and then use a piping bag to squeeze the mixture into the cannelloni. You can make your own piping bag by getting a sandwich bag and putting the spinach mix into the corner of it. Then twist the bag up and cut the corner off. Carefully squeeze the filling into the cannelloni tubes so each one is filled right up \u2013 really easy.<\/li><li>Lay the cannelloni over the tomato sauce in the pan. Or you can pour the tomato sauce into your ovenproof dish and lay the cannelloni on top. <\/li><li>To make the white sauce, mix together the cr\u00e8me fra\u00eeche, anchovies and the 2 handfuls of Parmesan with a little salt and pepper, then loosen with a little water until you can spoon it over the cannelloni. <\/li><li>Drizzle with olive oil, sprinkle with the remaining Parmesan and the mozzarella pieces, and bake for about 20 to 25 minutes until golden and bubbling.<\/li><\/ol>","keywords":"vegetable, pasta, spinach, cannelloni, ricotta, Pasta &amp; risotto, Pasta, Baking, Popular","author":"Jamie Oliver","nutrition":{"calories":"715 calories","fatContent":"47.1 g fat","saturatedFatContent":"28.2 g saturated fat","proteinContent":"28 g protein","carbohydrateContent":"46.2 g carbohydrate","sugarContent":"14.6 g sugar","sodiumContent":"1.9 g salt","fiberContent":"3.8 g fibre","@type":"NutritionInformation"},"datePublished":"2015-09-16"}</script>
+
     <section id="recipe-single" class=" family-food-inspiration-page-container">
 
         <div class="container recipe-container">
@@ -388,7 +394,7 @@
                 <div class="single-recipe-details-mobile col-xs-12 visible-xs-block">
 
                     <div class="single-recipe-details-mobile-top">
-                        <h3 class="h1 single-recipe-title">Awesome spinach and ricotta cannelloni</h3>
+                        <h3 class="h1 single-recipe-title">Awesome spinach & ricotta cannelloni</h3>
                                                     <p class="subheading">With an easy béchamel-style sauce</p>
                                             </div>
 
@@ -444,7 +450,7 @@
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sm-ls-7 recipe-header-left">
 
                             <div class="hero-wrapper">
-                                <img sizes="(min-width: 1200px) 400px, (min-width: 780px) 335px, (min-width: 480px) 48vw, 95vw" src="//img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/34_1_1439914604.jpg?tr=w-800,h-1066" alt="Awesome spinach and ricotta cannelloni">                                                            </div>
+                                <img sizes="(min-width: 1200px) 400px, (min-width: 780px) 335px, (min-width: 480px) 48vw, 95vw" src="https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/34_1_1439914604.jpg?tr=w-800,h-1066" alt="Awesome spinach & ricotta cannelloni">                                                            </div>
 
                             
                                 <div class="binder-component" data-id="46329"></div>
@@ -455,7 +461,7 @@
                         </div>
 
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sm-ls-5 col-xs-12 single-recipe-details">
-                            <h1 class="hidden-xs">Awesome spinach and ricotta cannelloni</h1>
+                            <h1 class="hidden-xs">Awesome spinach & ricotta cannelloni</h1>
                                                             <p class="subheading hidden-xs">With an easy béchamel-style sauce</p>
                             
 
@@ -463,11 +469,6 @@
                                                             </div>
 
                             <div class="row">
-                                                                    <div class="col-md-12 hidden-xs">
-                                        <div class="recipe-intro">
-                                            &ldquo;This creamy ricotta and spinach-filled pasta with tomato base sauce is an absolute classic &rdquo;
-                                        </div>
-                                    </div>
                                 
                                     <div class="col-md-12">
                                         <div class="row recipe-details">
@@ -619,7 +620,7 @@
 
             <div class="recipe-source-images">
                                         <div class="recipe-source-image">
-                                                            <a class="src-jamies-dinners" href="http://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">
+                                                            <a class="src-jamies-dinners" href="https://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">
                                     <img src="https://img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/9dd35f73c6cb104bda94469f450158d4?tr=w-140" alt="Jamie's Dinners" />
                                 </a>
                                                     </div>
@@ -630,10 +631,12 @@
                 <div class="recipe-source-banner">recipe adapted from</div>
                 <h4>Jamie's Dinners</h4>
 
+                                    <span class="author">
+                        By Jamie Oliver                    </span>
                 
                 
                                                             <div class="recipe-source-link gtm-recipe-source-link">
-                            <a class="src-jamies-dinners" href="http://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">BUY THE BOOK</a>
+                            <a class="src-jamies-dinners" href="https://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">BUY THE BOOK</a>
                         </div>
                                     
             </div>
@@ -650,7 +653,10 @@
 </div>
                     
 
-                    <div class="row">
+                    
+                    
+                    <div class="row" id="recipe-core">
+
                         <div class="recipe-left-col col-sm-5 col-md-4 col-sd-4 col-lg-4">
                             <div class="recipe-ingredients">
                                 <div class="method-nav-bar visible-xs-block">
@@ -704,7 +710,7 @@
                                                                                                                                             <li>
                                                                                                             200                                                                                                                                                                g                                                                                                                                                                mozzarella                                                                                                                                                                , broken up                                                                                                    </li>
                                                                                                                                                 <li class="ingred-heading">
-                                                        for the white sauce                                                    </li>
+                                                        WHITE SAUCE                                                    </li>
                                                                                                 <li>
                                                                                                             500                                                                                                                                                                ml                                                                                                                                                                crème fraîche                                                                                                                                                        </li>
                                                                                                                                             <li>
@@ -723,19 +729,15 @@
                                 </div>
                             </div>
 
-                            <div class="cc-recipe-details-container" data-resource-id="46329"></div>
-                            <script>
-                                window.ConstantCo = {
-                                    pageType: 'content-recipe',
-                                    pageResourceId: 46329                                }
-                            </script>
+                            <div id="whisk-widget" class="whisk-container"></div>
+
                                                         <div class="visible-mobile lower-recipe-source">
                                 
         <div class="recipe-source-wrapper source-jamie adapted">
 
             <div class="recipe-source-images">
                                         <div class="recipe-source-image">
-                                                            <a class="src-jamies-dinners" href="http://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">
+                                                            <a class="src-jamies-dinners" href="https://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">
                                     <img src="https://img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/9dd35f73c6cb104bda94469f450158d4?tr=w-140" alt="Jamie's Dinners" />
                                 </a>
                                                     </div>
@@ -746,10 +748,12 @@
                 <div class="recipe-source-banner">recipe adapted from</div>
                 <h4>Jamie's Dinners</h4>
 
+                                    <span class="author">
+                        By Jamie Oliver                    </span>
                 
                 
                                                             <div class="recipe-source-link gtm-recipe-source-link">
-                            <a class="src-jamies-dinners" href="http://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">BUY THE BOOK</a>
+                            <a class="src-jamies-dinners" href="https://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">BUY THE BOOK</a>
                         </div>
                                     
             </div>
@@ -797,14 +801,14 @@
                                                                             <div class="method-p">
                                             <h2>Method</h2>
                                             <div class="">
-                                                <ol class="recipeSteps"><li><i>This is a super-tasty cannelloni, and I've avoided making the frustrating, painstaking béchamel sauce and given you a much tastier and simpler version. All you need to make sure of is that you fill the cannelloni well with the ricotta and spinach mix, so it's not all full of air. And the lovely thing about it is that it goes crispy and golden on top, but remains soft and moist at the bottom. This is a bit of naughty one but you'll love it!</i></li><li>Preheat the oven to 180ºC/350ºF/gas 4. Then find a metal baking tray or ovenproof dish that will fit the cannelloni in one layer so it's nice and snug. This way you'll get the right cover of sauce and the right amount of crispiness on top. When I cook this at home I just use one pan to cut down on lots of washing up! Take your metal tray or a saucepan, put it on a high heat and add your butter, a drizzle of olive oil, one of the sliced garlic cloves, a handful of marjoram or oregano and the grated nutmeg. By the time the pan is hot the garlic should be soft. Put as much spinach as will fit into the pan. Keep turning it over; it will wilt quickly so you will be able to keep adding more spinach until it's all in. Moisture will cook out of the spinach, which is fine. By cooking it this way you don't lose any of the nutrients that you would if boiling it in water.</li><li>After 5 minutes, put the spinach into a large bowl and leave to cool. Place the pan back on the heat, add a little olive oil, the other clove of sliced garlic, your basil stalks and the tomatoes, then fill one of the empty tomato tins with cold water and add this too. Bring to the boil, then turn the heat down, add a pinch of salt and pepper and the sugar, and simmer for about 10 minutes, until you get a loose tomato sauce consistency. Then take the pan off the heat and add the basil leaves.</li><li>By now the spinach will have cooled down, so squeeze any excess liquid out of it and pour this back into the bowl. Finely chop the spinach and put it back into the bowl. Mix it with the liquid, add the ricotta and a handful of the Parmesan, and then use a piping bag to squeeze the mixture into the cannelloni. You can make your own piping bag by getting a sandwich bag and putting the spinach mix into the corner of it. Then twist the bag up and cut the corner off. Carefully squeeze the filling into the cannelloni tubes so each one is filled right up – really easy.</li><li>Lay the cannelloni over the tomato sauce in the pan. Or you can pour the tomato sauce into your ovenproof dish and lay the cannelloni on top. To make the white sauce, mix together the crème fraîche, anchovies and the 2 handfuls of Parmesan with a little salt and pepper, then loosen with a little water until you can spoon it over the cannelloni. Drizzle with olive oil, sprinkle with the remaining Parmesan and the mozzarella pieces, and bake for about 20 to 25 minutes until golden and bubbling.</li></ol>                                            </div>
+                                                <ol class="recipeSteps"><li>Preheat the oven to 180ºC/350ºF/gas 4. Then find a metal baking tray or ovenproof dish that will fit the cannelloni in one layer so it's nice and snug. This way you'll get the right cover of sauce and the right amount of crispiness on top. When I cook this at home I just use one pan to cut down on lots of washing up! </li><li>Take your metal tray or a saucepan, put it on a high heat and add your butter, a drizzle of olive oil, one of the sliced garlic cloves, a handful of marjoram or oregano and the grated nutmeg. By the time the pan is hot the garlic should be soft. </li><li>Put as much spinach as will fit into the pan. Keep turning it over; it will wilt quickly so you will be able to keep adding more spinach until it's all in. Moisture will cook out of the spinach, which is fine. By cooking it this way you don't lose any of the nutrients that you would if boiling it in water.</li><li>After 5 minutes, put the spinach into a large bowl and leave to cool. Place the pan back on the heat, add a little olive oil, the other clove of sliced garlic, your basil stalks and the tomatoes, then fill one of the empty tomato tins with cold water and add this too. </li><li>Bring to the boil, then turn the heat down, add a pinch of salt and pepper and the sugar, and simmer for about 10 minutes, until you get a loose tomato sauce consistency. Then take the pan off the heat and add the basil leaves.</li><li>By now the spinach will have cooled down, so squeeze any excess liquid out of it and pour this back into the bowl. Finely chop the spinach and put it back into the bowl. Mix it with the liquid, add the ricotta and a handful of the Parmesan, and then use a piping bag to squeeze the mixture into the cannelloni. You can make your own piping bag by getting a sandwich bag and putting the spinach mix into the corner of it. Then twist the bag up and cut the corner off. Carefully squeeze the filling into the cannelloni tubes so each one is filled right up – really easy.</li><li>Lay the cannelloni over the tomato sauce in the pan. Or you can pour the tomato sauce into your ovenproof dish and lay the cannelloni on top. </li><li>To make the white sauce, mix together the crème fraîche, anchovies and the 2 handfuls of Parmesan with a little salt and pepper, then loosen with a little water until you can spoon it over the cannelloni. </li><li>Drizzle with olive oil, sprinkle with the remaining Parmesan and the mozzarella pieces, and bake for about 20 to 25 minutes until golden and bubbling.</li></ol>                                            </div>
                                             
                                             
                                             <div class="promo-banner" data-slot="under-recipe">
                                                 <a class="cookies-required" onclick="CookieControl.open();">Please enable targetting cookies to show this banner</a>
                                             </div>
 
-                                            <div class="ad avocado-desktop-foot">
+                                            <div class="avocado-desktop-foot">
 
                                                 <!-- Advertisement -->
 <div class="proper-ad-unit ">
@@ -828,7 +832,6 @@
                         </div>
                     </div>
 
-                    
 
                     
                         <div id="recipe-related-recipes" class="related-items recipe-related-wrapper">
@@ -867,29 +870,29 @@
                             <div class="recipe-related-items">
                                                             <div class="recipe-related-item -is-feature">
                                     <div class="recipe-related-item-image">
-                                        <a href="https://www.jamieoliver.com/features/super-summer-pasta-recipes/" class="hover-link">
-                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2020/08/Fennel_Crab_Linguine-1024x672.jpg?tr=w-330" src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="12 super summer pasta recipes" />                                        </a>
+                                        <a href="https://www.jamieoliver.com/features/perfect-pappardelle-recipes/" class="hover-link">
+                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/home/wp-content/uploads/2021/03/Wild_boar_pasta_JoeLycett_150120_EM-18-1024x683.jpg?tr=w-330" src="https://cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Five ways with pappardelle" />                                        </a>
                                     </div>
                                     <div class="recipe-related-item-title">
-                                        <a href="https://www.jamieoliver.com/features/super-summer-pasta-recipes/" class="hover-link">12 super summer pasta recipes</a>
-                                    </div>
-                                </div>
-                                                            <div class="recipe-related-item -is-feature">
-                                    <div class="recipe-related-item-image">
-                                        <a href="https://www.jamieoliver.com/features/ways-to-use-up-ripe-tomatoes/" class="hover-link">
-                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2020/06/tomatoes_lead_v2.jpg?tr=w-330" src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="10 ways to use up ripe tomatoes" />                                        </a>
-                                    </div>
-                                    <div class="recipe-related-item-title">
-                                        <a href="https://www.jamieoliver.com/features/ways-to-use-up-ripe-tomatoes/" class="hover-link">10 ways to use up ripe tomatoes</a>
+                                        <a href="https://www.jamieoliver.com/features/perfect-pappardelle-recipes/" class="hover-link">Five ways with pappardelle</a>
                                     </div>
                                 </div>
                                                             <div class="recipe-related-item -is-feature">
                                     <div class="recipe-related-item-image">
                                         <a href="https://www.jamieoliver.com/features/jamies-fresh-pasta-sauce-range/" class="hover-link">
-                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/jamieoliver/home/wp-content/uploads/2020/06/Rondanini_packaging_630x420.jpg?tr=w-330" src="//cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Dinner, sorted: Jamie’s fresh pasta &amp; sauce range" />                                        </a>
+                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/home/wp-content/uploads/2020/06/jo_gnocchi_dec2020-1024x683.jpg?tr=w-330" src="https://cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="Dinner, sorted: Jamie’s fresh gnocchi, pasta, &amp; sauce range" />                                        </a>
                                     </div>
                                     <div class="recipe-related-item-title">
-                                        <a href="https://www.jamieoliver.com/features/jamies-fresh-pasta-sauce-range/" class="hover-link">Dinner, sorted: Jamie’s fresh pasta & sauce range</a>
+                                        <a href="https://www.jamieoliver.com/features/jamies-fresh-pasta-sauce-range/" class="hover-link">Dinner, sorted: Jamie’s fresh gnocchi, pasta, & sauce range</a>
+                                    </div>
+                                </div>
+                                                            <div class="recipe-related-item -is-feature">
+                                    <div class="recipe-related-item-image">
+                                        <a href="https://www.jamieoliver.com/features/super-summer-pasta-recipes/" class="hover-link">
+                                            <img class="responsive-image lazy-image on-inview" data-offset="300" data-src="https://img.jamieoliver.com/home/wp-content/uploads/2020/08/Fennel_Crab_Linguine-1024x672.jpg?tr=w-330" src="https://cdn.jamieoliver.com/library/images/placeholder/square.gif" alt="12 super summer pasta recipes" />                                        </a>
+                                    </div>
+                                    <div class="recipe-related-item-title">
+                                        <a href="https://www.jamieoliver.com/features/super-summer-pasta-recipes/" class="hover-link">12 super summer pasta recipes</a>
                                     </div>
                                 </div>
                                                         </div>
@@ -908,7 +911,7 @@
 
             <div class="recipe-source-images">
                                         <div class="recipe-source-image">
-                                                            <a class="src-jamies-dinners" href="http://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">
+                                                            <a class="src-jamies-dinners" href="https://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">
                                     <img src="https://img.jamieoliver.com/jamieoliver/recipe-database/originalSourceImage/9dd35f73c6cb104bda94469f450158d4?tr=w-140" alt="Jamie's Dinners" />
                                 </a>
                                                     </div>
@@ -919,10 +922,12 @@
                 <div class="recipe-source-banner">recipe adapted from</div>
                 <h4>Jamie's Dinners</h4>
 
+                                    <span class="author">
+                        By Jamie Oliver                    </span>
                 
                 
                                                             <div class="recipe-source-link gtm-recipe-source-link">
-                            <a class="src-jamies-dinners" href="http://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">BUY THE BOOK</a>
+                            <a class="src-jamies-dinners" href="https://www.amazon.co.uk/gp/product/0141043008/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0141043008&linkCode=as2&tag=wwwjamieolive-21" target="_blank">BUY THE BOOK</a>
                         </div>
                                     
             </div>
@@ -994,7 +999,7 @@ src: rDb
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sd-3 copyright hidden-xs hidden-sm">
-                    &copy; 2020 Jamie Oliver Enterprises Limited
+                    &copy; 2021 Jamie Oliver Enterprises Limited
                 </div>
                 <div class="col-md-4 col-sd-6 nav">
                     <ul><li id="menu-item-86" class="gtm_footer_nav_0 menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a title="T&#038;Cs" href="/terms/">Terms of Use</a></li>
@@ -1005,7 +1010,7 @@ src: rDb
 <li id="menu-item-112023" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112023"><a href="/htmlsitemap/">Sitemap</a></li>
 </ul>                </div>
                 <div class="col-md-12 copyright visible-xs visible-sm">
-                    &copy; 2020 Jamie Oliver Enterprises Limited
+                    &copy; 2021 Jamie Oliver Enterprises Limited
                 </div>
                 <div class="col-md-4 col-sd-3 follow">
                     <ul>
@@ -1035,38 +1040,118 @@ src: rDb
         </div>
 	</div>
 
-	<!-- footer_menu cache updated 2020-08-28 13:14:37 -->
+	<!-- footer_menu cache updated 2021-04-27 17:10:21 -->
     <script type='text/javascript'>
-        var ajaxURL = 'https://www.jamieoliver.com/home/wp-admin/admin-ajax.php';
+        var ajaxURL = 'https://www.jamieoliver.com/wp/wp-admin/admin-ajax.php';
     </script>
 
     <script>var blaizeIsLoggedIn = false</script>
 
-            <script src="//cdn.jamieoliver.com/library/build/347/vendor.concat.js"></script>
-        <script src="//cdn.jamieoliver.com/library/build/347/script.concat.js"></script>
-        <script src="//cdn.jamieoliver.com/library/build/347/family-food-global.concat.js"></script>
+    <script src="https://cdn.jamieoliver.com/library/build/1013/vendor.concat.js"></script>
+    <script src="https://cdn.jamieoliver.com/library/build/1013/script.concat.js"></script>
+    <script src="https://cdn.jamieoliver.com/library/build/1013/family-food-global.concat.js"></script>
 
-    
-    <!-- footer_scripts cache updated 2020-08-28 13:14:37 -->
-<script src="//cdn.jamieoliver.com/library/js/vendor/ZeroClipboard/ZeroClipboard.min.js"></script>
-<script src="//cdn.jamieoliver.com/library/js/jquery.easing.1.3.js"></script>
-<script src="//cdn.jamieoliver.com/library/js/jquery.inview.min.js"></script>
-<script src="//cdn.jamieoliver.com/library/build/347/recipes.js"></script>
+    <!-- footer_scripts cache updated 2021-04-27 17:10:21 -->
+<script src="https://cdn.jamieoliver.com/library/js/vendor/ZeroClipboard/ZeroClipboard.min.js"></script>
+<script src="https://cdn.jamieoliver.com/library/js/jquery.easing.1.3.js"></script>
+<script src="https://cdn.jamieoliver.com/library/js/jquery.inview.min.js"></script>
+<script src="https://cdn.jamieoliver.com/library/build/1013/recipes.js"></script>
 
 </div><!-- End: site-wrapper -->
 
 </div> <!-- End: #geo-region -->
 
-<!-- Generated: 2020-08-28 13:44:13-->
-<!-- Src: 50e-->
-</body>
+<!-- Generated: 2021-04-27 17:58:03 -->
+<!-- Src: 127.0.0.1 -->
+<script type="text/javascript">
+  window.Zephr = window.Zephr || {};
+  window.Zephr.includeOutcomes = false;
+  window.Zephr.outcomesAsEvents = false;
+  window.Zephr.groupFields = false;
+</script><script async type="text/javascript">
+(function() {
+    var xhr = new(XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
+    xhr.open('GET', '/blaize/datalayer', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+            var response;
+            try {
+                response = JSON.parse(xhr.response);
+            } catch (e) {
+                response = xhr.response;
+            }
+            if (xhr.status === 200) {
+                for (var dataLayerFieldName in response) {
+                    if (!(dataLayerFieldName in window)) window[dataLayerFieldName] = [];
+
+                    var pageView = response[dataLayerFieldName];
+                    var events = [];
+
+                    if (window.Zephr && window.Zephr.includeOutcomes && window.Zephr.outcomes) {
+                        pageView.zephrOutcomes = window.Zephr.outcomes;
+
+                        if (window.Zephr.outcomesAsEvents) {
+                            Object.keys(window.Zephr.outcomes || []).forEach(function(outcomeKey) {
+                                var outcomeEvent = {
+                                    event: "zephr-outcome-" + outcomeKey,
+                                    featureId: outcomeKey,
+                                    featureLabel: window.Zephr.outcomes[outcomeKey].featureLabel,
+                                    outcomeId: window.Zephr.outcomes[outcomeKey].outcomeId,
+                                    outcomeLabel: window.Zephr.outcomes[outcomeKey].outcomeLabel,
+                                };
+                                events.push(outcomeEvent);
+                            });
+                        }
+                    }
+                    if (window.Zephr && window.Zephr.accessDetails) {
+                        (window.Zephr.accessDetails.trialTrackingDetails || []).forEach(function(details) {
+                            var type = details.entitlementType === 'credits' ? 'credits' : 'meters';
+                            var trial = (window.Zephr.accessDetails[type] || {})[details.entitlementId];
+                            if (!trial) return;
+                            if (window.Zephr.groupFields && !pageView.zephrTrials) pageView.zephrTrials = {};
+                            if (details.creditsRemainingKey) {
+                                if (window.Zephr.groupFields) {
+                                    pageView.zephrTrials[details.creditsRemainingKey] = trial.remainingCredits;
+                                } else {
+                                    pageView[details.creditsRemainingKey] = trial.remainingCredits;
+                                }
+                            }
+                            if (details.creditsUsedKey) {
+                                if (window.Zephr.groupFields) {
+                                    pageView.zephrTrials[details.creditsUsedKey] = trial.totalCredits - trial.remainingCredits;
+                                } else {
+                                    pageView[details.creditsUsedKey] = trial.totalCredits - trial.remainingCredits;
+                                }
+                            }
+                        });
+                    }
+                    if (Object.keys(pageView).length) {
+                        pageView.event = "zephr-pageview";
+                        events.unshift(pageView);
+                    }
+                    if (!events.length) continue;
+
+                    events.forEach(function(event) {
+                        window[dataLayerFieldName].push(event);
+                    });
+                }
+                var readyEvent = document.createEvent('Event');
+                readyEvent.initEvent('zephr.dataLayerReady', true, true);
+                document.dispatchEvent(readyEvent);
+            }
+        }
+    }
+    xhr.send({});
+})();
+
+</script></body>
 </html>
 
 <!--
-Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Page Caching using disk: enhanced 
-Content Delivery Network via Amazon Web Services: CloudFront: cdn.jamieoliver.com
+Object Caching 17/21 objects using redis
+Page Caching using redis 
 
-Served from: www.jamieoliver.com @ 2020-08-28 14:44:13 by W3 Total Cache
+Served from: www.jamieoliver.com @ 2021-04-27 18:58:03 by W3 Total Cache
 -->

@@ -23,7 +23,7 @@ class DelegatingScraper implements ScraperInterface
         'totalTime' => null,
         'url' => null,
         'yield' => null,
-        'nutrition' => []
+        'nutrition' => null
     ];
 
     /**

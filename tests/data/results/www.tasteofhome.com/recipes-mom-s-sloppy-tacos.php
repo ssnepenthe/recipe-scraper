@@ -29,5 +29,5 @@ return [
     'totalTime' => 'PT30M',
     'url' => 'https://www.tasteofhome.com/recipes/mom-s-sloppy-tacos',
     'yield' => '6 servings',
-    'nutrition' => [],
+    'nutrition' => null,
 ];

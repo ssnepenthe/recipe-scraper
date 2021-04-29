@@ -34,5 +34,5 @@ return [
     'totalTime' => 'PT30M',
     'url' => 'https://www.tasteofhome.com/recipes/spicy-shrimp---watermelon-kabobs',
     'yield' => '4 servings',
-    'nutrition' => [],
+    'nutrition' => null,
 ];

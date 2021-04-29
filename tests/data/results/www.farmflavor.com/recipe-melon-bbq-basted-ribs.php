@@ -42,5 +42,5 @@ return [
     'totalTime' => null,
     'url' => 'https://www.farmflavor.com/recipe/melon-bbq-basted-ribs/',
     'yield' => '6-8 servings',
-    'nutrition' => [],
+    'nutrition' => null,
 ];
