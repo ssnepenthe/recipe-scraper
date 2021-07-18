@@ -10,7 +10,8 @@
   },
   "require-dev": {
     "psy/psysh": "^0.8",
-    "symfony/console": "^3.0|^4.0"
+    "symfony/console": "^3.0|^4.0",
+    "symfony/var-exporter": "^5.1"
   },
   "autoload": {
     "psr-4": { "RecipeScraper\\": "src/" }

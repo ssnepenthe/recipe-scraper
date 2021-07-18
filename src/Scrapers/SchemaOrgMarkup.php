@@ -12,6 +12,17 @@ class SchemaOrgMarkup implements ScraperInterface
 {
     use ExtractsDataFromCrawler;
 
+    protected $nutritionFields = [
+        'calories' => 'calories',
+        'fatContent' => 'fat',
+        'fiberContent' => 'fiber',
+        'proteinContent' => 'protein',
+        'sugarContent' => 'sugar',
+        'saturatedFatContent' => 'saturatedFat',
+        'carbohydrateContent' => 'carbohydrate',
+        'sodiumContent' => 'sodium'
+    ];
+
     /**
      * @var string[]
      */
@@ -32,6 +43,7 @@ class SchemaOrgMarkup implements ScraperInterface
         'totalTime',
         'url',
         'yield',
+        'nutrition'
     ];
 
     /**
@@ -93,6 +105,25 @@ class SchemaOrgMarkup implements ScraperInterface
             $crawler,
             '[itemtype*="schema.org/Recipe"] [itemprop="author"]'
         );
+    }
+
+    /**
+     * @param  Crawler $crawler
+     * @return array|null
+     */
+    protected function extractNutrition(Crawler $crawler)
+    {
+        $nutrition = [];
+        foreach ($this->nutritionFields as $originalField => $mapField) {
+            $value = $this->extractString($crawler, '[itemprop="' . $originalField . '"]');
+            if (is_string($value)) {
+                $nutrition[$mapField] = $value;
+            } else {
+                $nutrition[$mapField] = '';
+            }
+        }
+
+        return $nutrition;
     }
 
     /**
