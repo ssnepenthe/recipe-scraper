@@ -9,8 +9,6 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Style\SymfonyStyle;
-use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\VarExporter\VarExporter;
 
 class ResultsUpdateCommand extends Command
@@ -48,19 +46,17 @@ class ResultsUpdateCommand extends Command
         $resultFile = $this->getResultsDataFilePathFromUrl($url);
 
         if (!file_exists($resultFile)) {
-            // @todo Prompt user to allow overwriting file?
-            (new SymfonyStyle($input, $output))->error(sprintf(
+            throw new InvalidArgumentException(sprintf(
                 'Results file [%s] for provided URL [%s] does not exist',
                 $resultFile,
                 $url
             ));
-            return 1;
         }
 
         $currentResultFileContent = (array) static::includeFile($resultFile);
 
+        $crawler = $this->makeCrawler($url);
         $scraper = Factory::make();
-        $crawler = new Crawler($this->getHtml($url));
         $newHtmlResult = $scraper->scrape($crawler);
 
         foreach ($fields as $field) {

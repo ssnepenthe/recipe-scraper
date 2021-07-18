@@ -3,7 +3,6 @@
 namespace RecipeScraperTests\Commands;
 
 use InvalidArgumentException;
-use RecipeScraper\Factory;
 use RecipeScraperTests\UsesTestData;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\ArrayInput;
@@ -11,8 +10,6 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use Symfony\Component\DomCrawler\Crawler;
-use Symfony\Component\VarExporter\VarExporter;
 
 class ResultsUpdateAllCommand extends Command
 {
@@ -42,7 +39,7 @@ class ResultsUpdateAllCommand extends Command
             $file = $this->getUrlsDataFilePath($host);
 
             if (! file_exists($file)) {
-                throw new \InvalidArgumentException(sprintf(
+                throw new InvalidArgumentException(sprintf(
                     'URLs file [%s] for provided host [%s] does not exist',
                     $file,
                     $host

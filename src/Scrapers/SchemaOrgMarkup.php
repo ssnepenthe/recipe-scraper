@@ -12,7 +12,7 @@ class SchemaOrgMarkup implements ScraperInterface
 {
     use ExtractsDataFromCrawler;
 
-    static $NUTRITION_FIELDS = [
+    protected $nutritionFields = [
         'calories' => 'calories',
         'fatContent' => 'fat',
         'fiberContent' => 'fiber',
@@ -114,7 +114,7 @@ class SchemaOrgMarkup implements ScraperInterface
     protected function extractNutrition(Crawler $crawler)
     {
         $nutrition = [];
-        foreach (self::$NUTRITION_FIELDS as $originalField => $mapField) {
+        foreach ($this->nutritionFields as $originalField => $mapField) {
             $value = $this->extractString($crawler, '[itemprop="' . $originalField . '"]');
             if (is_string($value)) {
                 $nutrition[$mapField] = $value;
